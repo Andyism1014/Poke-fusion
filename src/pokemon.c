@@ -1,4 +1,5 @@
 #include "global.h"
+#include "fusion/fusion.h"
 #include "malloc.h"
 #include "apprentice.h"
 #include "battle.h"
@@ -3386,7 +3387,8 @@ void PokemonToBattleMon(struct Pokemon *src, struct BattlePokemon *dst)
     dst->otId = GetMonData(src, MON_DATA_OT_ID);
     dst->types[0] = GetSpeciesType(dst->species, 0);
     dst->types[1] = GetSpeciesType(dst->species, 1);
-    dst->types[2] = TYPE_MYSTERY;
+    dst->fusionType = Fusion_GetMonBattleThirdType(src);
+    dst->types[2] = dst->fusionType;
     dst->isShiny = IsMonShiny(src);
     dst->affectionHearts = GetMonAffectionHearts(src);
     dst->ability = GetAbilityBySpecies(dst->species, dst->abilityNum);

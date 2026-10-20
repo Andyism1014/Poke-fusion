@@ -9592,7 +9592,7 @@ void CopyMonAbilityAndTypesToBattleMon(enum BattlerId battler, struct Pokemon *m
     #endif
     gBattleMons[battler].types[0] = GetSpeciesType(gBattleMons[battler].species, 0);
     gBattleMons[battler].types[1] = GetSpeciesType(gBattleMons[battler].species, 1);
-    gBattleMons[battler].types[2] = TYPE_MYSTERY;
+    gBattleMons[battler].types[2] = gBattleMons[battler].fusionType;
 }
 
 void RecalcBattlerStats(enum BattlerId battler, struct Pokemon *mon, bool32 isDynamaxing)
@@ -9808,6 +9808,9 @@ void GetBattlerTypes(enum BattlerId battler, bool32 ignoreTera, enum Type types[
             types[0] = TYPE_MYSTERY;
         else if (types[1] == TYPE_FLYING)
             types[1] = TYPE_MYSTERY;
+        // Fusion: a third type can be Flying too.
+        if (types[2] == TYPE_FLYING)
+            types[2] = TYPE_MYSTERY;
     }
 }
 

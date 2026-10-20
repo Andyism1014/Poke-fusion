@@ -352,6 +352,7 @@ struct BattlePokemon
     s8 statStages[NUM_BATTLE_STATS];
     enum Ability ability;
     enum Type types[3];
+    enum Type fusionType; // Fusion: persistent third type, TYPE_MYSTERY if none. Restored into types[2] on switch-in.
     u8 pp[MAX_MON_MOVES];
     u16 hp;
     u8 level;

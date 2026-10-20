@@ -1,4 +1,5 @@
 #include "global.h"
+#include "fusion/fusion.h"
 #include "battle.h"
 #include "battle_anim.h"
 #include "battle_ai_main.h"
@@ -3136,7 +3137,7 @@ static void DoBattleIntro(void)
                 memcpy(&gBattleMons[battler], &gBattleResources->bufferB[battler][4], sizeof(struct BattlePokemon));
                 gBattleMons[battler].types[0] = GetSpeciesType(gBattleMons[battler].species, 0);
                 gBattleMons[battler].types[1] = GetSpeciesType(gBattleMons[battler].species, 1);
-                gBattleMons[battler].types[2] = TYPE_MYSTERY;
+                gBattleMons[battler].types[2] = gBattleMons[battler].fusionType;
                 gBattleMons[battler].ability = GetAbilityBySpecies(gBattleMons[battler].species, gBattleMons[battler].abilityNum);
                 gBattleStruct->battlerState[battler].hpOnSwitchout = gBattleMons[battler].hp;
                 memset(&gBattleMons[battler].volatiles, 0, sizeof(struct Volatiles));
@@ -5544,7 +5545,7 @@ enum Type GetDynamicMoveType(struct Pokemon *mon, enum Move move, enum BattlerId
         ability = GetMonAbility(mon);
         types[0] = GetSpeciesType(species, 0);
         types[1] = GetSpeciesType(species, 1);
-        types[2] = TYPE_MYSTERY;
+        types[2] = Fusion_GetMonBattleThirdType(mon);
         gimmick = GIMMICK_NONE;
     }
 

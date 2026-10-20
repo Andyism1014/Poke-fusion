@@ -81,6 +81,9 @@ void Fusion_GenerateChild(struct Pokemon *parentA, struct Pokemon *parentB, u32 
 enum FusionCheckResult Fusion_CheckParents(const struct FusionMonRef *refA, const struct FusionMonRef *refB);
 bool32 Fusion_Fuse(const struct FusionMonRef *refA, const struct FusionMonRef *refB, u32 seed, struct Pokemon *child);
 
+// fusion_types.c
+enum Type Fusion_GetMonBattleThirdType(struct Pokemon *mon);
+
 // fusion_save.c
 void Fusion_PackGenetics(const struct FusionGenetics *genetics, u8 *packed);
 void Fusion_UnpackGenetics(const u8 *packed, struct FusionGenetics *genetics);

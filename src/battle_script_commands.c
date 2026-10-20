@@ -3239,7 +3239,7 @@ static void Cmd_switchindataupdate(void)
 
     gBattleMons[battler].types[0] = GetSpeciesType(gBattleMons[battler].species, 0);
     gBattleMons[battler].types[1] = GetSpeciesType(gBattleMons[battler].species, 1);
-    gBattleMons[battler].types[2] = TYPE_MYSTERY;
+    gBattleMons[battler].types[2] = gBattleMons[battler].fusionType;
     gBattleMons[battler].ability = GetAbilityBySpecies(gBattleMons[battler].species, gBattleMons[battler].abilityNum);
     #if TESTING
     if (gTestRunnerEnabled)
@@ -11105,7 +11105,7 @@ void BS_TrySoak(void)
     enum Type types[3];
     GetBattlerTypes(gBattlerTarget, FALSE, types);
     enum Type typeToSet = GetMoveArgType(gCurrentMove);
-    if ((types[0] == typeToSet && types[1] == typeToSet)
+    if ((types[0] == typeToSet && types[1] == typeToSet && (types[2] == TYPE_MYSTERY || types[2] == typeToSet))
      || GetActiveGimmick(gBattlerTarget) == GIMMICK_TERA)
     {
         gBattlescriptCurrInstr = cmd->failInstr;

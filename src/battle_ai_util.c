@@ -266,6 +266,7 @@ void SaveBattlerData(enum BattlerId battlerId)
     // Save and restore types even for AI controlled battlers in case it gets changed during move evaluation process.
     gAiThinkingStruct->saved[battlerId].types[0] = gBattleMons[battlerId].types[0];
     gAiThinkingStruct->saved[battlerId].types[1] = gBattleMons[battlerId].types[1];
+    gAiThinkingStruct->saved[battlerId].types[2] = gBattleMons[battlerId].types[2];
 }
 
 bool32 ShouldRecordStatusMove(enum Move move)
@@ -382,6 +383,9 @@ void SetBattlerData(enum BattlerId battlerId)
             {
                 gBattleMons[battlerId].types[0] = GetSpeciesType(illusionSpecies, 0);
                 gBattleMons[battlerId].types[1] = GetSpeciesType(illusionSpecies, 1);
+                // Fusion: the disguise doesn't reveal the real mon's third type.
+                if (gBattleMons[battlerId].types[2] == gBattleMons[battlerId].fusionType)
+                    gBattleMons[battlerId].types[2] = TYPE_MYSTERY;
             }
             species = illusionSpecies;
         }
@@ -421,6 +425,7 @@ void RestoreBattlerData(enum BattlerId battlerId)
     }
     gBattleMons[battlerId].types[0] = gAiThinkingStruct->saved[battlerId].types[0];
     gBattleMons[battlerId].types[1] = gAiThinkingStruct->saved[battlerId].types[1];
+    gBattleMons[battlerId].types[2] = gAiThinkingStruct->saved[battlerId].types[2];
 }
 
 u32 GetHealthPercentage(enum BattlerId battlerId)

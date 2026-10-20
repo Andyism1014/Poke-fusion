@@ -1,4 +1,5 @@
 #include "global.h"
+#include "fusion/fusion.h"
 #include "battle.h"
 #include "battle_ai_util.h"
 #include "battle_anim.h"
@@ -2745,6 +2746,17 @@ void TeraType_(u32 sourceLine, enum Type teraType)
     INVALID_IF(!DATA.currentMon, "TeraType outside of PLAYER/OPPONENT");
     SetMonData(DATA.currentMon, MON_DATA_TERA_TYPE, &teraType);
     SetGimmick(sourceLine, DATA.battlerParty, DATA.currentPartyIndex, GIMMICK_TERA);
+}
+
+// Fusion: gives the mon a persistent third type.
+void FusionType_(u32 sourceLine, enum Type type)
+{
+    struct FusionGenetics genetics;
+
+    INVALID_IF(!DATA.currentMon, "FusionType outside of PLAYER/OPPONENT");
+    Fusion_GetMonGenetics(DATA.currentMon, &genetics);
+    genetics.extraType = type;
+    Fusion_SetMonGenetics(DATA.currentMon, &genetics);
 }
 
 void Shadow_(u32 sourceLine, bool32 isShadow)
