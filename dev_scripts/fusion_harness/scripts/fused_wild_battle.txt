@@ -1,0 +1,30 @@
+# Requires the state saved at the end of terminal_fuse.txt (fused.ss0): leaves the Terminal,
+# starts the debug wild battle with the own party and opens the move menu (type icons).
+wait 150
+press A 2 10
+wait 150
+press A 2 10
+wait 150
+press A 2 10
+wait 150
+tap DOWN 3 12
+wait 20
+shot exitsel
+press A 2 60
+wait 60
+shot ow
+hold R+START 3 40
+hold R+START 3 40
+tap DOWN 11 8
+press A 2 40
+tap DOWN 4 8
+wait 20
+shot dbg
+press A 2 60
+wait 900
+tap A 2 60
+wait 400
+shot c1
+press A 2 60
+wait 60
+shot c2

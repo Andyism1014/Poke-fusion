@@ -73,3 +73,11 @@ Fusion_Text_Storage:
 
 Fusion_Text_Exit:
 	.string "Exit$"
+
+@ Debug menu: a wild battle against a fixed opponent using the player's own party.
+Debug_EventScript_FusionWildBattle::
+	lockall
+	setwildbattle SPECIES_GEODUDE, 20
+	dowildbattle
+	releaseall
+	end

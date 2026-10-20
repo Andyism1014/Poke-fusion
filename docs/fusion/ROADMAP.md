@@ -113,6 +113,13 @@ mGBA 实测关键操作；测试存读档、进化、仓库移动。
 | 太晶化 | 覆盖全部属性 |
 | AI | 选招时会考虑第三属性；换人时的属性匹配加入第三属性；STAB 推断计入第三属性；Illusion 伪装时不暴露真身的第三属性 |
 
+**界面**
+- 详情页显示第三个属性图标，队伍和盒子都支持。
+- 战斗中 HP 条旁的属性图标改为常开（`B_SHOW_TYPES = SHOW_TYPES_ALWAYS`），最多显示 3 个。
+- 截图：`docs/fusion/screenshots/phase05_third_type.png`。
+
+调试菜单 Fusion… 新增 "Wild battle (own party)"：用自己的队伍和野生小拳石对战。实机脚本：`dev_scripts/fusion_harness/scripts/fused_wild_battle.txt`。
+
 **测试**
 - `test/fusion/battle_types.c`：12 个战斗测试。
 - 测试框架新增 `FusionType(type)`，用法同 `TeraType`。
