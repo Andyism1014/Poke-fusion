@@ -75,6 +75,14 @@ bool32 Fusion_CanCommitFusion(const struct FusionMonRef *parentA, const struct F
 bool32 Fusion_CommitFusion(const struct FusionMonRef *parentA, const struct FusionMonRef *parentB, struct Pokemon *child);
 bool32 Fusion_NextMaterialRef(struct FusionMonRef *ref);
 
+// fusion_debug.c
+const u8 *Fusion_Debug_GetCaptureModeName(enum FusionCaptureMode mode);
+enum FusionCaptureMode Fusion_Debug_CycleCaptureMode(void);
+bool32 Fusion_Debug_IsRandomPassiveCandidate(enum Ability ability);
+void Fusion_Debug_RandomizeGenetics(struct FusionGenetics *genetics, enum Species species);
+enum Species Fusion_Debug_GetRandomMaterialSpecies(void);
+u32 Fusion_Debug_FillBoxWithMaterials(u32 boxId);
+
 // Called from NewGameInitData.
 void Fusion_NewGameInit(void);
 
