@@ -76,6 +76,7 @@
 #include "test/battle.h"
 #include "follower_npc.h"
 #include "load_save.h"
+#include "fusion/fusion.h"
 
 // Helper for accessing command arguments and advancing gBattlescriptCurrInstr.
 //
@@ -8104,7 +8105,7 @@ static u32 ComputeCaptureOdds(u32 wildMonBattler, u32 playerBattler)
     if (battleMon->status1 & STATUS1_CAN_MOVE)
         odds = odds * 15 / 10;
 
-    return odds;
+    return Fusion_ApplyCaptureMode(battleMon->species, odds);
 }
 
 static bool32 CriticalCapture(u32 odds)
