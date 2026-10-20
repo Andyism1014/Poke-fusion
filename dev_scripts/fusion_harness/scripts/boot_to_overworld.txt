@@ -1,0 +1,12 @@
+# Power-on -> title screen -> Quickstart (SELECT) -> moving truck (free-roam once it stops)
+wait 600            # copyright, PRET x RHH splash, intro starts
+press START 2       # skip intro -> title animation
+wait 600            # title animation settles ("PRESS START" visible)
+shot title
+press SELECT 2      # Quickstart: new game immediately
+wait 1560           # fade-in + truck ride; truck stops and door opens (~1050 frames)
+shot overworld
+savestate overworld # OUT_DIR/overworld.ss0: free-roam in the truck, START menu usable
+read gMain          # gMain.callback1 (CB1_Overworld when in the field)
+press START 2 30    # open START menu
+shot start_menu

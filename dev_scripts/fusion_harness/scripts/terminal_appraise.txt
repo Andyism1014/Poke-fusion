@@ -1,0 +1,49 @@
+press START 2 30
+tap DOWN 2 8
+press A 2 90
+press LEFT 2 40
+press DOWN 2 10
+press A 2 20
+press A 2 90
+shot i_menu
+press A 2 60
+wait 30
+shot i_sources
+tap DOWN 8 8
+wait 20
+shot i_sources_scrolled
+tap UP 7 8
+press A 2 40
+wait 20
+shot i_box1
+tap DOWN 4 8
+wait 20
+shot i_box1_cursor
+press A 2 40
+tap A 1 20
+wait 120
+shot i_ap1
+tap A 1 20
+wait 120
+shot i_ap2
+tap A 1 20
+wait 120
+shot i_ap3
+press A 2 60
+wait 30
+shot i_back
+tap A 1 20
+wait 120
+shot i_ap4
+tap A 1 20
+wait 120
+shot i_ap5
+press A 2 60
+wait 30
+shot i_ap6
+press B 2 30
+shot i_b1
+press B 2 30
+shot i_b2
+press B 2 30
+shot i_b3

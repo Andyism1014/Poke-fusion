@@ -1,0 +1,26 @@
+hold R+START 3 40
+tap DOWN 2 8
+press A 2 30
+tap DOWN 9 8
+press A 2 60
+wait 120
+hold R+START 3 40
+tap DOWN 11 8
+wait 20
+shot f0
+press A 2 40
+shot f1
+tap DOWN 3 8
+wait 20
+shot f2
+press A 2 600
+shot f3
+press A 2 60
+wait 60
+shot h1
+press START 2 30
+shot h2
+press B 2 30
+wait 30
+shot h3
+savestate mons

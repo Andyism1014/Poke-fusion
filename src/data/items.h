@@ -14197,7 +14197,7 @@ const struct ItemInfo gItemsInfo[] =
         .name = ITEM_NAME("Fusion Terminal"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "Appraises and fuses\n"
+            "Appraise and fuse\n"
             "Pokémon from the\n"
             "party or any Box."),
         .importance = 1,

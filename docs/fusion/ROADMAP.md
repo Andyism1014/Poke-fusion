@@ -16,8 +16,8 @@ V2.0 范围：4 个同时生效的特性（1 主 + 3 被动）、最多 3 种永
 
 | 阶段 | 内容 | 难度 | 状态 |
 | --- | --- | --- | --- |
-| 01 | 基础便利功能：IV/EV 精确显示、Box Link、快捷投球、DexNav、捕捉模式 | 低 | **进行中**（见下） |
-| 02 | Party+Box 统一素材选择器；遗传数据结构；存档容量审计与读写 | 高 | 未开始（已做初步审计，见下） |
+| 01 | 基础便利功能：IV/EV 精确显示、Box Link、快捷投球、DexNav、捕捉模式 | 低 | **完成** |
+| 02 | Party+Box 统一素材选择器；遗传数据结构；存档容量审计与读写 | 高 | **完成**（见下） |
 | 03 | 基础合宠：物种、IV、性格、招式遗传；炼妖终端道具；确认流程 | 中 | 未开始 |
 | 04 | 多被动战斗系统：跨种族主特性 + 3 个被动，先做 10 个代表性被动，再扩到 20~30 个 | 很高 | 未开始 |
 | 05 | 永久三属性：继承、持久化、伤害/STAB、UI | 高 | 未开始 |
@@ -48,13 +48,29 @@ mGBA 实测关键操作；测试存读档、进化、仓库移动。
 - 新增 flag/var 在 `include/constants/flags.h`、`vars.h` 中把 `*_UNUSED_*` 改名占用，并注明 `Fusion:`。
 - 构建：`make -j$(nproc)`；测试：`make check -j$(nproc) TESTS="Fusion"`，全量 `make check -j$(nproc)`。
 
+## 阶段 02 已完成内容
+
+| 功能 | 实现 | 位置 |
+| --- | --- | --- |
+| 遗传数据存储（方案 B） | 每只宝可梦的华丽大赛 6 项状态字节（48 bit）改为存放 `FusionGenetics`：主特性 9 + 被动 3×9 + 第三属性 5 + 世代 5 + flags 2。数据在加密区内，跟随宝可梦进出盒子、进化、交换，存档大小不变。华丽大赛状态值恒为 0（旧存档里原有的状态值会被误读成遗传数据，请新开档） | `include/pokemon.h`、`src/pokemon.c`、`src/fusion/fusion_save.c` |
+| 队伍 + 盒子统一访问 | `FusionMonRef` 指向队伍或任意盒子的格子；读取父母时用临时副本；`Fusion_CommitFusion` 先检查全部条件，通过后才写入（子代占父母 A 的位置，删除父母 B，队伍自动整理，最后一只队伍成员不会被消耗） | `src/fusion/fusion_storage.c` |
+| 炼妖终端（关键道具） | 开局获得。菜单：Appraise（鉴定）/ Storage（仓库）/ Exit；Fuse（合成）在阶段 03 加入 | `src/item_use.c`、`data/scripts/fusion.inc` |
+| 素材选择器 | 两级列表：来源（队伍 + 14 个盒子，显示数量）→ 宝可梦（等级、IV 总和、被动数 P、第三属性标记 +T）；B 键逐级返回 | `src/fusion/fusion_ui.c` |
+| 鉴定 | 显示特性、被动、第三属性、合宠世代 | `src/fusion/fusion_ui.c` |
+| 调试菜单 | R+START → Fusion…：生成指定遗传数据的宝可梦、切换捕捉模式、填满当前盒子 / 全部盒子的随机素材 | `src/debug.c`、`src/fusion/fusion_debug.c` |
+
+测试：`test/fusion/`（打包、加密、盒子移动、进化、队伍/盒子提交、迭代器、调试辅助）。
+
 ## 调研报告（阶段 02/04/05 的输入）
 
 - [存档容量审计](research/save_audit.md)：`BoxPokemon` 只有 22 个空闲 bit，存档没有空闲 sector。
-  两条路线：(a) `BoxPokemon` +4 字节（旧存档失效，要把 `fusions[]` 移到 SaveBlock3，并缩小战斗录像）；
-  (b) 不改大小，挪用华丽大赛的状态位（48 bit）。**需要拍板。**
+  已选定方案 B：挪用华丽大赛的状态位（48 bit），不改存档大小。
 - [多特性战斗](research/multi_ability.md)：新增 `BattlerHasAbility`；在 5 类事件里加槽位游标；首批 10 个被动。
 - [永久三属性](research/triple_type.md)：克制计算已支持 3 个槽位，主要工作是 `InitBattlerTypes`、Roost、AI 和 UI。
+
+## 实机测试
+
+`dev_scripts/fusion_harness/`：无界面 mGBA 脚本化测试（见其 README）。阶段 02 的截图在 `docs/fusion/screenshots/phase02_terminal.png`。
 
 ## 已知待决问题
 

@@ -1,0 +1,12 @@
+press START 2 30
+tap DOWN 2 8
+press A 2 90
+press LEFT 2 40
+press DOWN 2 10
+press A 2 20
+press A 2 90
+press DOWN 2 10
+press A 2 60
+tap A 3 40
+wait 200
+shot j_pc
