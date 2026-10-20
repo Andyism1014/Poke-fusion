@@ -708,12 +708,17 @@ TEST("BoxPokemon encryption works")
     EXPECT_EQ(GetMonData(&mon, MON_DATA_PP3), 3);
     EXPECT_EQ(GetMonData(&mon, MON_DATA_PP4), 4);
     EXPECT_EQ(GetMonData(&mon, MON_DATA_PP_BONUSES), 255);
-    EXPECT_EQ(GetMonData(&mon, MON_DATA_COOL), 10);
-    EXPECT_EQ(GetMonData(&mon, MON_DATA_BEAUTY), 20);
-    EXPECT_EQ(GetMonData(&mon, MON_DATA_CUTE), 30);
-    EXPECT_EQ(GetMonData(&mon, MON_DATA_SMART), 40);
-    EXPECT_EQ(GetMonData(&mon, MON_DATA_TOUGH), 50);
-    EXPECT_EQ(GetMonData(&mon, MON_DATA_SHEEN), 150);
+    // Fusion: the contest condition bytes now hold the packed fusion genetics.
+    EXPECT_EQ(GetMonData(&mon, MON_DATA_COOL), 0);
+    EXPECT_EQ(GetMonData(&mon, MON_DATA_SHEEN), 0);
+    u8 fusionGenetics[6];
+    GetMonData(&mon, MON_DATA_FUSION_GENETICS, fusionGenetics);
+    EXPECT_EQ(fusionGenetics[0], 10);
+    EXPECT_EQ(fusionGenetics[1], 20);
+    EXPECT_EQ(fusionGenetics[2], 30);
+    EXPECT_EQ(fusionGenetics[3], 40);
+    EXPECT_EQ(fusionGenetics[4], 50);
+    EXPECT_EQ(fusionGenetics[5], 150);
     EXPECT_EQ(GetMonData(&mon, MON_DATA_EXP), 12345);
     EXPECT_EQ(GetMonData(&mon, MON_DATA_MET_LEVEL), 20);
     EXPECT_EQ(GetMonData(&mon, MON_DATA_HP_EV), 11);

@@ -125,6 +125,7 @@ enum MonData {
     MON_DATA_GIGANTAMAX_FACTOR,
     MON_DATA_TERA_TYPE,
     MON_DATA_EVOLUTION_TRACKER,
+    MON_DATA_FUSION_GENETICS, // Raw packed bytes, use Fusion_GetBoxMonGenetics / Fusion_SetBoxMonGenetics instead.
 };
 
 #define BLOCK_AI_DYNAMAX 15 // Used as dynamax level value by the AI to indicate this mon shouldn't dynamax
@@ -175,12 +176,7 @@ struct PokemonSubstruct2
     u8 speedEV;
     u8 spAttackEV;
     u8 spDefenseEV;
-    u8 cool;
-    u8 beauty;
-    u8 cute;
-    u8 smart;
-    u8 tough;
-    u8 sheen;
+    u8 fusionGenetics[6]; // Fusion: replaces the contest conditions (cool, beauty, cute, smart, tough, sheen). Packed by src/fusion/fusion_save.c.
 };
 
 struct PokemonSubstruct3

@@ -2,6 +2,44 @@
 #define GUARD_FUSION_H
 
 #include "fusion/fusion_config.h"
+#include "constants/abilities.h"
+#include "constants/pokemon.h"
+
+#define FUSION_MAX_PASSIVES     3
+#define FUSION_GENETICS_SIZE    6 // Bytes stored per BoxPokemon, see PokemonSubstruct2.fusionGenetics.
+#define FUSION_MAX_GENERATION   31
+
+enum FusionGeneticsFlags
+{
+    FUSION_FLAG_FUSED = 1 << 0, // Created by fusion.
+    FUSION_FLAG_RARE  = 1 << 1, // Marked as a rare result, shown in the fusion log.
+};
+
+// Unpacked view of the fusion data stored in every BoxPokemon.
+// All-zero means "no fusion data": the mon behaves like a vanilla Pokémon.
+struct FusionGenetics
+{
+    enum Ability mainAbility;                   // ABILITY_NONE = use the species ability.
+    enum Ability passives[FUSION_MAX_PASSIVES]; // ABILITY_NONE = empty slot.
+    enum Type extraType;                        // TYPE_NONE = no third type.
+    u8 generation;                              // 0 = never fused.
+    u8 flags;                                   // FUSION_FLAG_*
+};
+
+enum FusionMonLocation
+{
+    FUSION_LOC_NONE,
+    FUSION_LOC_PARTY,
+    FUSION_LOC_BOX,
+};
+
+// Points at a Pokémon in the party or in any PC box.
+struct FusionMonRef
+{
+    u8 location; // enum FusionMonLocation
+    u8 box;      // Only for FUSION_LOC_BOX.
+    u8 slot;     // Party index or box position.
+};
 
 enum FusionCaptureMode
 {
@@ -16,6 +54,26 @@ enum FusionCaptureMode Fusion_GetCaptureMode(void);
 void Fusion_SetCaptureMode(enum FusionCaptureMode mode);
 bool32 Fusion_IsCaptureAssistExempt(enum Species species);
 u32 Fusion_ApplyCaptureMode(enum Species species, u32 odds);
+
+// fusion_save.c
+void Fusion_PackGenetics(const struct FusionGenetics *genetics, u8 *packed);
+void Fusion_UnpackGenetics(const u8 *packed, struct FusionGenetics *genetics);
+void Fusion_GetBoxMonGenetics(struct BoxPokemon *boxMon, struct FusionGenetics *genetics);
+void Fusion_SetBoxMonGenetics(struct BoxPokemon *boxMon, const struct FusionGenetics *genetics);
+void Fusion_GetMonGenetics(struct Pokemon *mon, struct FusionGenetics *genetics);
+void Fusion_SetMonGenetics(struct Pokemon *mon, const struct FusionGenetics *genetics);
+u32 Fusion_CountPassives(const struct FusionGenetics *genetics);
+
+// fusion_storage.c
+struct FusionMonRef Fusion_PartyRef(u32 slot);
+struct FusionMonRef Fusion_BoxRef(u32 box, u32 slot);
+bool32 Fusion_RefsEqual(const struct FusionMonRef *a, const struct FusionMonRef *b);
+struct BoxPokemon *Fusion_GetBoxMonFromRef(const struct FusionMonRef *ref);
+bool32 Fusion_IsMaterialRef(const struct FusionMonRef *ref);
+bool32 Fusion_ReadMonFromRef(const struct FusionMonRef *ref, struct Pokemon *dst);
+bool32 Fusion_CanCommitFusion(const struct FusionMonRef *parentA, const struct FusionMonRef *parentB);
+bool32 Fusion_CommitFusion(const struct FusionMonRef *parentA, const struct FusionMonRef *parentB, struct Pokemon *child);
+bool32 Fusion_NextMaterialRef(struct FusionMonRef *ref);
 
 // Called from NewGameInitData.
 void Fusion_NewGameInit(void);
