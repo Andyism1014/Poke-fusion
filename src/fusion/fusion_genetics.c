@@ -48,6 +48,19 @@ enum Ability Fusion_GetMonMainAbility(struct Pokemon *mon)
     return GetMonAbility(mon);
 }
 
+// The third type the UI should show: TYPE_NONE when there is no extra type, or
+// when it duplicates a species type (possible after evolving or changing form).
+enum Type Fusion_GetBoxMonThirdType(struct BoxPokemon *boxMon)
+{
+    enum Species species = GetBoxMonData(boxMon, MON_DATA_SPECIES);
+    struct FusionGenetics genetics;
+
+    Fusion_GetBoxMonGenetics(boxMon, &genetics);
+    if (genetics.extraType == GetSpeciesType(species, 0) || genetics.extraType == GetSpeciesType(species, 1))
+        return TYPE_NONE;
+    return genetics.extraType;
+}
+
 // Every ability a parent can pass on: its main ability followed by its passives.
 static u32 GetInheritableAbilities(struct Pokemon *mon, enum Ability *out)
 {
