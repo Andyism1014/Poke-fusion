@@ -55,6 +55,32 @@ void Fusion_SetCaptureMode(enum FusionCaptureMode mode);
 bool32 Fusion_IsCaptureAssistExempt(enum Species species);
 u32 Fusion_ApplyCaptureMode(enum Species species, u32 odds);
 
+enum FusionCheckResult
+{
+    FUSION_CHECK_OK,
+    FUSION_CHECK_INVALID,         // Missing, egg, or both parents are the same Pokémon.
+    FUSION_CHECK_LAST_PARTY_MON,  // Parent B is the last party member and parent A is boxed.
+    FUSION_CHECK_HOLDS_MAIL,
+    FUSION_CHECK_BAG_FULL,        // Parent B's held item can't be returned to the bag.
+};
+
+// What a fusion of two parents can produce, for the confirmation screen.
+struct FusionPreview
+{
+    u8 level;
+    enum Ability mainAbilities[2];
+    u8 movePoolSize;
+    u8 passivePoolSize;
+    u8 thirdTypePoolSize[2]; // Indexed by which parent provides the species.
+};
+
+// fusion_genetics.c
+enum Ability Fusion_GetMonMainAbility(struct Pokemon *mon);
+void Fusion_BuildPreview(struct Pokemon *parentA, struct Pokemon *parentB, struct FusionPreview *preview);
+void Fusion_GenerateChild(struct Pokemon *parentA, struct Pokemon *parentB, u32 seed, struct Pokemon *child);
+enum FusionCheckResult Fusion_CheckParents(const struct FusionMonRef *refA, const struct FusionMonRef *refB);
+bool32 Fusion_Fuse(const struct FusionMonRef *refA, const struct FusionMonRef *refB, u32 seed, struct Pokemon *child);
+
 // fusion_save.c
 void Fusion_PackGenetics(const struct FusionGenetics *genetics, u8 *packed);
 void Fusion_UnpackGenetics(const u8 *packed, struct FusionGenetics *genetics);
@@ -83,6 +109,11 @@ void Fusion_OpenMaterialSelector(const u8 *title, const struct FusionMonRef *exc
 void Fusion_ScriptCountMaterials(void);
 void Fusion_ScriptOpenAppraiseSelector(void);
 void Fusion_ScriptBufferAppraisal(void);
+void Fusion_ScriptSelectParentA(void);
+void Fusion_ScriptSelectParentB(void);
+void Fusion_ScriptCheckParents(void);
+void Fusion_ScriptBufferPreview(void);
+void Fusion_ScriptDoFusion(void);
 
 // fusion_debug.c
 const u8 *Fusion_Debug_GetCaptureModeName(enum FusionCaptureMode mode);

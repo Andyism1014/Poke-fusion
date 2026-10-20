@@ -32,5 +32,6 @@
 3. 依次测试终端的鉴定和仓库入口：
    `./run.sh --state out/setup/mons.ss0 pokeemerald.gba scripts/terminal_appraise.txt out/appraise`
    `./run.sh --state out/setup/mons.ss0 pokeemerald.gba scripts/terminal_storage.txt out/storage`
+   `./run.sh --state out/setup/mons.ss0 pokeemerald.gba scripts/terminal_fuse.txt out/fuse`
 
 注意：调试菜单会记住上次的光标位置；列表滚动时，截图里的光标会比实际慢一帧刷新。

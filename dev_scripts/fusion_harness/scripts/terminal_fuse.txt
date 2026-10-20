@@ -1,0 +1,54 @@
+# Requires the state from setup_party_and_materials.txt.
+# Fuse party slot 1 (parent 1) with the first mon of BOX1 (parent 2).
+press START 2 30
+tap DOWN 2 8
+press A 2 90
+press LEFT 2 40
+press DOWN 2 10
+press A 2 20
+press A 2 90
+shot fuse_menu
+press A 2 60
+wait 30
+shot parent_a_sources
+press A 2 40
+wait 20
+shot parent_a_party
+press A 2 60
+wait 30
+shot parent_b_sources
+press DOWN 2 10
+press A 2 40
+wait 20
+shot parent_b_box1
+press A 2 60
+wait 150
+shot preview1
+press A 2 10
+wait 150
+shot preview2
+press A 2 10
+wait 150
+shot preview3
+press A 2 10
+wait 150
+shot preview4
+press A 2 10
+wait 150
+shot preview_confirm
+press A 2 30
+wait 400
+shot result1
+press A 2 10
+wait 150
+shot result2
+press A 2 10
+wait 150
+shot result3
+press A 2 10
+wait 150
+shot result4
+press A 2 60
+wait 30
+shot back_to_menu
+savestate fused

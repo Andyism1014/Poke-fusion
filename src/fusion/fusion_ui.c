@@ -7,6 +7,7 @@
 #include "menu.h"
 #include "pokemon.h"
 #include "pokemon_storage_system.h"
+#include "random.h"
 #include "script.h"
 #include "sound.h"
 #include "string_util.h"
@@ -329,15 +330,63 @@ static void Task_FusionSelector(u8 taskId)
 // Script interface. The selected Pokémon is returned in VAR_0x8004 (location),
 // VAR_0x8005 (box) and VAR_0x8006 (slot); VAR_RESULT is TRUE if one was chosen.
 
+static EWRAM_DATA struct FusionMonRef sParentA = {0};
+static EWRAM_DATA struct FusionMonRef sParentB = {0};
+
 static const u8 sText_ChooseToAppraise[] = _("Choose a Pokémon to appraise.");
+static const u8 sText_ChooseParentA[] = _("Parent 1: keeps its slot.");
+static const u8 sText_ChooseParentB[] = _("Parent 2: will be consumed.");
 static const u8 sText_Dash[] = _("-");
-static const u8 sText_AppraisalHeader[] = _("{STR_VAR_1}  Lv{STR_VAR_2}  IVs {STR_VAR_3}/186\p");
+static const u8 sText_AppraisalHeader[] = _("{STR_VAR_1}  Lv{STR_VAR_2}  IVs {STR_VAR_3}/186");
 static const u8 sText_Ability[] = _("Ability: ");
-static const u8 sText_Passives[] = _("\nPassives: ");
-static const u8 sText_None[] = _("none");
-static const u8 sText_Separator[] = _(", ");
-static const u8 sText_ExtraType[] = _("\pThird type: ");
-static const u8 sText_Generation[] = _("\nFusion generation: ");
+static const u8 sText_Passive[] = _("Passive: ");
+static const u8 sText_NoPassives[] = _("Passives: none");
+static const u8 sText_ExtraType[] = _("Third type: ");
+static const u8 sText_Generation[] = _("Fusion generation: ");
+static const u8 sText_Or[] = _(" or ");
+static const u8 sText_PreviewParents[] = _("{STR_VAR_1} + {STR_VAR_2}");
+static const u8 sText_PreviewLevel[] = _("Child: Lv{STR_VAR_3}, either species.");
+static const u8 sText_PreviewPassives[] = _("Passive pool: {STR_VAR_1} ({STR_VAR_2}% each, max 3)");
+static const u8 sText_PreviewMoves[] = _("Move pool: {STR_VAR_1} ({STR_VAR_2}% each, max 4)");
+static const u8 sText_PreviewThirdType[] = _("Third type: {STR_VAR_1}% chance");
+static const u8 sText_PreviewNoThirdType[] = _("Third type: not possible");
+static const u8 sText_PreviewConsumed[] = _("{STR_VAR_1} will be consumed.");
+static const u8 sText_PreviewConfirm[] = _("Fuse them?");
+static const u8 sText_FusionComplete[] = _("Fusion complete!");
+static const u8 sText_CheckInvalid[] = _("These Pokémon can't be fused.");
+static const u8 sText_CheckLastPartyMon[] = _("You can't fuse away the last\nPokémon in your party.");
+static const u8 sText_CheckHoldsMail[] = _("Please remove the Mail first.");
+static const u8 sText_CheckBagFull[] = _("There's no room in the Bag for\nthe item Parent 2 is holding.");
+
+// Builds a message from single lines, two lines per page.
+struct LineBuilder
+{
+    u8 *end;
+    u32 lines;
+};
+
+static u8 *NewLine(struct LineBuilder *builder)
+{
+    if (builder->lines > 0)
+        *builder->end++ = (builder->lines % 2) ? CHAR_NEWLINE : CHAR_PROMPT_CLEAR;
+    builder->lines++;
+    return builder->end;
+}
+
+static void AddLine(struct LineBuilder *builder, const u8 *text)
+{
+    builder->end = StringCopy(NewLine(builder), text);
+}
+
+static void AddExpandedLine(struct LineBuilder *builder, const u8 *text)
+{
+    builder->end = StringExpandPlaceholders(NewLine(builder), text);
+}
+
+static void AddLabeledLine(struct LineBuilder *builder, const u8 *label, const u8 *value)
+{
+    builder->end = StringCopy(StringCopy(NewLine(builder), label), value);
+}
 
 static void ScriptSelectorCallback(bool32 selected, const struct FusionMonRef *ref)
 {
@@ -346,6 +395,18 @@ static void ScriptSelectorCallback(bool32 selected, const struct FusionMonRef *r
     gSpecialVar_0x8005 = ref->box;
     gSpecialVar_0x8006 = ref->slot;
     ScriptContext_Enable();
+}
+
+static void ParentASelectorCallback(bool32 selected, const struct FusionMonRef *ref)
+{
+    sParentA = *ref;
+    ScriptSelectorCallback(selected, ref);
+}
+
+static void ParentBSelectorCallback(bool32 selected, const struct FusionMonRef *ref)
+{
+    sParentB = *ref;
+    ScriptSelectorCallback(selected, ref);
 }
 
 void Fusion_ScriptCountMaterials(void)
@@ -358,49 +419,129 @@ void Fusion_ScriptOpenAppraiseSelector(void)
     Fusion_OpenMaterialSelector(sText_ChooseToAppraise, NULL, ScriptSelectorCallback);
 }
 
-static u8 *AppendAbilityName(u8 *dst, enum Ability ability)
+void Fusion_ScriptSelectParentA(void)
 {
-    return StringCopy(dst, gAbilitiesInfo[ability].name);
+    Fusion_OpenMaterialSelector(sText_ChooseParentA, NULL, ParentASelectorCallback);
+}
+
+void Fusion_ScriptSelectParentB(void)
+{
+    Fusion_OpenMaterialSelector(sText_ChooseParentB, &sParentA, ParentBSelectorCallback);
+}
+
+static void BufferAppraisal(struct Pokemon *mon, struct LineBuilder *builder)
+{
+    struct FusionGenetics genetics;
+
+    Fusion_GetMonGenetics(mon, &genetics);
+    StringCopy(gStringVar1, GetSpeciesName(GetMonData(mon, MON_DATA_SPECIES)));
+    ConvertIntToDecimalStringN(gStringVar2, GetMonData(mon, MON_DATA_LEVEL), STR_CONV_MODE_LEFT_ALIGN, 3);
+    ConvertIntToDecimalStringN(gStringVar3, Fusion_GetBoxMonIvTotal(&mon->box), STR_CONV_MODE_LEFT_ALIGN, 3);
+    AddExpandedLine(builder, sText_AppraisalHeader);
+    AddLabeledLine(builder, sText_Ability, gAbilitiesInfo[Fusion_GetMonMainAbility(mon)].name);
+
+    if (Fusion_CountPassives(&genetics) == 0)
+        AddLine(builder, sText_NoPassives);
+    for (u32 i = 0; i < FUSION_MAX_PASSIVES; i++)
+    {
+        if (genetics.passives[i] != ABILITY_NONE)
+            AddLabeledLine(builder, sText_Passive, gAbilitiesInfo[genetics.passives[i]].name);
+    }
+
+    AddLabeledLine(builder, sText_ExtraType, genetics.extraType != TYPE_NONE ? gTypesInfo[genetics.extraType].name : sText_Dash);
+    ConvertIntToDecimalStringN(gStringVar1, genetics.generation, STR_CONV_MODE_LEFT_ALIGN, 2);
+    AddLabeledLine(builder, sText_Generation, gStringVar1);
 }
 
 // Writes a multi-page summary of the selected Pokémon's genetics to gStringVar4.
 void Fusion_ScriptBufferAppraisal(void)
 {
     struct FusionMonRef ref = {.location = gSpecialVar_0x8004, .box = gSpecialVar_0x8005, .slot = gSpecialVar_0x8006};
+    struct LineBuilder builder = {.end = gStringVar4};
     struct Pokemon mon;
-    struct FusionGenetics genetics;
-    u32 i, numPassives = 0;
+
+    gStringVar4[0] = EOS;
+    if (Fusion_ReadMonFromRef(&ref, &mon))
+        BufferAppraisal(&mon, &builder);
+}
+
+// VAR_RESULT is the FusionCheckResult; on failure gStringVar4 holds the reason.
+void Fusion_ScriptCheckParents(void)
+{
+    static const u8 *const sCheckTexts[] =
+    {
+        [FUSION_CHECK_INVALID] = sText_CheckInvalid,
+        [FUSION_CHECK_LAST_PARTY_MON] = sText_CheckLastPartyMon,
+        [FUSION_CHECK_HOLDS_MAIL] = sText_CheckHoldsMail,
+        [FUSION_CHECK_BAG_FULL] = sText_CheckBagFull,
+    };
+    enum FusionCheckResult result = Fusion_CheckParents(&sParentA, &sParentB);
+
+    gSpecialVar_Result = result;
+    if (result != FUSION_CHECK_OK)
+        StringCopy(gStringVar4, sCheckTexts[result]);
+}
+
+// Shows what can happen, never the actual result: the child is only rolled on confirmation.
+void Fusion_ScriptBufferPreview(void)
+{
+    struct LineBuilder builder = {.end = gStringVar4};
+    struct FusionPreview preview;
+    struct Pokemon parentA, parentB;
+    u32 thirdTypePool;
     u8 *text;
 
-    if (!Fusion_ReadMonFromRef(&ref, &mon))
+    Fusion_ReadMonFromRef(&sParentA, &parentA);
+    Fusion_ReadMonFromRef(&sParentB, &parentB);
+    Fusion_BuildPreview(&parentA, &parentB, &preview);
+
+    StringCopy(gStringVar1, GetSpeciesName(GetMonData(&parentA, MON_DATA_SPECIES)));
+    StringCopy(gStringVar2, GetSpeciesName(GetMonData(&parentB, MON_DATA_SPECIES)));
+    ConvertIntToDecimalStringN(gStringVar3, preview.level, STR_CONV_MODE_LEFT_ALIGN, 3);
+    AddExpandedLine(&builder, sText_PreviewParents);
+    AddExpandedLine(&builder, sText_PreviewLevel);
+
+    text = StringCopy(NewLine(&builder), sText_Ability);
+    text = StringCopy(text, gAbilitiesInfo[preview.mainAbilities[0]].name);
+    if (preview.mainAbilities[1] != preview.mainAbilities[0])
+        text = StringCopy(StringCopy(text, sText_Or), gAbilitiesInfo[preview.mainAbilities[1]].name);
+    builder.end = text;
+
+    ConvertIntToDecimalStringN(gStringVar1, preview.passivePoolSize, STR_CONV_MODE_LEFT_ALIGN, 2);
+    ConvertIntToDecimalStringN(gStringVar2, FUSION_PASSIVE_INHERIT_CHANCE, STR_CONV_MODE_LEFT_ALIGN, 3);
+    AddExpandedLine(&builder, sText_PreviewPassives);
+    ConvertIntToDecimalStringN(gStringVar1, preview.movePoolSize, STR_CONV_MODE_LEFT_ALIGN, 2);
+    ConvertIntToDecimalStringN(gStringVar2, FUSION_MOVE_INHERIT_CHANCE, STR_CONV_MODE_LEFT_ALIGN, 3);
+    AddExpandedLine(&builder, sText_PreviewMoves);
+
+    thirdTypePool = max(preview.thirdTypePoolSize[0], preview.thirdTypePoolSize[1]);
+    if (thirdTypePool > 0)
     {
-        gStringVar4[0] = EOS;
+        ConvertIntToDecimalStringN(gStringVar1, FUSION_THIRD_TYPE_CHANCE, STR_CONV_MODE_LEFT_ALIGN, 3);
+        AddExpandedLine(&builder, sText_PreviewThirdType);
+    }
+    else
+    {
+        AddLine(&builder, sText_PreviewNoThirdType);
+    }
+
+    StringCopy(gStringVar1, GetSpeciesName(GetMonData(&parentB, MON_DATA_SPECIES)));
+    AddExpandedLine(&builder, sText_PreviewConsumed);
+    AddLine(&builder, sText_PreviewConfirm);
+}
+
+// VAR_RESULT is TRUE on success; gStringVar4 then holds the child's appraisal.
+void Fusion_ScriptDoFusion(void)
+{
+    struct LineBuilder builder = {.end = gStringVar4};
+    struct Pokemon child;
+
+    gSpecialVar_Result = Fusion_Fuse(&sParentA, &sParentB, Random32(), &child);
+    if (!gSpecialVar_Result)
+    {
+        StringCopy(gStringVar4, sText_CheckInvalid);
         return;
     }
-    Fusion_GetMonGenetics(&mon, &genetics);
-
-    StringCopy(gStringVar1, GetSpeciesName(GetMonData(&mon, MON_DATA_SPECIES)));
-    ConvertIntToDecimalStringN(gStringVar2, GetMonData(&mon, MON_DATA_LEVEL), STR_CONV_MODE_LEFT_ALIGN, 3);
-    ConvertIntToDecimalStringN(gStringVar3, Fusion_GetBoxMonIvTotal(&mon.box), STR_CONV_MODE_LEFT_ALIGN, 3);
-    text = StringExpandPlaceholders(gStringVar4, sText_AppraisalHeader);
-
-    text = StringCopy(text, sText_Ability);
-    text = AppendAbilityName(text, genetics.mainAbility != ABILITY_NONE ? genetics.mainAbility : GetMonAbility(&mon));
-
-    text = StringCopy(text, sText_Passives);
-    for (i = 0; i < FUSION_MAX_PASSIVES; i++)
-    {
-        if (genetics.passives[i] == ABILITY_NONE)
-            continue;
-        if (numPassives++ > 0)
-            text = StringCopy(text, sText_Separator);
-        text = AppendAbilityName(text, genetics.passives[i]);
-    }
-    if (numPassives == 0)
-        text = StringCopy(text, sText_None);
-
-    text = StringCopy(text, sText_ExtraType);
-    text = StringCopy(text, genetics.extraType != TYPE_NONE ? gTypesInfo[genetics.extraType].name : sText_Dash);
-    text = StringCopy(text, sText_Generation);
-    ConvertIntToDecimalStringN(text, genetics.generation, STR_CONV_MODE_LEFT_ALIGN, 2);
+    AddLine(&builder, sText_FusionComplete);
+    BufferAppraisal(&child, &builder);
 }
