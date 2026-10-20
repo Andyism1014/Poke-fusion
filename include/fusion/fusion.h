@@ -84,6 +84,14 @@ void Fusion_ScriptCountMaterials(void);
 void Fusion_ScriptOpenAppraiseSelector(void);
 void Fusion_ScriptBufferAppraisal(void);
 
+// fusion_debug.c
+const u8 *Fusion_Debug_GetCaptureModeName(enum FusionCaptureMode mode);
+enum FusionCaptureMode Fusion_Debug_CycleCaptureMode(void);
+bool32 Fusion_Debug_IsRandomPassiveCandidate(enum Ability ability);
+void Fusion_Debug_RandomizeGenetics(struct FusionGenetics *genetics, enum Species species);
+enum Species Fusion_Debug_GetRandomMaterialSpecies(void);
+u32 Fusion_Debug_FillBoxWithMaterials(u32 boxId);
+
 // Called from NewGameInitData.
 void Fusion_NewGameInit(void);
 

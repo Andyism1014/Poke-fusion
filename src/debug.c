@@ -77,6 +77,7 @@
 #include "vs_seeker.h"
 #include "load_save.h"
 #include "battle_partner.h"
+#include "fusion/fusion.h"
 
 enum FollowerNPCCreateDebugMenu
 {
@@ -360,6 +361,10 @@ static void DebugAction_Player_Name(u8 taskId);
 static void DebugAction_Player_Gender(u8 taskId);
 static void DebugAction_Player_Id(u8 taskId);
 
+static void DebugAction_Fusion_CycleCaptureMode(u8 taskId);
+static void DebugAction_Fusion_FillBoxWithMaterials(u8 taskId);
+static void DebugAction_Fusion_FillAllBoxesWithMaterials(u8 taskId);
+
 static void Debug_CreateInputDisplayWindow(u8 taskId);
 static void DebugNativeStep_DelayedSelection(u8 taskId);
 static void DebugAction_Selection_Init(u8 taskId, const void *params);
@@ -436,6 +441,7 @@ static const struct DebugSelection sTrainerFromMapSelection;
 static const struct DebugSelection sTrainer1Selection;
 static const struct DebugSelection sTrainer2Selection;
 static const struct DebugSelection sPartnerSelection;
+static const struct DebugSelection sFusionPokemonSelection;
 
 #include "data/map_group_count.h"
 
@@ -767,6 +773,15 @@ static const u8 *const sDebugMenu_Actions_BagUse_Options[] =
     COMPOUND_STRING("No Bag: {STR_VAR_1}Invalid value"),
 };
 
+static const struct DebugMenuOption sDebugMenu_Actions_Fusion[] =
+{
+    { COMPOUND_STRING("Give Fusion Pokémon"),    DebugAction_Selection_Init, &sFusionPokemonSelection },
+    { COMPOUND_STRING("Capture mode: cycle"),    DebugAction_Fusion_CycleCaptureMode },
+    { COMPOUND_STRING("Fill box w/ materials"),  DebugAction_Fusion_FillBoxWithMaterials },
+    { COMPOUND_STRING("Fill all boxes w/ mats"), DebugAction_Fusion_FillAllBoxesWithMaterials },
+    { NULL }
+};
+
 static const struct DebugMenuOption sDebugMenu_Actions_Main[] =
 {
     { COMPOUND_STRING("Utilities…"),    DebugAction_OpenSubMenu, sDebugMenu_Actions_Utilities, },
@@ -780,6 +795,7 @@ static const struct DebugMenuOption sDebugMenu_Actions_Main[] =
     { COMPOUND_STRING("Flags & Vars…"), DebugAction_OpenSubMenuFlagsVars, sDebugMenu_Actions_Flags, },
     { COMPOUND_STRING("Sound…"),        DebugAction_OpenSubMenu, sDebugMenu_Actions_Sound, },
     { COMPOUND_STRING("ROM Info…"),     DebugAction_OpenSubMenu, sDebugMenu_Actions_ROMInfo2, },
+    { COMPOUND_STRING("Fusion…"),       DebugAction_OpenSubMenu, sDebugMenu_Actions_Fusion, },
     { COMPOUND_STRING("Cancel"),        DebugAction_Cancel, },
     { NULL }
 };
@@ -1336,6 +1352,12 @@ static void DebugSelectionStep_ReturnToGiveMenu(u8 taskId)
 {
     Debug_RemoveCallbackMenu();
     DebugAction_OpenSubMenu(taskId, sDebugMenu_Actions_Give);
+}
+
+static void DebugSelectionStep_ReturnToFusionMenu(u8 taskId)
+{
+    Debug_RemoveCallbackMenu();
+    DebugAction_OpenSubMenu(taskId, sDebugMenu_Actions_Fusion);
 }
 
 static void DebugSelectionStep_ReturnToTrainersMenu(u8 taskId)
@@ -3415,33 +3437,33 @@ static const struct DebugSelectionStep sTeraTypeSelectionStep = {
     .digits = 2,
 };
 
-static bool32 DebugSelection_GiveComplexPokemon_OnComplete(u8 taskId)
+// Builds the Pokémon chosen in the sComplexPokemonSelection steps.
+// Also used by sFusionPokemonSelection, which starts with the same steps.
+static void DebugSelection_CreateComplexPokemon(const u16 *monData, struct Pokemon *mon)
 {
-    u16 *monData = (u16 *)GetWordTaskArg(taskId, STEPS_DATA_PTR_ARG);
-    struct Pokemon mon;
     enum Species species = monData[0];
     u8 level = monData[1];
     u32 personality = GetMonPersonality(species, monData[2], monData[5] , RANDOM_UNOWN_LETTER);
-    CreateMon(&mon, species, level, personality, OTID_STRUCT_PLAYER_ID);
-    SetMonData(&mon, MON_DATA_IS_SHINY, &monData[3]);
-    SetMonData(&mon, MON_DATA_ABILITY_NUM, &monData[4]);
+    CreateMon(mon, species, level, personality, OTID_STRUCT_PLAYER_ID);
+    SetMonData(mon, MON_DATA_IS_SHINY, &monData[3]);
+    SetMonData(mon, MON_DATA_ABILITY_NUM, &monData[4]);
 
     if (monData[6] == MOVE_NONE)
     {
-        GiveMonInitialMoveset(&mon);
+        GiveMonInitialMoveset(mon);
     }
     else
     {
         for (u32 i = 0; i < MAX_MON_MOVES; i++)
         {
-            SetMonMoveSlot(&mon, monData[6 + i], i);
+            SetMonMoveSlot(mon, monData[6 + i], i);
         }
     }
 
     u16 rawEvs[NUM_STATS];
     for (u32 i = 0; i < NUM_STATS; i++)
     {
-        SetMonData(&mon, MON_DATA_HP_IV + i, &monData[10 + i]);
+        SetMonData(mon, MON_DATA_HP_IV + i, &monData[10 + i]);
         rawEvs[i] = monData[16 + i];
     }
 
@@ -3449,12 +3471,19 @@ static bool32 DebugSelection_GiveComplexPokemon_OnComplete(u8 taskId)
     ResolveEVs(rawEvs, evs, FALSE);
     for (u32 i = 0; i < NUM_STATS; i++)
     {
-        SetMonData(&mon, MON_DATA_HP_EV + i, &evs[i]);
+        SetMonData(mon, MON_DATA_HP_EV + i, &evs[i]);
     }
 
-    SetMonData(&mon, MON_DATA_DYNAMAX_LEVEL, &monData[22]);
-    SetMonData(&mon, MON_DATA_GIGANTAMAX_FACTOR, &monData[23]);
-    SetMonData(&mon, MON_DATA_TERA_TYPE, &monData[24]);
+    SetMonData(mon, MON_DATA_DYNAMAX_LEVEL, &monData[22]);
+    SetMonData(mon, MON_DATA_GIGANTAMAX_FACTOR, &monData[23]);
+    SetMonData(mon, MON_DATA_TERA_TYPE, &monData[24]);
+}
+
+static bool32 DebugSelection_GiveComplexPokemon_OnComplete(u8 taskId)
+{
+    u16 *monData = (u16 *)GetWordTaskArg(taskId, STEPS_DATA_PTR_ARG);
+    struct Pokemon mon;
+    DebugSelection_CreateComplexPokemon(monData, &mon);
 
     CalculateMonStats(&mon);
     GiveScriptedMonToPlayer(&mon, PARTY_SIZE);
@@ -3481,6 +3510,140 @@ static const struct DebugSelection sComplexPokemonSelection = {
         &sTeraTypeSelectionStep,
     },
     .maxSteps = 12,
+};
+
+// Fusion
+static void DebugSelectionStep_PrintFusionAbility(u8 taskId, u8 digits, const u8 *title, const u8 *noneText)
+{
+    u32 ability = gTasks[taskId].tInput;
+    ConvertIntToDecimalStringN(gStringVar3, ability, STR_CONV_MODE_LEADING_ZEROS, digits);
+    StringExpandPlaceholders(gStringVar1, title);
+    u8 *end;
+    if (ability == ABILITY_NONE)
+        end = StringCopy(gStringVar2, noneText);
+    else
+        end = StringCopy(gStringVar2, gAbilitiesInfo[ability].name);
+    WrapFontIdToFit(gStringVar2, end, DEBUG_MENU_FONT, WindowWidthPx(gTasks[taskId].tSubWindowId));
+    StringCopy(gStringVar3, COMPOUND_STRING(""));
+    DebugNativeStep_PrintWindowSelection(taskId);
+}
+
+static void DebugSelectionStep_UpdateFusionMainAbility(u8 taskId, u8 digits, u32 min, u32 max)
+{
+    DebugSelectionStep_PrintFusionAbility(taskId, digits, COMPOUND_STRING("Main Abil: {STR_VAR_3}"), COMPOUND_STRING("Species"));
+}
+
+static void DebugSelectionStep_UpdateFusionPassive(u8 taskId, u8 digits, u32 min, u32 max)
+{
+    ConvertIntToDecimalStringN(gStringVar2, gTasks[taskId].tSubstep + 1, STR_CONV_MODE_LEADING_ZEROS, 1);
+    DebugSelectionStep_PrintFusionAbility(taskId, digits, COMPOUND_STRING("Passive {STR_VAR_2}: {STR_VAR_3}"), COMPOUND_STRING("None"));
+}
+
+static void DebugSelectionStep_UpdateFusionExtraType(u8 taskId, u8 digits, u32 min, u32 max)
+{
+    ConvertIntToDecimalStringN(gStringVar3, gTasks[taskId].tInput, STR_CONV_MODE_LEADING_ZEROS, digits);
+    StringExpandPlaceholders(gStringVar1, COMPOUND_STRING("Extra Type: {STR_VAR_3}"));
+    if (gTasks[taskId].tInput == TYPE_NONE)
+        StringCopy(gStringVar2, COMPOUND_STRING("None"));
+    else
+        StringCopy(gStringVar2, gTypesInfo[gTasks[taskId].tInput].name);
+    StringCopy(gStringVar3, COMPOUND_STRING(""));
+    DebugNativeStep_PrintWindowSelection(taskId);
+}
+
+UPDATE_GENERIC_INPUT(FusionGeneration, Generation)
+
+static const struct DebugSelectionStep sFusionMainAbilitySelectionStep = {
+    .stepUpdate = DebugSelectionStep_UpdateFusionMainAbility,
+    .stepConfirm = DebugSelectionStep_GenericInputConfirm,
+    .minValue = ABILITY_NONE,
+    .maxValue = ABILITIES_COUNT - 1,
+    .digits = 3,
+};
+
+static const struct DebugSelectionStep sFusionPassivesSelectionStep = {
+    .stepUpdate = DebugSelectionStep_UpdateFusionPassive,
+    .stepConfirm = DebugSelectionStep_GenericInputConfirm,
+    .minValue = ABILITY_NONE,
+    .maxValue = ABILITIES_COUNT - 1,
+    .digits = 3,
+    .substepCount = FUSION_MAX_PASSIVES,
+};
+
+static const struct DebugSelectionStep sFusionExtraTypeSelectionStep = {
+    .stepUpdate = DebugSelectionStep_UpdateFusionExtraType,
+    .stepConfirm = DebugSelectionStep_GenericInputConfirm,
+    .minValue = TYPE_NONE,
+    .maxValue = NUMBER_OF_MON_TYPES - 1,
+    .digits = 2,
+};
+
+static const struct DebugSelectionStep sFusionGenerationSelectionStep = {
+    .stepUpdate = DebugSelectionStep_UpdateFusionGeneration,
+    .stepConfirm = DebugSelectionStep_GenericInputConfirm,
+    .minValue = 0,
+    .maxValue = FUSION_MAX_GENERATION,
+    .digits = 2,
+};
+
+// Step data indices after the sComplexPokemonSelection steps.
+#define FUSION_DATA_MAIN_ABILITY 25
+#define FUSION_DATA_PASSIVES     (FUSION_DATA_MAIN_ABILITY + 1)
+#define FUSION_DATA_EXTRA_TYPE   (FUSION_DATA_PASSIVES + FUSION_MAX_PASSIVES)
+#define FUSION_DATA_GENERATION   (FUSION_DATA_EXTRA_TYPE + 1)
+
+static bool32 DebugSelection_GiveFusionPokemon_OnComplete(u8 taskId)
+{
+    u16 *monData = (u16 *)GetWordTaskArg(taskId, STEPS_DATA_PTR_ARG);
+    struct Pokemon mon;
+    struct FusionGenetics genetics = {
+        .mainAbility = monData[FUSION_DATA_MAIN_ABILITY],
+        .extraType = monData[FUSION_DATA_EXTRA_TYPE],
+        .generation = monData[FUSION_DATA_GENERATION],
+        .flags = monData[FUSION_DATA_GENERATION] > 0 ? FUSION_FLAG_FUSED : 0,
+    };
+    for (u32 i = 0; i < FUSION_MAX_PASSIVES; i++)
+        genetics.passives[i] = monData[FUSION_DATA_PASSIVES + i];
+
+    DebugSelection_CreateComplexPokemon(monData, &mon);
+    Fusion_SetMonGenetics(&mon, &genetics);
+
+    CalculateMonStats(&mon);
+    GiveScriptedMonToPlayer(&mon, PARTY_SIZE);
+    DebugSelectionStep_ReturnToFusionMenu(taskId);
+    PlaySE(SE_SUCCESS);
+    return TRUE;
+}
+
+#undef FUSION_DATA_MAIN_ABILITY
+#undef FUSION_DATA_PASSIVES
+#undef FUSION_DATA_EXTRA_TYPE
+#undef FUSION_DATA_GENERATION
+
+// Same steps as sComplexPokemonSelection, followed by the fusion genetics.
+static const struct DebugSelection sFusionPokemonSelection = {
+    .onInit = Debug_CreateInputDisplayWindow,
+    .onCancel = DebugSelectionStep_ReturnToFusionMenu,
+    .onComplete = DebugSelection_GiveFusionPokemon_OnComplete,
+    .steps = {
+        &sSpeciesSelectionStep,
+        &sLevelSelectionStep,
+        &sGenderSelectionStep,
+        &sShinynessSelectionStep,
+        &sAbilitySelectionStep,
+        &sNatureSelectionStep,
+        &sMovesSelectionStep,
+        &sIVsSelectionStep,
+        &sEVsSelectionStep,
+        &sDynamaxLevelSelectionStep,
+        &sGigantamaxFactorSelectionStep,
+        &sTeraTypeSelectionStep,
+        &sFusionMainAbilitySelectionStep,
+        &sFusionPassivesSelectionStep,
+        &sFusionExtraTypeSelectionStep,
+        &sFusionGenerationSelectionStep,
+    },
+    .maxSteps = 16,
 };
 
 static bool32 DebugSelection_GiveEggPokemon_OnComplete(u8 taskId)
@@ -3773,6 +3936,49 @@ static void DebugAction_PCBag_ClearBoxes(u8 taskId)
     ResetPokemonStorageSystem();
     Debug_DestroyMenu_Full(taskId);
     ScriptContext_Enable();
+}
+
+// *******************************
+// Actions Fusion
+
+static void DebugAction_Fusion_CycleCaptureMode(u8 taskId)
+{
+    StringCopy(gStringVar1, Fusion_Debug_GetCaptureModeName(Fusion_Debug_CycleCaptureMode()));
+    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("Capture mode is now\n{STR_VAR_1}."));
+    Debug_DestroyMenu_Full_Script(taskId, Debug_ShowFieldMessageStringVar4);
+}
+
+static void DebugAction_Fusion_ShowFilledMessage(u8 taskId, u32 count, const u8 *boxName)
+{
+    ConvertIntToDecimalStringN(gStringVar1, count, STR_CONV_MODE_LEFT_ALIGN, 3);
+    StringCopy(gStringVar2, boxName);
+    if (count == 0)
+        StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("No empty slots in\n{STR_VAR_2}!"));
+    else
+        StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("Added {STR_VAR_1} materials to\n{STR_VAR_2}."));
+    Debug_DestroyMenu_Full_Script(taskId, Debug_ShowFieldMessageStringVar4);
+}
+
+static void DebugAction_Fusion_FillBoxWithMaterials(u8 taskId)
+{
+    u32 boxId = StorageGetCurrentBox();
+    u32 count = Fusion_Debug_FillBoxWithMaterials(boxId);
+
+    // Set flag for user convenience
+    FlagSet(FLAG_SYS_POKEMON_GET);
+    DebugAction_Fusion_ShowFilledMessage(taskId, count, GetBoxNamePtr(boxId));
+}
+
+static void DebugAction_Fusion_FillAllBoxesWithMaterials(u8 taskId)
+{
+    u32 count = 0;
+
+    for (u32 boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)
+        count += Fusion_Debug_FillBoxWithMaterials(boxId);
+
+    // Set flag for user convenience
+    FlagSet(FLAG_SYS_POKEMON_GET);
+    DebugAction_Fusion_ShowFilledMessage(taskId, count, COMPOUND_STRING("the PC boxes"));
 }
 
 // *******************************
