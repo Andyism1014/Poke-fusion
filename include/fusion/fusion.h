@@ -76,6 +76,7 @@ struct FusionPreview
 
 // fusion_genetics.c
 enum Ability Fusion_GetMonMainAbility(struct Pokemon *mon);
+enum Type Fusion_GetBoxMonThirdType(struct BoxPokemon *boxMon);
 void Fusion_BuildPreview(struct Pokemon *parentA, struct Pokemon *parentB, struct FusionPreview *preview);
 void Fusion_GenerateChild(struct Pokemon *parentA, struct Pokemon *parentB, u32 seed, struct Pokemon *child);
 enum FusionCheckResult Fusion_CheckParents(const struct FusionMonRef *refA, const struct FusionMonRef *refB);

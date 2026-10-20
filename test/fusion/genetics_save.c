@@ -116,3 +116,20 @@ TEST("Fusion genetics: survive box storage, evolution and party copies")
     Fusion_GetMonGenetics(&out, &genetics);
     ExpectGeneticsEqual(&sSampleGenetics, &genetics);
 }
+
+TEST("Fusion genetics: displayed third type skips duplicates of the species types")
+{
+    struct Pokemon mon;
+    struct FusionGenetics genetics = {0};
+
+    CreateMon(&mon, SPECIES_GASTLY, 18, 0, OTID_STRUCT_PLAYER_ID); // Ghost/Poison
+    EXPECT_EQ(Fusion_GetBoxMonThirdType(&mon.box), TYPE_NONE);
+
+    genetics.extraType = TYPE_FIRE;
+    Fusion_SetMonGenetics(&mon, &genetics);
+    EXPECT_EQ(Fusion_GetBoxMonThirdType(&mon.box), TYPE_FIRE);
+
+    genetics.extraType = TYPE_POISON;
+    Fusion_SetMonGenetics(&mon, &genetics);
+    EXPECT_EQ(Fusion_GetBoxMonThirdType(&mon.box), TYPE_NONE);
+}

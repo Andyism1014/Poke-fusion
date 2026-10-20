@@ -8,6 +8,7 @@
 #include "pokedex.h"
 #include "sprite.h"
 #include "type_icons.h"
+#include "fusion/fusion.h"
 
 static void LoadTypeSpritesAndPalettes(void);
 static void LoadTypeIconsPerBattler(enum BattlerId, u32);
@@ -20,9 +21,10 @@ static bool32 ShouldHideUnseenType(enum Species species);
 static enum Type GetMonDefensiveTeraType(struct Pokemon *, struct Pokemon *, enum BattlerId, u32, enum Species, enum Species);
 static bool32 IsIllusionActiveAndTypeUnchanged(struct Pokemon *, enum Species, enum BattlerId);
 
-static void CreateSpriteFromType(u32, bool32, enum Type[], u32, enum BattlerId);
-static bool32 ShouldSkipSecondType(enum Type[], u32);
-static void SetTypeIconXY(s32*, s32*, u32, bool32, u32);
+static enum Type GetIllusionPublicType(struct Pokemon *, enum Species, u32);
+static void CreateSpriteFromType(u32, bool32, enum Type, u32, u32, enum BattlerId);
+static bool32 ShouldSkipType(enum Type[], u32, enum Type, u32);
+static void SetTypeIconXY(s32*, s32*, u32, bool32, u32, u32);
 
 static void CreateSpriteAndSetTypeSpriteAttributes(enum Type, u32 x, u32 y, u32, enum BattlerId, bool32);
 static bool32 ShouldFlipTypeIcon(bool32, u32, enum Type);
@@ -262,19 +264,24 @@ static void LoadTypeSpritesAndPalettes(void)
 
 static void LoadTypeIconsPerBattler(enum BattlerId battler, u32 position)
 {
-    u32 typeNum;
-    enum Type types[2];
+    u32 typeNum, count = 0;
+    enum Type types[3];
     enum BattlerId battlerId = GetBattlerAtPosition(position);
     bool32 useDoubleBattleCoords = UseDoubleBattleCoords(battlerId);
 
     if (!IsBattlerAlive(battlerId))
         return;
 
-    for (typeNum = 0; typeNum < 2; ++typeNum)
-        types[typeNum] = GetMonPublicType(battlerId, typeNum);
+    for (typeNum = 0; typeNum < ARRAY_COUNT(types); ++typeNum)
+    {
+        enum Type type = GetMonPublicType(battlerId, typeNum);
 
-    for (typeNum = 0; typeNum < 2; ++typeNum)
-        CreateSpriteFromType(position, useDoubleBattleCoords, types, typeNum, battler);
+        if (!ShouldSkipType(types, count, type, typeNum))
+            types[count++] = type;
+    }
+
+    for (typeNum = 0; typeNum < count; ++typeNum)
+        CreateSpriteFromType(position, useDoubleBattleCoords, types[typeNum], typeNum, count, battler);
 }
 
 static bool32 UseDoubleBattleCoords(u32 position)
@@ -308,7 +315,7 @@ static enum Type GetMonPublicType(enum BattlerId battlerId, u32 typeNum)
         return GetMonDefensiveTeraType(mon,monIllusion,battlerId,typeNum,illusionSpecies,monSpecies);
 
     if (IsIllusionActiveAndTypeUnchanged(monIllusion,monSpecies, battlerId))
-        return GetSpeciesType(illusionSpecies, typeNum);
+        return GetIllusionPublicType(monIllusion, illusionSpecies, typeNum);
 
     return gBattleMons[battlerId].types[typeNum];
 }
@@ -338,19 +345,33 @@ static bool32 ShouldHideUnseenType(enum Species species)
 static enum Type GetMonDefensiveTeraType(struct Pokemon *mon, struct Pokemon *monIllusion, enum BattlerId battlerId, u32 typeNum, enum Species illusionSpecies, enum Species monSpecies)
 {
     enum Type teraType = GetBattlerTeraType(battlerId);
-    enum Species targetSpecies;
 
     if (teraType != TYPE_STELLAR)
         return teraType;
 
-    targetSpecies = (monIllusion != NULL) ? illusionSpecies : monSpecies;
+    if (monIllusion != NULL)
+        return GetIllusionPublicType(monIllusion, illusionSpecies, typeNum);
 
-    return GetSpeciesType(targetSpecies, typeNum);
+    // Fusion: Stellar keeps the original types, including the third one.
+    if (typeNum == 2)
+        return gBattleMons[battlerId].types[2];
+
+    return GetSpeciesType(monSpecies, typeNum);
+}
+
+// The types an Illusion disguise shows: its species types plus its own fusion third type.
+static enum Type GetIllusionPublicType(struct Pokemon *monIllusion, enum Species illusionSpecies, u32 typeNum)
+{
+    if (typeNum == 2)
+        return Fusion_GetBoxMonThirdType(&monIllusion->box);
+
+    return GetSpeciesType(illusionSpecies, typeNum);
 }
 
 static bool32 IsIllusionActiveAndTypeUnchanged(struct Pokemon *monIllusion, enum Species monSpecies, enum BattlerId battlerId)
 {
     u32 typeNum;
+    enum Type thirdType;
 
     if (monIllusion == NULL)
         return FALSE;
@@ -359,36 +380,48 @@ static bool32 IsIllusionActiveAndTypeUnchanged(struct Pokemon *monIllusion, enum
         if (GetSpeciesType(monSpecies, typeNum) != gBattleMons[battlerId].types[typeNum])
         return FALSE;
 
+    // Fusion: the third slot is unchanged if it still holds the real mon's own third type (or nothing).
+    thirdType = gBattleMons[battlerId].types[2];
+    if (thirdType == TYPE_MYSTERY || thirdType == gBattleMons[battlerId].types[0] || thirdType == gBattleMons[battlerId].types[1])
+        thirdType = TYPE_NONE;
+    if (thirdType != Fusion_GetBoxMonThirdType(&GetBattlerMon(battlerId)->box))
+        return FALSE;
+
     return TRUE;
 }
 
-static void CreateSpriteFromType(u32 position, bool32 useDoubleBattleCoords, enum Type types[], u32 typeNum, enum BattlerId battler)
+static void CreateSpriteFromType(u32 position, bool32 useDoubleBattleCoords, enum Type type, u32 row, u32 rowCount, enum BattlerId battler)
 {
     s32 x = 0, y = 0;
 
-    if (ShouldSkipSecondType(types, typeNum))
-        return;
+    SetTypeIconXY(&x, &y, position, useDoubleBattleCoords, row, rowCount);
 
-    SetTypeIconXY(&x, &y, position, useDoubleBattleCoords, typeNum);
-
-    CreateSpriteAndSetTypeSpriteAttributes(types[typeNum], x, y, position, battler, useDoubleBattleCoords);
+    CreateSpriteAndSetTypeSpriteAttributes(type, x, y, position, battler, useDoubleBattleCoords);
 }
 
-static bool32 ShouldSkipSecondType(enum Type types[], u32 typeNum)
+// Skips repeated types, and an empty third slot (TYPE_MYSTERY there means "no third type").
+static bool32 ShouldSkipType(enum Type types[], u32 count, enum Type type, u32 typeNum)
 {
-    if (!typeNum)
-        return FALSE;
+    u32 i;
 
-    if (types[0] != types[1])
-        return FALSE;
+    if (typeNum == 2 && (type == TYPE_MYSTERY || type == TYPE_NONE))
+        return TRUE;
 
-    return TRUE;
+    for (i = 0; i < count; i++)
+        if (types[i] == type)
+            return TRUE;
+
+    return FALSE;
 }
 
-static void SetTypeIconXY(s32* x, s32* y, u32 position, bool32 useDoubleBattleCoords, u32 typeNum)
+static void SetTypeIconXY(s32* x, s32* y, u32 position, bool32 useDoubleBattleCoords, u32 row, u32 rowCount)
 {
     *x = sTypeIconPositions[position][useDoubleBattleCoords].x;
-    *y = sTypeIconPositions[position][useDoubleBattleCoords].y + (11 * typeNum);
+    *y = sTypeIconPositions[position][useDoubleBattleCoords].y + (11 * row);
+
+    // Fusion: a column of 3 icons grows upwards on the player side so it stays above the text box.
+    if (rowCount > 2 && GetBattlerSide(GetBattlerAtPosition(position)) == B_SIDE_PLAYER)
+        *y -= 11 * (rowCount - 2);
 }
 
 static void CreateSpriteAndSetTypeSpriteAttributes(enum Type type, u32 x, u32 y, u32 position, enum BattlerId battler, bool32 useDoubleBattleCoords)
