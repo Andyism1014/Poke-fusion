@@ -61,6 +61,7 @@ static void PlayerFaceHiddenItem(enum Direction);
 static void CheckForHiddenItemsInMapConnection(u8);
 static void Task_OpenRegisteredPokeblockCase(u8);
 static void Task_AccessPokemonBoxLink(u8);
+static void Task_UseFusionTerminal(u8);
 static void ItemUseOnFieldCB_Bike(u8);
 static void ItemUseOnFieldCB_Rod(u8);
 static void ItemUseOnFieldCB_Itemfinder(u8);
@@ -743,6 +744,18 @@ void ItemUseOutOfBattle_PokemonBoxLink(u8 taskId)
 static void Task_AccessPokemonBoxLink(u8 taskId)
 {
     ScriptContext_SetupScript(EventScript_AccessPokemonBoxLink);
+    DestroyTask(taskId);
+}
+
+void ItemUseOutOfBattle_FusionTerminal(u8 taskId)
+{
+    sItemUseOnFieldCB = Task_UseFusionTerminal;
+    SetUpItemUseOnFieldCallback(taskId);
+}
+
+static void Task_UseFusionTerminal(u8 taskId)
+{
+    ScriptContext_SetupScript(EventScript_FusionTerminal);
     DestroyTask(taskId);
 }
 

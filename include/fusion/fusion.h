@@ -75,6 +75,15 @@ bool32 Fusion_CanCommitFusion(const struct FusionMonRef *parentA, const struct F
 bool32 Fusion_CommitFusion(const struct FusionMonRef *parentA, const struct FusionMonRef *parentB, struct Pokemon *child);
 bool32 Fusion_NextMaterialRef(struct FusionMonRef *ref);
 
+// fusion_ui.c
+typedef void (*FusionSelectorCallback)(bool32 selected, const struct FusionMonRef *ref);
+u32 Fusion_GetBoxMonIvTotal(struct BoxPokemon *boxMon);
+u32 Fusion_CountMaterials(const struct FusionMonRef *exclude);
+void Fusion_OpenMaterialSelector(const u8 *title, const struct FusionMonRef *exclude, FusionSelectorCallback callback);
+void Fusion_ScriptCountMaterials(void);
+void Fusion_ScriptOpenAppraiseSelector(void);
+void Fusion_ScriptBufferAppraisal(void);
+
 // Called from NewGameInitData.
 void Fusion_NewGameInit(void);
 

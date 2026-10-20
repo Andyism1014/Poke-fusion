@@ -58,6 +58,8 @@ void Fusion_NewGameInit(void)
 
     if (FUSION_NEW_GAME_GIVE_BOX_LINK)
         AddBagItem(ITEM_POKEMON_BOX_LINK, 1);
+    if (FUSION_NEW_GAME_GIVE_TERMINAL)
+        AddBagItem(ITEM_FUSION_TERMINAL, 1);
 
 #if DEXNAV_ENABLED
     if (FUSION_NEW_GAME_GIVE_DEXNAV)

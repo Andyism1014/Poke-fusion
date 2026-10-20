@@ -68,6 +68,7 @@ TEST("Fusion new game init: gives Box Link, DexNav and the default capture mode"
 {
     Fusion_NewGameInit();
     EXPECT(CheckBagHasItem(ITEM_POKEMON_BOX_LINK, 1) == FUSION_NEW_GAME_GIVE_BOX_LINK);
+    EXPECT(CheckBagHasItem(ITEM_FUSION_TERMINAL, 1) == FUSION_NEW_GAME_GIVE_TERMINAL);
     EXPECT(FlagGet(DN_FLAG_DEXNAV_GET) == FUSION_NEW_GAME_GIVE_DEXNAV);
     EXPECT_EQ(Fusion_GetCaptureMode(), FUSION_CAPTURE_MODE_NEW_GAME);
 }

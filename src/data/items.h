@@ -14192,6 +14192,22 @@ const struct ItemInfo gItemsInfo[] =
         .iconPalette = gItemIconPalette_PokemonBoxLink,
     },
 
+    [ITEM_FUSION_TERMINAL] =
+    {
+        .name = ITEM_NAME("Fusion Terminal"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Appraises and fuses\n"
+            "Pokémon from the\n"
+            "party or any Box."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_FusionTerminal,
+        .iconPic = gItemIcon_PokemonBoxLink,
+        .iconPalette = gItemIconPalette_PokemonBoxLink,
+    },
+
     [ITEM_COIN_CASE] =
     {
         .name = ITEM_NAME("Coin Case"),
