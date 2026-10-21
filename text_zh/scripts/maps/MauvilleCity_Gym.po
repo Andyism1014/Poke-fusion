@@ -18,6 +18,15 @@ msgid ""
 "doors all over his GYM! Eccentric!\p"
 "Hey, go for it!$"
 msgstr ""
+"嘿，你好吗？\n"
+"立志成为冠军的{PLAYER}！\p"
+"紫堇道馆的馆主铁旋\n"
+"使用的是电属性的宝可梦。\p"
+"要是用水属性的宝可梦去挑战他，\n"
+"会被电得滋滋响的！\p"
+"而且，他在道馆里到处\n"
+"装了开关控制的门！真古怪！\p"
+"嘿，加油吧！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:270
 msgctxt "MauvilleCity_Gym_Text_GymGuidePostVictory"
@@ -25,6 +34,8 @@ msgid ""
 "Whoa, you're electrifying!\n"
 "You've powered the door open!$"
 msgstr ""
+"哇，你真是电力十足！\n"
+"你用电力把门打开了！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:274
 msgctxt "MauvilleCity_Gym_Text_KirkIntro"
@@ -32,6 +43,8 @@ msgid ""
 "My electric soul, it'll shatter your\n"
 "dreams whole, whoa-yeahah!$"
 msgstr ""
+"我的电之魂，\n"
+"会把你的梦想彻底粉碎，哦耶！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:278
 msgctxt "MauvilleCity_Gym_Text_KirkDefeat"
@@ -39,6 +52,8 @@ msgid ""
 "That was plugged in, amped up,\n"
 "over-driven electric, man!$"
 msgstr ""
+"插上电，充满电，\n"
+"超负荷的电力啊，伙计！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:282
 msgctxt "MauvilleCity_Gym_Text_KirkPostBattle"
@@ -46,6 +61,8 @@ msgid ""
 "POKéMON and rock, it's all about heart,\n"
 "whoa-yeah!$"
 msgstr ""
+"宝可梦和摇滚，\n"
+"最重要的都是心，哦耶！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:286
 msgctxt "MauvilleCity_Gym_Text_ShawnIntro"
@@ -53,11 +70,13 @@ msgid ""
 "I trained under WATTSON!\n"
 "There ain't no way I'll lose easily!$"
 msgstr ""
+"我可是在铁旋手下修行过的！\n"
+"绝对不会轻易认输！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:290
 msgctxt "MauvilleCity_Gym_Text_ShawnDefeat"
 msgid "Unplugged and turned off…$"
-msgstr ""
+msgstr "拔掉插头，关掉电源……$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:293
 msgctxt "MauvilleCity_Gym_Text_ShawnPostBattle"
@@ -67,6 +86,10 @@ msgid ""
 "He was battling even before your\n"
 "daddy was born, that tough coot.$"
 msgstr ""
+"我们的道馆馆主铁旋\n"
+"已经活跃了很久很久。\p"
+"在你爸爸出生之前，他就已经\n"
+"在对战了，真是个硬朗的老头。$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:299
 msgctxt "MauvilleCity_Gym_Text_BenIntro"
@@ -74,11 +97,13 @@ msgid ""
 "This GYM's got puzzles!\n"
 "Isn't it fun?$"
 msgstr ""
+"这个道馆里有机关哦！\n"
+"很好玩吧？$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:303
 msgctxt "MauvilleCity_Gym_Text_BenDefeat"
 msgid "It's no fun to lose…$"
-msgstr ""
+msgstr "输了一点都不好玩……$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:306
 msgctxt "MauvilleCity_Gym_Text_BenPostBattle"
@@ -86,6 +111,8 @@ msgid ""
 "WATTSON says he likes setting up\n"
 "little traps with switches.$"
 msgstr ""
+"铁旋说他喜欢\n"
+"用开关设置一些小机关。$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:310
 msgctxt "MauvilleCity_Gym_Text_VivianIntro"
@@ -93,11 +120,13 @@ msgid ""
 "With my charm and my POKéMON's moves,\n"
 "you'll be shocked!$"
 msgstr ""
+"在我的魅力和宝可梦的招式面前，\n"
+"你会被电到的！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:314
 msgctxt "MauvilleCity_Gym_Text_VivianDefeat"
 msgid "I'm shocked by your power!$"
-msgstr ""
+msgstr "我被你的实力电到了！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:317
 msgctxt "MauvilleCity_Gym_Text_VivianPostBattle"
@@ -108,11 +137,15 @@ msgid ""
 "became TRAINERS.\l"
 "He must know all sorts of things!$"
 msgstr ""
+"听说紫堇市是铁旋建立的。\p"
+"早在我们成为训练家之前，\n"
+"他就已经是训练家了。\l"
+"他一定知道很多事情吧！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:324
 msgctxt "MauvilleCity_Gym_Text_AngeloIntro"
 msgid "I love shiny things!$"
-msgstr ""
+msgstr "我最喜欢闪闪发光的东西了！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:327
 msgctxt "MauvilleCity_Gym_Text_AngeloDefeat"
@@ -120,6 +153,8 @@ msgid ""
 "Oh…\n"
 "My eyes are frazzled…$"
 msgstr ""
+"哦……\n"
+"我的眼睛都花了……$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:331
 msgctxt "MauvilleCity_Gym_Text_AngeloPostBattle"
@@ -127,6 +162,8 @@ msgid ""
 "MAUVILLE GYM's WATTSON has a shiny\n"
 "forehead. It makes me happy!$"
 msgstr ""
+"紫堇道馆的铁旋\n"
+"额头亮晶晶的。看了好开心！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:335
 msgctxt "MauvilleCity_Gym_Text_WattsonIntro"
@@ -143,6 +180,17 @@ msgid ""
 "Then, I, WATTSON, the LEADER of\n"
 "MAUVILLE GYM, shall electrify you!$"
 msgstr ""
+"我已经放弃改造城市的计划了，\n"
+"没错。\p"
+"所以，我就把时间都花在\n"
+"给道馆的门设置机关上了。\p"
+"哦？你在这里做什么？\p"
+"你说什么？你说你已经\n"
+"通过了我设置的所有机关门？\p"
+"哇哈哈哈哈！\n"
+"这可真有意思！\p"
+"那么，就让我——紫堇道馆的\n"
+"馆主铁旋，来电一电你吧！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:348
 msgctxt "MauvilleCity_Gym_Text_WattsonDefeat"
@@ -152,6 +200,10 @@ msgid ""
 "You ended up giving me a thrill!\n"
 "Take this BADGE!$"
 msgstr ""
+"哇哈哈哈哈！\n"
+"好吧，我输了！\p"
+"你让我感到很刺激！\n"
+"收下这枚徽章吧！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:354
 msgctxt "MauvilleCity_Gym_Text_ReceivedDynamoBadge"
@@ -159,6 +211,8 @@ msgid ""
 "{PLAYER} received the DYNAMO BADGE\n"
 "from WATTSON.$"
 msgstr ""
+"{PLAYER}从铁旋那里\n"
+"得到了发电徽章。$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:358
 msgctxt "MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis"
@@ -170,6 +224,12 @@ msgid ""
 "Hmm…\n"
 "You should take this, too!$"
 msgstr ""
+"有了发电徽章，宝可梦就能\n"
+"在对战以外使用碎岩。\p"
+"而且，还能让你的宝可梦\n"
+"稍微变快一点。\p"
+"嗯……\n"
+"这个你也拿去吧！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:366
 msgctxt "MauvilleCity_Gym_Text_ExplainShockWave"
@@ -179,6 +239,10 @@ msgid ""
 "misses! You can count on it!\p"
 "… … … … … …$"
 msgstr ""
+"这个招式学习器34里是电击波。\p"
+"这是个绝对不会落空的可靠招式！\n"
+"你可以放心使用！\p"
+"…… …… ……$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:372
 msgctxt "MauvilleCity_Gym_Text_RegisteredWattson"
@@ -186,6 +250,8 @@ msgid ""
 "Registered GYM LEADER WATTSON\n"
 "in the POKéNAV.$"
 msgstr ""
+"在宝可梦导航中\n"
+"登记了道馆馆主铁旋。$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:376
 msgctxt "MauvilleCity_Gym_Text_WattsonPostBattle"
@@ -193,6 +259,8 @@ msgid ""
 "I swell with optimism, seeing a promising\n"
 "young TRAINER like you!$"
 msgstr ""
+"看到像你这样前途无量的\n"
+"年轻训练家，我真是充满了希望！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:380
 msgctxt "MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor"
@@ -200,11 +268,13 @@ msgid ""
 "Wahahahah!\n"
 "Go forth and endeavor, youngster!$"
 msgstr ""
+"哇哈哈哈哈！\n"
+"去吧，年轻人，好好努力吧！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:384
 msgctxt "MauvilleCity_Gym_Text_GymStatue"
 msgid "MAUVILLE CITY POKéMON GYM$"
-msgstr ""
+msgstr "紫堇市宝可梦道馆$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:387
 msgctxt "MauvilleCity_Gym_Text_GymStatueCertified"
@@ -213,6 +283,9 @@ msgid ""
 "WATTSON'S CERTIFIED TRAINERS:\n"
 "{PLAYER}$"
 msgstr ""
+"紫堇市宝可梦道馆\p"
+"铁旋认可的训练家：\n"
+"{PLAYER}$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:392
 msgctxt "MauvilleCity_Gym_Text_WattsonPreRematch"
@@ -224,6 +297,12 @@ msgid ""
 "I'll make sparks fly from you!\n"
 "Don't say I didn't warn you!$"
 msgstr ""
+"铁旋：啊哈！你终于来了！\n"
+"我知道你想做什么。\l"
+"你想和我的宝可梦对战吧！\p"
+"哇哈哈哈哈！\p"
+"我会电得你火花四溅！\n"
+"可别说我没提醒过你哦！$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:400
 msgctxt "MauvilleCity_Gym_Text_WattsonRematchDefeat"
@@ -231,6 +310,8 @@ msgid ""
 "Oof…\n"
 "Our batteries ran dry…$"
 msgstr ""
+"唔……\n"
+"我们的电池没电了……$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:404
 msgctxt "MauvilleCity_Gym_Text_WattsonPostRematch"
@@ -242,6 +323,11 @@ msgid ""
 "So, come back again sometime,\n"
 "won't you?$"
 msgstr ""
+"铁旋：我们得重新给电池充电了。\p"
+"等我们充满电以后，\n"
+"很乐意再接受你的挑战。\p"
+"所以，以后再来吧，\n"
+"好吗？$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:412
 msgctxt "MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons"
@@ -255,3 +341,11 @@ msgid ""
 "Come see me with two or more\n"
 "POKéMON, all right?$"
 msgstr ""
+"铁旋：啊哈！你终于来了！\n"
+"我知道你想做什么。\l"
+"你想和我的宝可梦对战吧！\p"
+"哇哈哈哈哈！\p"
+"哎呀！等一下！\n"
+"你只带了1只宝可梦啊！\p"
+"带上2只以上的宝可梦\n"
+"再来找我吧，好吗？$"

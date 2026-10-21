@@ -8,7 +8,7 @@ msgstr ""
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:629
 msgctxt "MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner"
 msgid "This is MAUVILLE GAME CORNER.$"
-msgstr ""
+msgstr "这里是紫堇游戏城。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:632
 msgctxt "MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins"
@@ -18,6 +18,9 @@ msgid ""
 "But you don't have a COIN CASE for\n"
 "stowing the COINS.$"
 msgstr ""
+"好的，你想要玩游戏用的代币吗？\p"
+"可是你没有用来\n"
+"装代币的代币盒。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:638
 msgctxt "MauvilleCity_GameCorner_Text_WereYouLookingForCoins"
@@ -26,6 +29,9 @@ msgid ""
 "It's ¥1000 for 50 COINS.\n"
 "Would you like some?$"
 msgstr ""
+"你是要买代币吗？\p"
+"50枚代币1000元。\n"
+"要买吗？$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:643
 msgctxt "MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins"
@@ -33,6 +39,8 @@ msgid ""
 "Thank you very much!\n"
 "Here are your COINS!$"
 msgstr ""
+"非常感谢！\n"
+"这是你的代币！$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:647
 msgctxt "MauvilleCity_GameCorner_Text_DontHaveEnoughMoney"
@@ -40,6 +48,8 @@ msgid ""
 "Um… You don't appear to have\n"
 "enough money…$"
 msgstr ""
+"呃……你的钱\n"
+"好像不够……$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:651
 msgctxt "MauvilleCity_GameCorner_Text_CoinCaseIsFull"
@@ -47,6 +57,8 @@ msgid ""
 "Oh?\n"
 "Your COIN CASE is full.$"
 msgstr ""
+"哎呀？\n"
+"你的代币盒已经满了。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:655
 msgctxt "MauvilleCity_GameCorner_Text_DontNeedCoinsThen"
@@ -54,6 +66,8 @@ msgid ""
 "Oh… You don't need COINS, then?\n"
 "Good luck on your adventure!$"
 msgstr ""
+"哦……你不需要代币吗？\n"
+"祝你冒险顺利！$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:659
 msgctxt "MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes"
@@ -62,11 +76,14 @@ msgid ""
 "You can exchange your COINS for\n"
 "prizes here.$"
 msgstr ""
+"欢迎光临。\p"
+"你可以在这里\n"
+"用代币兑换奖品。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:664
 msgctxt "MauvilleCity_GameCorner_Text_WhichPrize"
 msgid "Which prize would you like?$"
-msgstr ""
+msgstr "你想要哪一种奖品？$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:667
 msgctxt "MauvilleCity_GameCorner_Text_SoYourChoiceIsTheTMX"
@@ -74,6 +91,8 @@ msgid ""
 "So your choice is\n"
 "the {STR_VAR_1} {STR_VAR_2}?$"
 msgstr ""
+"你要选择的是\n"
+"{STR_VAR_1}{STR_VAR_2}吗？$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:671
 msgctxt "MauvilleCity_GameCorner_Text_SendToYourHomePC"
@@ -81,11 +100,13 @@ msgid ""
 "Thank you!\n"
 "We'll send it to your PC at home.$"
 msgstr ""
+"谢谢！\n"
+"我们会把它送到你家的电脑里。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:675
 msgctxt "MauvilleCity_GameCorner_Text_NotEnoughCoins"
 msgid "You don't have enough COINS.$"
-msgstr ""
+msgstr "你的代币不够。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:679
 msgctxt "MauvilleCity_GameCorner_Text_NoRoomForPlacingDecor"
@@ -93,6 +114,8 @@ msgid ""
 "There isn't any room available for\n"
 "placing {STR_VAR_1}.$"
 msgstr ""
+"已经没有地方\n"
+"可以放{STR_VAR_1}了。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:683
 msgctxt "MauvilleCity_GameCorner_Text_OhIsThatSo"
@@ -101,21 +124,23 @@ msgid ""
 "You need to save some COINS before\l"
 "coming back here.$"
 msgstr ""
+"哦，是吗？\n"
+"请攒够代币以后再来吧。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:688
 msgctxt "MauvilleCity_GameCorner_Text_SoYourChoiceIsX"
 msgid "So your choice is {STR_VAR_1}?$"
-msgstr ""
+msgstr "你要选择的是{STR_VAR_1}吗？$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:691
 msgctxt "MauvilleCity_GameCorner_Text_HereYouGo"
 msgid "Here you go!$"
-msgstr ""
+msgstr "给你！$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:695
 msgctxt "MauvilleCity_GameCorner_Text_CantCarryAnyMore"
 msgid "Oh, you can't carry any more than that.$"
-msgstr ""
+msgstr "哎呀，你已经拿不下更多了。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:698
 msgctxt "MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne"
@@ -124,11 +149,14 @@ msgid ""
 "the same DOLLS.\p"
 "Would you like one of them?$"
 msgstr ""
+"我不小心拿到了\n"
+"两个一模一样的玩偶。\p"
+"你想要其中一个吗？$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:703
 msgctxt "MauvilleCity_GameCorner_Text_HereYouGo2"
 msgid "Here you go!$"
-msgstr ""
+msgstr "给你！$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:706
 msgctxt "MauvilleCity_GameCorner_Text_YouWantItButNotNow"
@@ -136,6 +164,8 @@ msgid ""
 "Huh?\n"
 "You want it, but not right now?$"
 msgstr ""
+"咦？\n"
+"你想要，但不是现在？$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:710
 msgctxt "MauvilleCity_GameCorner_Text_DontBeNegative"
@@ -143,6 +173,8 @@ msgid ""
 "Oh, don't be so negative!\n"
 "You can have this!$"
 msgstr ""
+"哎呀，别这么消极嘛！\n"
+"这个送给你！$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:714
 msgctxt "MauvilleCity_GameCorner_Text_CantWinJackpot"
@@ -150,6 +182,8 @@ msgid ""
 "There's a prize I want, but I can't win\n"
 "the jackpot.$"
 msgstr ""
+"我有一个想要的奖品，\n"
+"可是怎么也中不了大奖。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:718
 msgctxt "MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor"
@@ -159,6 +193,10 @@ msgid ""
 "I think the young lady next door\n"
 "had one. Go see her!$"
 msgstr ""
+"喂，小朋友，想在这里玩的话，\n"
+"你需要一个代币盒。\p"
+"我记得隔壁的大姐姐有一个。\n"
+"去找她吧！$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:724
 msgctxt "MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins"
@@ -167,6 +205,9 @@ msgid ""
 "This is too much for me.\l"
 "Here, take some COINS!$"
 msgstr ""
+"我的好运总不会一直持续下去。\n"
+"这些对我来说太多了。\l"
+"来，拿些代币去吧！$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:729
 msgctxt "MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone"
@@ -175,6 +216,9 @@ msgid ""
 "everyone.\p"
 "For me, it's the GAME CORNER.$"
 msgstr ""
+"紫堇市有能让\n"
+"每个人都喜欢的东西。\p"
+"对我来说，就是游戏城。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:734
 msgctxt "MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates"
@@ -184,6 +228,9 @@ msgid ""
 "Check your COINS if you're going to\n"
 "pick a table.$"
 msgstr ""
+"每张轮盘桌的倍率都不一样。\p"
+"要选桌子的话，\n"
+"先看看你有多少代币吧。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:740
 msgctxt "MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime"
@@ -191,6 +238,8 @@ msgid ""
 "It's easy to lose track of time in here. \n"
 "I should get back to work.$"
 msgstr ""
+"在这里一不小心\n"
+"就会忘了时间。我得回去工作了。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:744
 msgctxt "MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay"
@@ -198,6 +247,8 @@ msgid ""
 "COINS are needed to play here\n"
 "in the GAME CORNER.$"
 msgstr ""
+"在游戏城里玩游戏\n"
+"需要代币。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:748
 msgctxt "MauvilleCity_GameCorner_Text_RouletteOnlyLuck"
@@ -206,6 +257,9 @@ msgid ""
 "It's rather demanding.\p"
 "Win or lose, it's only by luck.$"
 msgstr ""
+"这个轮盘啊……\n"
+"还真是难搞。\p"
+"输赢全都只能靠运气。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:753
 msgctxt "MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed"
@@ -213,6 +267,8 @@ msgid ""
 "Up to three COINS can be used to play\n"
 "the SLOTS.$"
 msgstr ""
+"玩老虎机时\n"
+"最多可以投入3枚代币。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:757
 msgctxt "MauvilleCity_GameCorner_Text_DifficultToStopOn7"
@@ -222,6 +278,10 @@ msgid ""
 "If it stops on “7” during the REEL TIME\n"
 "bonus game, you'll receive extra COINS.$"
 msgstr ""
+"要让它正好停在“7”上\n"
+"是非常难的。\p"
+"如果在幸运时间的奖励游戏中\n"
+"停在“7”上，就能得到额外的代币。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:763
 msgctxt "MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo"
@@ -237,6 +297,16 @@ msgid ""
 "That would total 660 COINS, but it's\n"
 "very difficult to get.$"
 msgstr ""
+"告诉你一些\n"
+"关于老虎机的情报吧。\p"
+"闪电储存得越多，\n"
+"就越有机会进入幸运时间。\p"
+"在最多有5次\n"
+"幸运时间机会的游戏里……\p"
+"有可能先中4次普通奖励，\n"
+"然后再中1次大奖。\p"
+"那样总共能得到660枚代币，\n"
+"不过非常难做到。$"
 
 #: data/maps/MauvilleCity_GameCorner/scripts.inc:775
 msgctxt "MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase"
@@ -244,3 +314,5 @@ msgid ""
 "You can't play if you don't have\n"
 "a COIN CASE.$"
 msgstr ""
+"没有代币盒的话\n"
+"是不能玩的。$"

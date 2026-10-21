@@ -13,6 +13,10 @@ msgid ""
 "Oh.\n"
 "Your POKéMON…$"
 msgstr ""
+"让我看看你的宝可梦。\n"
+"我来看看它有多喜欢你。\p"
+"哦。\n"
+"你的宝可梦……$"
 
 #: data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc:71
 msgctxt "VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou"
@@ -21,6 +25,9 @@ msgid ""
 "It can't possibly love you any more.\l"
 "I even feel happy seeing it.$"
 msgstr ""
+"它非常非常喜欢你。\n"
+"已经不可能更爱你了。\l"
+"连我看着都觉得好幸福。$"
 
 #: data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc:76
 msgctxt "VerdanturfTown_FriendshipRatersHouse_Text_VeryHappy"
@@ -28,6 +35,8 @@ msgid ""
 "It seems to be very happy.\n"
 "It obviously likes you a whole lot.$"
 msgstr ""
+"它看起来非常幸福。\n"
+"很明显它非常喜欢你。$"
 
 #: data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc:80
 msgctxt "VerdanturfTown_FriendshipRatersHouse_Text_LikesYouQuiteALot"
@@ -35,6 +44,8 @@ msgid ""
 "It likes you quite a lot.\n"
 "It seems to want to be babied a little.$"
 msgstr ""
+"它相当喜欢你。\n"
+"好像有点想跟你撒娇呢。$"
 
 #: data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc:84
 msgctxt "VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou"
@@ -42,6 +53,8 @@ msgid ""
 "It's getting used to you.\n"
 "It seems to believe in you.$"
 msgstr ""
+"它渐渐跟你熟悉起来了。\n"
+"好像很信任你。$"
 
 #: data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc:88
 msgctxt "VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou"
@@ -49,6 +62,8 @@ msgid ""
 "It's not very used to you yet.\n"
 "It neither loves nor hates you.$"
 msgstr ""
+"它还不太习惯你。\n"
+"既不喜欢你，也不讨厌你。$"
 
 #: data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc:92
 msgctxt "VerdanturfTown_FriendshipRatersHouse_Text_VeryWary"
@@ -57,6 +72,9 @@ msgid ""
 "It has scary viciousness in its eyes.\l"
 "It doesn't like you much at all.$"
 msgstr ""
+"它非常警惕。\n"
+"眼神凶狠得吓人。\l"
+"它一点都不喜欢你。$"
 
 #: data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc:97
 msgctxt "VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou"
@@ -65,8 +83,11 @@ msgid ""
 "Your POKéMON simply detests you.\n"
 "Doesn't that make you uncomfortable?$"
 msgstr ""
+"这话我有点难以开口……\p"
+"你的宝可梦非常讨厌你。\n"
+"你不觉得心里不舒服吗？$"
 
 #: data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.inc:102
 msgctxt "VerdanturfTown_FriendshipRatersHouse_Text_Pikachu"
 msgid "PIKACHU: Pika pika!$"
-msgstr ""
+msgstr "皮卡丘：皮卡皮卡！$"

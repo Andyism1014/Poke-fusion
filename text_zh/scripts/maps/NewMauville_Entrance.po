@@ -8,12 +8,12 @@ msgstr ""
 #: data/maps/NewMauville_Entrance/scripts.inc:49
 msgctxt "NewMauville_Entrance_Text_DoorIsLocked"
 msgid "The door is locked.$"
-msgstr ""
+msgstr "门锁着。$"
 
 #: data/maps/NewMauville_Entrance/scripts.inc:52
 msgctxt "NewMauville_Entrance_Text_UseBasementKey"
 msgid "Use the BASEMENT KEY?$"
-msgstr ""
+msgstr "要使用地下钥匙吗？$"
 
 #: data/maps/NewMauville_Entrance/scripts.inc:55
 msgctxt "NewMauville_Entrance_Text_UsedBasementKey"
@@ -21,3 +21,5 @@ msgid ""
 "{PLAYER} used the BASEMENT KEY.\p"
 "The door opened!$"
 msgstr ""
+"{PLAYER}使用了地下钥匙。\p"
+"门打开了！$"
