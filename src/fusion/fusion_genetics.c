@@ -68,6 +68,10 @@ bool32 Fusion_CanBePassive(enum Ability ability)
     switch (ability)
     {
     case ABILITY_GULP_MISSILE:
+    // Placeholder slots and abilities the engine doesn't implement yet.
+    case ABILITY_314:
+    case ABILITY_317:
+    case ABILITY_AURA_GUARD:
         return FALSE;
     default:
         return TRUE;

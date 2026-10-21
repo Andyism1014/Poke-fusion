@@ -3,6 +3,7 @@
 #include "item.h"
 #include "load_save.h"
 #include "save.h"
+#include "string_util.h"
 #include "fusion/fusion.h"
 #include "test/test.h"
 
@@ -133,3 +134,12 @@ TEST("New Game+ trainers are stronger and have passives")
     gSaveBlock3Ptr->fusionTower.ngPlusCount = 0;
 }
 
+
+TEST("Random passives are always real, named abilities")
+{
+    for (enum Ability ability = 1; ability < ABILITIES_COUNT; ability++)
+    {
+        if (Fusion_CanBePassive(ability))
+            EXPECT_NE(StringCompare(gAbilitiesInfo[ability].name, gAbilitiesInfo[ABILITY_NONE].name), 0);
+    }
+}
