@@ -1,0 +1,5 @@
+# Chinese build check, from boot_to_overworld's overworld.ss0: START -> SAVE -> message box with YES/NO.
+press START 2 30
+tap DOWN 3 8        # DEXNAV, BAG, PLAYER, SAVE
+press A 2 120
+shot save_prompt

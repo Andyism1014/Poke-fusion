@@ -1,0 +1,10 @@
+# Power-on -> title screen -> main menu (Chinese build check: NEW GAME / OPTION)
+wait 600            # copyright, splash, intro starts
+press START 2       # skip intro -> title animation
+wait 600
+shot title
+press START 2 120   # title -> main menu
+shot main_menu
+press DOWN 2 20
+press A 2 240       # OPTION
+shot option

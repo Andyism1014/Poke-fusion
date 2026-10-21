@@ -1,0 +1,33 @@
+# Chinese build check, from boot_to_overworld's overworld.ss0:
+# debug Set Party -> debug wild battle -> move menu -> party -> summary pages.
+hold R+START 3 40   # debug menu
+tap DOWN 2 8        # Party...
+press A 2 30
+tap DOWN 9 8        # Set Party
+press A 2 60
+wait 120
+hold R+START 3 40
+tap DOWN 2 8        # Party...
+press A 2 30
+tap DOWN 10 8       # Start Debug Battle
+press A 2 60
+wait 900
+shot battle_intro
+tap A 3 60
+wait 200
+shot battle_menu
+press A 2 40        # FIGHT
+shot battle_moves
+press B 2 40
+press DOWN 2 20     # POKéMON
+press A 2 120
+shot party
+press DOWN 2 20     # second party slot
+press A 2 30
+press DOWN 2 20     # SUMMARY
+press A 2 150
+shot summary_info
+press RIGHT 2 60
+shot summary_skills
+press RIGHT 2 60
+shot summary_moves

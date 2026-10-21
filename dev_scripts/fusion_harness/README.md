@@ -36,3 +36,7 @@
    `./run.sh --state out/setup/mons.ss0 pokeemerald.gba scripts/terminal_fuse.txt out/fuse`
 
 注意：调试菜单会记住上次的光标位置；列表滚动时，截图里的光标会比实际慢一帧刷新。
+
+## 中文版
+
+`scripts/zh_main_menu.txt`、`scripts/zh_save_prompt.txt`、`scripts/zh_battle_summary.txt` 用来检查中文版（`pokeemerald-zh.gba`）的主菜单、对话框、战斗和能力页，用法见 [`docs/fusion/CHINESE.md`](../../docs/fusion/CHINESE.md)。

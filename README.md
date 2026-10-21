@@ -78,7 +78,10 @@ See [`INSTALL.md`](INSTALL.md) to set up the toolchain. The steps are the same a
 make -j$(nproc)            # development build: pokeemerald.gba, with the debug menu (R + START)
 make release -j$(nproc)    # release build: pokeemerald-release.gba, no debug features, recommended for playing
 make check -j$(nproc)      # run the test suite
+make chinese -j$(nproc)    # Simplified Chinese version: pokeemerald-zh.gba (add `release` for pokeemerald-zh-release.gba)
 ```
+
+The Chinese version is built from the same sources, with the translations in `text_zh/`. See [`docs/fusion/CHINESE.md`](docs/fusion/CHINESE.md) for how it works and how to translate.
 
 > [!NOTE]
 > Don't use GitHub's "Download ZIP" option. It doesn't include the commit history, which you need to merge upstream updates. Use `git clone` instead.
@@ -89,6 +92,7 @@ make check -j$(nproc)      # run the test suite
 - [`docs/fusion/UX_REVIEW.md`](docs/fusion/UX_REVIEW.md): the UX review and the improvements that came out of it.
 - [`docs/fusion/research/`](docs/fusion/research/): research notes on multiple abilities, triple types and the save format.
 - [`dev_scripts/fusion_harness/`](dev_scripts/fusion_harness/): a headless mGBA harness that runs scripted inputs, takes screenshots and saves and loads states.
+- [`docs/fusion/CHINESE.md`](docs/fusion/CHINESE.md): the Simplified Chinese build and the translation workflow.
 - Code is in `src/fusion/`, `include/fusion/` and `data/scripts/fusion.inc`. Tests are in `test/fusion/`.
 - Tunable values are in [`include/fusion/fusion_config.h`](include/fusion/fusion_config.h): inheritance odds, wild gene odds, tower difficulty and more.
 
@@ -108,4 +112,6 @@ Based off RHH's pokeemerald-expansion 1.17.2 https://github.com/rh-hideout/pokee
   - The contributors are listed in [`CREDITS.md`](CREDITS.md). Please consider crediting them too.
   - The engine's features are listed in [`FEATURES.md`](FEATURES.md), and its documentation is at [rh-hideout.github.io/pokeemerald-expansion](https://rh-hideout.github.io/pokeemerald-expansion/).
 - **[pret](https://github.com/pret/pokeemerald)** made the `pokeemerald` decompilation that `pokeemerald-expansion` is built on.
+- The Chinese version uses glyphs from **[Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font)** by TakWolf, licensed under the [SIL Open Font License 1.1](graphics/fonts/zh/OFL.txt) (see [`graphics/fonts/zh/`](graphics/fonts/zh/)).
+- The official Chinese names of Pokémon, moves, abilities and items come from **[PokeAPI](https://github.com/PokeAPI/pokeapi)**.
 - Pokémon and all related names and images are © Nintendo, Game Freak, Creatures and The Pokémon Company.
