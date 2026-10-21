@@ -1755,11 +1755,10 @@ msgctxt "src/data/pokemon/species_info/gen_9_families.h"
 msgid "Houndstone"
 msgstr "墓扬犬"
 
-#. PokeAPI
 #: src/data/pokemon/species_info/gen_9_families.h:4908
 msgctxt "src/data/pokemon/species_info/gen_9_families.h"
 msgid "Flamigo"
-msgstr "纏红鹤"
+msgstr "缠红鹤"
 
 #. PokeAPI
 #: src/data/pokemon/species_info/gen_9_families.h:4911
@@ -1863,11 +1862,10 @@ msgctxt "src/data/pokemon/species_info/gen_9_families.h"
 msgid "Sandy Shocks"
 msgstr "沙铁皮"
 
-#. PokeAPI
 #: src/data/pokemon/species_info/gen_9_families.h:6017
 msgctxt "src/data/pokemon/species_info/gen_9_families.h"
 msgid "Iron Treads"
-msgstr "铁轍迹"
+msgstr "铁辙迹"
 
 #. PokeAPI
 #: src/data/pokemon/species_info/gen_9_families.h:6084

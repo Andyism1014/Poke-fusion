@@ -2562,11 +2562,10 @@ msgctxt "src/data/pokemon/species_info/gen_3_families.h"
 msgid "Cheering"
 msgstr "加油"
 
-#. PokeAPI
 #: src/data/pokemon/species_info/gen_3_families.h:5750
 msgctxt "src/data/pokemon/species_info/gen_3_families.h"
 msgid "Minun"
-msgstr "負电拍拍"
+msgstr "负电拍拍"
 
 #. PokeAPI
 #: src/data/pokemon/species_info/gen_3_families.h:5829

@@ -139,7 +139,7 @@ msgstr "日照岩户"
 
 #: src/landmark.c:52 src/data/region_map/region_map_entries.h:595
 msgid "ANCIENT TOMB"
-msgstr "古代塚"
+msgstr "古代冢"
 
 #: src/landmark.c:53 src/data/region_map/region_map_entries.h:560
 msgid "SEALED CHAMBER"
