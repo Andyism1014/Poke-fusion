@@ -8,12 +8,12 @@ msgstr ""
 #: data/text/check_furniture.inc:1
 msgctxt "Text_PictureBookShelf"
 msgid "There's a set of POKéMON picture books.$"
-msgstr ""
+msgstr "这里有一套宝可梦绘本。$"
 
 #: data/text/check_furniture.inc:4
 msgctxt "Text_BookShelf"
 msgid "It's filled with all sorts of books.$"
-msgstr ""
+msgstr "里面放满了各种各样的书。$"
 
 #: data/text/check_furniture.inc:7
 msgctxt "Text_PokemonCenterBookShelf"
@@ -23,6 +23,10 @@ msgid ""
 "POKéMON HANDBOOK…\n"
 "ADORABLE POKéMON…$"
 msgstr ""
+"宝可梦杂志！\n"
+"《宝可梦伙伴》……\p"
+"《宝可梦手册》……\n"
+"《可爱的宝可梦》……$"
 
 #: data/text/check_furniture.inc:13
 msgctxt "Text_Vase"
@@ -31,11 +35,14 @@ msgid ""
 "Peered inside…\p"
 "But, it was empty.$"
 msgstr ""
+"这个花瓶看起来很贵……\n"
+"往里面看了看……\p"
+"但是，里面是空的。$"
 
 #: data/text/check_furniture.inc:18
 msgctxt "Text_EmptyTrashCan"
 msgid "It's empty.$"
-msgstr ""
+msgstr "里面是空的。$"
 
 #: data/text/check_furniture.inc:21
 msgctxt "Text_ShopShelf"
@@ -43,6 +50,8 @@ msgid ""
 "The shelves brim with all sorts of\n"
 "POKéMON merchandise.$"
 msgstr ""
+"架子上摆满了\n"
+"各种各样的宝可梦周边商品。$"
 
 #: data/text/check_furniture.inc:25
 msgctxt "Text_Blueprint"
@@ -50,3 +59,5 @@ msgid ""
 "A blueprint of some sort?\n"
 "It's too complicated!$"
 msgstr ""
+"这是某种设计图吗？\n"
+"太复杂了！$"

@@ -8,7 +8,7 @@ msgstr ""
 #: data/scripts/lilycove_lady.inc:523
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_ImTheFavorLady"
 msgid "I'm the FAVOR LADY…$"
-msgstr ""
+msgstr "我是讨要大姐姐……$"
 
 #: data/scripts/lilycove_lady.inc:526
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_ObsessedWithThing"
@@ -16,6 +16,8 @@ msgid ""
 "I've recently developed an obsession\n"
 "for {STR_VAR_1} things…$"
 msgstr ""
+"我最近迷上了\n"
+"{STR_VAR_1}的东西……$"
 
 #: data/scripts/lilycove_lady.inc:530
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_ThankYouForLastTime"
@@ -23,6 +25,8 @@ msgid ""
 "Oh…\n"
 "Thank you for last time…$"
 msgstr ""
+"哦……\n"
+"上次谢谢你了……$"
 
 #: data/scripts/lilycove_lady.inc:534
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_PlayerGaveMeBadThing"
@@ -33,6 +37,11 @@ msgid ""
 "But it wasn't {STR_VAR_1}.\n"
 "Not in the least bit.$"
 msgstr ""
+"之前，我记得是{STR_VAR_3}……\p"
+"{STR_VAR_3}送给我一个{STR_VAR_2}，\n"
+"说它是{STR_VAR_1}的。\p"
+"可是它一点也不\n"
+"{STR_VAR_1}。$"
 
 #: data/scripts/lilycove_lady.inc:541
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_PlayerGaveMeGreatThing"
@@ -41,6 +50,9 @@ msgid ""
 "{STR_VAR_1} {STR_VAR_2}.\p"
 "I cherish it now.$"
 msgstr ""
+"之前，{STR_VAR_3}送给我一个\n"
+"非常{STR_VAR_1}的{STR_VAR_2}。\p"
+"我现在可珍惜它了。$"
 
 #: data/scripts/lilycove_lady.inc:546
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_WillYouShareThing"
@@ -49,6 +61,9 @@ msgid ""
 "is {STR_VAR_1}, will you share it\l"
 "with me?$"
 msgstr ""
+"听我说，如果你有什么\n"
+"{STR_VAR_1}的东西，\l"
+"能分给我吗？$"
 
 #: data/scripts/lilycove_lady.inc:551
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_WhatWillYouGiveMe"
@@ -56,6 +71,8 @@ msgid ""
 "…Really?\n"
 "What will you give me?$"
 msgstr ""
+"……真的吗？\n"
+"你要给我什么呢？$"
 
 #: data/scripts/lilycove_lady.inc:555
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_IsThatSoGoodbye"
@@ -63,6 +80,8 @@ msgid ""
 "Is that so?\n"
 "Then, it's good-bye…$"
 msgstr ""
+"是吗？\n"
+"那么，再见了……$"
 
 #: data/scripts/lilycove_lady.inc:559
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_NotWillingToShare"
@@ -70,6 +89,8 @@ msgid ""
 "Oh…\n"
 "You're not willing to share?$"
 msgstr ""
+"哦……\n"
+"你不愿意分给我吗？$"
 
 #: data/scripts/lilycove_lady.inc:563
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_IllTryToCherishIt"
@@ -80,6 +101,11 @@ msgid ""
 "Well, I owe you a thanks anyway.\n"
 "I'll try to cherish it…$"
 msgstr ""
+"哦？\n"
+"那个{STR_VAR_2}是{STR_VAR_1}的？\p"
+"……哦，是这样吗？\p"
+"好吧，总之还是要谢谢你。\n"
+"我会试着好好珍惜它的……$"
 
 #: data/scripts/lilycove_lady.inc:570
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_IWillCherishThis"
@@ -92,6 +118,13 @@ msgid ""
 "Thank you…\n"
 "I will cherish this…$"
 msgstr ""
+"哦……\p"
+"这真是个相当{STR_VAR_1}的\n"
+"{STR_VAR_2}……\p"
+"很不错吧？\n"
+"真像在做梦一样……\p"
+"谢谢你……\n"
+"我会好好珍惜它的……$"
 
 #: data/scripts/lilycove_lady.inc:579
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_IWillTreasureThis"
@@ -105,6 +138,13 @@ msgid ""
 "I will treasure this for the rest\n"
 "of my life!$"
 msgstr ""
+"……哦，哦，哦……\p"
+"太了不起了！\n"
+"这真的是{STR_VAR_1}的！\p"
+"我从来不知道一个{STR_VAR_2}\n"
+"可以这么{STR_VAR_1}！\p"
+"谢谢你！\p"
+"我会把它当作一辈子的宝贝！$"
 
 #: data/scripts/lilycove_lady.inc:589
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_IllGiveYouThisInReturn"
@@ -113,6 +153,9 @@ msgid ""
 "return for your fabulous gift.\p"
 "I hope you will cherish it…$"
 msgstr ""
+"为了回报你这份很棒的礼物，\n"
+"我送你这个好东西。\p"
+"希望你会珍惜它……$"
 
 #: data/scripts/lilycove_lady.inc:594
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_YouDontHaveSpaceForIt"
@@ -122,6 +165,10 @@ msgid ""
 "Please come see me when you get\n"
 "your BAG organized…$"
 msgstr ""
+"哎呀，你没有地方放的话，\n"
+"就没法收下它了。\p"
+"请整理好背包\n"
+"之后再来找我吧……$"
 
 #: data/scripts/lilycove_lady.inc:600
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_ImTheQuizLady"
@@ -129,6 +176,8 @@ msgid ""
 "I'm the QUIZ LADY!\n"
 "I love quizzes!$"
 msgstr ""
+"我是猜谜大姐姐！\n"
+"我最喜欢猜谜了！$"
 
 #: data/scripts/lilycove_lady.inc:604
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_WaitingToTakeYourQuiz"
@@ -138,6 +187,10 @@ msgid ""
 "the quiz you made.\p"
 "We can chat another time, okay?$"
 msgstr ""
+"哦？\p"
+"我正在等挑战者\n"
+"来回答你出的题目。\p"
+"我们下次再聊，好吗？$"
 
 #: data/scripts/lilycove_lady.inc:610
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_WaitingForChallenger"
@@ -145,6 +198,8 @@ msgid ""
 "I'm waiting for someone to challenge\n"
 "a quiz this {STR_VAR_1} thought up!$"
 msgstr ""
+"我正在等人来挑战\n"
+"这位{STR_VAR_1}出的题目！$"
 
 #: data/scripts/lilycove_lady.inc:614
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_TakeQuizChallenge"
@@ -154,6 +209,9 @@ msgid ""
 "Would you like to take the quiz\n"
 "challenge?$"
 msgstr ""
+"如果答对了，\n"
+"就能赢得很棒的奖品！\p"
+"要挑战猜谜吗？$"
 
 #: data/scripts/lilycove_lady.inc:620
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_WaitForAnswer"
@@ -161,6 +219,8 @@ msgid ""
 "… … … … … …\n"
 "… … … … … …$"
 msgstr ""
+"…… …… ……\n"
+"…… …… ……$"
 
 #: data/scripts/lilycove_lady.inc:624
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_HowBoringBye"
@@ -168,6 +228,8 @@ msgid ""
 "Oh, how boring!\n"
 "Bye-bye!$"
 msgstr ""
+"哎呀，真没意思！\n"
+"拜拜！$"
 
 #: data/scripts/lilycove_lady.inc:628
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_YoureGoingToQuit"
@@ -175,6 +237,8 @@ msgid ""
 "Awww!\n"
 "You're going to quit?$"
 msgstr ""
+"啊——！\n"
+"你要放弃了吗？$"
 
 #: data/scripts/lilycove_lady.inc:632
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_TakeTheQuizAnotherTime"
@@ -182,6 +246,8 @@ msgid ""
 "Please take the quiz challenge\n"
 "another time!$"
 msgstr ""
+"下次再来\n"
+"挑战猜谜吧！$"
 
 #: data/scripts/lilycove_lady.inc:636
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_YouGotItRight"
@@ -189,6 +255,8 @@ msgid ""
 "You're amazing! You've got it right!\n"
 "You're one sharp customer!$"
 msgstr ""
+"太厉害了！你答对了！\n"
+"你可真聪明！$"
 
 #: data/scripts/lilycove_lady.inc:640
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_YouGotItRightYouveWonPersonsPrize"
@@ -198,6 +266,10 @@ msgid ""
 "You've won a prize provided by\n"
 "{STR_VAR_1}!$"
 msgstr ""
+"恭喜你！\n"
+"你答对了！\p"
+"你赢得了\n"
+"{STR_VAR_1}提供的奖品！$"
 
 #: data/scripts/lilycove_lady.inc:647
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_XReceivedOneY"
@@ -205,6 +277,8 @@ msgid ""
 "{STR_VAR_1} received\n"
 "one {STR_VAR_2}!$"
 msgstr ""
+"{STR_VAR_1}得到了\n"
+"{STR_VAR_2}！$"
 
 #: data/scripts/lilycove_lady.inc:651
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_YourBagIsFilledUp"
@@ -212,6 +286,8 @@ msgid ""
 "Oh? Your BAG is filled up!\n"
 "Come see me when you have room.$"
 msgstr ""
+"哦？你的背包已经满了！\n"
+"等有空位了再来找我吧。$"
 
 #: data/scripts/lilycove_lady.inc:655
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs"
@@ -219,6 +295,8 @@ msgid ""
 "Hmm… Wrong!\n"
 "The correct answer is “{STR_VAR_3}”!$"
 msgstr ""
+"嗯……答错了！\n"
+"正确答案是“{STR_VAR_3}”！$"
 
 #: data/scripts/lilycove_lady.inc:659
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_IGetToKeepPrize"
@@ -227,6 +305,9 @@ msgid ""
 "I get to keep the quiz prize\n"
 "{STR_VAR_1} now!$"
 msgstr ""
+"真遗憾！\p"
+"猜谜的奖品{STR_VAR_1}\n"
+"现在归我了！$"
 
 #: data/scripts/lilycove_lady.inc:664
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_MakeYourOwnQuiz"
@@ -234,6 +315,8 @@ msgid ""
 "Listen, listen!\n"
 "Would you like to make your own quiz?$"
 msgstr ""
+"听我说，听我说！\n"
+"你想自己出一道题吗？$"
 
 #: data/scripts/lilycove_lady.inc:668
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_MaybeNextTime"
@@ -241,6 +324,8 @@ msgid ""
 "Oh, I see…\n"
 "Well, maybe next time!$"
 msgstr ""
+"哦，这样啊……\n"
+"那就下次吧！$"
 
 #: data/scripts/lilycove_lady.inc:672
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_PickYourPrize"
@@ -252,6 +337,10 @@ msgid ""
 "the quiz can't get it right, I get to\l"
 "keep the prize!$"
 msgstr ""
+"好，首先你要选好\n"
+"送给答对的人的奖品。\p"
+"不过要注意，如果答题的人\n"
+"没有答对，奖品就归我了！$"
 
 #: data/scripts/lilycove_lady.inc:680
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_QuitChoosingPrize"
@@ -261,6 +350,9 @@ msgid ""
 "Are you going to quit making\n"
 "your quiz?$"
 msgstr ""
+"如果不选择奖品，\n"
+"就没办法出题了。\p"
+"要放弃出题吗？$"
 
 #: data/scripts/lilycove_lady.inc:686
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_WriteYourQuiz"
@@ -270,20 +362,24 @@ msgid ""
 "Next, you need to write your quiz\n"
 "question and its answer.$"
 msgstr ""
+"哎呀，真不错！\n"
+"真是很棒的奖品！\p"
+"接下来，你要写出\n"
+"题目和答案。$"
 
 #: data/scripts/lilycove_lady.inc:692
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_QuitWritingQuizQuestion"
 msgid ""
 "Are you going to quit writing\n"
 "your quiz question?$"
-msgstr ""
+msgstr "要放弃编写题目吗？$"
 
 #: data/scripts/lilycove_lady.inc:697
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_QuitWritingQuizAnswer"
 msgid ""
 "Are you going to quit choosing\n"
 "your quiz answer?$"
-msgstr ""
+msgstr "要放弃选择答案吗？$"
 
 #: data/scripts/lilycove_lady.inc:701
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_IllLookForAChallenger"
@@ -293,6 +389,10 @@ msgid ""
 "I'll go look for someone who'll take\n"
 "your quiz challenge right away.$"
 msgstr ""
+"谢谢你！\n"
+"你出了一道很棒的题目。\p"
+"我马上就去找人\n"
+"来挑战你的题目。$"
 
 #: data/scripts/lilycove_lady.inc:707
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady"
@@ -300,11 +400,13 @@ msgid ""
 "I'm the CONTEST LADY!\n"
 "I sure do love CONTESTS!$"
 msgstr ""
+"我是华丽大赛大姐姐！\n"
+"我最喜欢华丽大赛了！$"
 
 #: data/scripts/lilycove_lady.inc:711
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock"
 msgid "Thanks for your {POKEBLOCK} before!$"
-msgstr ""
+msgstr "谢谢你之前给我的宝可方块！$"
 
 #: data/scripts/lilycove_lady.inc:714
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_MyFriendDisplaysQuality"
@@ -314,6 +416,10 @@ msgid ""
 "But I think that it will display\n"
 "even more {STR_VAR_2}!$"
 msgstr ""
+"这是我的朋友{STR_VAR_1}！\n"
+"它简直就是{STR_VAR_2}的化身！\p"
+"不过我觉得它还能\n"
+"展现出更多的{STR_VAR_2}！$"
 
 #: data/scripts/lilycove_lady.inc:720
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase"
@@ -325,6 +431,12 @@ msgid ""
 "Don't you have a {POKEBLOCK} CASE?\l"
 "That's no good. Next time, then!$"
 msgstr ""
+"所以，我需要你的帮助！\p"
+"能给我一个宝可方块吗？\n"
+"我只要一个就好！\p"
+"……哦，可是……\n"
+"你没有宝可方块盒吗？\l"
+"那就没办法了。下次再说吧！$"
 
 #: data/scripts/lilycove_lady.inc:728
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_AskingForOnePokeblock"
@@ -333,6 +445,9 @@ msgid ""
 "Please, may I have one {POKEBLOCK}?\n"
 "All I'm asking for is one!$"
 msgstr ""
+"所以，我需要你的帮助！\p"
+"能给我一个宝可方块吗？\n"
+"我只要一个就好！$"
 
 #: data/scripts/lilycove_lady.inc:733
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_ICantHaveOnePokeblock"
@@ -340,6 +455,8 @@ msgid ""
 "Awww!\n"
 "I can't have one {POKEBLOCK}?!$"
 msgstr ""
+"啊——！\n"
+"连一个宝可方块都不给我吗？！$"
 
 #: data/scripts/lilycove_lady.inc:737
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_WhatACheapskate"
@@ -347,6 +464,8 @@ msgid ""
 "Sheesh!\n"
 "What a cheapskate!$"
 msgstr ""
+"真是的！\n"
+"你可真小气！$"
 
 #: data/scripts/lilycove_lady.inc:741
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_IllUseYourPokeblock"
@@ -356,6 +475,10 @@ msgid ""
 "I'll feed my POKéMON your {POKEBLOCK}\n"
 "right away.$"
 msgstr ""
+"耶！\n"
+"谢谢你！\p"
+"我马上就把你的宝可方块\n"
+"喂给我的宝可梦。$"
 
 #: data/scripts/lilycove_lady.inc:747
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_NoChangeThanks"
@@ -366,6 +489,11 @@ msgid ""
 "Oh, well!\n"
 "Thank you very much!$"
 msgstr ""
+"……好像一点变化\n"
+"都没有……\p"
+"嗯……\p"
+"哎，算了！\n"
+"非常感谢你！$"
 
 #: data/scripts/lilycove_lady.inc:754
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_ReallyImprovedThanks"
@@ -376,6 +504,11 @@ msgid ""
 "{STR_VAR_2} quality, too.\p"
 "Thank you so much!$"
 msgstr ""
+"哇，太好了！\n"
+"它真的很高兴！\p"
+"我觉得{STR_VAR_1}的{STR_VAR_2}\n"
+"也真的提升了。\p"
+"太感谢你了！$"
 
 #: data/scripts/lilycove_lady.inc:761
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_ReadyToEnterContests"
@@ -386,28 +519,33 @@ msgid ""
 "If you see us in one somewhere,\n"
 "I hope you'll cheer for us.$"
 msgstr ""
+"嗯……\p"
+"我觉得我们差不多\n"
+"可以参加华丽大赛了。\p"
+"如果你在哪里看到我们参赛，\n"
+"希望你能为我们加油。$"
 
 #: data/scripts/lilycove_lady.inc:768
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_Zigzagoon"
 msgid "{STR_VAR_1}: Guguuh!$"
-msgstr ""
+msgstr "{STR_VAR_1}：咕咕呜！$"
 
 #: data/scripts/lilycove_lady.inc:771
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_Kecleon"
 msgid "{STR_VAR_1}: Igigigiiih!$"
-msgstr ""
+msgstr "{STR_VAR_1}：咿叽叽叽咿！$"
 
 #: data/scripts/lilycove_lady.inc:774
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_Poochyena"
 msgid "{STR_VAR_1}: Baaarun…$"
-msgstr ""
+msgstr "{STR_VAR_1}：哇呜呜……$"
 
 #: data/scripts/lilycove_lady.inc:777
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_Pikachu"
 msgid "{STR_VAR_1}: Pikka!$"
-msgstr ""
+msgstr "{STR_VAR_1}：皮卡！$"
 
 #: data/scripts/lilycove_lady.inc:780
 msgctxt "LilycoveCity_PokemonCenter_1F_Text_Skitty"
 msgid "{STR_VAR_1}: Umyaaaan!$"
-msgstr ""
+msgstr "{STR_VAR_1}：喵呀——！$"

@@ -17,16 +17,23 @@ msgid ""
 "Would you like to draw a POKéMON\n"
 "LOTO TICKET?$"
 msgstr ""
+"这里是宝可梦彩票中心。\p"
+"所有在本百货商店购物的顾客，\n"
+"都可以抽一张宝可梦彩票。\p"
+"如果彩票号码和你的宝可梦的\n"
+"ID号码相符，\l"
+"就能获得精美的礼品。\p"
+"要抽一张宝可梦彩票吗？$"
 
 #: data/text/lottery_corner.inc:11
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_ComeBackTomorrow"
 msgid "Please come back tomorrow.$"
-msgstr ""
+msgstr "请明天再来。$"
 
 #: data/text/lottery_corner.inc:14
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_PleaseVisitAgain"
 msgid "Please do visit again.$"
-msgstr ""
+msgstr "欢迎再次光临。$"
 
 #: data/text/lottery_corner.inc:17
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_PleasePickTicket"
@@ -34,6 +41,8 @@ msgid ""
 "Please pick a LOTO TICKET.\n"
 "…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 msgstr ""
+"请抽一张彩票。\n"
+"…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 #: data/text/lottery_corner.inc:21
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_TicketNumberIsXPleaseWait"
@@ -43,6 +52,10 @@ msgid ""
 "to see if it matches any of your\l"
 "POKéMON's ID numbers. Please wait.$"
 msgstr ""
+"彩票号码是{STR_VAR_1}。\p"
+"我要核对一下这个号码\n"
+"和你的宝可梦的ID号码\l"
+"是否相符。请稍候。$"
 
 #: data/text/lottery_corner.inc:27
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPartyMon"
@@ -52,6 +65,10 @@ msgid ""
 "{STR_VAR_1} matches your\l"
 "LOTO TICKET's number!$"
 msgstr ""
+"恭喜你！\p"
+"你队伍中的{STR_VAR_1}的\n"
+"ID号码和你的\l"
+"彩票号码相符！$"
 
 #: data/text/lottery_corner.inc:33
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPCMon"
@@ -61,6 +78,10 @@ msgid ""
 "{STR_VAR_1} matches your\l"
 "LOTO TICKET's number!$"
 msgstr ""
+"恭喜你！\p"
+"你存放在电脑里的{STR_VAR_1}的\n"
+"ID号码和你的\l"
+"彩票号码相符！$"
 
 #: data/text/lottery_corner.inc:39
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_NoNumbersMatched"
@@ -68,6 +89,8 @@ msgid ""
 "I'm sorry.\n"
 "None of the numbers matched.$"
 msgstr ""
+"很抱歉。\n"
+"没有相符的号码。$"
 
 #: data/text/lottery_corner.inc:43
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_TwoDigitsMatched"
@@ -76,6 +99,9 @@ msgid ""
 "third prize!\l"
 "You've won the {STR_VAR_1}!$"
 msgstr ""
+"有两位数字相符，\n"
+"你获得了三等奖！\l"
+"奖品是{STR_VAR_1}！$"
 
 #: data/text/lottery_corner.inc:48
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_ThreeDigitsMatched"
@@ -84,6 +110,9 @@ msgid ""
 "second prize!\l"
 "You've won the {STR_VAR_1}!$"
 msgstr ""
+"有三位数字相符，\n"
+"你获得了二等奖！\l"
+"奖品是{STR_VAR_1}！$"
 
 #: data/text/lottery_corner.inc:53
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_FourDigitsMatched"
@@ -92,6 +121,9 @@ msgid ""
 "first prize!\l"
 "You've won the {STR_VAR_1}!$"
 msgstr ""
+"有四位数字相符，\n"
+"你获得了一等奖！\l"
+"奖品是{STR_VAR_1}！$"
 
 #: data/text/lottery_corner.inc:58
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_AllFiveDigitsMatched"
@@ -101,6 +133,10 @@ msgid ""
 "You've won the jackpot prize!\n"
 "You've won the {STR_VAR_1}!$"
 msgstr ""
+"哎呀，天哪，五位数字\n"
+"全部相符！\p"
+"你获得了特等奖！\n"
+"奖品是{STR_VAR_1}！$"
 
 #: data/text/lottery_corner.inc:64
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_NoRoomForThis"
@@ -110,6 +146,10 @@ msgid ""
 "Please make room in your BAG and\n"
 "let me know.$"
 msgstr ""
+"哦？\n"
+"你好像没有地方放这个了。\p"
+"请在背包里腾出空间\n"
+"再来告诉我。$"
 
 #: data/text/lottery_corner.inc:70
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_PrizeWeveBeenHolding"
@@ -119,8 +159,12 @@ msgid ""
 "This is the prize we've been holding\n"
 "for you.$"
 msgstr ""
+"{PLAYER}？\n"
+"是的，我一直在等你。\p"
+"这是我们一直\n"
+"为你保管的奖品。$"
 
 #: data/text/lottery_corner.inc:76
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_PleaseVisitAgain2"
 msgid "Please do visit again.$"
-msgstr ""
+msgstr "欢迎再次光临。$"

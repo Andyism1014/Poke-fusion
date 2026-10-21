@@ -11,8 +11,10 @@ msgid ""
 "Would you like to mix records with\n"
 "other TRAINERS?$"
 msgstr ""
+"要和其他训练家\n"
+"混合记录吗？$"
 
 #: data/text/record_mix.inc:5
 msgctxt "Text_WeHopeToSeeYouAgain"
 msgid "We hope to see you again!$"
-msgstr ""
+msgstr "期待你再次光临！$"
