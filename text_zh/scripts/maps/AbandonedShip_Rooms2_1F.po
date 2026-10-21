@@ -46,13 +46,13 @@ msgid ""
 "We were searching for treasures.\l"
 "But we discovered a TRAINER instead!$"
 msgstr ""
-"琪拉：哎呀？我们本来在寻宝的。\n"
+"绮拉：哎呀？我们本来在寻宝的。\n"
 "结果却发现了一个训练家！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:73
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraDefeat"
 msgid "KIRA: Ooh, so strong!$"
-msgstr "琪拉：哦，好强！$"
+msgstr "绮拉：哦，好强！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:76
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraPostBattle"
@@ -61,7 +61,7 @@ msgid ""
 "I've already decided what I'm buying\n"
 "when we find the treasures!$"
 msgstr ""
-"琪拉：宝物会在哪里呢？\p"
+"绮拉：宝物会在哪里呢？\p"
 "我已经想好找到宝物以后要买什么了！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:81
@@ -70,7 +70,7 @@ msgid ""
 "KIRA: Oh, you don't have two POKéMON?\n"
 "We'll have to battle some other time!$"
 msgstr ""
-"琪拉：哎呀，你没有两只宝可梦吗？\n"
+"绮拉：哎呀，你没有两只宝可梦吗？\n"
 "那我们只好下次再对战了！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:85
@@ -79,7 +79,7 @@ msgid ""
 "KIRA: Oh, you make me so angry!\n"
 "I'm going to register you for that!$"
 msgstr ""
-"琪拉：哎呀，真让人生气！\n"
+"绮拉：哎呀，真让人生气！\n"
 "我要把你登记下来！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:89
@@ -130,7 +130,7 @@ msgid ""
 "Want to make it so the loser has\n"
 "to give up searching?$"
 msgstr ""
-"琪拉：哎呀？我们又见面了！\p"
+"绮拉：哎呀？我们又见面了！\p"
 "你和我们一样，还没有放弃寻宝吧？\p"
 "要不要定个规矩，\n"
 "输的一方就得放弃寻宝？$"
@@ -138,7 +138,7 @@ msgstr ""
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:115
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat"
 msgid "KIRA: Oh, we lost again…$"
-msgstr "琪拉：哎呀，我们又输了……$"
+msgstr "绮拉：哎呀，我们又输了……$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:118
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraPostRematch"
@@ -147,7 +147,7 @@ msgid ""
 "our POKéMON some more and we find\l"
 "the treasures here!$"
 msgstr ""
-"琪拉：在把宝可梦培养得更强、找到这\n"
+"绮拉：在把宝可梦培养得更强、找到这\n"
 "里的宝物之前，我们是不会离开的！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:123
@@ -156,7 +156,7 @@ msgid ""
 "KIRA: Oh, you don't have two POKéMON?\n"
 "We'll have to battle some other time!$"
 msgstr ""
-"琪拉：哎呀，你没有两只宝可梦吗？\n"
+"绮拉：哎呀，你没有两只宝可梦吗？\n"
 "那我们只好下次再对战了！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:127

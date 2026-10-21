@@ -119,13 +119,13 @@ msgid ""
 "LEA: I feel a little silly, but…\n"
 "We'll show you our lovey-dovey power!$"
 msgstr ""
-"莉娅：虽然感觉有点傻，不过……\n"
+"莉雅：虽然感觉有点傻，不过……\n"
 "让你见识一下我们的甜蜜力量吧！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:124
 msgctxt "SSTidalRooms_Text_LeaDefeat"
 msgid "LEA: Oh, boo!$"
-msgstr "莉娅：哎呀，讨厌！$"
+msgstr "莉雅：哎呀，讨厌！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:127
 msgctxt "SSTidalRooms_Text_LeaPostBattle"
@@ -134,7 +134,7 @@ msgid ""
 "Our lovey-dovey power failed…\l"
 "You must be an awesome TRAINER!$"
 msgstr ""
-"莉娅：真不敢相信！我们的甜蜜力量竟然\n"
+"莉雅：真不敢相信！我们的甜蜜力量竟然\n"
 "失败了……你一定是个超厉害的训练家！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:132
@@ -143,7 +143,7 @@ msgid ""
 "LEA: I wanted to battle…\n"
 "But you don't even have two POKéMON…$"
 msgstr ""
-"莉娅：我很想对战……\n"
+"莉雅：我很想对战……\n"
 "可是你连两只宝可梦都没有……$"
 
 #: data/maps/SSTidalRooms/scripts.inc:136

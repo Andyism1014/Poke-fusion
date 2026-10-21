@@ -25,7 +25,7 @@
 | Sootopolis City | 琉璃市 |
 | Pacifidlog Town | 暮水镇 |
 | Ever Grande City | 彩幽市 |
-| Route 101 | 101号道路 |
+| Route 101 | 101号道路（陆路）；105–109、122、124–134 是水路，写作"105号水路" |
 | Petalburg Woods | 橙华森林 |
 | Rusturf Tunnel | 卡绿隧道 |
 | Granite Cave | 石之洞窟 |

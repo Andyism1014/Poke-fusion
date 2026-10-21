@@ -705,7 +705,7 @@ msgid ""
 "around ROUTE 131.\p"
 "Could that possibly be…?$"
 msgstr ""
-"我在131号道路附近\n"
+"我在131号水路附近\n"
 "看到了一座很高的塔。\p"
 "难道那就是……？$"
 
