@@ -11,13 +11,15 @@ msgid ""
 "I'm the ENERGY GURU! I'll go for it and\n"
 "sell you what you need!$"
 msgstr ""
+"我是能量大师！我会全力以赴，\n"
+"卖给你需要的东西！$"
 
 #: data/maps/SlateportCity/scripts.inc:924
 msgctxt "SlateportCity_Text_OhYourPokemon"
 msgid ""
 "Oh?\n"
 "Your {STR_VAR_1}…$"
-msgstr ""
+msgstr "哦？你的{STR_VAR_1}……$"
 
 #: data/maps/SlateportCity/scripts.inc:928
 msgctxt "SlateportCity_Text_PleaseGiveItThisEffortRibbon"
@@ -26,11 +28,13 @@ msgid ""
 "As its reward, please give it this\n"
 "EFFORT RIBBON.$"
 msgstr ""
+"它真是拼尽了全力！\p"
+"作为奖励，请把这枚努力奖章送给它吧。$"
 
 #: data/maps/SlateportCity/scripts.inc:933
 msgctxt "SlateportCity_Text_ReceivedEffortRibbon"
 msgid "{PLAYER} received the EFFORT RIBBON.$"
-msgstr ""
+msgstr "{PLAYER}得到了努力奖章。$"
 
 #: data/maps/SlateportCity/scripts.inc:936
 msgctxt "SlateportCity_Text_PutEffortRibbonOnMon"
@@ -38,6 +42,8 @@ msgid ""
 "{PLAYER} put the EFFORT RIBBON\n"
 "on {STR_VAR_1}.$"
 msgstr ""
+"{PLAYER}给{STR_VAR_1}戴上了\n"
+"努力奖章。$"
 
 #: data/maps/SlateportCity/scripts.inc:940
 msgctxt "SlateportCity_Text_GoForItLittleHarder"
@@ -46,6 +52,9 @@ msgid ""
 "If you do, I'll give your POKéMON\n"
 "something nice.$"
 msgstr ""
+"你还得再努力一点才行。\p"
+"只要你做到了，\n"
+"我就送你的宝可梦一样好东西。$"
 
 #: data/maps/SlateportCity/scripts.inc:945
 msgctxt "SlateportCity_Text_EffortRibbonLooksGoodOnIt"
@@ -53,6 +62,8 @@ msgid ""
 "Oh! Your {STR_VAR_1}, that EFFORT\n"
 "RIBBON looks good on it!$"
 msgstr ""
+"哦！你的{STR_VAR_1}戴着\n"
+"努力奖章真好看！$"
 
 #: data/maps/SlateportCity/scripts.inc:949
 msgctxt "SlateportCity_Text_WonderIfLighthouseStartlesPokemon"
@@ -62,6 +73,8 @@ msgid ""
 "I wonder if it doesn't startle POKéMON\n"
 "in the sea.$"
 msgstr ""
+"灯塔的光能照到几十公里以外的地方。\p"
+"不知道会不会吓到海里的宝可梦呢。$"
 
 #: data/maps/SlateportCity/scripts.inc:955
 msgctxt "SlateportCity_Text_SeaweedFullOfLife"
@@ -72,6 +85,10 @@ msgid ""
 "Why, it looks like it can even rear up\n"
 "and attack!$"
 msgstr ""
+"哦哦，快看这个！\p"
+"这一带能弄到的海藻又新鲜又有活力。\p"
+"哎呀，看起来它好像都\n"
+"能站起来攻击人了！$"
 
 #: data/maps/SlateportCity/scripts.inc:962
 msgctxt "SlateportCity_Text_HowTownIsBornAndGrows"
@@ -82,6 +99,9 @@ msgid ""
 "soon starts.\p"
 "That is how a town is born and grows.$"
 msgstr ""
+"水质清澈的地方，就会聚集丰收的果实。\p"
+"人们聚集的地方，很快就会有集市。\p"
+"城镇就是这样诞生和发展起来的。$"
 
 #: data/maps/SlateportCity/scripts.inc:969
 msgctxt "SlateportCity_Text_SlateportWonderfulPlace"
@@ -90,6 +110,8 @@ msgid ""
 "scent of the ocean…\p"
 "SLATEPORT is such a wonderful place!$"
 msgstr ""
+"可以一边闻着大海的气息一边购物……\p"
+"凯那市真是个好地方！$"
 
 #: data/maps/SlateportCity/scripts.inc:974
 msgctxt "SlateportCity_Text_BuyBricksSoDecorWontGetDirty"
@@ -100,6 +122,10 @@ msgid ""
 "DOLLS and CUSHIONS won't get dirty\l"
 "when I leave them out.$"
 msgstr ""
+"如果把玩偶或坐垫放在地板上，\n"
+"就会弄脏。\p"
+"我要买些砖块，这样把玩偶和\n"
+"坐垫摆出来的时候就不会弄脏了。$"
 
 #: data/maps/SlateportCity/scripts.inc:981
 msgctxt "SlateportCity_Text_GoingToCompeteInBattleTent"
@@ -109,6 +135,8 @@ msgid ""
 "But before that, I need to catch\n"
 "some POKéMON!$"
 msgstr ""
+"呜哦哦哦！我也要去参加对战帐篷！\p"
+"不过在那之前，我得先抓些宝可梦才行！$"
 
 #: data/maps/SlateportCity/scripts.inc:987
 msgctxt "SlateportCity_Text_BushedHikingFromMauville"
@@ -119,6 +147,10 @@ msgid ""
 "If I'd known this, I would've ridden\n"
 "my BIKE here.$"
 msgstr ""
+"呼……我累坏了……\p"
+"我是从紫堇市走过来的。\n"
+"不过，哎呀，这座城市真大。\p"
+"早知道这样，我就骑自行车过来了。$"
 
 #: data/maps/SlateportCity/scripts.inc:994
 msgctxt "SlateportCity_Text_EveryoneCallsHimCaptStern"
@@ -128,13 +160,16 @@ msgid ""
 "of an undersea exploration team.\p"
 "So, everyone calls him CAPT. STERN.$"
 msgstr ""
+"建造博物馆的楠木，\n"
+"同时也是海底探险队的队长。\p"
+"所以，大家都叫他楠木船长。$"
 
 #: data/maps/SlateportCity/scripts.inc:1000
 msgctxt "SlateportCity_Text_WhatsLongLineOverThere"
 msgid ""
 "What is that over there?\n"
 "That long line…$"
-msgstr ""
+msgstr "那边是怎么回事？排了那么长的队……$"
 
 #: data/maps/SlateportCity/scripts.inc:1004
 msgctxt "SlateportCity_Text_VisitedMuseumOften"
@@ -144,6 +179,9 @@ msgid ""
 "I used to dream about the mysteries of\n"
 "the sea after seeing the exhibits.$"
 msgstr ""
+"我小时候经常去博物馆。\p"
+"看了那些展品以后，\n"
+"我就常常幻想大海的奥秘。$"
 
 #: data/maps/SlateportCity/scripts.inc:1010
 msgctxt "SlateportCity_Text_QuitPushing"
@@ -151,6 +189,8 @@ msgid ""
 "Hey, there! Quit pushing!\n"
 "This is the line, can't you see?$"
 msgstr ""
+"喂，你！别挤了！\n"
+"这是在排队，你看不出来吗？$"
 
 #: data/maps/SlateportCity/scripts.inc:1014
 msgctxt "SlateportCity_Text_AquaHasPolicy"
@@ -159,6 +199,8 @@ msgid ""
 "assembling and dispersing at\l"
 "the operation site.$"
 msgstr ""
+"海洋队的方针是在行动现场集合，\n"
+"在行动现场解散。$"
 
 #: data/maps/SlateportCity/scripts.inc:1019
 msgctxt "SlateportCity_Text_BossIsBrilliant"
@@ -167,6 +209,8 @@ msgid ""
 "What would he want to do with\n"
 "a MUSEUM now?$"
 msgstr ""
+"我们的老大可是很聪明的。\p"
+"他现在要博物馆干什么呢？$"
 
 #: data/maps/SlateportCity/scripts.inc:1024
 msgctxt "SlateportCity_Text_WhatsNewSchemeIWonder"
@@ -175,6 +219,9 @@ msgid ""
 "Our BOSS is scary when he's mad, so\n"
 "I'd better not screw things up…$"
 msgstr ""
+"这次的新计划是什么呢？\p"
+"老大生起气来可吓人了，\n"
+"我可不能把事情搞砸……$"
 
 #: data/maps/SlateportCity/scripts.inc:1029
 msgctxt "SlateportCity_Text_ShouldTakeItAll"
@@ -182,13 +229,15 @@ msgid ""
 "If there's something we need in\n"
 "the MUSEUM, we should take it all!$"
 msgstr ""
+"要是博物馆里有我们需要的东西，\n"
+"就应该全部拿走！$"
 
 #: data/maps/SlateportCity/scripts.inc:1033
 msgctxt "SlateportCity_Text_DontButtIn"
 msgid ""
 "Hey, you there!\n"
 "Don't butt in!$"
-msgstr ""
+msgstr "喂，你！别插队！$"
 
 #: data/maps/SlateportCity/scripts.inc:1037
 msgctxt "SlateportCity_Text_RemindsMeOfLongLineForGames"
@@ -197,6 +246,9 @@ msgid ""
 "It reminds me of the times I lined up to\n"
 "buy smash-hit games…$"
 msgstr ""
+"排了好长的队啊？\p"
+"让我想起以前排队买超人气游戏的\n"
+"时候……$"
 
 #: data/maps/SlateportCity/scripts.inc:1042
 msgctxt "SlateportCity_Text_WhyAreWeLiningUp"
@@ -204,20 +256,22 @@ msgid ""
 "Why are we even lining up and paying?\n"
 "We should just march in!$"
 msgstr ""
+"我们为什么还要排队付钱啊？\n"
+"直接冲进去不就好了！$"
 
 #: data/maps/SlateportCity/scripts.inc:1046
 msgctxt "SlateportCity_Text_WhatDoYouWant"
 msgid ""
 "What?\n"
 "What do you want?$"
-msgstr ""
+msgstr "什么？你想干什么？$"
 
 #: data/maps/SlateportCity/scripts.inc:1050
 msgctxt "SlateportCity_Text_IllReadSignForYou"
 msgid ""
 "You want to read this sign?\n"
 "I'll read it for you!$"
-msgstr ""
+msgstr "你想看这块告示牌吗？我来念给你听！$"
 
 #: data/maps/SlateportCity/scripts.inc:1054
 msgctxt "SlateportCity_Text_SaysSomethingLikeSeaIsEndless"
@@ -228,6 +282,10 @@ msgid ""
 "Yup, I'm pretty sure that's what\n"
 "it says.$"
 msgstr ""
+"我看看……\p"
+"嗯……我想上面写的大概是\n"
+"“海中的生命无穷无尽”。\p"
+"没错，我很确定上面就是这么写的。$"
 
 #: data/maps/SlateportCity/scripts.inc:1061
 msgctxt "SlateportCity_Text_ShouldveBroughtMyGameBoy"
@@ -237,6 +295,10 @@ msgid ""
 "Advance so I wouldn't get bored in line…\p"
 "Grumble…$"
 msgstr ""
+"嘟囔嘟囔……\p"
+"早知道就带上我的Game Boy Advance了，\n"
+"排队就不会无聊了……\p"
+"嘟囔嘟囔……$"
 
 #: data/maps/SlateportCity/scripts.inc:1067
 msgctxt "SlateportCity_Text_HotSpringsAfterOperation"
@@ -246,6 +308,9 @@ msgid ""
 "That's what our leader said.\n"
 "I can't wait!$"
 msgstr ""
+"“这次行动结束后，\n"
+"我就带你们去泡温泉！”\p"
+"我们首领是这么说的。我已经等不及了！$"
 
 #: data/maps/SlateportCity/scripts.inc:1073
 msgctxt "SlateportCity_Text_SeaIsSoWet"
@@ -254,6 +319,9 @@ msgid ""
 "Could the sea have been made by\n"
 "the tears shed by POKéMON?$"
 msgstr ""
+"大海真是太辽阔了……\p"
+"大海会不会是宝可梦流下的\n"
+"眼泪汇成的呢？$"
 
 #: data/maps/SlateportCity/scripts.inc:1078
 msgctxt "SlateportCity_Text_SinkOldBoats"
@@ -263,6 +331,10 @@ msgid ""
 "They sink them in the sea so they\n"
 "become habitats for POKéMON.$"
 msgstr ""
+"你知道那些太旧、\n"
+"没法再航行的船会怎么处理吗？\p"
+"人们会把它们沉到海里，\n"
+"让它们成为宝可梦的栖息地。$"
 
 #: data/maps/SlateportCity/scripts.inc:1084
 msgctxt "SlateportCity_Text_BuyTooMuch"
@@ -270,6 +342,8 @@ msgid ""
 "Whenever I visit here, I get carried\n"
 "away and buy too much.$"
 msgstr ""
+"每次来这里，\n"
+"我都会一不小心买太多东西。$"
 
 #: data/maps/SlateportCity/scripts.inc:1088
 msgctxt "SlateportCity_Text_GetNameRaterToHelpYou"
@@ -278,6 +352,8 @@ msgid ""
 "nickname, you'll have to get the NAME\l"
 "RATER to help you.$"
 msgstr ""
+"如果你想更改宝可梦的昵称，\n"
+"就得去请姓名鉴定师帮忙。$"
 
 #: data/maps/SlateportCity/scripts.inc:1093
 msgctxt "SlateportCity_Text_CantChangeTradeMonName"
@@ -287,6 +363,10 @@ msgid ""
 "The original TRAINER's love for that\n"
 "POKéMON is in the nickname.$"
 msgstr ""
+"通过交换得到的宝可梦，\n"
+"是不能更改昵称的。\p"
+"因为昵称里饱含着\n"
+"原训练家对那只宝可梦的爱。$"
 
 #: data/maps/SlateportCity/scripts.inc:1099
 msgctxt "SlateportCity_Text_BattleTentBuiltRecently"
@@ -298,6 +378,11 @@ msgid ""
 "You should go find tough POKéMON\n"
 "for the BATTLE TENT!$"
 msgstr ""
+"最近，凯那市建了一座对战帐篷。\p"
+"道馆很好玩，\n"
+"但对战帐篷也有它独特的魅力。\p"
+"你应该去找些强大的\n"
+"宝可梦来挑战对战帐篷！$"
 
 #: data/maps/SlateportCity/scripts.inc:1107
 msgctxt "SlateportCity_Text_CaptSternBeingInterviewed"
@@ -307,6 +392,10 @@ msgid ""
 "But who's that being interviewed?\n"
 "Isn't that CAPT. STERN?$"
 msgstr ""
+"我还以为是哪个大明星，\n"
+"想去要个签名呢。\p"
+"不过正在接受采访的那个人是谁？\n"
+"那不是楠木船长吗？$"
 
 #: data/maps/SlateportCity/scripts.inc:1113
 msgctxt "SlateportCity_Text_InterviewerSoCool"
@@ -316,6 +405,8 @@ msgid ""
 "When I grow up, I'm going to be\n"
 "an international journalist!$"
 msgstr ""
+"那位女采访员真是又酷又漂亮。\p"
+"等我长大了，我要成为一名国际记者！$"
 
 #: data/maps/SlateportCity/scripts.inc:1119
 msgctxt "SlateportCity_Text_SternSaysDiscoveredSomething"
@@ -325,6 +416,9 @@ msgid ""
 "I wonder what it is?\n"
 "What could it be?$"
 msgstr ""
+"楠木船长说，\n"
+"他们在海底发现了某样东西。\p"
+"会是什么呢？到底是什么呢？$"
 
 #: data/maps/SlateportCity/scripts.inc:1125
 msgctxt "SlateportCity_Text_CaptainComeBackWithBigFish"
@@ -333,20 +427,22 @@ msgid ""
 "Did the good CAPTAIN come back with\n"
 "a big fish from the ocean floor?$"
 msgstr ""
+"这里发生什么事了？\p"
+"难道是船长从海底钓到了一条大鱼回来？$"
 
 #: data/maps/SlateportCity/scripts.inc:1130
 msgctxt "SlateportCity_Text_AmIOnTV"
 msgid ""
 "Hey! Are you watching?\n"
 "Am I on TV?$"
-msgstr ""
+msgstr "嘿！你在看吗？我上电视了吗？$"
 
 #: data/maps/SlateportCity/scripts.inc:1134
 msgctxt "SlateportCity_Text_CaptainsACelebrity"
 msgid ""
 "A TV interview! Here!\n"
 "The CAPTAIN's a celebrity!$"
-msgstr ""
+msgstr "电视采访！就在这里！船长成名人啦！$"
 
 #: data/maps/SlateportCity/scripts.inc:1138
 msgctxt "SlateportCity_Text_BigSmileForCamera"
@@ -354,6 +450,8 @@ msgid ""
 "TY: Okay, CAPT. STERN, a big smile\n"
 "for the camera!$"
 msgstr ""
+"阿大：好了，楠木船长，\n"
+"对着镜头笑一个！$"
 
 #: data/maps/SlateportCity/scripts.inc:1142
 msgctxt "SlateportCity_Text_MostInvaluableExperience"
@@ -361,6 +459,8 @@ msgid ""
 "GABBY: I see, I see. You've had a most\n"
 "invaluable experience…$"
 msgstr ""
+"麻里：原来如此，原来如此。\n"
+"您有过非常宝贵的经历呢……$"
 
 #: data/maps/SlateportCity/scripts.inc:1146
 msgctxt "SlateportCity_Text_SternMoveAheadWithExploration"
@@ -368,6 +468,8 @@ msgid ""
 "CAPT. STERN: Yes, indeed. We intend to\n"
 "move ahead with our exploration.$"
 msgstr ""
+"楠木船长：是的，没错。\n"
+"我们打算继续推进探险。$"
 
 #: data/maps/SlateportCity/scripts.inc:1150
 msgctxt "SlateportCity_Text_GabbyWonderfulThanksForInterview"
@@ -378,6 +480,10 @@ msgid ""
 "We hope we can interview you again\n"
 "with news of more discoveries!$"
 msgstr ""
+"麻里：太精彩了，楠木船长！感谢您在\n"
+"百忙之中抽空接受我们的采访。\p"
+"希望下次有了新发现的时候，\n"
+"我们还能再来采访您！$"
 
 #: data/maps/SlateportCity/scripts.inc:1157
 msgctxt "SlateportCity_Text_SternWhewFirstInterview"
@@ -386,6 +492,9 @@ msgid ""
 "That was my first time to be filmed for\n"
 "TV. That was nerve-wracking.$"
 msgstr ""
+"楠木船长：呼……\p"
+"这还是我第一次上电视接受拍摄呢。\n"
+"真是紧张死了。$"
 
 #: data/maps/SlateportCity/scripts.inc:1162
 msgctxt "SlateportCity_Text_OhPlayerWeMadeDiscovery"
@@ -399,6 +508,11 @@ msgid ""
 "We think it's the habitat of a POKéMON\n"
 "that's said to have been long extinct.$"
 msgstr ""
+"哦！{PLAYER}{KUN}！你看起来精神不错嘛！\p"
+"我们在上一次海底探险中有了重大发现。\p"
+"我们在128号水路发现了一个海底洞窟。\p"
+"我们认为那里是一种据说早已灭绝的\n"
+"宝可梦的栖息地。$"
 
 #: data/maps/SlateportCity/scripts.inc:1172
 msgctxt "SlateportCity_Text_AquaWillAssumeControlOfSubmarine"
@@ -413,6 +527,12 @@ msgid ""
 "Just watch and learn what TEAM\l"
 "AQUA has planned!$"
 msgstr ""
+"呼呼呼……你就是楠木船长吧。\p"
+"我们海洋队要接管你的潜水艇了！\p"
+"你的反对毫无意义！\n"
+"我们希望你能全力配合！\p"
+"呼呼呼……好好看着，\n"
+"见识一下海洋队的计划吧！$"
 
 #: data/maps/SlateportCity/scripts.inc:1183
 msgctxt "SlateportCity_Text_SternWhatWasAllThat"
@@ -422,6 +542,9 @@ msgid ""
 "a megaphone…\p"
 "Where did it come from?$"
 msgstr ""
+"楠木船长：刚才那是怎么回事？\p"
+"听起来像是有人在用扩音器……\p"
+"是从哪里传来的？$"
 
 #: data/maps/SlateportCity/scripts.inc:1189
 msgctxt "SlateportCity_Text_FromHarborTryingToTakeSub"
@@ -430,13 +553,15 @@ msgid ""
 "The submarine!\n"
 "They're trying to take it!$"
 msgstr ""
+"是从港口传来的！\p"
+"潜水艇！他们想抢走潜水艇！$"
 
 #: data/maps/SlateportCity/scripts.inc:1194
 msgctxt "SlateportCity_Text_PleaseComeWithMe"
 msgid ""
 "{PLAYER}{KUN}!\n"
 "Please, come with me!$"
-msgstr ""
+msgstr "{PLAYER}{KUN}！请跟我来！$"
 
 #: data/maps/SlateportCity/scripts.inc:1198
 msgctxt "SlateportCity_Text_BattleTentSign"
@@ -444,6 +569,8 @@ msgid ""
 "BATTLE TENT SLATEPORT SITE\n"
 "“Find it! The ultimate POKéMON!”$"
 msgstr ""
+"对战帐篷 凯那会场\n"
+"“去寻找吧！最强的宝可梦！”$"
 
 #: data/maps/SlateportCity/scripts.inc:1202
 msgctxt "SlateportCity_Text_SternsShipyardWantedSign"
@@ -452,6 +579,8 @@ msgid ""
 "“Wanted: A sailor capable of sailing\n"
 "in all currents.”$"
 msgstr ""
+"楠木造船厂\p"
+"“招聘：能在任何海流中航行的水手。”$"
 
 #: data/maps/SlateportCity/scripts.inc:1207
 msgctxt "SlateportCity_Text_SternsShipyardNearsCompletion"
@@ -461,6 +590,9 @@ msgid ""
 "completion for serving the ports of\l"
 "SLATEPORT and LILYCOVE.”$"
 msgstr ""
+"楠木造船厂\p"
+"“往返于凯那市和水静市港口的\n"
+"渡轮潮汐号即将完工。”$"
 
 #: data/maps/SlateportCity/scripts.inc:1213
 msgctxt "SlateportCity_Text_SternsShipyardFerryComplete"
@@ -470,6 +602,9 @@ msgid ""
 "ferry S.S. TIDAL is handled at the\l"
 "HARBOR.”$"
 msgstr ""
+"楠木造船厂\p"
+"“凯那—水静渡轮潮汐号的\n"
+"登船手续在港口办理。”$"
 
 #: data/maps/SlateportCity/scripts.inc:1219
 msgctxt "SlateportCity_Text_PokemonFanClubSign"
@@ -477,6 +612,8 @@ msgid ""
 "POKéMON FAN CLUB\n"
 "“Calling all fans of POKéMON!”$"
 msgstr ""
+"宝可梦爱好者俱乐部\n"
+"“宝可梦的粉丝们，快来集合吧！”$"
 
 #: data/maps/SlateportCity/scripts.inc:1223
 msgctxt "SlateportCity_Text_OceanicMuseumSign"
@@ -485,6 +622,8 @@ msgid ""
 "all life.”\p"
 "OCEANIC MUSEUM$"
 msgstr ""
+"“无边的大海孕育着所有的生命。”\p"
+"海洋博物馆$"
 
 #: data/maps/SlateportCity/scripts.inc:1228
 msgctxt "SlateportCity_Text_CitySign"
@@ -493,6 +632,8 @@ msgid ""
 "“The port where people and POKéMON\n"
 "cross paths.”$"
 msgstr ""
+"凯那市\n"
+"“人与宝可梦交汇的港口”$"
 
 #: data/maps/SlateportCity/scripts.inc:1233
 msgctxt "SlateportCity_Text_MarketSign"
@@ -500,6 +641,8 @@ msgid ""
 "SLATEPORT MARKET\n"
 "“Unique items found nowhere else!”$"
 msgstr ""
+"凯那市场\n"
+"“这里有别处找不到的独特商品！”$"
 
 #: data/maps/SlateportCity/scripts.inc:1237
 msgctxt "SlateportCity_Text_HarborFerryUnderConstruction"
@@ -510,6 +653,9 @@ msgid ""
 "“Service is scheduled to begin\n"
 "shortly.”$"
 msgstr ""
+"凯那港\p"
+"“渡轮潮汐号正在造船厂建造中。\p"
+"“即将开始运营。”$"
 
 #: data/maps/SlateportCity/scripts.inc:1244
 msgctxt "SlateportCity_Text_HarborSign"
@@ -518,6 +664,9 @@ msgid ""
 "“Enjoy a delightful cruise on\n"
 "the ferry S.S. TIDAL.”$"
 msgstr ""
+"凯那港\p"
+"“乘坐渡轮潮汐号，\n"
+"享受愉快的航海之旅吧。”$"
 
 #: data/maps/SlateportCity/scripts.inc:1249
 msgctxt "SlateportCity_Text_NameRatersHouseSign"
@@ -525,6 +674,8 @@ msgid ""
 "NAME RATER'S HOUSE\n"
 "“POKéMON nicknames rated.”$"
 msgstr ""
+"姓名鉴定师之家\n"
+"“为宝可梦的昵称打分。”$"
 
 #: data/maps/SlateportCity/scripts.inc:1253
 msgctxt "SlateportCity_Text_ExplainBerries"
@@ -543,6 +694,16 @@ msgid ""
 "I've got something good for someone\n"
 "like you.$"
 msgstr ""
+"受伤的野生宝可梦会嚼树果来治疗自己。\p"
+"你知道吗？\p"
+"有人看到了这一幕，\n"
+"就想到了用树果来制作药物。\p"
+"你知道吗？\p"
+"要把树果做成药，\n"
+"就必须把它们碾成粉末。\p"
+"你知道吗？\p"
+"你好像对树果很感兴趣嘛！\p"
+"我有样好东西，正适合你这样的人。$"
 
 #: data/maps/SlateportCity/scripts.inc:1268
 msgctxt "SlateportCity_Text_ExplainBerryPowder"
@@ -557,20 +718,27 @@ msgid ""
 "I can make you all sorts of medicine\n"
 "if you bring me lots of BERRY POWDER.$"
 msgstr ""
+"我最近在宝可梦中心里安装了\n"
+"碾碎树果的机器。\p"
+"树果粉碎机就在楼上的直连角。\p"
+"你知道吗？\p"
+"你能用那些机器帮我做些树果粉吗？\p"
+"只要你带来很多树果粉，\n"
+"我就能给你做各种各样的药。$"
 
 #: data/maps/SlateportCity/scripts.inc:1279
 msgctxt "SlateportCity_Text_BroughtMeSomeBerryPowder"
 msgid ""
 "Have you brought me some\n"
 "BERRY POWDER?$"
-msgstr ""
+msgstr "你给我带树果粉来了吗？$"
 
 #: data/maps/SlateportCity/scripts.inc:1283
 msgctxt "SlateportCity_Text_ExchangeWhatWithIt"
 msgid ""
 "What would you like to exchange\n"
 "it with?$"
-msgstr ""
+msgstr "你想用它换什么呢？$"
 
 #: data/maps/SlateportCity/scripts.inc:1287
 msgctxt "SlateportCity_Text_ExchangeBerryPowderForItem"
@@ -578,13 +746,15 @@ msgid ""
 "Okay, you want to exchange your\n"
 "BERRY POWDER for one {STR_VAR_1}?$"
 msgstr ""
+"好的，\n"
+"你要用树果粉换1个{STR_VAR_1}吗？$"
 
 #: data/maps/SlateportCity/scripts.inc:1291
 msgctxt "SlateportCity_Text_DontHaveEnoughBerryPowder"
 msgid ""
 "Oh, dear. You don't have enough\n"
 "BERRY POWDER.$"
-msgstr ""
+msgstr "哎呀，你的树果粉不够哦。$"
 
 #: data/maps/SlateportCity/scripts.inc:1295
 msgctxt "SlateportCity_Text_FineBerryPowderTradeSomethingElse"
@@ -594,6 +764,9 @@ msgid ""
 "Would you like to trade more of your\n"
 "BERRY POWDER for something else?$"
 msgstr ""
+"真是上好的树果粉。\n"
+"一定能做出非常好的药。\p"
+"你还要用树果粉换别的东西吗？$"
 
 #: data/maps/SlateportCity/scripts.inc:1301
 msgctxt "SlateportCity_Text_WhenYouGetMoreBringItToMe"
@@ -601,6 +774,8 @@ msgid ""
 "Okay! When you get some more\n"
 "BERRY POWDER, bring it to me, please!$"
 msgstr ""
+"好的！等你有了更多树果粉，\n"
+"请再拿来给我哦！$"
 
 #: data/maps/SlateportCity/scripts.inc:1305
 msgctxt "SlateportCity_Text_ComeBackToTradeBerryPowder"
@@ -610,6 +785,9 @@ msgid ""
 "I'm always running a bazaar here.\p"
 "Did you know?$"
 msgstr ""
+"如果想用树果粉换药，就再来吧。\p"
+"我一直在这里摆摊哦。\p"
+"你知道吗？$"
 
 #: data/maps/SlateportCity/scripts.inc:1311
 msgctxt "SlateportCity_Text_YouDroveTeamAquaAway"
@@ -622,6 +800,12 @@ msgid ""
 "here like they were stung.\p"
 "Let me guess--you drove them away?$"
 msgstr ""
+"亚希达：咦？我们以前肯定在哪里见过。\p"
+"我向你介绍过自己吗？\n"
+"如果没有的话，我叫亚希达。\p"
+"我刚才看到海洋队像被\n"
+"蜇了一样从这里逃走了。\p"
+"让我猜猜——是你把他们赶走的吧？$"
 
 #: data/maps/SlateportCity/scripts.inc:1320
 msgctxt "SlateportCity_Text_MaybeThisTrainer"
@@ -629,6 +813,8 @@ msgid ""
 "SCOTT: Hmm…\n"
 "Maybe, just maybe, this TRAINER…$"
 msgstr ""
+"亚希达：嗯……也许，\n"
+"说不定，这位训练家……$"
 
 #: data/maps/SlateportCity/scripts.inc:1324
 msgctxt "SlateportCity_Text_LetsRegisterEachOther"
@@ -639,13 +825,18 @@ msgid ""
 "POKéNAVS.\p"
 "… … … … … …$"
 msgstr ""
+"亚希达：好！\n"
+"我觉得你会成为我的好朋友。\p"
+"那么，我们在\n"
+"宝可梦导航里互相登记一下吧。\p"
+"…… …… …… …… …… ……$"
 
 #: data/maps/SlateportCity/scripts.inc:1331
 msgctxt "SlateportCity_Text_RegisteredScott"
 msgid ""
 "Registered this SCOTT person\n"
 "in the POKéNAV.$"
-msgstr ""
+msgstr "在宝可梦导航里登记了亚希达。$"
 
 #: data/maps/SlateportCity/scripts.inc:1335
 msgctxt "SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou"
@@ -657,6 +848,10 @@ msgid ""
 "a bit more.\p"
 "Be seeing you, {PLAYER}{KUN}!$"
 msgstr ""
+"亚希达：其实我很想跟着你一起走，\n"
+"但我也想留意一下其他人的才能。\p"
+"所以，我要再去其他城镇转一转。\p"
+"再见啦，{PLAYER}{KUN}！$"
 
 #: data/maps/SlateportCity/scripts.inc:1343
 msgctxt "SlateportCity_Text_TakingBattleTentChallenge"
@@ -671,3 +866,10 @@ msgid ""
 "the perfect fit for the BATTLE TENT!\p"
 "Give it your best effort!$"
 msgstr ""
+"亚希达：哦，嘿！这不是{PLAYER}{KUN}吗！\p"
+"{PLAYER}{KUN}，让我猜猜——你是\n"
+"要去挑战对战帐篷吧？\p"
+"没错！这主意不错！真是个好主意！\p"
+"毕竟，强大的训练家和\n"
+"对战帐篷最相配了！\p"
+"好好加油吧！$"

@@ -12,18 +12,20 @@ msgid ""
 "The entrance fee is ¥50.\n"
 "Would you like to enter?$"
 msgstr ""
+"欢迎来到海洋博物馆。\p"
+"入场费是50元。您要入场吗？$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:230
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself"
 msgid "Please enjoy yourself.$"
-msgstr ""
+msgstr "请尽情参观。$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:233
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_NotEnoughMoney"
 msgid ""
 "Oh? I'm sorry, but you don't seem to\n"
 "have enough money.$"
-msgstr ""
+msgstr "哎呀？非常抱歉，您的钱好像不够。$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:237
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup"
@@ -33,13 +35,15 @@ msgid ""
 "You're the only one who's late.\n"
 "You'd better go catch up to them!$"
 msgstr ""
+"哦？你和刚才进去的那群人是一起的吗？\p"
+"就只有你迟到了。快去追上他们吧！$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:243
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll"
 msgid ""
 "We, TEAM AQUA, exist for the good\n"
 "of all!$"
-msgstr ""
+msgstr "我们海洋队是为了大家的幸福而存在的！$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:247
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere"
@@ -48,6 +52,9 @@ msgid ""
 "so we did, but…\p"
 "Our BOSS, the linchpin, isn't here.$"
 msgstr ""
+"上面叫我们在这里集合，\n"
+"我们就来了，可是……\p"
+"最关键的老大却不在这里。$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:252
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich"
@@ -55,13 +62,15 @@ msgid ""
 "If I ripped off the stuff here,\n"
 "would it make me rich?$"
 msgstr ""
+"要是把这里的东西偷走，\n"
+"我会不会发大财呢？$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:256
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds"
 msgid ""
 "What I learn here, I can put to use on\n"
 "nefarious deeds…$"
-msgstr ""
+msgstr "在这里学到的东西，可以用来干坏事……$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:260
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_RustboroBungled"
@@ -69,6 +78,8 @@ msgid ""
 "If our goons didn't bungle things\n"
 "in RUSTBORO, we wouldn't be here!$"
 msgstr ""
+"要不是我们的手下在卡那兹市把\n"
+"事情搞砸了，我们也用不着来这里！$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:264
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney"
@@ -76,6 +87,8 @@ msgid ""
 "I didn't have ¥50, so it took a long\n"
 "time getting by the receptionist.$"
 msgstr ""
+"我没有50元，\n"
+"所以在接待员那里耽搁了好久才进来。$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:268
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling"
@@ -83,6 +96,8 @@ msgid ""
 "I want to learn about the sea and\n"
 "use that knowledge for battling.$"
 msgstr ""
+"我想学习关于大海的知识，\n"
+"再把它运用到对战中。$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:272
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel"
@@ -92,6 +107,8 @@ msgid ""
 "For me, CAPT. STERN is the number\n"
 "one role model!$"
 msgstr ""
+"一看到大海，我就会兴奋得飘飘然！\p"
+"对我来说，楠木船长是最棒的榜样！$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:278
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow"
@@ -101,6 +118,8 @@ msgid ""
 "There must be many POKéMON that\n"
 "we don't know about.$"
 msgstr ""
+"大海无边无际，又深不见底……\p"
+"一定还有很多我们不知道的宝可梦。$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:284
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon"
@@ -109,6 +128,8 @@ msgid ""
 "I think it would feel cool and nice\n"
 "to hug.$"
 msgstr ""
+"我想要一只海里的宝可梦。\p"
+"抱起来一定凉凉的，很舒服。$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:289
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis"
@@ -121,6 +142,10 @@ msgid ""
 "Here, take this!\n"
 "You have to forgive me!$"
 msgstr ""
+"哇啊啊啊！你怎么会在这里？\p"
+"我？我就是之前被你打败的那个海洋队\n"
+"队员啊，还记得吗？在卡绿隧道那次？\p"
+"给，拿着这个！你一定要原谅我！$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:298
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain"
@@ -130,6 +155,8 @@ msgid ""
 "Hope I never see you again!\n"
 "Wahahaha!$"
 msgstr ""
+"那个招式学习器，比起我，更适合你。\p"
+"希望再也别见到你了！哇哈哈哈！$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:304
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis"
@@ -137,6 +164,8 @@ msgid ""
 "Awww, come on!\n"
 "You have to take this and let me go!$"
 msgstr ""
+"哎呀，拜托啦！\n"
+"你就收下这个，放我走吧！$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:308
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment"
@@ -146,6 +175,8 @@ msgid ""
 "“This is an experiment to create a\n"
 "WHIRLPOOL artificially using wind.”$"
 msgstr ""
+"蓝色的液体在玻璃容器里打着旋。\p"
+"“这是利用风力人工制造漩涡的实验。”$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:314
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_WaterfallExperiment"
@@ -155,6 +186,8 @@ msgid ""
 "“This is an experiment simulating a\n"
 "WATERFALL using the ball's buoyancy.”$"
 msgstr ""
+"红色的球在玻璃容器里上下浮动。\p"
+"“这是利用球的浮力模拟瀑布的实验。”$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:320
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay"
@@ -167,6 +200,11 @@ msgid ""
 "“By analyzing these layers, the\n"
 "ancient past is revealed.”$"
 msgstr ""
+"这是海底泥土的样本。\p"
+"“经过漫长的岁月，生物的\n"
+"遗骸沉积在海底，形成了沉积层。\p"
+"“通过分析这些沉积层，\n"
+"就能揭开远古的过去。”$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:329
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_BeachSandDisplay"
@@ -178,6 +216,11 @@ msgid ""
 "“They are reduced to grains and end\n"
 "up as sand on beaches.”$"
 msgstr ""
+"这是海滩沙子的样本。\p"
+"“山上的石头被河水冲下来，\n"
+"在途中被磨碎、磨小。\p"
+"“它们变成细小的颗粒，\n"
+"最后成为海滩上的沙子。”$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:337
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact1"
@@ -190,6 +233,13 @@ msgid ""
 "“However, blue light retains its\n"
 "color, making the sea appear blue.”$"
 msgstr ""
+"“海洋小知识1\n"
+"海水为什么是蓝色的？\p"
+"“光是由许多种颜色组成的。\p"
+"“光穿过水的时候，\n"
+"大部分颜色的光都会消失。\p"
+"“但是蓝色的光会保留下来，\n"
+"所以大海看起来是蓝色的。”$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:346
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2"
@@ -203,6 +253,13 @@ msgid ""
 "“The concentration of dissolved salt\n"
 "makes the sea salty.”$"
 msgstr ""
+"“海洋小知识2\n"
+"大海为什么是咸的？\p"
+"“海水中溶解着以钠离子和\n"
+"氯离子形式存在的盐。\p"
+"“这些离子从岩石中析出，\n"
+"被雨水带进大海。\p"
+"“溶解的盐的浓度使大海变咸了。”$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:356
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3"
@@ -214,6 +271,11 @@ msgid ""
 "“The sea is therefore more than twice\n"
 "the size of land.”$"
 msgstr ""
+"“海洋小知识3\n"
+"大海和陆地哪个更大？\p"
+"“大海覆盖了地球约70%的面积，\n"
+"剩下的是陆地。\p"
+"“所以大海的面积是陆地的两倍以上。”$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:364
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_FossilDisplay"
@@ -226,6 +288,12 @@ msgid ""
 "“If this soil becomes fossilized, it is\n"
 "called a ripple mark.”$"
 msgstr ""
+"这是一块带有波浪状纹路的化石。\p"
+"“海底的泥土会被潮水冲刷。\p"
+"“流动的海水会在\n"
+"泥土上留下细小的起伏。\p"
+"“这样的泥土变成化石后，\n"
+"就叫做波痕。”$"
 
 #: data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc:373
 msgctxt "SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine"
@@ -235,3 +303,5 @@ msgid ""
 "Maybe it's for measuring the depth\n"
 "of something…$"
 msgstr ""
+"玻璃罩下面有一台奇怪的机器在转动。\p"
+"也许是用来测量某种东西的深度的……$"

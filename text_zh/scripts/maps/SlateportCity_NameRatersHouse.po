@@ -13,13 +13,16 @@ msgid ""
 "I shall be pleased to rate your\n"
 "POKéMON's nickname.$"
 msgstr ""
+"你好你好！我是姓名鉴定师！\n"
+"是名字的占卜师！\p"
+"我很乐意为你的宝可梦的昵称打分。$"
 
 #: data/maps/SlateportCity_NameRatersHouse/scripts.inc:70
 msgctxt "SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname"
 msgid ""
 "Which POKéMON's nickname should\n"
 "I critique?$"
-msgstr ""
+msgstr "要我评价哪只宝可梦的昵称呢？$"
 
 #: data/maps/SlateportCity_NameRatersHouse/scripts.inc:74
 msgctxt "SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne"
@@ -29,13 +32,17 @@ msgid ""
 "But! What say you, if I were to\n"
 "suggest a slightly better name?$"
 msgstr ""
+"嗯……叫{STR_VAR_1}是吧？\n"
+"你取的这个名字相当不错。\p"
+"但是！如果我给你推荐一个更好一点的\n"
+"名字，你觉得怎么样？$"
 
 #: data/maps/SlateportCity_NameRatersHouse/scripts.inc:80
 msgctxt "SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe"
 msgid ""
 "Ah, good. Then, what shall the new\n"
 "nickname be?$"
-msgstr ""
+msgstr "啊，很好。那么，新的昵称要叫什么呢？$"
 
 #: data/maps/SlateportCity_NameRatersHouse/scripts.inc:84
 msgctxt "SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName"
@@ -45,13 +52,16 @@ msgid ""
 "It is a better name than before!\n"
 "How fortunate for you!$"
 msgstr ""
+"好了！从今以后，\n"
+"这只宝可梦就叫{STR_VAR_1}了！\p"
+"这个名字比以前的更好！你真幸运！$"
 
 #: data/maps/SlateportCity_NameRatersHouse/scripts.inc:90
 msgctxt "SlateportCity_NameRatersHouse_Text_DoVisitAgain"
 msgid ""
 "I see.\n"
 "Do come visit again.$"
-msgstr ""
+msgstr "这样啊。欢迎再来哦。$"
 
 #: data/maps/SlateportCity_NameRatersHouse/scripts.inc:94
 msgctxt "SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior"
@@ -62,6 +72,11 @@ msgid ""
 "and yet, this is vastly superior!\p"
 "How fortunate for you!$"
 msgstr ""
+"好了！从今以后，\n"
+"这只宝可梦就叫{STR_VAR_1}了！\p"
+"虽然看起来和以前没什么不同，\n"
+"但其实要好上许多！\p"
+"你真幸运！$"
 
 #: data/maps/SlateportCity_NameRatersHouse/scripts.inc:101
 msgctxt "SlateportCity_NameRatersHouse_Text_MagnificentName"
@@ -72,10 +87,15 @@ msgid ""
 "You'll do well to cherish your\n"
 "{STR_VAR_1} now and beyond.$"
 msgstr ""
+"嗯……{STR_VAR_1}，是吧！\p"
+"真是个了不起的昵称！\n"
+"完美无缺，无可挑剔！\p"
+"今后你也要好好珍惜你的\n"
+"{STR_VAR_1}哦。$"
 
 #: data/maps/SlateportCity_NameRatersHouse/scripts.inc:108
 msgctxt "SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg"
 msgid ""
 "Now, now.\n"
 "That is merely an EGG!$"
-msgstr ""
+msgstr "哎呀哎呀，那只不过是一颗蛋而已！$"
