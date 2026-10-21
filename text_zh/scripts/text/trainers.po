@@ -12,6 +12,9 @@ msgid ""
 "you're an official POKéMON TRAINER!\l"
 "You can't say no to my challenge!$"
 msgstr ""
+"只要带着宝可梦，\n"
+"你就是正式的宝可梦训练家！\l"
+"你可不能拒绝我的挑战！$"
 
 #: data/text/trainers.inc:6
 msgctxt "Route102_Text_CalvinDefeated"
@@ -19,6 +22,8 @@ msgid ""
 "Arrgh, I lost…\n"
 "I should have trained mine more…$"
 msgstr ""
+"呜啊，我输了……\n"
+"应该多锻炼一下我的宝可梦的……$"
 
 #: data/text/trainers.inc:10
 msgctxt "Route102_Text_CalvinPostBattle"
@@ -26,6 +31,8 @@ msgid ""
 "Listen, you. If you're strong,\n"
 "you should have told me before!$"
 msgstr ""
+"喂，你啊。这么强的话，\n"
+"早点告诉我嘛！$"
 
 #: data/text/trainers.inc:14
 msgctxt "Route102_Text_CalvinRegister"
@@ -35,6 +42,10 @@ msgid ""
 "I'd like to battle you again, so can\n"
 "you register me in your POKéNAV?$"
 msgstr ""
+"自从上次见到你以后，\n"
+"我就一直在拼命努力。\p"
+"我还想再和你对战，\n"
+"能把我登记到你的宝可梦导航里吗？$"
 
 #: data/text/trainers.inc:20
 msgctxt "Route102_Text_CalvinRegisterShort"
@@ -42,6 +53,8 @@ msgid ""
 "I'd like to battle you again, so can\n"
 "you register me in your POKéNAV?$"
 msgstr ""
+"我还想再和你对战，\n"
+"能把我登记到你的宝可梦导航里吗？$"
 
 #: data/text/trainers.inc:24
 msgctxt "Route102_Text_CalvinRematchIntro"
@@ -50,6 +63,9 @@ msgid ""
 "trained my POKéMON.\l"
 "You can't say no to my challenge!$"
 msgstr ""
+"自从输给你以后，\n"
+"我就拼了命地锻炼宝可梦。\l"
+"你可不能拒绝我的挑战！$"
 
 #: data/text/trainers.inc:29
 msgctxt "Route102_Text_CalvinRematchDefeated"
@@ -57,6 +73,8 @@ msgid ""
 "Arrgh, I lost…\n"
 "Is my training method not right?$"
 msgstr ""
+"呜啊，我输了……\n"
+"难道是我的锻炼方法不对？$"
 
 #: data/text/trainers.inc:33
 msgctxt "Route102_Text_CalvinRematchPostBattle"
@@ -64,6 +82,8 @@ msgid ""
 "If you're going to get stronger,\n"
 "I'll get stronger, too.$"
 msgstr ""
+"你要是变得更强，\n"
+"我也会跟着变得更强。$"
 
 #: data/text/trainers.inc:37
 msgctxt "Route102_Text_AllenIntro"
@@ -71,6 +91,8 @@ msgid ""
 "Did you just become a TRAINER?\n"
 "We're both beginners!$"
 msgstr ""
+"你也是刚当上训练家吗？\n"
+"我们都是新手呢！$"
 
 #: data/text/trainers.inc:41
 msgctxt "Route102_Text_AllenDefeated"
@@ -78,6 +100,8 @@ msgid ""
 "I called you because I thought\n"
 "I could beat you…$"
 msgstr ""
+"我还以为能赢你，\n"
+"才叫住你的……$"
 
 #: data/text/trainers.inc:45
 msgctxt "Route102_Text_AllenPostBattle"
@@ -85,6 +109,8 @@ msgid ""
 "I haven't won once yet…\n"
 "I wish I would win soon…$"
 msgstr ""
+"我还一次都没赢过……\n"
+"真希望能快点赢一次……$"
 
 #: data/text/trainers.inc:49
 msgctxt "Route102_Text_RickIntro"
@@ -92,11 +118,13 @@ msgid ""
 "Hahah! Our eyes met!\n"
 "I'll take you on with my BUG POKéMON!$"
 msgstr ""
+"哈哈！我们对上眼了！\n"
+"就用我的虫属性宝可梦来对付你！$"
 
 #: data/text/trainers.inc:53
 msgctxt "Route102_Text_RickDefeated"
 msgid "Ow! Down and out!$"
-msgstr ""
+msgstr "哎哟！被打趴下了！$"
 
 #: data/text/trainers.inc:56
 msgctxt "Route102_Text_RickPostBattle"
@@ -104,6 +132,8 @@ msgid ""
 "If you lock eyes with a TRAINER,\n"
 "you have to challenge! It's a rule!$"
 msgstr ""
+"和训练家视线相交，\n"
+"就一定要对战！这是规矩！$"
 
 #: data/text/trainers.inc:60
 msgctxt "Route102_Text_TianaIntro"
@@ -112,11 +142,14 @@ msgid ""
 "to be the best TRAINER.\p"
 "Help me further my career!$"
 msgstr ""
+"我要一路赢下去，\n"
+"成为最强的训练家。\p"
+"来帮我积累一点战绩吧！$"
 
 #: data/text/trainers.inc:65
 msgctxt "Route102_Text_TianaDefeated"
 msgid "I ended up furthering your career…$"
-msgstr ""
+msgstr "结果反倒是帮你积累了战绩……$"
 
 #: data/text/trainers.inc:68
 msgctxt "Route102_Text_TianaPostBattle"
@@ -124,6 +157,8 @@ msgid ""
 "To keep winning my way up, I see that\n"
 "I have to catch more POKéMON.$"
 msgstr ""
+"想一路赢上去的话，\n"
+"看来我得多抓些宝可梦才行。$"
 
 #: data/text/trainers.inc:72
 msgctxt "Route103_Text_DaisyIntro"
@@ -131,11 +166,13 @@ msgid ""
 "Did you feel the tug of our\n"
 "soul-soothing fragrance?$"
 msgstr ""
+"你是不是被我们\n"
+"那令人心神安宁的香气吸引过来了？$"
 
 #: data/text/trainers.inc:76
 msgctxt "Route103_Text_DaisyDefeated"
 msgid "You weren't led astray by our aroma…$"
-msgstr ""
+msgstr "你居然没有被我们的香气迷住……$"
 
 #: data/text/trainers.inc:79
 msgctxt "Route103_Text_DaisyPostBattle"
@@ -143,6 +180,8 @@ msgid ""
 "Aromatherapy is a form of mental\n"
 "healing that works with fragrances.$"
 msgstr ""
+"芳香疗法是一种\n"
+"利用香气来疗愈心灵的方法。$"
 
 #: data/text/trainers.inc:83
 msgctxt "Route103_Text_AmyIntro"
@@ -151,11 +190,14 @@ msgid ""
 "And this is my little sister LIV.\l"
 "We battle together!$"
 msgstr ""
+"艾米：我是艾米。\n"
+"这是我妹妹莉芙。\l"
+"我们要一起对战！$"
 
 #: data/text/trainers.inc:88
 msgctxt "Route103_Text_AmyDefeated"
 msgid "AMY: Uh-oh, we lost.$"
-msgstr ""
+msgstr "艾米：糟糕，我们输了。$"
 
 #: data/text/trainers.inc:91
 msgctxt "Route103_Text_AmyPostBattle"
@@ -164,6 +206,8 @@ msgid ""
 "kinds of things when you're battling\l"
 "against two TRAINERS.$"
 msgstr ""
+"艾米：和两位训练家对战的时候，\n"
+"要考虑各种各样的事情呢。$"
 
 #: data/text/trainers.inc:96
 msgctxt "Route103_Text_AmyNotEnoughPokemon"
@@ -172,6 +216,9 @@ msgid ""
 "POKéMON with you.\l"
 "You can't battle us like that.$"
 msgstr ""
+"艾米：糟糕，你身上\n"
+"只带了一只宝可梦。\l"
+"这样是没法和我们对战的。$"
 
 #: data/text/trainers.inc:101
 msgctxt "Route103_Text_LivIntro"
@@ -179,11 +226,13 @@ msgid ""
 "LIV: We battle together as one\n"
 "team.$"
 msgstr ""
+"莉芙：我们是一个团队，\n"
+"要一起对战。$"
 
 #: data/text/trainers.inc:105
 msgctxt "Route103_Text_LivDefeated"
 msgid "LIV: Oh, we lost, big sister…$"
-msgstr ""
+msgstr "莉芙：姐姐，我们输了……$"
 
 #: data/text/trainers.inc:108
 msgctxt "Route103_Text_LivPostBattle"
@@ -192,6 +241,9 @@ msgid ""
 "me and my big sister…\p"
 "But we still lost…$"
 msgstr ""
+"莉芙：我和姐姐\n"
+"配合得天衣无缝……\p"
+"可还是输了……$"
 
 #: data/text/trainers.inc:113
 msgctxt "Route103_Text_AmyLivRegister"
@@ -199,6 +251,8 @@ msgid ""
 "LIV: Really, we're a lot better…\n"
 "It's true! We'll show you next time!$"
 msgstr ""
+"莉芙：我们其实要厉害得多……\n"
+"真的！下次一定让你见识见识！$"
 
 #: data/text/trainers.inc:117
 msgctxt "Route103_Text_LivNotEnoughPokemon"
@@ -207,6 +261,9 @@ msgid ""
 "you have to have two POKéMON!\l"
 "It's not fair if you don't!$"
 msgstr ""
+"莉芙：想和我们对战的话，\n"
+"你得有两只宝可梦才行！\l"
+"不然就不公平了！$"
 
 #: data/text/trainers.inc:122
 msgctxt "Route103_Text_AmyRematchIntro"
@@ -215,6 +272,9 @@ msgid ""
 "And this is my little sister LIV.\l"
 "We battle together!$"
 msgstr ""
+"艾米：我是艾米。\n"
+"这是我妹妹莉芙。\l"
+"我们要一起对战！$"
 
 #: data/text/trainers.inc:127
 msgctxt "Route103_Text_AmyRematchDefeated"
@@ -222,6 +282,8 @@ msgid ""
 "AMY: Aww, boo!\n"
 "We couldn't win again…$"
 msgstr ""
+"艾米：哎呀，讨厌！\n"
+"我们又没赢……$"
 
 #: data/text/trainers.inc:131
 msgctxt "Route103_Text_AmyRematchPostBattle"
@@ -230,6 +292,8 @@ msgid ""
 "kinds of things when you're battling\l"
 "against two TRAINERS.$"
 msgstr ""
+"艾米：和两位训练家对战的时候，\n"
+"要考虑各种各样的事情呢。$"
 
 #: data/text/trainers.inc:136
 msgctxt "Route103_Text_AmyRematchNotEnoughPokemon"
@@ -238,6 +302,9 @@ msgid ""
 "POKéMON with you.\l"
 "You can't battle us like that.$"
 msgstr ""
+"艾米：糟糕，你身上\n"
+"只带了一只宝可梦。\l"
+"这样是没法和我们对战的。$"
 
 #: data/text/trainers.inc:141
 msgctxt "Route103_Text_LivRematchIntro"
@@ -245,6 +312,8 @@ msgid ""
 "LIV: We battle together as one\n"
 "team.$"
 msgstr ""
+"莉芙：我们是一个团队，\n"
+"要一起对战。$"
 
 #: data/text/trainers.inc:145
 msgctxt "Route103_Text_LivRematchDefeated"
@@ -252,6 +321,8 @@ msgid ""
 "LIV: Awww, we lost again…\n"
 "Big sister…$"
 msgstr ""
+"莉芙：呜……又输了……\n"
+"姐姐……$"
 
 #: data/text/trainers.inc:149
 msgctxt "Route103_Text_LivRematchPostBattle"
@@ -260,6 +331,9 @@ msgid ""
 "me and my big sister…\p"
 "But why did we lose again?$"
 msgstr ""
+"莉芙：我和姐姐\n"
+"配合得天衣无缝……\p"
+"可为什么又输了呢？$"
 
 #: data/text/trainers.inc:154
 msgctxt "Route103_Text_LivRematchNotEnoughPokemon"
@@ -268,6 +342,9 @@ msgid ""
 "have to have two POKéMON!\l"
 "It's not fair if you don't!$"
 msgstr ""
+"莉芙：想和我们对战的话，\n"
+"你得有两只宝可梦才行！\l"
+"不然就不公平了！$"
 
 #: data/text/trainers.inc:159
 msgctxt "Route103_Text_AndrewIntro"
@@ -276,6 +353,9 @@ msgid ""
 "I'm getting frustrated and mean!\l"
 "That's it! Battle me!$"
 msgstr ""
+"可恶！我的钓线全缠在一起了！\n"
+"我现在又烦躁又火大！\l"
+"就这么定了！和我对战！$"
 
 #: data/text/trainers.inc:164
 msgctxt "Route103_Text_AndrewDefeated"
@@ -283,6 +363,8 @@ msgid ""
 "Gah! Lost it!\n"
 "I'm even more annoyed now!$"
 msgstr ""
+"可恶！输了！\n"
+"我更火大了！$"
 
 #: data/text/trainers.inc:168
 msgctxt "Route103_Text_AndrewPostBattle"
@@ -290,6 +372,8 @@ msgid ""
 "Gah, I'm still boiling mad…\n"
 "Grrrrr…$"
 msgstr ""
+"可恶，我还是气得要命……\n"
+"呜呜呜……$"
 
 #: data/text/trainers.inc:172
 msgctxt "Route103_Text_MiguelIntro"
@@ -297,6 +381,8 @@ msgid ""
 "My POKéMON is delightfully adorable!\n"
 "Don't be shy--I'll show you!$"
 msgstr ""
+"我的宝可梦可爱得不得了！\n"
+"别害羞嘛，我给你看看！$"
 
 #: data/text/trainers.inc:176
 msgctxt "Route103_Text_MiguelDefeated"
@@ -304,6 +390,8 @@ msgid ""
 "Oh, my gosh!\n"
 "My darling POKéMON!$"
 msgstr ""
+"天哪！\n"
+"我亲爱的宝可梦！$"
 
 #: data/text/trainers.inc:180
 msgctxt "Route103_Text_MiguelPostBattle"
@@ -311,6 +399,8 @@ msgid ""
 "My delightful POKéMON looks darling\n"
 "even when it's fainted!$"
 msgstr ""
+"我可爱的宝可梦\n"
+"就算倒下了也还是那么可爱！$"
 
 #: data/text/trainers.inc:184
 msgctxt "Route103_Text_MiguelRegister"
@@ -318,6 +408,8 @@ msgid ""
 "I'll get you to come out and look in\n"
 "on my delightful POKéMON again!$"
 msgstr ""
+"我一定会让你再来\n"
+"看看我可爱的宝可梦的！$"
 
 #: data/text/trainers.inc:188
 msgctxt "Route103_Text_MiguelRematchIntro"
@@ -325,6 +417,8 @@ msgid ""
 "Hi, you! My delightfully adorable\n"
 "POKéMON has become more darling!$"
 msgstr ""
+"嗨，是你！我那可爱得不得了的\n"
+"宝可梦变得更可爱了！$"
 
 #: data/text/trainers.inc:192
 msgctxt "Route103_Text_MiguelRematchDefeated"
@@ -332,6 +426,8 @@ msgid ""
 "Oh!\n"
 "My darling POKéMON!$"
 msgstr ""
+"哦！\n"
+"我亲爱的宝可梦！$"
 
 #: data/text/trainers.inc:196
 msgctxt "Route103_Text_MiguelRematchPostBattle"
@@ -339,6 +435,8 @@ msgid ""
 "The more I spend time with it,\n"
 "the more adorable my POKéMON becomes.$"
 msgstr ""
+"和它相处得越久，\n"
+"我的宝可梦就变得越可爱。$"
 
 #: data/text/trainers.inc:200
 msgctxt "Route103_Text_PeteIntro"
@@ -346,11 +444,13 @@ msgid ""
 "This sort of distance…\n"
 "You should just swim it!$"
 msgstr ""
+"这么点距离……\n"
+"游过去不就好了嘛！$"
 
 #: data/text/trainers.inc:204
 msgctxt "Route103_Text_PeteDefeated"
 msgid "Oh, that's good going!$"
-msgstr ""
+msgstr "哦，真有一手！$"
 
 #: data/text/trainers.inc:207
 msgctxt "Route103_Text_PetePostBattle"
@@ -360,6 +460,9 @@ msgid ""
 "If I had a POKéMON that trusty,\n"
 "I'd want to SURF on it, too!$"
 msgstr ""
+"哦，现在我明白你的想法了。\p"
+"要是我也有这么可靠的宝可梦，\n"
+"我也想骑着它冲浪！$"
 
 #: data/text/trainers.inc:213
 msgctxt "Route103_Text_IsabelleIntro"
@@ -367,11 +470,13 @@ msgid ""
 "Watch where you're going!\n"
 "We're going to crash!$"
 msgstr ""
+"看着点路！\n"
+"要撞上了！$"
 
 #: data/text/trainers.inc:217
 msgctxt "Route103_Text_IsabelleDefeated"
 msgid "Groan…$"
-msgstr ""
+msgstr "呜……$"
 
 #: data/text/trainers.inc:220
 msgctxt "Route103_Text_IsabellePostBattle"
@@ -379,6 +484,8 @@ msgid ""
 "I'm a poor swimmer so I was practicing…\n"
 "Sorry for almost crashing into you.$"
 msgstr ""
+"我游泳不太行，所以在练习……\n"
+"差点撞到你，对不起。$"
 
 #: data/text/trainers.inc:224
 msgctxt "Route103_Text_RhettIntro"
@@ -386,6 +493,8 @@ msgid ""
 "Whoa!\n"
 "How'd you get into a space this small?$"
 msgstr ""
+"哇！\n"
+"你是怎么进到这么窄的地方来的？$"
 
 #: data/text/trainers.inc:228
 msgctxt "Route103_Text_RhettDefeated"
@@ -393,6 +502,8 @@ msgid ""
 "Whoa!\n"
 "The kid can rock!$"
 msgstr ""
+"哇！\n"
+"这小家伙真够劲！$"
 
 #: data/text/trainers.inc:232
 msgctxt "Route103_Text_RhettPostBattle"
@@ -400,16 +511,18 @@ msgid ""
 "Do you like cramped quarters\n"
 "like this?$"
 msgstr ""
+"你喜欢这种\n"
+"挤巴巴的地方吗？$"
 
 #: data/text/trainers.inc:236
 msgctxt "Route103_Text_MarcosIntro"
 msgid "Did my guitar's wailing draw you in?$"
-msgstr ""
+msgstr "你是被我吉他的嘶吼声吸引来的吗？$"
 
 #: data/text/trainers.inc:239
 msgctxt "Route103_Text_MarcosDefeated"
 msgid "My one-man show is ruined…$"
-msgstr ""
+msgstr "我的个人演出被搞砸了……$"
 
 #: data/text/trainers.inc:242
 msgctxt "Route103_Text_MarcosPostBattle"
@@ -419,6 +532,9 @@ msgid ""
 "have gathered.\p"
 "Heh, maybe I should turn pro.$"
 msgstr ""
+"我特地挑了个没什么人的地方弹吉他，\n"
+"结果却聚集了好多歌迷。\p"
+"嘿嘿，也许我该去当职业乐手了。$"
 
 #: data/text/trainers.inc:248
 msgctxt "Route104_Text_GinaIntro"
@@ -426,11 +542,13 @@ msgid ""
 "GINA: Okay, let's battle with our\n"
 "POKéMON!$"
 msgstr ""
+"吉娜：好，我们用宝可梦\n"
+"来对战吧！$"
 
 #: data/text/trainers.inc:252
 msgctxt "Route104_Text_GinaDefeat"
 msgid "GINA: Losing upsets me!$"
-msgstr ""
+msgstr "吉娜：输了好不甘心！$"
 
 #: data/text/trainers.inc:255
 msgctxt "Route104_Text_GinaPostBattle"
@@ -438,6 +556,8 @@ msgid ""
 "GINA: You are strong!\n"
 "We have to train lots more!$"
 msgstr ""
+"吉娜：你好强！\n"
+"我们还得多多训练才行！$"
 
 #: data/text/trainers.inc:259
 msgctxt "Route104_Text_GinaNotEnoughMons"
@@ -447,6 +567,10 @@ msgid ""
 "If there's only one POKéMON, it will\n"
 "be lonesome. That's not nice.$"
 msgstr ""
+"吉娜：咦？只有一只宝可梦？\n"
+"那我们就不和你对战了。\p"
+"只有一只宝可梦的话，\n"
+"它会很寂寞的。那样可不好。$"
 
 #: data/text/trainers.inc:265
 msgctxt "Route104_Text_MiaIntro"
@@ -454,6 +578,8 @@ msgid ""
 "MIA: We are twins, so we battle\n"
 "POKéMON together.$"
 msgstr ""
+"米娅：我们是双胞胎，\n"
+"所以要一起用宝可梦对战。$"
 
 #: data/text/trainers.inc:269
 msgctxt "Route104_Text_MiaDefeat"
@@ -461,6 +587,8 @@ msgid ""
 "MIA: We battled together, but we\n"
 "both lost…$"
 msgstr ""
+"米娅：我们一起对战，\n"
+"结果两个人都输了……$"
 
 #: data/text/trainers.inc:273
 msgctxt "Route104_Text_MiaPostBattle"
@@ -468,6 +596,8 @@ msgid ""
 "MIA: We will train our POKéMON more\n"
 "and be strong like you.$"
 msgstr ""
+"米娅：我们会更努力地训练宝可梦，\n"
+"变得像你一样强。$"
 
 #: data/text/trainers.inc:277
 msgctxt "Route104_Text_MiaNotEnoughMons"
@@ -477,6 +607,10 @@ msgid ""
 "POKéMON with you.\l"
 "We're too strong for you!$"
 msgstr ""
+"米娅：你想和我们对战？\p"
+"身上没带两只宝可梦的话，\n"
+"那可绝对不行。\l"
+"我们对你来说太强了！$"
 
 #: data/text/trainers.inc:283
 msgctxt "Route104_Text_IvanIntro"
@@ -486,6 +620,10 @@ msgid ""
 "Huh?\n"
 "You don't know me?$"
 msgstr ""
+"有什么好隐瞒的？\n"
+"我可是水属性宝可梦专家！\p"
+"咦？\n"
+"你不认识我？$"
 
 #: data/text/trainers.inc:289
 msgctxt "Route104_Text_IvanDefeat"
@@ -493,6 +631,8 @@ msgid ""
 "I thought I wasn't too bad, if I may\n"
 "say so, but I guess not… Bleah…$"
 msgstr ""
+"我还自认为挺厉害的，\n"
+"看来并不是……唉……$"
 
 #: data/text/trainers.inc:293
 msgctxt "Route104_Text_IvanPostBattle"
@@ -500,6 +640,8 @@ msgid ""
 "I got too into fishing.\n"
 "I forgot I had to raise my POKéMON…$"
 msgstr ""
+"我太沉迷钓鱼了，\n"
+"都忘了还要培育宝可梦……$"
 
 #: data/text/trainers.inc:297
 msgctxt "Route104_Text_BillyIntro"
@@ -507,6 +649,8 @@ msgid ""
 "Leaving footprints in the sand is\n"
 "so fun!$"
 msgstr ""
+"在沙滩上留下脚印\n"
+"真好玩！$"
 
 #: data/text/trainers.inc:301
 msgctxt "Route104_Text_BillyDefeat"
@@ -514,6 +658,8 @@ msgid ""
 "Waah! I got sand in my runners!\n"
 "They're all gritty!$"
 msgstr ""
+"哇啊！沙子跑进鞋里了！\n"
+"硌得慌！$"
 
 #: data/text/trainers.inc:305
 msgctxt "Route104_Text_BillyPostBattle"
@@ -522,6 +668,8 @@ msgid ""
 "the sand everywhere, but they\l"
 "disappear quickly…$"
 msgstr ""
+"我想在沙滩上到处留下脚印，\n"
+"可是脚印很快就消失了……$"
 
 #: data/text/trainers.inc:310
 msgctxt "Route104_Text_HaleyIntro"
@@ -530,11 +678,14 @@ msgid ""
 "Or shouldn't I?\p"
 "Okay, sure, I will battle!$"
 msgstr ""
+"要不要……\n"
+"还是不要呢？\p"
+"好吧，就这么定了，我要对战！$"
 
 #: data/text/trainers.inc:315
 msgctxt "Route104_Text_HaleyDefeat"
 msgid "I shouldn't have battled…$"
-msgstr ""
+msgstr "早知道就不对战了……$"
 
 #: data/text/trainers.inc:318
 msgctxt "Route104_Text_HaleyPostBattle"
@@ -544,6 +695,9 @@ msgid ""
 "you will regret it, however things\l"
 "turn out.$"
 msgstr ""
+"面临抉择的时候，\n"
+"如果让别人替你做决定，\l"
+"不管结果如何，你都会后悔的。$"
 
 #: data/text/trainers.inc:324
 msgctxt "Route104_Text_HaleyRegister1"
@@ -553,6 +707,10 @@ msgid ""
 "Maybe I shouldn't…\p"
 "Okay, sure, I will register you!$"
 msgstr ""
+"你很强，但我要不要\n"
+"把你登记到宝可梦导航里呢？\l"
+"还是算了吧……\p"
+"好吧，就这么定了，我要登记你！$"
 
 #: data/text/trainers.inc:330
 msgctxt "Route104_Text_HaleyRegister2"
@@ -562,11 +720,15 @@ msgid ""
 "Maybe I shouldn't…\p"
 "Okay, sure, I will register you!$"
 msgstr ""
+"你很强，但我要不要\n"
+"把你登记到宝可梦导航里呢？\l"
+"还是算了吧……\p"
+"好吧，就这么定了，我要登记你！$"
 
 #: data/text/trainers.inc:336
 msgctxt "Route104_Text_HaleyRematchIntro"
 msgid "Come on, battle with me!$"
-msgstr ""
+msgstr "来吧，和我对战！$"
 
 #: data/text/trainers.inc:339
 msgctxt "Route104_Text_HaleyRematchDefeat"
@@ -574,6 +736,8 @@ msgid ""
 "Ohh…\n"
 "I thought I could win…$"
 msgstr ""
+"哦……\n"
+"我还以为能赢呢……$"
 
 #: data/text/trainers.inc:343
 msgctxt "Route104_Text_HaleyPostRematch"
@@ -582,6 +746,9 @@ msgid ""
 "I can accept this loss with grace.\p"
 "I am still upset about losing!$"
 msgstr ""
+"对战是我自己决定的，\n"
+"所以我能坦然接受这次失败。\p"
+"可是输了我还是很不甘心！$"
 
 #: data/text/trainers.inc:348
 msgctxt "Route104_Text_WinstonIntro"
@@ -589,11 +756,13 @@ msgid ""
 "Oh, sure, I'll accept your challenge.\n"
 "I have a lot of money.$"
 msgstr ""
+"哦，当然，我接受你的挑战。\n"
+"我可是很有钱的。$"
 
 #: data/text/trainers.inc:352
 msgctxt "Route104_Text_WinstonDefeat"
 msgid "Why couldn't I win?$"
-msgstr ""
+msgstr "为什么我赢不了？$"
 
 #: data/text/trainers.inc:355
 msgctxt "Route104_Text_WinstonPostBattle"
@@ -601,6 +770,8 @@ msgid ""
 "There are some things money can't buy.\n"
 "That's POKéMON…$"
 msgstr ""
+"有些东西是用钱买不到的。\n"
+"那就是宝可梦……$"
 
 #: data/text/trainers.inc:359
 msgctxt "Route104_Text_WinstonRegister1"
@@ -610,6 +781,10 @@ msgid ""
 "I will gladly register you.\n"
 "After all, I have plenty of money.$"
 msgstr ""
+"嗯？\n"
+"啊，你拿到宝可梦导航了啊。\p"
+"我很乐意让你登记。\n"
+"毕竟我有的是钱嘛。$"
 
 #: data/text/trainers.inc:365
 msgctxt "Route104_Text_WinstonRegister2"
@@ -619,6 +794,10 @@ msgid ""
 "I will gladly register you.\n"
 "After all, I have plenty of money.$"
 msgstr ""
+"嗯？\n"
+"啊，你拿到宝可梦导航了啊。\p"
+"我很乐意让你登记。\n"
+"毕竟我有的是钱嘛。$"
 
 #: data/text/trainers.inc:371
 msgctxt "Route104_Text_WinstonRematchIntro"
@@ -626,6 +805,8 @@ msgid ""
 "After I lost to you, I learned a bunch\n"
 "of things about POKéMON.$"
 msgstr ""
+"输给你以后，\n"
+"我学到了很多关于宝可梦的事情。$"
 
 #: data/text/trainers.inc:375
 msgctxt "Route104_Text_WinstonRematchDefeat"
@@ -633,6 +814,8 @@ msgid ""
 "I lost again?\n"
 "Why couldn't I win?$"
 msgstr ""
+"我又输了？\n"
+"为什么我赢不了？$"
 
 #: data/text/trainers.inc:379
 msgctxt "Route104_Text_WinstonPostRematch"
@@ -641,6 +824,9 @@ msgid ""
 "seem to win at POKéMON…\p"
 "It's so deep, the world of POKéMON…$"
 msgstr ""
+"我富可敌国，\n"
+"可在宝可梦上就是赢不了……\p"
+"宝可梦的世界真是深奥啊……$"
 
 #: data/text/trainers.inc:384
 msgctxt "Route104_Text_CindyIntro"
@@ -648,11 +834,13 @@ msgid ""
 "We must have been fated to meet.\n"
 "May I ask you for a battle?$"
 msgstr ""
+"我们的相遇一定是命中注定。\n"
+"能请你和我对战一场吗？$"
 
 #: data/text/trainers.inc:388
 msgctxt "Route104_Text_CindyDefeat"
 msgid "Oh, my!$"
-msgstr ""
+msgstr "哎呀！$"
 
 #: data/text/trainers.inc:391
 msgctxt "Route104_Text_CindyPostBattle"
@@ -660,6 +848,8 @@ msgid ""
 "“Hello” is the beginning of “good-bye.”\n"
 "I hope we meet again.$"
 msgstr ""
+"“你好”就是“再见”的开始。\n"
+"希望我们还能再相见。$"
 
 #: data/text/trainers.inc:395
 msgctxt "Route104_Text_CindyRegister1"
@@ -668,6 +858,9 @@ msgid ""
 "We seem to be drawn together. Let's\n"
 "register each other in our POKéNAVS.$"
 msgstr ""
+"你好，我们又见面了。\p"
+"我们似乎很有缘分呢。\n"
+"互相登记到宝可梦导航里吧。$"
 
 #: data/text/trainers.inc:400
 msgctxt "Route104_Text_CindyRegister2"
@@ -677,6 +870,10 @@ msgid ""
 "Let's register each other in our\n"
 "POKéNAVS.$"
 msgstr ""
+"我们这么有缘，\n"
+"应该纪念一下才是。\p"
+"我们互相登记到\n"
+"宝可梦导航里吧。$"
 
 #: data/text/trainers.inc:406
 msgctxt "Route104_Text_CindyRematchIntro"
@@ -684,6 +881,8 @@ msgid ""
 "Hello, we meet again.\n"
 "May I ask you for a battle?$"
 msgstr ""
+"你好，我们又见面了。\n"
+"能请你和我对战一场吗？$"
 
 #: data/text/trainers.inc:410
 msgctxt "Route104_Text_CindyRematchDefeat"
@@ -691,6 +890,8 @@ msgid ""
 "Oh, my…\n"
 "I did the best that I could…$"
 msgstr ""
+"哎呀……\n"
+"我已经尽力了……$"
 
 #: data/text/trainers.inc:414
 msgctxt "Route104_Text_CindyPostRematch"
@@ -698,6 +899,8 @@ msgid ""
 "“Hello” is the beginning of “good-bye.”\n"
 "I hope we meet again.$"
 msgstr ""
+"“你好”就是“再见”的开始。\n"
+"希望我们还能再相见。$"
 
 #: data/text/trainers.inc:418
 msgctxt "Route104_Text_DarianIntro"
@@ -706,11 +909,14 @@ msgid ""
 "It has this magical quality to it!\n"
 "It surely looks tough, yes it does!$"
 msgstr ""
+"我钓上来一只看起来很强的宝可梦！\p"
+"它有一种神奇的气质！\n"
+"看起来真的很强，绝对没错！$"
 
 #: data/text/trainers.inc:423
 msgctxt "Route104_Text_DarianDefeat"
 msgid "What the…$"
-msgstr ""
+msgstr "怎么会……$"
 
 #: data/text/trainers.inc:426
 msgctxt "Route104_Text_DarianPostBattle"
@@ -718,6 +924,8 @@ msgid ""
 "Hey, MAGIKARP, you sure don't live up\n"
 "to your name, do you?$"
 msgstr ""
+"喂，鲤鱼王，你可真是\n"
+"一点都不像你的名字那么威风啊。$"
 
 #: data/text/trainers.inc:430
 msgctxt "Route105_Text_FosterIntro"
@@ -726,6 +934,9 @@ msgid ""
 "rock around here.\l"
 "Do you know anything about it?$"
 msgstr ""
+"听说这附近\n"
+"有一块神秘的岩石。\l"
+"你知道些什么吗？$"
 
 #: data/text/trainers.inc:435
 msgctxt "Route105_Text_FosterDefeated"
@@ -733,6 +944,8 @@ msgid ""
 "I was thinking too much about that\n"
 "rock, while my POKéMON remained weak…$"
 msgstr ""
+"我光顾着想那块岩石，\n"
+"宝可梦却一直这么弱……$"
 
 #: data/text/trainers.inc:439
 msgctxt "Route105_Text_FosterPostBattle"
@@ -740,6 +953,8 @@ msgid ""
 "I can spend hours and hours staring\n"
 "at a nice rock without growing bored.$"
 msgstr ""
+"盯着一块漂亮的岩石，\n"
+"我可以看上好几个小时都不腻。$"
 
 #: data/text/trainers.inc:443
 msgctxt "Route105_Text_LuisIntro"
@@ -749,11 +964,15 @@ msgid ""
 "You seem to be okay, so what do you\n"
 "say to a battle?$"
 msgstr ""
+"呼！看到你的时候，\n"
+"我还担心是有小孩溺水了呢。\p"
+"看来你没事，\n"
+"那来对战一场怎么样？$"
 
 #: data/text/trainers.inc:449
 msgctxt "Route105_Text_LuisDefeated"
 msgid "Glub… Glub…$"
-msgstr ""
+msgstr "咕噜……咕噜……$"
 
 #: data/text/trainers.inc:452
 msgctxt "Route105_Text_LuisPostBattle"
@@ -761,6 +980,8 @@ msgid ""
 "If you are drowning, the signal is to\n"
 "wave one arm toward the beach.$"
 msgstr ""
+"溺水的时候，\n"
+"要朝着岸边挥动一只手臂求救。$"
 
 #: data/text/trainers.inc:456
 msgctxt "Route105_Text_DominikIntro"
@@ -768,6 +989,8 @@ msgid ""
 "Swimming the deep blue sea…\n"
 "It feels the greatest!$"
 msgstr ""
+"在深蓝的大海里游泳……\n"
+"感觉棒极了！$"
 
 #: data/text/trainers.inc:460
 msgctxt "Route105_Text_DominikDefeated"
@@ -775,6 +998,8 @@ msgid ""
 "I lost…\n"
 "Now I'm feeling blue…$"
 msgstr ""
+"我输了……\n"
+"心情也跟着蓝了……$"
 
 #: data/text/trainers.inc:464
 msgctxt "Route105_Text_DominikPostBattle"
@@ -783,6 +1008,9 @@ msgid ""
 "I learned about that at the MUSEUM in\n"
 "SLATEPORT, but I forgot.$"
 msgstr ""
+"大海为什么是蓝色的呢？\p"
+"我在凯那市的博物馆\n"
+"学过的，可是忘了。$"
 
 #: data/text/trainers.inc:469
 msgctxt "Route105_Text_BeverlyIntro"
@@ -790,11 +1018,13 @@ msgid ""
 "My body feels lighter in the water.\n"
 "It's as if I've gotten slimmer!$"
 msgstr ""
+"在水里身体感觉轻飘飘的。\n"
+"就好像我变苗条了一样！$"
 
 #: data/text/trainers.inc:473
 msgctxt "Route105_Text_BeverlyDefeated"
 msgid "I'm floating…$"
-msgstr ""
+msgstr "我飘起来了……$"
 
 #: data/text/trainers.inc:476
 msgctxt "Route105_Text_PostBattle"
@@ -804,6 +1034,10 @@ msgid ""
 "That would make me…\n"
 "Whoops! I'm not telling you my weight!$"
 msgstr ""
+"在水里，体重只剩下\n"
+"原来的十分之一。\p"
+"那我就是……\n"
+"哎呀！我才不告诉你我的体重呢！$"
 
 #: data/text/trainers.inc:482
 msgctxt "Route105_Text_ImaniIntro"
@@ -812,11 +1046,14 @@ msgid ""
 "The vast sea…\l"
 "It's so peaceful…$"
 msgstr ""
+"蓝蓝的天空……\n"
+"辽阔的大海……\l"
+"真是平静啊……$"
 
 #: data/text/trainers.inc:487
 msgctxt "Route105_Text_ImaniDefeated"
 msgid "I lost while I was lounging!$"
-msgstr ""
+msgstr "悠闲的时候被打败了！$"
 
 #: data/text/trainers.inc:490
 msgctxt "Route105_Text_ImaniPostBattle"
@@ -824,6 +1061,8 @@ msgid ""
 "I want to be told I'm relaxing to be\n"
 "with. Giggle.$"
 msgstr ""
+"我希望别人说\n"
+"和我在一起很放松。嘻嘻。$"
 
 #: data/text/trainers.inc:494
 msgctxt "Route105_Text_AndresIntro"
@@ -831,6 +1070,8 @@ msgid ""
 "I'm convinced that the sea keeps\n"
 "secrets from us.$"
 msgstr ""
+"我坚信大海\n"
+"对我们隐藏着秘密。$"
 
 #: data/text/trainers.inc:498
 msgctxt "Route105_Text_AndresDefeated"
@@ -838,6 +1079,8 @@ msgid ""
 "Yes…\n"
 "I am no good at battling…$"
 msgstr ""
+"是啊……\n"
+"我不擅长对战……$"
 
 #: data/text/trainers.inc:502
 msgctxt "Route105_Text_AndresPostBattle"
@@ -846,6 +1089,9 @@ msgid ""
 "discovered in the world's seas.\p"
 "I mean to find them all!$"
 msgstr ""
+"世界的海洋里一定\n"
+"还有很多秘密等着被发现。\p"
+"我要把它们全部找出来！$"
 
 #: data/text/trainers.inc:507
 msgctxt "Route105_Text_AndresRegister"
@@ -853,6 +1099,8 @@ msgid ""
 "Huh? I'm so weak, but you're willing\n"
 "to register me in your POKéNAV?$"
 msgstr ""
+"咦？我这么弱，\n"
+"你也愿意把我登记到宝可梦导航里？$"
 
 #: data/text/trainers.inc:511
 msgctxt "Route105_Text_AndresRematchIntro"
@@ -860,6 +1108,8 @@ msgid ""
 "I've told you that I'm weak…\n"
 "Are you sure you want to do this?$"
 msgstr ""
+"我说过我很弱的……\n"
+"你确定要和我对战吗？$"
 
 #: data/text/trainers.inc:515
 msgctxt "Route105_Text_AndresRematchDefeated"
@@ -867,6 +1117,8 @@ msgid ""
 "Yes…\n"
 "I didn't think I could win.$"
 msgstr ""
+"是啊……\n"
+"我就知道赢不了。$"
 
 #: data/text/trainers.inc:519
 msgctxt "Route105_Text_AndresRematchPostBattle"
@@ -876,6 +1128,9 @@ msgid ""
 "I will travel the seas all around\n"
 "the world!$"
 msgstr ""
+"我对战也许很弱，\n"
+"但探险的热情绝不输给任何人。\p"
+"我要游遍全世界的海洋！$"
 
 #: data/text/trainers.inc:525
 msgctxt "Route105_Text_JosueIntro"
@@ -884,11 +1139,14 @@ msgid ""
 "I'm just not used to it.\p"
 "I need a battle for a change of pace!$"
 msgstr ""
+"游泳把我累坏了。\n"
+"我实在不习惯。\p"
+"我需要对战一场来换换心情！$"
 
 #: data/text/trainers.inc:530
 msgctxt "Route105_Text_JosueDefeated"
 msgid "I lost because I battled at sea.$"
-msgstr ""
+msgstr "我会输是因为在海上对战。$"
 
 #: data/text/trainers.inc:533
 msgctxt "Route105_Text_JosuePostBattle"
@@ -896,6 +1154,8 @@ msgid ""
 "Yeah, for me, the sky is a much better\n"
 "match than the sea.$"
 msgstr ""
+"是啊，对我来说，\n"
+"天空比大海合适多了。$"
 
 #: data/text/trainers.inc:537
 msgctxt "Route106_Text_ElliotIntro"
@@ -903,6 +1163,8 @@ msgid ""
 "Which do you prefer, fishing in the\n"
 "sea or a stream?$"
 msgstr ""
+"你更喜欢在海里钓鱼，\n"
+"还是在溪流里钓鱼？$"
 
 #: data/text/trainers.inc:541
 msgctxt "Route106_Text_ElliotDefeated"
@@ -910,6 +1172,8 @@ msgid ""
 "Like in deep-sea fishing, I lost\n"
 "spectacularly!$"
 msgstr ""
+"就像深海钓鱼一样，\n"
+"我输得一塌糊涂！$"
 
 #: data/text/trainers.inc:545
 msgctxt "Route106_Text_ElliotPostBattle"
@@ -918,6 +1182,9 @@ msgid ""
 "in the sea or a stream.\l"
 "You agree with me, right?$"
 msgstr ""
+"不管是在海里还是在溪流里，\n"
+"钓鱼都是最棒的。\l"
+"你也这么觉得吧？$"
 
 #: data/text/trainers.inc:550
 msgctxt "Route106_Text_ElliotRegister"
@@ -925,6 +1192,8 @@ msgid ""
 "Fishing's great, but so is battling.\n"
 "If you don't mind, can we meet again?$"
 msgstr ""
+"钓鱼很棒，对战也很棒。\n"
+"不介意的话，我们还能再见面吗？$"
 
 #: data/text/trainers.inc:554
 msgctxt "Route106_Text_ElliotRematchIntro"
@@ -932,11 +1201,13 @@ msgid ""
 "I caught a bunch of POKéMON fishing.\n"
 "I'll show you an impressive battle!$"
 msgstr ""
+"我钓到了好多宝可梦。\n"
+"让你见识一场精彩的对战！$"
 
 #: data/text/trainers.inc:558
 msgctxt "Route106_Text_ElliotRematchDefeated"
 msgid "I lost again spectacularly!$"
-msgstr ""
+msgstr "我又输得一塌糊涂！$"
 
 #: data/text/trainers.inc:561
 msgctxt "Route106_Text_ElliotRematchPostBattle"
@@ -944,6 +1215,8 @@ msgid ""
 "Win or lose, POKéMON are the greatest!\n"
 "You agree with me, right?$"
 msgstr ""
+"不管输赢，宝可梦都是最棒的！\n"
+"你也这么觉得吧？$"
 
 #: data/text/trainers.inc:565
 msgctxt "Route106_Text_NedIntro"
@@ -953,6 +1226,11 @@ msgid ""
 "What if my ROD hooks a big one while\n"
 "I'm in the washroom? I just can't go…$"
 msgstr ""
+"要是想上厕所的话，\n"
+"大家都怎么办啊？\p"
+"万一我去厕所的时候\n"
+"钓竿钓到大鱼了怎么办？\l"
+"我根本不敢去……$"
 
 #: data/text/trainers.inc:571
 msgctxt "Route106_Text_NedDefeated"
@@ -960,6 +1238,8 @@ msgid ""
 "I lost because I'm trying to not go\n"
 "to the washroom…$"
 msgstr ""
+"我会输，\n"
+"都是因为我在憋着不去厕所……$"
 
 #: data/text/trainers.inc:575
 msgctxt "Route106_Text_NedPostBattle"
@@ -967,6 +1247,8 @@ msgid ""
 "Oh, no! I've got this feeling I'll hook\n"
 "a big one!$"
 msgstr ""
+"糟了！我有预感\n"
+"要钓到一条大鱼了！$"
 
 #: data/text/trainers.inc:579
 msgctxt "Route106_Text_DouglasIntro"
@@ -974,16 +1256,18 @@ msgid ""
 "Hahahah! I'm a lousy runner, but in\n"
 "the water you can't catch me!$"
 msgstr ""
+"哈哈哈！我跑步很差劲，\n"
+"但在水里你可追不上我！$"
 
 #: data/text/trainers.inc:583
 msgctxt "Route106_Text_DouglasDefeated"
 msgid "I give up!$"
-msgstr ""
+msgstr "我认输！$"
 
 #: data/text/trainers.inc:586
 msgctxt "Route106_Text_DouglasPostBattle"
 msgid "I wouldn't lose in a swim race…$"
-msgstr ""
+msgstr "要是比游泳，我可不会输……$"
 
 #: data/text/trainers.inc:589
 msgctxt "Route106_Text_KylaIntro"
@@ -991,6 +1275,8 @@ msgid ""
 "The sea is my backyard. I'm not going\n"
 "to take it easy because you're a kid!$"
 msgstr ""
+"大海就是我家后院。\n"
+"别以为你是小孩我就会手下留情！$"
 
 #: data/text/trainers.inc:593
 msgctxt "Route106_Text_KylaDefeated"
@@ -998,6 +1284,8 @@ msgid ""
 "Did you take it easy on me by any\n"
 "chance?$"
 msgstr ""
+"你该不会\n"
+"是让着我吧？$"
 
 #: data/text/trainers.inc:597
 msgctxt "Route106_Text_KylaPostBattle"
@@ -1005,6 +1293,8 @@ msgid ""
 "Drifting along with the waves…\n"
 "I love it! Why don't you give it a try?$"
 msgstr ""
+"随着海浪漂来漂去……\n"
+"我最喜欢了！你也试试看吧？$"
 
 #: data/text/trainers.inc:601
 msgctxt "Route107_Text_DarrinIntro"
@@ -1013,6 +1303,9 @@ msgid ""
 "I must have drifted off to sleep while\n"
 "I was drifting in the waves.$"
 msgstr ""
+"哈啊……\p"
+"我在海浪里漂着漂着，\n"
+"好像不小心睡着了。$"
 
 #: data/text/trainers.inc:606
 msgctxt "Route107_Text_DarrinDefeated"
@@ -1020,6 +1313,8 @@ msgid ""
 "Ahaha, I lost…\n"
 "I'll take a snooze, I think…$"
 msgstr ""
+"啊哈哈，我输了……\n"
+"我看我还是打个盹吧……$"
 
 #: data/text/trainers.inc:610
 msgctxt "Route107_Text_DarrinPostBattle"
@@ -1028,6 +1323,8 @@ msgid ""
 "the waves--it's like sleeping in\l"
 "a plush, comfy bed.$"
 msgstr ""
+"漂在水面上被海浪轻轻摇晃，\n"
+"就像睡在柔软舒适的床上一样。$"
 
 #: data/text/trainers.inc:615
 msgctxt "Route107_Text_TonyIntro"
@@ -1035,6 +1332,8 @@ msgid ""
 "The sea is like my backyard.\n"
 "Let's battle!$"
 msgstr ""
+"大海就像我家后院。\n"
+"来对战吧！$"
 
 #: data/text/trainers.inc:619
 msgctxt "Route107_Text_TonyDefeated"
@@ -1042,6 +1341,8 @@ msgid ""
 "I lost on my home field…\n"
 "I'm in shock!$"
 msgstr ""
+"居然在主场输了……\n"
+"我太震惊了！$"
 
 #: data/text/trainers.inc:623
 msgctxt "Route107_Text_TonyPostBattle"
@@ -1051,6 +1352,10 @@ msgid ""
 "It's a song!\n"
 "Anyways, I'm swimming some more.$"
 msgstr ""
+"我怀揣着满满的梦想\n"
+"畅游大海……\p"
+"这是一首歌！\n"
+"总之，我要再去游一会儿了。$"
 
 #: data/text/trainers.inc:629
 msgctxt "Route107_Text_TonyRegister"
@@ -1058,6 +1363,8 @@ msgid ""
 "You've shocked me to the bone!\n"
 "Well, so you won't forget me…$"
 msgstr ""
+"你让我震惊到骨子里了！\n"
+"好吧，为了让你别忘了我……$"
 
 #: data/text/trainers.inc:633
 msgctxt "Route107_Text_TonyRematchIntro"
@@ -1065,6 +1372,8 @@ msgid ""
 "Swimming in the big, wide sea,\n"
 "my POKéMON has grown stronger!$"
 msgstr ""
+"在广阔的大海里游泳，\n"
+"我的宝可梦变得更强了！$"
 
 #: data/text/trainers.inc:637
 msgctxt "Route107_Text_TonyRematchDefeated"
@@ -1073,6 +1382,9 @@ msgid ""
 "My POKéMON has gotten stronger, but\n"
 "I stayed weak as a TRAINER!$"
 msgstr ""
+"太震惊了！\p"
+"我的宝可梦变强了，\n"
+"可我作为训练家还是那么弱！$"
 
 #: data/text/trainers.inc:642
 msgctxt "Route107_Text_TonyRematchPostBattle"
@@ -1081,6 +1393,9 @@ msgid ""
 "a stronger TRAINER.\l"
 "The waves taught me that.$"
 msgstr ""
+"从对战中学到的东西\n"
+"会让你成为更强的训练家。\l"
+"这是海浪教会我的。$"
 
 #: data/text/trainers.inc:647
 msgctxt "Route107_Text_DeniseIntro"
@@ -1088,11 +1403,13 @@ msgid ""
 "Do you know a little town called\n"
 "DEWFORD?$"
 msgstr ""
+"你知道一个叫武斗镇的\n"
+"小镇吗？$"
 
 #: data/text/trainers.inc:651
 msgctxt "Route107_Text_DeniseDefeated"
 msgid "I hate this!$"
-msgstr ""
+msgstr "讨厌死了！$"
 
 #: data/text/trainers.inc:654
 msgctxt "Route107_Text_DenisePostBattle"
@@ -1100,6 +1417,8 @@ msgid ""
 "A weird saying is getting really\n"
 "trendy at DEWFORD HALL.$"
 msgstr ""
+"武斗镇的会馆里\n"
+"最近流行一句奇怪的话。$"
 
 #: data/text/trainers.inc:658
 msgctxt "Route107_Text_BethIntro"
@@ -1107,11 +1426,13 @@ msgid ""
 "Did you want to battle me?\n"
 "Sure, I'll go with you!$"
 msgstr ""
+"你想和我对战吗？\n"
+"好啊，我奉陪！$"
 
 #: data/text/trainers.inc:662
 msgctxt "Route107_Text_BethDefeated"
 msgid "I wasn't good enough for you.$"
-msgstr ""
+msgstr "我不是你的对手。$"
 
 #: data/text/trainers.inc:665
 msgctxt "Route107_Text_BethPostBattle"
@@ -1119,6 +1440,8 @@ msgid ""
 "I think you're going to keep getting\n"
 "better. I'll go for it, too!$"
 msgstr ""
+"我觉得你会越来越强的。\n"
+"我也要加油！$"
 
 #: data/text/trainers.inc:669
 msgctxt "Route107_Text_LisaIntro"
@@ -1126,6 +1449,8 @@ msgid ""
 "LISA: We challenge you as a sister\n"
 "and brother!$"
 msgstr ""
+"莉莎：我们姐弟俩\n"
+"要向你挑战！$"
 
 #: data/text/trainers.inc:673
 msgctxt "Route107_Text_LisaDefeated"
@@ -1133,6 +1458,8 @@ msgid ""
 "LISA: Awesome.\n"
 "You're in a different class of tough.$"
 msgstr ""
+"莉莎：好厉害。\n"
+"你强得完全不是一个级别。$"
 
 #: data/text/trainers.inc:677
 msgctxt "Route107_Text_LisaPostBattle"
@@ -1140,6 +1467,8 @@ msgid ""
 "LISA: Do you have any friends who\n"
 "would go to the beach with you?$"
 msgstr ""
+"莉莎：你有愿意陪你\n"
+"来海边玩的朋友吗？$"
 
 #: data/text/trainers.inc:681
 msgctxt "Route107_Text_LisaNotEnoughPokemon"
@@ -1147,6 +1476,8 @@ msgid ""
 "LISA: If you want to battle with us,\n"
 "bring more POKéMON.$"
 msgstr ""
+"莉莎：想和我们对战的话，\n"
+"就多带些宝可梦来吧。$"
 
 #: data/text/trainers.inc:685
 msgctxt "Route107_Text_RayIntro"
@@ -1156,6 +1487,10 @@ msgid ""
 "I always lose, but we can beat you\n"
 "2-on-2!$"
 msgstr ""
+"雷伊：我和姐姐\n"
+"总是用宝可梦对战。\p"
+"我每次都输，\n"
+"但二对二的话我们一定能赢你！$"
 
 #: data/text/trainers.inc:691
 msgctxt "Route107_Text_RayDefeated"
@@ -1163,6 +1498,8 @@ msgid ""
 "RAY: Wowee, you're at a higher level\n"
 "than us!$"
 msgstr ""
+"雷伊：哇，你的水平\n"
+"比我们高多了！$"
 
 #: data/text/trainers.inc:695
 msgctxt "Route107_Text_RayPostBattle"
@@ -1171,6 +1508,9 @@ msgid ""
 "I raised it, and now it's my important\l"
 "partner!$"
 msgstr ""
+"雷伊：我的宝可梦是姐姐送我的。\n"
+"我把它养大，现在它是\l"
+"我最重要的伙伴！$"
 
 #: data/text/trainers.inc:700
 msgctxt "Route107_Text_RayNotEnoughPokemon"
@@ -1178,6 +1518,8 @@ msgid ""
 "RAY: If you want to battle us,\n"
 "go bring some more POKéMON!$"
 msgstr ""
+"雷伊：想和我们对战的话，\n"
+"就去多带些宝可梦来！$"
 
 #: data/text/trainers.inc:704
 msgctxt "Route107_Text_CamronIntro"
@@ -1185,11 +1527,13 @@ msgid ""
 "I'm in the middle of a triathlon,\n"
 "but I'm nowhere near tired!$"
 msgstr ""
+"我正在参加铁人三项，\n"
+"不过我一点都不累！$"
 
 #: data/text/trainers.inc:708
 msgctxt "Route107_Text_CamronDefeated"
 msgid "That exhausted me…$"
-msgstr ""
+msgstr "这下把我累坏了……$"
 
 #: data/text/trainers.inc:711
 msgctxt "Route107_Text_CamronPostBattle"
@@ -1198,13 +1542,15 @@ msgid ""
 "to do after this.\p"
 "Am I going to be okay?$"
 msgstr ""
+"这之后我还要游泳和跑步。\p"
+"我真的撑得住吗？$"
 
 #: data/text/trainers.inc:716
 msgctxt "Route108_Text_JeromeIntro"
 msgid ""
 "My dream is to swim the world's seven\n"
 "seas!$"
-msgstr ""
+msgstr "我的梦想是游遍世界七大洋！$"
 
 #: data/text/trainers.inc:720
 msgctxt "Route108_Text_JeromeDefeated"
@@ -1212,6 +1558,8 @@ msgid ""
 "I won't be able to swim the seven seas\n"
 "like this…$"
 msgstr ""
+"这样下去，\n"
+"我可游不遍七大洋了……$"
 
 #: data/text/trainers.inc:724
 msgctxt "Route108_Text_JeromePostBattle"
@@ -1219,6 +1567,8 @@ msgid ""
 "Playing with marine POKéMON is one of\n"
 "the pleasures of swimming!$"
 msgstr ""
+"和海洋宝可梦一起玩，\n"
+"是游泳的乐趣之一！$"
 
 #: data/text/trainers.inc:728
 msgctxt "Route108_Text_MatthewIntro"
@@ -1226,6 +1576,8 @@ msgid ""
 "Ahoy, there! Are you going out to\n"
 "the ABANDONED SHIP, too?$"
 msgstr ""
+"喂，那边的！你也是要去\n"
+"弃船那里吗？$"
 
 #: data/text/trainers.inc:732
 msgctxt "Route108_Text_MatthewDefeated"
@@ -1233,6 +1585,8 @@ msgid ""
 "I'm sinking!\n"
 "Glub… Glub…$"
 msgstr ""
+"我要沉下去了！\n"
+"咕噜……咕噜……$"
 
 #: data/text/trainers.inc:736
 msgctxt "Route108_Text_MatthewPostBattle"
@@ -1240,6 +1594,8 @@ msgid ""
 "Some people even go inside that\n"
 "ABANDONED SHIP.$"
 msgstr ""
+"有些人甚至会\n"
+"进到那艘弃船里面去。$"
 
 #: data/text/trainers.inc:740
 msgctxt "Route108_Text_TaraIntro"
@@ -1247,11 +1603,13 @@ msgid ""
 "My liar of a boyfriend told me that\n"
 "I look great in a bikini…$"
 msgstr ""
+"我那个爱说谎的男朋友\n"
+"说我穿比基尼很好看……$"
 
 #: data/text/trainers.inc:744
 msgctxt "Route108_Text_TaraDefeated"
 msgid "Oh, boo!$"
-msgstr ""
+msgstr "哼，讨厌！$"
 
 #: data/text/trainers.inc:747
 msgctxt "Route108_Text_TaraPostBattle"
@@ -1260,6 +1618,9 @@ msgid ""
 "I look great…\l"
 "We girls are so complex…$"
 msgstr ""
+"就算是谎话，\n"
+"被夸好看我还是很开心……\l"
+"我们女孩子的心思真复杂……$"
 
 #: data/text/trainers.inc:752
 msgctxt "Route108_Text_MissyIntro"
@@ -1267,6 +1628,8 @@ msgid ""
 "I love the sea!\n"
 "I forget all my worries when I swim!$"
 msgstr ""
+"我爱大海！\n"
+"游泳的时候能忘掉所有烦恼！$"
 
 #: data/text/trainers.inc:756
 msgctxt "Route108_Text_MissyDefeated"
@@ -1274,6 +1637,8 @@ msgid ""
 "When I lose a battle, I get all\n"
 "stressed out!$"
 msgstr ""
+"对战一输，\n"
+"我就压力好大！$"
 
 #: data/text/trainers.inc:760
 msgctxt "Route108_Text_MissyPostBattle"
@@ -1281,6 +1646,8 @@ msgid ""
 "Work off your stress by swimming!\n"
 "It's so healthy!$"
 msgstr ""
+"用游泳来释放压力吧！\n"
+"对身体很好哦！$"
 
 #: data/text/trainers.inc:764
 msgctxt "Route108_Text_CoryIntro"
@@ -1288,6 +1655,8 @@ msgid ""
 "I love WATER-type POKéMON.\n"
 "I love other POKéMON, too!$"
 msgstr ""
+"我喜欢水属性宝可梦。\n"
+"其他宝可梦我也喜欢！$"
 
 #: data/text/trainers.inc:768
 msgctxt "Route108_Text_CoryDefeated"
@@ -1295,6 +1664,8 @@ msgid ""
 "Waaah! I lost!\n"
 "Waaah! Waaah!$"
 msgstr ""
+"哇啊！我输了！\n"
+"哇啊！哇啊！$"
 
 #: data/text/trainers.inc:772
 msgctxt "Route108_Text_CoryPostBattle"
@@ -1302,6 +1673,8 @@ msgid ""
 "Shouting is good for me!\n"
 "It uplifts me!$"
 msgstr ""
+"大喊大叫对我有好处！\n"
+"能让我振作起来！$"
 
 #: data/text/trainers.inc:776
 msgctxt "Route108_Text_CoryRegister"
@@ -1309,11 +1682,13 @@ msgid ""
 "I love tough TRAINERS, too!\n"
 "Register me in your POKéNAV!$"
 msgstr ""
+"我也喜欢厉害的训练家！\n"
+"把我登记到你的宝可梦导航里吧！$"
 
 #: data/text/trainers.inc:780
 msgctxt "Route108_Text_CoryRematchIntro"
 msgid "Win or lose, I love battling at sea!$"
-msgstr ""
+msgstr "不管输赢，我都爱在海上对战！$"
 
 #: data/text/trainers.inc:783
 msgctxt "Route108_Text_CoryRematchDefeated"
@@ -1321,6 +1696,8 @@ msgid ""
 "Waaah! I lost again!\n"
 "Waaah! Waaah!$"
 msgstr ""
+"哇啊！我又输了！\n"
+"哇啊！哇啊！$"
 
 #: data/text/trainers.inc:787
 msgctxt "Route108_Text_CoryRematchPostBattle"
@@ -1328,6 +1705,8 @@ msgid ""
 "If you're faced with a challenge,\n"
 "try shouting at the sea!$"
 msgstr ""
+"遇到困难的时候，\n"
+"就试着对大海大喊吧！$"
 
 #: data/text/trainers.inc:791
 msgctxt "Route108_Text_CarolinaIntro"
@@ -1335,11 +1714,13 @@ msgid ""
 "I take huge pride in my POKéMON.\n"
 "We'll show you one speedy battle!$"
 msgstr ""
+"我为我的宝可梦感到非常骄傲。\n"
+"让你见识一场神速的对战！$"
 
 #: data/text/trainers.inc:795
 msgctxt "Route108_Text_CarolinaDefeated"
 msgid "That wasn't cute at all.$"
-msgstr ""
+msgstr "这一点都不可爱。$"
 
 #: data/text/trainers.inc:798
 msgctxt "Route108_Text_CarolinaPostBattle"
@@ -1347,6 +1728,8 @@ msgid ""
 "Since I'm at sea like this, I wouldn't\n"
 "mind putting on a pink, frilly swimsuit…$"
 msgstr ""
+"既然都来海边了，\n"
+"穿一件粉色的荷叶边泳衣也不错……$"
 
 #: data/text/trainers.inc:802
 msgctxt "Route109_Text_DavidIntro"
@@ -1354,6 +1737,8 @@ msgid ""
 "Hiyah! Look at my chiseled abs!\n"
 "This is what you call “cut”!$"
 msgstr ""
+"嘿呀！看看我棱角分明的腹肌！\n"
+"这就叫做“线条”！$"
 
 #: data/text/trainers.inc:806
 msgctxt "Route109_Text_DavidDefeated"
@@ -1361,6 +1746,8 @@ msgid ""
 "Aiyah!\n"
 "Flubbed out!$"
 msgstr ""
+"哎呀！\n"
+"搞砸了！$"
 
 #: data/text/trainers.inc:810
 msgctxt "Route109_Text_DavidPostBattle"
@@ -1369,6 +1756,9 @@ msgid ""
 "My sculpted abs have nothing to do\n"
 "with POKéMON battles!$"
 msgstr ""
+"嘿呀！\p"
+"我雕刻般的腹肌\n"
+"跟宝可梦对战一点关系都没有！$"
 
 #: data/text/trainers.inc:815
 msgctxt "Route109_Text_AliceIntro"
@@ -1376,16 +1766,18 @@ msgid ""
 "Are you properly protected against\n"
 "the sun?$"
 msgstr ""
+"你有好好\n"
+"做防晒吗？$"
 
 #: data/text/trainers.inc:819
 msgctxt "Route109_Text_AliceDefeated"
 msgid "Ouch, ouch, ouch!$"
-msgstr ""
+msgstr "好痛，好痛，好痛！$"
 
 #: data/text/trainers.inc:822
 msgctxt "Route109_Text_AlicePostBattle"
 msgid "Cheeks are the most prone to burning!$"
-msgstr ""
+msgstr "脸颊是最容易晒伤的！$"
 
 #: data/text/trainers.inc:825
 msgctxt "Route109_Text_HueyIntro"
@@ -1393,11 +1785,13 @@ msgid ""
 "I've laid anchor in ports around\n"
 "the world, but SLATEPORT's the best.$"
 msgstr ""
+"我在世界各地的港口都停泊过，\n"
+"但还是凯那市最棒。$"
 
 #: data/text/trainers.inc:829
 msgctxt "Route109_Text_HueyDefeated"
 msgid "You're the best!$"
-msgstr ""
+msgstr "你是最棒的！$"
 
 #: data/text/trainers.inc:832
 msgctxt "Route109_Text_HueyPostBattle"
@@ -1405,6 +1799,8 @@ msgid ""
 "In the best port was the best\n"
 "TRAINER…$"
 msgstr ""
+"最棒的港口里\n"
+"有最棒的训练家……$"
 
 #: data/text/trainers.inc:836
 msgctxt "Route109_Text_EdmondIntro"
@@ -1412,6 +1808,8 @@ msgid ""
 "Urrrrppp…\n"
 "Battle? With me?$"
 msgstr ""
+"呕……\n"
+"对战？和我？$"
 
 #: data/text/trainers.inc:840
 msgctxt "Route109_Text_EdmondDefeated"
@@ -1419,6 +1817,8 @@ msgid ""
 "Urp… Ooooooohhhhhh…\n"
 "Urrrrpppp…$"
 msgstr ""
+"呕……呜呜呜……\n"
+"呕……$"
 
 #: data/text/trainers.inc:844
 msgctxt "Route109_Text_EdmondPostBattle"
@@ -1427,6 +1827,9 @@ msgid ""
 "I'm just seasick as a dog!\p"
 "I'm a SAILOR, but…$"
 msgstr ""
+"我平时可比这强多了！\n"
+"只是晕船晕得厉害！\p"
+"我明明是个水手……$"
 
 #: data/text/trainers.inc:849
 msgctxt "Route109_Text_RickyIntro"
@@ -1434,11 +1837,13 @@ msgid ""
 "I'm thirsty… I could go for a SODA POP\n"
 "at the SEASHORE HOUSE…$"
 msgstr ""
+"好渴……真想去海边小屋\n"
+"喝一瓶劲爽汽水……$"
 
 #: data/text/trainers.inc:853
 msgctxt "Route109_Text_RickyDefeated"
 msgid "Groan…$"
-msgstr ""
+msgstr "呜……$"
 
 #: data/text/trainers.inc:856
 msgctxt "Route109_Text_RickyPostBattle"
@@ -1446,6 +1851,8 @@ msgid ""
 "I'm getting famished… My inner tube\n"
 "looks like a giant doughnut…$"
 msgstr ""
+"我饿得发慌……\n"
+"我的游泳圈看起来像个大甜甜圈……$"
 
 #: data/text/trainers.inc:860
 msgctxt "Route109_Text_RickyRegister"
@@ -1453,6 +1860,8 @@ msgid ""
 "Will you have another match with me\n"
 "when I'm not all thirsty?$"
 msgstr ""
+"等我不渴的时候，\n"
+"能再和我比一场吗？$"
 
 #: data/text/trainers.inc:864
 msgctxt "Route109_Text_RickyRematchIntro"
@@ -1460,6 +1869,8 @@ msgid ""
 "I'm hungry, but I've got enough pep in\n"
 "me for a battle!$"
 msgstr ""
+"虽然肚子饿，\n"
+"但对战的力气我还是有的！$"
 
 #: data/text/trainers.inc:868
 msgctxt "Route109_Text_RickyRematchDefeated"
@@ -1467,6 +1878,8 @@ msgid ""
 "I lost…\n"
 "It's because I'm hungry…$"
 msgstr ""
+"我输了……\n"
+"都是因为肚子饿……$"
 
 #: data/text/trainers.inc:872
 msgctxt "Route109_Text_RickyRematchPostBattle"
@@ -1474,6 +1887,8 @@ msgid ""
 "When you eat on a beach, everything\n"
 "seems to taste a little better.$"
 msgstr ""
+"在海边吃东西，\n"
+"什么都会觉得更好吃一点。$"
 
 #: data/text/trainers.inc:876
 msgctxt "Route109_Text_LolaIntro"
@@ -1481,11 +1896,13 @@ msgid ""
 "Doesn't a beach umbrella look like\n"
 "a giant flower?$"
 msgstr ""
+"沙滩伞看起来\n"
+"是不是很像一朵大花？$"
 
 #: data/text/trainers.inc:880
 msgctxt "Route109_Text_LolaDefeated"
 msgid "Mommy!$"
-msgstr ""
+msgstr "妈妈！$"
 
 #: data/text/trainers.inc:883
 msgctxt "Route109_Text_LolaPostBattle"
@@ -1493,6 +1910,8 @@ msgid ""
 "If you look at the beach from the sky,\n"
 "it looks like a big flower garden!$"
 msgstr ""
+"从天上往下看沙滩的话，\n"
+"就像一座大花园！$"
 
 #: data/text/trainers.inc:887
 msgctxt "Route109_Text_LolaRegister"
@@ -1500,6 +1919,8 @@ msgid ""
 "Me?\n"
 "I'm here every day!$"
 msgstr ""
+"我吗？\n"
+"我每天都在这里哦！$"
 
 #: data/text/trainers.inc:891
 msgctxt "Route109_Text_LolaRematchIntro"
@@ -1507,11 +1928,13 @@ msgid ""
 "I'm not losing to you again!\n"
 "That's why I have my inner tube!$"
 msgstr ""
+"我不会再输给你了！\n"
+"所以我带上了游泳圈！$"
 
 #: data/text/trainers.inc:895
 msgctxt "Route109_Text_LolaRematchDefeated"
 msgid "Mommy!$"
-msgstr ""
+msgstr "妈妈！$"
 
 #: data/text/trainers.inc:898
 msgctxt "Route109_Text_LolaRematchPostBattle"
@@ -1519,6 +1942,8 @@ msgid ""
 "If I have an inner tube, me and my\n"
 "POKéMON's cuteness goes way up!$"
 msgstr ""
+"只要有游泳圈，\n"
+"我和宝可梦的可爱度都会大大提升！$"
 
 #: data/text/trainers.inc:902
 msgctxt "Route109_Text_AustinaIntro"
@@ -1526,6 +1951,8 @@ msgid ""
 "I can't swim without my inner tube,\n"
 "but I won't lose at POKéMON!$"
 msgstr ""
+"没有游泳圈我就不会游泳，\n"
+"但宝可梦对战我可不会输！$"
 
 #: data/text/trainers.inc:906
 msgctxt "Route109_Text_AustinaDefeated"
@@ -1533,6 +1960,8 @@ msgid ""
 "Did I lose because I have an inner\n"
 "tube?$"
 msgstr ""
+"难道是因为\n"
+"我带着游泳圈才输的？$"
 
 #: data/text/trainers.inc:910
 msgctxt "Route109_Text_AustinaPostBattle"
@@ -1540,6 +1969,8 @@ msgid ""
 "My inner tube is a fashion item.\n"
 "I can't be seen without it.$"
 msgstr ""
+"我的游泳圈是时尚单品。\n"
+"没有它我可不出门。$"
 
 #: data/text/trainers.inc:914
 msgctxt "Route109_Text_GwenIntro"
@@ -1547,16 +1978,18 @@ msgid ""
 "Hi, big TRAINER.\n"
 "Will you battle with me?$"
 msgstr ""
+"你好，大哥哥大姐姐训练家。\n"
+"你愿意和我对战吗？$"
 
 #: data/text/trainers.inc:918
 msgctxt "Route109_Text_GwenDefeated"
 msgid "Oh, you're strong.$"
-msgstr ""
+msgstr "哇，你好强。$"
 
 #: data/text/trainers.inc:921
 msgctxt "Route109_Text_GwenPostBattle"
 msgid "How did you get to be so strong?$"
-msgstr ""
+msgstr "你是怎么变得这么强的？$"
 
 #: data/text/trainers.inc:924
 msgctxt "Route109_Text_CarterIntro"
@@ -1564,11 +1997,13 @@ msgid ""
 "Wahahah! This dude's going to catch\n"
 "himself a big one!$"
 msgstr ""
+"哇哈哈！本大爷\n"
+"要钓一条大家伙！$"
 
 #: data/text/trainers.inc:928
 msgctxt "Route109_Text_CarterDefeated"
 msgid "This dude just lost one…$"
-msgstr ""
+msgstr "本大爷刚刚跑掉了一条……$"
 
 #: data/text/trainers.inc:931
 msgctxt "Route109_Text_CarterPostBattle"
@@ -1576,6 +2011,8 @@ msgid ""
 "This dude thinks you're a big one.\n"
 "No, you're a big-one-to-be!$"
 msgstr ""
+"本大爷觉得你是个大家伙。\n"
+"不对，是未来的大家伙！$"
 
 #: data/text/trainers.inc:935
 msgctxt "Route109_Text_PaulIntro"
@@ -1584,11 +2021,14 @@ msgid ""
 "I wish you wouldn't disturb our\n"
 "precious time together.$"
 msgstr ""
+"保罗：哎，真是扫兴。\p"
+"真希望你别来打扰\n"
+"我们宝贵的二人时光。$"
 
 #: data/text/trainers.inc:940
 msgctxt "Route109_Text_PaulDefeated"
 msgid "PAUL: Well, I give up.$"
-msgstr ""
+msgstr "保罗：好吧，我认输。$"
 
 #: data/text/trainers.inc:943
 msgctxt "Route109_Text_PaulPostBattle"
@@ -1597,6 +2037,9 @@ msgid ""
 "we're here.\l"
 "This is just our private world of two!$"
 msgstr ""
+"保罗：那个，别告诉别人\n"
+"我们在这里哦。\l"
+"这里是只属于我们两个人的世界！$"
 
 #: data/text/trainers.inc:948
 msgctxt "Route109_Text_PaulNotEnoughPokemon"
@@ -1605,6 +2048,9 @@ msgid ""
 "That's why we make our POKéMON battle\l"
 "together.$"
 msgstr ""
+"保罗：我们深深地相爱着。\n"
+"所以我们要让宝可梦\l"
+"一起对战。$"
 
 #: data/text/trainers.inc:953
 msgctxt "Route109_Text_MelIntro"
@@ -1612,6 +2058,9 @@ msgid ""
 "MEL: We're, like, totally in love.\n"
 "Our romance is heating up all of HOENN!$"
 msgstr ""
+"梅尔：我们超级相爱的。\n"
+"我们的爱火\l"
+"要把整个丰缘地区都点燃了！$"
 
 #: data/text/trainers.inc:957
 msgctxt "Route109_Text_MelDefeated"
@@ -1619,6 +2068,8 @@ msgid ""
 "MEL: We lost, and it's my fault!\n"
 "PAUL will hate me!$"
 msgstr ""
+"梅尔：我们输了，都怪我！\n"
+"保罗会讨厌我的！$"
 
 #: data/text/trainers.inc:961
 msgctxt "Route109_Text_MelPostBattle"
@@ -1626,6 +2077,8 @@ msgid ""
 "MEL: Um, PAUL, are you angry with me?\n"
 "Please don't be angry.$"
 msgstr ""
+"梅尔：那个，保罗，你生我的气了吗？\n"
+"求你别生气嘛。$"
 
 #: data/text/trainers.inc:965
 msgctxt "Route109_Text_MelNotEnoughPokemon"
@@ -1634,6 +2087,9 @@ msgid ""
 "That's why we make our POKéMON\l"
 "battle together.$"
 msgstr ""
+"梅尔：我们真心真意地深爱着彼此。\n"
+"所以我们要让宝可梦\l"
+"一起对战。$"
 
 #: data/text/trainers.inc:970
 msgctxt "Route109_Text_ChandlerIntro"
@@ -1641,6 +2097,8 @@ msgid ""
 "Tadaah! See?\n"
 "My inner tube's round!$"
 msgstr ""
+"锵锵！看到没？\n"
+"我的游泳圈是圆的！$"
 
 #: data/text/trainers.inc:974
 msgctxt "Route109_Text_ChandlerDefeated"
@@ -1648,6 +2106,8 @@ msgid ""
 "Oh, oh!\n"
 "Too bad!$"
 msgstr ""
+"哎呀呀！\n"
+"太可惜了！$"
 
 #: data/text/trainers.inc:978
 msgctxt "Route109_Text_ChandlerPostBattle"
@@ -1655,6 +2115,8 @@ msgid ""
 "After I showed you my round inner\n"
 "tube, too…$"
 msgstr ""
+"我都给你看了\n"
+"我圆圆的游泳圈了……$"
 
 #: data/text/trainers.inc:982
 msgctxt "Route109_Text_HaileyIntro"
@@ -1662,6 +2124,8 @@ msgid ""
 "I can't swim, so I'm pretending\n"
 "to swim.$"
 msgstr ""
+"我不会游泳，\n"
+"所以在假装游泳。$"
 
 #: data/text/trainers.inc:986
 msgctxt "Route109_Text_HaileyDefeated"
@@ -1669,6 +2133,8 @@ msgid ""
 "I thought so!\n"
 "I didn't think we could win.$"
 msgstr ""
+"果然！\n"
+"我就觉得我们赢不了。$"
 
 #: data/text/trainers.inc:990
 msgctxt "Route109_Text_HaileyPostBattle"
@@ -1676,6 +2142,8 @@ msgid ""
 "When I learn how to swim, I think\n"
 "my POKéMON will become tougher.$"
 msgstr ""
+"等我学会了游泳，\n"
+"我的宝可梦应该也会变强吧。$"
 
 #: data/text/trainers.inc:994
 msgctxt "Route109_Text_ElijahIntro"
@@ -1683,11 +2151,13 @@ msgid ""
 "For a guy as macho as me, this kind\n"
 "of POKéMON is the perfect match!$"
 msgstr ""
+"像我这么有男子气概的人，\n"
+"最配这种宝可梦了！$"
 
 #: data/text/trainers.inc:998
 msgctxt "Route109_Text_ElijahDefeated"
 msgid "I'm cool even in defeat, hey?$"
-msgstr ""
+msgstr "就算输了我也很酷，对吧？$"
 
 #: data/text/trainers.inc:1001
 msgctxt "Route109_Text_ElijahPostBattle"
@@ -1696,6 +2166,9 @@ msgid ""
 "is the perfect setting!\p"
 "I guess I'll head for SLATEPORT.$"
 msgstr ""
+"像我这么有男子气概的人，\n"
+"最适合待在港口了！\p"
+"我看我还是去凯那市吧。$"
 
 #: data/text/trainers.inc:1006
 msgctxt "Route110_Text_JacobIntro"
@@ -1703,6 +2176,8 @@ msgid ""
 "Whoa! Watch it!\n"
 "I guess you're not used to BIKE racing.$"
 msgstr ""
+"哇！小心点！\n"
+"看来你还不习惯自行车竞速啊。$"
 
 #: data/text/trainers.inc:1010
 msgctxt "Route110_Text_JacobDefeated"
@@ -1710,6 +2185,8 @@ msgid ""
 "Whoa!\n"
 "My brakes failed!$"
 msgstr ""
+"哇！\n"
+"我的刹车失灵了！$"
 
 #: data/text/trainers.inc:1014
 msgctxt "Route110_Text_JacobPostBattle"
@@ -1718,6 +2195,9 @@ msgid ""
 "cause serious injury!\l"
 "Inspect your BIKE for problems!$"
 msgstr ""
+"爆胎和刹车故障\n"
+"可能会导致重伤！\l"
+"记得检查你的自行车！$"
 
 #: data/text/trainers.inc:1019
 msgctxt "Route110_Text_AnthonyIntro"
@@ -1725,11 +2205,13 @@ msgid ""
 "Yo, you!\n"
 "Can you keep up with my speed?$"
 msgstr ""
+"喂，你！\n"
+"跟得上我的速度吗？$"
 
 #: data/text/trainers.inc:1023
 msgctxt "Route110_Text_AnthonyDefeated"
 msgid "Crash and burn!$"
-msgstr ""
+msgstr "彻底翻车了！$"
 
 #: data/text/trainers.inc:1026
 msgctxt "Route110_Text_AnthonyPostBattle"
@@ -1737,11 +2219,13 @@ msgid ""
 "Speed alone won't let me win at POKéMON.\n"
 "I need to reconsider this…$"
 msgstr ""
+"光靠速度是赢不了宝可梦对战的。\n"
+"我得重新想想了……$"
 
 #: data/text/trainers.inc:1030
 msgctxt "Route110_Text_BenjaminIntro"
 msgid "Don't panic if your BIKE's going fast!$"
-msgstr ""
+msgstr "自行车骑得快也不要慌！$"
 
 #: data/text/trainers.inc:1033
 msgctxt "Route110_Text_BenjaminDefeated"
@@ -1749,6 +2233,8 @@ msgid ""
 "I shouldn't panic during POKéMON\n"
 "battles…$"
 msgstr ""
+"宝可梦对战的时候\n"
+"也不能慌啊……$"
 
 #: data/text/trainers.inc:1037
 msgctxt "Route110_Text_BenjaminPostBattle"
@@ -1756,6 +2242,8 @@ msgid ""
 "There's no need to panic or stress.\n"
 "Take it easy. There's plenty of time.$"
 msgstr ""
+"没必要慌张，也没必要紧张。\n"
+"放轻松，时间多的是。$"
 
 #: data/text/trainers.inc:1041
 msgctxt "Route110_Text_BenjaminRegister"
@@ -1763,6 +2251,8 @@ msgid ""
 "I'll keep chugging on without stressing.\n"
 "Give me a shout if you're up to it.$"
 msgstr ""
+"我会不慌不忙地继续前进。\n"
+"你有兴趣的话就叫我一声。$"
 
 #: data/text/trainers.inc:1045
 msgctxt "Route110_Text_BenjaminRematchIntro"
@@ -1770,11 +2260,13 @@ msgid ""
 "Aren't you going a little too fast?\n"
 "Take it easy and let's battle.$"
 msgstr ""
+"你是不是骑得有点太快了？\n"
+"放轻松，我们来对战吧。$"
 
 #: data/text/trainers.inc:1049
 msgctxt "Route110_Text_BenjaminRematchDefeated"
 msgid "I didn't panic, but I still lost…$"
-msgstr ""
+msgstr "我没有慌，可还是输了……$"
 
 #: data/text/trainers.inc:1052
 msgctxt "Route110_Text_BenjaminRematchPostBattle"
@@ -1782,6 +2274,8 @@ msgid ""
 "There's no need to panic or stress.\n"
 "Take it easy. There's plenty of time.$"
 msgstr ""
+"没必要慌张，也没必要紧张。\n"
+"放轻松，时间多的是。$"
 
 #: data/text/trainers.inc:1056
 msgctxt "Route110_Text_AbigailIntro"
@@ -1790,11 +2284,14 @@ msgid ""
 "You have to complete the three events\n"
 "of swimming, cycling, and running.$"
 msgstr ""
+"铁人三项真是艰苦到了极点。\p"
+"你得完成游泳、自行车和跑步\n"
+"这三个项目。$"
 
 #: data/text/trainers.inc:1061
 msgctxt "Route110_Text_AbigailDefeated"
 msgid "POKéMON battles are hard, too!$"
-msgstr ""
+msgstr "宝可梦对战也好难啊！$"
 
 #: data/text/trainers.inc:1064
 msgctxt "Route110_Text_AbigailPostBattle"
@@ -1802,6 +2299,8 @@ msgid ""
 "I'm exhausted, so I need a break.\n"
 "It's important to get proper rest.$"
 msgstr ""
+"我累坏了，得休息一下。\n"
+"适当的休息是很重要的。$"
 
 #: data/text/trainers.inc:1068
 msgctxt "Route110_Text_AbigailRegister"
@@ -1809,6 +2308,8 @@ msgid ""
 "You know, I like you!\n"
 "Let's have a rematch on CYCLING ROAD.$"
 msgstr ""
+"我说，我挺喜欢你的！\n"
+"我们在自行车道上再比一场吧。$"
 
 #: data/text/trainers.inc:1072
 msgctxt "Route110_Text_AbigailRematchIntro"
@@ -1816,6 +2317,8 @@ msgid ""
 "Isn't it neat to hold a battle while\n"
 "cycling?$"
 msgstr ""
+"边骑车边对战，\n"
+"是不是很帅？$"
 
 #: data/text/trainers.inc:1076
 msgctxt "Route110_Text_AbigailRematchDefeated"
@@ -1823,6 +2326,8 @@ msgid ""
 "Wow…\n"
 "How could you be so strong?$"
 msgstr ""
+"哇……\n"
+"你怎么会这么强？$"
 
 #: data/text/trainers.inc:1080
 msgctxt "Route110_Text_AbigailRematchPostBattle"
@@ -1830,6 +2335,8 @@ msgid ""
 "Were you going after a record?\p"
 "I'm sorry if I held you up!$"
 msgstr ""
+"你是在挑战纪录吗？\p"
+"要是耽误你了，真对不起！$"
 
 #: data/text/trainers.inc:1084
 msgctxt "Route110_Text_JasmineIntro"
@@ -1837,11 +2344,13 @@ msgid ""
 "I've been riding without stopping.\n"
 "My thighs are like rocks!$"
 msgstr ""
+"我一直骑个不停，\n"
+"大腿都硬得像石头了！$"
 
 #: data/text/trainers.inc:1088
 msgctxt "Route110_Text_JasmineDefeated"
 msgid "I'm worried about muscle cramps…$"
-msgstr ""
+msgstr "我好担心会抽筋……$"
 
 #: data/text/trainers.inc:1091
 msgctxt "Route110_Text_JasminePostBattle"
@@ -1849,6 +2358,8 @@ msgid ""
 "Oh, you have some GYM BADGES?\n"
 "No wonder you're so strong!$"
 msgstr ""
+"哦，你有道馆徽章啊？\n"
+"难怪这么强！$"
 
 #: data/text/trainers.inc:1095
 msgctxt "Route110_Text_EdwardIntro"
@@ -1856,11 +2367,13 @@ msgid ""
 "I have foreseen your intentions!\n"
 "I cannot possibly lose!$"
 msgstr ""
+"我早已预见了你的意图！\n"
+"我是不可能输的！$"
 
 #: data/text/trainers.inc:1099
 msgctxt "Route110_Text_EdwardDefeated"
 msgid "I failed to prophesize my own demise!$"
-msgstr ""
+msgstr "我没能预言到自己的失败！$"
 
 #: data/text/trainers.inc:1102
 msgctxt "Route110_Text_EdwardPostBattle"
@@ -1869,6 +2382,9 @@ msgid ""
 "Hmm…\n"
 "I see a shining light…$"
 msgstr ""
+"我看到了你的未来……\p"
+"嗯……\n"
+"我看到了一道闪耀的光芒……$"
 
 #: data/text/trainers.inc:1107
 msgctxt "Route110_Text_JaclynIntro"
@@ -1876,11 +2392,13 @@ msgid ""
 "Ahahahaha!\n"
 "I'll dazzle you with my wonders!$"
 msgstr ""
+"啊哈哈哈哈！\n"
+"我要用奇迹让你眼花缭乱！$"
 
 #: data/text/trainers.inc:1111
 msgctxt "Route110_Text_JaclynDefeated"
 msgid "I wondrously lost!$"
-msgstr ""
+msgstr "我奇迹般地输了！$"
 
 #: data/text/trainers.inc:1114
 msgctxt "Route110_Text_JaclynPostBattle"
@@ -1889,6 +2407,9 @@ msgid ""
 "a wonder! Yes, a wonder!\l"
 "Don't think you can win all the time!$"
 msgstr ""
+"你能赢只是因为奇迹！\n"
+"没错，是奇迹！\l"
+"别以为你每次都能赢！$"
 
 #: data/text/trainers.inc:1119
 msgctxt "Route110_Text_EdwinIntro"
@@ -1896,6 +2417,8 @@ msgid ""
 "Could I see your POKéMON?\n"
 "Just one look, please?$"
 msgstr ""
+"能让我看看你的宝可梦吗？\n"
+"一眼就好，拜托了！$"
 
 #: data/text/trainers.inc:1123
 msgctxt "Route110_Text_EdwinDefeated"
@@ -1903,6 +2426,8 @@ msgid ""
 "I wanted to complete\n"
 "my collection…$"
 msgstr ""
+"我本来想完成\n"
+"我的收藏的……$"
 
 #: data/text/trainers.inc:1127
 msgctxt "Route110_Text_EdwinPostBattle"
@@ -1910,6 +2435,8 @@ msgid ""
 "When I see a POKéMON that I don't know,\n"
 "my passion as a collector is ignited!$"
 msgstr ""
+"一看到不认识的宝可梦，\n"
+"我收藏家的热情就燃烧起来了！$"
 
 #: data/text/trainers.inc:1131
 msgctxt "Route110_Text_EdwinRegister"
@@ -1917,6 +2444,8 @@ msgid ""
 "I like collecting MATCH CALL\n"
 "registrations, too…$"
 msgstr ""
+"我也喜欢收集\n"
+"对战呼叫的登记……$"
 
 #: data/text/trainers.inc:1135
 msgctxt "Route110_Text_EdwinRematchIntro"
@@ -1925,6 +2454,9 @@ msgid ""
 "Could I see your POKéMON?\n"
 "Just one look, please?$"
 msgstr ""
+"嗨，你抓到新的宝可梦了吗？\p"
+"能让我看看你的宝可梦吗？\n"
+"一眼就好，拜托了！$"
 
 #: data/text/trainers.inc:1140
 msgctxt "Route110_Text_EdwinRematchDefeated"
@@ -1932,6 +2464,8 @@ msgid ""
 "Your POKéMON…\n"
 "I envy you.$"
 msgstr ""
+"你的宝可梦……\n"
+"真让人羡慕。$"
 
 #: data/text/trainers.inc:1144
 msgctxt "Route110_Text_EdwinRematchPostBattle"
@@ -1939,6 +2473,8 @@ msgid ""
 "Oh, I long to make all rare POKéMON\n"
 "mine!$"
 msgstr ""
+"啊，我好想把所有稀有的宝可梦\n"
+"都收归己有！$"
 
 #: data/text/trainers.inc:1148
 msgctxt "Route110_Text_DaleIntro"
@@ -1946,6 +2482,8 @@ msgid ""
 "Hey!\n"
 "Don't sneak up behind me like that!$"
 msgstr ""
+"喂！\n"
+"别那样偷偷摸到我背后！$"
 
 #: data/text/trainers.inc:1152
 msgctxt "Route110_Text_DaleDefeated"
@@ -1953,6 +2491,8 @@ msgid ""
 "I lost!\n"
 "Drat!$"
 msgstr ""
+"我输了！\n"
+"可恶！$"
 
 #: data/text/trainers.inc:1156
 msgctxt "Route110_Text_DalePostBattle"
@@ -1960,6 +2500,8 @@ msgid ""
 "Fishing is all about concentration.\n"
 "You have to focus on the floater.$"
 msgstr ""
+"钓鱼最重要的就是专注。\n"
+"你得紧盯着浮标。$"
 
 #: data/text/trainers.inc:1160
 msgctxt "Route110_Text_IsabelIntro"
@@ -1967,11 +2509,13 @@ msgid ""
 "Ahahaha! I would go anywhere to show\n"
 "off my delightful POKéMON.$"
 msgstr ""
+"啊哈哈哈！为了炫耀我可爱的宝可梦，\n"
+"我去哪里都愿意。$"
 
 #: data/text/trainers.inc:1164
 msgctxt "Route110_Text_IsabelDefeated"
 msgid "Oh, dear, this won't do.$"
-msgstr ""
+msgstr "哎呀，这可不行。$"
 
 #: data/text/trainers.inc:1167
 msgctxt "Route110_Text_IsabelPostBattle"
@@ -1979,6 +2523,9 @@ msgid ""
 "Rather than battling, perhaps I should\n"
 "show off my POKéMON at the FAN CLUB.$"
 msgstr ""
+"与其对战，\n"
+"也许我该去宝可梦爱好者俱乐部\l"
+"炫耀我的宝可梦。$"
 
 #: data/text/trainers.inc:1171
 msgctxt "Route110_Text_IsabelRegister"
@@ -1988,6 +2535,10 @@ msgid ""
 "I'll have you as my captive audience\n"
 "as often as possible!$"
 msgstr ""
+"刚才那些还远远不够\n"
+"展现我的宝可梦呢。\p"
+"我会尽可能多地\n"
+"让你来当我的观众！$"
 
 #: data/text/trainers.inc:1177
 msgctxt "Route110_Text_IsabelRematchIntro"
@@ -1995,11 +2546,13 @@ msgid ""
 "Ahahahaha! I would be happy to show\n"
 "off my POKéMON as often as you like!$"
 msgstr ""
+"啊哈哈哈哈！你想看多少次，\n"
+"我都乐意炫耀我的宝可梦！$"
 
 #: data/text/trainers.inc:1181
 msgctxt "Route110_Text_IsabelRematchDefeated"
 msgid "Oh, dear, this won't do.$"
-msgstr ""
+msgstr "哎呀，这可不行。$"
 
 #: data/text/trainers.inc:1184
 msgctxt "Route110_Text_IsabelRematchPostBattle"
@@ -2008,6 +2561,9 @@ msgid ""
 "from showing off my POKéMON.\p"
 "But I like to battle, too!$"
 msgstr ""
+"我想我这辈子都忍不住\n"
+"要炫耀我的宝可梦了。\p"
+"不过我也喜欢对战！$"
 
 #: data/text/trainers.inc:1189
 msgctxt "Route110_Text_TimmyIntro"
@@ -2015,11 +2571,13 @@ msgid ""
 "I found some cool POKéMON in the grass\n"
 "around here!$"
 msgstr ""
+"我在这附近的草丛里\n"
+"找到了很酷的宝可梦！$"
 
 #: data/text/trainers.inc:1193
 msgctxt "Route110_Text_TimmyDefeated"
 msgid "Being cool isn't enough to win…$"
-msgstr ""
+msgstr "光是酷还赢不了啊……$"
 
 #: data/text/trainers.inc:1196
 msgctxt "Route110_Text_TimmyPostBattle"
@@ -2027,6 +2585,8 @@ msgid ""
 "It's hard to battle with POKéMON you\n"
 "just caught.$"
 msgstr ""
+"用刚抓到的宝可梦对战\n"
+"好难啊。$"
 
 #: data/text/trainers.inc:1200
 msgctxt "Route110_Text_AlyssaIntro"
@@ -2035,6 +2595,9 @@ msgid ""
 "I'll get over my embarrassment by\n"
 "battling with you!$"
 msgstr ""
+"我从自行车道上摔下来了……\p"
+"我要通过和你对战\n"
+"来忘掉这份丢脸！$"
 
 #: data/text/trainers.inc:1205
 msgctxt "Route110_Text_AlyssaDefeated"
@@ -2042,6 +2605,8 @@ msgid ""
 "Oops!\n"
 "I ended up losing!$"
 msgstr ""
+"哎呀！\n"
+"结果还是输了！$"
 
 #: data/text/trainers.inc:1209
 msgctxt "Route110_Text_AlyssaPostBattle"
@@ -2049,6 +2614,8 @@ msgid ""
 "Falling… Losing…\n"
 "This is so humiliating for me!$"
 msgstr ""
+"又摔又输……\n"
+"真是太丢人了！$"
 
 #: data/text/trainers.inc:1213
 msgctxt "Route110_Text_JosephIntro"
@@ -2056,11 +2623,13 @@ msgid ""
 "Okay! Full-throttle time! If you can't\n"
 "groove, you get left behind!$"
 msgstr ""
+"好！火力全开！\n"
+"跟不上节奏的话就会被甩在后面！$"
 
 #: data/text/trainers.inc:1217
 msgctxt "Route110_Text_JosephDefeated"
 msgid "You got into the groove all right…$"
-msgstr ""
+msgstr "你的节奏感还真不错……$"
 
 #: data/text/trainers.inc:1220
 msgctxt "Route110_Text_JosephPostBattle"
@@ -2068,6 +2637,8 @@ msgid ""
 "This isn't going to bring me down!\n"
 "Losing has made me a better man!$"
 msgstr ""
+"我可不会因此消沉！\n"
+"失败让我成为了更好的男人！$"
 
 #: data/text/trainers.inc:1224
 msgctxt "Route110_Text_KalebIntro"
@@ -2075,11 +2646,13 @@ msgid ""
 "When cute POKéMON help each other…\n"
 "You won't see a more adorable sight!$"
 msgstr ""
+"可爱的宝可梦互相帮助的样子……\n"
+"没有比这更可爱的画面了！$"
 
 #: data/text/trainers.inc:1228
 msgctxt "Route110_Text_KalebDefeated"
 msgid "Have you no compassion or pity?$"
-msgstr ""
+msgstr "你难道没有同情心吗？$"
 
 #: data/text/trainers.inc:1231
 msgctxt "Route110_Text_KalebPostBattle"
@@ -2087,6 +2660,8 @@ msgid ""
 "Okay, okay, you've done the best you\n"
 "could, my pretties.$"
 msgstr ""
+"好啦好啦，我的小可爱们，\n"
+"你们已经尽力了。$"
 
 #: data/text/trainers.inc:1235
 msgctxt "Route111_Text_DrewIntro"
@@ -2096,6 +2671,10 @@ msgid ""
 "Let's decide who they look better on\n"
 "with a battle!$"
 msgstr ""
+"哦，嘿！那副GOGO护目镜很适合你。\n"
+"不过我觉得我戴更好看。\p"
+"我们用对战来决定\n"
+"谁戴更好看吧！$"
 
 #: data/text/trainers.inc:1241
 msgctxt "Route111_Text_DrewDefeat"
@@ -2103,6 +2682,8 @@ msgid ""
 "I couldn't see what was happening at\n"
 "my sides because of the GO-GOGGLES.$"
 msgstr ""
+"戴着GOGO护目镜，\n"
+"我看不清旁边的情况。$"
 
 #: data/text/trainers.inc:1245
 msgctxt "Route111_Text_DrewPostBattle"
@@ -2111,6 +2692,9 @@ msgid ""
 "get through sandstorms.\l"
 "That makes me happy!$"
 msgstr ""
+"有了GOGO护目镜，\n"
+"就能穿过沙暴了。\l"
+"这让我好开心！$"
 
 #: data/text/trainers.inc:1250
 msgctxt "Route111_Text_HeidiIntro"
@@ -2119,11 +2703,14 @@ msgid ""
 "You can always find a TRAINER,\n"
 "so I can enjoy a battle here, too!$"
 msgstr ""
+"我在沙漠里野餐。\p"
+"这里总能遇到训练家，\n"
+"所以在这里也能享受对战！$"
 
 #: data/text/trainers.inc:1255
 msgctxt "Route111_Text_HeidiDefeat"
 msgid "Ohhh! You're mean!$"
-msgstr ""
+msgstr "呜！你好坏！$"
 
 #: data/text/trainers.inc:1258
 msgctxt "Route111_Text_HeidiPostBattle"
@@ -2133,6 +2720,10 @@ msgid ""
 "It can faint if you don't keep\n"
 "an eye on it!$"
 msgstr ""
+"在沙暴中对战的时候，\n"
+"要留意宝可梦的HP。\p"
+"要是不注意的话，\n"
+"它可能会倒下的！$"
 
 #: data/text/trainers.inc:1264
 msgctxt "Route111_Text_BeauIntro"
@@ -2141,11 +2732,14 @@ msgid ""
 "feel like a superhero.\l"
 "Right now, nobody can beat me!$"
 msgstr ""
+"戴上这副GOGO护目镜，\n"
+"我就感觉自己像个超级英雄。\l"
+"现在谁也打不过我！$"
 
 #: data/text/trainers.inc:1269
 msgctxt "Route111_Text_BeauDefeat"
 msgid "I can't win on spirit alone…$"
-msgstr ""
+msgstr "光靠气势赢不了啊……$"
 
 #: data/text/trainers.inc:1272
 msgctxt "Route111_Text_BeauPostBattle"
@@ -2154,6 +2748,9 @@ msgid ""
 "I'm going to work harder to make me\l"
 "and my POKéMON stronger.$"
 msgstr ""
+"总有一天我要成为真正的英雄。\n"
+"我会更加努力，\l"
+"让我和我的宝可梦都变得更强。$"
 
 #: data/text/trainers.inc:1277
 msgctxt "Route111_Text_BeckyIntro"
@@ -2161,11 +2758,13 @@ msgid ""
 "I heard there are fossils to be found\n"
 "in the desert. Where could they be?$"
 msgstr ""
+"听说在沙漠里能找到化石。\n"
+"到底会在哪里呢？$"
 
 #: data/text/trainers.inc:1281
 msgctxt "Route111_Text_BeckyDefeat"
 msgid "I came up short…$"
-msgstr ""
+msgstr "我差了一点……$"
 
 #: data/text/trainers.inc:1284
 msgctxt "Route111_Text_BeckyPostBattle"
@@ -2173,6 +2772,8 @@ msgid ""
 "If they can find fossils in the desert,\n"
 "it must have been a sea before.$"
 msgstr ""
+"既然在沙漠里能找到化石，\n"
+"这里以前一定是一片大海。$"
 
 #: data/text/trainers.inc:1288
 msgctxt "Route111_Text_DustyIntro"
@@ -2181,6 +2782,9 @@ msgid ""
 "ancient ruins!\l"
 "I am to be challenged?$"
 msgstr ""
+"三十年来，\n"
+"我一直在寻找古代遗迹！\l"
+"你要挑战我吗？$"
 
 #: data/text/trainers.inc:1293
 msgctxt "Route111_Text_DustyDefeat"
@@ -2188,6 +2792,8 @@ msgid ""
 "While I have searched for ruins,\n"
 "I've not searched for strong POKéMON.$"
 msgstr ""
+"我虽然一直在寻找遗迹，\n"
+"却从没寻找过强大的宝可梦。$"
 
 #: data/text/trainers.inc:1297
 msgctxt "Route111_Text_DustyPostBattle"
@@ -2197,6 +2803,10 @@ msgid ""
 "No, wait, was that forty years?\n"
 "Which was it now?$"
 msgstr ""
+"三十年来，\n"
+"我一直在寻找古代遗迹！\p"
+"不对，等等，是四十年来着？\n"
+"到底是多少年呢？$"
 
 #: data/text/trainers.inc:1303
 msgctxt "Route111_Text_DustyRegister"
@@ -2206,6 +2816,10 @@ msgid ""
 "But, for some reason, I sure do like\n"
 "POKéNAVS.$"
 msgstr ""
+"我从来没有\n"
+"寻找过强大的宝可梦。\p"
+"不过不知道为什么，\n"
+"我就是很喜欢宝可梦导航。$"
 
 #: data/text/trainers.inc:1309
 msgctxt "Route111_Text_DustyRematchIntro"
@@ -2215,6 +2829,10 @@ msgid ""
 "No, wait, was that forty years?\n"
 "Anyway, am I to be challenged?$"
 msgstr ""
+"三十年来，\n"
+"我一直在寻找古代遗迹！\p"
+"不对，等等，是四十年来着？\n"
+"总之，你要挑战我吗？$"
 
 #: data/text/trainers.inc:1315
 msgctxt "Route111_Text_DustyRematchDefeat"
@@ -2222,6 +2840,8 @@ msgid ""
 "I've found no ruins, nor have I found\n"
 "any strong POKéMON…$"
 msgstr ""
+"我既没找到遗迹，\n"
+"也没找到强大的宝可梦……$"
 
 #: data/text/trainers.inc:1319
 msgctxt "Route111_Text_DustyPostRematch"
@@ -2233,6 +2853,12 @@ msgid ""
 "Hmm… It could even be fifty…\n"
 "How long have I been at this?$"
 msgstr ""
+"三十年来，\n"
+"我一直在寻找古代遗迹！\p"
+"不对，等等，\n"
+"我是不是找了四十年了？\p"
+"嗯……说不定都有五十年了……\n"
+"我到底找了多久了？$"
 
 #: data/text/trainers.inc:1327
 msgctxt "Route111_Text_TravisIntro"
@@ -2240,11 +2866,13 @@ msgid ""
 "I'm full of pep!\n"
 "And my POKéMON is peppy, too!$"
 msgstr ""
+"我精力充沛！\n"
+"我的宝可梦也精神饱满！$"
 
 #: data/text/trainers.inc:1331
 msgctxt "Route111_Text_TravisDefeat"
 msgid "My POKéMON lost its pep…$"
-msgstr ""
+msgstr "我的宝可梦没精神了……$"
 
 #: data/text/trainers.inc:1334
 msgctxt "Route111_Text_TravisPostBattle"
@@ -2252,6 +2880,8 @@ msgid ""
 "When I see a TRAINER with a lot of pep,\n"
 "I can't help looking.$"
 msgstr ""
+"看到精力充沛的训练家，\n"
+"我就忍不住想多看几眼。$"
 
 #: data/text/trainers.inc:1338
 msgctxt "Route111_Text_IreneIntro"
@@ -2259,11 +2889,13 @@ msgid ""
 "I don't know where you're going,\n"
 "but would you like to battle?$"
 msgstr ""
+"我不知道你要去哪里，\n"
+"不过要不要来对战一场？$"
 
 #: data/text/trainers.inc:1342
 msgctxt "Route111_Text_IreneDefeat"
 msgid "Oh, you're disgustingly good!$"
-msgstr ""
+msgstr "哎呀，你强得让人讨厌！$"
 
 #: data/text/trainers.inc:1345
 msgctxt "Route111_Text_IrenePostBattle"
@@ -2272,6 +2904,9 @@ msgid ""
 "MT. CHIMNEY, but the view around\l"
 "here is very nice, too.$"
 msgstr ""
+"我在想要不要去烟囱山，\n"
+"不过这附近的风景\l"
+"也很不错呢。$"
 
 #: data/text/trainers.inc:1350
 msgctxt "Route111_Text_DaisukeIntro"
@@ -2279,11 +2914,13 @@ msgid ""
 "To train myself, I challenge all\n"
 "whom I meet!$"
 msgstr ""
+"为了磨练自己，\n"
+"我要挑战遇到的每一个人！$"
 
 #: data/text/trainers.inc:1354
 msgctxt "Route111_Text_DaisukeDefeat"
 msgid "Uncle! I give up!$"
-msgstr ""
+msgstr "服了！我认输！$"
 
 #: data/text/trainers.inc:1357
 msgctxt "Route111_Text_DaisukePostBattle"
@@ -2292,6 +2929,9 @@ msgid ""
 "I can defeat strong TRAINERS such\l"
 "as yourself.$"
 msgstr ""
+"我能做的，就是不断修行，\n"
+"直到能打败像你这样的\l"
+"强大训练家为止。$"
 
 #: data/text/trainers.inc:1362
 msgctxt "Route111_Text_WiltonIntro"
@@ -2299,6 +2939,8 @@ msgid ""
 "Show me how much you've toughened\n"
 "your POKéMON.$"
 msgstr ""
+"让我看看你把宝可梦\n"
+"锻炼得有多强吧。$"
 
 #: data/text/trainers.inc:1366
 msgctxt "Route111_Text_WiltonDefeat"
@@ -2306,6 +2948,8 @@ msgid ""
 "I see, you've toughened them\n"
 "considerably.$"
 msgstr ""
+"原来如此，\n"
+"你把它们锻炼得相当强啊。$"
 
 #: data/text/trainers.inc:1370
 msgctxt "Route111_Text_WiltonPostBattle"
@@ -2315,6 +2959,10 @@ msgid ""
 "What's important is to never give up\n"
 "even if you lose.$"
 msgstr ""
+"宝可梦和训练家\n"
+"能通过对战学到很多东西。\p"
+"重要的是，\n"
+"就算输了也绝不放弃。$"
 
 #: data/text/trainers.inc:1376
 msgctxt "Route111_Text_WiltonRegister"
@@ -2324,6 +2972,10 @@ msgid ""
 "I request a rematch if it\n"
 "behooves you.$"
 msgstr ""
+"你的训练方式\n"
+"有很多值得学习的地方。\p"
+"如果你方便的话，\n"
+"请再和我比试一场。$"
 
 #: data/text/trainers.inc:1382
 msgctxt "Route111_Text_WiltonRematchIntro"
@@ -2332,11 +2984,14 @@ msgid ""
 "game to the next level.\l"
 "Stay and train with us!$"
 msgstr ""
+"我们在这里修行，\n"
+"是为了更上一层楼。\l"
+"留下来和我们一起修行吧！$"
 
 #: data/text/trainers.inc:1387
 msgctxt "Route111_Text_WiltonRematchDefeat"
 msgid "Ooh, you're decent!$"
-msgstr ""
+msgstr "哦，你很不错嘛！$"
 
 #: data/text/trainers.inc:1390
 msgctxt "Route111_Text_WiltonPostRematch"
@@ -2344,6 +2999,8 @@ msgid ""
 "Since you're that strong, you should\n"
 "aim for the POKéMON LEAGUE.$"
 msgstr ""
+"你这么强的话，\n"
+"应该以宝可梦联盟为目标。$"
 
 #: data/text/trainers.inc:1394
 msgctxt "Route111_Text_BrookeIntro"
@@ -2352,6 +3009,9 @@ msgid ""
 "actors.\l"
 "I have to ask you for an engagement.$"
 msgstr ""
+"哎呀，你的宝可梦\n"
+"看起来就像实力派演员。\l"
+"我一定要请你们登台演出。$"
 
 #: data/text/trainers.inc:1399
 msgctxt "Route111_Text_BrookeDefeat"
@@ -2359,6 +3019,8 @@ msgid ""
 "They didn't just look strong,\n"
 "they are strong!$"
 msgstr ""
+"它们不只是看起来强，\n"
+"是真的很强！$"
 
 #: data/text/trainers.inc:1403
 msgctxt "Route111_Text_BrookePostBattle"
@@ -2367,6 +3029,9 @@ msgid ""
 "diligently, but, oh no, there is still\l"
 "much to be done.$"
 msgstr ""
+"我以为我一直在用心培育宝可梦，\n"
+"可是，哎呀，还有好多\l"
+"需要努力的地方。$"
 
 #: data/text/trainers.inc:1408
 msgctxt "Route111_Text_BrookeRegister"
@@ -2374,6 +3039,8 @@ msgid ""
 "I wish I could become friends with\n"
 "more strong people like you!$"
 msgstr ""
+"真希望能和更多\n"
+"像你这样的强者成为朋友！$"
 
 #: data/text/trainers.inc:1412
 msgctxt "Route111_Text_BrookeRematchIntro"
@@ -2384,11 +3051,16 @@ msgid ""
 "What kinds of moves do your POKéMON\n"
 "know?$"
 msgstr ""
+"根据教给它们的招式，\n"
+"宝可梦可以变强，\l"
+"也可以变弱。\p"
+"你的宝可梦\n"
+"都会些什么招式呢？$"
 
 #: data/text/trainers.inc:1419
 msgctxt "Route111_Text_BrookeRematchDefeat"
 msgid "You've taught them good moves!$"
-msgstr ""
+msgstr "你教了它们很好的招式！$"
 
 #: data/text/trainers.inc:1422
 msgctxt "Route111_Text_BrookePostRematch"
@@ -2397,6 +3069,8 @@ msgid ""
 "POKéMON from evolving until they\l"
 "learned better moves…$"
 msgstr ""
+"也许我应该先阻止宝可梦进化，\n"
+"等它们学会更好的招式再说……$"
 
 #: data/text/trainers.inc:1427
 msgctxt "Route111_Text_CeliaIntro"
@@ -2404,6 +3078,8 @@ msgid ""
 "I shouldn't have come to a place like\n"
 "this for a picnic!$"
 msgstr ""
+"早知道就不该来\n"
+"这种地方野餐了！$"
 
 #: data/text/trainers.inc:1431
 msgctxt "Route111_Text_CeliaDefeat"
@@ -2411,6 +3087,8 @@ msgid ""
 "Aww!\n"
 "I really shouldn't have come!$"
 msgstr ""
+"呜！\n"
+"真不该来的！$"
 
 #: data/text/trainers.inc:1435
 msgctxt "Route111_Text_CeliaPostBattle"
@@ -2419,6 +3097,9 @@ msgid ""
 "the places for a picnic even with my\l"
 "GO-GOGGLES on…$"
 msgstr ""
+"在这么大的沙暴里，\n"
+"就算戴着GOGO护目镜，\l"
+"我也没法摆好野餐的东西……$"
 
 #: data/text/trainers.inc:1440
 msgctxt "Route111_Text_BryanIntro"
@@ -2426,6 +3107,8 @@ msgid ""
 "How tough are you?\n"
 "We shall expose that secret!$"
 msgstr ""
+"你有多强？\n"
+"让我们来揭开这个秘密吧！$"
 
 #: data/text/trainers.inc:1444
 msgctxt "Route111_Text_BryanDefeat"
@@ -2433,6 +3116,8 @@ msgid ""
 "Oh! Your strength!\n"
 "It is shrouded in mystery!$"
 msgstr ""
+"哦！你的力量！\n"
+"简直笼罩在谜团之中！$"
 
 #: data/text/trainers.inc:1448
 msgctxt "Route111_Text_BryanPostBattle"
@@ -2440,6 +3125,8 @@ msgid ""
 "This desert hoards mysteries in\n"
 "its shifting sands!$"
 msgstr ""
+"这片沙漠在流动的沙子里\n"
+"藏着无数的秘密！$"
 
 #: data/text/trainers.inc:1452
 msgctxt "Route111_Text_BrandenIntro"
@@ -2447,6 +3134,8 @@ msgid ""
 "I'll give you some of my sandwich\n"
 "if you'll lose.$"
 msgstr ""
+"如果你肯输给我，\n"
+"我就分你一些三明治。$"
 
 #: data/text/trainers.inc:1456
 msgctxt "Route111_Text_BrandenDefeat"
@@ -2454,6 +3143,8 @@ msgid ""
 "Tch! I thought a sandwich would be\n"
 "enough of a bribe…$"
 msgstr ""
+"啧！我还以为\n"
+"一块三明治就够收买你了……$"
 
 #: data/text/trainers.inc:1460
 msgctxt "Route111_Text_BrandenPostBattle"
@@ -2461,11 +3152,13 @@ msgid ""
 "My SANDSHREW loves eating\n"
 "my sandwiches.$"
 msgstr ""
+"我的穿山鼠\n"
+"最爱吃我的三明治了。$"
 
 #: data/text/trainers.inc:1464
 msgctxt "Route111_Text_TyronIntro"
 msgid "This is my favorite kind of POKéMON!$"
-msgstr ""
+msgstr "这是我最喜欢的那种宝可梦！$"
 
 #: data/text/trainers.inc:1467
 msgctxt "Route111_Text_TyronDefeat"
@@ -2473,6 +3166,8 @@ msgid ""
 "Wait!\n"
 "Did you get a good look at my POKéMON?$"
 msgstr ""
+"等一下！\n"
+"你有好好看清我的宝可梦吗？$"
 
 #: data/text/trainers.inc:1471
 msgctxt "Route111_Text_TyronPostBattle"
@@ -2482,6 +3177,10 @@ msgid ""
 "I bet everyone feels that way when\n"
 "they enter a battle!$"
 msgstr ""
+"对战的时候，\n"
+"炫耀我的宝可梦是最开心的。\p"
+"我敢说每个人对战的时候\n"
+"都是这么想的！$"
 
 #: data/text/trainers.inc:1477
 msgctxt "Route111_Text_CelinaIntro"
@@ -2489,6 +3188,8 @@ msgid ""
 "Show me how to put a little excitement\n"
 "into my life.$"
 msgstr ""
+"请让我的生活\n"
+"多一点刺激吧。$"
 
 #: data/text/trainers.inc:1481
 msgctxt "Route111_Text_CelinaDefeat"
@@ -2496,6 +3197,8 @@ msgid ""
 "Oh… My…\n"
 "That was too much excitement.$"
 msgstr ""
+"哎呀……天哪……\n"
+"这刺激太过头了。$"
 
 #: data/text/trainers.inc:1485
 msgctxt "Route111_Text_CelinaPostBattle"
@@ -2503,6 +3206,8 @@ msgid ""
 "My pulse is still racing.\n"
 "You're one fabulous TRAINER.$"
 msgstr ""
+"我的心还在怦怦直跳。\n"
+"你真是一位了不起的训练家。$"
 
 #: data/text/trainers.inc:1489
 msgctxt "Route111_Text_HaydenIntro"
@@ -2510,11 +3215,13 @@ msgid ""
 "When you're as famished as I am,\n"
 "there is no room for pity!$"
 msgstr ""
+"当你饿成我这样的时候，\n"
+"是不会有同情心的！$"
 
 #: data/text/trainers.inc:1493
 msgctxt "Route111_Text_HaydenDefeat"
 msgid "Groan…$"
-msgstr ""
+msgstr "呜……$"
 
 #: data/text/trainers.inc:1496
 msgctxt "Route111_Text_HaydenPostBattle"
@@ -2522,6 +3229,8 @@ msgid ""
 "My stomach is grumbling!\n"
 "Maybe I can grill some BERRIES…$"
 msgstr ""
+"我的肚子在咕咕叫！\n"
+"也许我可以烤点树果吃……$"
 
 #: data/text/trainers.inc:1500
 msgctxt "Route111_Text_BiancaIntro"
@@ -2529,6 +3238,8 @@ msgid ""
 "Did you come from MAUVILLE?\n"
 "Then you should be full of energy!$"
 msgstr ""
+"你是从紫堇市来的吗？\n"
+"那你应该精力充沛才对！$"
 
 #: data/text/trainers.inc:1504
 msgctxt "Route111_Text_BiancaDefeat"
@@ -2536,6 +3247,8 @@ msgid ""
 "Ooh lala!\n"
 "That's a lot to take!$"
 msgstr ""
+"哎呀呀！\n"
+"真吃不消！$"
 
 #: data/text/trainers.inc:1508
 msgctxt "Route111_Text_BiancaPostBattle"
@@ -2543,6 +3256,8 @@ msgid ""
 "This road here…\n"
 "You have quite a ways to travel.$"
 msgstr ""
+"这条路啊……\n"
+"你还有很长一段要走呢。$"
 
 #: data/text/trainers.inc:1512
 msgctxt "Route112_Text_BriceIntro"
@@ -2552,6 +3267,10 @@ msgid ""
 "You and me!\l"
 "Hahahaha!$"
 msgstr ""
+"哈哈哈哈！\n"
+"我们来对战怎么样？\l"
+"你和我！\l"
+"哈哈哈哈！$"
 
 #: data/text/trainers.inc:1518
 msgctxt "Route112_Text_BriceDefeat"
@@ -2559,6 +3278,8 @@ msgid ""
 "I lost!\n"
 "Hahahaha!$"
 msgstr ""
+"我输了！\n"
+"哈哈哈哈！$"
 
 #: data/text/trainers.inc:1522
 msgctxt "Route112_Text_BricePostBattle"
@@ -2566,6 +3287,8 @@ msgid ""
 "Hahahahaha! Something flew up my nose!\n"
 "Hahahaha-hatchoo!$"
 msgstr ""
+"哈哈哈哈！有东西飞进我鼻子里了！\n"
+"哈哈哈哈——哈啾！$"
 
 #: data/text/trainers.inc:1526
 msgctxt "Route112_Text_TrentIntro"
@@ -2575,11 +3298,15 @@ msgid ""
 "They're not going to buckle easily,\n"
 "friend!$"
 msgstr ""
+"我的腿在山里上上下下，\n"
+"早就练得结结实实了。\p"
+"可没那么容易软下去，\n"
+"朋友！$"
 
 #: data/text/trainers.inc:1532
 msgctxt "Route112_Text_TrentDefeat"
 msgid "Ouch! My legs cramped up!$"
-msgstr ""
+msgstr "哎哟！我的腿抽筋了！$"
 
 #: data/text/trainers.inc:1535
 msgctxt "Route112_Text_TrentPostBattle"
@@ -2591,6 +3318,11 @@ msgid ""
 "That, my friend, will get your body\n"
 "into serious shape.$"
 msgstr ""
+"试试背着几十斤重的背包，\n"
+"在这些山路上\l"
+"真正地走上一走吧。\p"
+"朋友，那样你的身体\n"
+"就能练得非常结实。$"
 
 #: data/text/trainers.inc:1543
 msgctxt "Route112_Text_TrentRegister"
@@ -2601,6 +3333,11 @@ msgid ""
 "No, that's my POKéNAV!\n"
 "Oh, fine, I'll register you.$"
 msgstr ""
+"哎哟，我的腿抽筋了。\n"
+"能帮我从背包里\l"
+"拿点绷带出来吗？\p"
+"不对，那是我的宝可梦导航！\n"
+"唉，算了，我就登记你吧。$"
 
 #: data/text/trainers.inc:1550
 msgctxt "Route112_Text_TrentRematchIntro"
@@ -2608,11 +3345,13 @@ msgid ""
 "I've been keeping fit by hiking.\n"
 "Power, I have in spades!$"
 msgstr ""
+"我一直靠登山保持身体健康。\n"
+"力气我可多得是！$"
 
 #: data/text/trainers.inc:1554
 msgctxt "Route112_Text_TrentRematchDefeat"
 msgid "I got trumped in power?$"
-msgstr ""
+msgstr "我居然在力量上输了？$"
 
 #: data/text/trainers.inc:1557
 msgctxt "Route112_Text_TrentRematchPostBattle"
@@ -2622,6 +3361,10 @@ msgid ""
 "I intend to get up there and give them\n"
 "a challenge!$"
 msgstr ""
+"听说烟囱山的山顶上\n"
+"有非常厉害的训练家。\p"
+"我打算爬上去\n"
+"向他们发起挑战！$"
 
 #: data/text/trainers.inc:1563
 msgctxt "Route112_Text_LarryIntro"
@@ -2629,11 +3372,13 @@ msgid ""
 "I'm strong.\n"
 "I won't cry if I lose.$"
 msgstr ""
+"我很坚强。\n"
+"就算输了我也不会哭。$"
 
 #: data/text/trainers.inc:1567
 msgctxt "Route112_Text_LarryDefeat"
 msgid "Waaaah!$"
-msgstr ""
+msgstr "哇啊啊啊！$"
 
 #: data/text/trainers.inc:1570
 msgctxt "Route112_Text_LarryPostBattle"
@@ -2641,6 +3386,8 @@ msgid ""
 "I'm not crying because I miss my mommy!\n"
 "Snivel…$"
 msgstr ""
+"我才不是因为想妈妈才哭的！\n"
+"呜……$"
 
 #: data/text/trainers.inc:1574
 msgctxt "Route112_Text_CarolIntro"
@@ -2649,11 +3396,14 @@ msgid ""
 "you simply have to sing!\l"
 "Come on, sing with me!$"
 msgstr ""
+"出来野餐的时候，\n"
+"当然要唱歌啦！\l"
+"来吧，和我一起唱！$"
 
 #: data/text/trainers.inc:1579
 msgctxt "Route112_Text_CarolDefeat"
 msgid "Oh, you're so strong!$"
-msgstr ""
+msgstr "哎呀，你好强！$"
 
 #: data/text/trainers.inc:1582
 msgctxt "Route112_Text_CarolPostBattle"
@@ -2662,6 +3412,9 @@ msgid ""
 "at singing or POKéMON.\p"
 "If you have the most fun, you win!$"
 msgstr ""
+"不管唱歌好不好，\n"
+"宝可梦强不强，都没关系。\p"
+"玩得最开心的人就是赢家！$"
 
 #: data/text/trainers.inc:1587
 msgctxt "Route112_Text_BryantIntro"
@@ -2669,11 +3422,14 @@ msgid ""
 "I caught hot POKéMON in FIERY PATH!\n"
 "Take a look!$"
 msgstr ""
+"我在火焰小径\n"
+"抓到了火热的宝可梦！\l"
+"快看！$"
 
 #: data/text/trainers.inc:1591
 msgctxt "Route112_Text_BryantDefeat"
 msgid "What a bumpy ride that was!$"
-msgstr ""
+msgstr "真是一路颠簸啊！$"
 
 #: data/text/trainers.inc:1594
 msgctxt "Route112_Text_BryantPostBattle"
@@ -2681,6 +3437,8 @@ msgid ""
 "I like the way you battle.\n"
 "It has a certain flair to it.$"
 msgstr ""
+"我喜欢你对战的方式。\n"
+"有一种独特的风格。$"
 
 #: data/text/trainers.inc:1598
 msgctxt "Route112_Text_ShaylaIntro"
@@ -2689,6 +3447,9 @@ msgid ""
 "Please, I need a romantic battle!\l"
 "I'm somewhat decent!$"
 msgstr ""
+"哎呀，好可爱的训练家！\n"
+"拜托，我需要一场浪漫的对战！\l"
+"我还算有点实力哦！$"
 
 #: data/text/trainers.inc:1603
 msgctxt "Route112_Text_ShaylaDefeat"
@@ -2696,6 +3457,8 @@ msgid ""
 "Oh, how strong you are!\n"
 "You've given me quite a shock!$"
 msgstr ""
+"哎呀，你好强啊！\n"
+"真是吓了我一大跳！$"
 
 #: data/text/trainers.inc:1607
 msgctxt "Route112_Text_ShaylaPostBattle"
@@ -2705,6 +3468,10 @@ msgid ""
 "a rematch right now…\l"
 "But it's all right if you're busy.$"
 msgstr ""
+"你现在忙吗？\n"
+"我在想我们能不能\l"
+"现在就再比一场……\l"
+"不过你忙的话也没关系。$"
 
 #: data/text/trainers.inc:1613
 msgctxt "Route113_Text_JaylenIntro"
@@ -2712,6 +3479,8 @@ msgid ""
 "Can you guess why it's so cool\n"
 "around here?$"
 msgstr ""
+"你猜得到这附近\n"
+"为什么这么凉快吗？$"
 
 #: data/text/trainers.inc:1617
 msgctxt "Route113_Text_JaylenDefeat"
@@ -2719,6 +3488,8 @@ msgid ""
 "Peeuuw!\n"
 "That stinks!$"
 msgstr ""
+"呸呸！\n"
+"好臭！$"
 
 #: data/text/trainers.inc:1621
 msgctxt "Route113_Text_JaylenPostBattle"
@@ -2727,6 +3498,9 @@ msgid ""
 "so it doesn't get very warm.\p"
 "That's good for me--I can't stand heat!$"
 msgstr ""
+"火山灰挡住了阳光，\n"
+"所以这里不会很热。\p"
+"这对我来说正好——我最怕热了！$"
 
 #: data/text/trainers.inc:1626
 msgctxt "Route113_Text_DillonIntro"
@@ -2734,11 +3508,13 @@ msgid ""
 "The volcano's eruption is proof that\n"
 "the earth is alive.$"
 msgstr ""
+"火山喷发\n"
+"就是大地还活着的证据。$"
 
 #: data/text/trainers.inc:1630
 msgctxt "Route113_Text_DillonDefeat"
 msgid "You're some kind of strong!$"
-msgstr ""
+msgstr "你还真是强啊！$"
 
 #: data/text/trainers.inc:1633
 msgctxt "Route113_Text_DillonPostBattle"
@@ -2748,6 +3524,10 @@ msgid ""
 "Get it? Ashes and eyelashes?\p"
 "Okay, that was bad, sorry…$"
 msgstr ""
+"哎哟！好痛！看不见了！\n"
+"火山灰飞进我眼睛里了！\p"
+"听懂了吗？火山灰，灰头土脸？\p"
+"好吧，这个笑话太烂了，抱歉……$"
 
 #: data/text/trainers.inc:1639
 msgctxt "Route113_Text_MadelineIntro"
@@ -2756,6 +3536,9 @@ msgid ""
 "filthy, yucky volcanic ash from\l"
 "my dear NUMEL.$"
 msgstr ""
+"我用这把阳伞\n"
+"为我亲爱的呆火驼挡住\l"
+"这些又脏又讨厌的火山灰。$"
 
 #: data/text/trainers.inc:1644
 msgctxt "Route113_Text_MadelineDefeat"
@@ -2763,6 +3546,8 @@ msgid ""
 "Huff, huff…\n"
 "I am exhausted…$"
 msgstr ""
+"呼，呼……\n"
+"我累坏了……$"
 
 #: data/text/trainers.inc:1648
 msgctxt "Route113_Text_MadelinePostBattle"
@@ -2770,6 +3555,8 @@ msgid ""
 "You're very good at this.\n"
 "I must say I'm impressed!$"
 msgstr ""
+"你真的很厉害。\n"
+"我不得不说，我很佩服！$"
 
 #: data/text/trainers.inc:1652
 msgctxt "Route113_Text_MadelineRegister"
@@ -2777,6 +3564,8 @@ msgid ""
 "Here, slide under my parasol.\n"
 "Let me register you in my POKéNAV.$"
 msgstr ""
+"来，到我的阳伞下面来。\n"
+"我来把你登记到宝可梦导航里。$"
 
 #: data/text/trainers.inc:1656
 msgctxt "Route113_Text_MadelineRematchIntro"
@@ -2784,11 +3573,13 @@ msgid ""
 "Oh, hello, hasn't it been a while?\n"
 "May I invite you to battle?$"
 msgstr ""
+"哎呀，你好，好久不见了吧？\n"
+"能邀请你和我对战吗？$"
 
 #: data/text/trainers.inc:1660
 msgctxt "Route113_Text_MadelineRematchDefeat"
 msgid "Oh, how super!$"
-msgstr ""
+msgstr "哎呀，太棒了！$"
 
 #: data/text/trainers.inc:1663
 msgctxt "Route113_Text_MadelinePostRematch"
@@ -2796,6 +3587,8 @@ msgid ""
 "You've remained very good at this.\n"
 "I must say I'm impressed!$"
 msgstr ""
+"你还是那么厉害。\n"
+"我不得不说，我很佩服！$"
 
 #: data/text/trainers.inc:1667
 msgctxt "Route113_Text_LaoIntro"
@@ -2803,11 +3596,13 @@ msgid ""
 "From out of the ashes I leap! Hiyah!\n"
 "I challenge thee!$"
 msgstr ""
+"吾自灰中跃出！嘿呀！\n"
+"向汝挑战！$"
 
 #: data/text/trainers.inc:1671
 msgctxt "Route113_Text_LaoDefeat"
 msgid "With honor I admit defeat!$"
-msgstr ""
+msgstr "吾光明磊落地认输！$"
 
 #: data/text/trainers.inc:1674
 msgctxt "Route113_Text_LaoPostBattle"
@@ -2815,6 +3610,8 @@ msgid ""
 "I must refine the art of concealment.\n"
 "I bid thee farewell.$"
 msgstr ""
+"吾须再磨练隐身之术。\n"
+"就此别过。$"
 
 #: data/text/trainers.inc:1678
 msgctxt "Route113_Text_LaoRegister"
@@ -2822,6 +3619,8 @@ msgid ""
 "Yiiyaah! Witness the ancient ninja\n"
 "technique of POKéNAV registration!$"
 msgstr ""
+"咿呀！见识一下宝可梦导航登记的\n"
+"古代忍术吧！$"
 
 #: data/text/trainers.inc:1682
 msgctxt "Route113_Text_LaoRematchIntro"
@@ -2829,11 +3628,13 @@ msgid ""
 "From out of the ashes I leap! Hiyah!\n"
 "I challenge thee!$"
 msgstr ""
+"吾自灰中跃出！嘿呀！\n"
+"向汝挑战！$"
 
 #: data/text/trainers.inc:1686
 msgctxt "Route113_Text_LaoRematchDefeat"
 msgid "With honor I admit defeat!$"
-msgstr ""
+msgstr "吾光明磊落地认输！$"
 
 #: data/text/trainers.inc:1689
 msgctxt "Route113_Text_LaoPostRematch"
@@ -2842,6 +3643,9 @@ msgid ""
 "by my immature battle skills…\p"
 "I bid thee farewell.$"
 msgstr ""
+"吾完美的隐身之术，\n"
+"却被不成熟的对战技巧拖累了……\p"
+"就此别过。$"
 
 #: data/text/trainers.inc:1694
 msgctxt "Route113_Text_LungIntro"
@@ -2849,6 +3653,8 @@ msgid ""
 "Thanks for finding me!\n"
 "But we still have to battle!$"
 msgstr ""
+"谢谢你找到我！\n"
+"不过我们还是得对战！$"
 
 #: data/text/trainers.inc:1698
 msgctxt "Route113_Text_LungDefeat"
@@ -2858,6 +3664,10 @@ msgid ""
 "…What?\n"
 "It's already over?$"
 msgstr ""
+"看我对你使出忍术……\n"
+"“火山灰旋风隐身术”！\p"
+"……咦？\n"
+"已经结束了？$"
 
 #: data/text/trainers.inc:1704
 msgctxt "Route113_Text_LungPostBattle"
@@ -2865,6 +3675,8 @@ msgid ""
 "You know what's crummy about hiding?\n"
 "It's lonely if no one comes along.$"
 msgstr ""
+"你知道躲起来最糟糕的是什么吗？\n"
+"就是没人来的话会很寂寞。$"
 
 #: data/text/trainers.inc:1708
 msgctxt "Route113_Text_ToriIntro"
@@ -2872,6 +3684,8 @@ msgid ""
 "TORI: Both of us, we collect ashes.\n"
 "We battle POKéMON, too.$"
 msgstr ""
+"托莉：我们两个都在收集火山灰。\n"
+"也会用宝可梦对战哦。$"
 
 #: data/text/trainers.inc:1712
 msgctxt "Route113_Text_ToriDefeat"
@@ -2879,6 +3693,8 @@ msgid ""
 "TORI: We lost… It's boring, so I'm going\n"
 "to get some more ashes.$"
 msgstr ""
+"托莉：我们输了……好无聊，\n"
+"我要去多收集点火山灰。$"
 
 #: data/text/trainers.inc:1716
 msgctxt "Route113_Text_ToriPostBattle"
@@ -2886,6 +3702,8 @@ msgid ""
 "TORI: How much ash do we have?\n"
 "Enough for a WHITE FLUTE, I hope.$"
 msgstr ""
+"托莉：我们有多少火山灰了？\n"
+"希望够换一个白色玻璃哨。$"
 
 #: data/text/trainers.inc:1720
 msgctxt "Route113_Text_ToriNotEnoughMons"
@@ -2893,6 +3711,8 @@ msgid ""
 "TORI: We want to battle 2-on-2.\n"
 "If we didn't, we would lose!$"
 msgstr ""
+"托莉：我们想二对二对战。\n"
+"不然的话我们会输的！$"
 
 #: data/text/trainers.inc:1724
 msgctxt "Route113_Text_TiaIntro"
@@ -2900,6 +3720,8 @@ msgid ""
 "TIA: Both of us, we collect ashes.\n"
 "We battle POKéMON, too.$"
 msgstr ""
+"蒂娅：我们两个都在收集火山灰。\n"
+"也会用宝可梦对战哦。$"
 
 #: data/text/trainers.inc:1728
 msgctxt "Route113_Text_TiaDefeat"
@@ -2907,6 +3729,8 @@ msgid ""
 "TIA: We couldn't win… It's boring,\n"
 "so I'm getting some more ashes.$"
 msgstr ""
+"蒂娅：我们没赢……好无聊，\n"
+"我要去多收集点火山灰。$"
 
 #: data/text/trainers.inc:1732
 msgctxt "Route113_Text_TiaPostBattle"
@@ -2914,6 +3738,8 @@ msgid ""
 "TIA: We have a lot of ashes!\n"
 "I think enough for a WHITE FLUTE!$"
 msgstr ""
+"蒂娅：我们有好多火山灰了！\n"
+"应该够换一个白色玻璃哨了！$"
 
 #: data/text/trainers.inc:1736
 msgctxt "Route113_Text_TiaNotEnoughMons"
@@ -2921,6 +3747,8 @@ msgid ""
 "TIA: We want to battle 2-on-2.\n"
 "If we don't, we won't win!$"
 msgstr ""
+"蒂娅：我们想二对二对战。\n"
+"不然的话我们赢不了！$"
 
 #: data/text/trainers.inc:1740
 msgctxt "Route113_Text_CobyIntro"
@@ -2928,11 +3756,13 @@ msgid ""
 "Pfft, with these wings I can\n"
 "flick you away!$"
 msgstr ""
+"哼，用这对翅膀\n"
+"我就能把你弹飞！$"
 
 #: data/text/trainers.inc:1744
 msgctxt "Route113_Text_CobyDefeat"
 msgid "A… What?$"
-msgstr ""
+msgstr "啊……什么？$"
 
 #: data/text/trainers.inc:1747
 msgctxt "Route113_Text_CobyPostBattle"
@@ -2940,6 +3770,8 @@ msgid ""
 "I don't know what to say when I get\n"
 "beaten so easily…$"
 msgstr ""
+"被打得这么轻松，\n"
+"我都不知道该说什么了……$"
 
 #: data/text/trainers.inc:1751
 msgctxt "Route113_Text_SophieIntro"
@@ -2947,6 +3779,8 @@ msgid ""
 "The warmth here is making me drowsy.\n"
 "Battle with me so I can stay awake.$"
 msgstr ""
+"这里暖洋洋的，让我好想睡。\n"
+"和我对战吧，让我保持清醒。$"
 
 #: data/text/trainers.inc:1755
 msgctxt "Route113_Text_SophieDefeat"
@@ -2954,6 +3788,8 @@ msgid ""
 "This is a dream.\n"
 "I'm sure of it…$"
 msgstr ""
+"这是一场梦。\n"
+"一定是这样……$"
 
 #: data/text/trainers.inc:1759
 msgctxt "Route113_Text_SophiePostBattle"
@@ -2962,6 +3798,9 @@ msgid ""
 "I'm just going to sleep right here!\l"
 "Zzz!$"
 msgstr ""
+"输了好让人火大……\n"
+"我就在这里睡觉了！\l"
+"呼呼呼！$"
 
 #: data/text/trainers.inc:1764
 msgctxt "Route113_Text_LawrenceIntro"
@@ -2969,6 +3808,8 @@ msgid ""
 "Were you maybe in the middle\n"
 "of gathering volcanic ashes?$"
 msgstr ""
+"你是不是正在\n"
+"收集火山灰？$"
 
 #: data/text/trainers.inc:1768
 msgctxt "Route113_Text_LawrenceDefeat"
@@ -2976,11 +3817,13 @@ msgid ""
 "Ehehe.\n"
 "We got beaten cleanly.$"
 msgstr ""
+"嘿嘿。\n"
+"我们被打得干干净净。$"
 
 #: data/text/trainers.inc:1772
 msgctxt "Route113_Text_LawrencePostBattle"
 msgid "I ought to hide under the ashes, too.$"
-msgstr ""
+msgstr "我也该躲到火山灰下面去。$"
 
 #: data/text/trainers.inc:1775
 msgctxt "Route113_Text_WyattIntro"
@@ -2988,6 +3831,8 @@ msgid ""
 "Y-you want to battle with me?\n"
 "Even though I just caught my POKéMON?$"
 msgstr ""
+"你、你要和我对战？\n"
+"我才刚抓到宝可梦哦？$"
 
 #: data/text/trainers.inc:1779
 msgctxt "Route113_Text_WyattDefeat"
@@ -2995,6 +3840,8 @@ msgid ""
 "Y-you're all happy to win?\n"
 "Even though it's only me?$"
 msgstr ""
+"你、你赢了就这么高兴？\n"
+"对手明明只是我而已？$"
 
 #: data/text/trainers.inc:1783
 msgctxt "Route113_Text_WyattPostBattle"
@@ -3004,6 +3851,10 @@ msgid ""
 "Aren't you just the coolest?\n"
 "Humph!$"
 msgstr ""
+"哦，现在想对输家\n"
+"说几句话了？\p"
+"你可真是酷毙了啊？\n"
+"哼！$"
 
 #: data/text/trainers.inc:1789
 msgctxt "Route114_Text_LennyIntro"
@@ -3014,11 +3865,16 @@ msgid ""
 "“yodelayhihoo” since it doesn't\l"
 "echo here!$"
 msgstr ""
+"呦嘞嘞咿呼！\p"
+"…… ……\p"
+"这里没有回声，\n"
+"所以你应该喊\l"
+"“呦嘞嘞咿呼”才对！$"
 
 #: data/text/trainers.inc:1796
 msgctxt "Route114_Text_LennyDefeat"
 msgid "Yodelayhihoo!$"
-msgstr ""
+msgstr "呦嘞嘞咿呼！$"
 
 #: data/text/trainers.inc:1799
 msgctxt "Route114_Text_LennyPostBattle"
@@ -3027,6 +3883,9 @@ msgid ""
 "was someone copying me and shouting\l"
 "back, “Yodelayhihoo.”$"
 msgstr ""
+"我还是个小不点的时候，\n"
+"以为有人在学我，\l"
+"朝我喊“呦嘞嘞咿呼”。$"
 
 #: data/text/trainers.inc:1804
 msgctxt "Route114_Text_LucasIntro"
@@ -3034,11 +3893,13 @@ msgid ""
 "If you're not prepared, you shouldn't\n"
 "be up in the mountains!$"
 msgstr ""
+"要是没有做好准备，\n"
+"就不该到山上来！$"
 
 #: data/text/trainers.inc:1808
 msgctxt "Route114_Text_LucasDefeat"
 msgid "The mountains are unforgiving…$"
-msgstr ""
+msgstr "大山可是很无情的……$"
 
 #: data/text/trainers.inc:1811
 msgctxt "Route114_Text_LucasPostBattle"
@@ -3046,6 +3907,8 @@ msgid ""
 "In the winter, mountains turn deadly\n"
 "with blizzards and avalanches.$"
 msgstr ""
+"到了冬天，暴风雪和雪崩\n"
+"会让大山变得非常危险。$"
 
 #: data/text/trainers.inc:1815
 msgctxt "Route114_Text_ShaneIntro"
@@ -3055,11 +3918,15 @@ msgid ""
 "But the best of all are the POKéMON\n"
 "battles!$"
 msgstr ""
+"露营好好玩！可以钓鱼、烤棉花糖，\n"
+"还能讲恐怖故事！\p"
+"不过最棒的还是\n"
+"宝可梦对战！$"
 
 #: data/text/trainers.inc:1821
 msgctxt "Route114_Text_ShaneDefeat"
 msgid "Way too strong!$"
-msgstr ""
+msgstr "实在太强了！$"
 
 #: data/text/trainers.inc:1824
 msgctxt "Route114_Text_ShanePostBattle"
@@ -3067,6 +3934,8 @@ msgid ""
 "I think it's great that I can go\n"
 "camping with my POKéMON.$"
 msgstr ""
+"能和我的宝可梦一起露营，\n"
+"我觉得真是太好了。$"
 
 #: data/text/trainers.inc:1828
 msgctxt "Route114_Text_NancyIntro"
@@ -3074,11 +3943,13 @@ msgid ""
 "I need to exercise after a meal.\n"
 "Let's have a match!$"
 msgstr ""
+"吃完饭得运动一下。\n"
+"我们来比一场吧！$"
 
 #: data/text/trainers.inc:1832
 msgctxt "Route114_Text_NancyDefeat"
 msgid "Oh, no!$"
-msgstr ""
+msgstr "哎呀，不会吧！$"
 
 #: data/text/trainers.inc:1835
 msgctxt "Route114_Text_NancyPostBattle"
@@ -3086,6 +3957,8 @@ msgid ""
 "I just had a tasty meal.\n"
 "I'm getting drowsy…$"
 msgstr ""
+"我刚吃了一顿美餐。\n"
+"开始犯困了……$"
 
 #: data/text/trainers.inc:1839
 msgctxt "Route114_Text_SteveIntro"
@@ -3093,11 +3966,13 @@ msgid ""
 "Ufufufufufu…\n"
 "Want to battle against my POKéMON?$"
 msgstr ""
+"呜呼呼呼呼呼……\n"
+"想和我的宝可梦对战吗？$"
 
 #: data/text/trainers.inc:1843
 msgctxt "Route114_Text_SteveDefeat"
 msgid "M-My POKéMON…$"
-msgstr ""
+msgstr "我、我的宝可梦……$"
 
 #: data/text/trainers.inc:1846
 msgctxt "Route114_Text_StevePostBattle"
@@ -3107,6 +3982,10 @@ msgid ""
 "Ufufufufu…\n"
 "I wish I had a POKéMON like that…$"
 msgstr ""
+"疙疙瘩瘩又硬邦邦的庞大身躯，\n"
+"巨大的角，还有凶狠的獠牙……\p"
+"呜呼呼呼呼……\n"
+"真想要一只那样的宝可梦……$"
 
 #: data/text/trainers.inc:1852
 msgctxt "Route114_Text_SteveRegister"
@@ -3114,6 +3993,8 @@ msgid ""
 "Don't forget what you've done to me!\n"
 "I'll make it so you can't forget!$"
 msgstr ""
+"别忘了你对我做的事！\n"
+"我会让你忘都忘不掉的！$"
 
 #: data/text/trainers.inc:1856
 msgctxt "Route114_Text_SteveRematchIntro"
@@ -3121,6 +4002,8 @@ msgid ""
 "Ufufufufufu…\n"
 "Come on, battle my POKéMON…$"
 msgstr ""
+"呜呼呼呼呼呼……\n"
+"来吧，和我的宝可梦对战……$"
 
 #: data/text/trainers.inc:1860
 msgctxt "Route114_Text_SteveRematchDefeat"
@@ -3128,6 +4011,8 @@ msgid ""
 "I feel so lucky getting to see your\n"
 "POKéMON…$"
 msgstr ""
+"能看到你的宝可梦，\n"
+"我真是太幸运了……$"
 
 #: data/text/trainers.inc:1864
 msgctxt "Route114_Text_StevePostRematch"
@@ -3136,6 +4021,9 @@ msgid ""
 "When I see POKéMON battling, I get all\n"
 "shivery and shaky…$"
 msgstr ""
+"呜呼呼呼呼呼……\p"
+"一看到宝可梦对战，\n"
+"我就兴奋得浑身发抖……$"
 
 #: data/text/trainers.inc:1869
 msgctxt "Route114_Text_BernieIntro"
@@ -3143,11 +4031,13 @@ msgid ""
 "If you're lighting a campfire,\n"
 "make sure you have water handy.$"
 msgstr ""
+"如果要生篝火的话，\n"
+"一定要在手边准备好水。$"
 
 #: data/text/trainers.inc:1873
 msgctxt "Route114_Text_BernieDefeat"
 msgid "Thanks for dousing my fire!$"
-msgstr ""
+msgstr "谢谢你帮我把火浇灭！$"
 
 #: data/text/trainers.inc:1876
 msgctxt "Route114_Text_BerniePostBattle"
@@ -3157,6 +4047,10 @@ msgid ""
 "Don't ever underestimate the power\n"
 "of fire.$"
 msgstr ""
+"在森林里用火\n"
+"真的要非常小心。\p"
+"千万不要小看\n"
+"火的力量。$"
 
 #: data/text/trainers.inc:1882
 msgctxt "Route114_Text_BernieRegister"
@@ -3164,6 +4058,8 @@ msgid ""
 "You set my spirit on fire.\n"
 "Let's register each other!$"
 msgstr ""
+"你点燃了我的斗志。\n"
+"我们互相登记吧！$"
 
 #: data/text/trainers.inc:1886
 msgctxt "Route114_Text_BernieRematchIntro"
@@ -3171,6 +4067,8 @@ msgid ""
 "Have you learned to keep water handy\n"
 "for campfires?$"
 msgstr ""
+"你学会在生篝火的时候\n"
+"准备好水了吗？$"
 
 #: data/text/trainers.inc:1890
 msgctxt "Route114_Text_BernieRematchDefeat"
@@ -3178,6 +4076,8 @@ msgid ""
 "I got hosed down before I could\n"
 "flare up, I guess.$"
 msgstr ""
+"看来我还没烧起来，\n"
+"就被一盆水浇灭了。$"
 
 #: data/text/trainers.inc:1894
 msgctxt "Route114_Text_BerniePostRematch"
@@ -3187,6 +4087,10 @@ msgid ""
 "Don't ever underestimate the power\n"
 "of fire.$"
 msgstr ""
+"在森林里用火\n"
+"真的要非常小心。\p"
+"千万不要小看\n"
+"火的力量。$"
 
 #: data/text/trainers.inc:1900
 msgctxt "Route114_Text_ClaudeIntro"
@@ -3195,11 +4099,14 @@ msgid ""
 "a chance against me.\l"
 "So, bring on your POKéMON!$"
 msgstr ""
+"要是比钓鱼的话，\n"
+"你根本不是我的对手。\l"
+"好了，放马过来吧！$"
 
 #: data/text/trainers.inc:1905
 msgctxt "Route114_Text_ClaudeDefeat"
 msgid "If we were fishing, I would've won…$"
-msgstr ""
+msgstr "要是比钓鱼，我就赢了……$"
 
 #: data/text/trainers.inc:1908
 msgctxt "Route114_Text_ClaudePostBattle"
@@ -3209,6 +4116,10 @@ msgid ""
 "There has to be something in there.\n"
 "I just know it.$"
 msgstr ""
+"我想去流星瀑布\n"
+"碰碰运气钓条大的。\p"
+"那里面一定有什么东西。\n"
+"我就是知道。$"
 
 #: data/text/trainers.inc:1914
 msgctxt "Route114_Text_NolanIntro"
@@ -3218,6 +4129,10 @@ msgid ""
 "If anyone challenges me, I'm there,\n"
 "even if I'm fishing.$"
 msgstr ""
+"我喜欢钓鱼，\n"
+"不过也喜欢对战！\p"
+"只要有人挑战，\n"
+"就算在钓鱼我也奉陪。$"
 
 #: data/text/trainers.inc:1920
 msgctxt "Route114_Text_NolanDefeat"
@@ -3225,6 +4140,8 @@ msgid ""
 "I like to battle, but that doesn't\n"
 "mean I'm good at it…$"
 msgstr ""
+"我喜欢对战，\n"
+"但这不代表我很擅长……$"
 
 #: data/text/trainers.inc:1924
 msgctxt "Route114_Text_NolanPostBattle"
@@ -3233,6 +4150,9 @@ msgid ""
 "I always think that, so I can't walk\n"
 "away from fishing or POKéMON.$"
 msgstr ""
+"这次一定行！\p"
+"我总是这么想，\n"
+"所以钓鱼和宝可梦我都戒不掉。$"
 
 #: data/text/trainers.inc:1929
 msgctxt "Route114_Text_TyraIntro"
@@ -3241,11 +4161,14 @@ msgid ""
 "I'm in the mood for it.\l"
 "I'll teach you a little about POKéMON.$"
 msgstr ""
+"泰拉：好啊，\n"
+"我正好有这个兴致。\l"
+"我来教你一点宝可梦的知识吧。$"
 
 #: data/text/trainers.inc:1934
 msgctxt "Route114_Text_TyraDefeat"
 msgid "TYRA: What an amazing battle style!$"
-msgstr ""
+msgstr "泰拉：多么惊人的对战风格！$"
 
 #: data/text/trainers.inc:1937
 msgctxt "Route114_Text_TyraPostBattle"
@@ -3253,6 +4176,8 @@ msgid ""
 "TYRA: I was teaching my junior IVY\n"
 "about POKéMON.$"
 msgstr ""
+"泰拉：我刚才在教我的学妹艾薇\n"
+"宝可梦的知识。$"
 
 #: data/text/trainers.inc:1941
 msgctxt "Route114_Text_TyraNotEnoughMons"
@@ -3261,16 +4186,19 @@ msgid ""
 "If you want to battle with us, just one\l"
 "POKéMON isn't enough!$"
 msgstr ""
+"泰拉：嘻嘻……\n"
+"想和我们对战的话，\l"
+"只有一只宝可梦可不够哦！$"
 
 #: data/text/trainers.inc:1946
 msgctxt "Route114_Text_IvyIntro"
 msgid "IVY: Who taught you about POKéMON?$"
-msgstr ""
+msgstr "艾薇：是谁教你宝可梦的知识的？$"
 
 #: data/text/trainers.inc:1949
 msgctxt "Route114_Text_IvyDefeat"
 msgid "IVY: What an amazing battle style!$"
-msgstr ""
+msgstr "艾薇：多么惊人的对战风格！$"
 
 #: data/text/trainers.inc:1952
 msgctxt "Route114_Text_IvyPostBattle"
@@ -3279,6 +4207,8 @@ msgid ""
 "because TYRA, my student mentor,\l"
 "taught me!$"
 msgstr ""
+"艾薇：是我的学姐泰拉教我，\n"
+"我才开始培育宝可梦的！$"
 
 #: data/text/trainers.inc:1957
 msgctxt "Route114_Text_IvyNotEnoughMons"
@@ -3286,6 +4216,8 @@ msgid ""
 "IVY: Do you only have one POKéMON?\n"
 "I think it must feel lonesome.$"
 msgstr ""
+"艾薇：你只有一只宝可梦吗？\n"
+"它一定会觉得很寂寞吧。$"
 
 #: data/text/trainers.inc:1961
 msgctxt "Route114_Text_KaiIntro"
@@ -3293,6 +4225,8 @@ msgid ""
 "I landed a big one!\n"
 "A huge one, I tell you!$"
 msgstr ""
+"我钓到大家伙了！\n"
+"超级大的，我跟你说！$"
 
 #: data/text/trainers.inc:1965
 msgctxt "Route114_Text_KaiDefeat"
@@ -3300,6 +4234,8 @@ msgid ""
 "What was that about?\n"
 "Did mine lose in size?$"
 msgstr ""
+"怎么回事？\n"
+"难道我的个头比输了？$"
 
 #: data/text/trainers.inc:1969
 msgctxt "Route114_Text_KaiPostBattle"
@@ -3307,6 +4243,8 @@ msgid ""
 "Okay!\n"
 "I'll just fish me a bigger one!$"
 msgstr ""
+"好！\n"
+"我再去钓一条更大的！$"
 
 #: data/text/trainers.inc:1973
 msgctxt "Route114_Text_CharlotteIntro"
@@ -3314,11 +4252,13 @@ msgid ""
 "Me!\n"
 "I'm not just a pretty face!$"
 msgstr ""
+"我！\n"
+"可不只是长得漂亮而已！$"
 
 #: data/text/trainers.inc:1977
 msgctxt "Route114_Text_CharlotteDefeat"
 msgid "That wasn't cute in the least!$"
-msgstr ""
+msgstr "这一点都不可爱！$"
 
 #: data/text/trainers.inc:1980
 msgctxt "Route114_Text_CharlottePostBattle"
@@ -3328,6 +4268,9 @@ msgid ""
 "I adore cute ones that have a quirk\n"
 "or two!$"
 msgstr ""
+"我不想要只是可爱的宝可梦。\p"
+"我最爱的是可爱中\n"
+"又带点小怪癖的宝可梦！$"
 
 #: data/text/trainers.inc:1986
 msgctxt "Route114_Text_AngelinaIntro"
@@ -3335,6 +4278,8 @@ msgid ""
 "Have you made your POKéMON evolve\n"
 "very much?$"
 msgstr ""
+"你让你的宝可梦\n"
+"进化了很多吗？$"
 
 #: data/text/trainers.inc:1990
 msgctxt "Route114_Text_AngelinaDefeat"
@@ -3342,6 +4287,8 @@ msgid ""
 "Oh, I see.\n"
 "That's good to know.$"
 msgstr ""
+"哦，原来如此。\n"
+"这下长知识了。$"
 
 #: data/text/trainers.inc:1994
 msgctxt "Route114_Text_AngelinaPostBattle"
@@ -3349,6 +4296,8 @@ msgid ""
 "Some POKéMON change so much when\n"
 "they evolve, it's startling!$"
 msgstr ""
+"有些宝可梦进化以后\n"
+"变化大得吓人！$"
 
 #: data/text/trainers.inc:1998
 msgctxt "Route115_Text_TimothyIntro"
@@ -3357,6 +4306,9 @@ msgid ""
 "You seem rather capable…\l"
 "Let me keep you company!$"
 msgstr ""
+"嗯……\n"
+"你看起来相当有本事……\l"
+"让我来陪你过过招吧！$"
 
 #: data/text/trainers.inc:2003
 msgctxt "Route115_Text_TimothyDefeat"
@@ -3364,6 +4316,8 @@ msgid ""
 "You're much stronger than\n"
 "I'd imagined!$"
 msgstr ""
+"你比我想象的\n"
+"还要强得多！$"
 
 #: data/text/trainers.inc:2007
 msgctxt "Route115_Text_TimothyPostBattle"
@@ -3372,6 +4326,9 @@ msgid ""
 "It all depends on effort!\l"
 "That is what I believe…$"
 msgstr ""
+"世上没有天生的天才。\n"
+"一切都取决于努力！\l"
+"这是我的信念……$"
 
 #: data/text/trainers.inc:2012
 msgctxt "Route115_Text_TimothyRegister"
@@ -3381,6 +4338,10 @@ msgid ""
 "If you would allow it, I wish for\n"
 "another opportunity to do battle.$"
 msgstr ""
+"嗯……输得这么彻底，\n"
+"已经是很久以前的事了。\p"
+"如果你允许的话，\n"
+"希望能再有和你交手的机会。$"
 
 #: data/text/trainers.inc:2018
 msgctxt "Route115_Text_TimothyRematchIntro"
@@ -3389,11 +4350,14 @@ msgid ""
 "for itself.\l"
 "Come, keep me company!$"
 msgstr ""
+"嗯……你的身手\n"
+"还是一如既往地敏捷。\l"
+"来，陪我过过招吧！$"
 
 #: data/text/trainers.inc:2023
 msgctxt "Route115_Text_TimothyRematchDefeat"
 msgid "As strong as ever!$"
-msgstr ""
+msgstr "还是那么强！$"
 
 #: data/text/trainers.inc:2026
 msgctxt "Route115_Text_TimothyPostRematch"
@@ -3402,6 +4366,9 @@ msgid ""
 "I lost because I haven't put in enough\n"
 "effort!$"
 msgstr ""
+"只要努力就行了！\p"
+"我会输，\n"
+"是因为我努力得还不够！$"
 
 #: data/text/trainers.inc:2031
 msgctxt "Route115_Text_KoichiIntro"
@@ -3410,11 +4377,14 @@ msgid ""
 "My MACHOP!\p"
 "Demand a battle!$"
 msgstr ""
+"你！\p"
+"我的腕力！\p"
+"要求对战！$"
 
 #: data/text/trainers.inc:2036
 msgctxt "Route115_Text_KoichiDefeat"
 msgid "Ouch, ouch, ouch!$"
-msgstr ""
+msgstr "好痛，好痛，好痛！$"
 
 #: data/text/trainers.inc:2039
 msgctxt "Route115_Text_KoichiPostBattle"
@@ -3423,6 +4393,9 @@ msgid ""
 "So long as they seek power, I will\n"
 "grow strong with them!$"
 msgstr ""
+"我的腕力军团！\p"
+"只要它们追求力量，\n"
+"我就会和它们一起变强！$"
 
 #: data/text/trainers.inc:2044
 msgctxt "Route115_Text_NobIntro"
@@ -3430,6 +4403,8 @@ msgid ""
 "My strongest skill is busting bricks\n"
 "with my forehead!$"
 msgstr ""
+"我最拿手的绝活\n"
+"就是用额头劈砖头！$"
 
 #: data/text/trainers.inc:2048
 msgctxt "Route115_Text_NobDefeat"
@@ -3437,6 +4412,8 @@ msgid ""
 "Ugwaaaah!\n"
 "My head is busted!$"
 msgstr ""
+"呜哇啊啊！\n"
+"我的头裂开了！$"
 
 #: data/text/trainers.inc:2052
 msgctxt "Route115_Text_NobPostBattle"
@@ -3445,6 +4422,9 @@ msgid ""
 "It looks like they'll get a lot better\n"
 "than me. I'm excited about that.$"
 msgstr ""
+"我一直在教我的宝可梦空手道。\p"
+"看样子它们会变得比我还厉害。\n"
+"我真期待啊。$"
 
 #: data/text/trainers.inc:2057
 msgctxt "Route115_Text_NobRegister"
@@ -3452,6 +4432,8 @@ msgid ""
 "You impress me! Give me a rematch\n"
 "after I redo my training!$"
 msgstr ""
+"你让我佩服！\n"
+"等我重新修行完，再和我比一场！$"
 
 #: data/text/trainers.inc:2061
 msgctxt "Route115_Text_NobRematchIntro"
@@ -3460,6 +4442,9 @@ msgid ""
 "improve our skills.\l"
 "Come on, give us a rematch!$"
 msgstr ""
+"输给你以后，\n"
+"我们刻苦修行提升了本领。\l"
+"来吧，再和我们比一场！$"
 
 #: data/text/trainers.inc:2066
 msgctxt "Route115_Text_NobRematchDefeat"
@@ -3467,6 +4452,8 @@ msgid ""
 "Ugwaaah!\n"
 "We lost again!$"
 msgstr ""
+"呜哇啊啊！\n"
+"我们又输了！$"
 
 #: data/text/trainers.inc:2070
 msgctxt "Route115_Text_NobPostRematch"
@@ -3474,6 +4461,8 @@ msgid ""
 "My POKéMON will grow stronger!\n"
 "I'll redouble my training!$"
 msgstr ""
+"我的宝可梦会变得更强的！\n"
+"我要加倍努力修行！$"
 
 #: data/text/trainers.inc:2074
 msgctxt "Route115_Text_CyndyIntro"
@@ -3481,11 +4470,13 @@ msgid ""
 "This beach is my secret training spot!\n"
 "Don't come butting in!$"
 msgstr ""
+"这片海滩是我的秘密修行地！\n"
+"别来捣乱！$"
 
 #: data/text/trainers.inc:2078
 msgctxt "Route115_Text_CyndyDefeat"
 msgid "I haven't trained enough!$"
-msgstr ""
+msgstr "我的修行还不够！$"
 
 #: data/text/trainers.inc:2081
 msgctxt "Route115_Text_CyndyPostBattle"
@@ -3494,6 +4485,9 @@ msgid ""
 "impact and prevent injury.\l"
 "This is the perfect place to train.$"
 msgstr ""
+"沙子可以起到缓冲作用，\n"
+"减轻冲击、防止受伤。\l"
+"这里是最适合修行的地方。$"
 
 #: data/text/trainers.inc:2086
 msgctxt "Route115_Text_CyndyRegister"
@@ -3501,16 +4495,18 @@ msgid ""
 "Okay, fine, you're free to come here.\n"
 "In return, I'd like to battle you again.$"
 msgstr ""
+"好吧，你可以随便来这里。\n"
+"作为交换，我想再和你对战。$"
 
 #: data/text/trainers.inc:2090
 msgctxt "Route115_Text_CyndyRematchIntro"
 msgid "Okay, let's get this battle on!$"
-msgstr ""
+msgstr "好，我们开始对战吧！$"
 
 #: data/text/trainers.inc:2093
 msgctxt "Route115_Text_CyndyRematchDefeat"
 msgid "I can battle but my POKéMON…$"
-msgstr ""
+msgstr "我是能打，可我的宝可梦……$"
 
 #: data/text/trainers.inc:2096
 msgctxt "Route115_Text_CyndyPostRematch"
@@ -3519,6 +4515,9 @@ msgid ""
 "enjoyment out of it.\l"
 "It must be that I love POKéMON.$"
 msgstr ""
+"就算输了，\n"
+"我也能从中得到乐趣。\l"
+"一定是因为我爱宝可梦吧。$"
 
 #: data/text/trainers.inc:2101
 msgctxt "Route115_Text_HectorIntro"
@@ -3526,6 +4525,8 @@ msgid ""
 "I have a rare POKéMON!\n"
 "Would you like me to show you?$"
 msgstr ""
+"我有一只稀有的宝可梦！\n"
+"要我给你看看吗？$"
 
 #: data/text/trainers.inc:2105
 msgctxt "Route115_Text_HectorDefeat"
@@ -3533,6 +4534,8 @@ msgid ""
 "You…\n"
 "You want my POKéMON, don't you?$"
 msgstr ""
+"你……\n"
+"你是想要我的宝可梦吧？$"
 
 #: data/text/trainers.inc:2109
 msgctxt "Route115_Text_HectorPostBattle"
@@ -3540,6 +4543,8 @@ msgid ""
 "I have this rare POKéMON.\n"
 "It's enough to keep me satisfied.$"
 msgstr ""
+"我有这只稀有的宝可梦，\n"
+"就已经心满意足了。$"
 
 #: data/text/trainers.inc:2113
 msgctxt "Route115_Text_KyraIntro"
@@ -3547,11 +4552,13 @@ msgid ""
 "I'll battle while I'm running!\n"
 "Try to keep up with me!$"
 msgstr ""
+"我要边跑边对战！\n"
+"你可要跟上我哦！$"
 
 #: data/text/trainers.inc:2117
 msgctxt "Route115_Text_KyraDefeat"
 msgid "Gasp, gasp…$"
-msgstr ""
+msgstr "呼，呼……$"
 
 #: data/text/trainers.inc:2120
 msgctxt "Route115_Text_KyraPostBattle"
@@ -3560,6 +4567,8 @@ msgid ""
 "while running!\p"
 "I should take a run to calm down…$"
 msgstr ""
+"边跑边对战真是个错误！\p"
+"我得去跑一跑冷静一下……$"
 
 #: data/text/trainers.inc:2125
 msgctxt "Route115_Text_JaidenIntro"
@@ -3567,6 +4576,8 @@ msgid ""
 "Take that!\n"
 "Ultra POKéMON ninja attack!$"
 msgstr ""
+"看招！\n"
+"宝可梦究极忍者攻击！$"
 
 #: data/text/trainers.inc:2129
 msgctxt "Route115_Text_JaidenDefeat"
@@ -3574,6 +4585,8 @@ msgid ""
 "Waaah!\n"
 "Our strategy failed!$"
 msgstr ""
+"哇啊！\n"
+"我们的战术失败了！$"
 
 #: data/text/trainers.inc:2133
 msgctxt "Route115_Text_JaidenPostBattle"
@@ -3581,6 +4594,8 @@ msgid ""
 "But my POKéMON were ultra,\n"
 "weren't they?$"
 msgstr ""
+"不过我的宝可梦\n"
+"还是很究极的，对吧？$"
 
 #: data/text/trainers.inc:2137
 msgctxt "Route115_Text_HeleneIntro"
@@ -3588,11 +4603,13 @@ msgid ""
 "My POKéMON have black belt-level\n"
 "strength!$"
 msgstr ""
+"我的宝可梦\n"
+"有黑带级别的实力！$"
 
 #: data/text/trainers.inc:2141
 msgctxt "Route115_Text_HeleneDefeat"
 msgid "This is too humiliating!$"
-msgstr ""
+msgstr "这也太丢人了！$"
 
 #: data/text/trainers.inc:2144
 msgctxt "Route115_Text_HelenePostBattle"
@@ -3602,6 +4619,9 @@ msgid ""
 "I get it now!\n"
 "You're a GYM LEADER, aren't you?$"
 msgstr ""
+"我很少遇到比我强的人……\p"
+"我明白了！\n"
+"你是道馆馆主吧？$"
 
 #: data/text/trainers.inc:2150
 msgctxt "Route115_Text_AlixIntro"
@@ -3609,6 +4629,8 @@ msgid ""
 "Our eyes met!\n"
 "There's no getting away now!$"
 msgstr ""
+"我们对上眼了！\n"
+"现在你可跑不掉了！$"
 
 #: data/text/trainers.inc:2154
 msgctxt "Route115_Text_AlixDefeat"
@@ -3616,6 +4638,8 @@ msgid ""
 "Gah!\n"
 "Not bad!$"
 msgstr ""
+"呃！\n"
+"还不赖嘛！$"
 
 #: data/text/trainers.inc:2158
 msgctxt "Route115_Text_AlixPostBattle"
@@ -3623,6 +4647,8 @@ msgid ""
 "Oh, well.\n"
 "I think I will TELEPORT home.$"
 msgstr ""
+"唉，算了。\n"
+"我还是用瞬间移动回家吧。$"
 
 #: data/text/trainers.inc:2162
 msgctxt "Route115_Text_MarleneIntro"
@@ -3630,11 +4656,13 @@ msgid ""
 "You've disturbed my meditation…\n"
 "You'll be punished for it.$"
 msgstr ""
+"你打扰了我的冥想……\n"
+"你会为此受到惩罚。$"
 
 #: data/text/trainers.inc:2166
 msgctxt "Route115_Text_MarleneDefeat"
 msgid "You've broken my concentration!$"
-msgstr ""
+msgstr "你打断了我的专注！$"
 
 #: data/text/trainers.inc:2169
 msgctxt "Route115_Text_MarlenePostBattle"
@@ -3642,6 +4670,8 @@ msgid ""
 "I was meditating with my POKéMON.\n"
 "But this place isn't very peaceful…$"
 msgstr ""
+"我刚才在和宝可梦一起冥想。\n"
+"可是这里不太安静……$"
 
 #: data/text/trainers.inc:2173
 msgctxt "Route116_Text_ClarkIntro"
@@ -3649,6 +4679,8 @@ msgid ""
 "If the tunnel doesn't go through, then\n"
 "I'll just go over the top.$"
 msgstr ""
+"隧道要是不通的话，\n"
+"我就直接翻过山顶去。$"
 
 #: data/text/trainers.inc:2177
 msgctxt "Route116_Text_ClarkDefeat"
