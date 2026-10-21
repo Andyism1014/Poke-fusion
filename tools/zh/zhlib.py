@@ -689,6 +689,55 @@ def latin_widths():
     return table
 
 
+_FONT_WIDTHS = {}
+CJK_WIDTH_BY_FONT = {"Normal": 12, "Small": 12, "Short": 12, "Narrow": 11, "SmallNarrow": 11,
+                     "ShortNarrow": 11, "Narrower": 10, "SmallNarrower": 10, "ShortNarrower": 10}
+
+
+def font_widths(font):
+    """Latin glyph widths of gFont<font>LatinGlyphWidths, keyed by unicode char."""
+    if font in _FONT_WIDTHS:
+        return _FONT_WIDTHS[font]
+    with open(os.path.join(ROOT, "src", "fonts.c"), encoding="utf-8") as f:
+        src = f.read()
+    m = re.search(r"gFont%sLatinGlyphWidths\[\]\s*=\s*\{([^}]*)\}" % font, src)
+    widths = [int(x) for x in re.findall(r"\d+", m.group(1))]
+    table = {}
+    with open(os.path.join(ROOT, "charmap.txt"), encoding="utf-8") as f:
+        for line in f:
+            if line.startswith("@ Hiragana"):
+                break
+            cm = re.match(r"^'(\\?.)'\s*=\s*([0-9A-Fa-f]{2})\s*(@.*)?$", line.strip())
+            if cm:
+                ch = cm.group(1)[-1]
+                code = int(cm.group(2), 16)
+                if ch not in table and code < len(widths):
+                    table[ch] = widths[code]
+    _FONT_WIDTHS[font] = table
+    return table
+
+
+def text_width(raw, font="Normal"):
+    """Width in pixels of a one-line raw string in one of the fonts (placeholders count as 0)."""
+    lw = font_widths(font)
+    cjk = CJK_WIDTH_BY_FONT[font]
+    w = 0
+    i = 0
+    while i < len(raw):
+        c = raw[i]
+        if c == "{":
+            j = raw.find("}", i)
+            i = len(raw) if j < 0 else j + 1
+            continue
+        if c == "\\":
+            i += 2
+            continue
+        if c != "$":
+            w += cjk if (is_wide_char(c) or ord(c) > 0x2E7F) else lw.get(c, 6)
+        i += 1
+    return w
+
+
 PLACEHOLDER_WIDTHS = {
     "PLAYER": 42, "RIVAL": 42, "STR_VAR_1": 60, "STR_VAR_2": 60, "STR_VAR_3": 60,
     "KUN": 0, "VERSION": 36, "AQUA": 48, "MAGMA": 48, "ARCHIE": 36, "MAXIE": 36,
