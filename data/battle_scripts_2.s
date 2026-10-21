@@ -186,6 +186,9 @@ BattleScript_SuccessBallThrow::
 	setbyte sMON_CAUGHT, TRUE
 	incrementgamestat GAME_STAT_POKEMON_CAPTURES
 	printstring STRINGID_GOTCHAPKMNCAUGHTPLAYER
+	callnative BS_FusionCaughtAppraisal
+	printstring STRINGID_FUSION_MESSAGE
+	waitmessage B_WAIT_TIME_LONG
 	jumpifbyte CMP_NOT_EQUAL, sEXP_CATCH, TRUE, BattleScript_TryPrintCaughtMonInfo
 	setbyte sGIVEEXP_STATE, 0
 	getexp BS_TARGET

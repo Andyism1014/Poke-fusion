@@ -72,3 +72,63 @@ TEST("Fusion new game init: gives Box Link, DexNav and the default capture mode"
     EXPECT(FlagGet(DN_FLAG_DEXNAV_GET) == FUSION_NEW_GAME_GIVE_DEXNAV);
     EXPECT_EQ(Fusion_GetCaptureMode(), FUSION_CAPTURE_MODE_NEW_GAME);
 }
+
+TEST("Fusion wild genetics: some wild Pokemon carry valid passives or a third type")
+{
+    struct Pokemon mon;
+    u32 withPassive = 0, withType = 0;
+
+    for (u32 i = 0; i < 1000; i++)
+    {
+        struct FusionGenetics g;
+
+        CreateMon(&mon, SPECIES_ZIGZAGOON, 5, 0, OTID_STRUCT_PLAYER_ID);
+        Fusion_RollWildGenetics(&mon);
+        Fusion_GetMonGenetics(&mon, &g);
+        if (g.passives[0] != ABILITY_NONE)
+        {
+            withPassive++;
+            EXPECT(Fusion_CanBePassive(g.passives[0]));
+            EXPECT_NE(g.passives[0], GetMonAbility(&mon));
+            EXPECT_NE(g.passives[0], g.passives[1]);
+        }
+        if (g.extraType != TYPE_NONE)
+        {
+            withType++;
+            EXPECT_NE(g.extraType, TYPE_NORMAL); // Zigzagoon is Normal.
+            EXPECT_NE(g.extraType, TYPE_MYSTERY);
+        }
+    }
+    EXPECT_GT(withPassive, 1000 * FUSION_WILD_PASSIVE_CHANCE / 200);
+    EXPECT_LT(withPassive, 1000 * FUSION_WILD_PASSIVE_CHANCE * 2 / 100);
+    EXPECT_LT(withType, 1000 * FUSION_WILD_THIRD_TYPE_CHANCE * 3 / 100);
+}
+
+TEST("Fusion wild genetics: legendaries never get any")
+{
+    struct Pokemon mon;
+
+    for (u32 i = 0; i < 200; i++)
+    {
+        struct FusionGenetics g;
+
+        CreateMon(&mon, SPECIES_MEWTWO, 70, 0, OTID_STRUCT_PLAYER_ID);
+        Fusion_RollWildGenetics(&mon);
+        Fusion_GetMonGenetics(&mon, &g);
+        EXPECT_EQ(g.passives[0], ABILITY_NONE);
+        EXPECT_EQ(g.extraType, TYPE_NONE);
+    }
+}
+
+WILD_BATTLE_TEST("Fusion capture: a one-line appraisal follows Gotcha!")
+{
+    GIVEN {
+        Fusion_SetCaptureMode(FUSION_CAPTURE_MODE_MATERIAL);
+        PLAYER(SPECIES_WOBBUFFET);
+        OPPONENT(SPECIES_ZIGZAGOON) { HPIV(31); AttackIV(31); DefenseIV(31); SpAttackIV(31); SpDefenseIV(31); SpeedIV(31); Passives(ABILITY_LEVITATE); }
+    } WHEN {
+        TURN { USE_ITEM(player, ITEM_POKE_BALL); }
+    } SCENE {
+        MESSAGE("IVs 186/186\nPassive: Levitate");
+    }
+}

@@ -2,6 +2,7 @@
 #include "battle_main.h"
 #include "event_data.h"
 #include "list_menu.h"
+#include "main.h"
 #include "malloc.h"
 #include "map_name_popup.h"
 #include "menu.h"
@@ -17,14 +18,23 @@
 #include "fusion/fusion.h"
 #include "constants/songs.h"
 
-// Material selector: a two level list (source, then Pokémon) covering the
-// party and every PC box, so parents never have to be moved into the party.
+// Fusion Terminal UI: the material selector (party + every PC box) and the
+// info card used for appraisals, fusion previews and fusion results.
 
-#define SELECTOR_ROWS       7
+#define SELECTOR_ROWS       5
 #define SELECTOR_NAME_LEN   24
 #define SELECTOR_SOURCES    (1 + TOTAL_BOXES_COUNT) // Party + boxes.
 #define SELECTOR_MAX_ITEMS  max(SELECTOR_SOURCES, IN_BOX_COUNT)
 #define SOURCE_PARTY        0
+
+#define WINDOW_WIDTH        28
+#define LIST_HEIGHT         (2 * SELECTOR_ROWS)
+#define INFO_HEIGHT         6
+#define CARD_HEIGHT         12
+
+#define CARD_LINE_X         4
+#define CARD_HEADER_HEIGHT  18
+#define CARD_LINE_HEIGHT    12
 
 enum
 {
@@ -35,43 +45,74 @@ enum
 struct FusionSelector
 {
     FusionSelectorCallback callback;
+    const u8 *title;
     struct FusionMonRef exclude;
     u8 level;
+    u8 source;
+    bool8 sortByIvs;
     u8 windowId;
-    u8 titleWindowId;
+    u8 infoWindowId;
     u8 listTaskId;
-    u16 sourceScroll;
-    u16 sourceCursor;
     struct ListMenuItem items[SELECTOR_MAX_ITEMS];
     u8 names[SELECTOR_MAX_ITEMS][SELECTOR_NAME_LEN];
     struct FusionMonRef refs[IN_BOX_COUNT];
 };
 
 static EWRAM_DATA struct FusionSelector *sSelector = NULL;
+static EWRAM_DATA u8 sCardWindowId = 0;
+static EWRAM_DATA bool8 sCardOpen = FALSE; // EWRAM starts zeroed, so this can't be a WINDOW_NONE sentinel.
+// Remembered between selector openings so the player returns to the same box.
+static EWRAM_DATA u16 sLastSourceScroll = 0;
+static EWRAM_DATA u16 sLastSourceCursor = 0;
 
 static void Task_FusionSelector(u8 taskId);
 static void PrintMonRowDetails(u8 windowId, u32 id, u8 y);
+static void MoveCursor_Mons(s32 id, bool8 onInit, struct ListMenu *list);
 
 static const struct WindowTemplate sSelectorWindowTemplate =
 {
     .bg = 0,
     .tilemapLeft = 1,
     .tilemapTop = 1,
-    .width = 28,
-    .height = 2 * SELECTOR_ROWS,
+    .width = WINDOW_WIDTH,
+    .height = LIST_HEIGHT,
     .paletteNum = 15,
     .baseBlock = 1,
 };
 
-static const struct WindowTemplate sSelectorTitleWindowTemplate =
+static const struct WindowTemplate sSelectorInfoWindowTemplate =
 {
     .bg = 0,
     .tilemapLeft = 1,
-    .tilemapTop = 17,
-    .width = 28,
-    .height = 2,
+    .tilemapTop = 1 + LIST_HEIGHT + 2,
+    .width = WINDOW_WIDTH,
+    .height = INFO_HEIGHT,
     .paletteNum = 15,
-    .baseBlock = 1 + 28 * 2 * SELECTOR_ROWS,
+    .baseBlock = 1 + WINDOW_WIDTH * LIST_HEIGHT,
+};
+
+static const struct WindowTemplate sCardWindowTemplate =
+{
+    .bg = 0,
+    .tilemapLeft = 1,
+    .tilemapTop = 1,
+    .width = WINDOW_WIDTH,
+    .height = CARD_HEIGHT,
+    .paletteNum = 15,
+    .baseBlock = 1,
+};
+
+// YES/NO at the right end of the message box, so it never covers the card.
+// Its tiles start after the card's.
+static const struct WindowTemplate sCardYesNoWindowTemplate =
+{
+    .bg = 0,
+    .tilemapLeft = 24,
+    .tilemapTop = 15,
+    .width = 5,
+    .height = 4,
+    .paletteNum = 15,
+    .baseBlock = 1 + WINDOW_WIDTH * CARD_HEIGHT,
 };
 
 static const u8 sText_Party[] = _("Party");
@@ -79,6 +120,16 @@ static const u8 sText_Lv[] = _("Lv");
 static const u8 sText_IV[] = _("IV");
 static const u8 sText_P[] = _("P");
 static const u8 sText_ThirdType[] = _("+T");
+static const u8 sText_Dash[] = _("-");
+static const u8 sText_Slash[] = _(" / ");
+static const u8 sText_Separator[] = _(", ");
+static const u8 sText_Or[] = _(" or ");
+static const u8 sText_Ability[] = _("Ability: ");
+static const u8 sText_Passive[] = _("Passive: ");
+static const u8 sText_Passives[] = _("Passives: ");
+static const u8 sText_None[] = _("none");
+static const u8 sText_SourcesHint[] = _("{A_BUTTON} Open  {B_BUTTON} Back");
+static const u8 sText_MonsHint[] = _("{A_BUTTON} Pick  {L_BUTTON}{R_BUTTON} Box  {SELECT_BUTTON} Sort");
 
 u32 Fusion_GetBoxMonIvTotal(struct BoxPokemon *boxMon)
 {
@@ -88,6 +139,39 @@ u32 Fusion_GetBoxMonIvTotal(struct BoxPokemon *boxMon)
         total += GetBoxMonData(boxMon, MON_DATA_HP_IV + stat);
     return total;
 }
+
+static u8 *AppendTypes(u8 *dst, enum Species species, enum Type extraType)
+{
+    enum Type type1 = gSpeciesInfo[species].types[0], type2 = gSpeciesInfo[species].types[1];
+
+    dst = StringCopy(dst, gTypesInfo[type1].name);
+    if (type2 != type1)
+        dst = StringCopy(StringCopy(dst, sText_Slash), gTypesInfo[type2].name);
+    if (extraType != TYPE_NONE && extraType != type1 && extraType != type2)
+        dst = StringCopy(StringCopy(dst, sText_Slash), gTypesInfo[extraType].name);
+    return dst;
+}
+
+static u8 *AppendPassiveList(u8 *dst, const struct FusionGenetics *genetics)
+{
+    u32 count = 0;
+
+    for (u32 i = 0; i < FUSION_MAX_PASSIVES; i++)
+    {
+        if (genetics->passives[i] == ABILITY_NONE)
+            continue;
+        if (count++ > 0)
+            dst = StringCopy(dst, sText_Separator);
+        dst = StringCopy(dst, gAbilitiesInfo[genetics->passives[i]].name);
+    }
+    if (count == 0)
+        dst = StringCopy(dst, sText_None);
+    return dst;
+}
+
+//
+// Material selector
+//
 
 static bool32 IsSelectable(const struct FusionMonRef *ref)
 {
@@ -146,6 +230,35 @@ static u32 BuildSourceItems(void)
     return numItems;
 }
 
+static u32 GetRefIvTotal(const struct FusionMonRef *ref)
+{
+    return Fusion_GetBoxMonIvTotal(Fusion_GetBoxMonFromRef(ref));
+}
+
+static void SortRefsByIvs(u32 count)
+{
+    u16 ivs[IN_BOX_COUNT];
+
+    for (u32 i = 0; i < count; i++)
+        ivs[i] = GetRefIvTotal(&sSelector->refs[i]);
+    // Insertion sort, highest IV total first.
+    for (u32 i = 1; i < count; i++)
+    {
+        struct FusionMonRef ref = sSelector->refs[i];
+        u16 iv = ivs[i];
+        s32 j = i - 1;
+
+        while (j >= 0 && ivs[j] < iv)
+        {
+            sSelector->refs[j + 1] = sSelector->refs[j];
+            ivs[j + 1] = ivs[j];
+            j--;
+        }
+        sSelector->refs[j + 1] = ref;
+        ivs[j + 1] = iv;
+    }
+}
+
 static u32 BuildMonItems(u32 source)
 {
     u32 slot, numItems = 0;
@@ -153,20 +266,36 @@ static u32 BuildMonItems(u32 source)
     for (slot = 0; slot < GetSourceSize(source); slot++)
     {
         struct FusionMonRef ref = GetSourceRef(source, slot);
-        enum Species species;
 
-        if (!IsSelectable(&ref))
-            continue;
+        if (IsSelectable(&ref))
+            sSelector->refs[numItems++] = ref;
+    }
+    if (sSelector->sortByIvs)
+        SortRefsByIvs(numItems);
 
-        species = GetBoxMonData(Fusion_GetBoxMonFromRef(&ref), MON_DATA_SPECIES);
-        StringCopyN(sSelector->names[numItems], GetSpeciesName(species), SELECTOR_NAME_LEN - 1);
-        sSelector->names[numItems][SELECTOR_NAME_LEN - 1] = EOS;
-        sSelector->refs[numItems] = ref;
-        sSelector->items[numItems].name = sSelector->names[numItems];
-        sSelector->items[numItems].id = numItems;
-        numItems++;
+    for (u32 i = 0; i < numItems; i++)
+    {
+        enum Species species = GetBoxMonData(Fusion_GetBoxMonFromRef(&sSelector->refs[i]), MON_DATA_SPECIES);
+
+        StringCopyN(sSelector->names[i], GetSpeciesName(species), SELECTOR_NAME_LEN - 1);
+        sSelector->names[i][SELECTOR_NAME_LEN - 1] = EOS;
+        sSelector->items[i].name = sSelector->names[i];
+        sSelector->items[i].id = i;
     }
     return numItems;
+}
+
+static void PrintInfo(const u8 *line2, const u8 *line3)
+{
+    u32 windowId = sSelector->infoWindowId;
+
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    AddTextPrinterParameterized(windowId, FONT_NORMAL, sSelector->title, 0, 1, TEXT_SKIP_DRAW, NULL);
+    if (line2 != NULL)
+        AddTextPrinterParameterized(windowId, FONT_SMALL, line2, 0, 18, TEXT_SKIP_DRAW, NULL);
+    if (line3 != NULL)
+        AddTextPrinterParameterized(windowId, FONT_SMALL, line3, 0, 32, TEXT_SKIP_DRAW, NULL);
+    CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
 static void ShowList(u32 numItems, u16 scroll, u16 cursor)
@@ -174,7 +303,7 @@ static void ShowList(u32 numItems, u16 scroll, u16 cursor)
     struct ListMenuTemplate template = {0};
 
     template.items = sSelector->items;
-    template.moveCursorFunc = ListMenuDefaultCursorMoveFunc;
+    template.moveCursorFunc = sSelector->level == LEVEL_MONS ? MoveCursor_Mons : ListMenuDefaultCursorMoveFunc;
     template.itemPrintFunc = sSelector->level == LEVEL_MONS ? PrintMonRowDetails : NULL;
     template.totalItems = numItems;
     template.maxShowed = min(numItems, SELECTOR_ROWS);
@@ -226,21 +355,45 @@ static void PrintMonRowDetails(u8 windowId, u32 id, u8 y)
         AddTextPrinterParameterized(windowId, FONT_NORMAL, sText_ThirdType, 200, y, TEXT_SKIP_DRAW, NULL);
 }
 
-static void OpenLevel(u32 level, u32 source)
+// Live details of the highlighted Pokémon: ability, types and passives.
+static void MoveCursor_Mons(s32 id, bool8 onInit, struct ListMenu *list)
+{
+    struct Pokemon mon;
+    struct FusionGenetics genetics;
+    u8 *text;
+
+    if (!onInit)
+        PlaySE(SE_SELECT);
+    if (id < 0 || id >= IN_BOX_COUNT || !Fusion_ReadMonFromRef(&sSelector->refs[id], &mon))
+        return;
+
+    Fusion_GetMonGenetics(&mon, &genetics);
+    text = StringCopy(gStringVar1, sText_Ability);
+    text = StringCopy(text, gAbilitiesInfo[GetMonAbility(&mon)].name);
+    text = StringCopy(text, sText_Slash);
+    AppendTypes(text, GetMonData(&mon, MON_DATA_SPECIES), genetics.extraType);
+    AppendPassiveList(StringCopy(gStringVar2, sText_Passives), &genetics);
+    PrintInfo(gStringVar1, gStringVar2);
+}
+
+static void OpenLevel(u32 level, u32 source, u16 scroll, u16 cursor)
 {
     u32 numItems;
 
     sSelector->level = level;
+    sSelector->source = source;
     if (level == LEVEL_SOURCES)
     {
         numItems = BuildSourceItems();
-        ShowList(numItems, sSelector->sourceScroll, sSelector->sourceCursor);
+        PrintInfo(sText_SourcesHint, NULL);
     }
     else
     {
         numItems = BuildMonItems(source);
-        ShowList(numItems, 0, 0);
     }
+    ShowList(numItems, scroll, cursor);
+    if (level == LEVEL_MONS)
+        CopyWindowToVram(sSelector->infoWindowId, COPYWIN_FULL);
 }
 
 static void CloseSelector(u8 taskId, bool32 selected, const struct FusionMonRef *ref)
@@ -254,34 +407,12 @@ static void CloseSelector(u8 taskId, bool32 selected, const struct FusionMonRef 
     DestroyListMenuTask(sSelector->listTaskId, NULL, NULL);
     ClearStdWindowAndFrame(sSelector->windowId, TRUE);
     RemoveWindow(sSelector->windowId);
-    ClearStdWindowAndFrame(sSelector->titleWindowId, TRUE);
-    RemoveWindow(sSelector->titleWindowId);
+    ClearStdWindowAndFrame(sSelector->infoWindowId, TRUE);
+    RemoveWindow(sSelector->infoWindowId);
     FREE_AND_SET_NULL(sSelector);
     DestroyTask(taskId);
 
     callback(selected, &result);
-}
-
-// Callers must check Fusion_CountMaterials first: an empty list can't be shown.
-void Fusion_OpenMaterialSelector(const u8 *title, const struct FusionMonRef *exclude, FusionSelectorCallback callback)
-{
-    sSelector = AllocZeroed(sizeof(*sSelector));
-    sSelector->callback = callback;
-    if (exclude != NULL)
-        sSelector->exclude = *exclude;
-
-    HideMapNamePopUpWindow();
-    LoadMessageBoxAndBorderGfx();
-    sSelector->windowId = AddWindow(&sSelectorWindowTemplate);
-    DrawStdWindowFrame(sSelector->windowId, FALSE);
-    sSelector->titleWindowId = AddWindow(&sSelectorTitleWindowTemplate);
-    DrawStdWindowFrame(sSelector->titleWindowId, FALSE);
-    FillWindowPixelBuffer(sSelector->titleWindowId, PIXEL_FILL(1));
-    AddTextPrinterParameterized(sSelector->titleWindowId, FONT_NORMAL, title, 0, 1, TEXT_SKIP_DRAW, NULL);
-    CopyWindowToVram(sSelector->titleWindowId, COPYWIN_FULL);
-
-    OpenLevel(LEVEL_SOURCES, 0);
-    CreateTask(Task_FusionSelector, 3);
 }
 
 u32 Fusion_CountMaterials(const struct FusionMonRef *exclude)
@@ -297,10 +428,73 @@ u32 Fusion_CountMaterials(const struct FusionMonRef *exclude)
     return count;
 }
 
+// Callers must check Fusion_CountMaterials first: an empty list can't be shown.
+void Fusion_OpenMaterialSelector(const u8 *title, const struct FusionMonRef *exclude, FusionSelectorCallback callback)
+{
+    sSelector = AllocZeroed(sizeof(*sSelector));
+    sSelector->callback = callback;
+    sSelector->title = title;
+    if (exclude != NULL)
+        sSelector->exclude = *exclude;
+
+    HideMapNamePopUpWindow();
+    LoadMessageBoxAndBorderGfx();
+    sSelector->windowId = AddWindow(&sSelectorWindowTemplate);
+    DrawStdWindowFrame(sSelector->windowId, FALSE);
+    sSelector->infoWindowId = AddWindow(&sSelectorInfoWindowTemplate);
+    DrawStdWindowFrame(sSelector->infoWindowId, FALSE);
+
+    // The remembered cursor may point past the end if a box was emptied.
+    if (sLastSourceScroll + sLastSourceCursor >= BuildSourceItems())
+        sLastSourceScroll = sLastSourceCursor = 0;
+    OpenLevel(LEVEL_SOURCES, 0, sLastSourceScroll, sLastSourceCursor);
+    CopyWindowToVram(sSelector->infoWindowId, COPYWIN_FULL);
+    CreateTask(Task_FusionSelector, 3);
+}
+
+// L/R: the previous / next source that has selectable Pokémon.
+static bool32 TrySwitchSource(s32 direction)
+{
+    s32 source = sSelector->source;
+
+    for (u32 i = 0; i < SELECTOR_SOURCES; i++)
+    {
+        source = (source + direction + SELECTOR_SOURCES) % SELECTOR_SOURCES;
+        if (CountSelectableInSource(source) > 0)
+        {
+            if (source == sSelector->source)
+                return FALSE;
+            DestroyListMenuTask(sSelector->listTaskId, NULL, NULL);
+            OpenLevel(LEVEL_MONS, source, 0, 0);
+            return TRUE;
+        }
+    }
+    return FALSE;
+}
+
 static void Task_FusionSelector(u8 taskId)
 {
-    s32 input = ListMenu_ProcessInput(sSelector->listTaskId);
+    s32 input;
 
+    if (sSelector->level == LEVEL_MONS)
+    {
+        if (JOY_NEW(L_BUTTON) || JOY_NEW(R_BUTTON))
+        {
+            if (TrySwitchSource(JOY_NEW(R_BUTTON) ? 1 : -1))
+                PlaySE(SE_SELECT);
+            return;
+        }
+        if (JOY_NEW(SELECT_BUTTON))
+        {
+            PlaySE(SE_SELECT);
+            sSelector->sortByIvs ^= TRUE;
+            DestroyListMenuTask(sSelector->listTaskId, NULL, NULL);
+            OpenLevel(LEVEL_MONS, sSelector->source, 0, 0);
+            return;
+        }
+    }
+
+    input = ListMenu_ProcessInput(sSelector->listTaskId);
     if (input == LIST_NOTHING_CHOSEN)
         return;
 
@@ -309,26 +503,166 @@ static void Task_FusionSelector(u8 taskId)
     {
         if (input == LIST_CANCEL)
         {
+            ListMenuGetScrollAndRow(sSelector->listTaskId, &sLastSourceScroll, &sLastSourceCursor);
             CloseSelector(taskId, FALSE, NULL);
             return;
         }
-        DestroyListMenuTask(sSelector->listTaskId, &sSelector->sourceScroll, &sSelector->sourceCursor);
-        OpenLevel(LEVEL_MONS, input);
+        DestroyListMenuTask(sSelector->listTaskId, &sLastSourceScroll, &sLastSourceCursor);
+        OpenLevel(LEVEL_MONS, input, 0, 0);
     }
     else
     {
         if (input == LIST_CANCEL)
         {
             DestroyListMenuTask(sSelector->listTaskId, NULL, NULL);
-            OpenLevel(LEVEL_SOURCES, 0);
+            OpenLevel(LEVEL_SOURCES, 0, sLastSourceScroll, sLastSourceCursor);
+            CopyWindowToVram(sSelector->infoWindowId, COPYWIN_FULL);
             return;
         }
         CloseSelector(taskId, TRUE, &sSelector->refs[input]);
     }
 }
 
+//
+// Info card
+//
+
+static void OpenCard(void)
+{
+    if (sCardOpen)
+        Fusion_ScriptHideCard();
+    LoadMessageBoxAndBorderGfx();
+    sCardOpen = TRUE;
+    sCardWindowId = AddWindow(&sCardWindowTemplate);
+    DrawStdWindowFrame(sCardWindowId, FALSE);
+    FillWindowPixelBuffer(sCardWindowId, PIXEL_FILL(1));
+}
+
+static void PrintCardHeader(const u8 *left, const u8 *right)
+{
+    AddTextPrinterParameterized(sCardWindowId, FONT_NORMAL, left, CARD_LINE_X, 1, TEXT_SKIP_DRAW, NULL);
+    if (right != NULL)
+    {
+        u32 x = WINDOW_WIDTH * 8 - CARD_LINE_X - GetStringWidth(FONT_SMALL, right, 0);
+        AddTextPrinterParameterized(sCardWindowId, FONT_SMALL, right, x, 4, TEXT_SKIP_DRAW, NULL);
+    }
+}
+
+static void PrintCardLine(u32 line, const u8 *text)
+{
+    u32 y = CARD_HEADER_HEIGHT + line * CARD_LINE_HEIGHT;
+    AddTextPrinterParameterized(sCardWindowId, FONT_SMALL, text, CARD_LINE_X, y, TEXT_SKIP_DRAW, NULL);
+}
+
+static void ShowCard(void)
+{
+    CopyWindowToVram(sCardWindowId, COPYWIN_FULL);
+}
+
+static void Task_CardYesNo(u8 taskId)
+{
+    s8 input = Menu_ProcessInputNoWrapClearOnChoose();
+
+    if (input == MENU_NOTHING_CHOSEN)
+        return;
+    gSpecialVar_Result = (input == 0); // YES = 1, NO = 0 in scripts
+    DestroyTask(taskId);
+    ScriptContext_Enable();
+}
+
+// Use with waitstate. VAR_RESULT is YES or NO (B counts as NO).
+void Fusion_ScriptCardYesNo(void)
+{
+    CreateYesNoMenu(&sCardYesNoWindowTemplate, STD_WINDOW_BASE_TILE_NUM, STD_WINDOW_PALETTE_NUM, 0);
+    CreateTask(Task_CardYesNo, 80);
+}
+
+void Fusion_ScriptHideCard(void)
+{
+    if (!sCardOpen)
+        return;
+    ClearStdWindowAndFrame(sCardWindowId, TRUE);
+    RemoveWindow(sCardWindowId);
+    sCardOpen = FALSE;
+}
+
+static const u8 sText_CardHeader[] = _("{STR_VAR_1}  Lv{STR_VAR_2}");
+static const u8 sText_CardGeneration[] = _("Fusion gen {STR_VAR_1}");
+static const u8 sText_CardNatureIvs[] = _("{STR_VAR_1} nature    IVs {STR_VAR_2}/186");
+static const u8 sText_CardIvs[] = _("HP {STR_VAR_1}");
+static const u8 sText_Atk[] = _("  Atk ");
+static const u8 sText_Def[] = _("  Def ");
+static const u8 sText_SpA[] = _("  SpA ");
+static const u8 sText_SpD[] = _("  SpD ");
+static const u8 sText_Spe[] = _("  Spe ");
+static const u8 sText_Types[] = _("Types: ");
+
+static void DrawAppraisalCard(struct Pokemon *mon)
+{
+    static const u8 *const sStatLabels[] = {NULL, sText_Atk, sText_Def, sText_Spe, sText_SpA, sText_SpD};
+    static const u8 sStatOrder[] = {STAT_HP, STAT_ATK, STAT_DEF, STAT_SPATK, STAT_SPDEF, STAT_SPEED};
+    struct FusionGenetics genetics;
+    u32 line = 0;
+    u8 *text;
+
+    Fusion_GetMonGenetics(mon, &genetics);
+    OpenCard();
+
+    StringCopy(gStringVar1, GetSpeciesName(GetMonData(mon, MON_DATA_SPECIES)));
+    ConvertIntToDecimalStringN(gStringVar2, GetMonData(mon, MON_DATA_LEVEL), STR_CONV_MODE_LEFT_ALIGN, 3);
+    StringExpandPlaceholders(gStringVar4, sText_CardHeader);
+    ConvertIntToDecimalStringN(gStringVar1, genetics.generation, STR_CONV_MODE_LEFT_ALIGN, 2);
+    StringExpandPlaceholders(gStringVar3, sText_CardGeneration);
+    PrintCardHeader(gStringVar4, genetics.generation > 0 ? gStringVar3 : NULL);
+
+    StringCopy(gStringVar1, gNaturesInfo[GetMonData(mon, MON_DATA_HIDDEN_NATURE)].name);
+    ConvertIntToDecimalStringN(gStringVar2, Fusion_GetBoxMonIvTotal(&mon->box), STR_CONV_MODE_LEFT_ALIGN, 3);
+    StringExpandPlaceholders(gStringVar4, sText_CardNatureIvs);
+    PrintCardLine(line++, gStringVar4);
+
+    // HP Atk Def SpA SpD Spe, the order players know from the summary screen.
+    text = gStringVar4;
+    for (u32 i = 0; i < NUM_STATS; i++)
+    {
+        u32 stat = sStatOrder[i];
+        if (stat == STAT_HP)
+        {
+            ConvertIntToDecimalStringN(gStringVar1, GetMonData(mon, MON_DATA_HP_IV), STR_CONV_MODE_LEFT_ALIGN, 2);
+            text = StringExpandPlaceholders(text, sText_CardIvs);
+        }
+        else
+        {
+            text = StringCopy(text, sStatLabels[stat]);
+            text = ConvertIntToDecimalStringN(text, GetMonData(mon, MON_DATA_HP_IV + stat), STR_CONV_MODE_LEFT_ALIGN, 2);
+        }
+    }
+    PrintCardLine(line++, gStringVar4);
+
+    AppendTypes(StringCopy(gStringVar4, sText_Types), GetMonData(mon, MON_DATA_SPECIES), genetics.extraType);
+    PrintCardLine(line++, gStringVar4);
+
+    StringCopy(StringCopy(gStringVar4, sText_Ability), gAbilitiesInfo[GetMonAbility(mon)].name);
+    PrintCardLine(line++, gStringVar4);
+
+    if (Fusion_CountPassives(&genetics) == 0)
+    {
+        StringCopy(StringCopy(gStringVar4, sText_Passives), sText_None);
+        PrintCardLine(line++, gStringVar4);
+    }
+    for (u32 i = 0; i < FUSION_MAX_PASSIVES; i++)
+    {
+        if (genetics.passives[i] == ABILITY_NONE)
+            continue;
+        StringCopy(StringCopy(gStringVar4, sText_Passive), gAbilitiesInfo[genetics.passives[i]].name);
+        PrintCardLine(line++, gStringVar4);
+    }
+    ShowCard();
+}
+
+//
 // Script interface. The selected Pokémon is returned in VAR_0x8004 (location),
 // VAR_0x8005 (box) and VAR_0x8006 (slot); VAR_RESULT is TRUE if one was chosen.
+//
 
 static EWRAM_DATA struct FusionMonRef sParentA = {0};
 static EWRAM_DATA struct FusionMonRef sParentB = {0};
@@ -336,57 +670,17 @@ static EWRAM_DATA struct FusionMonRef sParentB = {0};
 static const u8 sText_ChooseToAppraise[] = _("Choose a Pokémon to appraise.");
 static const u8 sText_ChooseParentA[] = _("Parent 1: keeps its slot.");
 static const u8 sText_ChooseParentB[] = _("Parent 2: will be consumed.");
-static const u8 sText_Dash[] = _("-");
-static const u8 sText_AppraisalHeader[] = _("{STR_VAR_1}  Lv{STR_VAR_2}  IVs {STR_VAR_3}/186");
-static const u8 sText_Ability[] = _("Ability: ");
-static const u8 sText_Passive[] = _("Passive: ");
-static const u8 sText_NoPassives[] = _("Passives: none");
-static const u8 sText_ExtraType[] = _("Third type: ");
-static const u8 sText_Generation[] = _("Fusion generation: ");
-static const u8 sText_Or[] = _(" or ");
-static const u8 sText_PreviewParents[] = _("{STR_VAR_1} + {STR_VAR_2}");
-static const u8 sText_PreviewLevel[] = _("Child: Lv{STR_VAR_3}, either species.");
-static const u8 sText_PreviewPassives[] = _("Passive pool: {STR_VAR_1} ({STR_VAR_2}% each, max 3)");
-static const u8 sText_PreviewMoves[] = _("Move pool: {STR_VAR_1} ({STR_VAR_2}% each, max 4)");
+static const u8 sText_PreviewHeader[] = _("{STR_VAR_1} + {STR_VAR_2}");
+static const u8 sText_PreviewLevel[] = _("Child: Lv{STR_VAR_3}, species of either parent");
+static const u8 sText_PreviewIvs[] = _("IVs, nature: from either parent, IVs may rise");
+static const u8 sText_PreviewPassives[] = _("Passive pool: {STR_VAR_1} ({STR_VAR_3}% each, up to 3)");
+static const u8 sText_PreviewMoves[] = _("Move pool: {STR_VAR_1} ({STR_VAR_3}% each, up to 4)");
 static const u8 sText_PreviewThirdType[] = _("Third type: {STR_VAR_1}% chance");
 static const u8 sText_PreviewNoThirdType[] = _("Third type: not possible");
-static const u8 sText_PreviewConsumed[] = _("{STR_VAR_1} will be consumed.");
-static const u8 sText_PreviewConfirm[] = _("Fuse them?");
-static const u8 sText_FusionComplete[] = _("Fusion complete!");
 static const u8 sText_CheckInvalid[] = _("These Pokémon can't be fused.");
 static const u8 sText_CheckLastPartyMon[] = _("You can't fuse away the last\nPokémon in your party.");
 static const u8 sText_CheckHoldsMail[] = _("Please remove the Mail first.");
 static const u8 sText_CheckBagFull[] = _("There's no room in the Bag for\nthe item Parent 2 is holding.");
-
-// Builds a message from single lines, two lines per page.
-struct LineBuilder
-{
-    u8 *end;
-    u32 lines;
-};
-
-static u8 *NewLine(struct LineBuilder *builder)
-{
-    if (builder->lines > 0)
-        *builder->end++ = (builder->lines % 2) ? CHAR_NEWLINE : CHAR_PROMPT_CLEAR;
-    builder->lines++;
-    return builder->end;
-}
-
-static void AddLine(struct LineBuilder *builder, const u8 *text)
-{
-    builder->end = StringCopy(NewLine(builder), text);
-}
-
-static void AddExpandedLine(struct LineBuilder *builder, const u8 *text)
-{
-    builder->end = StringExpandPlaceholders(NewLine(builder), text);
-}
-
-static void AddLabeledLine(struct LineBuilder *builder, const u8 *label, const u8 *value)
-{
-    builder->end = StringCopy(StringCopy(NewLine(builder), label), value);
-}
 
 static void ScriptSelectorCallback(bool32 selected, const struct FusionMonRef *ref)
 {
@@ -429,40 +723,16 @@ void Fusion_ScriptSelectParentB(void)
     Fusion_OpenMaterialSelector(sText_ChooseParentB, &sParentA, ParentBSelectorCallback);
 }
 
-static void BufferAppraisal(struct Pokemon *mon, struct LineBuilder *builder)
-{
-    struct FusionGenetics genetics;
-
-    Fusion_GetMonGenetics(mon, &genetics);
-    StringCopy(gStringVar1, GetSpeciesName(GetMonData(mon, MON_DATA_SPECIES)));
-    ConvertIntToDecimalStringN(gStringVar2, GetMonData(mon, MON_DATA_LEVEL), STR_CONV_MODE_LEFT_ALIGN, 3);
-    ConvertIntToDecimalStringN(gStringVar3, Fusion_GetBoxMonIvTotal(&mon->box), STR_CONV_MODE_LEFT_ALIGN, 3);
-    AddExpandedLine(builder, sText_AppraisalHeader);
-    AddLabeledLine(builder, sText_Ability, gAbilitiesInfo[Fusion_GetMonMainAbility(mon)].name);
-
-    if (Fusion_CountPassives(&genetics) == 0)
-        AddLine(builder, sText_NoPassives);
-    for (u32 i = 0; i < FUSION_MAX_PASSIVES; i++)
-    {
-        if (genetics.passives[i] != ABILITY_NONE)
-            AddLabeledLine(builder, sText_Passive, gAbilitiesInfo[genetics.passives[i]].name);
-    }
-
-    AddLabeledLine(builder, sText_ExtraType, genetics.extraType != TYPE_NONE ? gTypesInfo[genetics.extraType].name : sText_Dash);
-    ConvertIntToDecimalStringN(gStringVar1, genetics.generation, STR_CONV_MODE_LEFT_ALIGN, 2);
-    AddLabeledLine(builder, sText_Generation, gStringVar1);
-}
-
-// Writes a multi-page summary of the selected Pokémon's genetics to gStringVar4.
-void Fusion_ScriptBufferAppraisal(void)
+// Shows the selected Pokémon's card; gStringVar1 holds its species name for the message.
+void Fusion_ScriptShowAppraisalCard(void)
 {
     struct FusionMonRef ref = {.location = gSpecialVar_0x8004, .box = gSpecialVar_0x8005, .slot = gSpecialVar_0x8006};
-    struct LineBuilder builder = {.end = gStringVar4};
     struct Pokemon mon;
 
-    gStringVar4[0] = EOS;
-    if (Fusion_ReadMonFromRef(&ref, &mon))
-        BufferAppraisal(&mon, &builder);
+    if (!Fusion_ReadMonFromRef(&ref, &mon))
+        return;
+    DrawAppraisalCard(&mon);
+    StringCopy(gStringVar1, GetSpeciesName(GetMonData(&mon, MON_DATA_SPECIES)));
 }
 
 // VAR_RESULT is the FusionCheckResult; on failure gStringVar4 holds the reason.
@@ -483,57 +753,60 @@ void Fusion_ScriptCheckParents(void)
 }
 
 // Shows what can happen, never the actual result: the child is only rolled on confirmation.
-void Fusion_ScriptBufferPreview(void)
+// gStringVar2 holds parent 2's species name for the confirmation message.
+void Fusion_ScriptShowPreviewCard(void)
 {
-    struct LineBuilder builder = {.end = gStringVar4};
     struct FusionPreview preview;
     struct Pokemon parentA, parentB;
-    u32 thirdTypePool;
+    u32 line = 0;
     u8 *text;
 
     Fusion_ReadMonFromRef(&sParentA, &parentA);
     Fusion_ReadMonFromRef(&sParentB, &parentB);
     Fusion_BuildPreview(&parentA, &parentB, &preview);
+    OpenCard();
 
     StringCopy(gStringVar1, GetSpeciesName(GetMonData(&parentA, MON_DATA_SPECIES)));
     StringCopy(gStringVar2, GetSpeciesName(GetMonData(&parentB, MON_DATA_SPECIES)));
     ConvertIntToDecimalStringN(gStringVar3, preview.level, STR_CONV_MODE_LEFT_ALIGN, 3);
-    AddExpandedLine(&builder, sText_PreviewParents);
-    AddExpandedLine(&builder, sText_PreviewLevel);
+    StringExpandPlaceholders(gStringVar4, sText_PreviewHeader);
+    PrintCardHeader(gStringVar4, NULL);
+    StringExpandPlaceholders(gStringVar4, sText_PreviewLevel);
+    PrintCardLine(line++, gStringVar4);
+    PrintCardLine(line++, sText_PreviewIvs);
 
-    text = StringCopy(NewLine(&builder), sText_Ability);
+    text = StringCopy(gStringVar4, sText_Ability);
     text = StringCopy(text, gAbilitiesInfo[preview.mainAbilities[0]].name);
     if (preview.mainAbilities[1] != preview.mainAbilities[0])
-        text = StringCopy(StringCopy(text, sText_Or), gAbilitiesInfo[preview.mainAbilities[1]].name);
-    builder.end = text;
+        StringCopy(StringCopy(text, sText_Or), gAbilitiesInfo[preview.mainAbilities[1]].name);
+    PrintCardLine(line++, gStringVar4);
 
+    // gStringVar1/3 are reused below; parent 2's name stays in gStringVar2 for the script.
     ConvertIntToDecimalStringN(gStringVar1, preview.passivePoolSize, STR_CONV_MODE_LEFT_ALIGN, 2);
-    ConvertIntToDecimalStringN(gStringVar2, FUSION_PASSIVE_INHERIT_CHANCE, STR_CONV_MODE_LEFT_ALIGN, 3);
-    AddExpandedLine(&builder, sText_PreviewPassives);
+    ConvertIntToDecimalStringN(gStringVar3, FUSION_PASSIVE_INHERIT_CHANCE, STR_CONV_MODE_LEFT_ALIGN, 3);
+    StringExpandPlaceholders(gStringVar4, sText_PreviewPassives);
+    PrintCardLine(line++, gStringVar4);
     ConvertIntToDecimalStringN(gStringVar1, preview.movePoolSize, STR_CONV_MODE_LEFT_ALIGN, 2);
-    ConvertIntToDecimalStringN(gStringVar2, FUSION_MOVE_INHERIT_CHANCE, STR_CONV_MODE_LEFT_ALIGN, 3);
-    AddExpandedLine(&builder, sText_PreviewMoves);
+    ConvertIntToDecimalStringN(gStringVar3, FUSION_MOVE_INHERIT_CHANCE, STR_CONV_MODE_LEFT_ALIGN, 3);
+    StringExpandPlaceholders(gStringVar4, sText_PreviewMoves);
+    PrintCardLine(line++, gStringVar4);
 
-    thirdTypePool = max(preview.thirdTypePoolSize[0], preview.thirdTypePoolSize[1]);
-    if (thirdTypePool > 0)
+    if (max(preview.thirdTypePoolSize[0], preview.thirdTypePoolSize[1]) > 0)
     {
         ConvertIntToDecimalStringN(gStringVar1, FUSION_THIRD_TYPE_CHANCE, STR_CONV_MODE_LEFT_ALIGN, 3);
-        AddExpandedLine(&builder, sText_PreviewThirdType);
+        StringExpandPlaceholders(gStringVar4, sText_PreviewThirdType);
+        PrintCardLine(line++, gStringVar4);
     }
     else
     {
-        AddLine(&builder, sText_PreviewNoThirdType);
+        PrintCardLine(line++, sText_PreviewNoThirdType);
     }
-
-    StringCopy(gStringVar1, GetSpeciesName(GetMonData(&parentB, MON_DATA_SPECIES)));
-    AddExpandedLine(&builder, sText_PreviewConsumed);
-    AddLine(&builder, sText_PreviewConfirm);
+    ShowCard();
 }
 
-// VAR_RESULT is TRUE on success; gStringVar4 then holds the child's appraisal.
+// VAR_RESULT is TRUE on success; the child's card is then shown and gStringVar1 holds its name.
 void Fusion_ScriptDoFusion(void)
 {
-    struct LineBuilder builder = {.end = gStringVar4};
     struct Pokemon child;
 
     gSpecialVar_Result = Fusion_Fuse(&sParentA, &sParentB, Random32(), &child);
@@ -542,6 +815,45 @@ void Fusion_ScriptDoFusion(void)
         StringCopy(gStringVar4, sText_CheckInvalid);
         return;
     }
-    AddLine(&builder, sText_FusionComplete);
-    BufferAppraisal(&child, &builder);
+    DrawAppraisalCard(&child);
+    StringCopy(gStringVar1, GetSpeciesName(GetMonData(&child, MON_DATA_SPECIES)));
+}
+
+//
+// Settings
+//
+
+static const u8 sText_ModeClassic[] = _("Classic");
+static const u8 sText_ModeConvenient[] = _("Convenient");
+static const u8 sText_ModeMaterial[] = _("Material");
+static const u8 sText_On[] = _("ON");
+static const u8 sText_Off[] = _("OFF");
+
+// gStringVar1: capture mode name, gStringVar2: Exp. Share state.
+void Fusion_ScriptBufferSettings(void)
+{
+    static const u8 *const sModeNames[FUSION_CAPTURE_MODE_COUNT] =
+    {
+        [FUSION_CAPTURE_MODE_CLASSIC] = sText_ModeClassic,
+        [FUSION_CAPTURE_MODE_CONVENIENT] = sText_ModeConvenient,
+        [FUSION_CAPTURE_MODE_MATERIAL] = sText_ModeMaterial,
+    };
+
+    StringCopy(gStringVar1, sModeNames[Fusion_GetCaptureMode()]);
+    StringCopy(gStringVar2, FlagGet(FLAG_FUSION_EXP_SHARE) ? sText_On : sText_Off);
+}
+
+// VAR_RESULT: the chosen FusionCaptureMode.
+void Fusion_ScriptSetCaptureMode(void)
+{
+    if (gSpecialVar_Result < FUSION_CAPTURE_MODE_COUNT)
+        Fusion_SetCaptureMode(gSpecialVar_Result);
+}
+
+void Fusion_ScriptToggleExpShare(void)
+{
+    if (FlagGet(FLAG_FUSION_EXP_SHARE))
+        FlagClear(FLAG_FUSION_EXP_SHARE);
+    else
+        FlagSet(FLAG_FUSION_EXP_SHARE);
 }

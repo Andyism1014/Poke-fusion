@@ -54,6 +54,10 @@ enum FusionCaptureMode Fusion_GetCaptureMode(void);
 void Fusion_SetCaptureMode(enum FusionCaptureMode mode);
 bool32 Fusion_IsCaptureAssistExempt(enum Species species);
 u32 Fusion_ApplyCaptureMode(enum Species species, u32 odds);
+void Fusion_RollWildGenetics(struct Pokemon *mon);
+#define FUSION_BATTLE_MESSAGE_SIZE 96
+extern u8 gFusionBattleMessage[FUSION_BATTLE_MESSAGE_SIZE];
+void BS_FusionCaughtAppraisal(void);
 
 enum FusionCheckResult
 {
@@ -117,12 +121,17 @@ u32 Fusion_CountMaterials(const struct FusionMonRef *exclude);
 void Fusion_OpenMaterialSelector(const u8 *title, const struct FusionMonRef *exclude, FusionSelectorCallback callback);
 void Fusion_ScriptCountMaterials(void);
 void Fusion_ScriptOpenAppraiseSelector(void);
-void Fusion_ScriptBufferAppraisal(void);
+void Fusion_ScriptShowAppraisalCard(void);
+void Fusion_ScriptHideCard(void);
+void Fusion_ScriptCardYesNo(void);
 void Fusion_ScriptSelectParentA(void);
 void Fusion_ScriptSelectParentB(void);
 void Fusion_ScriptCheckParents(void);
-void Fusion_ScriptBufferPreview(void);
+void Fusion_ScriptShowPreviewCard(void);
 void Fusion_ScriptDoFusion(void);
+void Fusion_ScriptBufferSettings(void);
+void Fusion_ScriptSetCaptureMode(void);
+void Fusion_ScriptToggleExpShare(void);
 
 // fusion_debug.c
 const u8 *Fusion_Debug_GetCaptureModeName(enum FusionCaptureMode mode);

@@ -21,34 +21,24 @@ press DOWN 2 10
 press A 2 40
 wait 20
 shot parent_b_box1
+tap DOWN 2 10
+wait 10
+shot parent_b_hover
+press SELECT 2 20
+shot parent_b_sorted
+press R 2 20
+shot parent_b_box2
+press L 2 20
 press A 2 60
-wait 150
-shot preview1
-press A 2 10
-wait 150
-shot preview2
-press A 2 10
-wait 150
-shot preview3
-press A 2 10
-wait 150
-shot preview4
-press A 2 10
-wait 150
-shot preview_confirm
+wait 120
+shot preview
+press A 2 30
+wait 30
+shot preview_yesno
 press A 2 30
 wait 400
-shot result1
-press A 2 10
-wait 150
-shot result2
-press A 2 10
-wait 150
-shot result3
-press A 2 10
-wait 150
-shot result4
+shot result
 press A 2 60
-wait 30
+wait 60
 shot back_to_menu
 savestate fused

@@ -725,6 +725,7 @@ enum StringID
     STRINGID_S,
     STRINGID_LOSTSOMEOFITSHP,
     STRINGID_BELCHCANTUSE,
+    STRINGID_FUSION_MESSAGE, // Fusion: text built at runtime in gFusionBattleMessage
     STRINGID_COUNT
 };
 
