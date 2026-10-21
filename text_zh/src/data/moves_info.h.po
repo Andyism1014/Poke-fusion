@@ -5629,7 +5629,7 @@ msgid ""
 "raises offensive stats."
 msgstr ""
 "治愈自己的异常状态，\n"
-"并提高攻击和特攻等。"
+"并提高特攻和特防。"
 
 #: src/data/moves_info.h:20562
 msgid ""
