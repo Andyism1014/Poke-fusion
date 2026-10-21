@@ -7,15 +7,15 @@ msgstr ""
 
 #: src/battle_controller_player.c:1784
 msgid "CAT: "
-msgstr "分类 "
+msgstr "分类"
 
 #: src/battle_controller_player.c:1785
 msgid "PWR: "
-msgstr "威力 "
+msgstr "威力"
 
 #: src/battle_controller_player.c:1786
 msgid "ACC: "
-msgstr "命中 "
+msgstr "命中"
 
 #: src/battle_controller_player.c:1787
 msgid "{CLEAR_TO 3}"
@@ -100,3 +100,8 @@ msgstr "{TRIANGLE_UPSIDE_DOWN}"
 #: src/battle_controller_player.c:2516
 msgid "{BIG_MULT_X}"
 msgstr "{BIG_MULT_X}"
+
+# The Chinese labels are wider than ACC: start the accuracy column earlier so 命中100 fits the 144px window.
+msgctxt "src/battle_controller_player.c"
+msgid "{CLEAR_TO 108}"
+msgstr "{CLEAR_TO 100}"
