@@ -11,6 +11,8 @@ msgid ""
 "MOM: See, {PLAYER}?\n"
 "Isn't it nice in here, too?$"
 msgstr ""
+"妈妈：你看，{PLAYER}，\n"
+"屋子里也很不错吧？$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:290
 msgctxt "PlayersHouse_1F_Text_MoversPokemonGoSetClock"
@@ -24,6 +26,14 @@ msgid ""
 "our move here.\l"
 "Don't forget to set it!$"
 msgstr ""
+"搬家公司的宝可梦把搬家和打扫的\n"
+"工作全都做完了。\l"
+"真是太方便了！\p"
+"{PLAYER}，你的房间在楼上。\n"
+"快去看看吧！\p"
+"爸爸为了纪念我们搬家，给你买了\n"
+"一个新时钟。\l"
+"别忘了调好时间哦！$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:300
 msgctxt "PlayersHouse_1F_Text_ArentYouInterestedInRoom"
@@ -32,6 +42,9 @@ msgid ""
 "Aren't you interested in seeing your\n"
 "very own room?$"
 msgstr ""
+"妈妈：怎么了，{PLAYER}？\p"
+"你不想去看看\n"
+"你自己的房间吗？$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:305
 msgctxt "PlayersHouse_1F_Text_GoSetTheClock"
@@ -39,6 +52,8 @@ msgid ""
 "MOM: {PLAYER}.\p"
 "Go set the clock in your room, honey.$"
 msgstr ""
+"妈妈：{PLAYER}。\p"
+"快去把你房间里的时钟调好吧。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:309
 msgctxt "PlayersHouse_1F_Text_OhComeQuickly"
@@ -46,6 +61,8 @@ msgid ""
 "MOM: Oh! {PLAYER}, {PLAYER}!\n"
 "Quick! Come quickly!$"
 msgstr ""
+"妈妈：啊！{PLAYER}，{PLAYER}！\n"
+"快！快过来！$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:313
 msgctxt "PlayersHouse_1F_Text_MaybeDadWillBeOn"
@@ -53,6 +70,8 @@ msgid ""
 "MOM: Look! It's PETALBURG GYM!\n"
 "Maybe DAD will be on!$"
 msgstr ""
+"妈妈：你看！是橙华道馆！\n"
+"说不定爸爸会上电视呢！$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:317
 msgctxt "PlayersHouse_1F_Text_ItsOverWeMissedHim"
@@ -61,6 +80,9 @@ msgid ""
 "I think DAD was on, but we missed him.\n"
 "Too bad.$"
 msgstr ""
+"妈妈：啊……已经结束了。\p"
+"爸爸好像上电视了，\n"
+"可是我们错过了。真可惜。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:322
 msgctxt "PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor"
@@ -71,11 +93,16 @@ msgid ""
 "He lives right next door, so you should\n"
 "go over and introduce yourself.$"
 msgstr ""
+"对了，\n"
+"爸爸有个朋友就住在这个镇上。\p"
+"他叫小田卷博士。\p"
+"他就住在隔壁，\n"
+"你去跟他打个招呼吧。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:329
 msgctxt "PlayersHouse_1F_Text_SeeYouHoney"
 msgid "MOM: See you, honey!$"
-msgstr ""
+msgstr "妈妈：路上小心哦！$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:332
 msgctxt "PlayersHouse_1F_Text_DidYouMeetProfBirch"
@@ -83,6 +110,8 @@ msgid ""
 "MOM: Did you introduce yourself to\n"
 "PROF. BIRCH?$"
 msgstr ""
+"妈妈：你去跟小田卷博士\n"
+"打过招呼了吗？$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:336
 msgctxt "PlayersHouse_1F_Text_YouShouldRestABit"
@@ -91,11 +120,14 @@ msgid ""
 "You look a little tired.\p"
 "I think you should rest a bit.$"
 msgstr ""
+"妈妈：{PLAYER}，你还好吗？\n"
+"你看起来有点累了。\p"
+"我看你还是休息一下吧。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:341
 msgctxt "PlayersHouse_1F_Text_TakeCareHoney"
 msgid "MOM: Take care, honey!$"
-msgstr ""
+msgstr "妈妈：路上小心哦！$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:344
 msgctxt "PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom"
@@ -103,6 +135,9 @@ msgid ""
 "MOM: Oh? Did DAD give you that BADGE?\p"
 "Then here's something from your MOM!$"
 msgstr ""
+"妈妈：哎呀？\n"
+"这个徽章是爸爸给你的吗？\p"
+"那妈妈也送你一样东西吧！$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:348
 msgctxt "PlayersHouse_1F_Text_DontPushYourselfTooHard"
@@ -111,6 +146,9 @@ msgid ""
 "You can always come home.\p"
 "Go for it, honey!$"
 msgstr ""
+"不要太勉强自己哦。\n"
+"你随时都可以回家。\p"
+"加油吧！$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:353
 msgctxt "PlayersHouse_1F_Text_IsThatAPokenav"
@@ -121,6 +159,11 @@ msgid ""
 "your mom?\p"
 "… … …$"
 msgstr ""
+"妈妈：那是什么？宝可梦导航？\n"
+"是得文公司的人给你的？\p"
+"那么，把妈妈也登记\n"
+"进去怎么样？\p"
+"…… …… ……$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:360
 msgctxt "PlayersHouse_1F_Text_RegisteredMom"
@@ -128,16 +171,18 @@ msgid ""
 "Registered MOM\n"
 "in the POKéNAV.$"
 msgstr ""
+"在宝可梦导航中\n"
+"登记了妈妈。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:364
 msgctxt "PlayersHouse_1F_Text_Vigoroth1"
 msgid "Fugiiiiih!$"
-msgstr ""
+msgstr "咕叽——！$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:367
 msgctxt "PlayersHouse_1F_Text_Vigoroth2"
 msgid "Huggoh, uggo uggo…$"
-msgstr ""
+msgstr "呼咕，咕咕咕咕……$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:370
 msgctxt "PlayersHouse_1F_Text_ReportFromPetalburgGym"
@@ -145,6 +190,8 @@ msgid ""
 "INTERVIEWER: …We brought you this\n"
 "report from in front of PETALBURG GYM.$"
 msgstr ""
+"记者：……以上是在橙华道馆前方\n"
+"为您带来的报道。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:374
 msgctxt "PlayersHouse_1F_Text_TheresAMovieOnTV"
@@ -154,6 +201,9 @@ msgid ""
 "keyboard.\p"
 "Better get going!$"
 msgstr ""
+"电视上在放电影。\p"
+"两个男人在大钢琴的键盘上跳舞。\p"
+"该出发了！$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:380
 msgctxt "PlayersHouse_1F_Text_RunningShoesManual"
@@ -165,6 +215,11 @@ msgid ""
 "“Lace up your RUNNING SHOES and hit\n"
 "the road running!”$"
 msgstr ""
+"这是跑步鞋的说明书。\p"
+"“穿着跑步鞋时按住B键，\n"
+"就可以奔跑。\p"
+"“系紧跑步鞋的鞋带，\n"
+"奔向远方吧！”$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:388
 msgctxt "PlayersHouse_1F_Text_TicketFromBrineyCameForYou"
@@ -179,6 +234,15 @@ msgid ""
 "This came to you from someone named\l"
 "MR. BRINEY.$"
 msgstr ""
+"爸爸：嗯？\p"
+"哦，是{PLAYER}啊！\p"
+"好久不见了，你好像……\n"
+"变得更强了。\p"
+"我有这种感觉。\n"
+"不过你老爸我可还没认输哦！\p"
+"对了，这里有你的东西。\n"
+"是一位叫哈奇老人的人\l"
+"寄给你的。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:399
 msgctxt "PlayersHouse_1F_Text_PortsInSlateportLilycove"
@@ -187,6 +251,9 @@ msgid ""
 "If I recall, there are ferry ports in\n"
 "SLATEPORT and LILYCOVE.$"
 msgstr ""
+"爸爸：嗯，是渡轮的船票？\p"
+"我记得凯那市和水静市\n"
+"都有渡轮的港口。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:404
 msgctxt "PlayersHouse_1F_Text_BetterGetBackToGym"
@@ -195,6 +262,9 @@ msgid ""
 "MOM, thanks for looking after the house\n"
 "while I'm away.$"
 msgstr ""
+"我得回橙华道馆了。\p"
+"孩子他妈，我不在的时候，\n"
+"家里就拜托你了。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:409
 msgctxt "PlayersHouse_1F_Text_DadShouldStayLonger"
@@ -204,11 +274,15 @@ msgid ""
 "while, but all he talks about is POKéMON.\p"
 "He should relax and stay a little longer.$"
 msgstr ""
+"妈妈：你爸爸真是的……\p"
+"好久才回一次家，\n"
+"说的却全都是宝可梦的事。\p"
+"他应该放松一下，多待几天才对。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:415
 msgctxt "PlayersHouse_1F_Text_IsThatABreakingStory"
 msgid "MOM: Is that a breaking news story?$"
-msgstr ""
+msgstr "妈妈：是插播新闻吗？$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:418
 msgctxt "PlayersHouse_1F_Text_LatiEmergencyNewsFlash"
@@ -223,6 +297,13 @@ msgid ""
 "We now return you to the regular\n"
 "movie program.$"
 msgstr ""
+"现在为您插播一则紧急新闻！\p"
+"在丰缘地区的许多地方，\n"
+"都有人目击到一只……滋滋……色的\l"
+"宝可梦在空中飞翔。\p"
+"这只宝可梦的真实身份\n"
+"目前尚不明确。\p"
+"接下来继续为您播放电影节目。$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:429
 msgctxt "PlayersHouse_1F_Text_WhatColorDidTheySay"
@@ -231,6 +312,9 @@ msgid ""
 "What color did the announcer say\n"
 "that POKéMON was?$"
 msgstr ""
+"妈妈：{PLAYER}，你听清楚了吗？\p"
+"播音员说那只宝可梦\n"
+"是什么颜色的？$"
 
 #: data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc:434
 msgctxt "PlayersHouse_1F_Text_StillUnknownPokemon"
@@ -238,3 +322,5 @@ msgid ""
 "MOM: Well, isn't that something!\n"
 "There are still unknown POKéMON.$"
 msgstr ""
+"妈妈：哎呀，真是不可思议！\n"
+"原来还有未知的宝可梦啊。$"
