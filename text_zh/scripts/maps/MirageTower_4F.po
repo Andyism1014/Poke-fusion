@@ -13,11 +13,15 @@ msgid ""
 "around it will likely crumble away…\p"
 "Take the ROOT FOSSIL anyway?$"
 msgstr ""
+"你找到了根状化石。\p"
+"如果拿走这块化石，\n"
+"周围的地面很可能会崩塌……\p"
+"还是要拿走根状化石吗？$"
 
 #: data/maps/MirageTower_4F/scripts.inc:67
 msgctxt "MirageTower_4F_Text_LeftRootFossilAlone"
 msgid "{PLAYER} left the ROOT FOSSIL alone.$"
-msgstr ""
+msgstr "{PLAYER}没有动根状化石。$"
 
 #: data/maps/MirageTower_4F/scripts.inc:70
 msgctxt "MirageTower_4F_Text_TakeClawFossil"
@@ -27,8 +31,12 @@ msgid ""
 "around it will likely crumble away…\p"
 "Take the CLAW FOSSIL anyway?$"
 msgstr ""
+"你找到了爪子化石。\p"
+"如果拿走这块化石，\n"
+"周围的地面很可能会崩塌……\p"
+"还是要拿走爪子化石吗？$"
 
 #: data/maps/MirageTower_4F/scripts.inc:76
 msgctxt "MirageTower_4F_Text_LeaveClawFossilAlone"
 msgid "{PLAYER} left the CLAW FOSSIL alone.$"
-msgstr ""
+msgstr "{PLAYER}没有动爪子化石。$"

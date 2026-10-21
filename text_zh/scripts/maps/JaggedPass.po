@@ -14,11 +14,15 @@ msgid ""
 "This jagged bumpiness…\n"
 "It rocks my soul!$"
 msgstr ""
+"烟囱山的凹凸山道……\p"
+"这才是我一直梦寐以求的山。\p"
+"这种崎岖不平的感觉……\n"
+"真让我心潮澎湃！$"
 
 #: data/maps/JaggedPass/scripts.inc:157
 msgctxt "JaggedPass_Text_EricDefeat"
 msgid "Losing left me bitter!$"
-msgstr ""
+msgstr "输了真让我不甘心！$"
 
 #: data/maps/JaggedPass/scripts.inc:160
 msgctxt "JaggedPass_Text_EricPostBattle"
@@ -27,6 +31,8 @@ msgid ""
 "But, when it comes to the love of\n"
 "the mountains, I have you beat!$"
 msgstr ""
+"没错，宝可梦对战我是输了……\p"
+"但要说对山的热爱，我可比你强！$"
 
 #: data/maps/JaggedPass/scripts.inc:165
 msgctxt "JaggedPass_Text_DianaIntro"
@@ -34,13 +40,15 @@ msgid ""
 "This place isn't your casual hike.\n"
 "It's not suited for a picnic.$"
 msgstr ""
+"这里可不是随便走走的地方。\n"
+"不适合野餐。$"
 
 #: data/maps/JaggedPass/scripts.inc:169
 msgctxt "JaggedPass_Text_DianaDefeat"
 msgid ""
 "Ohhh, no!\n"
 "The ground is too bumpy…$"
-msgstr ""
+msgstr "哎呀，不好！地面太不平了……$"
 
 #: data/maps/JaggedPass/scripts.inc:173
 msgctxt "JaggedPass_Text_DianaPostBattle"
@@ -49,6 +57,9 @@ msgid ""
 "Some people cleverly ride their\n"
 "bicycles up this horribly bumpy pass.$"
 msgstr ""
+"你知道吗？\p"
+"有些人能巧妙地骑着自行车，\n"
+"爬上这条崎岖得要命的山道。$"
 
 #: data/maps/JaggedPass/scripts.inc:178
 msgctxt "JaggedPass_Text_DianaRegister"
@@ -56,6 +67,8 @@ msgid ""
 "Will you ever be back in this area?\n"
 "If you do return, I'd like a rematch.$"
 msgstr ""
+"你还会再来这一带吗？\n"
+"如果你回来了，我想再和你比一场。$"
 
 #: data/maps/JaggedPass/scripts.inc:182
 msgctxt "JaggedPass_Text_DianaRematchIntro"
@@ -63,13 +76,15 @@ msgid ""
 "Picnics are fun wherever you go.\n"
 "Just like POKéMON!$"
 msgstr ""
+"野餐不管去哪里都很开心。\n"
+"就像宝可梦一样！$"
 
 #: data/maps/JaggedPass/scripts.inc:186
 msgctxt "JaggedPass_Text_DianaRematchDefeat"
 msgid ""
 "I only lost because the ground is\n"
 "too bumpy!$"
-msgstr ""
+msgstr "我会输，只是因为地面太不平了！$"
 
 #: data/maps/JaggedPass/scripts.inc:190
 msgctxt "JaggedPass_Text_DianaPostRematch"
@@ -77,13 +92,15 @@ msgid ""
 "I'll forget about losing and just\n"
 "enjoy this bumpy hike.$"
 msgstr ""
+"我要忘掉输了的事，\n"
+"好好享受这段崎岖的登山路。$"
 
 #: data/maps/JaggedPass/scripts.inc:194
 msgctxt "JaggedPass_Text_EthanIntro"
 msgid ""
 "JAGGED PASS is hard to walk on.\n"
 "It's a good place for training.$"
-msgstr ""
+msgstr "凹凸山道很难走。是个修行的好地方。$"
 
 #: data/maps/JaggedPass/scripts.inc:198
 msgctxt "JaggedPass_Text_EthanDefeat"
@@ -91,13 +108,15 @@ msgid ""
 "It was all over while we were still\n"
 "trying to find a good footing…$"
 msgstr ""
+"我们还没找到站稳的地方，\n"
+"就已经结束了……$"
 
 #: data/maps/JaggedPass/scripts.inc:202
 msgctxt "JaggedPass_Text_EthanPostBattle"
 msgid ""
 "If I had an ACRO BIKE, I'd be able to\n"
 "jump ledges.$"
-msgstr ""
+msgstr "要是我有越野自行车，就能跳过台阶了。$"
 
 #: data/maps/JaggedPass/scripts.inc:206
 msgctxt "JaggedPass_Text_EthanRegister"
@@ -106,6 +125,9 @@ msgid ""
 "I'll be sure to win!\p"
 "Can you register me in your POKéNAV?$"
 msgstr ""
+"等我习惯了这种崎岖的路，\n"
+"我一定会赢的！\p"
+"能把我登记到你的宝可梦导航里吗？$"
 
 #: data/maps/JaggedPass/scripts.inc:211
 msgctxt "JaggedPass_Text_EthanRematchIntro"
@@ -113,6 +135,8 @@ msgid ""
 "I got used to this bumpiness.\n"
 "I sing while I climb now.$"
 msgstr ""
+"我已经习惯这种崎岖的路了。\n"
+"现在我都能边爬边唱歌了。$"
 
 #: data/maps/JaggedPass/scripts.inc:215
 msgctxt "JaggedPass_Text_EthanRematchDefeat"
@@ -120,6 +144,8 @@ msgid ""
 "It's still not easy to battle on this\n"
 "bumpy ground…$"
 msgstr ""
+"在这么崎岖的地面上对战，\n"
+"还是不容易啊……$"
 
 #: data/maps/JaggedPass/scripts.inc:219
 msgctxt "JaggedPass_Text_EthanPostRematch"
@@ -127,6 +153,8 @@ msgid ""
 "I should get an ACRO BIKE from RYDEL\n"
 "in MAUVILLE CITY…$"
 msgstr ""
+"我应该去紫堇市的\n"
+"风野那里拿一辆越野自行车……$"
 
 #: data/maps/JaggedPass/scripts.inc:223
 msgctxt "JaggedPass_Text_GruntIntro"
@@ -136,6 +164,9 @@ msgid ""
 "What am I doing in a place like this?\p"
 "What business is it of yours?$"
 msgstr ""
+"哇！你在这里干什么？\p"
+"我在这种地方干什么？\p"
+"关你什么事？$"
 
 #: data/maps/JaggedPass/scripts.inc:229
 msgctxt "JaggedPass_Text_GruntDefeat"
@@ -144,6 +175,8 @@ msgid ""
 "I should've ducked into our HIDEOUT\n"
 "right away…$"
 msgstr ""
+"呜呜呜……\p"
+"我早该马上躲进我们的基地里的……$"
 
 #: data/maps/JaggedPass/scripts.inc:234
 msgctxt "JaggedPass_Text_GoWhereverYouWant"
@@ -153,6 +186,8 @@ msgid ""
 "Don't worry about me.\n"
 "Go wherever you want!$"
 msgstr ""
+"好啦好啦！我承认——你很强！\p"
+"别管我了。你想去哪儿就去哪儿吧！$"
 
 #: data/maps/JaggedPass/scripts.inc:240
 msgctxt "JaggedPass_Text_BoulderShakingInResponseToEmblem"
@@ -160,25 +195,27 @@ msgid ""
 "Oh! This boulder is shaking in response\n"
 "to the MAGMA EMBLEM!$"
 msgstr ""
+"哦！这块大岩石对熔岩队徽章产生反应，\n"
+"摇晃起来了！$"
 
 #: data/maps/JaggedPass/scripts.inc:244
 msgctxt "JaggedPass_Text_JulioIntro"
 msgid ""
 "Aiyeeh! It's awfully scary to shoot\n"
 "down the mountain in one go!$"
-msgstr ""
+msgstr "哇啊啊！一口气冲下山实在是太可怕了！$"
 
 #: data/maps/JaggedPass/scripts.inc:248
 msgctxt "JaggedPass_Text_JulioDefeat"
 msgid "I feel like I'm falling apart…$"
-msgstr ""
+msgstr "我感觉自己快要散架了……$"
 
 #: data/maps/JaggedPass/scripts.inc:251
 msgctxt "JaggedPass_Text_JulioPostBattle"
 msgid ""
 "My bicycle bounced around so much,\n"
 "my rear end's sore…$"
-msgstr ""
+msgstr "自行车颠得太厉害了，我的屁股好痛……$"
 
 #: data/maps/JaggedPass/scripts.inc:255
 msgctxt "JaggedPass_Text_AutumnIntro"
@@ -186,13 +223,15 @@ msgid ""
 "I climb this hill every day.\n"
 "I have confidence in my strength!$"
 msgstr ""
+"我每天都爬这座山。\n"
+"我对自己的体力很有信心！$"
 
 #: data/maps/JaggedPass/scripts.inc:259
 msgctxt "JaggedPass_Text_AutumnDefeat"
 msgid ""
 "Hmm…\n"
 "What went wrong?$"
-msgstr ""
+msgstr "嗯……哪里出错了呢？$"
 
 #: data/maps/JaggedPass/scripts.inc:263
 msgctxt "JaggedPass_Text_AutumnPostBattle"
@@ -200,3 +239,5 @@ msgid ""
 "What is that odd rock protrusion\n"
 "a little up the hill from here?$"
 msgstr ""
+"从这里再往山上走一点，有一块奇怪的\n"
+"凸起的岩石，那是什么呢？$"

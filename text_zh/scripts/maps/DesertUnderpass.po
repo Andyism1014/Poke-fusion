@@ -8,9 +8,9 @@ msgstr ""
 #: data/maps/DesertUnderpass/scripts.inc:32
 msgctxt "DesertUnderpass_Text_FoundRootFossil"
 msgid "{PLAYER} found the ROOT FOSSIL.$"
-msgstr ""
+msgstr "{PLAYER}找到了根状化石。$"
 
 #: data/maps/DesertUnderpass/scripts.inc:36
 msgctxt "DesertUnderpass_Text_FoundClawFossil"
 msgid "{PLAYER} found the CLAW FOSSIL.$"
-msgstr ""
+msgstr "{PLAYER}找到了爪子化石。$"

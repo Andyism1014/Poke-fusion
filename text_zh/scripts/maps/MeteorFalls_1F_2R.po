@@ -13,13 +13,17 @@ msgid ""
 "The CHAMPION even visits.\n"
 "Now do you see how special it is here?$"
 msgstr ""
+"这里是我们这些使用龙宝可梦的\n"
+"人修行的地方。\p"
+"就连冠军都会来这里。\n"
+"现在你知道这里有多特别了吧？$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:69
 msgctxt "MeteorFalls_1F_2R_Text_NicolasDefeat"
 msgid ""
 "Urgh!\n"
 "I didn't expect you to be so strong!$"
-msgstr ""
+msgstr "呜！没想到你这么强！$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:73
 msgctxt "MeteorFalls_1F_2R_Text_NicolasPostBattle"
@@ -28,6 +32,9 @@ msgid ""
 "When will my POKéMON and I become\n"
 "the best?$"
 msgstr ""
+"前方的道路依然漫长而艰险。\p"
+"我和我的宝可梦什么时\n"
+"候才能成为最强呢？$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:78
 msgctxt "MeteorFalls_1F_2R_Text_NicolasRegister"
@@ -35,6 +42,8 @@ msgid ""
 "I want to know more about your power.\n"
 "Let me register you in my POKéNAV.$"
 msgstr ""
+"我想更了解你的实力。\n"
+"让我把你登记到我的宝可梦导航里吧。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:82
 msgctxt "MeteorFalls_1F_2R_Text_NicolasRematchIntro"
@@ -44,13 +53,16 @@ msgid ""
 "Help us see how much stronger we've\n"
 "become!$"
 msgstr ""
+"自从我们相遇以后，\n"
+"我们就以第一为目标刻苦修行。\p"
+"让我们看看我们变强了多少吧！$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:88
 msgctxt "MeteorFalls_1F_2R_Text_NicolasRematchDefeat"
 msgid ""
 "Urgh!\n"
 "I didn't expect you to be so strong!$"
-msgstr ""
+msgstr "呜！没想到你这么强！$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:92
 msgctxt "MeteorFalls_1F_2R_Text_NicolasPostRematch"
@@ -60,6 +72,8 @@ msgid ""
 "So long as you remain strong, I, too,\n"
 "can become stronger!$"
 msgstr ""
+"看得出来，你一直在坚持培养宝可梦。\p"
+"只要你一直强大下去，我也能变得更强！$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:98
 msgctxt "MeteorFalls_1F_2R_Text_JohnIntro"
@@ -68,13 +82,15 @@ msgid ""
 "together as a twosome.\l"
 "We've confidence in ourselves.$"
 msgstr ""
+"阿约：我们一直都是两个人一起进行宝\n"
+"可梦对战的。我们对自己很有信心。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:103
 msgctxt "MeteorFalls_1F_2R_Text_JohnDefeat"
 msgid ""
 "JOHN: Oh, my.\n"
 "We've lost, dear wife.$"
-msgstr ""
+msgstr "阿约：哎呀，我们输了，亲爱的老伴。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:107
 msgctxt "MeteorFalls_1F_2R_Text_JohnPostBattle"
@@ -84,6 +100,9 @@ msgid ""
 "Come to think of it, I've yet to beat\n"
 "my dear wife in a battle.$"
 msgstr ""
+"阿约：我们结婚已经五十年了。\p"
+"说起来，我在对战中还\n"
+"从来没赢过我亲爱的老伴呢。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:113
 msgctxt "MeteorFalls_1F_2R_Text_JohnNotEnoughMons"
@@ -92,6 +111,9 @@ msgid ""
 "Will you battle with us? If so, you'll\n"
 "have to return with more POKéMON.$"
 msgstr ""
+"阿约：哎呀呀，好年轻的训练家！\p"
+"要和我们对战吗？如果要的话，\n"
+"你得带更多的宝可梦再来。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:118
 msgctxt "MeteorFalls_1F_2R_Text_JohnRegister"
@@ -99,6 +121,8 @@ msgid ""
 "JOHN: Young TRAINER, if the chance\n"
 "arises, will you battle with us again?$"
 msgstr ""
+"阿约：年轻的训练家，如果有机会的话，\n"
+"你愿意再和我们对战吗？$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:122
 msgctxt "MeteorFalls_1F_2R_Text_JayIntro"
@@ -108,13 +132,15 @@ msgid ""
 "The bond we share as a couple could\n"
 "never be broken.$"
 msgstr ""
+"阿洁：我们结婚已经五十年了。\p"
+"我们夫妻之间的羁绊是永远不会断的。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:128
 msgctxt "MeteorFalls_1F_2R_Text_JayDefeat"
 msgid ""
 "JAY: Oh, dear.\n"
 "We've lost, my dear husband.$"
-msgstr ""
+msgstr "阿洁：哎呀。我们输了，亲爱的老伴。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:132
 msgctxt "MeteorFalls_1F_2R_Text_JayPostBattle"
@@ -123,6 +149,9 @@ msgid ""
 "If we ever argued, we always settled\n"
 "it with a POKéMON battle…$"
 msgstr ""
+"阿洁：结婚五十年……\p"
+"每次吵架，\n"
+"我们都是用宝可梦对战来解决的……$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:137
 msgctxt "MeteorFalls_1F_2R_Text_JayNotEnoughMons"
@@ -132,6 +161,9 @@ msgid ""
 "If you'd care to battle with us, you'll\n"
 "have to come back with more POKéMON.$"
 msgstr ""
+"阿洁：哎呀呀，你是位年轻的训练家吧？\p"
+"如果想和我们对战，\n"
+"你得带更多的宝可梦再来。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:143
 msgctxt "MeteorFalls_1F_2R_Text_JohnRematchIntro"
@@ -140,13 +172,15 @@ msgid ""
 "together as a twosome.\l"
 "We've confidence in ourselves.$"
 msgstr ""
+"阿约：我们一直都是两个人一起进行宝\n"
+"可梦对战的。我们对自己很有信心。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:148
 msgctxt "MeteorFalls_1F_2R_Text_JohnRematchDefeat"
 msgid ""
 "JOHN: Oh, my.\n"
 "We've lost, dear wife.$"
-msgstr ""
+msgstr "阿约：哎呀，我们输了，亲爱的老伴。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:152
 msgctxt "MeteorFalls_1F_2R_Text_JohnPostRematch"
@@ -155,6 +189,9 @@ msgid ""
 "On reflection, the dear wife and I,\n"
 "we battled day in and day out…$"
 msgstr ""
+"阿约：结婚五十年……\p"
+"回想起来，\n"
+"我和亲爱的老伴每天都在对战……$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:157
 msgctxt "MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons"
@@ -163,6 +200,9 @@ msgid ""
 "Will you battle with us? If so, you'll\n"
 "have to return with more POKéMON.$"
 msgstr ""
+"阿约：哎呀呀，好年轻的训练家！\p"
+"要和我们对战吗？如果要的话，\n"
+"你得带更多的宝可梦再来。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:162
 msgctxt "MeteorFalls_1F_2R_Text_JayRematchIntro"
@@ -172,13 +212,16 @@ msgid ""
 "We've supported each other all that\n"
 "time. We've made ourselves strong.$"
 msgstr ""
+"阿洁：我们结婚已经五十年了。\p"
+"这么多年来我们一直互相扶持。\n"
+"我们让彼此变得更强了。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:168
 msgctxt "MeteorFalls_1F_2R_Text_JayRematchDefeat"
 msgid ""
 "JAY: Oh, dear.\n"
 "We've lost, my dear husband.$"
-msgstr ""
+msgstr "阿洁：哎呀。我们输了，亲爱的老伴。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:172
 msgctxt "MeteorFalls_1F_2R_Text_JayPostRematch"
@@ -188,6 +231,10 @@ msgid ""
 "I hope that we will continue to make\n"
 "happy memories together.$"
 msgstr ""
+"阿洁：结婚五十年……\n"
+"发生过很多很多事。\p"
+"希望我们今后也\n"
+"能继续一起创造幸福的回忆。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:178
 msgctxt "MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons"
@@ -197,3 +244,6 @@ msgid ""
 "If you'd care to battle with us, you'll\n"
 "have to come back with more POKéMON.$"
 msgstr ""
+"阿洁：哎呀呀，你是位年轻的训练家吧？\p"
+"如果想和我们对战，\n"
+"你得带更多的宝可梦再来。$"
