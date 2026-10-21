@@ -8,12 +8,12 @@ msgstr ""
 #: data/scripts/apricorn_tree.inc:63
 msgctxt "ApricornTree_Text_Intro"
 msgid "It's an Apricorn Tree!$"
-msgstr ""
+msgstr "这是一棵球果树！$"
 
 #: data/scripts/apricorn_tree.inc:66
 msgctxt "ApricornTree_Text_Empty"
 msgid "There are no Apricorns…$"
-msgstr ""
+msgstr "没有球果……$"
 
 #: data/scripts/apricorn_tree.inc:69
 msgctxt "ApricornTree_Text_WantToPick"
@@ -22,6 +22,8 @@ msgid ""
 "Do you want to pick the\l"
 "{STR_VAR_1}?$"
 msgstr ""
+"……有{STR_VAR_2}个{STR_VAR_1}！\n"
+"要摘下{STR_VAR_1}吗？$"
 
 #: data/scripts/apricorn_tree.inc:74
 msgctxt "ApricornTree_Text_PickedTheApricorn"
@@ -29,6 +31,8 @@ msgid ""
 "{PLAYER} obtained\n"
 "{STR_VAR_2} {STR_VAR_1}.$"
 msgstr ""
+"{PLAYER}获得了\n"
+"{STR_VAR_2}个{STR_VAR_1}。$"
 
 #: data/scripts/apricorn_tree.inc:78
 msgctxt "ApricornTree_Text_PutAwayApricorn"
@@ -37,6 +41,8 @@ msgid ""
 "{STR_VAR_1} in\l"
 "the BAG's {STR_VAR_3} POCKET.$"
 msgstr ""
+"{PLAYER}把{STR_VAR_1}放进了\n"
+"背包的{STR_VAR_3}口袋。$"
 
 #: data/scripts/apricorn_tree.inc:83
 msgctxt "ApricornTree_Text_PocketFull"
@@ -45,6 +51,9 @@ msgid ""
 "{PLAYER} gave up on the\n"
 "{STR_VAR_1}…$"
 msgstr ""
+"背包的{STR_VAR_3}口袋已经满了。\p"
+"{PLAYER}放弃了\n"
+"{STR_VAR_1}……$"
 
 #: data/scripts/apricorn_tree.inc:88
 msgctxt "ApricornTree_Text_ApricornLeftUnpicked"
@@ -52,3 +61,5 @@ msgid ""
 "{PLAYER} gave up on the\n"
 "{STR_VAR_1}…$"
 msgstr ""
+"{PLAYER}放弃了\n"
+"{STR_VAR_1}……$"

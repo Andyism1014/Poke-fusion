@@ -11,6 +11,8 @@ msgid ""
 "It couldn't be found nearby.\n"
 "Try looking in a different area!$"
 msgstr ""
+"附近找不到它。\n"
+"去其他地方找找看吧！$"
 
 #: data/scripts/dexnav.inc:35
 msgctxt "sText_TryMovingSlower"
@@ -18,11 +20,13 @@ msgid ""
 "The Pokémon got away!\n"
 "Try moving more slowly.$"
 msgstr ""
+"宝可梦逃走了！\n"
+"试着走得慢一点吧。$"
 
 #: data/scripts/dexnav.inc:39
 msgctxt "sText_PokemonGotAway"
 msgid "The Pokémon got away!$"
-msgstr ""
+msgstr "宝可梦逃走了！$"
 
 #: data/scripts/dexnav.inc:42
 msgctxt "sText_LostSignal"
@@ -30,6 +34,8 @@ msgid ""
 "There is no reaction.\n"
 "The signal was lost!$"
 msgstr ""
+"没有反应。\n"
+"信号消失了！$"
 
 #: data/scripts/dexnav.inc:46
 msgctxt "sText_TooDark"
@@ -37,3 +43,5 @@ msgid ""
 "It's too dark to search\n"
 "for a Pokémon!$"
 msgstr ""
+"太暗了，\n"
+"无法搜寻宝可梦！$"

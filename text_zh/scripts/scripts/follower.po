@@ -11,16 +11,18 @@ msgid ""
 "{STR_VAR_1} is regarding you with\n"
 "adoration!$"
 msgstr ""
+"{STR_VAR_1}正满怀爱意地\n"
+"看着你！$"
 
 #: data/scripts/follower.inc:4
 msgctxt "gText_FollowerLostInThought"
 msgid "{STR_VAR_1} seems lost in thought.$"
-msgstr ""
+msgstr "{STR_VAR_1}好像在想什么事情。$"
 
 #: data/scripts/follower.inc:7
 msgctxt "gText_FollowerDefault"
 msgid "ERROR 404: Script not found.$"
-msgstr ""
+msgstr "ERROR 404：找不到脚本。$"
 
 #: data/scripts/follower.inc:10
 msgctxt "gText_WantsToFly"
@@ -29,3 +31,6 @@ msgid ""
 "sky restlessly.\p"
 "Would you like to use FLY?$"
 msgstr ""
+"{STR_VAR_1}不安地\n"
+"仰望着天空。\p"
+"要使用飞翔吗？$"

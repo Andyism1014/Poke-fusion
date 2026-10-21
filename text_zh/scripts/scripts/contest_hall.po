@@ -16,6 +16,13 @@ msgid ""
 "In that case, we need to provide you\n"
 "with this!$"
 msgstr ""
+"你好！\p"
+"这里是宝可梦华丽大赛的\n"
+"报名处。\p"
+"哎？你好像还没有\n"
+"宝可方块盒。\p"
+"既然如此，\n"
+"这个就送给你吧！$"
 
 #: data/scripts/contest_hall.inc:1367
 msgctxt "LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp"
@@ -26,6 +33,10 @@ msgid ""
 "This is the reception counter for\n"
 "POKéMON CONTESTS.$"
 msgstr ""
+"好了，这件事已经解决了……\p"
+"你好！\p"
+"这里是宝可梦华丽大赛的\n"
+"报名处。$"
 
 #: data/scripts/contest_hall.inc:1374
 msgctxt "LilycoveCity_ContestLobby_Text_ContestReception"
@@ -34,6 +45,9 @@ msgid ""
 "This is the reception counter for\n"
 "POKéMON CONTESTS.$"
 msgstr ""
+"你好！\p"
+"这里是宝可梦华丽大赛的\n"
+"报名处。$"
 
 #: data/scripts/contest_hall.inc:1380
 msgctxt "LilycoveCity_ContestLobby_Text_CounterOnlyFor4PlayerContests"
@@ -42,6 +56,9 @@ msgid ""
 "This reception counter is only\n"
 "for 4-player POKéMON CONTESTS.$"
 msgstr ""
+"你好！\p"
+"这个报名处只受理\n"
+"4人参加的宝可梦华丽大赛。$"
 
 #: data/scripts/contest_hall.inc:1385
 msgctxt "LilycoveCity_ContestLobby_Text_EnterContest1"
@@ -49,11 +66,13 @@ msgid ""
 "Would you like to enter your POKéMON\n"
 "in our CONTESTS?$"
 msgstr ""
+"要让你的宝可梦\n"
+"参加华丽大赛吗？$"
 
 #: data/scripts/contest_hall.inc:1389
 msgctxt "LilycoveCity_ContestLobby_Text_WhichTopic1"
 msgid "Which topic would you like?$"
-msgstr ""
+msgstr "想了解哪方面的内容呢？$"
 
 #: data/scripts/contest_hall.inc:1392
 msgctxt "LilycoveCity_ContestLobby_Text_ExplainContests"
@@ -76,6 +95,22 @@ msgid ""
 "The POKéMON garnering the highest\n"
 "score is declared the winner.$"
 msgstr ""
+"宝可梦华丽大赛是由4位训练家\n"
+"各派出1只宝可梦参加的比赛。\p"
+"华丽大赛分为两轮审查：\n"
+"第一轮审查和第二轮审查。\p"
+"第一轮审查是\n"
+"由观众投票的人气评选。\p"
+"第二轮审查是宝可梦\n"
+"使用招式进行表演。\p"
+"要仔细安排表演，\n"
+"吸引评审的注意，\l"
+"让观众兴奋起来。\l"
+"尽全力展现自己吧。\p"
+"最后会把第一轮和\n"
+"第二轮的分数加起来。\p"
+"得分最高的宝可梦\n"
+"就是优胜者。$"
 
 #: data/scripts/contest_hall.inc:1411
 msgctxt "LilycoveCity_ContestLobby_Text_ExplainContestTypes"
@@ -86,6 +121,11 @@ msgid ""
 "Choose the CONTEST that is right for\n"
 "the POKéMON you plan to enter.$"
 msgstr ""
+"华丽大赛共有五种。\p"
+"分别是帅气、美丽、可爱、\n"
+"聪明和强壮五个类别。\p"
+"请选择适合参赛宝可梦的\n"
+"华丽大赛吧。$"
 
 #: data/scripts/contest_hall.inc:1418
 msgctxt "LilycoveCity_ContestLobby_Text_ExplainContestRanks"
@@ -107,21 +147,34 @@ msgid ""
 "may compete in the MASTER Rank as\l"
 "often as its TRAINER wants.$"
 msgstr ""
+"宝可梦华丽大赛共有四个级别。\p"
+"分别是普通级、超级、\n"
+"高级和大师级。\p"
+"任何宝可梦都可以\n"
+"参加普通级的比赛。\p"
+"在普通级华丽大赛中获胜的宝可梦，\n"
+"可以参加同一类别的超级比赛。\p"
+"同样，超级的优胜者可以晋级到\n"
+"高级，高级的优胜者\l"
+"可以晋级到同一类别的大师级。\p"
+"在大师级获胜过的宝可梦，\n"
+"只要训练家愿意，\l"
+"可以无数次参加大师级的比赛。$"
 
 #: data/scripts/contest_hall.inc:1436
 msgctxt "LilycoveCity_ContestLobby_Text_EnterWhichRank"
 msgid "Which Rank would you like to enter?$"
-msgstr ""
+msgstr "要参加哪个级别呢？$"
 
 #: data/scripts/contest_hall.inc:1439
 msgctxt "LilycoveCity_ContestLobby_Text_EnterWhichContest1"
 msgid "Which CONTEST would you like to enter?$"
-msgstr ""
+msgstr "要参加哪种华丽大赛呢？$"
 
 #: data/scripts/contest_hall.inc:1442
 msgctxt "LilycoveCity_ContestLobby_Text_EnterWhichPokemon1"
 msgid "Which POKéMON would you like to enter?$"
-msgstr ""
+msgstr "要让哪只宝可梦参加呢？$"
 
 #: data/scripts/contest_hall.inc:1445
 msgctxt "LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank"
@@ -130,6 +183,9 @@ msgid ""
 "is not qualified to compete at this\l"
 "Rank yet…$"
 msgstr ""
+"非常抱歉，你的宝可梦\n"
+"还没有资格参加\l"
+"这个级别的比赛……$"
 
 #: data/scripts/contest_hall.inc:1450
 msgctxt "LilycoveCity_ContestLobby_Text_EggCannotTakePart"
@@ -137,6 +193,8 @@ msgid ""
 "I'm sorry, but an EGG cannot take part\n"
 "in a POKéMON CONTEST.$"
 msgstr ""
+"抱歉，蛋是不能参加\n"
+"宝可梦华丽大赛的。$"
 
 #: data/scripts/contest_hall.inc:1454
 msgctxt "LilycoveCity_ContestLobby_Text_MonInNoConditionForContest"
@@ -144,6 +202,8 @@ msgid ""
 "Your POKéMON appears to be in no\n"
 "condition to take part in a CONTEST…$"
 msgstr ""
+"你的宝可梦好像\n"
+"没办法参加华丽大赛……$"
 
 #: data/scripts/contest_hall.inc:1458
 msgctxt "LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway"
@@ -154,11 +214,16 @@ msgid ""
 "Would you like to enter it in this\n"
 "CONTEST anyway?$"
 msgstr ""
+"哎呀，那个奖章……\p"
+"你的宝可梦以前\n"
+"在这个华丽大赛中获胜过吧？\p"
+"即使这样，\n"
+"也还要参加这个华丽大赛吗？$"
 
 #: data/scripts/contest_hall.inc:1465
 msgctxt "LilycoveCity_ContestLobby_Text_ConfirmContestMon"
 msgid "Is that your CONTEST POKéMON?$"
-msgstr ""
+msgstr "要让这只宝可梦参加吗？$"
 
 #: data/scripts/contest_hall.inc:1468
 msgctxt "LilycoveCity_ContestLobby_Text_YourMonIsEntryNum4"
@@ -168,6 +233,10 @@ msgid ""
 "Your POKéMON is Entry No. 4.\n"
 "The CONTEST will begin shortly.$"
 msgstr ""
+"好的，你的宝可梦\n"
+"将参加这次华丽大赛。\p"
+"你的宝可梦是4号参赛者。\n"
+"华丽大赛马上就要开始了。$"
 
 #: data/scripts/contest_hall.inc:1474
 msgctxt "LilycoveCity_ContestLobby_Text_ComeThroughHere"
@@ -175,6 +244,8 @@ msgid ""
 "Please come in through here.\n"
 "Good luck!$"
 msgstr ""
+"请从这边进去。\n"
+"祝你好运！$"
 
 #: data/scripts/contest_hall.inc:1478
 msgctxt "LilycoveCity_ContestLobby_Text_PokemonWonWeHavePrize"
@@ -184,6 +255,10 @@ msgid ""
 "We have your prize right here.\n"
 "Please, right this way!$"
 msgstr ""
+"恭喜你！你的宝可梦\n"
+"在华丽大赛中获胜了！\p"
+"奖品就在这里。\n"
+"请往这边走！$"
 
 #: data/scripts/contest_hall.inc:1484
 msgctxt "LilycoveCity_ContestLobby_Text_ComeBackForPrizeLater"
@@ -191,6 +266,8 @@ msgid ""
 "Please come back for your prize\n"
 "later on.$"
 msgstr ""
+"请稍后再来\n"
+"领取奖品。$"
 
 #: data/scripts/contest_hall.inc:1488
 msgctxt "ContestHall_Text_GettingStartedParticipantsAsFollows"
@@ -201,6 +278,11 @@ msgid ""
 "The participating TRAINERS and their\n"
 "POKéMON are as follows:$"
 msgstr ""
+"主持人：大家好！\n"
+"【{STR_VAR_3}】宝可梦{STR_VAR_2}\l"
+"现在开始了！\p"
+"参赛的训练家和宝可梦\n"
+"介绍如下：$"
 
 #: data/scripts/contest_hall.inc:1495
 msgctxt "ContestHall_Text_GettingStartedParticipantsAsFollowsLink"
@@ -211,6 +293,11 @@ msgid ""
 "The participating TRAINERS and their\n"
 "POKéMON are as follows:$"
 msgstr ""
+"主持人：大家好！4人连接的\n"
+"宝可梦{STR_VAR_2}\l"
+"现在开始了！\p"
+"参赛的训练家和宝可梦\n"
+"介绍如下：$"
 
 #: data/scripts/contest_hall.inc:1502
 msgctxt "ContestHall_Text_EntryXTrainersMon"
@@ -218,6 +305,8 @@ msgid ""
 "MC: Entry No. {STR_VAR_2}!\n"
 "{STR_VAR_1}'s {STR_VAR_3}!$"
 msgstr ""
+"主持人：{STR_VAR_2}号参赛者！\n"
+"{STR_VAR_1}的{STR_VAR_3}！$"
 
 #: data/scripts/contest_hall.inc:1506
 msgctxt "ContestHall_Text_SeenContestantsAudienceWillVote"
@@ -230,11 +319,18 @@ msgid ""
 "Without any further ado, let the\n"
 "voting begin!$"
 msgstr ""
+"主持人：4只参赛的宝可梦\n"
+"已经全部登场了。\p"
+"接下来是第一轮审查！\p"
+"观众将投票选出\n"
+"自己喜欢的参赛宝可梦。\p"
+"事不宜迟，\n"
+"投票开始！$"
 
 #: data/scripts/contest_hall.inc:1515
 msgctxt "ContestHall_Text_VotingUnderWay"
 msgid "Voting under way…$"
-msgstr ""
+msgstr "投票进行中……$"
 
 #: data/scripts/contest_hall.inc:1518
 msgctxt "ContestHall_Text_VotingCompleteLetsAppeal"
@@ -249,11 +345,20 @@ msgid ""
 "Let's see a little enthusiasm!\n"
 "Let's appeal!$"
 msgstr ""
+"投票结束了！\p"
+"在统计票数期间，\n"
+"让我们进入第二轮审查！\p"
+"第二轮审查就是\n"
+"大家期待已久的表演时间！\p"
+"希望参赛者们能用华丽的招式\n"
+"带来精彩的表演，让我们惊叹！\p"
+"让我们热情高涨起来吧！\n"
+"开始表演！$"
 
 #: data/scripts/contest_hall.inc:1529
 msgctxt "ContestHall_Text_ThatsItForJudging"
 msgid "MC: That's it for judging!$"
-msgstr ""
+msgstr "主持人：审查到此结束！$"
 
 #: data/scripts/contest_hall.inc:1532
 msgctxt "ContestHall_Text_ThankYouForAppeals"
@@ -263,6 +368,10 @@ msgid ""
 "This concludes all judging!\n"
 "Thank you for your fine efforts!$"
 msgstr ""
+"感谢大家带来了\n"
+"如此精彩的表演！\p"
+"所有审查到此结束！\n"
+"感谢大家的努力！$"
 
 #: data/scripts/contest_hall.inc:1538
 msgctxt "ContestHall_Text_JudgeLooksReady"
@@ -272,11 +381,15 @@ msgid ""
 "The JUDGE looks ready to make\n"
 "the announcement!$"
 msgstr ""
+"现在，只剩下令人心跳加速的\n"
+"优胜者发表了。\p"
+"评审好像已经准备好\n"
+"宣布结果了！$"
 
 #: data/scripts/contest_hall.inc:1544
 msgctxt "ContestHall_Text_WeWillNowDeclareWinner"
 msgid "JUDGE: We will now declare the winner!$"
-msgstr ""
+msgstr "评审：现在宣布优胜者！$"
 
 #: data/scripts/contest_hall.inc:1547
 msgctxt "ContestHall_Text_CongratsTrainerXandMon"
@@ -285,6 +398,9 @@ msgid ""
 "{STR_VAR_3} and {STR_VAR_1},\n"
 "congratulations!$"
 msgstr ""
+"主持人：{STR_VAR_2}号参赛者！\p"
+"{STR_VAR_3}和{STR_VAR_1}，\n"
+"恭喜你们！$"
 
 #: data/scripts/contest_hall.inc:1552
 msgctxt "ContestHall_Text_CongratsPleaseCompeteAgain"
@@ -292,6 +408,8 @@ msgid ""
 "MC: Congratulations!\n"
 "Please do compete again!$"
 msgstr ""
+"主持人：恭喜你！\n"
+"欢迎再来参加！$"
 
 #: data/scripts/contest_hall.inc:1556
 msgctxt "ContestHall_Text_AcceptYourPrize"
@@ -299,6 +417,8 @@ msgid ""
 "MC: Here you are!\n"
 "Please accept your prize!$"
 msgstr ""
+"主持人：给你！\n"
+"请收下你的奖品！$"
 
 #: data/scripts/contest_hall.inc:1560
 msgctxt "ContestHall_Text_ConferRibbonAsPrize"
@@ -306,11 +426,13 @@ msgid ""
 "We confer on you this RIBBON\n"
 "as your prize!$"
 msgstr ""
+"我们将这枚奖章\n"
+"作为奖品授予你！$"
 
 #: data/scripts/contest_hall.inc:1564
 msgctxt "ContestHall_Text_ReceivedRibbon"
 msgid "{PLAYER} received a RIBBON.$"
-msgstr ""
+msgstr "{PLAYER}得到了奖章。$"
 
 #: data/scripts/contest_hall.inc:1567
 msgctxt "ContestHall_Text_PutRibbonOnMon"
@@ -318,6 +440,8 @@ msgid ""
 "{PLAYER} put the RIBBON on\n"
 "{STR_VAR_1}.$"
 msgstr ""
+"{PLAYER}把奖章\n"
+"戴在了{STR_VAR_1}身上。$"
 
 #: data/scripts/contest_hall.inc:1571
 msgctxt "ContestHall_Text_PickUpPrizeAtCounterLater"
@@ -326,6 +450,9 @@ msgid ""
 "the reception counter later.\l"
 "Please do compete again!$"
 msgstr ""
+"请稍后到报名处\n"
+"领取奖品。\l"
+"欢迎再来参加！$"
 
 #: data/scripts/contest_hall.inc:1577
 msgctxt "ContestHall_Text_OnlyRegister4Players"
@@ -336,6 +463,11 @@ msgid ""
 "four may enter the same CONTEST.\p"
 "Would you like to take part?$"
 msgstr ""
+"宝可梦华丽大赛\n"
+"我这里只受理4名玩家报名。\p"
+"如果有另外3名玩家连接，\n"
+"4人就能参加同一个华丽大赛。\p"
+"要参加吗？$"
 
 #: data/scripts/contest_hall.inc:1584
 msgctxt "LilycoveCity_ContestLobby_Text_ProgressWillBeSaved"
@@ -343,18 +475,20 @@ msgid ""
 "Before entering a CONTEST, your\n"
 "progress will be saved.$"
 msgstr ""
+"参加华丽大赛之前，\n"
+"会先记录游戏进度。$"
 
 #: data/scripts/contest_hall.inc:1588
 msgctxt "LilycoveCity_ContestLobby_Text_ParticipateAnotherTime"
 msgid ""
 "We hope you will participate another\n"
 "time.$"
-msgstr ""
+msgstr "希望你下次再来参加。$"
 
 #: data/scripts/contest_hall.inc:1593
 msgctxt "LilycoveCity_ContestLobby_Text_EnterContest2"
 msgid "Would you like to enter a CONTEST?$"
-msgstr ""
+msgstr "要参加华丽大赛吗？$"
 
 #: data/scripts/contest_hall.inc:1597
 msgctxt "LilycoveCity_ContestLobby_Text_Explain4PlayerContest"
@@ -369,26 +503,35 @@ msgid ""
 "After that, the usual CONTEST rules\n"
 "apply.$"
 msgstr ""
+"4名玩家准备好后，\n"
+"请用GBA连接线连接，\l"
+"然后到我这里报名。\p"
+"请和其他参赛者\n"
+"选择同一个华丽大赛。\p"
+"所有玩家都报名后，\n"
+"华丽大赛就会开始。\p"
+"之后，就按照平常的\n"
+"华丽大赛规则进行。$"
 
 #: data/scripts/contest_hall.inc:1609
 msgctxt "LilycoveCity_ContestLobby_Text_EnterWhichContest2"
 msgid "Which CONTEST would you like to enter?$"
-msgstr ""
+msgstr "要参加哪种华丽大赛呢？$"
 
 #: data/scripts/contest_hall.inc:1613
 msgctxt "LilycoveCity_ContestLobby_Text_EnterWhichPokemon2"
 msgid "Which POKéMON would you like to enter?$"
-msgstr ""
+msgstr "要让哪只宝可梦参加呢？$"
 
 #: data/scripts/contest_hall.inc:1616
 msgctxt "LilycoveCity_ContestLobby_Text_Transmitting"
 msgid "Transmitting…$"
-msgstr ""
+msgstr "正在传输……$"
 
 #: data/scripts/contest_hall.inc:1619
 msgctxt "LilycoveCity_ContestLobby_Text_TransmissionError"
 msgid "Transmission error…$"
-msgstr ""
+msgstr "传输错误……$"
 
 #: data/scripts/contest_hall.inc:1622
 msgctxt "LilycoveCity_ContestLobby_Text_PlayersChoseDifferentContest"
@@ -396,6 +539,8 @@ msgid ""
 "You may have chosen a different\n"
 "CONTEST than another player.$"
 msgstr ""
+"你选择的华丽大赛\n"
+"可能和其他玩家不同。$"
 
 #: data/scripts/contest_hall.inc:1626
 msgctxt "LilycoveCity_ContestLobby_Text_PlayersMadeDifferentChoice"
@@ -403,6 +548,8 @@ msgid ""
 "You may have made a different\n"
 "choice than another player.$"
 msgstr ""
+"你的选择\n"
+"可能和其他玩家不同。$"
 
 #: data/scripts/contest_hall.inc:1630
 msgctxt "LilycoveCity_ContestLobby_Text_PleaseWaitBButtonCancel"
@@ -410,13 +557,15 @@ msgid ""
 "Please wait.\n"
 "… … B Button: Cancel$"
 msgstr ""
+"请稍候。\n"
+"…… ……B键：取消$"
 
 #: data/scripts/contest_hall.inc:1635
 msgctxt "LilycoveCity_ContestLobby_Text_ParticipateAnotherTime2"
 msgid ""
 "We hope you will participate another\n"
 "time.$"
-msgstr ""
+msgstr "希望你下次再来参加。$"
 
 #: data/scripts/contest_hall.inc:1640
 msgctxt "LilycoveCity_ContestLobby_Text_TransmissionErrorTryAgain"
@@ -424,6 +573,8 @@ msgid ""
 "Transmission error.\n"
 "Please try again.$"
 msgstr ""
+"传输错误。\n"
+"请再试一次。$"
 
 #: data/scripts/contest_hall.inc:1644
 msgctxt "LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX"
@@ -432,11 +583,14 @@ msgid ""
 "the CONTEST.\p"
 "Your POKéMON is Entry No. {STR_VAR_2}.$"
 msgstr ""
+"你的宝可梦\n"
+"将参加华丽大赛。\p"
+"你的宝可梦是{STR_VAR_2}号参赛者。$"
 
 #: data/scripts/contest_hall.inc:1649
 msgctxt "LilycoveCity_ContestLobby_Text_ContestBeginShortly"
 msgid "The CONTEST will begin shortly.$"
-msgstr ""
+msgstr "华丽大赛马上就要开始了。$"
 
 #: data/scripts/contest_hall.inc:1652
 msgctxt "LilycoveCity_ContestLobby_Text_LinkContestReception"
@@ -446,21 +600,25 @@ msgid ""
 "You may enter CONTESTS together with\n"
 "one or more friends.$"
 msgstr ""
+"欢迎！这里是宝可梦华丽大赛的\n"
+"连接报名处。\p"
+"你可以和一位或多位朋友\n"
+"一起参加华丽大赛。$"
 
 #: data/scripts/contest_hall.inc:1658
 msgctxt "LilycoveCity_ContestLobby_Text_WhichTopic2"
 msgid "Which topic would you like?$"
-msgstr ""
+msgstr "想了解哪方面的内容呢？$"
 
 #: data/scripts/contest_hall.inc:1661
 msgctxt "LilycoveCity_ContestLobby_Text_EnterContest3"
 msgid "Would you like to enter a CONTEST?$"
-msgstr ""
+msgstr "要参加华丽大赛吗？$"
 
 #: data/scripts/contest_hall.inc:1664
 msgctxt "LilycoveCity_ContestLobby_Text_EnterWhichContest3"
 msgid "Which CONTEST would you like to enter?$"
-msgstr ""
+msgstr "要参加哪种华丽大赛呢？$"
 
 #: data/scripts/contest_hall.inc:1667
 msgctxt "LilycoveCity_ContestLobby_Text_MonInNoCondition2"
@@ -468,6 +626,8 @@ msgid ""
 "Your POKéMON appears to be in no\n"
 "condition to take part in a CONTEST…$"
 msgstr ""
+"你的宝可梦好像\n"
+"没办法参加华丽大赛……$"
 
 #: data/scripts/contest_hall.inc:1671
 msgctxt "LilycoveCity_ContestLobby_Text_EggCannotTakePart2"
@@ -475,11 +635,13 @@ msgid ""
 "I'm sorry, but an EGG cannot take part\n"
 "in a POKéMON CONTEST.$"
 msgstr ""
+"抱歉，蛋是不能参加\n"
+"宝可梦华丽大赛的。$"
 
 #: data/scripts/contest_hall.inc:1675
 msgctxt "LilycoveCity_ContestLobby_Text_EnterWhichPokemon3"
 msgid "Which POKéMON would you like to enter?$"
-msgstr ""
+msgstr "要让哪只宝可梦参加呢？$"
 
 #: data/scripts/contest_hall.inc:1678
 msgctxt "LilycoveCity_ContestLobby_Text_PleaseDecideLinkLeader"
@@ -489,6 +651,9 @@ msgid ""
 "The other players must then choose\n"
 "“JOIN GROUP.”$"
 msgstr ""
+"请决定由谁来担任组长。\p"
+"其他玩家请选择\n"
+"“加入小组”。$"
 
 #: data/scripts/contest_hall.inc:1684
 msgctxt "LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode"
@@ -501,6 +666,13 @@ msgid ""
 "select G-MODE (GLOBAL MODE),\l"
 "then register to enter again, please.$"
 msgstr ""
+"有玩家是在4人报名处\n"
+"报名的。\p"
+"必须使用GBA连接线\n"
+"连接4名玩家。\p"
+"4名玩家准备好后，\n"
+"请选择G模式（全球模式），\l"
+"然后重新报名。$"
 
 #: data/scripts/contest_hall.inc:1693
 msgctxt "LilycoveCity_ContestLobby_Text_ExplainLinkContest"
@@ -525,6 +697,24 @@ msgid ""
 "After that, a CONTEST will start in\n"
 "the usual manner.$"
 msgstr ""
+"这是使用无线适配器或GBA连接线\n"
+"连接2～4名玩家参加的华丽大赛。\p"
+"参赛者首先要选择\n"
+"想要参加的模式。\p"
+"模式有两种。\p"
+"E模式（绿宝石模式）\n"
+"适用于2～4名持有\l"
+"《宝可梦 绿宝石》卡带的玩家。\p"
+"G模式（全球模式）只适用于\n"
+"4名持有《宝可梦 绿宝石》、\l"
+"《红宝石》或《蓝宝石》卡带的玩家。\p"
+"玩家们应该商量好要选哪个模式，\n"
+"然后选择相同的模式。\p"
+"所有玩家都在相同模式下\n"
+"选择了同一个华丽大赛后，\l"
+"报名就完成了。\p"
+"之后，华丽大赛就会\n"
+"按照平常的方式开始。$"
 
 #: data/scripts/contest_hall.inc:1714
 msgctxt "LilycoveCity_ContestLobby_Text_ExplainEMode"
@@ -542,6 +732,17 @@ msgid ""
 "Please be aware that E-MODE is not\n"
 "available in POKéMON Ruby or Sapphire.$"
 msgstr ""
+"在E模式（绿宝石模式）中，\n"
+"2～4名玩家可以举行\l"
+"连接华丽大赛。每位玩家都必须\l"
+"持有《宝可梦 绿宝石》卡带。\p"
+"玩家之间必须使用无线适配器\n"
+"或GBA连接线进行连接。\p"
+"如果玩家不足4名，\n"
+"会场里的训练家会加入，\l"
+"凑满4人参赛。\p"
+"请注意，《宝可梦 红宝石》和\n"
+"《蓝宝石》无法使用E模式。$"
 
 #: data/scripts/contest_hall.inc:1728
 msgctxt "LilycoveCity_ContestLobby_Text_ExplainGMode"
@@ -556,6 +757,16 @@ msgid ""
 "enter through the 4-player reception\l"
 "counter (POKéMON Ruby or Sapphire).$"
 msgstr ""
+"G模式（全球模式）专门用于\n"
+"使用GBA连接线连接的4名玩家。\p"
+"每位玩家都必须持有\n"
+"《宝可梦 绿宝石》、《红宝石》\l"
+"或《蓝宝石》的卡带。\p"
+"所有玩家都选择了G模式\n"
+"（《宝可梦 绿宝石》），或通过\l"
+"4人报名处报名（《红宝石》\l"
+"或《蓝宝石》）后，\l"
+"华丽大赛就会开始。$"
 
 #: data/scripts/contest_hall.inc:1739
 msgctxt "LilycoveCity_ContestLobby_Text_NoWirelessAdapterInGMode"
@@ -566,13 +777,18 @@ msgid ""
 "Please select E-MODE or try\n"
 "again using a GBA Game Link cable.$"
 msgstr ""
+"非常抱歉。\p"
+"G模式无法使用\n"
+"无线适配器。\p"
+"请选择E模式，或者\n"
+"使用GBA连接线再试一次。$"
 
 #: data/scripts/contest_hall.inc:1746
 msgctxt "LilycoveCity_ContestLobby_Text_WhichContestMode"
 msgid ""
 "Which CONTEST MODE would you like\n"
 "to enter?$"
-msgstr ""
+msgstr "要以哪种华丽大赛模式参加呢？$"
 
 #: data/scripts/contest_hall.inc:1750
 msgctxt "ContestHall_Text_GettingStartedWireless"
@@ -581,6 +797,9 @@ msgid ""
 "with a 4-player linked POKéMON\l"
 "{STR_VAR_2}!$"
 msgstr ""
+"主持人：大家好！4人连接的\n"
+"宝可梦{STR_VAR_2}\l"
+"现在开始了！$"
 
 #: data/scripts/contest_hall.inc:1755
 msgctxt "ContestHall_Text_ParticipantsAsFollows"
@@ -588,6 +807,8 @@ msgid ""
 "The participating TRAINERS and their\n"
 "POKéMON are as follows:$"
 msgstr ""
+"参赛的训练家和宝可梦\n"
+"介绍如下：$"
 
 #: data/scripts/contest_hall.inc:1759
 msgctxt "ContestHall_Text_WeveSeenContestants"
@@ -596,6 +817,9 @@ msgid ""
 "contestants.\p"
 "Now it's time for primary judging!$"
 msgstr ""
+"主持人：4只参赛的宝可梦\n"
+"已经全部登场了。\p"
+"接下来是第一轮审查！$"
 
 #: data/scripts/contest_hall.inc:1764
 msgctxt "ContestHall_Text_AudienceWillVote"
@@ -603,6 +827,8 @@ msgid ""
 "The audience will vote on their\n"
 "favorite POKéMON contestants.$"
 msgstr ""
+"观众将投票选出\n"
+"自己喜欢的参赛宝可梦。$"
 
 #: data/scripts/contest_hall.inc:1768
 msgctxt "ContestHall_Text_LetVotingBegin"
@@ -610,6 +836,8 @@ msgid ""
 "Without any further ado,\n"
 "let the voting begin!$"
 msgstr ""
+"事不宜迟，\n"
+"投票开始！$"
 
 #: data/scripts/contest_hall.inc:1772
 msgctxt "ContestHall_Text_VotingComplete"
@@ -618,6 +846,9 @@ msgid ""
 "While the votes are being tallied,\n"
 "let's move on to secondary judging!$"
 msgstr ""
+"投票结束了！\p"
+"在统计票数期间，\n"
+"让我们进入第二轮审查！$"
 
 #: data/scripts/contest_hall.inc:1777
 msgctxt "ContestHall_Text_SecondStageOfJudging"
@@ -627,6 +858,10 @@ msgid ""
 "May the contestants amaze us with\n"
 "superb appeals of dazzling moves!$"
 msgstr ""
+"第二轮审查就是\n"
+"大家期待已久的表演时间！\p"
+"希望参赛者们能用华丽的招式\n"
+"带来精彩的表演，让我们惊叹！$"
 
 #: data/scripts/contest_hall.inc:1783
 msgctxt "ContestHall_Text_LetsAppeal"
@@ -634,3 +869,5 @@ msgid ""
 "Let's see a little enthusiasm!\n"
 "Let's appeal!$"
 msgstr ""
+"让我们热情高涨起来吧！\n"
+"开始表演！$"

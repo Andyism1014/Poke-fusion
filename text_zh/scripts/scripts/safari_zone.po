@@ -10,7 +10,7 @@ msgctxt "SafariZone_Text_WouldYouLikeToExit"
 msgid ""
 "Would you like to exit the SAFARI\n"
 "ZONE right now?$"
-msgstr ""
+msgstr "要现在离开狩猎地带吗？$"
 
 #: data/scripts/safari_zone.inc:94
 msgctxt "SafariZone_Text_TimesUp"
@@ -18,6 +18,8 @@ msgid ""
 "Ding-dong! Time's up!\n"
 "Your SAFARI Game is over.$"
 msgstr ""
+"叮咚！时间到！\n"
+"狩猎游戏结束了。$"
 
 #: data/scripts/safari_zone.inc:98
 msgctxt "SafariZone_Text_OutOfBalls"
@@ -25,6 +27,8 @@ msgid ""
 "You've run out of SAFARI BALLS.\n"
 "Your SAFARI Game is over.$"
 msgstr ""
+"狩猎球已经用完了。\n"
+"狩猎游戏结束了。$"
 
 #: data/scripts/safari_zone.inc:102
 msgctxt "SafariZone_Text_PlacePokeblockOnFeeder"
@@ -32,6 +36,8 @@ msgid ""
 "Would you like to place a {POKEBLOCK}\n"
 "on the {POKEBLOCK} FEEDER?$"
 msgstr ""
+"要把宝可方块放到\n"
+"宝可方块投放器上吗？$"
 
 #: data/scripts/safari_zone.inc:106
 msgctxt "SafariZone_Text_PokeblockStillHere"
@@ -39,6 +45,8 @@ msgid ""
 "The {STR_VAR_1} you left\n"
 "before is still here.$"
 msgstr ""
+"之前放在这里的\n"
+"{STR_VAR_1}还在。$"
 
 #: data/scripts/safari_zone.inc:110
 msgctxt "SafariZone_Text_PokeblockWasPlaced"
@@ -46,6 +54,8 @@ msgid ""
 "The {STR_VAR_1} was placed\n"
 "on the {POKEBLOCK} FEEDER.$"
 msgstr ""
+"把{STR_VAR_1}放到了\n"
+"宝可方块投放器上。$"
 
 #: data/scripts/safari_zone.inc:114
 msgctxt "Route121_SafariZoneEntrance_Text_WelcomeToSafariZone"
@@ -61,6 +71,16 @@ msgid ""
 "for keeps!\p"
 "Come in and enjoy the SAFARI ZONE!$"
 msgstr ""
+"欢迎来到狩猎地带！\p"
+"在这里，你可以见到许多\n"
+"在丰缘地区很少见的宝可梦。\p"
+"而且，还能看到它们在自然环境中\n"
+"野性十足的样子。\p"
+"更棒的是，我们向宝可梦训练家\n"
+"敞开了大门。\p"
+"欢迎你把宝可梦\n"
+"捉回去哦！\p"
+"请进，尽情享受狩猎地带吧！$"
 
 #: data/scripts/safari_zone.inc:126
 msgctxt "Route121_SafariZoneEntrance_Text_WelcomeFirstTime"
@@ -68,11 +88,13 @@ msgid ""
 "Welcome to the SAFARI ZONE!\n"
 "Is it your first time here?$"
 msgstr ""
+"欢迎来到狩猎地带！\n"
+"你是第一次来这里吗？$"
 
 #: data/scripts/safari_zone.inc:130
 msgctxt "Route121_SafariZoneEntrance_Text_ComeInAndEnjoy"
 msgid "Come in and enjoy the SAFARI ZONE!$"
-msgstr ""
+msgstr "请进，尽情享受狩猎地带吧！$"
 
 #: data/scripts/safari_zone.inc:133
 msgctxt "Route121_SafariZoneEntrance_Text_FirstTimeInfo"
@@ -85,6 +107,11 @@ msgid ""
 "walked 500 steps.\p"
 "Come in and enjoy the SAFARI ZONE!$"
 msgstr ""
+"进入狩猎地带时，你会得到\n"
+"30个用来捕捉宝可梦的狩猎球。\p"
+"当狩猎球用完，或者走满\n"
+"500步时，狩猎游戏就结束了。\p"
+"请进，尽情享受狩猎地带吧！$"
 
 #: data/scripts/safari_zone.inc:142
 msgctxt "Route121_SafariZoneEntrance_Text_WouldYouLikeToPlay"
@@ -93,6 +120,9 @@ msgid ""
 "All you can catch for just ¥500!\n"
 "Would you like to play a SAFARI Game?$"
 msgstr ""
+"欢迎来到狩猎地带！\p"
+"只要¥500，就能尽情捕捉！\n"
+"要玩狩猎游戏吗？$"
 
 #: data/scripts/safari_zone.inc:147
 msgctxt "Route121_SafariZoneEntrance_Text_PlayAnotherTime"
@@ -100,6 +130,8 @@ msgid ""
 "Okay.\n"
 "Please play another time!$"
 msgstr ""
+"好的。\n"
+"欢迎下次再来玩！$"
 
 #: data/scripts/safari_zone.inc:151
 msgctxt "Route121_SafariZoneEntrance_Text_NotEnoughMoney"
@@ -107,21 +139,23 @@ msgid ""
 "You don't have enough money.\n"
 "Sorry.$"
 msgstr ""
+"你的钱不够。\n"
+"真抱歉。$"
 
 #: data/scripts/safari_zone.inc:155
 msgctxt "Route121_SafariZoneEntrance_Text_ThatWillBe500Please"
 msgid "That will be ¥500, please.$"
-msgstr ""
+msgstr "请支付¥500。$"
 
 #: data/scripts/safari_zone.inc:158
 msgctxt "Route121_SafariZoneEntrance_Text_HereAreYourSafariBalls"
 msgid "Here are your SAFARI BALLS.$"
-msgstr ""
+msgstr "这是你的狩猎球。$"
 
 #: data/scripts/safari_zone.inc:161
 msgctxt "Route121_SafariZoneEntrance_Text_Received30SafariBalls"
 msgid "{PLAYER} received 30 SAFARI BALLS.$"
-msgstr ""
+msgstr "{PLAYER}得到了30个狩猎球。$"
 
 #: data/scripts/safari_zone.inc:164
 msgctxt "Route121_SafariZoneEntrance_Text_PleaseEnjoyYourself"
@@ -131,6 +165,9 @@ msgid ""
 "So, until then, enjoy yourself, please!\n"
 "Off you go on your wild excursion!$"
 msgstr ""
+"游戏结束时我们会通知你。\p"
+"在那之前，请尽情享受吧！\n"
+"出发去野外探险吧！$"
 
 #: data/scripts/safari_zone.inc:170
 msgctxt "Route121_SafariZoneEntrance_Text_PCIsFull"
@@ -138,6 +175,8 @@ msgid ""
 "Excuse me!\n"
 "Your PC BOX is full.$"
 msgstr ""
+"不好意思！\n"
+"你电脑里的盒子已经满了。$"
 
 #: data/scripts/safari_zone.inc:174
 msgctxt "Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase"
@@ -150,6 +189,13 @@ msgid ""
 "You may obtain a {POKEBLOCK} CASE from\n"
 "the LILYCOVE CONTEST HALL.$"
 msgstr ""
+"不好意思！\n"
+"你好像没有宝可方块盒。\p"
+"如果使用宝可方块，\n"
+"狩猎游戏会更有收获。\p"
+"请带上宝可方块盒再来吧。\p"
+"宝可方块盒可以在\n"
+"水静市的华丽大赛会场获得。$"
 
 #: data/scripts/safari_zone.inc:183
 msgctxt "SafariZone_South_Text_StillHaveTimeExit"
@@ -157,6 +203,8 @@ msgid ""
 "You still have time left. Would you like\n"
 "to exit the SAFARI ZONE now?$"
 msgstr ""
+"你还有剩余时间。\n"
+"要现在离开狩猎地带吗？$"
 
 #: data/scripts/safari_zone.inc:187
 msgctxt "SafariZone_South_Text_EnjoyTheRestOfYourAdventure"
@@ -164,6 +212,8 @@ msgid ""
 "Please enjoy the rest of your wild\n"
 "adventure!$"
 msgstr ""
+"请继续享受\n"
+"野外探险吧！$"
 
 #: data/scripts/safari_zone.inc:191
 msgctxt "SafariZone_South_Text_ExitEarlyThankYouForPlaying"
@@ -174,6 +224,10 @@ msgid ""
 "Thank you for playing.\n"
 "We hope to see you again.$"
 msgstr ""
+"好的。\p"
+"我会收回你剩下的狩猎球。\p"
+"感谢你的参与。\n"
+"期待你再次光临。$"
 
 #: data/scripts/safari_zone.inc:198
 msgctxt "SafariZone_South_Text_GoodLuck"
@@ -182,6 +236,9 @@ msgid ""
 "If you need anything, don't hesitate\n"
 "to tell me, please!$"
 msgstr ""
+"祝你好运！\p"
+"如果有什么需要，\n"
+"请尽管告诉我！$"
 
 #: data/scripts/safari_zone.inc:203
 msgctxt "SafariZone_South_Text_Boy"
@@ -190,6 +247,9 @@ msgid ""
 "If you put a {POKEBLOCK} in that square box,\n"
 "POKéMON gather around.$"
 msgstr ""
+"你知道吗？\p"
+"如果把宝可方块放进那个方盒子里，\n"
+"宝可梦就会聚集过来。$"
 
 #: data/scripts/safari_zone.inc:208
 msgctxt "SafariZone_South_Text_Man"
@@ -199,6 +259,10 @@ msgid ""
 "Something tells me that rare POKéMON\n"
 "live in the outlying areas.$"
 msgstr ""
+"我想继续往深处走，\n"
+"可是忘了带自行车。\p"
+"我总觉得稀有的宝可梦\n"
+"住在偏远的地方。$"
 
 #: data/scripts/safari_zone.inc:214
 msgctxt "SafariZone_Southwest_Text_Woman"
@@ -208,6 +272,10 @@ msgid ""
 "Do POKéMON have likes and dislikes\n"
 "about what they eat?$"
 msgstr ""
+"有时我把宝可方块扔给宝可梦，\n"
+"它却理都不理。\p"
+"宝可梦对食物\n"
+"也有喜好和厌恶吗？$"
 
 #: data/scripts/safari_zone.inc:220
 msgctxt "SafariZone_Northwest_Text_Man"
@@ -217,6 +285,10 @@ msgid ""
 "I'm exhausted… I don't have the\n"
 "energy to catch POKéMON…$"
 msgstr ""
+"呼……呼……\n"
+"我……总算……走到这里了……\p"
+"我累坏了……\n"
+"已经没力气捉宝可梦了……$"
 
 #: data/scripts/safari_zone.inc:226
 msgctxt "SafariZone_North_Text_Fisherman"
@@ -225,6 +297,9 @@ msgid ""
 "you don't see in HOENN.\p"
 "Do you have any idea where the lake is?$"
 msgstr ""
+"我的任务是找到在丰缘地区\n"
+"见不到的水属性宝可梦。\p"
+"你知道湖在哪里吗？$"
 
 #: data/scripts/safari_zone.inc:231
 msgctxt "SafariZone_North_Text_Man"
@@ -232,6 +307,8 @@ msgid ""
 "I'm going to catch a lot of rare POKéMON\n"
 "here and trade them with my friends!$"
 msgstr ""
+"我要在这里捉很多稀有的宝可梦，\n"
+"然后和朋友们交换！$"
 
 #: data/scripts/safari_zone.inc:235
 msgctxt "SafariZone_South_Text_Youngster"
@@ -241,6 +318,10 @@ msgid ""
 "I guess POKéMON must have eaten it\n"
 "without me noticing.$"
 msgstr ""
+"我把宝可方块放在了投放器上，\n"
+"可它好像不见了。\p"
+"应该是被宝可梦\n"
+"趁我不注意吃掉了吧。$"
 
 #: data/scripts/safari_zone.inc:241
 msgctxt "Route121_SafariZoneEntrance_Text_TrainerTip"
@@ -249,6 +330,9 @@ msgid ""
 "Throw {POKEBLOCK}S at wild POKéMON to make\n"
 "them less likely to flee.$"
 msgstr ""
+"狩猎地带训练家小提示！\p"
+"向野生宝可梦扔宝可方块，\n"
+"可以让它们不容易逃走。$"
 
 #: data/scripts/safari_zone.inc:246
 msgctxt "SafariZone_Southwest_Text_RestHouseSign"
@@ -256,6 +340,8 @@ msgid ""
 "“Relieve your tired feet.”\n"
 "REST HOUSE$"
 msgstr ""
+"“让疲惫的双脚休息一下。”\n"
+"休息小屋$"
 
 #: data/scripts/safari_zone.inc:250
 msgctxt "SafariZone_RestHouse_Text_Youngster"
@@ -266,6 +352,11 @@ msgid ""
 "a catch by getting closer to them\l"
 "before throwing a SAFARI BALL.$"
 msgstr ""
+"我一个宝可方块都没有，\n"
+"不过还是捉到了不少宝可梦。\p"
+"在扔出狩猎球之前\n"
+"先靠近一点，\l"
+"就能提高捕获的几率。$"
 
 #: data/scripts/safari_zone.inc:257
 msgctxt "SafariZone_RestHouse_Text_PsychicM"
@@ -275,6 +366,10 @@ msgid ""
 "It's not much use to give {POKEBLOCK}S to\n"
 "POKéMON that don't flee easily.$"
 msgstr ""
+"使用宝可方块的话，\n"
+"野生宝可梦就不会那么快逃走。\p"
+"不过对不容易逃走的宝可梦\n"
+"使用宝可方块就没什么用了。$"
 
 #: data/scripts/safari_zone.inc:263
 msgctxt "SafariZone_RestHouse_Text_FatMan"
@@ -284,6 +379,10 @@ msgid ""
 "I think POKéMON with the same sort of\n"
 "nature are drawn by a certain {POKEBLOCK}.$"
 msgstr ""
+"把宝可方块放在投放器上，\n"
+"就能吸引宝可梦过来。\p"
+"我觉得同一类性格的宝可梦\n"
+"会被某种宝可方块吸引。$"
 
 #: data/scripts/safari_zone.inc:269
 msgctxt "SafariZone_South_Text_AreaOffLimits1"
@@ -291,6 +390,8 @@ msgid ""
 "This area is still under construction.\n"
 "It's off-limits, sorry!$"
 msgstr ""
+"这个区域还在施工中。\n"
+"禁止进入，抱歉！$"
 
 #: data/scripts/safari_zone.inc:273
 msgctxt "SafariZone_Southeast_Text_ExpansionIsFinished"
@@ -299,6 +400,9 @@ msgid ""
 "is finished now.\p"
 "We hope you will enjoy the new area.$"
 msgstr ""
+"狩猎地带的扩建工程\n"
+"现在已经完成了。\p"
+"希望你能享受新区域。$"
 
 #: data/scripts/safari_zone.inc:278
 msgctxt "SafariZone_South_Text_AreaOffLimits2"
@@ -306,6 +410,8 @@ msgid ""
 "This area is still under construction.\n"
 "It's off-limits, sorry!$"
 msgstr ""
+"这个区域还在施工中。\n"
+"禁止进入，抱歉！$"
 
 #: data/scripts/safari_zone.inc:282
 msgctxt "SafariZone_Southeast_Text_LittleGirl"
@@ -313,6 +419,8 @@ msgid ""
 "Wow! Whee! I haven't seen any of\n"
 "these POKéMON before!$"
 msgstr ""
+"哇！哇哦！这些宝可梦\n"
+"我以前一个都没见过！$"
 
 #: data/scripts/safari_zone.inc:286
 msgctxt "SafariZone_Southeast_Text_FatMan"
@@ -322,6 +430,10 @@ msgid ""
 "And I'm allowed to catch these rare\n"
 "POKéMON! Too cool!$"
 msgstr ""
+"这个区域的宝可梦\n"
+"对我来说全都很新奇。\p"
+"而且还可以捕捉这些\n"
+"稀有的宝可梦！太酷了！$"
 
 #: data/scripts/safari_zone.inc:292
 msgctxt "SafariZone_Southeast_Text_RichBoy"
@@ -329,6 +441,8 @@ msgid ""
 "The POKéMON around here seem to be\n"
 "from somewhere other than HOENN.$"
 msgstr ""
+"这附近的宝可梦好像都来自\n"
+"丰缘地区以外的地方。$"
 
 #: data/scripts/safari_zone.inc:296
 msgctxt "SafariZone_Northeast_Text_Boy"
@@ -337,6 +451,9 @@ msgid ""
 "I'm having a hard time trying to\n"
 "decide what I should catch.$"
 msgstr ""
+"我只剩几个狩猎球了。\p"
+"我正在犹豫\n"
+"到底该捉哪只才好。$"
 
 #: data/scripts/safari_zone.inc:301
 msgctxt "SafariZone_Northeast_Text_Woman"
@@ -344,6 +461,8 @@ msgid ""
 "I heard that you can see PIKACHU here.\n"
 "Where might one be?$"
 msgstr ""
+"听说在这里能见到皮卡丘。\n"
+"它会在哪里呢？$"
 
 #: data/scripts/safari_zone.inc:305
 msgctxt "SafariZone_Northeast_Text_Girl"
@@ -353,3 +472,7 @@ msgid ""
 "I'll end up wasting the admission\n"
 "price if I don't catch something!$"
 msgstr ""
+"哎呀，真扫兴！\n"
+"我什么都捉不到！\p"
+"要是什么都没捉到，\n"
+"门票钱就白花了！$"
