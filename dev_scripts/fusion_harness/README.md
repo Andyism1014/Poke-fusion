@@ -17,6 +17,7 @@
 | `tap KEYS [COUNT] [GAP=10]` | 连按 COUNT 次，每次间隔 GAP 帧 |
 | `shot NAME` | 截图到 `OUT_DIR/NAME.png` |
 | `savestate NAME` / `loadstate NAME` | 保存 / 读取即时存档 |
+| `savefile NAME` | 把卡带存档（flash）写到 `OUTDIR/NAME.sav`，之后可用 `--sav` 读入，跨 ROM 版本也能用 |
 | `read SYM`、`write SYM VALUE` | 读写内存（符号取自 ROM 旁边的 `.elf`） |
 
 ## 炼妖终端的回归流程

@@ -120,6 +120,9 @@ EventScript_FusionTower_Floor:
 	msgbox Fusion_Text_TowerFloorIntro, MSGBOX_DEFAULT
 	closemessage
 	callnative Fusion_ScriptTowerStartBattle
+	goto_if_eq VAR_0x8004, FALSE, EventScript_FusionTower_AfterBattle
+	waitstate
+EventScript_FusionTower_AfterBattle:
 	callnative Fusion_ScriptTowerAfterBattle
 	goto_if_eq VAR_RESULT, FALSE, EventScript_FusionTower_Lost
 	msgbox Fusion_Text_TowerCleared, MSGBOX_DEFAULT

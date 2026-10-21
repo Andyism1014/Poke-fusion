@@ -25,6 +25,7 @@
 #define FUSION_TOWER_BOSS_INTERVAL          10   // Every Nth floor is a boss with a full team.
 #define FUSION_TOWER_FLOORS_PER_PASSIVE     6    // Opponents gain a passive every N floors (max 3).
 #define FUSION_TOWER_MAX_SHARDS             9999
+#define FUSION_TOWER_FULLY_EVOLVED_LEVEL    36   // Opponents at this level or above are fully evolved.
 
 // Reincarnation (New Game+)
 #define FUSION_REINCARNATION_LEVEL          5    // Carried-over Pokémon restart at this level.

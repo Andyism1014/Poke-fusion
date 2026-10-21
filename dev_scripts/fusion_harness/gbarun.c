@@ -107,6 +107,20 @@ static void saveState(int line, const char* name) {
 	printf("frame %lu: savestate %s\n", frames, path);
 }
 
+// Writes the cartridge save (flash/SRAM) to OUTDIR/NAME.sav, loadable later with --sav.
+static void saveFile(int line, const char* name) {
+	const char* path = outPath(name, ".sav");
+	void* data = NULL;
+	size_t size = core->savedataClone(core, &data);
+	if (!size || !data) die(line, "no save data");
+	struct VFile* vf = VFileOpen(path, O_CREAT | O_TRUNC | O_RDWR);
+	if (!vf) die(line, "cannot open %s", path);
+	vf->write(vf, data, size);
+	vf->close(vf);
+	free(data);
+	printf("frame %lu: savefile %s (%zu bytes)\n", frames, path, size);
+}
+
 static void loadState(int line, const char* path) {
 	struct VFile* vf = VFileOpen(path, O_RDONLY);
 	if (!vf) die(line, "cannot open state %s", path);
@@ -244,6 +258,9 @@ int main(int argc, char** argv) {
 		} else if (!strcasecmp(cmd, "savestate")) {
 			if (nt < 2) die(ln, "savestate NAME");
 			saveState(ln, tok[1]);
+		} else if (!strcasecmp(cmd, "savefile")) {
+			if (nt < 2) die(ln, "savefile NAME");
+			saveFile(ln, tok[1]);
 		} else if (!strcasecmp(cmd, "loadstate")) {
 			if (nt < 2) die(ln, "loadstate NAME|PATH");
 			struct stat st;

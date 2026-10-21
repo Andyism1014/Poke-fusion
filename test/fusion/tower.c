@@ -77,3 +77,14 @@ TEST("Fusion Tower: opponents never Dynamax or Terastallize")
         EXPECT_EQ(GetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_TERA_TYPE), TYPE_MYSTERY);
     }
 }
+
+TEST("Fusion Tower: high-level opponents are fully evolved")
+{
+    GivePlayerMon(80);
+    Fusion_BuildTowerFloor(1, 77);
+    for (u32 i = 0; i < Fusion_GetTowerPartySize(1); i++)
+    {
+        const struct Evolution *evolutions = GetSpeciesEvolutions(GetMonData(&gParties[B_TRAINER_OPPONENT_A][i], MON_DATA_SPECIES));
+        EXPECT(evolutions == NULL || evolutions[0].method == EVOLUTIONS_END);
+    }
+}

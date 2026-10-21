@@ -96,16 +96,25 @@ u32 Fusion_GetTowerPartySize(u32 floor)
     return min(3 + floor / 5, PARTY_SIZE);
 }
 
-// Strong, fully evolved species for later floors; anything that can appear in the wild.
-static enum Species RollTowerSpecies(u32 floor, rng_value_t *rng)
+static bool32 CanEvolve(enum Species species)
+{
+    const struct Evolution *evolutions = GetSpeciesEvolutions(species);
+
+    return evolutions != NULL && evolutions[0].method != EVOLUTIONS_END;
+}
+
+// Anything that can appear in the wild, stronger on later floors. High-level opponents are
+// fully evolved, as a trainer's team would be.
+static enum Species RollTowerSpecies(u32 floor, u32 level, rng_value_t *rng)
 {
     u32 minBst = min(300 + floor * 10, IsBossFloor(floor) ? 540 : 500);
 
-    for (u32 tries = 0; tries < 200; tries++)
+    for (u32 tries = 0; tries < 400; tries++)
     {
         enum Species species = 1 + LocalRandom32(rng) % (NUM_SPECIES - 1);
 
-        if (Fusion_CanAppearAsRandomWild(species) && GetSpeciesBaseStatTotal(species) >= minBst)
+        if (Fusion_CanAppearAsRandomWild(species) && GetSpeciesBaseStatTotal(species) >= minBst
+         && (level < FUSION_TOWER_FULLY_EVOLVED_LEVEL || !CanEvolve(species)))
             return species;
     }
     return SPECIES_GARCHOMP;
@@ -114,7 +123,7 @@ static enum Species RollTowerSpecies(u32 floor, rng_value_t *rng)
 static void CreateTowerMon(struct Pokemon *mon, u32 floor, u32 level, rng_value_t *rng)
 {
     struct FusionGenetics genetics = {0};
-    enum Species species = RollTowerSpecies(floor, rng);
+    enum Species species = RollTowerSpecies(floor, level, rng);
     u32 minIv = min(floor, MAX_PER_STAT_IVS);
     u32 passives = min(FUSION_MAX_PASSIVES, floor / FUSION_TOWER_FLOORS_PER_PASSIVE + (IsBossFloor(floor) ? 1 : 0));
 
@@ -231,14 +240,19 @@ void Fusion_ScriptTowerPrepareFloor(void)
     ConvertIntToDecimalStringN(gStringVar3, Fusion_GetTowerPartySize(floor), STR_CONV_MODE_LEFT_ALIGN, 1);
 }
 
-// Starts the battle prepared by Fusion_ScriptTowerPrepareFloor. The script resumes after it.
+// Starts the battle prepared by Fusion_ScriptTowerPrepareFloor. VAR_0x8004: TRUE if a battle
+// was started, so the script must `waitstate` until it ends (it then resumes with VAR_RESULT
+// set by CB2_EndFusionTowerBattle).
 void Fusion_ScriptTowerStartBattle(void)
 {
+    gSpecialVar_Result = FALSE;
+    gSpecialVar_0x8004 = FALSE;
     if (DEBUG_OVERWORLD_MENU && gFusionDebugTowerAutoWin)
     {
         gSpecialVar_Result = TRUE;
         return;
     }
+    gSpecialVar_0x8004 = TRUE;
     gFusionTowerBattle = TRUE;
     gBattleTypeFlags = BATTLE_TYPE_TRAINER;
     BattleSetup_StartFusionTowerBattle(IsBossFloor(NextFloor()) ? MUS_VS_CHAMPION : MUS_VS_TRAINER);
