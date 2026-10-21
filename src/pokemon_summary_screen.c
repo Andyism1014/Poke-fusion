@@ -169,6 +169,8 @@ static EWRAM_DATA struct PokemonSummaryScreenData
         u8 mintNature;
         enum Type thirdType; // Fusion: TYPE_NONE if none.
         enum Ability ability; // Fusion: honors the cross-species main ability.
+        enum Ability passives[FUSION_MAX_PASSIVES]; // Fusion: filled slots only, in order.
+        u8 passiveCount;
     } summary;
     u16 bgTilemapBuffers[PSS_PAGE_COUNT][2][0x400];
     u8 mode;
@@ -191,6 +193,7 @@ static EWRAM_DATA struct PokemonSummaryScreenData
     s16 switchCounter; // Used for various switch statement cases that decompress/load graphics or Pokémon data
     u8 unk_filler4[6];
     u8 categoryIconSpriteId;
+    u8 abilityViewIndex; // Fusion: ability shown on the Info page, 0 = main ability, N = passive N.
 } *sMonSummaryScreen = NULL;
 
 EWRAM_DATA u8 gLastViewedMonIndex = 0;
@@ -263,6 +266,7 @@ static void PrintMonOTName(void);
 static void PrintMonOTID(void);
 static void PrintMonAbilityName(void);
 static void PrintMonAbilityDescription(void);
+static void CycleAbilityView(void);
 static void BufferMonTrainerMemo(void);
 static void PrintMonTrainerMemo(void);
 static void BufferNatureString(void);
@@ -774,6 +778,9 @@ static const u8 sText_Relearn[] = _("{START_BUTTON} RELEARN"); // future note: d
 
 static const u8 sMemoNatureTextColor[] = _("{COLOR LIGHT_RED}{SHADOW GREEN}");
 static const u8 sMemoMiscTextColor[] = _("{COLOR WHITE}{SHADOW DARK_GRAY}"); // This is also affected by palettes, apparently
+static const u8 sText_PassiveCount[] = _("{SELECT_BUTTON}+{STR_VAR_1}");
+static const u8 sText_PassiveCycle[] = _("{SELECT_BUTTON}");
+static const u8 sText_PassiveLabel[] = _("Passive {STR_VAR_1}: ");
 static const u8 sStatsLeftColumnLayout[] = _("{DYNAMIC 0}/{DYNAMIC 1}\n{DYNAMIC 2}\n{DYNAMIC 3}");
 static const u8 sStatsLeftIVEVColumnLayout[] = _("{DYNAMIC 0}\n{DYNAMIC 1}\n{DYNAMIC 2}");
 static const u8 sStatsRightColumnLayout[] = _("{DYNAMIC 0}\n{DYNAMIC 1}\n{DYNAMIC 2}");
@@ -1525,6 +1532,7 @@ static bool8 ExtractMonDataToSummaryStruct(struct Pokemon *mon)
 {
     u32 i;
     struct PokeSummary *sum = &sMonSummaryScreen->summary;
+    enum Ability passives[FUSION_MAX_PASSIVES];
     // Spread the data extraction over multiple frames.
     switch (sMonSummaryScreen->switchCounter)
     {
@@ -1571,6 +1579,14 @@ static bool8 ExtractMonDataToSummaryStruct(struct Pokemon *mon)
         sum->teraType = GetMonData(mon, MON_DATA_TERA_TYPE);
         sum->thirdType = Fusion_GetBoxMonThirdType(&mon->box);
         sum->ability = GetMonAbility(mon);
+        Fusion_GetMonPassives(mon, passives);
+        sum->passiveCount = 0;
+        for (i = 0; i < FUSION_MAX_PASSIVES; i++)
+        {
+            if (passives[i] != ABILITY_NONE)
+                sum->passives[sum->passiveCount++] = passives[i];
+        }
+        sMonSummaryScreen->abilityViewIndex = 0;
         sum->isShiny = GetMonData(mon, MON_DATA_IS_SHINY);
         return TRUE;
     }
@@ -1806,6 +1822,12 @@ static void Task_HandleInput(u8 taskId)
             StopPokemonAnimations();
             PlaySE(SE_SELECT);
             BeginCloseSummaryScreen(taskId);
+        }
+        else if (JOY_NEW(SELECT_BUTTON) && sMonSummaryScreen->currPageIndex == PSS_PAGE_INFO
+              && !sMonSummaryScreen->summary.isEgg && sMonSummaryScreen->summary.passiveCount != 0)
+        {
+            PlaySE(SE_SELECT);
+            CycleAbilityView();
         }
         else if (DEBUG_POKEMON_SPRITE_VISUALIZER && JOY_NEW(SELECT_BUTTON) && !gMain.inBattle)
         {
@@ -2160,6 +2182,7 @@ static void ChangePage(u8 taskId, s8 delta)
 
     PlaySE(SE_SELECT);
     ClearPageWindowTilemaps(sMonSummaryScreen->currPageIndex);
+    sMonSummaryScreen->abilityViewIndex = 0;
     currPageIndex = sMonSummaryScreen->currPageIndex += delta;
     data[0] = 0;
     if (delta == 1)
@@ -3529,16 +3552,62 @@ static void PrintMonOTID(void)
     }
 }
 
+static enum Ability GetShownAbility(void)
+{
+    if (sMonSummaryScreen->abilityViewIndex == 0)
+        return sMonSummaryScreen->summary.ability;
+    return sMonSummaryScreen->summary.passives[sMonSummaryScreen->abilityViewIndex - 1];
+}
+
+// Fusion: with passives, the ability line becomes "[Passive N: ]Name" plus a SELECT hint on the right.
 static void PrintMonAbilityName(void)
 {
-    enum Ability ability = sMonSummaryScreen->summary.ability;
-    PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), gAbilitiesInfo[ability].name, 0, 1, 0, 1);
+    struct PokeSummary *sum = &sMonSummaryScreen->summary;
+    u32 windowId = AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY);
+    u32 viewIndex = sMonSummaryScreen->abilityViewIndex;
+    u32 x = 0, hintX;
+    u8 text[24];
+
+    if (sum->passiveCount == 0)
+    {
+        PrintTextOnWindow(windowId, gAbilitiesInfo[sum->ability].name, 0, 1, 0, 1);
+        return;
+    }
+
+    if (viewIndex == 0)
+    {
+        ConvertIntToDecimalStringN(gStringVar1, sum->passiveCount, STR_CONV_MODE_LEFT_ALIGN, 1);
+        StringExpandPlaceholders(text, sText_PassiveCount);
+    }
+    else
+    {
+        StringCopy(text, sText_PassiveCycle);
+    }
+    hintX = GetStringRightAlignXOffset(FONT_NORMAL, text, WindowWidthPx(windowId));
+    PrintTextOnWindow(windowId, text, hintX, 1, 0, 5);
+
+    if (viewIndex != 0)
+    {
+        ConvertIntToDecimalStringN(gStringVar1, viewIndex, STR_CONV_MODE_LEFT_ALIGN, 1);
+        StringExpandPlaceholders(text, sText_PassiveLabel);
+        PrintTextOnWindow(windowId, text, 0, 1, 0, 5);
+        x = GetStringWidth(FONT_NORMAL, text, 0);
+    }
+    PrintTextOnWindowToFitPx(windowId, gAbilitiesInfo[GetShownAbility()].name, x, 1, 0, 1, hintX - x - 2);
 }
 
 static void PrintMonAbilityDescription(void)
 {
-    enum Ability ability = sMonSummaryScreen->summary.ability;
+    enum Ability ability = GetShownAbility();
     PrintTextOnWindowToFit(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), gAbilitiesInfo[ability].description, 0, 17, 0, 0);
+}
+
+static void CycleAbilityView(void)
+{
+    sMonSummaryScreen->abilityViewIndex = (sMonSummaryScreen->abilityViewIndex + 1) % (sMonSummaryScreen->summary.passiveCount + 1);
+    FillWindowPixelBuffer(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), PIXEL_FILL(0));
+    PrintMonAbilityName();
+    PrintMonAbilityDescription();
 }
 
 static void BufferMonTrainerMemo(void)

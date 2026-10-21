@@ -527,6 +527,21 @@ TEST("Ability names fit on Pokemon Summary Screen")
     EXPECT_LE(GetStringWidth(fontId, gAbilitiesInfo[ability].name, 0), widthPx);
 }
 
+TEST("Passive ability names fit on Pokemon Summary Screen")
+{
+    u32 i;
+    const u32 fontId = FONT_NARROWER;
+    const u32 widthPx = 144 - 2
+                      - GetStringWidth(FONT_NORMAL, COMPOUND_STRING("Passive 3: "), 0)
+                      - GetStringWidth(FONT_NORMAL, COMPOUND_STRING("{SELECT_BUTTON}"), 0);
+    enum Ability ability = ABILITY_NONE;
+    for (i = 1; i < ABILITIES_COUNT; i++)
+    {
+        PARAMETRIZE_LABEL("%S", gAbilitiesInfo[i].name) { ability = i; }
+    }
+    EXPECT_LE(GetStringWidth(fontId, gAbilitiesInfo[ability].name, 0), widthPx);
+}
+
 TEST("Ability names fit on Ability Pop-Up")
 {
     u32 i;
