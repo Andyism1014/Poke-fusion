@@ -13,7 +13,7 @@ msgstr ""
 msgid "  A rare find!"
 msgstr ""
 
-#: src/fusion/fusion_capture.c:141 src/fusion/fusion_ui.c:128
+#: src/fusion/fusion_capture.c:141 src/fusion/fusion_ui.c:129
 msgid "Passive: "
 msgstr ""
 

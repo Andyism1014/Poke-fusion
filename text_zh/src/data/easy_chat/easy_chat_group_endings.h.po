@@ -165,11 +165,11 @@ msgstr ""
 msgid "FOR"
 msgstr ""
 
-#: src/data/easy_chat/easy_chat_group_endings.h:268 src/fusion/fusion_ui.c:831
+#: src/data/easy_chat/easy_chat_group_endings.h:268 src/fusion/fusion_ui.c:1016
 msgid "ON"
 msgstr ""
 
-#: src/data/easy_chat/easy_chat_group_endings.h:274 src/fusion/fusion_ui.c:832
+#: src/data/easy_chat/easy_chat_group_endings.h:274 src/fusion/fusion_ui.c:1017
 msgid "OFF"
 msgstr ""
 

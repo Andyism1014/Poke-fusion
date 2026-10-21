@@ -272,7 +272,7 @@ msgstr ""
 msgid "!"
 msgstr ""
 
-#: src/battle_message.c:150 src/pokedex_plus_hgss.c:63 src/strings.c:181 src/strings.c:310
+#: src/battle_message.c:150 src/pokedex_plus_hgss.c:63 src/strings.c:181 src/strings.c:310 src/fusion/fusion_ui.c:636
 msgid "HP"
 msgstr ""
 
@@ -3244,7 +3244,7 @@ msgstr ""
 msgid "{ESCAPE 4}"
 msgstr ""
 
-#: src/battle_message.c:1491 src/pokedex_plus_hgss.c:108 src/strings.c:78 src/strings.c:924 src/data/moves_info.h:27 src/data/easy_chat/easy_chat_group_voices.h:46 src/fusion/fusion_ui.c:123
+#: src/battle_message.c:1491 src/pokedex_plus_hgss.c:108 src/strings.c:78 src/strings.c:924 src/data/moves_info.h:27 src/data/easy_chat/easy_chat_group_voices.h:46 src/fusion/fusion_ui.c:124
 msgid "-"
 msgstr ""
 
@@ -3288,7 +3288,7 @@ msgstr ""
 msgid " and "
 msgstr ""
 
-#: src/battle_message.c:1502 src/pokedex_plus_hgss.c:3693 src/pokedex_plus_hgss.c:3924 src/fusion/fusion_ui.c:125
+#: src/battle_message.c:1502 src/pokedex_plus_hgss.c:3693 src/pokedex_plus_hgss.c:3924 src/fusion/fusion_ui.c:126
 msgid ", "
 msgstr ""
 

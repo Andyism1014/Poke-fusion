@@ -5,170 +5,174 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
-#: src/fusion/fusion_ui.c:118
+#: src/fusion/fusion_ui.c:119
 msgid "Party"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:119
+#: src/fusion/fusion_ui.c:120
 msgid "Lv"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:120
+#: src/fusion/fusion_ui.c:121
 msgid "IV"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:121
+#: src/fusion/fusion_ui.c:122
 msgid "P"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:122
+#: src/fusion/fusion_ui.c:123
 msgid "+T"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:124
+#: src/fusion/fusion_ui.c:125
 msgid " / "
 msgstr ""
 
-#: src/fusion/fusion_ui.c:126
+#: src/fusion/fusion_ui.c:127
 msgid " or "
 msgstr ""
 
-#: src/fusion/fusion_ui.c:127
+#: src/fusion/fusion_ability_panel.c:17 src/fusion/fusion_ui.c:128
 msgid "Ability: "
 msgstr ""
 
-#: src/fusion/fusion_ui.c:129
+#: src/fusion/fusion_ui.c:130
 msgid "Passives: "
 msgstr ""
 
-#: src/fusion/fusion_ui.c:130
+#: src/fusion/fusion_ui.c:131
 msgid "none"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:131
+#: src/fusion/fusion_ui.c:132
 msgid "{A_BUTTON} Open  {B_BUTTON} Back"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:132
+#: src/fusion/fusion_ui.c:133
 msgid "{A_BUTTON} Pick  {L_BUTTON}{R_BUTTON} Box  {SELECT_BUTTON} Sort"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:589
+#: src/fusion/fusion_ui.c:597
 msgid "{STR_VAR_1}  Lv{STR_VAR_2}"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:590
+#: src/fusion/fusion_ui.c:598
 msgid "Fusion gen {STR_VAR_1}"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:591
-msgid "{STR_VAR_1} nature    IVs {STR_VAR_2}/186"
-msgstr ""
-
-#: src/fusion/fusion_ui.c:592
-msgid "HP {STR_VAR_1}"
-msgstr ""
-
-#: src/fusion/fusion_ui.c:593
-msgid "  Atk "
-msgstr ""
-
-#: src/fusion/fusion_ui.c:594
-msgid "  Def "
-msgstr ""
-
-#: src/fusion/fusion_ui.c:595
-msgid "  SpA "
-msgstr ""
-
-#: src/fusion/fusion_ui.c:596
-msgid "  SpD "
-msgstr ""
-
-#: src/fusion/fusion_ui.c:597
-msgid "  Spe "
-msgstr ""
-
-#: src/fusion/fusion_ui.c:598
+#: src/fusion/fusion_ui.c:602
 msgid "Types: "
 msgstr ""
 
-#: src/fusion/fusion_ui.c:670
+#: src/fusion/fusion_ui.c:855
 msgid "Choose a Pokémon to appraise."
 msgstr ""
 
-#: src/fusion/fusion_ui.c:671
+#: src/fusion/fusion_ui.c:856
 msgid "Parent 1: keeps its slot."
 msgstr ""
 
-#: src/fusion/fusion_ui.c:672
+#: src/fusion/fusion_ui.c:857
 msgid "Parent 2: will be consumed."
 msgstr ""
 
-#: src/fusion/fusion_ui.c:673
+#: src/fusion/fusion_ui.c:858
 msgid "{STR_VAR_1} + {STR_VAR_2}"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:674
+#: src/fusion/fusion_ui.c:859
 msgid "Child: Lv{STR_VAR_3}, species of either parent"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:675
+#: src/fusion/fusion_ui.c:860
 msgid "IVs, nature: from either parent, IVs may rise"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:676
+#: src/fusion/fusion_ui.c:861
 msgid "Passive pool: {STR_VAR_1} ({STR_VAR_3}% each, up to 3)"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:677
+#: src/fusion/fusion_ui.c:862
 msgid "Move pool: {STR_VAR_1} ({STR_VAR_3}% each, up to 4)"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:678
+#: src/fusion/fusion_ui.c:863
 msgid "Third type: {STR_VAR_1}% chance"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:679
+#: src/fusion/fusion_ui.c:864
 msgid "Third type: not possible"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:680
+#: src/fusion/fusion_ui.c:865
 msgid "These Pokémon can't be fused."
 msgstr ""
 
-#: src/fusion/fusion_ui.c:681
+#: src/fusion/fusion_ui.c:866
 msgid ""
 "You can't fuse away the last\n"
 "Pokémon in your party."
 msgstr ""
 
-#: src/fusion/fusion_ui.c:682
+#: src/fusion/fusion_ui.c:867
 msgid "Please remove the Mail first."
 msgstr ""
 
-#: src/fusion/fusion_ui.c:683
+#: src/fusion/fusion_ui.c:868
 msgid ""
 "There's no room in the Bag for\n"
 "the item Parent 2 is holding."
 msgstr ""
 
-#: src/fusion/fusion_ui.c:826
+#: src/fusion/fusion_ui.c:1011
 msgid "Classic"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:827
+#: src/fusion/fusion_ui.c:1012
 msgid "Convenient"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:828
+#: src/fusion/fusion_ui.c:1013
 msgid "Material"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:829
+#: src/fusion/fusion_ui.c:1014
 msgid "All gens"
 msgstr ""
 
-#: src/fusion/fusion_ui.c:830
+#: src/fusion/fusion_ui.c:1015
 msgid "Original"
+msgstr ""
+
+#: src/fusion/fusion_ui.c:599
+msgid "{STR_VAR_1} nature"
+msgstr ""
+
+#: src/fusion/fusion_ui.c:600
+msgid "{STR_VAR_1}V"
+msgstr ""
+
+#: src/fusion/fusion_ui.c:601
+msgid "{STR_VAR_1}/186"
+msgstr ""
+
+#: src/fusion/fusion_ui.c:637
+msgid "Atk"
+msgstr ""
+
+#: src/fusion/fusion_ui.c:638
+msgid "Def"
+msgstr ""
+
+#: src/fusion/fusion_ui.c:639
+msgid "Spe"
+msgstr ""
+
+#: src/fusion/fusion_ui.c:640
+msgid "SpA"
+msgstr ""
+
+#: src/fusion/fusion_ui.c:641
+msgid "SpD"
 msgstr ""

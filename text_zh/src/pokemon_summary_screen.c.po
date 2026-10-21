@@ -5,27 +5,23 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
-#: src/pokemon_summary_screen.c:777
+#: src/pokemon_summary_screen.c:778
 msgid "{START_BUTTON} RELEARN"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:779
+#: src/pokemon_summary_screen.c:780
 msgid "{COLOR LIGHT_RED}{SHADOW GREEN}"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:780
+#: src/pokemon_summary_screen.c:781
 msgid "{COLOR WHITE}{SHADOW DARK_GRAY}"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:781
+#: src/pokemon_summary_screen.c:782
 msgid "{SELECT_BUTTON}+{STR_VAR_1}"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:782
-msgid "{SELECT_BUTTON}"
-msgstr ""
-
-#: src/pokemon_summary_screen.c:783
+#: src/fusion/fusion_ability_panel.c:18
 msgid "Passive {STR_VAR_1}: "
 msgstr ""
 
@@ -47,54 +43,58 @@ msgstr ""
 msgid "{PP}{DYNAMIC 0}/{DYNAMIC 1}"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:3905
+#: src/pokemon_summary_screen.c:3927
 msgid "{COLOR}{08}"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:3906
+#: src/pokemon_summary_screen.c:3928
 msgid "{COLOR}{05}"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:3907
+#: src/pokemon_summary_screen.c:3929
 msgid "{COLOR}{01}"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:3930
+#: src/pokemon_summary_screen.c:3952
 msgid "F"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:3931
+#: src/pokemon_summary_screen.c:3953
 msgid "D"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:3932
+#: src/pokemon_summary_screen.c:3954
 msgid "C"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:3933
+#: src/pokemon_summary_screen.c:3955
 msgid "B"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:3934 src/data/easy_chat/easy_chat_group_endings.h:196
+#: src/pokemon_summary_screen.c:3956 src/data/easy_chat/easy_chat_group_endings.h:196
 msgid "A"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:3935
+#: src/pokemon_summary_screen.c:3957
 msgid "S"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:4855
+#: src/pokemon_summary_screen.c:4877
 msgid "IVs"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:4856
+#: src/pokemon_summary_screen.c:4878
 msgid "EVs"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:4857
+#: src/pokemon_summary_screen.c:4879
 msgid "STATS"
 msgstr ""
 
-#: src/pokemon_summary_screen.c:4858
+#: src/pokemon_summary_screen.c:4880
 msgid "RENAME"
+msgstr ""
+
+#: src/pokemon_summary_screen.c:783
+msgid "Abilities"
 msgstr ""

@@ -5,98 +5,98 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
-#: src/battle_controller_player.c:1768
+#: src/battle_controller_player.c:1784
 msgid "CAT: "
 msgstr ""
 
-#: src/battle_controller_player.c:1769
+#: src/battle_controller_player.c:1785
 msgid "PWR: "
 msgstr ""
 
-#: src/battle_controller_player.c:1770
+#: src/battle_controller_player.c:1786
 msgid "ACC: "
 msgstr ""
 
-#: src/battle_controller_player.c:1771
+#: src/battle_controller_player.c:1787
 msgid "{CLEAR_TO 3}"
 msgstr ""
 
-#: src/battle_controller_player.c:1772
+#: src/battle_controller_player.c:1788
 msgid "{CLEAR_TO 56}"
 msgstr ""
 
-#: src/battle_controller_player.c:1773
+#: src/battle_controller_player.c:1789
 msgid "{CLEAR_TO 108}"
 msgstr ""
 
-#: src/battle_controller_player.c:1989
+#: src/battle_controller_player.c:2005
 msgid " frames thinking\n"
 msgstr ""
 
-#: src/battle_controller_player.c:1990
+#: src/battle_controller_player.c:2006
 msgid " cycles"
 msgstr ""
 
-#: src/battle_controller_player.c:2025
+#: src/battle_controller_player.c:2041
 msgid "Partner will use:\n"
 msgstr ""
 
-#: src/battle_controller_player.c:2032
+#: src/battle_controller_player.c:2048
 msgid " -{UP_ARROW}"
 msgstr ""
 
-#: src/battle_controller_player.c:2034
+#: src/battle_controller_player.c:2050
 msgid " {UP_ARROW}-"
 msgstr ""
 
-#: src/battle_controller_player.c:2036
+#: src/battle_controller_player.c:2052
 msgid " {DOWN_ARROW}-"
 msgstr ""
 
-#: src/battle_controller_player.c:2038
+#: src/battle_controller_player.c:2054
 msgid " -{DOWN_ARROW}"
 msgstr ""
 
-#: src/battle_controller_player.c:2042
+#: src/battle_controller_player.c:2058
 msgid " {DOWN_ARROW}{DOWN_ARROW}"
 msgstr ""
 
-#: src/battle_controller_player.c:2046
+#: src/battle_controller_player.c:2062
 msgid " {UP_ARROW}{UP_ARROW}"
 msgstr ""
 
-#: src/battle_controller_player.c:2050
+#: src/battle_controller_player.c:2066
 msgid " {V_D_ARROW}{UP_ARROW}"
 msgstr ""
 
-#: src/battle_controller_player.c:2054
+#: src/battle_controller_player.c:2070
 msgid " {V_D_ARROW}{V_D_ARROW}"
 msgstr ""
 
-#: src/battle_controller_player.c:2494 src/battle_message.c:71 src/battle_message.c:137 src/battle_message.c:184 src/battle_message.c:486 src/field_specials.c:4571 src/menu_specialized.c:82 src/new_game.c:71 (+30 more)
+#: src/battle_controller_player.c:2510 src/battle_message.c:71 src/battle_message.c:137 src/battle_message.c:184 src/battle_message.c:486 src/field_specials.c:4571 src/menu_specialized.c:82 src/new_game.c:71 (+30 more)
 msgid ""
 msgstr ""
 
-#: src/battle_controller_player.c:2495
+#: src/battle_controller_player.c:2511
 msgid "{CIRCLE_HOLLOW}"
 msgstr ""
 
-#: src/battle_controller_player.c:2496
+#: src/battle_controller_player.c:2512
 msgid "{STAR}"
 msgstr ""
 
-#: src/battle_controller_player.c:2497
+#: src/battle_controller_player.c:2513
 msgid "{CIRCLE_DOT}"
 msgstr ""
 
-#: src/battle_controller_player.c:2498
+#: src/battle_controller_player.c:2514
 msgid "{TRIANGLE}"
 msgstr ""
 
-#: src/battle_controller_player.c:2499
+#: src/battle_controller_player.c:2515
 msgid "{TRIANGLE_UPSIDE_DOWN}"
 msgstr ""
 
-#: src/battle_controller_player.c:2500
+#: src/battle_controller_player.c:2516
 msgid "{BIG_MULT_X}"
 msgstr ""
