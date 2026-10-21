@@ -1,4 +1,5 @@
 #include "global.h"
+#include "fusion/fusion.h"
 #include "malloc.h"
 #include "battle.h"
 #include "battle_setup.h"
@@ -1758,7 +1759,7 @@ static void PopulateSpeciesFromTrainerLocation(int matchCallId, u8 *destStr)
             if (gWildMonHeaders[i].encounterTypes[timeOfDay].landMonsInfo)
             {
                 slot = GetLandEncounterSlotForMatchCall();
-                species[numSpecies] = gWildMonHeaders[i].encounterTypes[timeOfDay].landMonsInfo->wildPokemon[slot].species;
+                species[numSpecies] = Fusion_GetWildSlotSpecies(&gWildMonHeaders[i].encounterTypes[timeOfDay].landMonsInfo->wildPokemon[slot]);
                 numSpecies++;
             }
 
@@ -1766,7 +1767,7 @@ static void PopulateSpeciesFromTrainerLocation(int matchCallId, u8 *destStr)
             if (gWildMonHeaders[i].encounterTypes[timeOfDay].waterMonsInfo)
             {
                 slot = GetWaterEncounterSlotForMatchCall();
-                species[numSpecies] = gWildMonHeaders[i].encounterTypes[timeOfDay].waterMonsInfo->wildPokemon[slot].species;
+                species[numSpecies] = Fusion_GetWildSlotSpecies(&gWildMonHeaders[i].encounterTypes[timeOfDay].waterMonsInfo->wildPokemon[slot]);
                 numSpecies++;
             }
 

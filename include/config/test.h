@@ -1129,6 +1129,9 @@
 #undef P_FAMILY_PECHARUNT
 #define P_FAMILY_PECHARUNT               TRUE
 
+// Fusion: vanilla wild encounters in tests (fusion tests call the mapping directly)
+#define FUSION_WILD_RANDOMIZER FALSE
+
 // Vars
 #undef B_VAR_DIFFICULTY
 #define B_VAR_DIFFICULTY                TESTING_VAR_DIFFICULTY

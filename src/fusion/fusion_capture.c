@@ -172,6 +172,7 @@ void BS_FusionCaughtAppraisal(void)
 void Fusion_NewGameInit(void)
 {
     Fusion_SetCaptureMode(FUSION_CAPTURE_MODE_NEW_GAME);
+    Fusion_RerollWildSeed();
 
     if (FUSION_NEW_GAME_GIVE_BOX_LINK)
         AddBagItem(ITEM_POKEMON_BOX_LINK, 1);

@@ -8,6 +8,12 @@
 #define FUSION_CAPTURE_MODE_NEW_GAME        FUSION_CAPTURE_MODE_CONVENIENT // Mode set when starting a new game.
 #define FUSION_CAPTURE_CONVENIENT_MULTIPLIER 2 // Catch odds multiplier in FUSION_CAPTURE_MODE_CONVENIENT.
 
+// All-generation wild encounters
+#ifndef FUSION_WILD_RANDOMIZER // Tests turn it off in include/config/test.h.
+#define FUSION_WILD_RANDOMIZER              TRUE // Every wild slot becomes a random Gen 1-9 species, fixed per save, rerolled on a new game.
+#endif
+#define FUSION_WILD_BST_WINDOW              15   // Percent: replacements have a base stat total this close to the original (widened if none).
+
 // Wild Pokémon genetics: some wild Pokémon carry passives or a third type, so catching
 // materials has its own "lucky find" moments. Legendaries never do.
 #define FUSION_WILD_PASSIVE_CHANCE          12 // Percent of wild Pokémon with a random passive.

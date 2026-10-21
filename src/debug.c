@@ -379,6 +379,7 @@ extern const u8 Debug_EventScript_CheckIVs[];
 extern const u8 Debug_EventScript_GivePokerus[];
 extern const u8 Debug_EventScript_InflictStatus1[];
 extern const u8 Debug_EventScript_FusionWildBattle[];
+extern const u8 Debug_EventScript_FusionLocalWildBattle[];
 extern const u8 Debug_EventScript_KoPokemon[];
 extern const u8 Debug_EventScript_SetHiddenNature[];
 extern const u8 Debug_EventScript_SetAbility[];
@@ -781,6 +782,7 @@ static const struct DebugMenuOption sDebugMenu_Actions_Fusion[] =
     { COMPOUND_STRING("Fill box w/ materials"),  DebugAction_Fusion_FillBoxWithMaterials },
     { COMPOUND_STRING("Fill all boxes w/ mats"), DebugAction_Fusion_FillAllBoxesWithMaterials },
     { COMPOUND_STRING("Wild battle (own party)"), DebugAction_ExecuteScript, Debug_EventScript_FusionWildBattle },
+    { COMPOUND_STRING("Wild battle (this map)"), DebugAction_ExecuteScript, Debug_EventScript_FusionLocalWildBattle },
     { NULL }
 };
 

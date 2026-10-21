@@ -1,4 +1,5 @@
 #include "global.h"
+#include "fusion/fusion.h"
 #include "battle_main.h"
 #include "battle_setup.h"
 #include "bg.h"
@@ -1489,7 +1490,7 @@ static u8 GetEncounterLevelFromMapData(enum Species species, enum EncounterType 
 
         for (i = 0; i < NUM_LAND_MONS_ENCOUNTER_SLOTS; i++)
         {
-            if (landMonsInfo->wildPokemon[i].species == species)
+            if (Fusion_GetWildSlotSpecies(&landMonsInfo->wildPokemon[i]) == species)
             {
                 min = (min < landMonsInfo->wildPokemon[i].minLevel) ? min : landMonsInfo->wildPokemon[i].minLevel;
                 max = (max > landMonsInfo->wildPokemon[i].maxLevel) ? max : landMonsInfo->wildPokemon[i].maxLevel;
@@ -1505,7 +1506,7 @@ static u8 GetEncounterLevelFromMapData(enum Species species, enum EncounterType 
 
         for (i = 0; i < NUM_WATER_MONS_ENCOUNTER_SLOTS; i++)
         {
-            if (waterMonsInfo->wildPokemon[i].species == species)
+            if (Fusion_GetWildSlotSpecies(&waterMonsInfo->wildPokemon[i]) == species)
             {
                 min = (min < waterMonsInfo->wildPokemon[i].minLevel) ? min : waterMonsInfo->wildPokemon[i].minLevel;
                 max = (max > waterMonsInfo->wildPokemon[i].maxLevel) ? max : waterMonsInfo->wildPokemon[i].maxLevel;
@@ -1521,7 +1522,7 @@ static u8 GetEncounterLevelFromMapData(enum Species species, enum EncounterType 
 
         for (i = 0; i < NUM_HIDDEN_MONS_ENCOUNTER_SLOTS; i++)
         {
-            if (hiddenMonsInfo->wildPokemon[i].species == species)
+            if (Fusion_GetWildSlotSpecies(&hiddenMonsInfo->wildPokemon[i]) == species)
             {
                 min = (min < hiddenMonsInfo->wildPokemon[i].minLevel) ? min : hiddenMonsInfo->wildPokemon[i].minLevel;
                 max = (max > hiddenMonsInfo->wildPokemon[i].maxLevel) ? max : hiddenMonsInfo->wildPokemon[i].maxLevel;
@@ -1701,7 +1702,7 @@ static bool8 CapturedAllLandMons(u32 headerId)
     {
         for (i = 0; i < NUM_LAND_MONS_ENCOUNTER_SLOTS; ++i)
         {
-            species = landMonsInfo->wildPokemon[i].species;
+            species = Fusion_GetWildSlotSpecies(&landMonsInfo->wildPokemon[i]);
             if (species != SPECIES_NONE)
             {
                 if (!GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_CAUGHT))
@@ -1734,7 +1735,7 @@ static bool8 CapturedAllWaterMons(u32 headerId)
     {
         for (i = 0; i < NUM_WATER_MONS_ENCOUNTER_SLOTS; ++i)
         {
-            species = waterMonsInfo->wildPokemon[i].species;
+            species = Fusion_GetWildSlotSpecies(&waterMonsInfo->wildPokemon[i]);
             if (species != SPECIES_NONE)
             {
                 count++;
@@ -1765,7 +1766,7 @@ static bool8 CapturedAllHiddenMons(u32 headerId)
     {
         for (i = 0; i < NUM_HIDDEN_MONS_ENCOUNTER_SLOTS; ++i)
         {
-            species = hiddenMonsInfo->wildPokemon[i].species;
+            species = Fusion_GetWildSlotSpecies(&hiddenMonsInfo->wildPokemon[i]);
             if (species != SPECIES_NONE)
             {
                 count++;
@@ -1923,9 +1924,9 @@ static void DexNavLoadEncounterData(void)
     {
         for (i = 0; i < NUM_LAND_MONS_ENCOUNTER_SLOTS; i++)
         {
-            species = landMonsInfo->wildPokemon[i].species;
+            species = Fusion_GetWildSlotSpecies(&landMonsInfo->wildPokemon[i]);
             if (species != SPECIES_NONE && !SpeciesInArray(species, 0))
-                sDexNavUiDataPtr->landSpecies[grassIndex++] = landMonsInfo->wildPokemon[i].species;
+                sDexNavUiDataPtr->landSpecies[grassIndex++] = Fusion_GetWildSlotSpecies(&landMonsInfo->wildPokemon[i]);
         }
     }
 
@@ -1934,9 +1935,9 @@ static void DexNavLoadEncounterData(void)
     {
         for (i = 0; i < NUM_WATER_MONS_ENCOUNTER_SLOTS; i++)
         {
-            species = waterMonsInfo->wildPokemon[i].species;
+            species = Fusion_GetWildSlotSpecies(&waterMonsInfo->wildPokemon[i]);
             if (species != SPECIES_NONE && !SpeciesInArray(species, 1))
-                sDexNavUiDataPtr->waterSpecies[waterIndex++] = waterMonsInfo->wildPokemon[i].species;
+                sDexNavUiDataPtr->waterSpecies[waterIndex++] = Fusion_GetWildSlotSpecies(&waterMonsInfo->wildPokemon[i]);
         }
     }
 
@@ -1945,9 +1946,9 @@ static void DexNavLoadEncounterData(void)
     {
         for (i = 0; i < NUM_HIDDEN_MONS_ENCOUNTER_SLOTS; i++)
         {
-            species = hiddenMonsInfo->wildPokemon[i].species;
+            species = Fusion_GetWildSlotSpecies(&hiddenMonsInfo->wildPokemon[i]);
             if (species != SPECIES_NONE && !SpeciesInArray(species, 2))
-                sDexNavUiDataPtr->hiddenSpecies[hiddenIndex++] = hiddenMonsInfo->wildPokemon[i].species;
+                sDexNavUiDataPtr->hiddenSpecies[hiddenIndex++] = Fusion_GetWildSlotSpecies(&hiddenMonsInfo->wildPokemon[i]);
         }
     }
 }
@@ -2514,13 +2515,13 @@ bool32 TryFindHiddenPokemon(void)
                 index = ChooseHiddenMonIndex();
                 if (index == 0xFF)
                     return FALSE;//no hidden info
-                species = hiddenMonsInfo->wildPokemon[index].species;
+                species = Fusion_GetWildSlotSpecies(&hiddenMonsInfo->wildPokemon[index]);
                 isHiddenMon = TRUE;
                 environment = ENCOUNTER_TYPE_HIDDEN;
             }
             else
             {
-                species = gWildMonHeaders[headerId].encounterTypes[timeOfDay].landMonsInfo->wildPokemon[ChooseWildMonIndex_Land()].species;
+                species = Fusion_GetWildSlotSpecies(&gWildMonHeaders[headerId].encounterTypes[timeOfDay].landMonsInfo->wildPokemon[ChooseWildMonIndex_Land()]);
                 environment = ENCOUNTER_TYPE_LAND;
             }
             break;
@@ -2532,13 +2533,13 @@ bool32 TryFindHiddenPokemon(void)
                     index = ChooseHiddenMonIndex();
                     if (index == 0xFF)
                         return FALSE;//no hidden info
-                    species = hiddenMonsInfo->wildPokemon[index].species;
+                    species = Fusion_GetWildSlotSpecies(&hiddenMonsInfo->wildPokemon[index]);
                     isHiddenMon = TRUE;
                     environment = ENCOUNTER_TYPE_HIDDEN;
                 }
                 else
                 {
-                    species = gWildMonHeaders[headerId].encounterTypes[timeOfDay].waterMonsInfo->wildPokemon[ChooseWildMonIndex_Water()].species;
+                    species = Fusion_GetWildSlotSpecies(&gWildMonHeaders[headerId].encounterTypes[timeOfDay].waterMonsInfo->wildPokemon[ChooseWildMonIndex_Water()]);
                     environment = ENCOUNTER_TYPE_WATER;
 
                 }

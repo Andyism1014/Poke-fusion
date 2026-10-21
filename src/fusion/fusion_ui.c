@@ -826,10 +826,12 @@ void Fusion_ScriptDoFusion(void)
 static const u8 sText_ModeClassic[] = _("Classic");
 static const u8 sText_ModeConvenient[] = _("Convenient");
 static const u8 sText_ModeMaterial[] = _("Material");
+static const u8 sText_AllGens[] = _("All gens");
+static const u8 sText_Original[] = _("Original");
 static const u8 sText_On[] = _("ON");
 static const u8 sText_Off[] = _("OFF");
 
-// gStringVar1: capture mode name, gStringVar2: Exp. Share state.
+// gStringVar1: capture mode name, gStringVar2: Exp. Share state, gStringVar3: wild Pokémon.
 void Fusion_ScriptBufferSettings(void)
 {
     static const u8 *const sModeNames[FUSION_CAPTURE_MODE_COUNT] =
@@ -841,6 +843,15 @@ void Fusion_ScriptBufferSettings(void)
 
     StringCopy(gStringVar1, sModeNames[Fusion_GetCaptureMode()]);
     StringCopy(gStringVar2, FlagGet(FLAG_FUSION_EXP_SHARE) ? sText_On : sText_Off);
+    StringCopy(gStringVar3, Fusion_IsWildRandomizerEnabled() ? sText_AllGens : sText_Original);
+}
+
+void Fusion_ScriptToggleWildRandomizer(void)
+{
+    if (FlagGet(FLAG_FUSION_WILD_ORIGINAL))
+        FlagClear(FLAG_FUSION_WILD_ORIGINAL);
+    else
+        FlagSet(FLAG_FUSION_WILD_ORIGINAL);
 }
 
 // VAR_RESULT: the chosen FusionCaptureMode.

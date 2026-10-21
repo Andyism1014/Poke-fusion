@@ -72,11 +72,12 @@ EventScript_FusionTerminal_Settings:
 	callnative Fusion_ScriptBufferSettings
 	message Fusion_Text_SettingsSummary
 	waitmessage
-	dynmultichoice 0, 0, FALSE, 3, 0, DYN_MULTICHOICE_CB_NONE, Fusion_Text_CaptureMode, Fusion_Text_ExpShare, Fusion_Text_Back
+	dynmultichoice 0, 0, FALSE, 4, 0, DYN_MULTICHOICE_CB_NONE, Fusion_Text_CaptureMode, Fusion_Text_ExpShare, Fusion_Text_WildPokemon, Fusion_Text_Back
 	closemessage
 	switch VAR_RESULT
 	case 0, EventScript_FusionTerminal_CaptureMode
 	case 1, EventScript_FusionTerminal_ExpShare
+	case 2, EventScript_FusionTerminal_WildPokemon
 	goto EventScript_FusionTerminal_Menu
 
 EventScript_FusionTerminal_CaptureMode:
@@ -90,6 +91,12 @@ EventScript_FusionTerminal_CaptureMode:
 
 EventScript_FusionTerminal_ExpShare:
 	callnative Fusion_ScriptToggleExpShare
+	goto EventScript_FusionTerminal_Settings
+
+EventScript_FusionTerminal_WildPokemon:
+	msgbox Fusion_Text_WildPokemonHelp, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_FusionTerminal_Settings
+	callnative Fusion_ScriptToggleWildRandomizer
 	goto EventScript_FusionTerminal_Settings
 
 Fusion_Text_ConfirmFusion:
@@ -112,8 +119,8 @@ Fusion_Text_NoMaterials:
 	.string "or Boxes.$"
 
 Fusion_Text_SettingsSummary:
-	.string "Capture mode: {STR_VAR_1}\n"
-	.string "Exp. Share (whole party): {STR_VAR_2}$"
+	.string "Capture: {STR_VAR_1}  Exp. Share: {STR_VAR_2}\n"
+	.string "Wild Pokémon: {STR_VAR_3}$"
 
 Fusion_Text_CaptureModeHelp:
 	.string "Convenient: wild Pokémon are 2x easier.\n"
@@ -140,6 +147,15 @@ Fusion_Text_CaptureMode:
 Fusion_Text_ExpShare:
 	.string "Exp. Share$"
 
+Fusion_Text_WildPokemon:
+	.string "Wild Pokémon$"
+
+Fusion_Text_WildPokemonHelp:
+	.string "All gens: every area has its own Pokémon\n"
+	.string "from Gen 1-9, rolled for this save.\p"
+	.string "Original: the classic Hoenn Pokémon.\n"
+	.string "Switch to the other one?$"
+
 Fusion_Text_Back:
 	.string "Back$"
 
@@ -151,6 +167,23 @@ Fusion_Text_ModeConvenient:
 
 Fusion_Text_ModeMaterial:
 	.string "Material$"
+
+@ Debug menu: a wild battle from this map's encounter table.
+Debug_EventScript_FusionLocalWildBattle::
+	lockall
+	callnative Fusion_DebugLocalWildBattle
+	goto_if_eq VAR_RESULT, FALSE, Debug_EventScript_FusionNoLocalWild
+	waitstate
+	releaseall
+	end
+
+Debug_EventScript_FusionNoLocalWild:
+	msgbox Fusion_Text_NoLocalWild, MSGBOX_DEFAULT
+	releaseall
+	end
+
+Fusion_Text_NoLocalWild:
+	.string "No wild Pokémon live here.$"
 
 @ Debug menu: a wild battle against a fixed opponent using the player's own party.
 Debug_EventScript_FusionWildBattle::

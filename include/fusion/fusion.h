@@ -55,6 +55,15 @@ void Fusion_SetCaptureMode(enum FusionCaptureMode mode);
 bool32 Fusion_IsCaptureAssistExempt(enum Species species);
 u32 Fusion_ApplyCaptureMode(enum Species species, u32 odds);
 void Fusion_RollWildGenetics(struct Pokemon *mon);
+
+// fusion_wild.c
+struct WildPokemon;
+bool32 Fusion_IsWildRandomizerEnabled(void);
+enum Species Fusion_RandomizeWildSpecies(enum Species original, u32 key);
+enum Species Fusion_RandomizeWildSpeciesWithSeed(enum Species original, u32 key, u32 seed);
+bool32 Fusion_CanAppearAsRandomWild(enum Species species);
+enum Species Fusion_GetWildSlotSpecies(const struct WildPokemon *slot);
+void Fusion_RerollWildSeed(void);
 #define FUSION_BATTLE_MESSAGE_SIZE 96
 extern u8 gFusionBattleMessage[FUSION_BATTLE_MESSAGE_SIZE];
 void BS_FusionCaughtAppraisal(void);
@@ -132,6 +141,7 @@ void Fusion_ScriptDoFusion(void);
 void Fusion_ScriptBufferSettings(void);
 void Fusion_ScriptSetCaptureMode(void);
 void Fusion_ScriptToggleExpShare(void);
+void Fusion_ScriptToggleWildRandomizer(void);
 
 // fusion_debug.c
 const u8 *Fusion_Debug_GetCaptureModeName(enum FusionCaptureMode mode);

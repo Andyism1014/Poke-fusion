@@ -1,4 +1,5 @@
 #include "global.h"
+#include "fusion/fusion.h"
 #include "bg.h"
 #include "decompress.h"
 #include "event_data.h"
@@ -463,7 +464,7 @@ static bool8 MonListHasSpecies(const struct WildPokemonInfo *info, enum Species 
     {
         for (i = 0; i < size; i++)
         {
-            if (info->wildPokemon[i].species == species)
+            if (Fusion_GetWildSlotSpecies(&info->wildPokemon[i]) == species)
                 return TRUE;
         }
     }
