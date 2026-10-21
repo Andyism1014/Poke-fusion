@@ -11,6 +11,8 @@ msgid ""
 "I love GRASS-type POKéMON!\p"
 "Do you have any GRASS-type POKéMON?$"
 msgstr ""
+"我最喜欢草属性的宝可梦了！\p"
+"你有草属性的宝可梦吗？$"
 
 #: data/maps/Route123/scripts.inc:177
 msgctxt "Route123_Text_YouLikeGrassMonsTooHaveThis"
@@ -21,6 +23,11 @@ msgid ""
 "I'm so happy, you can have this!\n"
 "It's a token of our friendship.$"
 msgstr ""
+"哦？\p"
+"你也喜欢草属性的宝可梦，\n"
+"对吧？\p"
+"我好开心，这个送给你！\n"
+"这是我们友谊的证明。$"
 
 #: data/maps/Route123/scripts.inc:184
 msgctxt "Route123_Text_CheckTreesWithMyGrassMon"
@@ -28,6 +35,8 @@ msgid ""
 "I check trees with my GRASS-type\n"
 "POKéMON. I'm like a tree doctor.$"
 msgstr ""
+"我和我的草属性宝可梦\n"
+"一起给树木做检查。我就像树医生。$"
 
 #: data/maps/Route123/scripts.inc:188
 msgctxt "Route123_Text_RouteSign"
@@ -35,6 +44,8 @@ msgid ""
 "{RIGHT_ARROW} ROUTE 123\n"
 "{LEFT_ARROW} ROUTE 118$"
 msgstr ""
+"{RIGHT_ARROW} 123号道路\n"
+"{LEFT_ARROW} 118号道路$"
 
 #: data/maps/Route123/scripts.inc:192
 msgctxt "Route123_Text_RouteSignMtPyre"
@@ -42,8 +53,10 @@ msgid ""
 "{UP_ARROW} MT. PYRE\n"
 "“Forbidden to the faint of heart.”$"
 msgstr ""
+"{UP_ARROW} 送神山\n"
+"“胆小者禁止入内”$"
 
 #: data/maps/Route123/scripts.inc:196
 msgctxt "Route123_Text_BerryMastersHouse"
 msgid "BERRY MASTER'S HOUSE$"
-msgstr ""
+msgstr "树果大师之家$"

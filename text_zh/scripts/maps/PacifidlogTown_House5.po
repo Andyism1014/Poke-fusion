@@ -8,7 +8,7 @@ msgstr ""
 #: data/maps/PacifidlogTown_House5/scripts.inc:22
 msgctxt "PacifidlogTown_House5_Text_CantSeeMirageIslandToday"
 msgid "I can't see MIRAGE ISLAND today…$"
-msgstr ""
+msgstr "今天看不到幻影岛……$"
 
 #: data/maps/PacifidlogTown_House5/scripts.inc:25
 msgctxt "PacifidlogTown_House5_Text_CanSeeMirageIslandToday"
@@ -16,6 +16,8 @@ msgid ""
 "Oh! Oh my!\n"
 "I can see MIRAGE ISLAND today!$"
 msgstr ""
+"哦！哎呀！\n"
+"今天能看到幻影岛！$"
 
 #: data/maps/PacifidlogTown_House5/scripts.inc:29
 msgctxt "PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather"
@@ -27,3 +29,8 @@ msgid ""
 "Or is it really appearing and\n"
 "disappearing?$"
 msgstr ""
+"幻影岛……\p"
+"它一定是随着产生海市蜃楼的\n"
+"天气条件，时隐时现的吧。\p"
+"还是说，它真的会\n"
+"出现和消失呢？$"

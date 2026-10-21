@@ -11,6 +11,8 @@ msgid ""
 "Teacher…\n"
 "Please watch over my progress!$"
 msgstr ""
+"老师……\n"
+"请看着我的成长吧！$"
 
 #: data/maps/MtPyre_4F/scripts.inc:15
 msgctxt "MtPyre_5F_Text_AtsushiDefeat"
@@ -18,6 +20,8 @@ msgid ""
 "Teacher…\n"
 "Please forgive me!$"
 msgstr ""
+"老师……\n"
+"请原谅我！$"
 
 #: data/maps/MtPyre_4F/scripts.inc:19
 msgctxt "MtPyre_5F_Text_AtsushiPostBattle"
@@ -25,3 +29,5 @@ msgid ""
 "Until I improve, my teacher, who rests\n"
 "here, will never find true peace…$"
 msgstr ""
+"在我进步之前，长眠在这里的老师\n"
+"是无法真正安息的……$"

@@ -13,6 +13,10 @@ msgid ""
 "Is it flying around all the time?\n"
 "Doesn't it need to rest somewhere?$"
 msgstr ""
+"大家都说看到有一只宝可梦\n"
+"在丰缘地区的高空中飞翔。\p"
+"它一直都在飞吗？\n"
+"不需要在什么地方休息吗？$"
 
 #: data/maps/PacifidlogTown_House4/scripts.inc:36
 msgctxt "PacifidlogTown_House4_Text_SkyPokemon"
@@ -20,11 +24,13 @@ msgid ""
 "A sky POKéMON!\n"
 "A sky POKéMON!$"
 msgstr ""
+"天空的宝可梦！\n"
+"天空的宝可梦！$"
 
 #: data/maps/PacifidlogTown_House4/scripts.inc:40
 msgctxt "PacifidlogTown_House4_Text_WhereDidYouComeFrom"
 msgid "Where did you come from?$"
-msgstr ""
+msgstr "你是从哪里来的？$"
 
 #: data/maps/PacifidlogTown_House4/scripts.inc:43
 msgctxt "PacifidlogTown_House4_Text_YesTown"
@@ -33,6 +39,9 @@ msgid ""
 "YES TOWN?\p"
 "I've never heard of a place like that.$"
 msgstr ""
+"是？\n"
+"“是”镇？\p"
+"我从来没听说过那种地方。$"
 
 #: data/maps/PacifidlogTown_House4/scripts.inc:48
 msgctxt "PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere"
@@ -42,3 +51,7 @@ msgid ""
 "Oh! Wait! You're not going to say you\n"
 "were born at the bottom of the sea?$"
 msgstr ""
+"不是？那说不通啊。\n"
+"你总得是从哪里来的吧。\p"
+"哦！等等！你该不会要说\n"
+"你是在海底出生的吧？$"

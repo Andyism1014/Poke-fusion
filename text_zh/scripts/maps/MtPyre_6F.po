@@ -11,11 +11,13 @@ msgid ""
 "When I'm here…\n"
 "A curious power flows into me…$"
 msgstr ""
+"待在这里的时候……\n"
+"就有一股奇妙的力量流进我体内……$"
 
 #: data/maps/MtPyre_6F/scripts.inc:34
 msgctxt "MtPyre_6F_Text_ValerieDefeat"
 msgid "The power is ebbing away…$"
-msgstr ""
+msgstr "力量正在渐渐消退……$"
 
 #: data/maps/MtPyre_6F/scripts.inc:37
 msgctxt "MtPyre_6F_Text_ValeriePostBattle"
@@ -23,6 +25,8 @@ msgid ""
 "Perhaps the power is from the spirits\n"
 "of POKéMON in fitful sleep here…$"
 msgstr ""
+"也许那股力量来自\n"
+"在这里不安地沉睡的宝可梦的灵魂……$"
 
 #: data/maps/MtPyre_6F/scripts.inc:41
 msgctxt "MtPyre_6F_Text_ValerieRegister"
@@ -32,6 +36,10 @@ msgid ""
 "Without ever laying my hands on\n"
 "your POKéNAV… Hiyah!$"
 msgstr ""
+"呼呼呼……虽然比赛输了……\n"
+"但我有一种小小的能力……\p"
+"不用碰你的宝可梦导航……\n"
+"嘿呀！$"
 
 #: data/maps/MtPyre_6F/scripts.inc:47
 msgctxt "MtPyre_6F_Text_ValerieRematchIntro"
@@ -39,11 +47,13 @@ msgid ""
 "Behind you…\n"
 "What is it…$"
 msgstr ""
+"你的身后……\n"
+"那是什么……$"
 
 #: data/maps/MtPyre_6F/scripts.inc:51
 msgctxt "MtPyre_6F_Text_ValerieRematchDefeat"
 msgid "Something faded away…$"
-msgstr ""
+msgstr "有什么东西消失了……$"
 
 #: data/maps/MtPyre_6F/scripts.inc:54
 msgctxt "MtPyre_6F_Text_ValeriePostRematch"
@@ -51,6 +61,8 @@ msgid ""
 "The POKéMON at rest here…\n"
 "Sometimes, they play…$"
 msgstr ""
+"在这里安息的宝可梦们……\n"
+"有时候会出来玩耍……$"
 
 #: data/maps/MtPyre_6F/scripts.inc:58
 msgctxt "MtPyre_6F_Text_CedricIntro"
@@ -58,11 +70,13 @@ msgid ""
 "Have you lost your bearings?\n"
 "Have no fear for I am here!$"
 msgstr ""
+"你迷路了吗？\n"
+"别害怕，有我在！$"
 
 #: data/maps/MtPyre_6F/scripts.inc:62
 msgctxt "MtPyre_6F_Text_CedricDefeat"
 msgid "Weren't you lost?$"
-msgstr ""
+msgstr "你不是迷路了吗？$"
 
 #: data/maps/MtPyre_6F/scripts.inc:65
 msgctxt "MtPyre_6F_Text_CedricPostBattle"
@@ -71,3 +85,6 @@ msgid ""
 "would be panicked and easy to beat.\p"
 "It's dirty and I won't try it again…$"
 msgstr ""
+"我以为迷路的训练家会惊慌失措，\n"
+"很容易打败。\p"
+"这招太卑鄙了，我不会再用了……$"

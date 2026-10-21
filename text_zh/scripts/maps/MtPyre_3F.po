@@ -13,11 +13,15 @@ msgid ""
 "A mere child like you…\n"
 "You dream of winning?$"
 msgstr ""
+"这座山浓厚的气息\n"
+"提升了我的超能力！\p"
+"像你这样的小孩子……\n"
+"也妄想获胜吗？$"
 
 #: data/maps/MtPyre_3F/scripts.inc:41
 msgctxt "MtPyre_3F_Text_WilliamDefeat"
 msgid "I drown in self-pity…$"
-msgstr ""
+msgstr "我沉浸在自怜之中……$"
 
 #: data/maps/MtPyre_3F/scripts.inc:44
 msgctxt "MtPyre_3F_Text_WilliamPostBattle"
@@ -25,6 +29,8 @@ msgid ""
 "My psychic powers have surely\n"
 "grown several times, but…$"
 msgstr ""
+"我的超能力确实\n"
+"增强了好几倍，可是……$"
 
 #: data/maps/MtPyre_3F/scripts.inc:48
 msgctxt "MtPyre_3F_Text_KaylaIntro"
@@ -33,11 +39,14 @@ msgid ""
 "This is no place for children, least\n"
 "of all you!$"
 msgstr ""
+"啊哈哈哈哈！\p"
+"这里不是小孩子该来的地方，\n"
+"尤其是你！$"
 
 #: data/maps/MtPyre_3F/scripts.inc:53
 msgctxt "MtPyre_3F_Text_KaylaDefeat"
 msgid "I lost that cleanly…$"
-msgstr ""
+msgstr "我输得这么彻底……$"
 
 #: data/maps/MtPyre_3F/scripts.inc:56
 msgctxt "MtPyre_3F_Text_KaylaPostBattle"
@@ -48,11 +57,14 @@ msgid ""
 "summit…\p"
 "Go, me!$"
 msgstr ""
+"这说明我的修行还不够……\p"
+"我得继续向山顶努力……\p"
+"加油，我！$"
 
 #: data/maps/MtPyre_3F/scripts.inc:63
 msgctxt "MtPyre_3F_Text_GabrielleIntro"
 msgid "Why have you come here?$"
-msgstr ""
+msgstr "你为什么到这里来？$"
 
 #: data/maps/MtPyre_3F/scripts.inc:66
 msgctxt "MtPyre_3F_Text_GabrielleDefeat"
@@ -60,6 +72,8 @@ msgid ""
 "That was amazing!\n"
 "You're a very special TRAINER.$"
 msgstr ""
+"太厉害了！\n"
+"你是一位非常特别的训练家。$"
 
 #: data/maps/MtPyre_3F/scripts.inc:70
 msgctxt "MtPyre_3F_Text_GabriellePostBattle"
@@ -71,6 +85,11 @@ msgid ""
 "They are all to be equally cherished.\n"
 "Please remember that.$"
 msgstr ""
+"已经不在这个世上的宝可梦，\n"
+"现在和你在一起的宝可梦，\p"
+"还有你将来会遇到的宝可梦……\p"
+"它们都同样值得珍惜。\n"
+"请记住这一点。$"
 
 #: data/maps/MtPyre_3F/scripts.inc:78
 msgctxt "MtPyre_3F_Text_GabrielleRegister"
@@ -79,6 +98,9 @@ msgid ""
 "when they grow up some more…\p"
 "Please, I need to see your POKéNAV.$"
 msgstr ""
+"我想看看你的宝可梦\n"
+"再成长一些之后的样子……\p"
+"请让我看看你的宝可梦导航。$"
 
 #: data/maps/MtPyre_3F/scripts.inc:83
 msgctxt "MtPyre_3F_Text_GabrielleRematchIntro"
@@ -87,6 +109,9 @@ msgid ""
 "Have you come to show me your grown\n"
 "POKéMON?$"
 msgstr ""
+"哦，是你啊……\p"
+"你是来让我看看\n"
+"你成长后的宝可梦的吗？$"
 
 #: data/maps/MtPyre_3F/scripts.inc:88
 msgctxt "MtPyre_3F_Text_GabrielleRematchDefeat"
@@ -94,6 +119,8 @@ msgid ""
 "How amazing!\n"
 "You are a special person.$"
 msgstr ""
+"太厉害了！\n"
+"你是一个特别的人。$"
 
 #: data/maps/MtPyre_3F/scripts.inc:92
 msgctxt "MtPyre_3F_Text_GabriellePostRematch"
@@ -105,3 +132,8 @@ msgid ""
 "They are all to be equally cherished.\n"
 "I see that you've remembered that.$"
 msgstr ""
+"已经不在这个世上的宝可梦，\n"
+"现在和你在一起的宝可梦，\p"
+"还有你将来会遇到的宝可梦……\p"
+"它们都同样值得珍惜。\n"
+"看来你一直记着这一点。$"

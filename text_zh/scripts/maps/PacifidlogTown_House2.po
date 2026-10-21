@@ -15,6 +15,11 @@ msgid ""
 "I'm here enjoying my vacation with\n"
 "POKéMON, yes, indeed.$"
 msgstr ""
+"咳咳！\p"
+"我是宝可梦爱好者俱乐部\n"
+"最重要的人物——会长的弟弟。\p"
+"我正在这里和宝可梦\n"
+"一起享受假期，没错。$"
 
 #: data/maps/PacifidlogTown_House2/scripts.inc:101
 msgctxt "PacifidlogTown_House2_Text_AhYourPokemon"
@@ -22,6 +27,8 @@ msgid ""
 "Ah!\n"
 "Your POKéMON…$"
 msgstr ""
+"啊！\n"
+"你的宝可梦……$"
 
 #: data/maps/PacifidlogTown_House2/scripts.inc:105
 msgctxt "PacifidlogTown_House2_Text_AdoringPokemonTakeThis"
@@ -30,6 +37,9 @@ msgid ""
 "A POKéMON that adoring and adorable\n"
 "deserves a TM like this, no?$"
 msgstr ""
+"它显然非常喜欢你。\p"
+"这么亲近又可爱的宝可梦，\n"
+"就该配上这样的招式学习器，对吧？$"
 
 #: data/maps/PacifidlogTown_House2/scripts.inc:110
 msgctxt "PacifidlogTown_House2_Text_PutInSomeMoreEffort"
@@ -39,6 +49,10 @@ msgid ""
 "You, as the TRAINER, need to put in\n"
 "some more effort.$"
 msgstr ""
+"嗯……\n"
+"不算坏，但也不算好。\p"
+"你作为训练家，\n"
+"还要再多努力一些。$"
 
 #: data/maps/PacifidlogTown_House2/scripts.inc:116
 msgctxt "PacifidlogTown_House2_Text_ViciousPokemonTakeThis"
@@ -47,6 +61,9 @@ msgid ""
 "A frightening POKéMON like that\n"
 "deserves a TM like this.$"
 msgstr ""
+"它的眼神很凶狠。\p"
+"这么可怕的宝可梦，\n"
+"就该配上这样的招式学习器。$"
 
 #: data/maps/PacifidlogTown_House2/scripts.inc:121
 msgctxt "PacifidlogTown_House2_Text_ExplainReturnFrustration"
@@ -56,6 +73,10 @@ msgid ""
 "If it doesn't like you, FRUSTRATION's\n"
 "power goes up.$"
 msgstr ""
+"宝可梦越喜欢你，\n"
+"报恩的威力就越大。\p"
+"宝可梦越不喜欢你，\n"
+"迁怒的威力就越大。$"
 
 #: data/maps/PacifidlogTown_House2/scripts.inc:127
 msgctxt "PacifidlogTown_House2_Text_GetGoodTMInXDays"
@@ -66,27 +87,32 @@ msgid ""
 "I'll give you a TM that's suitable for\l"
 "your POKéMON.$"
 msgstr ""
+"哦，对了。再过{STR_VAR_1}天左右，\n"
+"我应该会得到一两个好的招式学习器。\p"
+"到时候你再来找我吧。\n"
+"我会给你适合你的宝可梦的\l"
+"招式学习器。$"
 
 #: data/maps/PacifidlogTown_House2/scripts.inc:134
 msgctxt "PacifidlogTown_House2_Text_Rurii"
 msgid "AZURILL: Rurii.$"
-msgstr ""
+msgstr "露力丽：噜力～$"
 
 #: data/maps/PacifidlogTown_House2/scripts.inc:137
 msgctxt "PacifidlogTown_House2_Text_VeryFriendlyWithTrainer"
 msgid ""
 "It appears to be very friendly with the\n"
 "TRAINER.$"
-msgstr ""
+msgstr "它好像和训练家非常亲近。$"
 
 #: data/maps/PacifidlogTown_House2/scripts.inc:141
 msgctxt "PacifidlogTown_House2_Text_Rururi"
 msgid "AZURILL: Rururi!$"
-msgstr ""
+msgstr "露力丽：噜噜力！$"
 
 #: data/maps/PacifidlogTown_House2/scripts.inc:144
 msgctxt "PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch"
 msgid ""
 "It doesn't appear to like the TRAINER\n"
 "very much.$"
-msgstr ""
+msgstr "它好像不太喜欢训练家。$"

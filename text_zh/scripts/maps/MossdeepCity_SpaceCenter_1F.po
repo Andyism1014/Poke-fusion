@@ -8,7 +8,7 @@ msgstr ""
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:278
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent"
 msgid "The rocket's launch is imminent!$"
-msgstr ""
+msgstr "火箭即将发射！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:281
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber"
@@ -16,6 +16,8 @@ msgid ""
 "The rocket launched safely!\n"
 "That's successful launch no. {STR_VAR_1}!$"
 msgstr ""
+"火箭平安发射了！\n"
+"这是第{STR_VAR_1}次成功发射！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:285
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent"
@@ -24,6 +26,9 @@ msgid ""
 "haywire right now, but…\p"
 "The rocket's launch is imminent!$"
 msgstr ""
+"我知道现在有点乱，\n"
+"不过……\p"
+"火箭即将发射！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:290
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber"
@@ -33,6 +38,10 @@ msgid ""
 "The rocket launched safely!\n"
 "That's successful launch no. {STR_VAR_1}!$"
 msgstr ""
+"我知道现在有点乱，\n"
+"不过……\p"
+"火箭平安发射了！\n"
+"这是第{STR_VAR_1}次成功发射！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:296
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection"
@@ -44,6 +53,12 @@ msgid ""
 "Despite that, we never stop trying.\n"
 "Why? It's a dream that never ends.$"
 msgstr ""
+"火箭发射要求完美无缺。\n"
+"连1%的误差都不允许。\p"
+"就算99%都没问题，\n"
+"只要有1%出错，一切就都白费了。\p"
+"尽管如此，我们从未停止尝试。\n"
+"为什么？因为这是永无止境的梦想。$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:304
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter"
@@ -53,6 +68,10 @@ msgid ""
 "But we can't allow anything that minor\n"
 "to interfere with our rocket launch!$"
 msgstr ""
+"熔岩队那帮暴徒\n"
+"盯上了我们的宇宙中心。\p"
+"不过，我们可不能让这种小事\n"
+"妨碍火箭发射！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:310
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt"
@@ -62,6 +81,10 @@ msgid ""
 "It's not anything I need, so you can\n"
 "have it.$"
 msgstr ""
+"我在海滩上散步的时候，\n"
+"发现了这个。\p"
+"我用不着，\n"
+"就送给你吧。$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:316
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers"
@@ -69,6 +92,8 @@ msgid ""
 "The HOENN region has been famous for \n"
 "its meteor showers for a long time.$"
 msgstr ""
+"丰缘地区自古以来\n"
+"就以流星雨闻名。$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:320
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis"
@@ -78,6 +103,10 @@ msgid ""
 "Oh, by the way, you can have this stone\n"
 "I found on the beach.$"
 msgstr ""
+"绝不能让熔岩队\n"
+"偷走火箭燃料。\p"
+"哦，对了，我在海滩上\n"
+"捡到了这块石头，送给你吧。$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:326
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma"
@@ -85,6 +114,8 @@ msgid ""
 "With TEAM MAGMA around, I guess\n"
 "strolls on the beach aren't safe.$"
 msgstr ""
+"有熔岩队在附近，\n"
+"看来在海滩上散步也不安全了。$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:330
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace"
@@ -92,6 +123,8 @@ msgid ""
 "Some people claim that POKéMON came\n"
 "from space. Could it be true?$"
 msgstr ""
+"有人说宝可梦是从宇宙来的。\n"
+"会是真的吗？$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:334
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma"
@@ -101,6 +134,9 @@ msgid ""
 "But if they did that, TEAM AQUA will\n"
 "become bold and brazen, won't they?$"
 msgstr ""
+"海洋队应该去收拾熔岩队！\p"
+"不过，那样的话，海洋队\n"
+"就会变得更加嚣张了吧？$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:340
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind"
@@ -109,6 +145,9 @@ msgid ""
 "the skies and flies into space…\p"
 "It boggles my mind!$"
 msgstr ""
+"一大块金属冲破天空，\n"
+"飞向宇宙……\p"
+"真是不可思议！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:345
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream"
@@ -119,6 +158,11 @@ msgid ""
 "that dream of mine!\p"
 "I'm not having any of that!$"
 msgstr ""
+"一大块金属冲破天空，\n"
+"飞向宇宙……\p"
+"可是熔岩队却想\n"
+"破坏我的梦想！\p"
+"我绝不允许！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:352
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel"
@@ -134,6 +178,15 @@ msgid ""
 "In the meantime, why don't you go\n"
 "check out the town?$"
 msgstr ""
+"大吾：{PLAYER}{KUN}，\n"
+"你已经看过那份声明了吗？\p"
+"熔岩队要来抢这座岛上的\n"
+"火箭燃料。\p"
+"我不知道他们要燃料做什么，\n"
+"但绝不能让他们得逞。\p"
+"我会再留意一下这里的情况。\p"
+"在这段时间里，\n"
+"你要不要去城里看看？$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:364
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro"
@@ -141,11 +194,13 @@ msgid ""
 "As promised, we've come for\n"
 "the rocket fuel!$"
 msgstr ""
+"按照约定，\n"
+"我们来拿火箭燃料了！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:368
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat"
 msgid "Ran out of fuel…$"
-msgstr ""
+msgstr "燃料耗尽了……$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:371
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle"
@@ -153,6 +208,8 @@ msgid ""
 "Don't think you're on a roll just\n"
 "because you've beaten me!$"
 msgstr ""
+"别以为赢了我\n"
+"就可以得意忘形了！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:375
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro"
@@ -160,6 +217,8 @@ msgid ""
 "We gave you fair warning!\n"
 "There's nothing sneaky about us!$"
 msgstr ""
+"我们可是事先警告过了！\n"
+"我们一点都不卑鄙！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:379
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat"
@@ -167,6 +226,8 @@ msgid ""
 "Grrr…\n"
 "We should've used sneaky treachery…$"
 msgstr ""
+"可恶……\n"
+"早知道就该用卑鄙的手段……$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:383
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle"
@@ -174,6 +235,8 @@ msgid ""
 "Okay, I get it already! The next time,\n"
 "we'll come unannounced.$"
 msgstr ""
+"好啦，我知道了！\n"
+"下次我们会不打招呼就来。$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:387
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro"
@@ -182,6 +245,9 @@ msgid ""
 "in storage--that's what we're after.\p"
 "We mean to take every last bit of it!$"
 msgstr ""
+"宇宙中心储存的火箭燃料——\n"
+"那就是我们的目标。\p"
+"我们要把它们一滴不剩地全部拿走！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:392
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat"
@@ -189,6 +255,8 @@ msgid ""
 "Please, can you spare some fuel?\n"
 "Even a chintzy cup will do!$"
 msgstr ""
+"拜托，能分我一点燃料吗？\n"
+"一小杯就够了！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:396
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle"
@@ -198,6 +266,9 @@ msgid ""
 "How would I know?\n"
 "Ask our leader upstairs!$"
 msgstr ""
+"我们要拿火箭燃料做什么？\p"
+"我怎么会知道？\n"
+"去问楼上的首领吧！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:402
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro"
@@ -205,11 +276,13 @@ msgid ""
 "Our leader said no one, but no one,\n"
 "gets past me!$"
 msgstr ""
+"首领说了，谁都不能，\n"
+"谁都不能从我这里通过！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:406
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat"
 msgid "Ack! Ack! Aaack!$"
-msgstr ""
+msgstr "啊！啊！啊啊啊！$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:409
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle"
@@ -218,6 +291,9 @@ msgid ""
 "I never abandoned my post.\l"
 "That I stayed to the bitter end…$"
 msgstr ""
+"拜托，请告诉首领，\n"
+"我绝对没有擅离职守。\l"
+"我一直坚守到了最后……$"
 
 #: data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc:414
 msgctxt "MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice"
@@ -233,3 +309,13 @@ msgid ""
 "“Let there be more land!\n"
 "                                          TEAM MAGMA”$"
 msgstr ""
+"这是……\n"
+"盗窃预告信？\p"
+"“致宇宙中心的工作人员：\n"
+"你们好吗？我们很好。\p"
+"“我们近期将前来拜访，\n"
+"拿走你们的火箭燃料。\p"
+"“请不要试图阻止我们。\n"
+"无论如何我们都会拿走燃料。\p"
+"“让陆地更加广阔吧！\n"
+"                          熔岩队”$"

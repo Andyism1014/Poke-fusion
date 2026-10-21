@@ -8,4 +8,4 @@ msgstr ""
 #: data/maps/Route124/scripts.inc:102
 msgctxt "Route124_Text_HuntersHouse"
 msgid "HUNTER'S HOUSE$"
-msgstr ""
+msgstr "寻宝猎人之家$"

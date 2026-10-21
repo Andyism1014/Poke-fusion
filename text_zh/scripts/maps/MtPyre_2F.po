@@ -11,6 +11,8 @@ msgid ""
 "Memories of my darling SKITTY…\n"
 "My eyes overflow thinking about it.$"
 msgstr ""
+"想起我心爱的向尾喵……\n"
+"我的眼泪就止不住地流。$"
 
 #: data/maps/MtPyre_2F/scripts.inc:49
 msgctxt "MtPyre_2F_Text_TumbledFromFloorAbove"
@@ -20,6 +22,10 @@ msgid ""
 "I didn't notice and took a tumble from\n"
 "the floor above.$"
 msgstr ""
+"哎哟，好痛……\n"
+"这里的地上到处都是洞。\p"
+"我没注意到，\n"
+"就从楼上摔下来了。$"
 
 #: data/maps/MtPyre_2F/scripts.inc:55
 msgctxt "MtPyre_2F_Text_MarkIntro"
@@ -27,6 +33,8 @@ msgid ""
 "Hey! Are you searching for POKéMON?\n"
 "You came along after me! You're rude!$"
 msgstr ""
+"喂！你在找宝可梦吗？\n"
+"你跟在我后面来的！真没礼貌！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:59
 msgctxt "MtPyre_2F_Text_MarkDefeat"
@@ -34,6 +42,8 @@ msgid ""
 "Ayieeeeh!\n"
 "I'm sorry, forgive me, please!$"
 msgstr ""
+"哎呀呀呀！\n"
+"对不起，请原谅我！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:63
 msgctxt "MtPyre_2F_Text_MarkPostBattle"
@@ -41,6 +51,8 @@ msgid ""
 "People don't come here often, so\n"
 "I thought there'd be rare POKéMON.$"
 msgstr ""
+"这里很少有人来，\n"
+"所以我以为会有稀有的宝可梦。$"
 
 #: data/maps/MtPyre_2F/scripts.inc:67
 msgctxt "MtPyre_2F_Text_LukeIntro"
@@ -51,11 +63,16 @@ msgid ""
 "I know! I'll cream you and show her\n"
 "how cool I am!$"
 msgstr ""
+"卢克：我们是来试胆的。\p"
+"嘿嘿，只要让她看看我有多帅，\n"
+"她一定会爱上我的。我知道！\p"
+"对了！我要把你打得落花流水，\n"
+"让她看看我有多帅！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:74
 msgctxt "MtPyre_2F_Text_LukeDefeat"
 msgid "LUKE: Whoopsie!$"
-msgstr ""
+msgstr "卢克：哎呀呀！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:77
 msgctxt "MtPyre_2F_Text_LukePostBattle"
@@ -64,6 +81,9 @@ msgid ""
 "I'm right here by your side.\l"
 "We'll make it through this dare!$"
 msgstr ""
+"卢克：嘛，虽然输了，但没关系！\n"
+"我就在你身边。\l"
+"我们一定能完成这次试胆的！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:82
 msgctxt "MtPyre_2F_Text_LukeNotEnoughMons"
@@ -73,6 +93,10 @@ msgid ""
 "If you don't, I won't be able to show\n"
 "off to my girl how cool I am!$"
 msgstr ""
+"卢克：想和我对战的话，\n"
+"就多带些宝可梦来吧。\p"
+"不然的话，我就没法在女朋友\n"
+"面前展示我有多帅了！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:88
 msgctxt "MtPyre_2F_Text_DezIntro"
@@ -84,11 +108,17 @@ msgid ""
 "I know! I'll get my boyfriend to look\n"
 "cool by beating you!$"
 msgstr ""
+"黛丝：我和男朋友\n"
+"一起来这里试胆。\p"
+"虽然真的很可怕，\n"
+"但有男朋友陪着，没关系的。\p"
+"对了！我要打败你，\n"
+"让我男朋友看起来很帅！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:96
 msgctxt "MtPyre_2F_Text_DezDefeat"
 msgid "DEZ: Waaaah! I'm scared!$"
-msgstr ""
+msgstr "黛丝：哇啊啊！好可怕！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:99
 msgctxt "MtPyre_2F_Text_DezPostBattle"
@@ -96,6 +126,8 @@ msgid ""
 "DEZ: We're lovey-dovey, so we don't\n"
 "care if we lose!$"
 msgstr ""
+"黛丝：我们感情很好，\n"
+"所以输了也不在乎！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:103
 msgctxt "MtPyre_2F_Text_DezNotEnoughMons"
@@ -105,6 +137,10 @@ msgid ""
 "My boyfriend's strong.\n"
 "Just one POKéMON won't do at all.$"
 msgstr ""
+"黛丝：想挑战我们的话，\n"
+"至少要带两只宝可梦来哦。\p"
+"我男朋友很强的。\n"
+"只有一只宝可梦是绝对不行的。$"
 
 #: data/maps/MtPyre_2F/scripts.inc:109
 msgctxt "MtPyre_2F_Text_LeahIntro"
@@ -112,6 +148,8 @@ msgid ""
 "You are an unfamiliar sight…\n"
 "Depart before anything befalls you!$"
 msgstr ""
+"没见过你……\n"
+"趁还没出事，赶快离开吧！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:113
 msgctxt "MtPyre_2F_Text_LeahDefeat"
@@ -119,6 +157,8 @@ msgid ""
 "Hmm…\n"
 "You're durable.$"
 msgstr ""
+"嗯……\n"
+"你真顽强。$"
 
 #: data/maps/MtPyre_2F/scripts.inc:117
 msgctxt "MtPyre_2F_Text_LeahPostBattle"
@@ -128,6 +168,9 @@ msgid ""
 "It is my duty to protect this\n"
 "mountain…$"
 msgstr ""
+"从我曾祖母那一代起，\n"
+"我们一家就在这里当训练家了……\p"
+"守护这座山是我的使命……$"
 
 #: data/maps/MtPyre_2F/scripts.inc:123
 msgctxt "MtPyre_2F_Text_ZanderIntro"
@@ -135,6 +178,8 @@ msgid ""
 "Kiyaaaaah!\n"
 "I'm terrified!$"
 msgstr ""
+"呀啊啊啊啊！\n"
+"吓死我了！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:127
 msgctxt "MtPyre_2F_Text_ZanderDefeat"
@@ -142,6 +187,8 @@ msgid ""
 "Nooooooo!\n"
 "I lost my wits!$"
 msgstr ""
+"不要啊啊啊！\n"
+"我吓得魂都没了！$"
 
 #: data/maps/MtPyre_2F/scripts.inc:131
 msgctxt "MtPyre_2F_Text_ZanderPostBattle"
@@ -150,3 +197,6 @@ msgid ""
 "anything move…\p"
 "I shouldn't have come here to train…$"
 msgstr ""
+"每次看到有东西在动，\n"
+"我都会吓一大跳……\p"
+"我不该来这里修行的……$"
