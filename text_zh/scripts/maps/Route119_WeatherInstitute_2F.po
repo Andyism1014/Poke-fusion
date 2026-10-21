@@ -12,11 +12,13 @@ msgid ""
 "POKéMON that has something to do with\l"
 "the weather. We're here to take them!$"
 msgstr ""
+"研究所创造了一种和天气有关的宝可梦。\n"
+"我们就是来把它们抢走的！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:211
 msgctxt "Route119_WeatherInstitute_2F_Text_Grunt2Defeat"
 msgid "Our plan's being spoiled by a kid?$"
-msgstr ""
+msgstr "我们的计划竟然被一个小孩破坏了？$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:214
 msgctxt "Route119_WeatherInstitute_2F_Text_Grunt2PostBattle"
@@ -25,6 +27,8 @@ msgid ""
 "control the weather freely, then we of\l"
 "TEAM AQUA definitely need it!$"
 msgstr ""
+"如果这里创造出来的宝可梦能自由操控\n"
+"天气，那我们海洋队就一定要得到它！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:219
 msgctxt "Route119_WeatherInstitute_2F_Text_Grunt3Intro"
@@ -33,11 +37,13 @@ msgid ""
 "We appear wherever anything rare is\l"
 "found!$"
 msgstr ""
+"我们是海洋队！只要有稀有的东西，\n"
+"我们就会出现！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:224
 msgctxt "Route119_WeatherInstitute_2F_Text_Grunt3Defeat"
 msgid "You got me!$"
-msgstr ""
+msgstr "被你打败了！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:227
 msgctxt "Route119_WeatherInstitute_2F_Text_Grunt3PostBattle"
@@ -46,6 +52,8 @@ msgid ""
 "TEAM AQUA are working towards!\l"
 "You stay out of our way!$"
 msgstr ""
+"你根本不知道我们海洋队在为了\n"
+"什么而努力！别挡我们的路！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:232
 msgctxt "Route119_WeatherInstitute_2F_Text_Grunt5Intro"
@@ -55,11 +63,13 @@ msgid ""
 "That's a no-no!\n"
 "We were here to get it first!$"
 msgstr ""
+"你该不会也在找那只天气宝可梦吧？\p"
+"那可不行！是我们先来抢的！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:238
 msgctxt "Route119_WeatherInstitute_2F_Text_Grunt5Defeat"
 msgid "Oh, will you look at my POKéMON?$"
-msgstr ""
+msgstr "哎呀，看看我的宝可梦都成什么样了？$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:241
 msgctxt "Route119_WeatherInstitute_2F_Text_Grunt5PostBattle"
@@ -69,6 +79,9 @@ msgid ""
 "What we really want isn't here…\n"
 "Ihihihihi…$"
 msgstr ""
+"哼，那又怎样？我们想要的……\p"
+"我们真正想要的东西不在这里……\n"
+"嘻嘻嘻嘻嘻……$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:247
 msgctxt "Route119_WeatherInstitute_2F_Text_ShellyIntro"
@@ -81,13 +94,18 @@ msgid ""
 "You're so cute, you're disgusting!\n"
 "I'll put you down, kiddy!$"
 msgstr ""
+"啊哈哈哈哈！\p"
+"你要来插手海洋队的事？\p"
+"你要么是天不怕地不怕，\n"
+"要么就是什么都不懂，或者两者都是！\p"
+"你可爱得让人讨厌！我来收拾你，小鬼！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:256
 msgctxt "Route119_WeatherInstitute_2F_Text_ShellyDefeat"
 msgid ""
 "Ahahahaha!\n"
 "You're disgustingly strong!$"
-msgstr ""
+msgstr "啊哈哈哈哈！你强得让人讨厌！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:260
 msgctxt "Route119_WeatherInstitute_2F_Text_ShellyPostBattle"
@@ -97,6 +115,9 @@ msgid ""
 "What makes you want to sniff around\n"
 "in our business, anyway?$"
 msgstr ""
+"熔岩队到处捣乱就已经够烦了，\n"
+"现在又冒出个你来！\p"
+"你到底为什么要来打探我们的事？$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:266
 msgctxt "Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy"
@@ -107,6 +128,9 @@ msgid ""
 "They appear to be headed for\n"
 "MT. PYRE!$"
 msgstr ""
+"出状况了！\p"
+"一群熔岩队的人刚刚经过了天气研究所。\p"
+"他们好像正朝送神山去！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:273
 msgctxt "Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre"
@@ -117,6 +141,10 @@ msgid ""
 "Ahahahaha!\n"
 "TEAM MAGMA, just you wait!$"
 msgstr ""
+"什么？！\p"
+"不能再在这里浪费时间了！\n"
+"我们也得赶快去送神山！\p"
+"啊哈哈哈哈！熔岩队，你们给我等着！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:280
 msgctxt "Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon"
@@ -126,18 +154,21 @@ msgid ""
 "It might be an odd way of thanking you,\n"
 "but take this POKéMON.$"
 msgstr ""
+"谢谢！多亏了你，我们才平安无事！\p"
+"用这种方式道谢也许有点奇怪，\n"
+"不过请收下这只宝可梦吧。$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:287
 msgctxt "Route119_WeatherInstitute_2F_Text_NoRoomForPokemon"
 msgid ""
 "Hm? You don't seem to have any room\n"
 "for this POKéMON.$"
-msgstr ""
+msgstr "嗯？你好像没有地方放这只宝可梦了。$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:291
 msgctxt "Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform"
 msgid "{PLAYER} received CASTFORM!$"
-msgstr ""
+msgstr "{PLAYER}得到了飘浮泡泡！$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:294
 msgctxt "Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather"
@@ -147,6 +178,8 @@ msgid ""
 "There're plenty of them in the\n"
 "INSTITUTE--go ahead and take it.$"
 msgstr ""
+"那只宝可梦会根据天气改变样子。\p"
+"研究所里还有很多，你就放心收下吧。$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:300
 msgctxt "Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous"
@@ -155,6 +188,8 @@ msgid ""
 "years, but it's ridiculous to think that\l"
 "humans can freely change the weather.$"
 msgstr ""
+"我研究雨已经很多年了，但认为人类能随\n"
+"意改变天气，这种想法实在太荒唐了。$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:305
 msgctxt "Route119_WeatherInstitute_2F_Text_GroudonWeather"
@@ -166,6 +201,9 @@ msgid ""
 "Could that mean, somewhere near\n"
 "{STR_VAR_1}…$"
 msgstr ""
+"我在追踪丰缘地区的天气变化。\p"
+"目前，{STR_VAR_1}记录到了干旱。\p"
+"难道说，在{STR_VAR_1}附近……$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:313
 msgctxt "Route119_WeatherInstitute_2F_Text_KyogreWeather"
@@ -177,6 +215,9 @@ msgid ""
 "Could that mean, somewhere near\n"
 "{STR_VAR_1}…$"
 msgstr ""
+"我在追踪丰缘地区的天气变化。\p"
+"目前，{STR_VAR_1}记录到了暴雨。\p"
+"难道说，在{STR_VAR_1}附近……$"
 
 #: data/maps/Route119_WeatherInstitute_2F/scripts.inc:321
 msgctxt "Route119_WeatherInstitute_2F_Text_NoAbnormalWeather"
@@ -186,3 +227,5 @@ msgid ""
 "The occasional rainfall is a blessing,\n"
 "really.$"
 msgstr ""
+"已经没有异常天气的报告了。\p"
+"偶尔下点雨，其实也是一种恩赐呢。$"

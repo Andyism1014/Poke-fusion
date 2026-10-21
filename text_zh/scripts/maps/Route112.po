@@ -11,6 +11,8 @@ msgid ""
 "Hey, man, is our leader really going\n"
 "to awaken that thing?$"
 msgstr ""
+"喂，老兄，\n"
+"我们首领真的要唤醒那个东西吗？$"
 
 #: data/maps/Route112/scripts.inc:113
 msgctxt "Route112_Text_YeahWeNeedMeteorite"
@@ -18,6 +20,8 @@ msgid ""
 "Sounds like it, yeah. But I heard\n"
 "we need a METEORITE to do it.$"
 msgstr ""
+"好像是吧。\n"
+"不过我听说要做到这一点需要陨石。$"
 
 #: data/maps/Route112/scripts.inc:117
 msgctxt "Route112_Text_OhThatsWhyCrewWentToFallarbor"
@@ -25,6 +29,8 @@ msgid ""
 "Oh, I get it now. That's why the rest\n"
 "of the crew went out to FALLARBOR.$"
 msgstr ""
+"哦，我明白了。\n"
+"所以其他队员才去了秋叶镇啊。$"
 
 #: data/maps/Route112/scripts.inc:121
 msgctxt "Route112_Text_CantLetAnyonePassUntilTheyreBack"
@@ -32,6 +38,8 @@ msgid ""
 "You got it. And until they come back,\n"
 "we're not to let anyone pass, right.$"
 msgstr ""
+"没错。在他们回来之前，\n"
+"我们不能让任何人通过。$"
 
 #: data/maps/Route112/scripts.inc:125
 msgctxt "Route112_Text_NotEasyToGetBackToLavaridge"
@@ -40,6 +48,8 @@ msgid ""
 "I went down these ledges, it'd be no\l"
 "easy matter to get back to LAVARIDGE.$"
 msgstr ""
+"唉，我想去紫堇市，可是要是从这些台阶\n"
+"跳下去，再想回釜炎乡可就不容易了。$"
 
 #: data/maps/Route112/scripts.inc:130
 msgctxt "Route112_Text_MtChimneyCableCarSign"
@@ -47,6 +57,8 @@ msgid ""
 "MT. CHIMNEY CABLE CAR\n"
 "“A short walk {UP_ARROW} way!”$"
 msgstr ""
+"烟囱山缆车\n"
+"“往{UP_ARROW}走一小段路就到！”$"
 
 #: data/maps/Route112/scripts.inc:134
 msgctxt "Route112_Text_MtChimneySign"
@@ -55,6 +67,8 @@ msgid ""
 "“For LAVARIDGE TOWN or the summit,\n"
 "please take the CABLE CAR.”$"
 msgstr ""
+"烟囱山\p"
+"“前往釜炎乡或山顶，请乘坐缆车。”$"
 
 #: data/maps/Route112/scripts.inc:139
 msgctxt "Route112_Text_RouteSignLavaridge"
@@ -62,3 +76,5 @@ msgid ""
 "ROUTE 112\n"
 "{LEFT_ARROW} LAVARIDGE TOWN$"
 msgstr ""
+"112号道路\n"
+"{LEFT_ARROW} 釜炎乡$"

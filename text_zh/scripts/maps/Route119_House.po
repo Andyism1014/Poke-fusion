@@ -14,8 +14,11 @@ msgid ""
 "POKéMON are revived there. Could\l"
 "something like that really happen?$"
 msgstr ""
+"我听说有个洞窟叫做觉醒祠堂。\p"
+"传说宝可梦的灵魂会在那里复活。\n"
+"真的会有那种事吗？$"
 
 #: data/maps/Route119_House/scripts.inc:25
 msgctxt "Route119_House_Text_Wingull"
 msgid "WINGULL: Pihyoh!$"
-msgstr ""
+msgstr "长翅鸥：咻哟！$"

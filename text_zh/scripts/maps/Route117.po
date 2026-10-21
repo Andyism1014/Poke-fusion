@@ -13,6 +13,9 @@ msgid ""
 "that I didn't teach it.\l"
 "I was really, really surprised.$"
 msgstr ""
+"我把宝可梦寄放在寄放屋里。\p"
+"领回来的时候，它学会了一个我没教过\n"
+"的新招式。我真的、真的很惊讶。$"
 
 #: data/maps/Route117/scripts.inc:224
 msgctxt "Route117_Text_ArentTheseFlowersPretty"
@@ -21,11 +24,13 @@ msgid ""
 "Aren't these flowers pretty?\p"
 "I planted them all!$"
 msgstr ""
+"你觉得怎么样？这些花很漂亮吧？\p"
+"全都是我种的哦！$"
 
 #: data/maps/Route117/scripts.inc:229
 msgctxt "Route117_Text_AirIsTastyHere"
 msgid "The air is tasty here!$"
-msgstr ""
+msgstr "这里的空气真好！$"
 
 #: data/maps/Route117/scripts.inc:232
 msgctxt "Route117_Text_RouteSignVerdanturf"
@@ -33,6 +38,8 @@ msgid ""
 "ROUTE 117\n"
 "{LEFT_ARROW} VERDANTURF TOWN$"
 msgstr ""
+"117号道路\n"
+"{LEFT_ARROW} 绿荫镇$"
 
 #: data/maps/Route117/scripts.inc:236
 msgctxt "Route117_Text_RouteSignMauville"
@@ -40,6 +47,8 @@ msgid ""
 "ROUTE 117\n"
 "{RIGHT_ARROW} MAUVILLE CITY$"
 msgstr ""
+"117号道路\n"
+"{RIGHT_ARROW} 紫堇市$"
 
 #: data/maps/Route117/scripts.inc:240
 msgctxt "Route117_Text_DayCareSign"
@@ -47,3 +56,5 @@ msgid ""
 "POKéMON DAY CARE\n"
 "“Let us raise your POKéMON.”$"
 msgstr ""
+"宝可梦寄放屋\n"
+"“让我们来帮你培育宝可梦吧。”$"

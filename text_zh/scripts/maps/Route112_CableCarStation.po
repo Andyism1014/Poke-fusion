@@ -10,14 +10,14 @@ msgctxt "Route112_CableCarStation_Text_CableCarReadyGetOn"
 msgid ""
 "The CABLE CAR is ready to go up.\n"
 "Would you like to be on it?$"
-msgstr ""
+msgstr "缆车准备上山了。您要乘坐吗？$"
 
 #: data/maps/Route112_CableCarStation/scripts.inc:90
 msgctxt "Route112_CableCarStation_Text_StepThisWay"
 msgid "Please step this way.$"
-msgstr ""
+msgstr "这边请。$"
 
 #: data/maps/Route112_CableCarStation/scripts.inc:93
 msgctxt "Route112_CableCarStation_Text_RideAnotherTime"
 msgid "Please ride with us another time.$"
-msgstr ""
+msgstr "欢迎下次再来乘坐。$"

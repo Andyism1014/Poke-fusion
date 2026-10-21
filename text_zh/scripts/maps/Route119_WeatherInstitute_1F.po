@@ -13,13 +13,16 @@ msgid ""
 "so he sent us out.\p"
 "You quit meddling!$"
 msgstr ""
+"老大对这里进行的研究很感兴趣，\n"
+"所以派我们过来了。\p"
+"你别来多管闲事！$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:77
 msgctxt "Route119_WeatherInstitute_1F_Text_Grunt1Defeat"
 msgid ""
 "Blast it…\n"
 "Blasted by a kid…$"
-msgstr ""
+msgstr "可恶……竟然被一个小孩打败了……$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:81
 msgctxt "Route119_WeatherInstitute_1F_Text_Grunt1PostBattle"
@@ -28,20 +31,23 @@ msgid ""
 "But I'm just a GRUNT. What would I know\n"
 "about what he's thinking?$"
 msgstr ""
+"我们老大什么都知道。\p"
+"可我只是个手下。\n"
+"怎么会知道他在想什么呢？$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:86
 msgctxt "Route119_WeatherInstitute_1F_Text_Grunt4Intro"
 msgid ""
 "Huh?\n"
 "What's a kid doing here?$"
-msgstr ""
+msgstr "嗯？这里怎么会有个小孩？$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:90
 msgctxt "Route119_WeatherInstitute_1F_Text_Grunt4Defeat"
 msgid ""
 "Huh?\n"
 "I lost?!$"
-msgstr ""
+msgstr "嗯？我输了？！$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:94
 msgctxt "Route119_WeatherInstitute_1F_Text_Grunt4PostBattle"
@@ -50,13 +56,15 @@ msgid ""
 "I'll catch an earful for losing to a kid…\p"
 "I should just take a nap in the bed…$"
 msgstr ""
+"糟了……输给小孩，我肯定要挨骂了……\p"
+"我还是在床上睡一觉好了……$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:99
 msgctxt "Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs"
 msgid ""
 "While I was sleeping, everyone went\n"
 "upstairs!$"
-msgstr ""
+msgstr "我睡着的时候，大家都上楼去了！$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:103
 msgctxt "Route119_WeatherInstitute_1F_Text_WowYoureStrong"
@@ -65,6 +73,9 @@ msgid ""
 "I wish I could be a POKéMON TRAINER\n"
 "like you!$"
 msgstr ""
+"哇，你真的好强！\p"
+"真希望我也能成为像你一样的\n"
+"宝可梦训练家！$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:108
 msgctxt "Route119_WeatherInstitute_1F_Text_ProfStudyingRain"
@@ -76,6 +87,11 @@ msgid ""
 "And thus, the PROFESSOR is studying\n"
 "if the rain can be put to good use.$"
 msgstr ""
+"博士喜欢下雨。这是事实。\p"
+"但如果一直下雨，\n"
+"人们就会很困扰。这也是事实。\p"
+"所以，博士正在\n"
+"研究能不能好好利用雨水。$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:116
 msgctxt "Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather"
@@ -87,6 +103,10 @@ msgid ""
 "isolated cases of droughts and\l"
 "heavy rain lately…$"
 msgstr ""
+"在研究所的2楼，\n"
+"我们研究丰缘地区的天气变化。\p"
+"最近我们注意到，有些地方会出\n"
+"现暂时性的局部干旱和暴雨……$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:124
 msgctxt "Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo"
@@ -96,10 +116,13 @@ msgid ""
 "What I don't understand is what on\n"
 "earth the AQUAS were up to.$"
 msgstr ""
+"你好！多亏了你，我们才得救了！\p"
+"我不明白的是，\n"
+"海洋队那些人到底想干什么。$"
 
 #: data/maps/Route119_WeatherInstitute_1F/scripts.inc:130
 msgctxt "Route119_WeatherInstitute_1F_Text_TakeRestInBed"
 msgid ""
 "There's a bed…\n"
 "Let's take a rest.$"
-msgstr ""
+msgstr "这里有张床……休息一下吧。$"

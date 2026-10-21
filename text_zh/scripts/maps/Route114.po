@@ -13,6 +13,10 @@ msgid ""
 "Sigh… If you would, please take\n"
 "this TM away…$"
 msgstr ""
+"我的宝可梦只会吼叫……\n"
+"谁都不敢靠近我……\p"
+"唉……如果可以的话，\n"
+"请把这个招式学习器拿走吧……$"
 
 #: data/maps/Route114/scripts.inc:182
 msgctxt "Route114_Text_ExplainRoar"
@@ -20,11 +24,13 @@ msgid ""
 "TM05 contains ROAR.\n"
 "A ROAR sends POKéMON scurrying.$"
 msgstr ""
+"招式学习器05里面是吼叫。\n"
+"吼叫能把宝可梦吓跑。$"
 
 #: data/maps/Route114/scripts.inc:186
 msgctxt "Route114_Text_Poochyena"
 msgid "Bow! Bowwow!$"
-msgstr ""
+msgstr "汪！汪汪！$"
 
 #: data/maps/Route114/scripts.inc:189
 msgctxt "Route114_Text_MeteorFallsSign"
@@ -32,6 +38,8 @@ msgid ""
 "METEOR FALLS\n"
 "RUSTBORO CITY THROUGH HERE$"
 msgstr ""
+"流星瀑布\n"
+"由此前往卡那兹市$"
 
 #: data/maps/Route114/scripts.inc:193
 msgctxt "Route114_Text_FossilManiacsHouseSign"
@@ -39,8 +47,10 @@ msgid ""
 "FOSSIL MANIAC'S HOUSE\n"
 "“Fossils gratefully accepted!”$"
 msgstr ""
+"化石迷之家\n"
+"“欢迎捐赠化石！”$"
 
 #: data/maps/Route114/scripts.inc:197
 msgctxt "Route114_Text_LanettesHouse"
 msgid "LANETTE'S HOUSE$"
-msgstr ""
+msgstr "真由美的家$"
