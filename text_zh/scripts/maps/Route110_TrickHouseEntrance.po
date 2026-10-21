@@ -8,7 +8,7 @@ msgstr ""
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:697
 msgctxt "Route110_TrickHouseEntrance_Text_YoureBeingWatched"
 msgid "You're being watched…$"
-msgstr ""
+msgstr "有人在看着你……$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:700
 msgctxt "Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk"
@@ -17,6 +17,9 @@ msgid ""
 "How did you know I concealed myself\n"
 "beneath this desk? You're sharp!$"
 msgstr ""
+"哈？呜呜……\p"
+"你怎么知道我躲在这张桌子下面？\n"
+"你很敏锐嘛！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:705
 msgctxt "Route110_TrickHouseEntrance_Text_ConcealedBehindTree"
@@ -25,6 +28,9 @@ msgid ""
 "How did you know I concealed myself\n"
 "behind this tree? You're sharp!$"
 msgstr ""
+"哈？呜呜……\p"
+"你怎么知道我躲在这棵树后面？\n"
+"你很敏锐嘛！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:710
 msgctxt "Route110_TrickHouseEntrance_Text_ConcealedInDresser"
@@ -33,6 +39,9 @@ msgid ""
 "How did you know I concealed myself\n"
 "in this dresser? You're sharp!$"
 msgstr ""
+"哈？呜呜……\p"
+"你怎么知道我躲在这个衣柜里？\n"
+"你很敏锐嘛！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:715
 msgctxt "Route110_TrickHouseEntrance_Text_ConealedBeyondWindow"
@@ -41,6 +50,9 @@ msgid ""
 "How did you know I concealed myself\n"
 "beyond this window? You're sharp!$"
 msgstr ""
+"哈？呜呜……\p"
+"你怎么知道我躲在这扇窗户外面？\n"
+"你很敏锐嘛！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:720
 msgctxt "Route110_TrickHouseEntrance_Text_ConcealedInPlanter"
@@ -49,6 +61,9 @@ msgid ""
 "How did you know I concealed myself\n"
 "in this planter? You're sharp!$"
 msgstr ""
+"哈？呜呜……\p"
+"你怎么知道我躲在这个花盆里？\n"
+"你很敏锐嘛！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:725
 msgctxt "Route110_TrickHouseEntrance_Text_ConcealedInCupboard"
@@ -57,6 +72,9 @@ msgid ""
 "How did you know I concealed myself\n"
 "in this cupboard? You're sharp!$"
 msgstr ""
+"哈？呜呜……\p"
+"你怎么知道我躲在这个橱柜里？\n"
+"你很敏锐嘛！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:730
 msgctxt "Route110_TrickHouseEntrance_Text_ConcealedBehindWindow"
@@ -65,6 +83,9 @@ msgid ""
 "How did you know I concealed myself\n"
 "behind this window? You're sharp!$"
 msgstr ""
+"哈？呜呜……\p"
+"你怎么知道我躲在这扇窗户后面？\n"
+"你很敏锐嘛！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:735
 msgctxt "Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion"
@@ -73,6 +94,9 @@ msgid ""
 "How did you know I concealed myself\n"
 "beneath this cushion? You're sharp!$"
 msgstr ""
+"哈？呜呜……\p"
+"你怎么知道我躲在这个坐垫下面？\n"
+"你很敏锐嘛！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:740
 msgctxt "Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster"
@@ -84,6 +108,10 @@ msgid ""
 "The TRICK MASTER!\n"
 "Wahahaha! Glad to meet you!$"
 msgstr ""
+"看好了！\p"
+"我就是全丰缘地区最神秘的男人！\n"
+"人们都叫我……\p"
+"机关大王！哇哈哈哈！很高兴认识你！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:748
 msgctxt "Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse"
@@ -97,11 +125,17 @@ msgid ""
 "and let your challenge commence!\p"
 "I shall be waiting in the back!$"
 msgstr ""
+"你、你是来挑战我的机关屋的吧？\p"
+"你就是为了这个来的，\n"
+"对不对？没错，就是这样！\p"
+"我接受你的挑战！\p"
+"从那边的挂轴进去，开始你的挑战吧！\p"
+"我会在最里面等着你！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:758
 msgctxt "Route110_TrickHouseEntrance_Text_ItsAScroll"
 msgid "It's a scroll.$"
-msgstr ""
+msgstr "是一幅挂轴。$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:761
 msgctxt "Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll"
@@ -109,6 +143,8 @@ msgid ""
 "There is a big hole behind the scroll!\p"
 "Want to go in?$"
 msgstr ""
+"挂轴后面有一个大洞！\p"
+"要进去吗？$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:765
 msgctxt "Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote"
@@ -117,6 +153,9 @@ msgid ""
 "“I am leaving on a journey.\n"
 "Don't look for me. TRICK MASTER”$"
 msgstr ""
+"挂轴上贴着一张纸条……\p"
+"“我去旅行了。不要来找我。\n"
+"机关大王”$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:770
 msgctxt "Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick"
@@ -126,6 +165,10 @@ msgid ""
 "Mufufufu… If I may say so, it's\n"
 "brilliantly difficult, even for me!$"
 msgstr ""
+"下一次，我要用这个机关、\n"
+"那个计谋，还有那些花招……\p"
+"呣呼呼呼……虽然是我自己说的，\n"
+"但就连我都觉得难得精彩！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:776
 msgctxt "Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges"
@@ -139,6 +182,11 @@ msgid ""
 "You wouldn't begrudge me that?\l"
 "Come back in a little while!$"
 msgstr ""
+"哈？什么？！哦，是你啊！\p"
+"我正在设计新的机关挑战呢！\p"
+"再给我一点时间想一想，\n"
+"这要求不算过分吧？你不会连这都\l"
+"不肯吧？过一会儿再来吧！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:786
 msgctxt "Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward"
@@ -149,13 +197,16 @@ msgid ""
 "Here!\n"
 "I'll give it to you now!$"
 msgstr ""
+"啊，是你！你是来领之前的奖励的吧？\n"
+"没错，我说对了！\p"
+"给！我现在就给你！$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:793
 msgctxt "Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward"
 msgid ""
 "Hah?\n"
 "Did you not come to claim your reward?$"
-msgstr ""
+msgstr "哈？你不是来领奖励的吗？$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:797
 msgctxt "Route110_TrickHouseEntrance_Text_MechadollWhichTent"
@@ -166,35 +217,38 @@ msgid ""
 "RED TENT OR BLUE TENT,\n"
 "WHICH DO YOU PREFER?$"
 msgstr ""
+"机关人偶5号，就是我！\n"
+"奖励你若不拿，机关大王你便追不上。\p"
+"红色帐篷还是蓝色帐篷，你喜欢哪个？$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:804
 msgctxt "Route110_TrickHouseEntrance_Text_ThenFarewell"
 msgid "THEN FAREWELL.$"
-msgstr ""
+msgstr "那么，再会。$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:807
 msgctxt "Route110_TrickHouseEntrance_Text_PCFullAgain"
 msgid ""
 "YOUR PC STATUS: FULL AGAIN.\n"
 "MEAN, YOU ARE.$"
-msgstr ""
+msgstr "你的电脑状态：又满了。你，真坏。$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:811
 msgctxt "Route110_TrickHousePuzzle_Text_FoundAScroll"
 msgid "{PLAYER} found a scroll.$"
-msgstr ""
+msgstr "{PLAYER}找到了一幅卷轴。$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:814
 msgctxt "Route110_TrickHousePuzzle_Text_MemorizedSecretCode"
 msgid ""
 "{PLAYER} memorized the secret code\n"
 "written on the scroll.$"
-msgstr ""
+msgstr "{PLAYER}记住了卷轴上写着的暗号。$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:818
 msgctxt "Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt"
 msgid "A secret code is written on it.$"
-msgstr ""
+msgstr "上面写着暗号。$"
 
 #: data/maps/Route110_TrickHouseEntrance/scripts.inc:821
 msgctxt "Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere"
@@ -203,3 +257,6 @@ msgid ""
 "…On closer inspection, this is written\n"
 "on it: “Write the secret code here.”$"
 msgstr ""
+"门锁着。\p"
+"……仔细一看，上面写着：\n"
+"“请在这里写下暗号。”$"

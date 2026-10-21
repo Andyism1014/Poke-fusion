@@ -14,6 +14,10 @@ msgid ""
 "… … … … … … … …\p"
 "The lock clicked open!$"
 msgstr ""
+"{PLAYER}在门上写下了暗号。\p"
+"“机关大王让人想抱抱。”\n"
+"…… …… …… …… …… …… …… ……\p"
+"咔嚓一声，锁打开了！$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:324
 msgctxt "Route110_TrickHousePuzzle7_Text_JoshuaIntro"
@@ -21,6 +25,8 @@ msgid ""
 "The TRICK MASTER always vanishes\n"
 "like smoke. How does he do it?$"
 msgstr ""
+"机关大王总是像烟一样消失。\n"
+"他是怎么做到的？$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:328
 msgctxt "Route110_TrickHousePuzzle7_Text_JoshuaDefeat"
@@ -28,13 +34,15 @@ msgid ""
 "Aiyeeeh! You're much too strong!\n"
 "How do you do it?$"
 msgstr ""
+"哇啊啊！你也太强了吧！\n"
+"你是怎么做到的？$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:332
 msgctxt "Route110_TrickHousePuzzle7_Text_JoshuaPostBattle"
 msgid ""
 "I wish I could appear and disappear as\n"
 "if I were smoke, too.$"
-msgstr ""
+msgstr "真希望我也能像烟一样神出鬼没。$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:336
 msgctxt "Route110_TrickHousePuzzle7_Text_PatriciaIntro"
@@ -42,13 +50,15 @@ msgid ""
 "Going around the same spot…\n"
 "It begets ill fortune…$"
 msgstr ""
+"在同一个地方绕圈子……\n"
+"会招来厄运的……$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:340
 msgctxt "Route110_TrickHousePuzzle7_Text_PatriciaDefeat"
 msgid ""
 "Defeated!\n"
 "It's a bad sign…$"
-msgstr ""
+msgstr "输了！这是不祥之兆……$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:344
 msgctxt "Route110_TrickHousePuzzle7_Text_PatriciaPostBattle"
@@ -56,6 +66,8 @@ msgid ""
 "I've circled the same spot over ten\n"
 "times now… It's ill fortune…$"
 msgstr ""
+"我已经在同一个地方绕了十几圈了……\n"
+"真是厄运……$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:348
 msgctxt "Route110_TrickHousePuzzle7_Text_AlexisIntro"
@@ -63,13 +75,15 @@ msgid ""
 "Whoever wins will get through here\n"
 "first. That's the feeling I get.$"
 msgstr ""
+"谁赢了，谁就能先通过这里。\n"
+"我有这种感觉。$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:352
 msgctxt "Route110_TrickHousePuzzle7_Text_AlexisDefeat"
 msgid ""
 "Oh!\n"
 "Well, go ahead, then!$"
-msgstr ""
+msgstr "哦！那么，你先请吧！$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:356
 msgctxt "Route110_TrickHousePuzzle7_Text_AlexisPostBattle"
@@ -77,35 +91,37 @@ msgid ""
 "You're solving all the puzzles in the\n"
 "TRICK HOUSE. That's the feeling I get.$"
 msgstr ""
+"你会解开机关屋里所有的谜题。\n"
+"我有这种感觉。$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:360
 msgctxt "Route110_TrickHousePuzzle7_Text_MarielaIntro"
 msgid ""
 "Nufufufu, here at last!\n"
 "Let's get right with it!$"
-msgstr ""
+msgstr "呶呼呼呼，终于来了！我们马上开始吧！$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:364
 msgctxt "Route110_TrickHousePuzzle7_Text_MarielaDefeat"
 msgid "You're so casual about winning!$"
-msgstr ""
+msgstr "你赢得也太轻松了吧！$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:367
 msgctxt "Route110_TrickHousePuzzle7_Text_MarielaPostBattle"
 msgid ""
 "Humph! I'm not upset!\n"
 "Not me!$"
-msgstr ""
+msgstr "哼！我才没有不高兴呢！才没有！$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:371
 msgctxt "Route110_TrickHousePuzzle7_Text_AlvaroIntro"
 msgid "I ever so closely watched you coming!$"
-msgstr ""
+msgstr "我一直在仔细地看着你过来！$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:374
 msgctxt "Route110_TrickHousePuzzle7_Text_AlvaroDefeat"
 msgid "This outcome I didn't see coming…$"
-msgstr ""
+msgstr "这个结果我可没看到……$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:377
 msgctxt "Route110_TrickHousePuzzle7_Text_AlvaroPostBattle"
@@ -115,16 +131,19 @@ msgid ""
 "As one weirdo to another,\n"
 "let's do our best!$"
 msgstr ""
+"嗯，不管怎样，\n"
+"我们都选了个奇怪的地方认识彼此。\p"
+"作为同样奇怪的人，我们一起加油吧！$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:383
 msgctxt "Route110_TrickHousePuzzle7_Text_EverettIntro"
 msgid "It's awfully cramped in here…$"
-msgstr ""
+msgstr "这里实在是太挤了……$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:386
 msgctxt "Route110_TrickHousePuzzle7_Text_EverettDefeat"
 msgid "Oh, yes, strong you are.$"
-msgstr ""
+msgstr "哦，是啊，你真强。$"
 
 #: data/maps/Route110_TrickHousePuzzle7/scripts.inc:389
 msgctxt "Route110_TrickHousePuzzle7_Text_EverettPostBattle"
@@ -132,3 +151,5 @@ msgid ""
 "I was hoping to switch places with you\n"
 "when I beat you, but…$"
 msgstr ""
+"我本来想打败你以后和\n"
+"你换个位置的，可是……$"

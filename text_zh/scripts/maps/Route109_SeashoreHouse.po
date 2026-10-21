@@ -16,6 +16,12 @@ msgid ""
 "If you can defeat all the TRAINERS\n"
 "here, I'll reward your efforts.$"
 msgstr ""
+"我是海之家的老板。\n"
+"不过你可以叫我大海先生！\p"
+"我最喜欢的就是看火热的宝可梦对战。\p"
+"让我看看你那颗火热的心吧！\p"
+"如果你能打败这里所有的训练家，\n"
+"我就奖励你的努力。$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:113
 msgctxt "Route109_SeashoreHouse_Text_ShowMeSomeHotMatches"
@@ -24,6 +30,8 @@ msgid ""
 "I run this SEASHORE HOUSE just for\n"
 "that reason alone!$"
 msgstr ""
+"让我看看火热的对战吧！\p"
+"我经营这家海之家就是为了这个！$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:118
 msgctxt "Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles"
@@ -35,6 +43,11 @@ msgid ""
 "streak, I want you to take these.\p"
 "It's half a dozen bottles of SODA POP!$"
 msgstr ""
+"你真是太火热了！\n"
+"那些对战简直在燃烧！我心满意足了！\p"
+"为了感谢你让我看到你火热的表现，\n"
+"请收下这些吧。\p"
+"这是半打劲爽汽水！$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:126
 msgctxt "Route109_SeashoreHouse_Text_BagFull"
@@ -42,6 +55,8 @@ msgid ""
 "Oh, but hey, your BAG's jammed full.\n"
 "I'll hang on to these for you.$"
 msgstr ""
+"哎呀，不过你的包包已经塞满了。\n"
+"我先帮你保管着吧。$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:130
 msgctxt "Route109_SeashoreHouse_Text_WantToBuySodaPop"
@@ -51,23 +66,25 @@ msgid ""
 "Just ¥300 a bottle!\n"
 "Buy some!$"
 msgstr ""
+"要不要买些劲爽汽水？宝可梦最喜欢了！\p"
+"一瓶只要300元！买一些吧！$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:136
 msgctxt "Route109_SeashoreHouse_Text_HereYouGo"
 msgid "Here you go!$"
-msgstr ""
+msgstr "给你！$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:139
 msgctxt "Route109_SeashoreHouse_Text_NotEnoughMoney"
 msgid "You don't have the money.$"
-msgstr ""
+msgstr "你的钱不够哦。$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:142
 msgctxt "Route109_SeashoreHouse_Text_ThatsTooBad"
 msgid ""
 "No?\n"
 "That's too bad.$"
-msgstr ""
+msgstr "不要吗？真可惜。$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:146
 msgctxt "Route109_SeashoreHouse_Text_DwayneIntro"
@@ -76,6 +93,8 @@ msgid ""
 "SEASHORE HOUSE, you'll find no\l"
 "hotter TRAINER than me, matey!$"
 msgstr ""
+"如果你想在海之家找人对战，那就\n"
+"没有比我更火热的训练家了，伙计！$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:151
 msgctxt "Route109_SeashoreHouse_Text_DwayneDefeated"
@@ -83,6 +102,8 @@ msgid ""
 "That was a hot battle!\n"
 "I can accept that loss, matey!$"
 msgstr ""
+"真是一场火热的对战！\n"
+"这场失败我心服口服，伙计！$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:155
 msgctxt "Route109_SeashoreHouse_Text_DwaynePostBattle"
@@ -90,6 +111,8 @@ msgid ""
 "Whenever I'm in SLATEPORT, I enjoy\n"
 "hot battles and ice-cold SODA POP!$"
 msgstr ""
+"每次来凯那市，我都会享受火热的\n"
+"对战和冰凉的劲爽汽水！$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:159
 msgctxt "Route109_SeashoreHouse_Text_JohannaIntro"
@@ -98,18 +121,21 @@ msgid ""
 "Fiery hot battles are what toughen up\n"
 "TRAINERS and POKéMON!$"
 msgstr ""
+"无聊的对战根本不值得费力气。\p"
+"只有火热的对战才能让训练家和\n"
+"宝可梦变得更强！$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:164
 msgctxt "Route109_SeashoreHouse_Text_JohannaDefeated"
 msgid "That's hot!$"
-msgstr ""
+msgstr "真火热！$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:167
 msgctxt "Route109_SeashoreHouse_Text_JohannaPostBattle"
 msgid ""
 "Whew, I'm all thirsty.\n"
 "Maybe I'll have a SODA POP.$"
-msgstr ""
+msgstr "呼，我好渴啊。来瓶劲爽汽水吧。$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:171
 msgctxt "Route109_SeashoreHouse_Text_SimonIntro"
@@ -117,11 +143,13 @@ msgid ""
 "I'm going to show you how great\n"
 "my POKéMON are, but don't cry!$"
 msgstr ""
+"我要让你看看我的宝可梦有多厉害，\n"
+"你可别哭哦！$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:175
 msgctxt "Route109_SeashoreHouse_Text_SimonDefeated"
 msgid "…I lost, but I won't cry…$"
-msgstr ""
+msgstr "……我输了，但我不会哭的……$"
 
 #: data/maps/Route109_SeashoreHouse/scripts.inc:178
 msgctxt "Route109_SeashoreHouse_Text_SimonPostBattle"
@@ -130,3 +158,5 @@ msgid ""
 "for carrying me across water on its\l"
 "back, I could get rid of this inner tube.$"
 msgstr ""
+"要是我的宝可梦会把我背过水面的招式，\n"
+"我就可以扔掉这个游泳圈了。$"

@@ -13,6 +13,9 @@ msgid ""
 "on our family of four in a series of\l"
 "POKéMON battles?$"
 msgstr ""
+"你好！我猜你是位旅行者吧。\p"
+"怎么样？要不要和我们一家四\n"
+"口进行一连串的宝可梦对战？$"
 
 #: data/maps/Route111/scripts.inc:570
 msgctxt "Route111_Text_IsThatSo"
@@ -20,18 +23,20 @@ msgid ""
 "Is that so?\n"
 "Drop in, if you change your mind!$"
 msgstr ""
+"是吗？如果改变主意了，\n"
+"就来我们家坐坐吧！$"
 
 #: data/maps/Route111/scripts.inc:574
 msgctxt "Route111_Text_VictorIntro"
 msgid "That's the spirit! I like you!$"
-msgstr ""
+msgstr "就是要有这股气势！我喜欢你！$"
 
 #: data/maps/Route111/scripts.inc:577
 msgctxt "Route111_Text_VictorDefeat"
 msgid ""
 "Aiyah!\n"
 "You're a lot tougher than I expected!$"
-msgstr ""
+msgstr "哎呀！你比我想象的厉害多了！$"
 
 #: data/maps/Route111/scripts.inc:581
 msgctxt "Route111_Text_VictorPostBattle"
@@ -39,6 +44,8 @@ msgid ""
 "Hey, all!\n"
 "I've found a pretty strong TRAINER!$"
 msgstr ""
+"大家听着！\n"
+"我找到了一个相当强的训练家！$"
 
 #: data/maps/Route111/scripts.inc:585
 msgctxt "Route111_Text_VictoriaIntro"
@@ -48,6 +55,10 @@ msgid ""
 "my husband, though.\p"
 "It's my turn to battle now!$"
 msgstr ""
+"哎呀，天哪！你还这么小啊？\p"
+"不过，能打败我丈夫，\n"
+"你一定是个了不起的训练家。\p"
+"现在轮到我来对战了！$"
 
 #: data/maps/Route111/scripts.inc:591
 msgctxt "Route111_Text_VictoriaDefeat"
@@ -55,6 +66,8 @@ msgid ""
 "Oh, gosh!\n"
 "I can't get over how strong you are!$"
 msgstr ""
+"哎呀！你实在是太强了，\n"
+"我简直不敢相信！$"
 
 #: data/maps/Route111/scripts.inc:595
 msgctxt "Route111_Text_VictoriaPostBattle"
@@ -62,6 +75,8 @@ msgid ""
 "There's a strong TRAINER here!\n"
 "This one's really strong!$"
 msgstr ""
+"这里有个很强的训练家！\n"
+"这孩子真的很强！$"
 
 #: data/maps/Route111/scripts.inc:599
 msgctxt "Route111_Text_ViviIntro"
@@ -70,11 +85,13 @@ msgid ""
 "But I'm strong, too!\n"
 "Really! Honestly!$"
 msgstr ""
+"你比妈妈还强？哇！\p"
+"不过我也很强哦！真的！我说真的！$"
 
 #: data/maps/Route111/scripts.inc:604
 msgctxt "Route111_Text_ViviDefeat"
 msgid "Huh? Did I just lose?$"
-msgstr ""
+msgstr "咦？我刚才输了吗？$"
 
 #: data/maps/Route111/scripts.inc:607
 msgctxt "Route111_Text_ViviPostBattle"
@@ -82,6 +99,8 @@ msgid ""
 "This stinks…\p"
 "…Snivel… Grandma!$"
 msgstr ""
+"讨厌死了……\p"
+"……呜呜……奶奶！$"
 
 #: data/maps/Route111/scripts.inc:611
 msgctxt "Route111_Text_VickyIntro"
@@ -91,13 +110,16 @@ msgid ""
 "For that, I'm going to smack you!\n"
 "Prepare to lose!$"
 msgstr ""
+"你竟敢把我的孙女弄哭！\p"
+"为此，我要好好教训你一顿！\n"
+"准备认输吧！$"
 
 #: data/maps/Route111/scripts.inc:617
 msgctxt "Route111_Text_VickyDefeat"
 msgid ""
 "Kwah! You are strong…\n"
 "My granddaughter was right…$"
-msgstr ""
+msgstr "哇！你真强……我孙女说得没错……$"
 
 #: data/maps/Route111/scripts.inc:621
 msgctxt "Route111_Text_VickyPostBattle"
@@ -105,6 +127,8 @@ msgid ""
 "If you're not in any hurry,\n"
 "visit with us awhile.$"
 msgstr ""
+"如果你不赶时间的话，\n"
+"就在我们家坐一会儿吧。$"
 
 #: data/maps/Route111/scripts.inc:625
 msgctxt "Route111_Text_ToughToKeepWinningUpTheRanks"
@@ -116,6 +140,10 @@ msgid ""
 "ELITE FOUR are far stronger than\l"
 "any GYM LEADER.$"
 msgstr ""
+"如果不再多培养一下宝可梦，\n"
+"想一路赢下去可能会很难。\p"
+"我听说宝可梦联盟的\n"
+"四天王比任何道馆馆主都要强得多。$"
 
 #: data/maps/Route111/scripts.inc:633
 msgctxt "Route111_Text_WinstrateFamilyDestroyedMe"
@@ -124,6 +152,8 @@ msgid ""
 "but four matches in a row is tough\l"
 "going… They destroyed me.$"
 msgstr ""
+"我挑战了连胜一家，但是连续4场对战\n"
+"真的太难了……我被打得落花流水。$"
 
 #: data/maps/Route111/scripts.inc:638
 msgctxt "Route111_Text_RouteSignMauville"
@@ -131,6 +161,8 @@ msgid ""
 "ROUTE 111\n"
 "{DOWN_ARROW} MAUVILLE CITY$"
 msgstr ""
+"111号道路\n"
+"{DOWN_ARROW} 紫堇市$"
 
 #: data/maps/Route111/scripts.inc:642
 msgctxt "Route111_Text_WinstrateHouseSign"
@@ -138,6 +170,8 @@ msgid ""
 "“Our family's hearts beat as one!”\n"
 "THE WINSTRATE'S HOUSE$"
 msgstr ""
+"“我们一家心连心！”\n"
+"连胜一家的家$"
 
 #: data/maps/Route111/scripts.inc:646
 msgctxt "Route111_Text_RouteSign112"
@@ -145,6 +179,8 @@ msgid ""
 "ROUTE 111\n"
 "{LEFT_ARROW} ROUTE 112$"
 msgstr ""
+"111号道路\n"
+"{LEFT_ARROW} 112号道路$"
 
 #: data/maps/Route111/scripts.inc:650
 msgctxt "Route111_Text_RouteSign113"
@@ -152,6 +188,8 @@ msgid ""
 "ROUTE 111\n"
 "{LEFT_ARROW} ROUTE 113$"
 msgstr ""
+"111号道路\n"
+"{LEFT_ARROW} 113号道路$"
 
 #: data/maps/Route111/scripts.inc:654
 msgctxt "Route111_Text_OldLadysRestStopSign"
@@ -159,6 +197,8 @@ msgid ""
 "OLD LADY'S REST STOP\n"
 "“Come in and rest your tired bones.”$"
 msgstr ""
+"老婆婆休息站\n"
+"“进来让疲惫的身体休息一下吧。”$"
 
 #: data/maps/Route111/scripts.inc:658
 msgctxt "Route111_Text_TrainerTipsSpAtkSpDef"
@@ -170,6 +210,10 @@ msgid ""
 "Likewise, SP. DEF stands for “SPECIAL\n"
 "DEFENSE.”$"
 msgstr ""
+"训练家小知识\p"
+"衡量宝可梦强弱的指标之一是特攻。\n"
+"它是“特殊攻击”的简称。\p"
+"同样地，特防是“特殊防御”的简称。$"
 
 #: data/maps/Route111/scripts.inc:666
 msgctxt "Route111_Text_ShouldBeMirageTowerAroundHere"
@@ -180,6 +224,10 @@ msgid ""
 "sometimes, and sometimes not.\p"
 "That's why I call it the MIRAGE TOWER.$"
 msgstr ""
+"这附近应该有一座用沙子建成的塔。\p"
+"但不知道为什么，它有时候看得见，\n"
+"有时候又看不见。\p"
+"所以我叫它幻影之塔。$"
 
 #: data/maps/Route111/scripts.inc:673
 msgctxt "Route111_Text_MirageTowerClearlyVisible"
@@ -193,6 +241,12 @@ msgid ""
 "I want to go inside it, but I can't\n"
 "get my courage up for it…$"
 msgstr ""
+"我看到了！那座沙之塔！\p"
+"被称为幻影的\n"
+"沙之塔清清楚楚地出现在眼前！\p"
+"可是它看起来好脆弱……\n"
+"随时都可能会崩塌……\p"
+"我很想进去看看，可是又鼓不起勇气……$"
 
 #: data/maps/Route111/scripts.inc:683
 msgctxt "Route111_Text_ThatWasShockingSandRainedDown"
@@ -204,6 +258,10 @@ msgid ""
 "What was it like inside?\n"
 "Were there sandy ghosts and such?$"
 msgstr ""
+"哇……真是吓死人了。\p"
+"突然有大块大块的沙子哗啦啦地落下来。\p"
+"里面是什么样子的？\n"
+"有没有沙子做的幽灵之类的东西？$"
 
 #: data/maps/Route111/scripts.inc:691
 msgctxt "Route111_Text_MirageTowerHasntBeenSeenSince"
@@ -213,20 +271,23 @@ msgid ""
 "Perhaps it really was\n"
 "the MIRAGE TOWER…$"
 msgstr ""
+"自从我跟你说过话以后，\n"
+"那座沙之塔就再也没出现过了。\p"
+"也许它真的是幻影之塔吧……$"
 
 #: data/maps/Route111/scripts.inc:697
 msgctxt "Route111_Text_ClawFossilDisappeared"
 msgid ""
 "The CLAW FOSSIL disappeared into\n"
 "the sand…$"
-msgstr ""
+msgstr "爪子化石消失在沙子里了……$"
 
 #: data/maps/Route111/scripts.inc:701
 msgctxt "Route111_Text_RootFossilDisappeared"
 msgid ""
 "The ROOT FOSSIL disappeared into\n"
 "the sand…$"
-msgstr ""
+msgstr "根状化石消失在沙子里了……$"
 
 #: data/maps/Route111/scripts.inc:705
 msgctxt "Route111_Text_MauvilleUncleToldMeToTakeRockSmash"
@@ -238,6 +299,10 @@ msgid ""
 "My uncle? He lives across from\n"
 "the bike shop in MAUVILLE.$"
 msgstr ""
+"糟糕！\p"
+"我住在紫堇市的叔叔告诉过我，\n"
+"要去111号道路的话，就得带上碎岩！\p"
+"我叔叔？他住在紫堇市自行车店的对面。$"
 
 #: data/maps/Route111/scripts.inc:713
 msgctxt "Route111_Text_TrainerHillSign"
@@ -246,3 +311,5 @@ msgid ""
 "“Scale the heights, you hot-blooded\n"
 "TRAINERS!”$"
 msgstr ""
+"{RIGHT_ARROW} 训练家山丘入口\p"
+"“热血的训练家们，向顶峰攀登吧！”$"

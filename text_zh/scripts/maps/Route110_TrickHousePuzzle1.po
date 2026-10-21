@@ -14,6 +14,10 @@ msgid ""
 "… … … … … … … …\p"
 "The lock clicked open!$"
 msgstr ""
+"{PLAYER}在门上写下了暗号。\p"
+"“机关大王真了不起。”\n"
+"…… …… …… …… …… …… …… ……\p"
+"咔嚓一声，锁打开了！$"
 
 #: data/maps/Route110_TrickHousePuzzle1/scripts.inc:46
 msgctxt "Route110_TrickHousePuzzle1_Text_SallyIntro"
@@ -21,30 +25,32 @@ msgid ""
 "I'll hack and slash my way to victory\n"
 "with the CUT we just learned!$"
 msgstr ""
+"我要用刚学会的居合斩，\n"
+"一路砍出一条胜利之路！$"
 
 #: data/maps/Route110_TrickHousePuzzle1/scripts.inc:50
 msgctxt "Route110_TrickHousePuzzle1_Text_SallyDefeat"
 msgid "Why are you so serious?$"
-msgstr ""
+msgstr "你干吗这么认真啊？$"
 
 #: data/maps/Route110_TrickHousePuzzle1/scripts.inc:53
 msgctxt "Route110_TrickHousePuzzle1_Text_SallyPostBattle"
 msgid ""
 "I never get tired of hacking\n"
 "and slashing!$"
-msgstr ""
+msgstr "砍来砍去，我永远都不会腻！$"
 
 #: data/maps/Route110_TrickHousePuzzle1/scripts.inc:57
 msgctxt "Route110_TrickHousePuzzle1_Text_EddieIntro"
 msgid ""
 "I wandered into this weird house\n"
 "by accident…$"
-msgstr ""
+msgstr "我不小心闯进了这间奇怪的房子……$"
 
 #: data/maps/Route110_TrickHousePuzzle1/scripts.inc:61
 msgctxt "Route110_TrickHousePuzzle1_Text_EddieDefeat"
 msgid "And now I've lost…$"
-msgstr ""
+msgstr "结果现在还输了……$"
 
 #: data/maps/Route110_TrickHousePuzzle1/scripts.inc:64
 msgctxt "Route110_TrickHousePuzzle1_Text_EddiePostBattle"
@@ -52,20 +58,22 @@ msgid ""
 "I lost my way, I lost a battle, and I'm\n"
 "now even more lost… I can't get out…$"
 msgstr ""
+"我迷了路，又输了对战，\n"
+"现在更迷茫了……我出不去了……$"
 
 #: data/maps/Route110_TrickHousePuzzle1/scripts.inc:68
 msgctxt "Route110_TrickHousePuzzle1_Text_RobinIntro"
 msgid "Just who is the TRICK MASTER?$"
-msgstr ""
+msgstr "机关大王到底是什么人？$"
 
 #: data/maps/Route110_TrickHousePuzzle1/scripts.inc:71
 msgctxt "Route110_TrickHousePuzzle1_Text_RobinDefeat"
 msgid "I lost while I was lost in thought!$"
-msgstr ""
+msgstr "我想得太入神，结果就输了！$"
 
 #: data/maps/Route110_TrickHousePuzzle1/scripts.inc:74
 msgctxt "Route110_TrickHousePuzzle1_Text_RobinPostBattle"
 msgid ""
 "You're strong!\n"
 "Just who are you?$"
-msgstr ""
+msgstr "你好强！你到底是什么人？$"

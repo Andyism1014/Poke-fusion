@@ -14,6 +14,10 @@ msgid ""
 "… … … … … … … …\p"
 "The lock clicked open!$"
 msgstr ""
+"{PLAYER}在门上写下了暗号。\p"
+"“机关大王是我的生命。”\n"
+"…… …… …… …… …… …… …… ……\p"
+"咔嚓一声，锁打开了！$"
 
 #: data/maps/Route110_TrickHousePuzzle6/scripts.inc:52
 msgctxt "Route110_TrickHousePuzzle6_Text_SophiaIntro"
@@ -21,11 +25,13 @@ msgid ""
 "When I heard there was a strange\n"
 "house, I had to check it out.$"
 msgstr ""
+"听说有间奇怪的房子，\n"
+"我就一定要来看看。$"
 
 #: data/maps/Route110_TrickHousePuzzle6/scripts.inc:56
 msgctxt "Route110_TrickHousePuzzle6_Text_SophiaDefeat"
 msgid "I've discovered a tough TRAINER!$"
-msgstr ""
+msgstr "我发现了一位强大的训练家！$"
 
 #: data/maps/Route110_TrickHousePuzzle6/scripts.inc:59
 msgctxt "Route110_TrickHousePuzzle6_Text_SophiaPostBattle"
@@ -35,6 +41,8 @@ msgid ""
 "It's a challenge I've found worth\n"
 "repeating!$"
 msgstr ""
+"在这里探索真是太开心了。\p"
+"这是值得反复挑战的地方！$"
 
 #: data/maps/Route110_TrickHousePuzzle6/scripts.inc:65
 msgctxt "Route110_TrickHousePuzzle6_Text_BennyIntro"
@@ -42,11 +50,13 @@ msgid ""
 "Maybe I could get my BIRD POKéMON\n"
 "to fly over the wall…$"
 msgstr ""
+"也许我可以让我的\n"
+"鸟宝可梦飞过这堵墙……$"
 
 #: data/maps/Route110_TrickHousePuzzle6/scripts.inc:69
 msgctxt "Route110_TrickHousePuzzle6_Text_BennyDefeat"
 msgid "Gwaaah! I blew it!$"
-msgstr ""
+msgstr "呜哇啊！搞砸了！$"
 
 #: data/maps/Route110_TrickHousePuzzle6/scripts.inc:72
 msgctxt "Route110_TrickHousePuzzle6_Text_BennyPostBattle"
@@ -54,20 +64,22 @@ msgid ""
 "Ehehehe… I guess I lost because\n"
 "I was trying to cheat.$"
 msgstr ""
+"嘿嘿嘿……我想我会输，\n"
+"是因为我想作弊吧。$"
 
 #: data/maps/Route110_TrickHousePuzzle6/scripts.inc:76
 msgctxt "Route110_TrickHousePuzzle6_Text_SebastianIntro"
 msgid ""
 "I'm getting dizzy from these rotating\n"
 "doors…$"
-msgstr ""
+msgstr "这些旋转门转得我头都晕了……$"
 
 #: data/maps/Route110_TrickHousePuzzle6/scripts.inc:80
 msgctxt "Route110_TrickHousePuzzle6_Text_SebastianDefeat"
 msgid ""
 "Everything's spinning around and\n"
 "around. I can't take this anymore…$"
-msgstr ""
+msgstr "一切都在转啊转。我受不了了……$"
 
 #: data/maps/Route110_TrickHousePuzzle6/scripts.inc:84
 msgctxt "Route110_TrickHousePuzzle6_Text_SebastianPostBattle"
@@ -75,3 +87,5 @@ msgid ""
 "You don't seem to be affected at all.\n"
 "Or do you have your poker face on?$"
 msgstr ""
+"你好像一点都没受影响。\n"
+"还是说你只是面不改色？$"

@@ -14,11 +14,15 @@ msgid ""
 "… … … … … … … …\p"
 "The lock clicked open!$"
 msgstr ""
+"{PLAYER}在门上写下了暗号。\p"
+"“机关大王人人羡慕。”\n"
+"…… …… …… …… …… …… …… ……\p"
+"咔嚓一声，锁打开了！$"
 
 #: data/maps/Route110_TrickHousePuzzle3/scripts.inc:311
 msgctxt "Route110_TrickHousePuzzle3_Text_JustinIntro"
 msgid "I keep coming back to this same place!$"
-msgstr ""
+msgstr "我老是回到同一个地方！$"
 
 #: data/maps/Route110_TrickHousePuzzle3/scripts.inc:314
 msgctxt "Route110_TrickHousePuzzle3_Text_JustinDefeat"
@@ -26,13 +30,15 @@ msgid ""
 "I'm already having trouble, and then\n"
 "you have to beat me? It's not fair!$"
 msgstr ""
+"我已经够头疼了，\n"
+"你还要打败我？太不公平了！$"
 
 #: data/maps/Route110_TrickHousePuzzle3/scripts.inc:318
 msgctxt "Route110_TrickHousePuzzle3_Text_JustinPostBattle"
 msgid ""
 "It's full of doors here!\n"
 "It's too small and dark in here! Help!$"
-msgstr ""
+msgstr "这里到处都是门！又窄又暗！救命啊！$"
 
 #: data/maps/Route110_TrickHousePuzzle3/scripts.inc:322
 msgctxt "Route110_TrickHousePuzzle3_Text_MarthaIntro"
@@ -40,18 +46,20 @@ msgid ""
 "I don't know what's going on here.\n"
 "I'm starting to feel sad…$"
 msgstr ""
+"我搞不懂这里是怎么回事。\n"
+"开始觉得难过了……$"
 
 #: data/maps/Route110_TrickHousePuzzle3/scripts.inc:326
 msgctxt "Route110_TrickHousePuzzle3_Text_MarthaDefeat"
 msgid "You… You're awful!$"
-msgstr ""
+msgstr "你……你太过分了！$"
 
 #: data/maps/Route110_TrickHousePuzzle3/scripts.inc:329
 msgctxt "Route110_TrickHousePuzzle3_Text_MarthaPostBattle"
 msgid ""
 "I know I'm weak!\n"
 "And, I have no sense of direction!$"
-msgstr ""
+msgstr "我知道我很弱！而且，我还是个路痴！$"
 
 #: data/maps/Route110_TrickHousePuzzle3/scripts.inc:333
 msgctxt "Route110_TrickHousePuzzle3_Text_AlanIntro"
@@ -59,13 +67,15 @@ msgid ""
 "I don't get it. What would anyone want\n"
 "with a house this bizarre?$"
 msgstr ""
+"我真搞不懂。\n"
+"谁会想要这么奇怪的房子啊？$"
 
 #: data/maps/Route110_TrickHousePuzzle3/scripts.inc:337
 msgctxt "Route110_TrickHousePuzzle3_Text_AlanDefeat"
 msgid ""
 "I don't get it.\n"
 "How did I lose?$"
-msgstr ""
+msgstr "我真搞不懂。我怎么会输呢？$"
 
 #: data/maps/Route110_TrickHousePuzzle3/scripts.inc:341
 msgctxt "Route110_TrickHousePuzzle3_Text_AlanPostBattle"
@@ -74,3 +84,6 @@ msgid ""
 "How many traps are in this house?\p"
 "You may be the one to solve that.$"
 msgstr ""
+"我真搞不懂。\n"
+"这间房子里到底有多少个陷阱？\p"
+"说不定你能解开这个谜。$"

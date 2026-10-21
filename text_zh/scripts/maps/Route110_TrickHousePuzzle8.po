@@ -14,18 +14,22 @@ msgid ""
 "… … … … … … … …\p"
 "The lock clicked open!$"
 msgstr ""
+"{PLAYER}在门上写下了暗号。\p"
+"“我爱机关大王。”\n"
+"…… …… …… …… …… …… …… ……\p"
+"咔嚓一声，锁打开了！$"
 
 #: data/maps/Route110_TrickHousePuzzle8/scripts.inc:37
 msgctxt "Route110_TrickHousePuzzle8_Text_VincentIntro"
 msgid ""
 "Not many TRAINERS have made it\n"
 "this far.$"
-msgstr ""
+msgstr "能走到这里的训练家可不多。$"
 
 #: data/maps/Route110_TrickHousePuzzle8/scripts.inc:41
 msgctxt "Route110_TrickHousePuzzle8_Text_VincentDefeat"
 msgid "That must mean you're tough, too…$"
-msgstr ""
+msgstr "这说明你也很强啊……$"
 
 #: data/maps/Route110_TrickHousePuzzle8/scripts.inc:44
 msgctxt "Route110_TrickHousePuzzle8_Text_VincentPostBattle"
@@ -33,20 +37,22 @@ msgid ""
 "You've beaten the POKéMON LEAGUE\n"
 "CHAMPION? That's too much!$"
 msgstr ""
+"你打败过宝可梦联盟的冠军？\n"
+"这也太厉害了吧！$"
 
 #: data/maps/Route110_TrickHousePuzzle8/scripts.inc:48
 msgctxt "Route110_TrickHousePuzzle8_Text_KeiraIntro"
 msgid ""
 "Consider yourself lucky to be\n"
 "battling me!$"
-msgstr ""
+msgstr "能和我对战，你就偷着乐吧！$"
 
 #: data/maps/Route110_TrickHousePuzzle8/scripts.inc:52
 msgctxt "Route110_TrickHousePuzzle8_Text_KeiraDefeat"
 msgid ""
 "This isn't right!\n"
 "I can't lose!$"
-msgstr ""
+msgstr "这不对！我不可能输的！$"
 
 #: data/maps/Route110_TrickHousePuzzle8/scripts.inc:56
 msgctxt "Route110_TrickHousePuzzle8_Text_KeiraPostBattle"
@@ -54,20 +60,22 @@ msgid ""
 "It's a miracle that you beat me.\n"
 "You can brag about it.$"
 msgstr ""
+"你能打败我真是个奇迹。\n"
+"你可以拿去炫耀了。$"
 
 #: data/maps/Route110_TrickHousePuzzle8/scripts.inc:60
 msgctxt "Route110_TrickHousePuzzle8_Text_LeroyIntro"
 msgid ""
 "You've been slugging through the TRICK\n"
 "HOUSE challenge, too.$"
-msgstr ""
+msgstr "你也一直在努力挑战机关屋啊。$"
 
 #: data/maps/Route110_TrickHousePuzzle8/scripts.inc:64
 msgctxt "Route110_TrickHousePuzzle8_Text_LeroyDefeat"
 msgid ""
 "I see…\n"
 "You possess an extraordinary style.$"
-msgstr ""
+msgstr "原来如此……你有着非凡的风格。$"
 
 #: data/maps/Route110_TrickHousePuzzle8/scripts.inc:68
 msgctxt "Route110_TrickHousePuzzle8_Text_LeroyPostBattle"
@@ -75,3 +83,5 @@ msgid ""
 "Seeing someone like you should please\n"
 "the TRICK MASTER.$"
 msgstr ""
+"看到你这样的人，\n"
+"机关大王一定会很高兴的。$"

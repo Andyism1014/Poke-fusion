@@ -14,37 +14,41 @@ msgid ""
 "… … … … … … … …\p"
 "The lock clicked open!$"
 msgstr ""
+"{PLAYER}在门上写下了暗号。\p"
+"“机关大王真聪明。”\n"
+"…… …… …… …… …… …… …… ……\p"
+"咔嚓一声，锁打开了！$"
 
 #: data/maps/Route110_TrickHousePuzzle2/scripts.inc:109
 msgctxt "Route110_TrickHousePuzzle2_Text_TedIntro"
 msgid "Which switch closes which hole?$"
-msgstr ""
+msgstr "哪个开关能堵上哪个洞呢？$"
 
 #: data/maps/Route110_TrickHousePuzzle2/scripts.inc:112
 msgctxt "Route110_TrickHousePuzzle2_Text_TedDefeat"
 msgid ""
 "After that battle, I'm even more\n"
 "confused!$"
-msgstr ""
+msgstr "打完这场对战，我更糊涂了！$"
 
 #: data/maps/Route110_TrickHousePuzzle2/scripts.inc:116
 msgctxt "Route110_TrickHousePuzzle2_Text_TedPostBattle"
 msgid ""
 "Can I get you to push all the buttons\n"
 "for me?$"
-msgstr ""
+msgstr "能请你帮我把所有的按钮都按一遍吗？$"
 
 #: data/maps/Route110_TrickHousePuzzle2/scripts.inc:120
 msgctxt "Route110_TrickHousePuzzle2_Text_PaulIntro"
 msgid ""
 "Oh! You're on your second TRICK HOUSE\n"
 "challenge!$"
-msgstr ""
+msgstr "哦！你在进行第二次机关屋挑战啊！$"
 
 #: data/maps/Route110_TrickHousePuzzle2/scripts.inc:124
 msgctxt "Route110_TrickHousePuzzle2_Text_PaulDefeat"
 msgid "You're good at battling too?$"
-msgstr ""
+msgstr "你连对战也很厉害吗？$"
 
 #: data/maps/Route110_TrickHousePuzzle2/scripts.inc:127
 msgctxt "Route110_TrickHousePuzzle2_Text_PaulPostBattle"
@@ -52,6 +56,8 @@ msgid ""
 "The TRICK MASTER rigged all the tricks\n"
 "in this house all by himself.$"
 msgstr ""
+"这间房子里所有的机关，\n"
+"都是机关大王一个人设计的。$"
 
 #: data/maps/Route110_TrickHousePuzzle2/scripts.inc:131
 msgctxt "Route110_TrickHousePuzzle2_Text_GeorgiaIntro"
@@ -59,15 +65,17 @@ msgid ""
 "I want to make my own GYM one day.\n"
 "So, I'm studying how to set traps.$"
 msgstr ""
+"我想有一天开一座自己的道馆。\n"
+"所以我正在研究怎么设置陷阱。$"
 
 #: data/maps/Route110_TrickHousePuzzle2/scripts.inc:135
 msgctxt "Route110_TrickHousePuzzle2_Text_GeorgiaDefeat"
 msgid "I didn't study battling enough!$"
-msgstr ""
+msgstr "我对战研究得还不够！$"
 
 #: data/maps/Route110_TrickHousePuzzle2/scripts.inc:138
 msgctxt "Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle"
 msgid ""
 "You're strong, aren't you?\n"
 "Maybe even enough to be a GYM LEADER!$"
-msgstr ""
+msgstr "你很强嘛？说不定都能当道馆馆主了！$"

@@ -13,6 +13,9 @@ msgid ""
 "I suppose you're going to visit CAPT.\n"
 "STERN and deliver the DEVON GOODS?$"
 msgstr ""
+"哈奇老人：喂！我们到凯那市啦！\p"
+"你是要去找楠木船长，\n"
+"把得文的物品交给他吧？$"
 
 #: data/maps/Route109/scripts.inc:485
 msgctxt "Route109_Text_BrineySailToDewfordQuestion"
@@ -22,6 +25,9 @@ msgid ""
 "Would you like to sail back to\n"
 "DEWFORD, then?$"
 msgstr ""
+"哈奇老人：\n"
+"我还以为你要去送得文的物品呢。\p"
+"那么，你要坐船回武斗镇吗？$"
 
 #: data/maps/Route109/scripts.inc:491
 msgctxt "Route109_Text_BrineyDewfordItIs"
@@ -30,6 +36,9 @@ msgid ""
 "Anchors aweigh!\n"
 "PEEKO, we're setting sail, my darling!$"
 msgstr ""
+"哈奇老人：那就去武斗镇！\p"
+"起锚啦！皮可，\n"
+"我们要出航了，我的宝贝！$"
 
 #: data/maps/Route109/scripts.inc:496
 msgctxt "Route109_Text_BrineyDeliverDevonGoods"
@@ -37,6 +46,8 @@ msgid ""
 "MR. BRINEY: Then you go on and deliver\n"
 "the DEVON GOODS. I'll be waiting.$"
 msgstr ""
+"哈奇老人：那你就去把得文的\n"
+"物品送过去吧。我会在这里等你的。$"
 
 #: data/maps/Route109/scripts.inc:500
 msgctxt "DewfordTown_Text_BrineyLandedInSlateport"
@@ -46,6 +57,8 @@ msgid ""
 "You just go on and tell me whenever\n"
 "you want to set sail again!$"
 msgstr ""
+"哈奇老人：喂！我们到凯那市啦！\p"
+"什么时候想再出海，随时告诉我就行！$"
 
 #: data/maps/Route109/scripts.inc:506
 msgctxt "Route109_Text_BrineyWhereAreWeBound"
@@ -54,6 +67,9 @@ msgid ""
 "For you, I'll go out to sea anytime!\p"
 "Now, my friend, where are we bound?$"
 msgstr ""
+"哈奇老人：喂！为了你，\n"
+"我随时都可以出海！\p"
+"那么，我的朋友，我们要去哪里呢？$"
 
 #: data/maps/Route109/scripts.inc:511
 msgctxt "Route109_Text_BrineyTellMeWhenYouNeedToSail"
@@ -61,6 +77,8 @@ msgid ""
 "MR. BRINEY: You just tell me whenever\n"
 "you need to set sail again!$"
 msgstr ""
+"哈奇老人：什么时候需要再出海，\n"
+"随时告诉我就行！$"
 
 #: data/maps/Route109/scripts.inc:515
 msgctxt "Route109_Text_ChillAtMyPapasSpot"
@@ -70,6 +88,8 @@ msgid ""
 "or cool cat not,\l"
 "chill at my papa's spot!$"
 msgstr ""
+"哟，训练家们！不管你是热血沸腾还是冷\n"
+"静淡定，都来我爸爸的店里歇歇脚吧！$"
 
 #: data/maps/Route109/scripts.inc:521
 msgctxt "Route109_Text_LittleKidsDartAround"
@@ -80,18 +100,23 @@ msgid ""
 "Mine are with my POKéMON, so they\n"
 "should be okay, but…$"
 msgstr ""
+"小孩子跑来跑去的，动作可快了……\p"
+"一刻都不能把视线从他们身上移开。\n"
+"真是累人啊。\p"
+"不过我家孩子有我的宝可梦陪着，\n"
+"应该没问题，可是……$"
 
 #: data/maps/Route109/scripts.inc:528
 msgctxt "Route109_Text_SandCastleTakingLongTime"
 msgid ""
 "Our sand castle's taking a long time\n"
 "to make.$"
-msgstr ""
+msgstr "我们的沙堡要花好长时间才能堆好。$"
 
 #: data/maps/Route109/scripts.inc:532
 msgctxt "Route109_Text_YouCanHaveThis"
 msgid "You can have this!$"
-msgstr ""
+msgstr "这个给你吧！$"
 
 #: data/maps/Route109/scripts.inc:535
 msgctxt "Route109_Text_WereGoingToMakeBigCastle"
@@ -102,6 +127,10 @@ msgid ""
 "queen.\p"
 "We'll let you be a servant.$"
 msgstr ""
+"我们要把海滩上的沙子全部拿来，\n"
+"堆一座大城堡！\p"
+"然后我们就要当国王和王后。\p"
+"就让你来当仆人吧。$"
 
 #: data/maps/Route109/scripts.inc:542
 msgctxt "Route109_Text_ZigzagoonPicksUpLitter"
@@ -114,11 +143,17 @@ msgid ""
 "If we pollute the sea, it all comes\n"
 "back to haunt us eventually.$"
 msgstr ""
+"这一带的海水很干净。\p"
+"不过，我有时候还是会让我的\n"
+"蛇纹熊去捡海岸边的垃圾。\p"
+"脏水会变成雨，流进我们喝水的河里……\p"
+"要是污染了大海，\n"
+"最终都会报应到我们自己身上。$"
 
 #: data/maps/Route109/scripts.inc:551
 msgctxt "Route109_Text_ZigzagoonCry"
 msgid "ZIGZAGOON: Guguu?$"
-msgstr ""
+msgstr "蛇纹熊：咕咕——？$"
 
 #: data/maps/Route109/scripts.inc:554
 msgctxt "Route109_Text_SeashoreHouseSign"
@@ -127,6 +162,9 @@ msgid ""
 "“May hot battles rage on hot sands!\n"
 "The place for hot TRAINERS!”$"
 msgstr ""
+"海之家\p"
+"“在火热的沙滩上展开火热的对战吧！\n"
+"火热训练家的聚集地！”$"
 
 #: data/maps/Route109/scripts.inc:559
 msgctxt "Route109_Text_TrainerTipsSign"
@@ -137,3 +175,8 @@ msgid ""
 "POKéMON raised by TRAINERS are said\n"
 "to grow stronger than wild POKéMON.$"
 msgstr ""
+"训练家小知识\p"
+"即使是同样等级的宝可梦，\n"
+"能力也不一定完全相同。\p"
+"据说由训练家培养的\n"
+"宝可梦会比野生宝可梦成长得更强。$"

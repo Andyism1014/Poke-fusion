@@ -13,13 +13,16 @@ msgid ""
 "If you'd like, rest up here.\n"
 "That's a fine idea! You should do that.$"
 msgstr ""
+"哎呀呀，你的宝可梦是不是累坏了？\p"
+"如果你愿意的话，就在这里休息一下吧。\n"
+"这主意不错！你就这么做吧。$"
 
 #: data/maps/Route111_OldLadysRestStop/scripts.inc:37
 msgctxt "Route111_OldLadysRestStop_Text_TakeYourTimeRestUp"
 msgid ""
 "That's right.\n"
 "Take your time and rest up!$"
-msgstr ""
+msgstr "对，对。慢慢休息吧！$"
 
 #: data/maps/Route111_OldLadysRestStop/scripts.inc:41
 msgctxt "Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest"
@@ -29,10 +32,13 @@ msgid ""
 "You should take another rest here.\n"
 "That's a fine idea. You should do that.$"
 msgstr ""
+"哎呀呀，你的宝可梦还很累吗？\p"
+"你应该在这里再休息一下。\n"
+"这主意不错。你就这么做吧。$"
 
 #: data/maps/Route111_OldLadysRestStop/scripts.inc:47
 msgctxt "Route111_OldLadysRestStop_Text_DontNeedToBeShy"
 msgid ""
 "Is that so?\n"
 "You don't need to be shy about it.$"
-msgstr ""
+msgstr "是吗？不用跟我客气哦。$"

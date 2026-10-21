@@ -10,14 +10,14 @@ msgctxt "Route110_Text_WeCantTalkAboutAquaActivities"
 msgid ""
 "TEAM AQUA's activities…\n"
 "We can't talk about them yet.$"
-msgstr ""
+msgstr "海洋队的活动……现在还不能说。$"
 
 #: data/maps/Route110/scripts.inc:745
 msgctxt "Route110_Text_KickUpARuckus"
 msgid ""
 "I want to get going to SLATEPORT and\n"
 "kick up a ruckus!$"
-msgstr ""
+msgstr "我想赶快去凯那市大闹一场！$"
 
 #: data/maps/Route110/scripts.inc:749
 msgctxt "Route110_Text_MyFirstJobInAqua"
@@ -25,13 +25,15 @@ msgid ""
 "This is my first job after joining\n"
 "TEAM AQUA. It's a little scary.$"
 msgstr ""
+"这是我加入海洋队后的第一个任务。\n"
+"有点害怕呢。$"
 
 #: data/maps/Route110/scripts.inc:753
 msgctxt "Route110_Text_AquaActionsBringSmiles"
 msgid ""
 "TEAM AQUA's actions should bring\n"
 "smiles to people's faces!$"
-msgstr ""
+msgstr "海洋队的行动应该给人们带来笑容才对！$"
 
 #: data/maps/Route110/scripts.inc:757
 msgctxt "Route110_Text_MayLetsBattle"
@@ -42,13 +44,17 @@ msgid ""
 "So…\n"
 "How about a little battle?$"
 msgstr ""
+"小遥：嗨，{PLAYER}{KUN}，好久不见！\p"
+"在我寻找其他宝可梦的时候，\n"
+"我的宝可梦也变强了。\p"
+"所以……我们来稍微对战一下怎么样？$"
 
 #: data/maps/Route110/scripts.inc:764
 msgctxt "Route110_Text_MayDefeated"
 msgid ""
 "Yikes!\n"
 "You're better than I expected!$"
-msgstr ""
+msgstr "哎呀！你比我想象的还要厉害！$"
 
 #: data/maps/Route110/scripts.inc:768
 msgctxt "Route110_Text_MayTakeThis"
@@ -58,6 +64,9 @@ msgid ""
 "I think you deserve a reward!\n"
 "This is from me!$"
 msgstr ""
+"小遥：{PLAYER}{KUN}，\n"
+"你也一直在忙着修行吧？\p"
+"我觉得你应该得到奖励！这是我送你的！$"
 
 #: data/maps/Route110/scripts.inc:774
 msgctxt "Route110_Text_MayExplainItemfinder"
@@ -70,6 +79,12 @@ msgid ""
 "me, but I think you should train a lot\l"
 "harder for the next time.$"
 msgstr ""
+"小遥：那是探宝器。\p"
+"试试看吧。如果附近有看不见的道具，\n"
+"它就会发出声音。\p"
+"好了，{PLAYER}{KUN}，我们下次再见吧！\p"
+"虽然由我来说有点奇怪，但我觉得你\n"
+"下次之前应该更加努力地修行才行。$"
 
 #: data/maps/Route110/scripts.inc:783
 msgctxt "Route110_Text_BrendanLetsBattle"
@@ -80,13 +95,17 @@ msgid ""
 "Have you been raising your POKéMON?\n"
 "I'll check for you.$"
 msgstr ""
+"小悠：嘿，{PLAYER}。\n"
+"原来你在这里啊。最近怎么样？\p"
+"你有好好培养宝可梦吗？\n"
+"我来帮你检验一下。$"
 
 #: data/maps/Route110/scripts.inc:790
 msgctxt "Route110_Text_BrendanDefeated"
 msgid ""
 "Hmm…\n"
 "You're pretty good.$"
-msgstr ""
+msgstr "嗯……你相当厉害嘛。$"
 
 #: data/maps/Route110/scripts.inc:794
 msgctxt "Route110_Text_BrendanTakeThis"
@@ -96,6 +115,9 @@ msgid ""
 "Good enough!\n"
 "Here, take this.$"
 msgstr ""
+"小悠：{PLAYER}，\n"
+"你在我没注意的时候变强了啊……\p"
+"还不错嘛！给，拿着这个。$"
 
 #: data/maps/Route110/scripts.inc:800
 msgctxt "Route110_Text_BrendanExplainItemfinder"
@@ -108,6 +130,10 @@ msgid ""
 "Anyway, I'm off to look for new\n"
 "POKéMON.$"
 msgstr ""
+"小悠：那是探宝器。\p"
+"用它可以找到看不见的道具。\p"
+"如果感应到了什么，它就会发出声音。\p"
+"总之，我要去找新的宝可梦了。$"
 
 #: data/maps/Route110/scripts.inc:809
 msgctxt "Route110_Text_RideBikeAtFullSpeed"
@@ -115,6 +141,8 @@ msgid ""
 "Wouldn't it be great to ride a BIKE\n"
 "at full speed on CYCLING ROAD?$"
 msgstr ""
+"要是能在自行车道上全速骑自行车，\n"
+"那该多棒啊！$"
 
 #: data/maps/Route110/scripts.inc:813
 msgctxt "Route110_Text_HairStreamsBehindMe"
@@ -123,6 +151,9 @@ msgid ""
 "colored hair streams behind me?\p"
 "I grew my hair out just for that.$"
 msgstr ""
+"我这一头乌黑的秀发在身后飘扬的样子，\n"
+"你觉得怎么样？\p"
+"我就是为了这个才把头发留长的。$"
 
 #: data/maps/Route110/scripts.inc:818
 msgctxt "Route110_Text_YouGotBikeFromRydel"
@@ -143,6 +174,17 @@ msgid ""
 "You should ride it around all over\n"
 "the place--it's good advertising!$"
 msgstr ""
+"哦，嘿，你那辆自行车是\n"
+"从风野那里拿到的吧！\p"
+"哦，一眼就能看出来。\n"
+"你的自行车上写得清清楚楚……\p"
+"风野、风野、风野、风野、风野、风野、\n"
+"风野、风野、风野、风野、风野、风野、\l"
+"风野、风野、风野、风野、风野、风野、\l"
+"风野、风野、风野、风野、风野、风野、\l"
+"风野、风野、风野……这名字到处都是。\p"
+"你应该骑着它到处跑——这可是\n"
+"很好的广告！$"
 
 #: data/maps/Route110/scripts.inc:835
 msgctxt "Route110_Text_TwoRoads"
@@ -151,6 +193,9 @@ msgid ""
 "A road each for people and POKéMON.\n"
 "Perhaps that is right and fair.$"
 msgstr ""
+"两条路，一条在上，一条在下……\p"
+"一条给人走，一条给宝可梦走。\n"
+"这样也许才算公平合理吧。$"
 
 #: data/maps/Route110/scripts.inc:840
 msgctxt "Route110_Text_WalkOnTheLowRoad"
@@ -158,6 +203,8 @@ msgid ""
 "I don't have a BIKE, so I'll take\n"
 "a leisurely walk on the low road.$"
 msgstr ""
+"我没有自行车，\n"
+"所以我要在下面的路上悠闲地散步。$"
 
 #: data/maps/Route110/scripts.inc:844
 msgctxt "Route110_Text_BikeTechniques"
@@ -167,6 +214,9 @@ msgid ""
 "There are some places that you can\n"
 "reach only by using a BIKE technique.$"
 msgstr ""
+"学会一些技巧，\n"
+"骑自行车会变得更加有趣。\p"
+"有些地方只有用自行车技巧才能到达。$"
 
 #: data/maps/Route110/scripts.inc:850
 msgctxt "Route110_Text_WhichShouldIChoose"
@@ -176,6 +226,9 @@ msgid ""
 "CYCLING ROAD, or take the low road\l"
 "and look for POKéMON?$"
 msgstr ""
+"我该选哪条路呢？\p"
+"是走自行车道直奔紫堇市，\n"
+"还是走下面的路去找宝可梦呢？$"
 
 #: data/maps/Route110/scripts.inc:856
 msgctxt "Route110_Text_CyclingChallengeResultSummary"
@@ -185,6 +238,8 @@ msgid ""
 "Total time:\n"
 "… … {STR_VAR_2}!$"
 msgstr ""
+"碰撞次数：…… ……{STR_VAR_1}！\p"
+"总用时：…… ……{STR_VAR_2}！$"
 
 #: data/maps/Route110/scripts.inc:862
 msgctxt "Route110_Text_ChallengeReactionBest"
@@ -194,6 +249,9 @@ msgid ""
 "within your heart.\l"
 "You've shaken me to my very soul!$"
 msgstr ""
+"太精彩了！表现得非常出色！\p"
+"你对骑车的热爱发自内心深处。\n"
+"你让我的灵魂都为之震撼！$"
 
 #: data/maps/Route110/scripts.inc:868
 msgctxt "Route110_Text_ChallengeReactionGood"
@@ -202,6 +260,9 @@ msgid ""
 "I suggest you speed up a bit while\n"
 "still avoiding collisions.$"
 msgstr ""
+"你的技术很了不起。\p"
+"我建议你在避免碰撞的同时，\n"
+"再稍微加快一点速度。$"
 
 #: data/maps/Route110/scripts.inc:873
 msgctxt "Route110_Text_ChallengeReactionOk"
@@ -211,6 +272,8 @@ msgid ""
 "Still, I hope you don't forget the\n"
 "sheer pleasure of cycling.$"
 msgstr ""
+"我觉得你还在进步当中。\p"
+"不过，希望你不要忘记骑车的纯粹乐趣。$"
 
 #: data/maps/Route110/scripts.inc:879
 msgctxt "Route110_Text_ChallengeReactionBad"
@@ -220,6 +283,9 @@ msgid ""
 "Most certainly, you need much more\n"
 "practice riding.$"
 msgstr ""
+"天哪……\n"
+"你的骑车技术简直到了可怕的程度。\p"
+"你绝对需要多加练习才行。$"
 
 #: data/maps/Route110/scripts.inc:885
 msgctxt "Route110_Text_ChallengeReactionWorst"
@@ -230,6 +296,9 @@ msgid ""
 "You ought to give serious thought to\n"
 "returning that BIKE to RYDEL.$"
 msgstr ""
+"……我惊呆了……\p"
+"你也许不适合骑车这件不幸的事。\p"
+"你应该认真考虑一下把自行车还给风野。$"
 
 #: data/maps/Route110/scripts.inc:892
 msgctxt "Route110_Text_RatedForNumberOfCollisions"
@@ -240,6 +309,9 @@ msgid ""
 "be rated for the number of collisions\l"
 "and your total time.$"
 msgstr ""
+"这里是自行车道。\p"
+"如果骑着音速自行车从紫堇市骑到凯那\n"
+"市，就会根据碰撞次数和总用时来评分。$"
 
 #: data/maps/Route110/scripts.inc:899
 msgctxt "Route110_Text_AlwaysAimHigher"
@@ -248,6 +320,8 @@ msgid ""
 "seeing more challenges from you.\l"
 "Always aim higher!$"
 msgstr ""
+"不管结果如何，我都期待你继续挑战。\n"
+"永远要追求更高的目标！$"
 
 #: data/maps/Route110/scripts.inc:904
 msgctxt "Route110_Text_AcroBikesDoNotQualify"
@@ -258,6 +332,10 @@ msgid ""
 "ACRO BIKES do not qualify for rating.\n"
 "They are easy to turn, so it's not fair.$"
 msgstr ""
+"在这条自行车道上，骑音速自行车的\n"
+"人会根据碰撞次数和总用时来评分。\p"
+"越野自行车不在评分范围内。\n"
+"因为它转弯太容易，这样不公平。$"
 
 #: data/maps/Route110/scripts.inc:911
 msgctxt "Route110_Text_SlateportCitySign"
@@ -265,11 +343,13 @@ msgid ""
 "ROUTE 110\n"
 "{DOWN_ARROW} SLATEPORT CITY$"
 msgstr ""
+"110号道路\n"
+"{DOWN_ARROW} 凯那市$"
 
 #: data/maps/Route110/scripts.inc:915
 msgctxt "Route110_Text_CyclingRoadSign"
 msgid "SEASIDE CYCLING ROAD$"
-msgstr ""
+msgstr "海边自行车道$"
 
 #: data/maps/Route110/scripts.inc:918
 msgctxt "Route110_Text_AquaWasHere"
@@ -280,6 +360,10 @@ msgid ""
 "“TEAM MAGMA rules!” is what it\n"
 "says now.$"
 msgstr ""
+"“海洋队到此一游！”\p"
+"有人在这块告示牌上写了这句话，\n"
+"但后来又被别人涂掉了。\p"
+"现在上面写的是“熔岩队最棒！”$"
 
 #: data/maps/Route110/scripts.inc:925
 msgctxt "Route110_Text_Route103Sign"
@@ -287,11 +371,13 @@ msgid ""
 "ROUTE 110\n"
 "{LEFT_ARROW} ROUTE 103$"
 msgstr ""
+"110号道路\n"
+"{LEFT_ARROW} 103号道路$"
 
 #: data/maps/Route110/scripts.inc:929
 msgctxt "Route110_Text_SeasideParkingSign"
 msgid "SEASIDE PARKING$"
-msgstr ""
+msgstr "海边停车场$"
 
 #: data/maps/Route110/scripts.inc:932
 msgctxt "Route110_Text_MauvilleCitySign"
@@ -299,6 +385,8 @@ msgid ""
 "ROUTE 110\n"
 "{UP_ARROW} MAUVILLE CITY$"
 msgstr ""
+"110号道路\n"
+"{UP_ARROW} 紫堇市$"
 
 #: data/maps/Route110/scripts.inc:936
 msgctxt "Route110_Text_TrainerTipsPrlzSleep"
@@ -309,6 +397,10 @@ msgid ""
 "It is an important technique for\n"
 "POKéMON battles.$"
 msgstr ""
+"训练家小知识\p"
+"让对手陷入麻痹或睡眠状态，\n"
+"就能让它无法动弹。\p"
+"这是宝可梦对战中的一项重要技巧。$"
 
 #: data/maps/Route110/scripts.inc:943
 msgctxt "Route110_Text_TrainerTipsRegisterItems"
@@ -317,6 +409,8 @@ msgid ""
 "The items in the BAG can be reorganized\n"
 "by pressing SELECT.$"
 msgstr ""
+"训练家小知识\p"
+"按SELECT键可以整理包包里的道具。$"
 
 #: data/maps/Route110/scripts.inc:948
 msgctxt "Route110_Text_TrickHouseSign"
@@ -324,6 +418,8 @@ msgid ""
 "“Three steps {RIGHT_ARROW} and two steps {UP_ARROW}\n"
 "to reach the wondrous TRICK HOUSE.”$"
 msgstr ""
+"“向{RIGHT_ARROW}走3步，向{UP_ARROW}走2步，\n"
+"就能到达奇妙的机关屋。”$"
 
 #: data/maps/Route110/scripts.inc:952
 msgctxt "Route110_Text_BestRecord"
@@ -332,6 +428,9 @@ msgid ""
 "No. of collisions: {STR_VAR_1}\p"
 "Elapsed time: {STR_VAR_2}$"
 msgstr ""
+"迄今为止的最佳纪录……\p"
+"碰撞次数：{STR_VAR_1}\n"
+"用时：{STR_VAR_2}$"
 
 #: data/maps/Route110/scripts.inc:957
 msgctxt "Route110_Text_ThereIsNoRecord"
@@ -340,6 +439,8 @@ msgid ""
 "No one seems to have taken the\n"
 "challenge. There is no record…$"
 msgstr ""
+"迄今为止的最佳纪录……\p"
+"好像还没有人挑战过。没有纪录……$"
 
 #: data/maps/Route110/scripts.inc:962
 msgctxt "Route110_Text_ImagineSeeingYouHere"
@@ -348,6 +449,9 @@ msgid ""
 "Imagine seeing you here!\p"
 "And where might my {RIVAL} be?$"
 msgstr ""
+"小田卷博士：哦，{PLAYER}{KUN}！\n"
+"没想到会在这里遇见你！\p"
+"我家{RIVAL}在哪里呢？$"
 
 #: data/maps/Route110/scripts.inc:967
 msgctxt "Route110_Text_HeardYouInstallMatchCall"
@@ -363,13 +467,22 @@ msgid ""
 "I can rate your POKéDEX anytime.\p"
 "… … … … … …$"
 msgstr ""
+"哦，原来如此！你们两个是\n"
+"分头行动的啊。嗯，那也不错。\p"
+"哦，对了，听说你的\n"
+"宝可梦导航装了对战呼叫系统。\p"
+"那么，我也应该把\n"
+"你登记到我的宝可梦导航里。\p"
+"这样一来，即使我们不在一起，\n"
+"我也能随时评价你的宝可梦图鉴。\p"
+"…… …… …… …… …… ……$"
 
 #: data/maps/Route110/scripts.inc:979
 msgctxt "Route110_Text_RegisteredBirchInPokenav"
 msgid ""
 "Registered PROF. BIRCH\n"
 "in the POKéNAV.$"
-msgstr ""
+msgstr "在宝可梦导航里登记了小田卷博士。$"
 
 #: data/maps/Route110/scripts.inc:983
 msgctxt "Route110_Text_KeepAnEyeOutForRival"
@@ -380,3 +493,7 @@ msgid ""
 "Well, I had better get going.\n"
 "See you again, {PLAYER}{KUN}!$"
 msgstr ""
+"小田卷博士：{PLAYER}{KUN}……\p"
+"请帮我多关照一下我家{RIVAL}。……\n"
+" …… …… …… …… ……\p"
+"好了，我也该走了。再见啦，{PLAYER}{KUN}！$"

@@ -14,6 +14,10 @@ msgid ""
 "… … … … … … … …\p"
 "The lock clicked open!$"
 msgstr ""
+"{PLAYER}在门上写下了暗号。\p"
+"“机关大王真帅气。”\n"
+"…… …… …… …… …… …… …… ……\p"
+"咔嚓一声，锁打开了！$"
 
 #: data/maps/Route110_TrickHousePuzzle4/scripts.inc:37
 msgctxt "Route110_TrickHousePuzzle4_Text_CoraIntro"
@@ -21,13 +25,15 @@ msgid ""
 "It's too much bother to think this out.\n"
 "I only wanted to battle!$"
 msgstr ""
+"动脑筋想这些太麻烦了。\n"
+"我只是想对战而已！$"
 
 #: data/maps/Route110_TrickHousePuzzle4/scripts.inc:41
 msgctxt "Route110_TrickHousePuzzle4_Text_CoraDefeat"
 msgid ""
 "Even though I lost, I still like battling\n"
 "the best!$"
-msgstr ""
+msgstr "虽然输了，但我还是最喜欢对战了！$"
 
 #: data/maps/Route110_TrickHousePuzzle4/scripts.inc:45
 msgctxt "Route110_TrickHousePuzzle4_Text_CoraPostBattle"
@@ -35,6 +41,8 @@ msgid ""
 "Wouldn't you agree? You would go\n"
 "anywhere if TRAINERS were there.$"
 msgstr ""
+"你也这么觉得吧？\n"
+"只要有训练家在，去哪里都行。$"
 
 #: data/maps/Route110_TrickHousePuzzle4/scripts.inc:49
 msgctxt "Route110_TrickHousePuzzle4_Text_YujiIntro"
@@ -42,13 +50,15 @@ msgid ""
 "Heh! Boulders like this, I can brush\n"
 "aside with one finger!$"
 msgstr ""
+"嘿！这种大石头，\n"
+"我用一根手指就能推开！$"
 
 #: data/maps/Route110_TrickHousePuzzle4/scripts.inc:53
 msgctxt "Route110_TrickHousePuzzle4_Text_YujiDefeat"
 msgid ""
 "I can push boulders, but I can't solve\n"
 "the puzzle…$"
-msgstr ""
+msgstr "我推得动大石头，却解不开谜题……$"
 
 #: data/maps/Route110_TrickHousePuzzle4/scripts.inc:57
 msgctxt "Route110_TrickHousePuzzle4_Text_YujiPostBattle"
@@ -56,20 +66,22 @@ msgid ""
 "It's not good enough to be brawny…\n"
 "You have to use your head. Be brainy!$"
 msgstr ""
+"光有力气是不够的……\n"
+"还得动动脑子。要聪明一点！$"
 
 #: data/maps/Route110_TrickHousePuzzle4/scripts.inc:61
 msgctxt "Route110_TrickHousePuzzle4_Text_PaulaIntro"
 msgid ""
 "The TRICK HOUSE is getting trickier,\n"
 "isn't it?$"
-msgstr ""
+msgstr "机关屋越来越难了，对吧？$"
 
 #: data/maps/Route110_TrickHousePuzzle4/scripts.inc:65
 msgctxt "Route110_TrickHousePuzzle4_Text_PaulaDefeat"
 msgid "Aaak!$"
-msgstr ""
+msgstr "啊啊啊！$"
 
 #: data/maps/Route110_TrickHousePuzzle4/scripts.inc:68
 msgctxt "Route110_TrickHousePuzzle4_Text_PaulaPostBattle"
 msgid "Has anyone made it to the end?$"
-msgstr ""
+msgstr "有人走到过终点吗？$"

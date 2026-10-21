@@ -14,6 +14,10 @@ msgid ""
 "… … … … … … … …\p"
 "The lock clicked open!$"
 msgstr ""
+"{PLAYER}在门上写下了暗号。\p"
+"“机关大王是天才。”\n"
+"…… …… …… …… …… …… …… ……\p"
+"咔嚓一声，锁打开了！$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:905
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll1Intro"
@@ -24,6 +28,9 @@ msgid ""
 "THEN YOU WILL GO TO MECHADOLL 5.\l"
 "THEN YOU CAN OBTAIN THE SECRET CODE.$"
 msgstr ""
+"咔嗒咔嗒……我乃机关人偶1号！\p"
+"答对测验题的话，就可以去机关人\n"
+"偶5号那里。然后就能得到暗号。$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:912
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1"
@@ -32,6 +39,9 @@ msgid ""
 "One of these POKéMON is not found\n"
 "on ROUTE 110. Which one is it?$"
 msgstr ""
+"机关人偶1号的测验。\p"
+"下面这些宝可梦中，有一只在\n"
+"110号道路上找不到。是哪一只呢？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:917
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2"
@@ -40,6 +50,9 @@ msgid ""
 "One of these POKéMON is not of the\n"
 "WATER type. Which one is it?$"
 msgstr ""
+"机关人偶1号的测验。\p"
+"下面这些宝可梦中，\n"
+"有一只不是水属性。是哪一只呢？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:922
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3"
@@ -48,32 +61,35 @@ msgid ""
 "One of these POKéMON does not use\n"
 "LEECH LIFE. Which one is it?$"
 msgstr ""
+"机关人偶1号的测验。\p"
+"下面这些宝可梦中，\n"
+"有一只不会使用吸血。是哪一只呢？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:927
 msgctxt "Route110_TrickHousePuzzle5_Text_CorrectGoThrough"
 msgid ""
 "CONGRATULATIONS. CORRECT YOU ARE.\n"
 "GO THROUGH. PLEASE.$"
-msgstr ""
+msgstr "恭喜。你答对了。请通过。$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:931
 msgctxt "Route110_TrickHousePuzzle5_Text_DisappointmentError"
 msgid ""
 "BZZZT. DISAPPOINTMENT.\n"
 "ERROR.$"
-msgstr ""
+msgstr "哔哔哔。好失望。错误。$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:935
 msgctxt "Route110_TrickHousePuzzle5_Text_Wahahahaha"
 msgid ""
 "WAHAHAHAHA! WAHAHAHAHA!\n"
 "CLICKETY-CLACK!$"
-msgstr ""
+msgstr "哇哈哈哈哈！哇哈哈哈哈！咔嗒咔嗒！$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:939
 msgctxt "Route110_TrickHousePuzzle5_Text_WaitForNextChallenge"
 msgid "YOUR NEXT CHALLENGE WE WAIT FOR.$"
-msgstr ""
+msgstr "你的下一次挑战，我们等待着。$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:942
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll2Intro"
@@ -83,6 +99,8 @@ msgid ""
 "MECHADOLL 1'S QUIZ DIFFICULTY LEVEL\n"
 "IS SET TOO LOW.$"
 msgstr ""
+"咔嗒咔嗒……我乃机关人偶2号！\p"
+"机关人偶1号的测验难度设定得太低了。$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:948
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1"
@@ -91,6 +109,8 @@ msgid ""
 "Which of these POKéMON did WALLY\n"
 "borrow from your father?$"
 msgstr ""
+"机关人偶2号的测验。\p"
+"满充向你爸爸借的是下面哪一只宝可梦？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:953
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2"
@@ -99,6 +119,8 @@ msgid ""
 "Which of these POKéMON was chasing\n"
 "PROF. BIRCH?$"
 msgstr ""
+"机关人偶2号的测验。\p"
+"追赶小田卷博士的是下面哪一只宝可梦？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:958
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3"
@@ -107,6 +129,9 @@ msgid ""
 "Which of these POKéMON did TEAM AQUA\n"
 "use in PETALBURG FOREST?$"
 msgstr ""
+"机关人偶2号的测验。\p"
+"海洋队在橙华森林里使用的\n"
+"是下面哪一只宝可梦？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:963
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll3Intro"
@@ -115,6 +140,8 @@ msgid ""
 "MECHADOLL 3 AM I!\p"
 "MATTERS OF MONEY ARE MY SOLE FOCUS.$"
 msgstr ""
+"咔嗒咔嗒……我乃机关人偶3号！\p"
+"我只关心和钱有关的问题。$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:968
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1"
@@ -123,6 +150,8 @@ msgid ""
 "Which costs more?\n"
 "Three HARBOR MAILS or one BURN HEAL?$"
 msgstr ""
+"机关人偶3号的测验。\p"
+"3封港口邮件和1个灼伤药，哪个更贵？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:973
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2"
@@ -131,6 +160,9 @@ msgid ""
 "Sell one GREAT BALL and buy\n"
 "one POTION. How much money remains?$"
 msgstr ""
+"机关人偶3号的测验。\p"
+"卖掉1个超级球，\n"
+"再买1个伤药。还剩下多少钱？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:978
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3"
@@ -139,6 +171,9 @@ msgid ""
 "Do one REPEL and SODA POP cost\n"
 "more than one SUPER POTION?$"
 msgstr ""
+"机关人偶3号的测验。\p"
+"1个除虫喷雾加1瓶劲爽汽水，\n"
+"比1个好伤药更贵吗？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:983
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll4Intro"
@@ -147,6 +182,8 @@ msgid ""
 "MECHADOLL 4 THAT IS ME!\p"
 "MY QUIZ IS AN OBJECT OF BEAUTY.$"
 msgstr ""
+"咔嗒咔嗒……机关人偶4号，就是我！\p"
+"我的测验是美的结晶。$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:988
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1"
@@ -155,6 +192,8 @@ msgid ""
 "In SEASHORE HOUSE, were there more men\n"
 "or women?$"
 msgstr ""
+"机关人偶4号的测验。\p"
+"海之家里，男性多还是女性多？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:993
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2"
@@ -163,6 +202,8 @@ msgid ""
 "In LAVARIDGE TOWN, were there more\n"
 "elderly men or elderly women?$"
 msgstr ""
+"机关人偶4号的测验。\p"
+"釜炎乡里，老爷爷多还是老婆婆多？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:998
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3"
@@ -171,6 +212,8 @@ msgid ""
 "In the TRAINER'S SCHOOL, how many\n"
 "girl students were there?$"
 msgstr ""
+"机关人偶4号的测验。\p"
+"训练家学校里有几名女学生？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:1003
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll5Intro"
@@ -180,6 +223,8 @@ msgid ""
 "THE MASTER'S BEST AND PROUDEST\n"
 "ACHIEVEMENT AM I.$"
 msgstr ""
+"咔嗒咔嗒……我乃机关人偶5号！\p"
+"我是主人最得意、最骄傲的杰作。$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:1009
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1"
@@ -188,6 +233,9 @@ msgid ""
 "In SLATEPORT's POKéMON FAN CLUB,\n"
 "how many POKéMON were there?$"
 msgstr ""
+"机关人偶5号的测验。\p"
+"凯那市的宝可梦爱好者俱\n"
+"乐部里有几只宝可梦？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:1014
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2"
@@ -196,6 +244,8 @@ msgid ""
 "In FORTREE CITY, how many\n"
 "tree houses were there?$"
 msgstr ""
+"机关人偶5号的测验。\p"
+"茵郁市里有几座树屋？$"
 
 #: data/maps/Route110_TrickHousePuzzle5/scripts.inc:1019
 msgctxt "Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3"
@@ -204,3 +254,5 @@ msgid ""
 "On the CYCLING ROAD, how many\n"
 "TRIATHLETES were there?$"
 msgstr ""
+"机关人偶5号的测验。\p"
+"自行车道上有几名铁人三项运动员？$"
