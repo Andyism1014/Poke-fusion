@@ -13,6 +13,10 @@ msgid ""
 "TRAINERS who left great records in\l"
 "BATTLE FRONTIER events.$"
 msgstr ""
+"这里是排名馆。\p"
+"在这里，我们表彰那些\n"
+"在对战开拓区的挑战中\l"
+"留下了伟大纪录的传奇训练家。$"
 
 #: data/maps/BattleFrontier_RankingHall/scripts.inc:109
 msgctxt "BattleFrontier_RankingHall_Text_DomePikeFactoryRecords"
@@ -20,6 +24,8 @@ msgid ""
 "BATTLE DOME, BATTLE PIKE,\n"
 "and BATTLE FACTORY Records$"
 msgstr ""
+"对战巨蛋、对战管道、\n"
+"对战工厂的纪录$"
 
 #: data/maps/BattleFrontier_RankingHall/scripts.inc:113
 msgctxt "BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords"
@@ -27,11 +33,13 @@ msgid ""
 "BATTLE PALACE, BATTLE ARENA,\n"
 "and BATTLE PYRAMID Records$"
 msgstr ""
+"对战宫殿、对战竞技场、\n"
+"对战金字塔的纪录$"
 
 #: data/maps/BattleFrontier_RankingHall/scripts.inc:117
 msgctxt "BattleFrontier_RankingHall_Text_IsYourNameOnThisList"
 msgid "Hi, is your name on this list?$"
-msgstr ""
+msgstr "你好，这份名单上有你的名字吗？$"
 
 #: data/maps/BattleFrontier_RankingHall/scripts.inc:120
 msgctxt "BattleFrontier_RankingHall_Text_WowThatsSuper"
@@ -39,6 +47,8 @@ msgid ""
 "Wow, that's super!\n"
 "I'll have to try harder, too!$"
 msgstr ""
+"哇，太厉害了！\n"
+"我也得更加努力才行！$"
 
 #: data/maps/BattleFrontier_RankingHall/scripts.inc:124
 msgctxt "BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName"
@@ -47,6 +57,9 @@ msgid ""
 "If you saw your friend's name up here,\n"
 "I bet it would make you work harder!$"
 msgstr ""
+"哦，是吗？\p"
+"要是在这里看到朋友的名字，\n"
+"你肯定也会更加努力吧！$"
 
 #: data/maps/BattleFrontier_RankingHall/scripts.inc:129
 msgctxt "BattleFrontier_RankingHall_Text_MyNamesNotUpThere"
@@ -56,3 +69,7 @@ msgid ""
 "Well, it's only natural since I haven't\n"
 "taken any challenges yet.$"
 msgstr ""
+"嗯……\n"
+"上面没有我的名字……\p"
+"不过也很正常，\n"
+"因为我还没参加过任何挑战。$"

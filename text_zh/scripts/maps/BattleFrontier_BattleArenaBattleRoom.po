@@ -11,6 +11,8 @@ msgid ""
 "REFEREE: TRAINER {PLAYER}!\n"
 "Step forward, please!$"
 msgstr ""
+"裁判：训练家{PLAYER}！\n"
+"请上前！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:490
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward"
@@ -18,6 +20,8 @@ msgid ""
 "REFEREE: TRAINER {STR_VAR_1}!\n"
 "Step forward, please!$"
 msgstr ""
+"裁判：训练家{STR_VAR_1}！\n"
+"请上前！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:494
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin"
@@ -25,16 +29,18 @@ msgid ""
 "REFEREE: Set KO Tourney!\n"
 "Begin!$"
 msgstr ""
+"裁判：淘汰赛！\n"
+"开始！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:498
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer"
 msgid "REFEREE: The winner is {PLAYER}!$"
-msgstr ""
+msgstr "裁判：获胜的是{PLAYER}！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:501
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent"
 msgid "REFEREE: The winner is {STR_VAR_1}!$"
-msgstr ""
+msgstr "裁判：获胜的是{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:504
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored"
@@ -42,6 +48,8 @@ msgid ""
 "Your POKéMON will be restored to\n"
 "full health.$"
 msgstr ""
+"你的宝可梦\n"
+"将会恢复健康。$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:508
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor2ndOpponent"
@@ -49,6 +57,8 @@ msgid ""
 "Next up, your second opponent!\n"
 "Are you ready to move on?$"
 msgstr ""
+"接下来是你的第2位对手！\n"
+"准备好继续了吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:512
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor3rdOpponent"
@@ -56,6 +66,8 @@ msgid ""
 "Next up, your third opponent!\n"
 "Are you ready to move on?$"
 msgstr ""
+"接下来是你的第3位对手！\n"
+"准备好继续了吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:516
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor4thOpponent"
@@ -63,6 +75,8 @@ msgid ""
 "Next up, your fourth opponent!\n"
 "Are you ready to move on?$"
 msgstr ""
+"接下来是你的第4位对手！\n"
+"准备好继续了吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:520
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor5thOpponent"
@@ -70,6 +84,8 @@ msgid ""
 "Next up, your fifth opponent!\n"
 "Are you ready to move on?$"
 msgstr ""
+"接下来是你的第5位对手！\n"
+"准备好继续了吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:524
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor6thOpponent"
@@ -77,6 +93,8 @@ msgid ""
 "Next up, your sixth opponent!\n"
 "Are you ready to move on?$"
 msgstr ""
+"接下来是你的第6位对手！\n"
+"准备好继续了吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:528
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_ReadyFor7thOpponent"
@@ -84,6 +102,8 @@ msgid ""
 "Next up, your seventh opponent!\n"
 "Are you ready to move on?$"
 msgstr ""
+"接下来是你的第7位对手！\n"
+"准备好继续了吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:532
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown"
@@ -91,13 +111,15 @@ msgid ""
 "Would you like to save the game and\n"
 "shut down now?$"
 msgstr ""
+"要记录游戏进度\n"
+"并关机吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:536
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge"
 msgid ""
 "Would you like to retire from your\n"
 "Set KO Tourney challenge?$"
-msgstr ""
+msgstr "要放弃淘汰赛的挑战吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:540
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait"
@@ -105,6 +127,8 @@ msgid ""
 "I am saving your game data.\n"
 "Please wait.$"
 msgstr ""
+"正在记录游戏数据。\n"
+"请稍候。$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:544
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle"
@@ -112,6 +136,8 @@ msgid ""
 "Would you like to record your last\n"
 "battle on your FRONTIER PASS?$"
 msgstr ""
+"要把你上一场对战\n"
+"录到开拓通行证里吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:548
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon"
@@ -121,6 +147,10 @@ msgid ""
 "We now would like you to face our\n"
 "leader, the ARENA TYCOON!$"
 msgstr ""
+"亲爱的挑战者！\p"
+"你的实力真是令人惊叹！\p"
+"接下来，请你挑战我们的首领——\n"
+"竞技场大亨！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:554
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon"
@@ -128,6 +158,8 @@ msgid ""
 "A battle with the ARENA TYCOON!\n"
 "Are you prepared?$"
 msgstr ""
+"和竞技场大亨的对战！\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:558
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta"
@@ -135,6 +167,8 @@ msgid ""
 "REFEREE: The ARENA TYCOON!\n"
 "Make way for GRETA!$"
 msgstr ""
+"裁判：竞技场大亨！\n"
+"葛蕾塔登场！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:562
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger"
@@ -143,6 +177,9 @@ msgid ""
 "Howdy!\p"
 "…Wait, are you the challenger?$"
 msgstr ""
+"葛蕾塔：嘿！\n"
+"你好！\p"
+"……等等，你就是挑战者？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:567
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight"
@@ -150,6 +187,8 @@ msgid ""
 "Is that right? Hmm…\n"
 "Hmhm…$"
 msgstr ""
+"是吗？嗯……\n"
+"嗯嗯……$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:571
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy"
@@ -161,6 +200,12 @@ msgid ""
 "Well, all right!\n"
 "We'll take things easy to start with!$"
 msgstr ""
+"我不知道该怎么说，不过……\n"
+"说白了，你看起来挺弱的。\l"
+"你确定你是我的对手吗？\p"
+"嗯……\p"
+"好吧，算了！\n"
+"一开始我们就轻松点吧！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:579
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle"
@@ -168,6 +213,8 @@ msgid ""
 "Okay! Let's see you ignite my passion\n"
 "for battle!$"
 msgstr ""
+"好！让我看看你能不能\n"
+"点燃我对战的热情吧！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:583
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll"
@@ -177,6 +224,10 @@ msgid ""
 "I like you!\n"
 "Let's see your FRONTIER PASS.$"
 msgstr ""
+"葛蕾塔：哎哟，等一下！\n"
+"你果然很厉害嘛！\p"
+"我喜欢你！\n"
+"给我看看你的开拓通行证吧。$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:589
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol"
@@ -184,6 +235,8 @@ msgid ""
 "The Guts Symbol was embossed on\n"
 "the FRONTIER PASS!$"
 msgstr ""
+"开拓通行证上\n"
+"印上了毅力标志！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:593
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime"
@@ -192,6 +245,9 @@ msgid ""
 "It's going to be fun the next time!\n"
 "I'm looking forward to it!$"
 msgstr ""
+"嗯……\p"
+"下次一定会很好玩！\n"
+"我很期待哦！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:598
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain"
@@ -202,6 +258,11 @@ msgid ""
 "I was really looking forward to seeing\l"
 "you again!$"
 msgstr ""
+"葛蕾塔：嘿！你好！\n"
+"你终于打到我这里来了！\p"
+"等你等得我都担心了！\n"
+"我真的很期待\l"
+"再见到你呢！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:605
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady"
@@ -209,6 +270,8 @@ msgid ""
 "… … …\n"
 "So, are you ready?$"
 msgstr ""
+"…… …… ……\n"
+"那么，你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:609
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort"
@@ -216,6 +279,8 @@ msgid ""
 "I won't allow a halfhearted effort!\n"
 "Be ready for a thrashing!$"
 msgstr ""
+"我可不允许你敷衍了事！\n"
+"做好被痛扁的准备吧！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:613
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted"
@@ -223,6 +288,8 @@ msgid ""
 "Come on, REFEREE!\n"
 "Let's get this started!$"
 msgstr ""
+"来吧，裁判！\n"
+"我们开始吧！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:617
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway"
@@ -230,6 +297,8 @@ msgid ""
 "GRETA: Gaaah! Blown away!\n"
 "Let's see your FRONTIER PASS!$"
 msgstr ""
+"葛蕾塔：啊啊！被打飞了！\n"
+"给我看看你的开拓通行证！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:621
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine"
@@ -237,6 +306,8 @@ msgid ""
 "The Guts Symbol took on\n"
 "a golden shine!$"
 msgstr ""
+"毅力标志\n"
+"发出了金色的光芒！$"
 
 #: data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.inc:625
 msgctxt "BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose"
@@ -246,3 +317,7 @@ msgid ""
 "If we ever battle again, I won't lose!\n"
 "Don't you forget it! Bye-bye!$"
 msgstr ""
+"啊啊啊！\n"
+"真是气死我了！\p"
+"要是我们再对战，我绝对不会输！\n"
+"你可别忘了！拜拜！$"

@@ -11,6 +11,8 @@ msgid ""
 "The 2nd set of opponents is next.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第2组对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:444
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor3rdOpponentSet"
@@ -18,6 +20,8 @@ msgid ""
 "The 3rd set of opponents is next.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第3组对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:448
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor4thOpponentSet"
@@ -25,6 +29,8 @@ msgid ""
 "The 4th set of opponents is next.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第4组对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:452
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor5thOpponentSet"
@@ -32,6 +38,8 @@ msgid ""
 "The 5th set of opponents is next.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第5组对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:456
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor6thOpponentSet"
@@ -39,6 +47,8 @@ msgid ""
 "The 6th set of opponents is next.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第6组对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:460
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet"
@@ -46,6 +56,8 @@ msgid ""
 "The 7th set of opponents is next.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第7组对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:465
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext"
@@ -53,6 +65,8 @@ msgid ""
 "The 2nd set of opponents is next.\n"
 "Do your best!$"
 msgstr ""
+"接下来是第2组对手。\n"
+"加油吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:470
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_3rdOpponentSetNext"
@@ -60,6 +74,8 @@ msgid ""
 "The 3rd set of opponents is next.\n"
 "Do your best!$"
 msgstr ""
+"接下来是第3组对手。\n"
+"加油吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:475
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_4thOpponentSetNext"
@@ -67,6 +83,8 @@ msgid ""
 "The 4th set of opponents is next.\n"
 "Do your best!$"
 msgstr ""
+"接下来是第4组对手。\n"
+"加油吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:480
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_5thOpponentSetNext"
@@ -74,6 +92,8 @@ msgid ""
 "The 5th set of opponents is next.\n"
 "Do your best!$"
 msgstr ""
+"接下来是第5组对手。\n"
+"加油吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:485
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext"
@@ -81,6 +101,8 @@ msgid ""
 "The 6th set of opponents is next.\n"
 "Do your best!$"
 msgstr ""
+"接下来是第6组对手。\n"
+"加油吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:490
 msgctxt "BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext"
@@ -88,11 +110,13 @@ msgid ""
 "The 7th set of opponents is next.\n"
 "Do your best!$"
 msgstr ""
+"接下来是第7组对手。\n"
+"加油吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:494
 msgctxt "gText_LinkStandby3"
 msgid "Link standby…$"
-msgstr ""
+msgstr "连接待机中……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc:497
 msgctxt "gText_YourPartnerHasRetired"
@@ -101,3 +125,6 @@ msgid ""
 "Your BATTLE ROOM challenge\n"
 "will be canceled.$"
 msgstr ""
+"你的搭档退出了。\p"
+"你的对战室挑战\n"
+"将被取消。$"

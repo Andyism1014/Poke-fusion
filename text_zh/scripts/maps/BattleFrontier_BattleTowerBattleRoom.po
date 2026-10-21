@@ -11,6 +11,8 @@ msgid ""
 "We will restore your POKéMON to\n"
 "full health.$"
 msgstr ""
+"我们会让你的宝可梦\n"
+"恢复健康。$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:439
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent"
@@ -18,6 +20,8 @@ msgid ""
 "You will be facing opponent no. {STR_VAR_1}.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第{STR_VAR_1}位对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:443
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent"
@@ -25,6 +29,8 @@ msgid ""
 "You will be facing opponent no. 2.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第2位对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:447
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent"
@@ -32,6 +38,8 @@ msgid ""
 "You will be facing opponent no. 3.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第3位对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:451
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent"
@@ -39,6 +47,8 @@ msgid ""
 "You will be facing opponent no. 4.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第4位对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:455
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent"
@@ -46,6 +56,8 @@ msgid ""
 "You will be facing opponent no. 5.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第5位对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:459
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent"
@@ -53,6 +65,8 @@ msgid ""
 "You will be facing opponent no. 6.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第6位对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:463
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent"
@@ -60,6 +74,8 @@ msgid ""
 "You will be facing opponent no. 7.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第7位对手。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:467
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle"
@@ -67,6 +83,8 @@ msgid ""
 "Record your battle on your\n"
 "FRONTIER PASS?$"
 msgstr ""
+"要把这场对战\n"
+"录到开拓通行证里吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:471
 msgctxt "BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass"
@@ -74,13 +92,15 @@ msgid ""
 "{PLAYER}'s battle was recorded\n"
 "on the FRONTIER PASS.$"
 msgstr ""
+"{PLAYER}的对战\n"
+"已经录到开拓通行证里了。$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:475
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame"
 msgid ""
 "Would you like to save and\n"
 "quit the game?$"
-msgstr ""
+msgstr "要记录并结束游戏吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:479
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait"
@@ -88,13 +108,15 @@ msgid ""
 "Saving your battle data.\n"
 "Please wait.$"
 msgstr ""
+"正在记录对战数据。\n"
+"请稍候。$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:483
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge"
 msgid ""
 "Would you like to cancel your BATTLE\n"
 "ROOM challenge?$"
-msgstr ""
+msgstr "要放弃对战室的挑战吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:487
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved"
@@ -102,6 +124,8 @@ msgid ""
 "There was an error of some sort.\n"
 "Your record could not be saved.$"
 msgstr ""
+"发生了某种错误。\n"
+"成绩没能记录下来。$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:491
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay"
@@ -111,6 +135,10 @@ msgid ""
 "her way here in hopes of battling you.\p"
 "She should be arriving very shortly.$"
 msgstr ""
+"打扰一下……\p"
+"我们的首领沙龙少女\n"
+"希望和你对战，正往这里赶来。\p"
+"她应该马上就到了。$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:497
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden"
@@ -118,6 +146,8 @@ msgid ""
 "You will be facing the SALON MAIDEN.\n"
 "Are you prepared?$"
 msgstr ""
+"你的对手是沙龙少女。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:501
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel"
@@ -133,6 +163,16 @@ msgid ""
 "The reason I've come to see you…\n"
 "Well, there is but one reason…$"
 msgstr ""
+"你好……\n"
+"我叫莉拉。\p"
+"我是沙龙少女，\n"
+"负责管理对战塔……\p"
+"我听说过一些\n"
+"关于你的传闻……\p"
+"老实说，我听到的那些\n"
+"并没有什么吸引我的地方……\p"
+"我来见你的理由……\n"
+"嗯，只有一个……$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:513
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent"
@@ -140,6 +180,8 @@ msgid ""
 "Let me see your talent in\n"
 "its entirety…$"
 msgstr ""
+"让我看看\n"
+"你全部的才能吧……$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:517
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized"
@@ -148,6 +190,9 @@ msgid ""
 "Your FRONTIER PASS, please…\n"
 "Your talent shall be recognized.$"
 msgstr ""
+"莉拉：呵呵呵，干得不错……\p"
+"请给我你的开拓通行证……\n"
+"你的才能将得到认可。$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:522
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol"
@@ -155,6 +200,8 @@ msgid ""
 "The Ability Symbol was embossed on\n"
 "the FRONTIER PASS!$"
 msgstr ""
+"开拓通行证上\n"
+"印上了能力标志！$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:526
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime"
@@ -167,6 +214,13 @@ msgid ""
 "I will be waiting for you.\n"
 "Until the next time we meet…$"
 msgstr ""
+"…… …… …… …… …… ……\p"
+"你对自己宝可梦的对战才能\n"
+"很有自信吧？\p"
+"希望你继续战斗，\n"
+"继续赢下去。\p"
+"我会等着你的。\n"
+"直到我们下次相见……$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:535
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack"
@@ -180,11 +234,18 @@ msgid ""
 "Too long since I've been able to battle\n"
 "without thinking about anything…$"
 msgstr ""
+"莉拉：你真的回来见我了……\p"
+"…… …… …… …… …… ……\p"
+"你一路连胜来见我……\n"
+"我不用对你手下留情了……\p"
+"已经很久了……\p"
+"已经很久没能什么都不想，\n"
+"尽情地对战了……$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:545
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe"
 msgid "Let's begin, shall we?$"
-msgstr ""
+msgstr "我们开始吧？$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:548
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease"
@@ -192,6 +253,8 @@ msgid ""
 "ANABEL: Fufu, congratulations…\n"
 "Your FRONTIER PASS, please…$"
 msgstr ""
+"莉拉：呵呵，恭喜你……\n"
+"请给我你的开拓通行证……$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:552
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine"
@@ -199,6 +262,8 @@ msgid ""
 "The Ability Symbol took on\n"
 "a golden shine!$"
 msgstr ""
+"能力标志\n"
+"发出了金色的光芒！$"
 
 #: data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.inc:556
 msgctxt "BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain"
@@ -208,3 +273,7 @@ msgid ""
 "so enjoyable before…\p"
 "I wish I could battle with you again…$"
 msgstr ""
+"真开心……\p"
+"我从来没有享受过\n"
+"这么愉快的宝可梦对战……\p"
+"真希望能再和你对战……$"

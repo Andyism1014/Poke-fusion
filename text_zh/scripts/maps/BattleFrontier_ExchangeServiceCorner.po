@@ -14,11 +14,15 @@ msgid ""
 "have collected for lovely prizes.\p"
 "Please choose a prize from this list.$"
 msgstr ""
+"你好，这里是兑换服务处。\p"
+"我们可以把你收集的对战点数\n"
+"兑换成精美的奖品。\p"
+"请从这份清单中选择奖品。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:355
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize"
 msgid "Please choose a prize from this list.$"
-msgstr ""
+msgstr "请从这份清单中选择奖品。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:358
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_ConfirmPurchase"
@@ -26,6 +30,8 @@ msgid ""
 "You've chosen the {STR_VAR_1}.\n"
 "Is that correct?$"
 msgstr ""
+"你选择的是{STR_VAR_1}。\n"
+"对吗？$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:362
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC"
@@ -33,11 +39,13 @@ msgid ""
 "Thank you!\n"
 "We'll send it to your PC at home.$"
 msgstr ""
+"谢谢！\n"
+"我们会把它送到你家里的电脑。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:366
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize"
 msgid "Here is your prize!$"
-msgstr ""
+msgstr "这是你的奖品！$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:369
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints"
@@ -45,6 +53,8 @@ msgid ""
 "I'm so sorry…\n"
 "You don't have enough Battle Points…$"
 msgstr ""
+"非常抱歉……\n"
+"你的对战点数不够……$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:373
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_PCIsFull"
@@ -52,6 +62,8 @@ msgid ""
 "I'm so sorry…\n"
 "Your PC appears to be full…$"
 msgstr ""
+"非常抱歉……\n"
+"你的电脑好像满了……$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:377
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt"
@@ -59,6 +71,8 @@ msgid ""
 "I'm so sorry…\n"
 "You don't have space to hold it…$"
 msgstr ""
+"非常抱歉……\n"
+"你没有地方放它了……$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:381
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints"
@@ -67,6 +81,9 @@ msgid ""
 "Please visit us when you have\n"
 "saved up Battle Points.$"
 msgstr ""
+"非常感谢。\p"
+"攒够对战点数以后\n"
+"请再来吧。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:386
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls"
@@ -78,6 +95,12 @@ msgid ""
 "Little plush DOLLS!\l"
 "I wish I had them all!$"
 msgstr ""
+"哇，好棒啊！\n"
+"我好想要！\l"
+"可爱的坐垫！\l"
+"大大的毛绒玩偶！\l"
+"小小的毛绒玩偶！\l"
+"我全都想要！$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:394
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant"
@@ -86,6 +109,9 @@ msgid ""
 "If it's anything you want, I'll go\n"
 "through anything to get it, honey!$"
 msgstr ""
+"交给妈妈吧！\p"
+"只要是你想要的东西，\n"
+"妈妈不管怎样都会帮你弄到的！$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:399
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher"
@@ -95,6 +121,10 @@ msgid ""
 "You bet they will!\n"
 "No question about it!$"
 msgstr ""
+"只要能拿到这里的道具，\n"
+"我的宝可梦就会变得更强。\p"
+"肯定会的！\n"
+"毫无疑问！$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:405
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll"
@@ -106,6 +136,12 @@ msgid ""
 "If you want it, go get one yourself!\n"
 "Isn't that right, SMOOCHUM?$"
 msgstr ""
+"啊？\n"
+"你在盯着看什么？\p"
+"我不喜欢你那样\n"
+"盯着我的毛绒玩偶看。\p"
+"想要的话，自己去换一个！\n"
+"对吧，迷唇娃？$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:413
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord"
@@ -115,11 +151,15 @@ msgid ""
 "the BATTLE facilities, they start\l"
 "giving you more and more Battle Points.$"
 msgstr ""
+"你知道吗？\p"
+"在任何一座对战设施里，\n"
+"只要不断刷新纪录，\l"
+"得到的对战点数就会越来越多。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:419
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc"
 msgid "A large poster with a SMOOCHUM print.$"
-msgstr ""
+msgstr "印有迷唇娃图案的大海报。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:422
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc"
@@ -127,6 +167,8 @@ msgid ""
 "A SMOOCHUM cushion.\n"
 "Place it on a mat or a desk.$"
 msgstr ""
+"迷唇娃坐垫。\n"
+"可以放在垫子或桌子上。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:426
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc"
@@ -134,6 +176,8 @@ msgid ""
 "A SMOOCHUM DOLL.\n"
 "Place it on a mat or a desk.$"
 msgstr ""
+"迷唇娃玩偶。\n"
+"可以放在垫子或桌子上。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:430
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc"
@@ -141,6 +185,8 @@ msgid ""
 "A TOGEPI DOLL.\n"
 "Place it on a mat or a desk.$"
 msgstr ""
+"波克比玩偶。\n"
+"可以放在垫子或桌子上。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:434
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc"
@@ -148,6 +194,8 @@ msgid ""
 "A MEOWTH DOLL.\n"
 "Place it on a mat or a desk.$"
 msgstr ""
+"喵喵玩偶。\n"
+"可以放在垫子或桌子上。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:438
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc"
@@ -155,6 +203,8 @@ msgid ""
 "A CLEFAIRY DOLL.\n"
 "Place it on a mat or a desk.$"
 msgstr ""
+"皮皮玩偶。\n"
+"可以放在垫子或桌子上。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:442
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc"
@@ -162,6 +212,8 @@ msgid ""
 "A DITTO DOLL.\n"
 "Place it on a mat or a desk.$"
 msgstr ""
+"百变怪玩偶。\n"
+"可以放在垫子或桌子上。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:446
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc"
@@ -169,6 +221,8 @@ msgid ""
 "A CYNDAQUIL DOLL.\n"
 "Place it on a mat or a desk.$"
 msgstr ""
+"火球鼠玩偶。\n"
+"可以放在垫子或桌子上。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:450
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc"
@@ -176,6 +230,8 @@ msgid ""
 "A CHIKORITA DOLL.\n"
 "Place it on a mat or a desk.$"
 msgstr ""
+"菊草叶玩偶。\n"
+"可以放在垫子或桌子上。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:454
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc"
@@ -183,6 +239,8 @@ msgid ""
 "A TOTODILE DOLL.\n"
 "Place it on a mat or a desk.$"
 msgstr ""
+"小锯鳄玩偶。\n"
+"可以放在垫子或桌子上。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:458
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc"
@@ -190,46 +248,48 @@ msgid ""
 "A large DOLL.\n"
 "Place it on a mat or a desk.$"
 msgstr ""
+"大型玩偶。\n"
+"可以放在垫子或桌子上。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:462
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc"
 msgid ""
 "Raises the stat ATTACK of one\n"
 "POKéMON.$"
-msgstr ""
+msgstr "提高1只宝可梦的攻击。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:466
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc"
 msgid ""
 "Raises the stat SP. ATK of one\n"
 "POKéMON.$"
-msgstr ""
+msgstr "提高1只宝可梦的特攻。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:470
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_IronDesc"
 msgid ""
 "Raises the stat DEFENSE of one\n"
 "POKéMON.$"
-msgstr ""
+msgstr "提高1只宝可梦的防御。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:474
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_ZincDesc"
 msgid ""
 "Raises the stat SP. DEF of one\n"
 "POKéMON.$"
-msgstr ""
+msgstr "提高1只宝可梦的特防。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:478
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc"
 msgid ""
 "Raises the stat SPEED of one\n"
 "POKéMON.$"
-msgstr ""
+msgstr "提高1只宝可梦的速度。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:482
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc"
 msgid "Raises the HP of one POKéMON.$"
-msgstr ""
+msgstr "提高1只宝可梦的HP。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:485
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc"
@@ -237,6 +297,8 @@ msgid ""
 "A hold item that gradually restores\n"
 "HP in battle.$"
 msgstr ""
+"携带后，在对战中\n"
+"会逐渐回复HP。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:489
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc"
@@ -244,13 +306,15 @@ msgid ""
 "A hold item that restores any\n"
 "lowered stat.$"
 msgstr ""
+"携带后，能让降低的能力\n"
+"恢复原状。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:493
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc"
 msgid ""
 "A hold item that occasionally allows\n"
 "the first strike.$"
-msgstr ""
+msgstr "携带后，有时能抢先行动。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:497
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc"
@@ -258,6 +322,8 @@ msgid ""
 "A hold item that snaps POKéMON out\n"
 "of infatuation.$"
 msgstr ""
+"携带后，能让宝可梦\n"
+"从着迷状态中清醒过来。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:501
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc"
@@ -265,6 +331,8 @@ msgid ""
 "A hold item that casts a glare to\n"
 "reduce accuracy.$"
 msgstr ""
+"携带后，能发出耀眼的光芒\n"
+"降低对手的命中率。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:505
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc"
@@ -272,6 +340,8 @@ msgid ""
 "Raises a move's power, but permits\n"
 "only that move.$"
 msgstr ""
+"招式威力提高，\n"
+"但只能使用那一个招式。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:509
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc"
@@ -279,6 +349,8 @@ msgid ""
 "A hold item that may cause flinching\n"
 "when the foe is hit.$"
 msgstr ""
+"携带后，攻击对手时\n"
+"有时会让对手畏缩。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:513
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc"
@@ -286,6 +358,8 @@ msgid ""
 "A hold item that occasionally\n"
 "prevents fainting.$"
 msgstr ""
+"携带后，有时能撑住\n"
+"不会濒死。$"
 
 #: data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc:517
 msgctxt "BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc"
@@ -293,3 +367,5 @@ msgid ""
 "A hold item that raises the\n"
 "critical-hit rate.$"
 msgstr ""
+"携带后，能提高\n"
+"击中要害的几率。$"

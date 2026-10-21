@@ -13,6 +13,10 @@ msgid ""
 "Your POKéMON shall be restored\n"
 "to full health…$"
 msgstr ""
+"欢迎……\n"
+"你的运气真值得称赞……\p"
+"你的宝可梦\n"
+"将会恢复健康……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:642
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge"
@@ -20,6 +24,8 @@ msgid ""
 "I urge you to enjoy the rest of your\n"
 "Battle Choice challenge…$"
 msgstr ""
+"请尽情享受\n"
+"接下来的对战抉择挑战……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:646
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon"
@@ -29,6 +35,10 @@ msgid ""
 "I will restore one of your POKéMON\n"
 "to full health.$"
 msgstr ""
+"啊，你真幸运。\n"
+"我现在心情还不错。\p"
+"我会让你的1只宝可梦\n"
+"恢复健康。$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:652
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell"
@@ -36,6 +46,8 @@ msgid ""
 "The best of luck to you.\n"
 "Farewell.$"
 msgstr ""
+"祝你好运。\n"
+"再见。$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:659
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons"
@@ -44,6 +56,9 @@ msgid ""
 "Would you care for a battle?\n"
 "I'll restore your POKéMON if you win.$"
 msgstr ""
+"打扰一下……\p"
+"要不要来对战？\n"
+"如果你赢了，我就让你的宝可梦恢复。$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:665
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe"
@@ -51,6 +66,8 @@ msgid ""
 "Very well…\n"
 "Now, shall we?$"
 msgstr ""
+"很好……\n"
+"那么，我们开始吧？$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:670
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou"
@@ -58,6 +75,8 @@ msgid ""
 "I see…\n"
 "How unsporting of you…$"
 msgstr ""
+"原来如此……\n"
+"你真没有体育精神……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:675
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised"
@@ -66,6 +85,9 @@ msgid ""
 "As promised, I shall restore your\n"
 "POKéMON to full health.$"
 msgstr ""
+"太精彩了……\p"
+"按照约定，我会让你的宝可梦\n"
+"恢复健康。$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:681
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2"
@@ -73,6 +95,8 @@ msgid ""
 "The best of luck to you.\n"
 "Farewell.$"
 msgstr ""
+"祝你好运。\n"
+"再见。$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:685
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_WatchOut"
@@ -80,6 +104,8 @@ msgid ""
 "Oh, my!\p"
 "Watch out!$"
 msgstr ""
+"哎呀！\p"
+"小心！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:689
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop"
@@ -87,6 +113,8 @@ msgid ""
 "Now, now!\n"
 "KIRLIA, stop that!$"
 msgstr ""
+"好了，好了！\n"
+"奇鲁莉安，快住手！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:693
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop"
@@ -94,36 +122,38 @@ msgid ""
 "Now, now!\n"
 "DUSCLOPS, stop that!$"
 msgstr ""
+"好了，好了！\n"
+"彷徨夜灵，快住手！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:697
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic"
 msgid "KIRLIA used TOXIC!$"
-msgstr ""
+msgstr "奇鲁莉安使出了剧毒！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:700
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis"
 msgid "KIRLIA used HYPNOSIS!$"
-msgstr ""
+msgstr "奇鲁莉安使出了催眠术！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:703
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave"
 msgid "KIRLIA used THUNDER WAVE!$"
-msgstr ""
+msgstr "奇鲁莉安使出了电磁波！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:706
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp"
 msgid "KIRLIA used WILL-O-WISP!$"
-msgstr ""
+msgstr "奇鲁莉安使出了鬼火！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:709
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp"
 msgid "DUSCLOPS used WILL-O-WISP!$"
-msgstr ""
+msgstr "彷徨夜灵使出了鬼火！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:712
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam"
 msgid "DUSCLOPS used ICE BEAM!$"
-msgstr ""
+msgstr "彷徨夜灵使出了冰冻光束！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:715
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough"
@@ -131,6 +161,8 @@ msgid ""
 "Look here!\n"
 "That's quite enough!$"
 msgstr ""
+"喂！\n"
+"够了！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:719
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia"
@@ -138,6 +170,8 @@ msgid ""
 "I must apologize to you…\p"
 "My KIRLIA has a TIMID nature…$"
 msgstr ""
+"我必须向你道歉……\p"
+"我的奇鲁莉安是胆小的性格……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:723
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops"
@@ -145,6 +179,8 @@ msgid ""
 "I must apologize to you…\p"
 "My DUSCLOPS has a TIMID nature…$"
 msgstr ""
+"我必须向你道歉……\p"
+"我的彷徨夜灵是胆小的性格……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:727
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled"
@@ -153,6 +189,9 @@ msgid ""
 "startled by another person…\p"
 "Are you and your POKéMON all right?$"
 msgstr ""
+"它被别人吓到的时候，\n"
+"就会毫无预兆地发动攻击……\p"
+"你和你的宝可梦都没事吧？$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:732
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine"
@@ -160,6 +199,8 @@ msgid ""
 "I do apologize for what happened…\n"
 "I do hope your POKéMON are fine.$"
 msgstr ""
+"刚才的事真是对不起……\n"
+"希望你的宝可梦没事。$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:736
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_Silence"
@@ -167,6 +208,8 @@ msgid ""
 "… … … … … …\n"
 "… … … … … …$"
 msgstr ""
+"…… …… …… …… …… ……\n"
+"…… …… …… …… …… ……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:740
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer"
@@ -175,6 +218,9 @@ msgid ""
 "Here, we will have you battle\n"
 "a somewhat-tough TRAINER…$"
 msgstr ""
+"欢迎……\p"
+"在这里，你要和一位\n"
+"有点厉害的训练家对战……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:745
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth"
@@ -183,6 +229,9 @@ msgid ""
 "To honor your victory, your POKéMON\n"
 "shall be restored to full health…$"
 msgstr ""
+"太棒了……\p"
+"为了表彰你的胜利，\n"
+"你的宝可梦将会恢复健康……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:750
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2"
@@ -190,6 +239,8 @@ msgid ""
 "I urge you to enjoy the rest of your\n"
 "Battle Choice challenge…$"
 msgstr ""
+"请尽情享受\n"
+"接下来的对战抉择挑战……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:754
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen"
@@ -202,6 +253,13 @@ msgid ""
 "…I'm not one for idle chatter.\n"
 "Hurry. Come on…$"
 msgstr ""
+"我是小蓟……\n"
+"在这里，我就是规矩……\l"
+"因为我是管道女王……\p"
+"你应该已经知道了，\n"
+"要前进，就必须打败我……\p"
+"……我不喜欢闲聊。\n"
+"快点。来吧……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:763
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck"
@@ -209,6 +267,8 @@ msgid ""
 "Your luck…\n"
 "I hope you didn't use it all up here…$"
 msgstr ""
+"你的运气……\n"
+"希望你没有在这里全部用光……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:767
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass"
@@ -216,6 +276,8 @@ msgid ""
 "LUCY: … … … … … …\n"
 "Show me your FRONTIER PASS…$"
 msgstr ""
+"小蓟：…… …… …… …… …… ……\n"
+"把你的开拓通行证给我看看……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:771
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol"
@@ -223,6 +285,8 @@ msgid ""
 "The Luck Symbol was embossed on\n"
 "the FRONTIER PASS!$"
 msgstr ""
+"开拓通行证上\n"
+"印上了运气标志！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:775
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear"
@@ -230,6 +294,8 @@ msgid ""
 "…That's all there is…\n"
 "Disappear already…$"
 msgstr ""
+"……就这样了……\n"
+"快点消失吧……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:779
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain"
@@ -243,6 +309,14 @@ msgid ""
 "… … … … … …\n"
 "Fine… I'll do it…$"
 msgstr ""
+"小蓟：……又是你……\p"
+"…… …… …… …… …… ……\p"
+"……我是踏过鲜花、闯过风暴\n"
+"才走到今天的……\p"
+"我可不想一直\n"
+"输给同一个对手……\p"
+"…… …… …… …… …… ……\n"
+"好吧……我来……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:789
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn"
@@ -250,6 +324,8 @@ msgid ""
 "Now!\n"
 "Come on!$"
 msgstr ""
+"来吧！\n"
+"上吧！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:793
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass"
@@ -257,6 +333,8 @@ msgid ""
 "LUCY: … … … … … …\p"
 "…FRONTIER PASS…$"
 msgstr ""
+"小蓟：…… …… …… …… …… ……\p"
+"……开拓通行证……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:797
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine"
@@ -264,6 +342,8 @@ msgid ""
 "The Luck Symbol took on\n"
 "a golden shine!$"
 msgstr ""
+"运气标志\n"
+"发出了金色的光芒！$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:801
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_IWontForget"
@@ -271,6 +351,8 @@ msgid ""
 "…You, I won't forget…\n"
 "…Ever…$"
 msgstr ""
+"……你，我不会忘记的……\n"
+"……永远……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:805
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal"
@@ -281,6 +363,11 @@ msgid ""
 "If only you hadn't chosen this room,\n"
 "your POKéMON could have been healed…$"
 msgstr ""
+"欢迎你……\p"
+"嘻嘻……\n"
+"你好像没什么运气呢……\p"
+"要是你没选这个房间，\n"
+"你的宝可梦就能得到回复了……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:812
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne"
@@ -289,6 +376,9 @@ msgid ""
 "Since you have chosen this room, I will\n"
 "restore one POKéMON to full health…$"
 msgstr ""
+"欢迎你……\p"
+"既然你选择了这个房间，\n"
+"我会让1只宝可梦恢复健康……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:817
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo"
@@ -297,6 +387,9 @@ msgid ""
 "Since you have chosen this room, I will\n"
 "restore two POKéMON to full health…$"
 msgstr ""
+"欢迎你……\p"
+"既然你选择了这个房间，\n"
+"我会让2只宝可梦恢复健康……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:823
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons"
@@ -307,11 +400,16 @@ msgid ""
 "Since you have chosen this room,\n"
 "all your POKéMON will be restored…$"
 msgstr ""
+"欢迎你……\p"
+"嘻嘻……\n"
+"你应该感谢你的好运……\p"
+"既然你选择了这个房间，\n"
+"你所有的宝可梦都会恢复……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:830
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster"
 msgid "I shall go fetch our master…$"
-msgstr ""
+msgstr "我这就去请我们的主人……$"
 
 #: data/maps/BattleFrontier_BattlePikeRoomNormal/scripts.inc:833
 msgctxt "BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons"
@@ -321,3 +419,7 @@ msgid ""
 "I will restore two of your POKéMON\n"
 "to full health!$"
 msgstr ""
+"啊，你真幸运！\n"
+"我现在心情很好。\p"
+"我会让你的2只宝可梦\n"
+"恢复健康！$"

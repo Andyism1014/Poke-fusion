@@ -11,6 +11,8 @@ msgid ""
 "Your 1st-round match is next.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是你的第1轮比赛。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:275
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound2"
@@ -18,6 +20,8 @@ msgid ""
 "Your 2nd-round match is next.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是你的第2轮比赛。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:279
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForSemifinals"
@@ -25,6 +29,8 @@ msgid ""
 "Your semifinal match is next.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是你的半决赛。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:283
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals"
@@ -32,6 +38,8 @@ msgid ""
 "Your final match is next.\n"
 "Are you ready?$"
 msgstr ""
+"接下来是你的决赛。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:287
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons"
@@ -39,11 +47,13 @@ msgid ""
 "Please choose the two POKéMON\n"
 "that are to appear in battle.$"
 msgstr ""
+"请选择出战的\n"
+"2只宝可梦。$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:291
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay"
 msgid "Right this way, please.$"
-msgstr ""
+msgstr "请往这边走。$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:294
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth"
@@ -52,6 +62,9 @@ msgid ""
 "I'll restore your POKéMON to\n"
 "full health.$"
 msgstr ""
+"感谢你的参赛！\p"
+"我会让你的宝可梦\n"
+"恢复健康。$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:299
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete"
@@ -60,6 +73,8 @@ msgid ""
 "completed.\p"
 "These are the teams that advanced!$"
 msgstr ""
+"第1轮比赛已经全部结束了。\p"
+"这些是晋级的队伍！$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:304
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_Round2Complete"
@@ -68,6 +83,8 @@ msgid ""
 "completed.\p"
 "These are the teams that advanced!$"
 msgstr ""
+"第2轮比赛已经全部结束了。\p"
+"这些是晋级的队伍！$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:309
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete"
@@ -76,6 +93,8 @@ msgid ""
 "completed.\p"
 "These are the teams that advanced!$"
 msgstr ""
+"半决赛已经全部结束了。\p"
+"这些是晋级的队伍！$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:315
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2"
@@ -85,6 +104,9 @@ msgid ""
 "The 2nd round is next.\n"
 "Are you ready?$"
 msgstr ""
+"恭喜你通过了第1轮。\p"
+"接下来是第2轮。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:322
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForSemifinals"
@@ -94,6 +116,9 @@ msgid ""
 "The best four teams meet in this round.\n"
 "Are you ready?$"
 msgstr ""
+"恭喜你晋级半决赛。\p"
+"这一轮是4强之间的较量。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:329
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals"
@@ -103,6 +128,9 @@ msgid ""
 "You're one win from the championship.\n"
 "Are you ready?$"
 msgstr ""
+"恭喜你晋级决赛。\p"
+"再赢一场你就是冠军了。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:335
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer"
@@ -110,40 +138,42 @@ msgid ""
 "{PLAYER}'s next opponent\n"
 "is this TRAINER.$"
 msgstr ""
+"{PLAYER}的下一位对手\n"
+"是这位训练家。$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:339
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1"
 msgid "The tournament is in the 1st round.$"
-msgstr ""
+msgstr "锦标赛正在进行第1轮。$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:342
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound2"
 msgid "The tournament is in the 2nd round.$"
-msgstr ""
+msgstr "锦标赛正在进行第2轮。$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:345
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInSemifinals"
 msgid "The tournament is in the semifinals.$"
-msgstr ""
+msgstr "锦标赛正在进行半决赛。$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:348
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInFinals"
 msgid "The tournament is up to the final.$"
-msgstr ""
+msgstr "锦标赛已经进入决赛了。$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:351
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame"
 msgid ""
 "Would you like to save and\n"
 "quit the game?$"
-msgstr ""
+msgstr "要记录并结束游戏吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:355
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_RetireYourChallenge"
 msgid ""
 "Would you like to retire from your\n"
 "Battle Tournament challenge?$"
-msgstr ""
+msgstr "要放弃对战锦标赛的挑战吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:359
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait"
@@ -151,6 +181,8 @@ msgid ""
 "I am saving your data.\n"
 "Please wait.$"
 msgstr ""
+"正在记录数据。\n"
+"请稍候。$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:363
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch"
@@ -158,6 +190,8 @@ msgid ""
 "Should I record your last match\n"
 "on your FRONTIER PASS?$"
 msgstr ""
+"要把你上一场比赛\n"
+"录到开拓通行证里吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:367
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver"
@@ -168,6 +202,10 @@ msgid ""
 "the DOME ACE TUCKER.\p"
 "Are you ready?$"
 msgstr ""
+"恭喜你晋级决赛。\p"
+"决赛中，你将挑战\n"
+"巨蛋王牌塔克。\p"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:375
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold"
@@ -178,6 +216,10 @@ msgid ""
 "the DOME ACE TUCKER.\p"
 "Are you ready?$"
 msgstr ""
+"恭喜你晋级决赛。\p"
+"决赛中，你将挑战\n"
+"巨蛋王牌塔克。\p"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:382
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort"
@@ -185,6 +227,8 @@ msgid ""
 "Your final battle against TUCKER is\n"
 "next. Are you ready?$"
 msgstr ""
+"接下来是和塔克的决赛。\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.inc:387
 msgctxt "BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort"
@@ -192,3 +236,5 @@ msgid ""
 "Your final battle against TUCKER is\n"
 "next. Are you ready?$"
 msgstr ""
+"接下来是和塔克的决赛。\n"
+"你准备好了吗？$"

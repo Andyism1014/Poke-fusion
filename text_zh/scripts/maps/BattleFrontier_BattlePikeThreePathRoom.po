@@ -11,6 +11,8 @@ msgid ""
 "You are currently in\n"
 "the 1st room…$"
 msgstr ""
+"你现在在\n"
+"第1个房间……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:268
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom3"
@@ -18,6 +20,8 @@ msgid ""
 "You are currently in\n"
 "the 3rd room…$"
 msgstr ""
+"你现在在\n"
+"第3个房间……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:272
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom5"
@@ -25,6 +29,8 @@ msgid ""
 "You are currently in\n"
 "the 5th room…$"
 msgstr ""
+"你现在在\n"
+"第5个房间……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:276
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom7"
@@ -32,6 +38,8 @@ msgid ""
 "You are currently in\n"
 "the 7th room…$"
 msgstr ""
+"你现在在\n"
+"第7个房间……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:280
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom9"
@@ -39,6 +47,8 @@ msgid ""
 "You are currently in\n"
 "the 9th room…$"
 msgstr ""
+"你现在在\n"
+"第9个房间……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:284
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom11"
@@ -46,6 +56,8 @@ msgid ""
 "You are currently in\n"
 "the 11th room…$"
 msgstr ""
+"你现在在\n"
+"第11个房间……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:288
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom13"
@@ -53,13 +65,15 @@ msgid ""
 "You are currently in\n"
 "the 13th room…$"
 msgstr ""
+"你现在在\n"
+"第13个房间……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:292
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge"
 msgid ""
 "Will you continue with\n"
 "your challenge?$"
-msgstr ""
+msgstr "你要继续挑战吗？$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:296
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit"
@@ -67,13 +81,15 @@ msgid ""
 "Would you like to save your challenge\n"
 "and quit the game for now?$"
 msgstr ""
+"要记录挑战进度，\n"
+"暂时结束游戏吗？$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:300
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge"
 msgid ""
 "Do you wish to retire from your\n"
 "Battle Choice challenge?$"
-msgstr ""
+msgstr "你要放弃对战抉择的挑战吗？$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:304
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume"
@@ -82,6 +98,9 @@ msgid ""
 "Before resuming your Battle Choice\n"
 "challenge, let me save the game…$"
 msgstr ""
+"我们一直在等你回来……\p"
+"继续对战抉择的挑战之前，\n"
+"让我先记录游戏进度……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:309
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge"
@@ -89,6 +108,8 @@ msgid ""
 "Please do enjoy your Battle Choice\n"
 "challenge…$"
 msgstr ""
+"请尽情享受\n"
+"对战抉择的挑战……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:313
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData"
@@ -96,6 +117,8 @@ msgid ""
 "I am saving your data…\n"
 "A little time, please…$"
 msgstr ""
+"正在记录你的数据……\n"
+"请稍等片刻……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:317
 msgctxt "BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack"
@@ -103,6 +126,8 @@ msgid ""
 "The path is blocked!\n"
 "And there is no turning back…$"
 msgstr ""
+"路被堵住了！\n"
+"而且已经无法回头了……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:321
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose"
@@ -111,6 +136,9 @@ msgid ""
 "Are you perhaps finding it difficult\n"
 "to choose your path?$"
 msgstr ""
+"非常抱歉……\p"
+"你是不是很难\n"
+"决定走哪条路呢？$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:326
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence"
@@ -118,6 +146,8 @@ msgid ""
 "I see…\n"
 "I apologize for my impertinence…$"
 msgstr ""
+"原来如此……\n"
+"恕我冒昧了……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:330
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath"
@@ -125,6 +155,8 @@ msgid ""
 "Ah, let me see… There is something\n"
 "about the path on the right…$"
 msgstr ""
+"啊，让我看看……\n"
+"右边的路上好像有什么……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:334
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath"
@@ -132,6 +164,8 @@ msgid ""
 "Ah, let me see… There is something\n"
 "about the path in the center…$"
 msgstr ""
+"啊，让我看看……\n"
+"中间的路上好像有什么……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:338
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath"
@@ -139,6 +173,8 @@ msgid ""
 "Ah, let me see… There is something\n"
 "about the path on the left…$"
 msgstr ""
+"啊，让我看看……\n"
+"左边的路上好像有什么……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:342
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon"
@@ -146,6 +182,8 @@ msgid ""
 "It seems to have the distinct aroma\n"
 "of POKéMON wafting around it…$"
 msgstr ""
+"那里似乎飘荡着\n"
+"一股宝可梦特有的气味……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:346
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople"
@@ -153,6 +191,8 @@ msgid ""
 "Is it… A TRAINER?\n"
 "I sense the presence of people…$"
 msgstr ""
+"是……训练家吗？\n"
+"我感觉到了人的气息……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:350
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering"
@@ -160,6 +200,8 @@ msgid ""
 "I seem to have heard something…\n"
 "It may have been whispering…$"
 msgstr ""
+"我好像听到了什么……\n"
+"也许是窃窃私语声……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:354
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga"
@@ -167,6 +209,8 @@ msgid ""
 "For some odd reason, I felt a wave\n"
 "of nostalgia coming from it…$"
 msgstr ""
+"不知为什么，\n"
+"我从那里感到了一阵怀念……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:358
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent"
@@ -177,6 +221,11 @@ msgid ""
 "I urge you to pay the utmost care\n"
 "and prepare for the worst…$"
 msgstr ""
+"很遗憾……\p"
+"可怕的事情，没错，非常可怕的事情\n"
+"即将降临到你身上……\p"
+"请你务必万分小心，\n"
+"做好最坏的打算……$"
 
 #: data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.inc:365
 msgctxt "BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence"
@@ -184,3 +233,5 @@ msgid ""
 "From every path I sense a dreadful\n"
 "presence…$"
 msgstr ""
+"我从每条路上\n"
+"都感觉到了可怕的气息……$"

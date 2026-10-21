@@ -13,6 +13,10 @@ msgid ""
 "You may then choose from our\n"
 "selection of POKéMON.$"
 msgstr ""
+"首先，我们会替你\n"
+"保管你的宝可梦。\p"
+"然后，你可以从我们准备的\n"
+"宝可梦中进行挑选。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:461
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons"
@@ -20,6 +24,8 @@ msgid ""
 "Thank you for competing!\n"
 "Let us restore your POKéMON!$"
 msgstr ""
+"感谢你的参赛！\n"
+"让我们为你的宝可梦恢复健康！$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:465
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent"
@@ -27,6 +33,8 @@ msgid ""
 "The 2nd match is next!\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第2场比赛！\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:469
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor3rdOpponent"
@@ -34,6 +42,8 @@ msgid ""
 "The 3rd match is next!\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第3场比赛！\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:473
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor4thOpponent"
@@ -41,6 +51,8 @@ msgid ""
 "The 4th match is next!\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第4场比赛！\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:477
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor5thOpponent"
@@ -48,6 +60,8 @@ msgid ""
 "The 5th match is next!\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第5场比赛！\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:481
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor6thOpponent"
@@ -55,6 +69,8 @@ msgid ""
 "The 6th match is next!\n"
 "Are you ready?$"
 msgstr ""
+"接下来是第6场比赛！\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:485
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor7thOpponent"
@@ -62,20 +78,22 @@ msgid ""
 "Finally, the 7th match is next!\n"
 "Are you ready?$"
 msgstr ""
+"终于，接下来是第7场比赛！\n"
+"你准备好了吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:489
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame"
 msgid ""
 "Would you like to save and quit\n"
 "the game?$"
-msgstr ""
+msgstr "要记录并结束游戏吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:493
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge"
 msgid ""
 "Would you like to retire from your\n"
 "Battle Swap challenge?$"
-msgstr ""
+msgstr "要放弃交换对战的挑战吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:497
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent"
@@ -83,6 +101,8 @@ msgid ""
 "I've conducted a little investigation\n"
 "about your upcoming opponent.$"
 msgstr ""
+"我稍微调查了一下\n"
+"你接下来的对手。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:501
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType"
@@ -90,6 +110,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the NORMAL type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用一般属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:505
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType"
@@ -97,6 +119,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the FIRE type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用火属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:509
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType"
@@ -104,6 +128,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the WATER type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用水属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:513
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType"
@@ -111,6 +137,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the ELECTRIC type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用电属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:517
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType"
@@ -118,6 +146,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the GRASS type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用草属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:521
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType"
@@ -125,6 +155,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the ICE type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用冰属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:525
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType"
@@ -132,6 +164,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the FIGHTING type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用格斗属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:529
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType"
@@ -139,6 +173,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the POISON type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用毒属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:533
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType"
@@ -146,6 +182,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the GROUND type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用地面属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:537
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType"
@@ -153,6 +191,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the FLYING type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用飞行属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:541
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType"
@@ -160,6 +200,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the PSYCHIC type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用超能力属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:545
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType"
@@ -167,6 +209,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the BUG type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用虫属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:549
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType"
@@ -174,6 +218,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the ROCK type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用岩石属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:553
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType"
@@ -181,6 +227,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the GHOST type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用幽灵属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:557
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType"
@@ -188,6 +236,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the DRAGON type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用龙属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:561
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType"
@@ -195,6 +245,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the DARK type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用恶属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:565
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType"
@@ -202,6 +254,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the FAIRY type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用妖精属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:569
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType"
@@ -209,6 +263,8 @@ msgid ""
 "The TRAINER is apparently skilled\n"
 "in the handling of the STEEL type.$"
 msgstr ""
+"那位训练家似乎\n"
+"擅长使用钢属性。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:573
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite"
@@ -216,6 +272,8 @@ msgid ""
 "The TRAINER appears to have no clear\n"
 "favorites when it comes to type.$"
 msgstr ""
+"那位训练家在属性上\n"
+"似乎没有明显的偏好。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:577
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleSlowAndSteady"
@@ -223,6 +281,8 @@ msgid ""
 "The favorite battle style appears to\n"
 "be slow and steady.$"
 msgstr ""
+"对方喜欢的对战风格\n"
+"似乎是稳扎稳打。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:581
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleEndurance"
@@ -230,6 +290,8 @@ msgid ""
 "The favorite battle style appears to\n"
 "be one of endurance.$"
 msgstr ""
+"对方喜欢的对战风格\n"
+"似乎是持久战。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:585
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleHighRisk"
@@ -237,6 +299,8 @@ msgid ""
 "The favorite battle style appears to\n"
 "be high risk, high return.$"
 msgstr ""
+"对方喜欢的对战风格\n"
+"似乎是高风险、高回报。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:589
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleDependsOnFlow"
@@ -244,6 +308,8 @@ msgid ""
 "The favorite battle style appears to\n"
 "depend on the battle's flow.$"
 msgstr ""
+"对方喜欢的对战风格\n"
+"似乎会随对战的走势而变。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:593
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation"
@@ -251,6 +317,8 @@ msgid ""
 "The favorite battle style appears to\n"
 "be one based on total preparation.$"
 msgstr ""
+"对方喜欢的对战风格\n"
+"似乎是做好万全的准备。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:597
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe"
@@ -258,6 +326,8 @@ msgid ""
 "The favorite battle style appears\n"
 "to be weakening the foe to start.$"
 msgstr ""
+"对方喜欢的对战风格\n"
+"似乎是先削弱对手。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:601
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible"
@@ -265,6 +335,8 @@ msgid ""
 "The favorite battle style appears to\n"
 "be flexibly adaptable to the situation.$"
 msgstr ""
+"对方喜欢的对战风格\n"
+"似乎是随机应变。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:605
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleImpossibleToPredict"
@@ -272,6 +344,8 @@ msgid ""
 "The favorite battle style appears to\n"
 "be impossible to predict.$"
 msgstr ""
+"对方喜欢的对战风格\n"
+"似乎是无法预测的。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:609
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained"
@@ -279,6 +353,8 @@ msgid ""
 "The favorite battle style appears to\n"
 "be free-spirited and unrestrained.$"
 msgstr ""
+"对方喜欢的对战风格\n"
+"似乎是自由奔放、无拘无束。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:613
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon"
@@ -286,6 +362,8 @@ msgid ""
 "Before starting the battle, would you\n"
 "like to swap a POKéMON?$"
 msgstr ""
+"开始对战之前，\n"
+"你要交换宝可梦吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:617
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete"
@@ -293,11 +371,13 @@ msgid ""
 "Thank you!\n"
 "Your POKéMON swap is complete.$"
 msgstr ""
+"谢谢！\n"
+"宝可梦的交换完成了。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:621
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay"
 msgid "Right this way, please!$"
-msgstr ""
+msgstr "请往这边走！$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:624
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait"
@@ -305,6 +385,8 @@ msgid ""
 "I am saving your data.\n"
 "Please wait.$"
 msgstr ""
+"正在记录数据。\n"
+"请稍候。$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:628
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle"
@@ -312,6 +394,8 @@ msgid ""
 "Would you like to record your latest\n"
 "battle on your FRONTIER PASS?$"
 msgstr ""
+"要把你最近的一场对战\n"
+"录到开拓通行证里吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:632
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments"
@@ -319,6 +403,8 @@ msgid ""
 "Excuse me! Excuse me, please!\n"
 "May I get you to wait a few moments?$"
 msgstr ""
+"不好意思！不好意思！\n"
+"能请你稍等一下吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:636
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_UnderstoodSirWillDo"
@@ -326,6 +412,8 @@ msgid ""
 "…Uh-huh? What?! …Whoa!\n"
 "Understood, sir! Will do!$"
 msgstr ""
+"……嗯？什么？！……哇！\n"
+"明白了！我马上去办！$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:640
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow"
@@ -337,6 +425,12 @@ msgid ""
 "He says, “We're going to do it!\n"
 "Come here right now!”$"
 msgstr ""
+"哎呀……\n"
+"让你久等了！\p"
+"我收到了这座设施的老板——\n"
+"工厂主管的口信。\p"
+"他说：“我们来比一场！\n"
+"马上过来！”$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:648
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead"
@@ -344,6 +438,8 @@ msgid ""
 "The FACTORY HEAD is demanding you.\n"
 "Are you prepared to face him?$"
 msgstr ""
+"工厂主管要求和你对战。\n"
+"你准备好面对他了吗？$"
 
 #: data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.inc:652
 msgctxt "BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead"
@@ -351,3 +447,5 @@ msgid ""
 "I'm terribly sorry, but I can't tell you\n"
 "anything about the FACTORY HEAD.$"
 msgstr ""
+"非常抱歉，关于工厂主管的事，\n"
+"我什么都不能告诉你。$"

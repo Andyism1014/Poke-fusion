@@ -11,6 +11,8 @@ msgid ""
 "Please find a partner from out of\n"
 "the TRAINERS gathered here.$"
 msgstr ""
+"请从聚集在这里的训练家中\n"
+"找一位搭档。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:283
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner"
@@ -20,6 +22,10 @@ msgid ""
 "Would you like to quit looking and\n"
 "return to the reception counter?$"
 msgstr ""
+"{PLAYER}，你还没有找到\n"
+"组队的搭档。\p"
+"要放弃寻找，\n"
+"回到接待柜台吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:289
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2"
@@ -27,6 +33,8 @@ msgid ""
 "Then, please find a partner from\n"
 "the TRAINERS gathered here.$"
 msgstr ""
+"那么，请从聚集在这里的\n"
+"训练家中找一位搭档。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:293
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner"
@@ -35,6 +43,9 @@ msgid ""
 "I will now show you to your\n"
 "MULTI BATTLE ROOM.$"
 msgstr ""
+"感谢你选好了搭档。\p"
+"现在我带你去\n"
+"多人对战室。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:298
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Intro"
@@ -42,6 +53,9 @@ msgid ""
 "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
 "You can call me {STR_VAR_3}!$"
 msgstr ""
+"我是{STR_VAR_1}的\n"
+"第{STR_VAR_2}号徒弟。\l"
+"你可以叫我{STR_VAR_3}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:302
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Mon1"
@@ -49,6 +63,8 @@ msgid ""
 "On {STR_VAR_1}'s advice, I brought\n"
 "one {STR_VAR_3} with {STR_VAR_2} and$"
 msgstr ""
+"听了{STR_VAR_1}的建议，我带来了\n"
+"会{STR_VAR_2}的{STR_VAR_3}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:306
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Mon2Ask"
@@ -56,6 +72,8 @@ msgid ""
 "one {STR_VAR_2} with {STR_VAR_1}.\p"
 "Please, let me join you as a tag team.$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"请让我和你组队吧。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:310
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Accept"
@@ -63,6 +81,8 @@ msgid ""
 "Thank you!\n"
 "I'll go register right now.$"
 msgstr ""
+"谢谢你！\n"
+"我这就去登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:314
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Reject"
@@ -70,6 +90,8 @@ msgid ""
 "I really wanted to form a tag team\n"
 "with you, {PLAYER}…$"
 msgstr ""
+"{PLAYER}，\n"
+"我真的很想和你组队……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:318
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Intro"
@@ -77,6 +99,9 @@ msgid ""
 "I am {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
 "My name is {STR_VAR_3}.$"
 msgstr ""
+"我是{STR_VAR_1}的\n"
+"第{STR_VAR_2}号徒弟。\l"
+"我叫{STR_VAR_3}。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:322
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Mon1"
@@ -84,6 +109,8 @@ msgid ""
 "I got advice from {STR_VAR_1} and chose\n"
 "one {STR_VAR_3} with {STR_VAR_2} and$"
 msgstr ""
+"我听了{STR_VAR_1}的建议，选了\n"
+"会{STR_VAR_2}的{STR_VAR_3}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:326
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Mon2Ask"
@@ -91,6 +118,8 @@ msgid ""
 "one {STR_VAR_2} with {STR_VAR_1}.\p"
 "Please, let's form a tag team!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"请和我组队吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:330
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Accept"
@@ -98,6 +127,8 @@ msgid ""
 "Thank you very much!\n"
 "I'll be done with registration quickly!$"
 msgstr ""
+"非常感谢！\n"
+"我马上就去登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:334
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Reject"
@@ -105,6 +136,8 @@ msgid ""
 "{PLAYER}, I was hoping that I could\n"
 "partner up with you…$"
 msgstr ""
+"{PLAYER}，\n"
+"我本来希望能和你搭档的……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:338
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Intro"
@@ -115,6 +148,11 @@ msgid ""
 "I'm sorry!\n"
 "This tension is making me cry…$"
 msgstr ""
+"呃，我叫{STR_VAR_3}，\n"
+"是{STR_VAR_1}的第{STR_VAR_2}号徒弟。\p"
+"呜……\p"
+"对不起！\n"
+"太紧张了，我都要哭了……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:345
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Mon1"
@@ -122,6 +160,8 @@ msgid ""
 "{STR_VAR_3} advised me, so I have\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"听了{STR_VAR_3}的建议，我带了\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:349
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Mon2Ask"
@@ -130,6 +170,9 @@ msgid ""
 "Snivel…\n"
 "Please, please team up with me!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"呜……\n"
+"求求你，和我组队吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:354
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Accept"
@@ -141,6 +184,12 @@ msgid ""
 "I'll go register right away.\n"
 "Please don't go away!$"
 msgstr ""
+"哦，真的吗？你愿意？\n"
+"太棒了！太好了！呜哦哦！\p"
+"啊……对不起……\n"
+"我太高兴了，都哭了……\p"
+"我马上去登记。\n"
+"请不要走开哦！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:362
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Reject"
@@ -148,6 +197,8 @@ msgid ""
 "Oh, b-but…\n"
 "Sob… Waaaaah!$"
 msgstr ""
+"啊，可、可是……\n"
+"呜……哇啊啊啊！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:366
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Intro"
@@ -155,6 +206,8 @@ msgid ""
 "Hi, there! I'm {STR_VAR_3}!\n"
 "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!$"
 msgstr ""
+"你好！我是{STR_VAR_3}！\n"
+"我是{STR_VAR_1}的第{STR_VAR_2}号徒弟！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:370
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Mon1"
@@ -162,6 +215,8 @@ msgid ""
 "{STR_VAR_3} recommended my crew.\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"{STR_VAR_3}推荐了我的队伍。\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:374
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Mon2Ask"
@@ -171,6 +226,10 @@ msgid ""
 "So come on!\n"
 "Let's form a tag team!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}，\n"
+"这就是我的队伍！很酷吧？\p"
+"所以来吧！\n"
+"我们组队吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:380
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Accept"
@@ -178,6 +237,8 @@ msgid ""
 "Yay! Great!\n"
 "Okay, I'll go register, okay?$"
 msgstr ""
+"耶！太好了！\n"
+"好，我去登记了哦？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:384
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Reject"
@@ -185,6 +246,8 @@ msgid ""
 "Aww, why?\n"
 "I wanted to team up, {PLAYER}!$"
 msgstr ""
+"哎，为什么？\n"
+"{PLAYER}，我想和你组队啊！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:388
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Intro"
@@ -192,6 +255,8 @@ msgid ""
 "I'm {STR_VAR_3}, the no. {STR_VAR_2} apprentice\n"
 "of the famous {STR_VAR_1}!$"
 msgstr ""
+"我是{STR_VAR_3}，是那位著名的\n"
+"{STR_VAR_1}的第{STR_VAR_2}号徒弟！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:392
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon1"
@@ -199,6 +264,8 @@ msgid ""
 "I looked to {STR_VAR_3} for advice.\n"
 "One {STR_VAR_1}-using {STR_VAR_2}$"
 msgstr ""
+"我向{STR_VAR_3}请教了意见。\n"
+"会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:396
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon2Ask"
@@ -208,6 +275,10 @@ msgid ""
 "Please, will you join me in\n"
 "a tag team?$"
 msgstr ""
+"和会{STR_VAR_1}的{STR_VAR_2}，\n"
+"就是我的组合。\p"
+"请问，你愿意和我\n"
+"组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:402
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Accept"
@@ -215,6 +286,8 @@ msgid ""
 "Thank you!\n"
 "I'll register right away!$"
 msgstr ""
+"谢谢你！\n"
+"我马上去登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:406
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Reject"
@@ -222,6 +295,8 @@ msgid ""
 "{PLAYER}, I had been hoping to join\n"
 "you in a tag team…$"
 msgstr ""
+"{PLAYER}，\n"
+"我一直希望能和你组队的……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:410
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Intro"
@@ -231,6 +306,10 @@ msgid ""
 "I'm {STR_VAR_3}.\n"
 "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice…$"
 msgstr ""
+"呃……你愿意花时间和我说话，\n"
+"我真的很高兴。\p"
+"我是{STR_VAR_3}。\n"
+"是{STR_VAR_1}的第{STR_VAR_2}号徒弟……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:416
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Mon1"
@@ -240,6 +319,10 @@ msgid ""
 "I have a team of one {STR_VAR_2}\n"
 "with {STR_VAR_1} and$"
 msgstr ""
+"{STR_VAR_3}给了我建议。\n"
+"我非常感激。\p"
+"我的队伍是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:422
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Mon2Ask"
@@ -249,6 +332,10 @@ msgid ""
 "I don't think you'll be willing to,\n"
 "but may I join you as a partner?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\n"
+"我知道这个要求有点过分……\p"
+"我想你大概不会愿意，\n"
+"但我可以做你的搭档吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:428
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Accept"
@@ -259,6 +346,11 @@ msgid ""
 "Um… If it's really okay, I'll go register\n"
 "right this instant!$"
 msgstr ""
+"真的吗？我不敢相信！\n"
+"你居然愿意让我加入！\l"
+"我……我不会让你失望的！\p"
+"呃……如果真的可以的话，\n"
+"我马上就去登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:435
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Reject"
@@ -266,6 +358,8 @@ msgid ""
 "Oh…\n"
 "I didn't think I was good enough…$"
 msgstr ""
+"啊……\n"
+"我就知道我不够格……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:439
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Intro"
@@ -273,6 +367,8 @@ msgid ""
 "Hi, I'm {STR_VAR_3}.\n"
 "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!$"
 msgstr ""
+"你好，我是{STR_VAR_3}。\n"
+"我是{STR_VAR_1}的第{STR_VAR_2}号徒弟！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:443
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Mon1"
@@ -281,6 +377,9 @@ msgid ""
 "good to make this team:\l"
 "one {STR_VAR_1}-using {STR_VAR_2}$"
 msgstr ""
+"{STR_VAR_3}告诉我，\n"
+"组成这样的队伍会很好：\l"
+"会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:448
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Mon2Ask"
@@ -290,6 +389,10 @@ msgid ""
 "Not bad, huh?\n"
 "Want me to team up with you?$"
 msgstr ""
+"和会使用{STR_VAR_1}的\n"
+"{STR_VAR_2}。\p"
+"还不错吧？\n"
+"要我和你组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:454
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Accept"
@@ -298,6 +401,9 @@ msgid ""
 "I hope you won't mess things up for me!\l"
 "I'll do my registration now.$"
 msgstr ""
+"好，很高兴和你组队！\n"
+"希望你别拖我后腿哦！\l"
+"我这就去登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:459
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Reject"
@@ -305,6 +411,8 @@ msgid ""
 "Huh? Why did you turn me down?\n"
 "You're no judge of character!$"
 msgstr ""
+"咦？你为什么拒绝我？\n"
+"你真是不识货！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:463
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Intro"
@@ -315,6 +423,11 @@ msgid ""
 "I also happen to be {STR_VAR_1}'s\n"
 "no. {STR_VAR_2} apprentice.$"
 msgstr ""
+"我是{STR_VAR_3}，是铁人三项选手。\n"
+"每天忙着慢跑、训练\l"
+"还有说唱。\p"
+"另外，我也是{STR_VAR_1}的\n"
+"第{STR_VAR_2}号徒弟。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:470
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon1"
@@ -322,6 +435,8 @@ msgid ""
 "This is what {STR_VAR_3} recommended.\n"
 "One {STR_VAR_1}-using {STR_VAR_2}$"
 msgstr ""
+"这是{STR_VAR_3}推荐的。\n"
+"会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:474
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon2Ask"
@@ -333,6 +448,12 @@ msgid ""
 "Let's form a tag team\n"
 "and give it a go!$"
 msgstr ""
+"和会{STR_VAR_1}的\n"
+"{STR_VAR_2}。\p"
+"虽然我很忙，\n"
+"但培育它们花了很多心血。\p"
+"我们组队\n"
+"试一试吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:482
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Accept"
@@ -340,6 +461,8 @@ msgid ""
 "Thanks, that's the spirit!\n"
 "Hang tight while I go register, okay?$"
 msgstr ""
+"谢啦，就是要这股劲！\n"
+"我去登记，稍等一下哦？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:486
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Reject"
@@ -347,6 +470,8 @@ msgid ""
 "I took time from my busy schedule\n"
 "to be here! Give me a break!$"
 msgstr ""
+"我可是在百忙之中抽空来的！\n"
+"饶了我吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:490
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Intro"
@@ -356,6 +481,10 @@ msgid ""
 "I'm {STR_VAR_3}, {STR_VAR_1}'s\n"
 "no. {STR_VAR_2} apprentice. Glad to meet you!$"
 msgstr ""
+"嗨！\n"
+"最近怎么样？\p"
+"我是{STR_VAR_3}，是{STR_VAR_1}的\n"
+"第{STR_VAR_2}号徒弟。很高兴认识你！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:496
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon1"
@@ -364,6 +493,9 @@ msgid ""
 "the POKéMON {STR_VAR_3} recommended.\l"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"听我说，听我说！你一定要听听\n"
+"{STR_VAR_3}推荐的宝可梦。\l"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:501
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon2Ask"
@@ -373,6 +505,10 @@ msgid ""
 "So, want to team up?\n"
 "I'm sure it'll be a great combo!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\n"
+"当然，我把它们培育得超棒！\p"
+"那么，要组队吗？\n"
+"肯定会是个很棒的组合！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:507
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Accept"
@@ -380,6 +516,8 @@ msgid ""
 "Yay, I think this will be fun!\n"
 "I'll go register!$"
 msgstr ""
+"耶，我觉得一定会很好玩！\n"
+"我去登记了！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:511
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Reject"
@@ -387,6 +525,8 @@ msgid ""
 "Oh, you're mean!\n"
 "I come recommended, you know.$"
 msgstr ""
+"哼，你真坏！\n"
+"我可是被推荐来的哦。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:515
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Intro"
@@ -396,6 +536,10 @@ msgid ""
 "I serve as {STR_VAR_1}'s\n"
 "no. {STR_VAR_2} apprentice.$"
 msgstr ""
+"请允许我自我介绍。\n"
+"我是{STR_VAR_3}。\p"
+"我是{STR_VAR_1}的\n"
+"第{STR_VAR_2}号徒弟。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:521
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon1"
@@ -404,6 +548,9 @@ msgid ""
 "{STR_VAR_3} and raised my team\l"
 "of one {STR_VAR_2} with {STR_VAR_1}$"
 msgstr ""
+"我听取了{STR_VAR_3}的高见，\n"
+"培育了我的队伍：\l"
+"会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:526
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Mon2Ask"
@@ -411,6 +558,8 @@ msgid ""
 "and one {STR_VAR_2} with {STR_VAR_1}.\p"
 "Please agree to a tag team with me!$"
 msgstr ""
+"和会{STR_VAR_1}的{STR_VAR_2}。\p"
+"请答应和我组队吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:530
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Accept"
@@ -420,6 +569,10 @@ msgid ""
 "Of course I will register us!\n"
 "Please wait!$"
 msgstr ""
+"啊……我太高兴了！\n"
+"我保证会全力以赴！\p"
+"登记就交给我吧！\n"
+"请稍候！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:536
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Reject"
@@ -427,6 +580,8 @@ msgid ""
 "I had been hoping to join you,\n"
 "{PLAYER}…$"
 msgstr ""
+"{PLAYER}，\n"
+"我一直希望能和你组队的……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:540
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Intro"
@@ -436,6 +591,10 @@ msgid ""
 "I'm {STR_VAR_3}! I'm {STR_VAR_1}'s\n"
 "no. {STR_VAR_2} apprentice!$"
 msgstr ""
+"呀！你跟我说话了！\n"
+"我……我太开心了！\p"
+"我是{STR_VAR_3}！我是{STR_VAR_1}的\n"
+"第{STR_VAR_2}号徒弟！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:546
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon1"
@@ -443,6 +602,8 @@ msgid ""
 "On {STR_VAR_3}'s advice, I trained\n"
 "one {STR_VAR_1}-using {STR_VAR_2}$"
 msgstr ""
+"听了{STR_VAR_3}的建议，我培育了\n"
+"会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:550
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon2Ask"
@@ -452,6 +613,10 @@ msgid ""
 "Please, can you grant me my wish?\n"
 "I want to be your tag-team partner!$"
 msgstr ""
+"和会{STR_VAR_1}的\n"
+"{STR_VAR_2}。\p"
+"求求你，能满足我的心愿吗？\n"
+"我想成为你的搭档！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:556
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Accept"
@@ -460,6 +625,9 @@ msgid ""
 "Thank you so much!\l"
 "I'll go register us right away!$"
 msgstr ""
+"呀！我……我晕乎乎的！\n"
+"真是太感谢你了！\l"
+"我马上去登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:561
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Reject"
@@ -467,6 +635,8 @@ msgid ""
 "Waaah! Don't you feel any pity?\n"
 "But that makes you cooler…$"
 msgstr ""
+"哇啊！你一点同情心都没有吗？\n"
+"不过这样反而更酷了……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:565
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Intro"
@@ -475,6 +645,9 @@ msgid ""
 "no. {STR_VAR_2} apprentice!\p"
 "{STR_VAR_3}'s my name, hello, hello!$"
 msgstr ""
+"呀呼！我是{STR_VAR_1}的\n"
+"第{STR_VAR_2}号徒弟！\p"
+"我叫{STR_VAR_3}，你好，你好！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:570
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon1"
@@ -482,6 +655,8 @@ msgid ""
 "My mentor {STR_VAR_3} recommended\n"
 "one {STR_VAR_1}-master {STR_VAR_2}$"
 msgstr ""
+"我的师父{STR_VAR_3}推荐了\n"
+"精通{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:574
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Mon2Ask"
@@ -491,6 +666,10 @@ msgid ""
 "Good stuff, huh?\n"
 "You'll partner with me, won't you?$"
 msgstr ""
+"和精通{STR_VAR_1}的\n"
+"{STR_VAR_2}。\p"
+"很棒吧？\n"
+"你会和我搭档的，对吧？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:580
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Accept"
@@ -498,6 +677,8 @@ msgid ""
 "Okay, excellent!\n"
 "I'll get the registration done quickly!$"
 msgstr ""
+"好，太好了！\n"
+"我马上把登记办好！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:584
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Reject"
@@ -505,6 +686,8 @@ msgid ""
 "Gwaaah!\n"
 "You're a calculating one, {PLAYER}!$"
 msgstr ""
+"呜哇！\n"
+"{PLAYER}，你真会算计！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:588
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Intro"
@@ -517,6 +700,13 @@ msgid ""
 "I'm {STR_VAR_1}'s 1,000th apprentice!\l"
 "Actually, I'm no. {STR_VAR_2}!$"
 msgstr ""
+"喂！出大事了！\n"
+"今天是对战塔的最后一天！\p"
+"…… …… …… …… …… ……\n"
+"开玩笑的啦！\p"
+"大家都叫我{STR_VAR_3}，我自己也是！\n"
+"我是{STR_VAR_1}的第1000号徒弟！\l"
+"其实是第{STR_VAR_2}号啦！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:597
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon1"
@@ -524,6 +714,8 @@ msgid ""
 "{STR_VAR_3} gave me some advice.\n"
 "{STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"{STR_VAR_3}给了我一些建议。\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:601
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon2Ask"
@@ -534,6 +726,11 @@ msgid ""
 "How about it?\n"
 "Want to try tag battles with me?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\n"
+"每种我都有10只！\l"
+"其实每种只有1只啦！\p"
+"怎么样？\n"
+"要和我一起试试搭档对战吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:608
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Accept"
@@ -543,6 +740,10 @@ msgid ""
 "Just joking! But I will really go do\n"
 "the registration, okay?$"
 msgstr ""
+"耶！\n"
+"作为谢礼，我送你一只宝可梦！\p"
+"开玩笑的！不过我是真的\n"
+"要去登记了哦？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:614
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Reject"
@@ -551,6 +752,9 @@ msgid ""
 "the BATTLE TOWER for that!\p"
 "Of course I won't!$"
 msgstr ""
+"哎呀，好冷淡！\n"
+"那我只好把对战塔拆了！\p"
+"当然是骗你的啦！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:619
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Intro"
@@ -562,6 +766,12 @@ msgid ""
 "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
 "Me, you shouldn't be quick to dismiss!$"
 msgstr ""
+"嘿，我摇滚又欢唱！\n"
+"宝可梦，我来掌！\p"
+"我是说唱水手{STR_VAR_3}。\n"
+"可别把我当成爱哭虫！\p"
+"我是{STR_VAR_1}的第{STR_VAR_2}号徒弟。\n"
+"可别随便把我小看！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:627
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Mon1"
@@ -570,6 +780,9 @@ msgid ""
 "abide, put together my team of pride!\l"
 "One {STR_VAR_1}-using {STR_VAR_2}$"
 msgstr ""
+"{STR_VAR_3}的建议我照办，\n"
+"组成骄傲的队伍来登场！\l"
+"会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:632
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Mon2Ask"
@@ -579,6 +792,10 @@ msgid ""
 "Our meeting we should commemorate,\n"
 "with a tag-team victory to celebrate!$"
 msgstr ""
+"和会{STR_VAR_1}的\n"
+"{STR_VAR_2}！\p"
+"我们的相遇值得纪念，\n"
+"用搭档的胜利来庆祝一番！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:638
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Accept"
@@ -586,6 +803,8 @@ msgid ""
 "Hey, hey, I like your style!\n"
 "Our registration, I will go file!$"
 msgstr ""
+"嘿嘿，我喜欢你的风格！\n"
+"登记手续，我去办妥！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:642
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Reject"
@@ -593,6 +812,8 @@ msgid ""
 "Oh, hey, {PLAYER}, now that's cold!\n"
 "If I may be so bold!$"
 msgstr ""
+"哎，{PLAYER}，你真冷淡！\n"
+"恕我直言，太不应该！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:646
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Intro"
@@ -602,6 +823,10 @@ msgid ""
 "Howdy! I'm {STR_VAR_3}!\n"
 "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice!$"
 msgstr ""
+"呀呼呀呼！\n"
+"哎，别跑！我只是闹着玩！\p"
+"你好！我是{STR_VAR_3}！\n"
+"我是{STR_VAR_1}的第{STR_VAR_2}号徒弟！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:652
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon1"
@@ -609,6 +834,8 @@ msgid ""
 "{STR_VAR_3} told me what to do.\n"
 "So one {STR_VAR_1}-using {STR_VAR_2}$"
 msgstr ""
+"{STR_VAR_3}告诉我该怎么做。\n"
+"所以，会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:656
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon2Ask"
@@ -620,6 +847,12 @@ msgid ""
 "Please, I'm begging you!\n"
 "Let me join you, don't leave me blue!$"
 msgstr ""
+"和会{STR_VAR_1}的\n"
+"{STR_VAR_2}，就是我的选择。\p"
+"那么，你觉得怎样？\n"
+"来吧，让我开心一下！\p"
+"求求你了！\n"
+"让我加入吧，别让我难过！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:664
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Accept"
@@ -629,6 +862,10 @@ msgid ""
 "Before we go join the fray,\n"
 "I'll go register right away!$"
 msgstr ""
+"耶哈！幸运女神眷顾我！\n"
+"真让我高兴得不得了！\p"
+"在我们投入战斗之前，\n"
+"我马上就去登记一下！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:670
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Reject"
@@ -636,6 +873,8 @@ msgid ""
 "You're turning me down?\n"
 "{PLAYER}, you're making me frown!$"
 msgstr ""
+"你要拒绝我？\n"
+"{PLAYER}，你让我好失落！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:674
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Intro"
@@ -646,6 +885,11 @@ msgid ""
 "My name's {STR_VAR_3}, {STR_VAR_1}'s\n"
 "no. {STR_VAR_2} apprentice. Cough!$"
 msgstr ""
+"咳咳！\p"
+"啊，抱歉，我感冒了。\n"
+"不过我的宝可梦都很好。\p"
+"我叫{STR_VAR_3}，是{STR_VAR_1}的\n"
+"第{STR_VAR_2}号徒弟。咳咳！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:681
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Mon1"
@@ -654,6 +898,9 @@ msgid ""
 "and put together my team of\l"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我把{STR_VAR_3}的建议牢记在心，\n"
+"组成了我的队伍：\l"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:686
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Mon2Ask"
@@ -666,6 +913,13 @@ msgid ""
 "That's what I'm about.\n"
 "Want to be my tag partner?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"我每天都训练它们，\n"
+"风雨无阻。\p"
+"我想，我就是因为这样\n"
+"才感冒的吧。\p"
+"我就是这样的人。\n"
+"要做我的搭档吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:695
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Accept"
@@ -674,6 +928,9 @@ msgid ""
 "Cough, cough!\l"
 "Hang on while I go register.$"
 msgstr ""
+"谢谢，太感激了！\n"
+"咳咳，咳咳！\l"
+"我去登记，稍等一下。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:700
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Reject"
@@ -681,6 +938,8 @@ msgid ""
 "Oh, you won't?\n"
 "{PLAYER}, I think we'd make a good pair.$"
 msgstr ""
+"哦，你不愿意吗？\n"
+"{PLAYER}，我觉得我们会是好搭档的。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:704
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Intro"
@@ -690,6 +949,10 @@ msgid ""
 "I'm {STR_VAR_3}.\n"
 "I'm the no. {STR_VAR_2} apprentice of {STR_VAR_1}.$"
 msgstr ""
+"啊，你好！\n"
+"好紧张啊。\p"
+"我是{STR_VAR_3}。\n"
+"我是{STR_VAR_1}的第{STR_VAR_2}号徒弟。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:710
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon1"
@@ -697,6 +960,8 @@ msgid ""
 "{STR_VAR_3} said this team'll be good--\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"{STR_VAR_3}说这样的队伍会很好——\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:714
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon2Ask"
@@ -705,6 +970,9 @@ msgid ""
 "I'm feeling self-conscious about this,\n"
 "but will you let me join you?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"虽然我有点不好意思，\n"
+"但你愿意让我加入吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:719
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Accept"
@@ -713,6 +981,9 @@ msgid ""
 "I feel bashful, but I'll do my best!\p"
 "I'll go get the registration done.$"
 msgstr ""
+"啊，哇，谢谢你！\n"
+"虽然有点害羞，但我会努力的！\p"
+"我去把登记办好。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:724
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Reject"
@@ -720,6 +991,8 @@ msgid ""
 "Oh, please don't say no!\n"
 "I feel self-conscious enough already…$"
 msgstr ""
+"啊，请不要拒绝我！\n"
+"我已经够不好意思的了……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:728
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Intro"
@@ -727,6 +1000,8 @@ msgid ""
 "I am {STR_VAR_3}, and that's no lie.\n"
 "I am {STR_VAR_1}'s no. {STR_VAR_2} apprentice.$"
 msgstr ""
+"我是{STR_VAR_3}，这可不是骗人的。\n"
+"我是{STR_VAR_1}的第{STR_VAR_2}号徒弟。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:732
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Mon1"
@@ -736,6 +1011,10 @@ msgid ""
 "I decided to bring with me\l"
 "my {STR_VAR_1}-using {STR_VAR_2} and$"
 msgstr ""
+"{STR_VAR_3}推荐了我的队伍。\p"
+"因为那建议听起来很真诚，\n"
+"我就决定带上\l"
+"我会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:738
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Mon2Ask"
@@ -744,6 +1023,9 @@ msgid ""
 "If possible, I would like you to accept\n"
 "me as your tag-team partner.$"
 msgstr ""
+"我会{STR_VAR_1}的{STR_VAR_2}。\p"
+"如果可以的话，\n"
+"我希望你能接受我做你的搭档。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:743
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Accept"
@@ -753,6 +1035,10 @@ msgid ""
 "But since you've agreed, this is fine.\n"
 "I shall go register the both of us.$"
 msgstr ""
+"你真的愿意接受我？\n"
+"要不然就太糟糕了。\p"
+"不过既然你同意了，那就好。\n"
+"我去为我们两人登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:749
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Reject"
@@ -760,11 +1046,13 @@ msgid ""
 "Hm? Now why would you refuse?\n"
 "Is this your idea of a joke?$"
 msgstr ""
+"嗯？你为什么要拒绝？\n"
+"这是你开的玩笑吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:753
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassIntro"
 msgid "I'm {STR_VAR_1}, and I'm a LASS!$"
-msgstr ""
+msgstr "我是{STR_VAR_1}，是个迷你裙！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:756
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon1"
@@ -772,6 +1060,8 @@ msgid ""
 "What I have are one {STR_VAR_2}\n"
 "that uses {STR_VAR_1} and one$"
 msgstr ""
+"我带着会{STR_VAR_1}的\n"
+"{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:760
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon2Ask"
@@ -780,6 +1070,9 @@ msgid ""
 "Those are what I have with me.\p"
 "Will you be my partner?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\n"
+"这就是我带的宝可梦。\p"
+"你愿意做我的搭档吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:765
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassAccept"
@@ -787,6 +1080,8 @@ msgid ""
 "Thank you!\n"
 "I'll go do the registration!$"
 msgstr ""
+"谢谢你！\n"
+"我去登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:769
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassReject"
@@ -794,6 +1089,8 @@ msgid ""
 "You don't want to be my partner?\n"
 "You'll regret it later!$"
 msgstr ""
+"你不想做我的搭档？\n"
+"你以后会后悔的！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:773
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterIntro"
@@ -801,6 +1098,8 @@ msgid ""
 "Hello!\p"
 "I'm YOUNGSTER {STR_VAR_1}!$"
 msgstr ""
+"你好！\p"
+"我是短裤小子{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:777
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon1"
@@ -808,6 +1107,8 @@ msgid ""
 "Want to know what I have?\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"想知道我带了什么吗？\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:781
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon2Ask"
@@ -816,6 +1117,9 @@ msgid ""
 "You'll be my tag-team partner,\n"
 "won't you?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"你会做我的搭档，\n"
+"对吧？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:786
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterAccept"
@@ -823,6 +1127,8 @@ msgid ""
 "Yay!\n"
 "I'll go and register, okay?$"
 msgstr ""
+"耶！\n"
+"我去登记了哦？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:790
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterReject"
@@ -830,6 +1136,8 @@ msgid ""
 "Aww! If you'd form a tag team with\n"
 "my POKéMON, we'd be unstoppable!$"
 msgstr ""
+"哎！要是你和我的宝可梦组队，\n"
+"我们就天下无敌了！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:794
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerIntro"
@@ -837,6 +1145,8 @@ msgid ""
 "Yahoo!\n"
 "I'm HIKER {STR_VAR_1}!$"
 msgstr ""
+"呀呼！\n"
+"我是登山男{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:798
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon1"
@@ -844,6 +1154,8 @@ msgid ""
 "Know what I have with me?\n"
 "My {STR_VAR_1}-using {STR_VAR_2} and$"
 msgstr ""
+"知道我带了什么吗？\n"
+"我会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:802
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon2Ask"
@@ -852,6 +1164,9 @@ msgid ""
 "Sounds good, eh?\n"
 "Want to form a tag team?$"
 msgstr ""
+"我会{STR_VAR_1}的{STR_VAR_2}！\p"
+"听起来不错吧？\n"
+"要组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:807
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerAccept"
@@ -859,6 +1174,8 @@ msgid ""
 "Yahoo!\n"
 "I'll go do the registering, then.$"
 msgstr ""
+"呀呼！\n"
+"那我去登记了。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:811
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerReject"
@@ -866,6 +1183,8 @@ msgid ""
 "I would've liked to battle with you\n"
 "at my side.$"
 msgstr ""
+"我本来想和你\n"
+"并肩作战的。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:815
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyIntro"
@@ -873,6 +1192,8 @@ msgid ""
 "Hello!\n"
 "I'm {STR_VAR_1}, and I'm a BEAUTY!$"
 msgstr ""
+"你好！\n"
+"我是{STR_VAR_1}，是个大姐姐！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:819
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon1"
@@ -880,6 +1201,8 @@ msgid ""
 "Do you know what I've been raising?\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"你知道我一直在培育什么吗？\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:823
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon2Ask"
@@ -888,6 +1211,9 @@ msgid ""
 "What do you think?\n"
 "Want to make a tag team together?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"你觉得怎么样？\n"
+"要一起组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:828
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyAccept"
@@ -895,6 +1221,8 @@ msgid ""
 "Wonderful!\n"
 "I'll get the registration done now!$"
 msgstr ""
+"太好了！\n"
+"我现在就去登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:832
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyReject"
@@ -903,6 +1231,9 @@ msgid ""
 "We two together--we would've been\n"
 "the best!$"
 msgstr ""
+"真让人失望！\p"
+"我们两个在一起\n"
+"明明会是最棒的！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:837
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanIntro"
@@ -911,6 +1242,9 @@ msgid ""
 "You know who I am?\n"
 "I'm {STR_VAR_1} the FISHERMAN!$"
 msgstr ""
+"哟！\p"
+"你知道我是谁吗？\n"
+"我是钓鱼人{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:842
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon1"
@@ -918,6 +1252,8 @@ msgid ""
 "I've got with me a team of one\n"
 "{STR_VAR_1}-using {STR_VAR_2} and$"
 msgstr ""
+"我带的队伍是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:846
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon2Ask"
@@ -926,6 +1262,9 @@ msgid ""
 "So, how about it?\n"
 "Will you battle at my side?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"那么，怎么样？\n"
+"要和我并肩作战吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:851
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanAccept"
@@ -934,11 +1273,14 @@ msgid ""
 "Leave it up to me!\p"
 "I'll go and register us now.$"
 msgstr ""
+"好，好！\n"
+"交给我吧！\p"
+"我这就去登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:856
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanReject"
 msgid "We matched up perfectly, too…$"
-msgstr ""
+msgstr "我们明明那么般配……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:859
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyIntro"
@@ -946,6 +1288,8 @@ msgid ""
 "Glad to make your acquaintance.\n"
 "I am {STR_VAR_1}, a LADY.$"
 msgstr ""
+"很高兴认识你。\n"
+"我是千金小姐{STR_VAR_1}。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:863
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon1"
@@ -953,6 +1297,8 @@ msgid ""
 "I am accompanied by a team of\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"陪伴我的队伍是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:867
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon2Ask"
@@ -961,6 +1307,9 @@ msgid ""
 "I hope I meet your approval.\n"
 "For I wish to have you as my partner.$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"希望你能满意。\n"
+"因为我希望你成为我的搭档。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:872
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyAccept"
@@ -968,6 +1317,8 @@ msgid ""
 "I thank you sincerely.\n"
 "I shall handle the registration.$"
 msgstr ""
+"衷心感谢你。\n"
+"登记就由我来办吧。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:876
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyReject"
@@ -975,11 +1326,13 @@ msgid ""
 "I'm sure that you will regret not\n"
 "having me as your partner.$"
 msgstr ""
+"没有选我做搭档，\n"
+"你一定会后悔的。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:880
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFIntro"
 msgid "I'm TRIATHLETE {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是铁人三项选手{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:883
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon1"
@@ -987,6 +1340,8 @@ msgid ""
 "What I have…\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我带的是……\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:887
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon2Ask"
@@ -996,6 +1351,10 @@ msgid ""
 "Please?\n"
 "Will you form a tag team with me?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\n"
+"这就是我的组合！\p"
+"拜托？\n"
+"你愿意和我组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:893
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFAccept"
@@ -1003,6 +1362,8 @@ msgid ""
 "Gee, thanks!\n"
 "I'll go register at the counter.$"
 msgstr ""
+"哇，谢谢！\n"
+"我去柜台登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:897
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFReject"
@@ -1010,6 +1371,8 @@ msgid ""
 "We two together, we would've been\n"
 "tough for certain!$"
 msgstr ""
+"我们两个在一起，\n"
+"肯定会很强的！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:901
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherIntro"
@@ -1017,6 +1380,8 @@ msgid ""
 "Hiya!\n"
 "I'm BUG CATCHER {STR_VAR_1}!$"
 msgstr ""
+"嗨！\n"
+"我是捕虫少年{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:905
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon1"
@@ -1024,6 +1389,8 @@ msgid ""
 "Check out what I have!\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"看看我带了什么！\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:909
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon2Ask"
@@ -1032,6 +1399,9 @@ msgid ""
 "So, listen!\n"
 "Do you want to form a tag team?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"那么，听我说！\n"
+"你想和我组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:914
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherAccept"
@@ -1040,6 +1410,8 @@ msgid ""
 "I'll go do the registration stuff\n"
 "at the counter.$"
 msgstr ""
+"明白！\p"
+"我去柜台办登记手续。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:919
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherReject"
@@ -1047,6 +1419,8 @@ msgid ""
 "Aww, my POKéMON are awesome.\n"
 "I hope you won't regret this!$"
 msgstr ""
+"哎，我的宝可梦可厉害了。\n"
+"希望你不会后悔！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:923
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMIntro"
@@ -1054,6 +1428,8 @@ msgid ""
 "Good day!\n"
 "I'm SCHOOL KID {STR_VAR_1}!$"
 msgstr ""
+"你好！\n"
+"我是补习班学生{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:927
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon1"
@@ -1061,6 +1437,8 @@ msgid ""
 "What I've been raising are one\n"
 "{STR_VAR_2} that uses {STR_VAR_1}$"
 msgstr ""
+"我一直在培育的是\n"
+"会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:931
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon2Ask"
@@ -1070,6 +1448,10 @@ msgid ""
 "Not too bad, don't you think?\n"
 "Would you care to form a tag team?$"
 msgstr ""
+"和会{STR_VAR_1}的\n"
+"{STR_VAR_2}。\p"
+"还不错吧？\n"
+"你愿意和我组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:937
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMAccept"
@@ -1077,6 +1459,8 @@ msgid ""
 "Thank you very much!\n"
 "I'll get done with the registration.$"
 msgstr ""
+"非常感谢！\n"
+"我去把登记办完。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:941
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMReject"
@@ -1085,6 +1469,9 @@ msgid ""
 "I was hoping that I could learn\n"
 "from you as your partner…$"
 msgstr ""
+"太遗憾了……\p"
+"我本来希望能作为你的搭档，\n"
+"向你学习的……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:946
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyIntro"
@@ -1092,6 +1479,8 @@ msgid ""
 "Yo! Let me tell you who I am!\n"
 "I'm RICH BOY {STR_VAR_1}!$"
 msgstr ""
+"哟！让我告诉你我是谁！\n"
+"我是富家少爷{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:950
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon1"
@@ -1099,6 +1488,8 @@ msgid ""
 "Guess what I got!\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"猜猜我有什么！\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:954
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon2Ask"
@@ -1107,6 +1498,9 @@ msgid ""
 "I'm willing to offer you the chance\n"
 "to be in a tag team with me.$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"我愿意给你一个机会，\n"
+"让你和我组队。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:959
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyAccept"
@@ -1115,6 +1509,8 @@ msgid ""
 "I'll finish up the registration\n"
 "process quick!$"
 msgstr ""
+"明智的选择！\p"
+"我会尽快办完登记手续！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:964
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyReject"
@@ -1122,6 +1518,8 @@ msgid ""
 "You'd turn me of all people down?\n"
 "You'll regret that decision for sure!$"
 msgstr ""
+"你居然拒绝我？\n"
+"你一定会后悔这个决定的！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:968
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltIntro"
@@ -1129,6 +1527,8 @@ msgid ""
 "Hiyah!\n"
 "I am BLACK BELT {STR_VAR_1}.$"
 msgstr ""
+"嘿呀！\n"
+"我是空手王{STR_VAR_1}。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:972
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon1"
@@ -1136,6 +1536,8 @@ msgid ""
 "As my companions, I have\n"
 "one {STR_VAR_2} using {STR_VAR_1}$"
 msgstr ""
+"我的伙伴是\n"
+"会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:976
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon2Ask"
@@ -1145,6 +1547,10 @@ msgid ""
 "Please, grant me my wish!\n"
 "Allow me to be your tag partner!$"
 msgstr ""
+"和会{STR_VAR_1}的\n"
+"{STR_VAR_2}。\p"
+"请满足我的心愿！\n"
+"让我做你的搭档吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:982
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltAccept"
@@ -1152,6 +1558,8 @@ msgid ""
 "Hiyah!\n"
 "I will go register forthwith!$"
 msgstr ""
+"嘿呀！\n"
+"我这就去登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:986
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltReject"
@@ -1159,6 +1567,8 @@ msgid ""
 "I see… I hope for an opportunity\n"
 "the next time we meet…$"
 msgstr ""
+"原来如此……\n"
+"希望下次见面时还有机会……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:990
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFIntro"
@@ -1166,6 +1576,8 @@ msgid ""
 "Hi, there!\n"
 "I'm {STR_VAR_1}, and I'm a TUBER!$"
 msgstr ""
+"你好！\n"
+"我是{STR_VAR_1}，是个泳圈少女！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:994
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon1"
@@ -1173,6 +1585,8 @@ msgid ""
 "I'll tell you what I have.\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我告诉你我带了什么。\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:998
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon2Ask"
@@ -1180,6 +1594,8 @@ msgid ""
 "one {STR_VAR_2} with {STR_VAR_1}!\n"
 "May I please be on your tag team?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\n"
+"我可以和你组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1002
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFAccept"
@@ -1187,6 +1603,8 @@ msgid ""
 "Thank you!\n"
 "I'll go register us now!$"
 msgstr ""
+"谢谢你！\n"
+"我现在就去登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1006
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFReject"
@@ -1194,6 +1612,8 @@ msgid ""
 "If we'd become partners, we could\n"
 "have been so strong!$"
 msgstr ""
+"如果我们成为搭档，\n"
+"本来可以变得很强的！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1010
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacIntro"
@@ -1201,6 +1621,8 @@ msgid ""
 "Greetings…\n"
 "I am HEX MANIAC {STR_VAR_1}…$"
 msgstr ""
+"你好……\n"
+"我是灵异迷{STR_VAR_1}……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1014
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon1"
@@ -1208,6 +1630,8 @@ msgid ""
 "I bear with me one {STR_VAR_1}-using\n"
 "{STR_VAR_2} together with one$"
 msgstr ""
+"我带着会{STR_VAR_1}的\n"
+"{STR_VAR_2}，还有$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1018
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon2Ask"
@@ -1216,6 +1640,9 @@ msgid ""
 "I beseech you…\n"
 "Join me in a tag team…$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}……\p"
+"我恳求你……\n"
+"和我组队吧……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1023
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacAccept"
@@ -1223,11 +1650,13 @@ msgid ""
 "I thank you…\n"
 "I shall register us…$"
 msgstr ""
+"谢谢你……\n"
+"我去为我们登记……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1027
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacReject"
 msgid "I so longed to join you…$"
-msgstr ""
+msgstr "我是那么渴望和你组队……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1030
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMIntro"
@@ -1235,6 +1664,8 @@ msgid ""
 "How do you do? I'm {STR_VAR_1},\n"
 "and I'm a POKéMON BREEDER!$"
 msgstr ""
+"你好！我是{STR_VAR_1}，\n"
+"是宝可梦培育家！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1034
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon1"
@@ -1242,6 +1673,8 @@ msgid ""
 "I'm raising a couple good ones!\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我培育了两只很棒的宝可梦！\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1038
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon2Ask"
@@ -1250,6 +1683,9 @@ msgid ""
 "How about it?\n"
 "Feel like making a tag team with me?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"怎么样？\n"
+"想和我组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1043
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMAccept"
@@ -1258,6 +1694,9 @@ msgid ""
 "I'll go take care of the registration\n"
 "stuff, so you wait right here!$"
 msgstr ""
+"多谢啦！\p"
+"我去办登记手续，\n"
+"你就在这里等着吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1048
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMReject"
@@ -1265,6 +1704,8 @@ msgid ""
 "I was looking forward to being\n"
 "your partner…$"
 msgstr ""
+"我本来很期待\n"
+"做你的搭档的……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1052
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFIntro"
@@ -1272,6 +1713,8 @@ msgid ""
 "Well, hello!\n"
 "I'm TRIATHLETE {STR_VAR_1}!$"
 msgstr ""
+"嗯，你好！\n"
+"我是铁人三项选手{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1056
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon1"
@@ -1279,6 +1722,8 @@ msgid ""
 "Want to know what I run with?\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"想知道我和谁一起跑步吗？\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1060
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon2Ask"
@@ -1287,6 +1732,9 @@ msgid ""
 "Well?\n"
 "Want to be in a tag team with me?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"怎么样？\n"
+"要和我组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1065
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFAccept"
@@ -1295,6 +1743,9 @@ msgid ""
 "I'll be quick and get the registration\n"
 "all done!$"
 msgstr ""
+"干得好！\p"
+"我会很快把登记\n"
+"全部办好！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1070
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFReject"
@@ -1302,6 +1753,8 @@ msgid ""
 "You and me, we would've been tops.\n"
 "It's too bad…$"
 msgstr ""
+"你和我，本来会是最强的。\n"
+"真可惜……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1074
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMIntro"
@@ -1309,6 +1762,8 @@ msgid ""
 "Hey, there! My name's {STR_VAR_1}!\n"
 "I'm a TRIATHLETE!$"
 msgstr ""
+"嘿，你好！我叫{STR_VAR_1}！\n"
+"我是铁人三项选手！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1078
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon1"
@@ -1316,6 +1771,8 @@ msgid ""
 "I go on runs with my durable team--\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我和耐力十足的队伍一起跑步——\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1082
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon2Ask"
@@ -1324,6 +1781,9 @@ msgid ""
 "Not too shabby, huh?\n"
 "We should be in a tag team together!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"还不赖吧？\n"
+"我们应该一起组队！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1087
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMAccept"
@@ -1331,6 +1791,8 @@ msgid ""
 "All right!\n"
 "I'll go register in a flash!$"
 msgstr ""
+"好！\n"
+"我一眨眼就去登记好！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1091
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMReject"
@@ -1338,11 +1800,13 @@ msgid ""
 "I really wanted to battle as your\n"
 "tag-team partner…$"
 msgstr ""
+"我真的很想\n"
+"作为你的搭档一起战斗……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1095
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlIntro"
 msgid "I'm BATTLE GIRL {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是对战少女{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1098
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon1"
@@ -1350,6 +1814,8 @@ msgid ""
 "I've been toughening up one\n"
 "{STR_VAR_1}-using {STR_VAR_2} and$"
 msgstr ""
+"我一直在锻炼\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1102
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon2Ask"
@@ -1358,6 +1824,9 @@ msgid ""
 "Do you like that combo?\n"
 "How about you and me join up?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"你喜欢这个组合吗？\n"
+"你和我联手怎么样？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1107
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlAccept"
@@ -1366,6 +1835,8 @@ msgid ""
 "I'll get the registration done\n"
 "right now!$"
 msgstr ""
+"哎呀，谢谢！\p"
+"我现在就去把登记办好！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1112
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlReject"
@@ -1373,11 +1844,13 @@ msgid ""
 "With you, I thought we could form\n"
 "the ultimate tag team…$"
 msgstr ""
+"我还以为和你\n"
+"能组成最强的搭档呢……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1116
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMIntro"
 msgid "I'm TRIATHLETE {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是铁人三项选手{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1119
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon1"
@@ -1385,6 +1858,8 @@ msgid ""
 "I've been running with one {STR_VAR_2}\n"
 "that knows how to use {STR_VAR_1}$"
 msgstr ""
+"我一直和会使用{STR_VAR_1}的\n"
+"{STR_VAR_2}一起奔跑，$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1123
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon2Ask"
@@ -1393,6 +1868,9 @@ msgid ""
 "We could be in a tag team.\n"
 "Wouldn't that be great?$"
 msgstr ""
+"还有会{STR_VAR_1}的{STR_VAR_2}！\p"
+"我们可以组队。\n"
+"那样不是很棒吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1128
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMAccept"
@@ -1401,6 +1879,9 @@ msgid ""
 "I'll go register us, and that's\n"
 "right now!$"
 msgstr ""
+"谢谢你！\p"
+"我这就去为我们登记，\n"
+"马上就去！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1133
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMReject"
@@ -1408,6 +1889,8 @@ msgid ""
 "Aww, that's too bad. We would've been\n"
 "the toughest tag team around!$"
 msgstr ""
+"哎，太可惜了。\n"
+"我们本来会是这一带最强的搭档！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1137
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMIntro"
@@ -1415,6 +1898,8 @@ msgid ""
 "Me?\n"
 "I'm TUBER {STR_VAR_1}!$"
 msgstr ""
+"我？\n"
+"我是泳圈少年{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1141
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon1"
@@ -1422,6 +1907,8 @@ msgid ""
 "What do I have with me?\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我带了什么？\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1145
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon2Ask"
@@ -1430,6 +1917,9 @@ msgid ""
 "Hey?\n"
 "You'll team up with me, right?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"喂？\n"
+"你会和我组队的，对吧？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1150
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMAccept"
@@ -1438,6 +1928,9 @@ msgid ""
 "I'll go register!\n"
 "Let's be excellent together!$"
 msgstr ""
+"好！\p"
+"我去登记！\n"
+"我们一起大显身手吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1155
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMReject"
@@ -1445,6 +1938,8 @@ msgid ""
 "My POKéMON are tough for sure…\n"
 "It's too bad you don't want to team up.$"
 msgstr ""
+"我的宝可梦肯定很强……\n"
+"你不想组队真是太可惜了。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1159
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristIntro"
@@ -1452,6 +1947,8 @@ msgid ""
 "Yay-hey!\n"
 "Call me GUITARIST {STR_VAR_1}!$"
 msgstr ""
+"耶嘿！\n"
+"叫我吉他手{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1163
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon1"
@@ -1459,6 +1956,8 @@ msgid ""
 "Check out my entourage!\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"看看我的随行乐队！\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1167
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon2Ask"
@@ -1467,6 +1966,9 @@ msgid ""
 "Yay-hey! Pretty wild, huh?\n"
 "We'll have to do a duet in a tag team!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"耶嘿！很狂野吧？\n"
+"我们一定要组队来一场二重奏！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1172
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristAccept"
@@ -1474,6 +1976,8 @@ msgid ""
 "Yay-hey! Right on!\n"
 "I'll do that registration stuff now!$"
 msgstr ""
+"耶嘿！没错！\n"
+"我现在就去办登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1176
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject"
@@ -1481,6 +1985,8 @@ msgid ""
 "My POKéMON rock hard!\n"
 "You'll be sorry, I tell you!$"
 msgstr ""
+"我的宝可梦超级摇滚！\n"
+"我告诉你，你会后悔的！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1180
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanIntro"
@@ -1488,6 +1994,8 @@ msgid ""
 "Pleased to meet you.\n"
 "I am {STR_VAR_1}, a GENTLEMAN.$"
 msgstr ""
+"很高兴见到你。\n"
+"我是绅士{STR_VAR_1}。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1184
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon1"
@@ -1495,6 +2003,8 @@ msgid ""
 "I am accompanied by my trusted\n"
 "{STR_VAR_1}-using {STR_VAR_2} and$"
 msgstr ""
+"陪伴我的是我信赖的\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1188
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon2Ask"
@@ -1503,6 +2013,9 @@ msgid ""
 "May I ask you to join me in a tag-team\n"
 "partnership arrangement?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"能否请你\n"
+"和我结成搭档呢？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1193
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanAccept"
@@ -1510,6 +2023,8 @@ msgid ""
 "Ah, I thank you for your trust.\n"
 "I shall be done with the registration.$"
 msgstr ""
+"啊，感谢你的信任。\n"
+"我这就去办好登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1197
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanReject"
@@ -1518,6 +2033,8 @@ msgid ""
 "I shall look forward to the next\n"
 "opportunity…$"
 msgstr ""
+"那真是太遗憾了……\p"
+"我期待着下一次机会……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1202
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMIntro"
@@ -1525,6 +2042,8 @@ msgid ""
 "Hello, I'm {STR_VAR_1},\n"
 "and I'm a POKéFAN.$"
 msgstr ""
+"你好，我是{STR_VAR_1}，\n"
+"是个宝可梦爱好者。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1206
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon1"
@@ -1532,6 +2051,8 @@ msgid ""
 "I have with me now one {STR_VAR_2}\n"
 "that knows the move {STR_VAR_1} and$"
 msgstr ""
+"我现在带着会使用招式\n"
+"{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1210
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon2Ask"
@@ -1540,6 +2061,9 @@ msgid ""
 "Do you like what you see?\n"
 "Why don't you be my tag partner?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"你喜欢吗？\n"
+"做我的搭档怎么样？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1215
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMAccept"
@@ -1547,6 +2071,8 @@ msgid ""
 "Thank you!\n"
 "I'll look after the registration!$"
 msgstr ""
+"谢谢你！\n"
+"登记就交给我吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1219
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMReject"
@@ -1554,6 +2080,8 @@ msgid ""
 "My POKéMON are top grade…\n"
 "It's too bad you can't appreciate that.$"
 msgstr ""
+"我的宝可梦都是一流的……\n"
+"你不懂得欣赏，真是太可惜了。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1223
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMIntro"
@@ -1561,6 +2089,8 @@ msgid ""
 "Hm!\n"
 "I am {STR_VAR_1}, and an EXPERT am I!$"
 msgstr ""
+"嗯！\n"
+"我乃{STR_VAR_1}，是一名达人！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1227
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon1"
@@ -1568,6 +2098,8 @@ msgid ""
 "The POKéMON that I've toughened up are\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我锻炼出来的宝可梦是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1231
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon2Ask"
@@ -1575,6 +2107,8 @@ msgid ""
 "one {STR_VAR_2} with {STR_VAR_1}!\p"
 "What say you to a tag team with me?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"和我组队，你意下如何？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1235
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMAccept"
@@ -1583,6 +2117,9 @@ msgid ""
 "I shall register us right away!\l"
 "Let us both do our best!$"
 msgstr ""
+"嗯！\n"
+"我这就去为我们登记！\l"
+"让我们一起全力以赴吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1240
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMReject"
@@ -1590,6 +2127,8 @@ msgid ""
 "I will hope that your choice is\n"
 "indeed correct…$"
 msgstr ""
+"希望你的选择\n"
+"确实是正确的……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1244
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFIntro"
@@ -1597,6 +2136,8 @@ msgid ""
 "Hello, hello.\n"
 "I'm {STR_VAR_1}, and I'm an EXPERT.$"
 msgstr ""
+"你好，你好。\n"
+"我是{STR_VAR_1}，是一名达人。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1248
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1"
@@ -1604,6 +2145,8 @@ msgid ""
 "I've raised my POKéMON thoroughly.\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我把宝可梦培育得很彻底。\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1252
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon2Ask"
@@ -1612,6 +2155,9 @@ msgid ""
 "they're what I have.\p"
 "Wouldn't you like to team up with me?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}——\n"
+"这就是我带的宝可梦。\p"
+"你不想和我组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1257
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFAccept"
@@ -1619,6 +2165,8 @@ msgid ""
 "Good, good.\n"
 "I'll see to the registration right away.$"
 msgstr ""
+"好，好。\n"
+"我马上去办登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1261
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFReject"
@@ -1626,11 +2174,13 @@ msgid ""
 "Perhaps we can form a team the next\n"
 "time we meet.$"
 msgstr ""
+"也许下次见面时\n"
+"我们可以组队。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1265
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerIntro"
 msgid "I'm DRAGON TAMER {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是驯龙师{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1268
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon1"
@@ -1638,6 +2188,8 @@ msgid ""
 "The team I've been toughening up is\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我锻炼出来的队伍是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1272
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon2Ask"
@@ -1646,6 +2198,9 @@ msgid ""
 "How about it?\n"
 "Want to be my partner?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"怎么样？\n"
+"要做我的搭档吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1277
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerAccept"
@@ -1653,6 +2208,8 @@ msgid ""
 "Okay, I'll give it my best!\n"
 "I'll go register now, all right?$"
 msgstr ""
+"好，我会全力以赴的！\n"
+"我现在去登记，可以吧？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1281
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerReject"
@@ -1660,11 +2217,13 @@ msgid ""
 "You're not going to find many tougher\n"
 "partners than me!$"
 msgstr ""
+"比我更强的搭档\n"
+"你可找不到几个！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1285
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperIntro"
 msgid "I'm BIRD KEEPER {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是养鸟人{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1288
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon1"
@@ -1672,6 +2231,8 @@ msgid ""
 "What POKéMON do I have?\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我有什么宝可梦？\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1292
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon2Ask"
@@ -1680,6 +2241,9 @@ msgid ""
 "Don't you think we'd make a decent\n"
 "tag team?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"你不觉得我们会是\n"
+"不错的搭档吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1297
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperAccept"
@@ -1687,6 +2251,8 @@ msgid ""
 "Great, thanks!\n"
 "I'll look after the registration!$"
 msgstr ""
+"太好了，谢谢！\n"
+"登记就交给我吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1301
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperReject"
@@ -1694,11 +2260,13 @@ msgid ""
 "My POKéMON and I are strong.\n"
 "What a letdown.$"
 msgstr ""
+"我和我的宝可梦都很强啊。\n"
+"真让人扫兴。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1305
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyIntro"
 msgid "I'm NINJA BOY {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是忍者小子{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1308
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon1"
@@ -1706,6 +2274,8 @@ msgid ""
 "My POKéMON team consists of one\n"
 "{STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我的宝可梦队伍是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1312
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon2Ask"
@@ -1713,6 +2283,8 @@ msgid ""
 "one {STR_VAR_2} with {STR_VAR_1}!\p"
 "Let's be in a tag team together!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"我们一起组队吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1316
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyAccept"
@@ -1720,6 +2292,8 @@ msgid ""
 "Yay!\n"
 "Let me go register!$"
 msgstr ""
+"耶！\n"
+"我去登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1320
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject"
@@ -1727,6 +2301,8 @@ msgid ""
 "You'll regret not having my tough\n"
 "POKéMON on your side!$"
 msgstr ""
+"没让我强大的宝可梦站在你这边，\n"
+"你会后悔的！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1324
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyIntro"
@@ -1734,6 +2310,8 @@ msgid ""
 "Hello!\n"
 "I'm PARASOL LADY {STR_VAR_1}!$"
 msgstr ""
+"你好！\n"
+"我是阳伞姐姐{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1328
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon1"
@@ -1741,6 +2319,8 @@ msgid ""
 "Escorting me now are my {STR_VAR_2}\n"
 "that uses {STR_VAR_1} and$"
 msgstr ""
+"现在护送我的是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1332
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon2Ask"
@@ -1750,6 +2330,10 @@ msgid ""
 "Aren't they nice?\n"
 "Care to join us in a tag team?$"
 msgstr ""
+"会{STR_VAR_1}的\n"
+"{STR_VAR_2}。\p"
+"它们很不错吧？\n"
+"要和我们组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1338
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyAccept"
@@ -1758,6 +2342,9 @@ msgid ""
 "I'll go register at the counter.\n"
 "Let's not disappoint each other!$"
 msgstr ""
+"太感谢了！\p"
+"我去柜台登记。\n"
+"我们可别让彼此失望哦！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1343
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject"
@@ -1765,6 +2352,8 @@ msgid ""
 "My POKéMON are tremendously strong.\n"
 "How disappointing…$"
 msgstr ""
+"我的宝可梦可是非常强的。\n"
+"真让人失望……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1347
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacIntro"
@@ -1772,6 +2361,8 @@ msgid ""
 "Hello.\n"
 "I'm {STR_VAR_1}, and I'm a BUG MANIAC!$"
 msgstr ""
+"你好。\n"
+"我是{STR_VAR_1}，是个昆虫迷！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1351
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon1"
@@ -1779,6 +2370,8 @@ msgid ""
 "I have found my POKéMON, yes.\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我找到了我的宝可梦，没错。\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1355
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon2Ask"
@@ -1788,6 +2381,10 @@ msgid ""
 "Could I interest you in forming\n"
 "a tag team?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}——\n"
+"这就是我找到的宝可梦。\p"
+"你有没有兴趣\n"
+"和我组队呢？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1361
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacAccept"
@@ -1796,6 +2393,9 @@ msgid ""
 "Understood!\p"
 "I won't be long with the registration!$"
 msgstr ""
+"好！\n"
+"明白了！\p"
+"我很快就会办好登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1366
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacReject"
@@ -1803,6 +2403,8 @@ msgid ""
 "With the POKéMON I found, we wouldn't\n"
 "have lost…$"
 msgstr ""
+"有了我找到的宝可梦，\n"
+"我们本来是不会输的……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1370
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorIntro"
@@ -1810,6 +2412,8 @@ msgid ""
 "Ahoy, there!\n"
 "I'm SAILOR {STR_VAR_1}!$"
 msgstr ""
+"喂，你好！\n"
+"我是水手{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1374
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon1"
@@ -1817,6 +2421,8 @@ msgid ""
 "Let me show you my pride and joy!\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"让我给你看看我的骄傲！\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1378
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon2Ask"
@@ -1825,6 +2431,9 @@ msgid ""
 "Of course you're not going to turn\n"
 "me down. We will team up, right?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"你当然不会拒绝我吧。\n"
+"我们会组队的，对吧？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1383
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorAccept"
@@ -1832,6 +2441,8 @@ msgid ""
 "I didn't expect any less!\n"
 "I'll go register now.$"
 msgstr ""
+"这才像话！\n"
+"我现在就去登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1387
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorReject"
@@ -1839,6 +2450,8 @@ msgid ""
 "We would've stormed through\n"
 "the opposition! Too bad!$"
 msgstr ""
+"我们本来可以横扫对手的！\n"
+"真可惜！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1391
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorIntro"
@@ -1846,6 +2459,8 @@ msgid ""
 "Hi, I'm {STR_VAR_1}.\n"
 "I'm a COLLECTOR.$"
 msgstr ""
+"你好，我是{STR_VAR_1}。\n"
+"我是个收藏家。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1395
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon1"
@@ -1853,6 +2468,8 @@ msgid ""
 "The jewels in my collection are\n"
 "my {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我收藏中的珍宝是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1399
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon2Ask"
@@ -1861,6 +2478,9 @@ msgid ""
 "Swell, huh?\n"
 "We should be in a team together.$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"很棒吧？\n"
+"我们应该一起组队。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1404
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorAccept"
@@ -1869,6 +2489,9 @@ msgid ""
 "Well, let's not waste any time.\n"
 "I'll go register the two of us.$"
 msgstr ""
+"哦，太好了！\p"
+"那么，别浪费时间了。\n"
+"我去为我们两个登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1409
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject"
@@ -1876,6 +2499,8 @@ msgid ""
 "Well, that's upsetting.\n"
 "You don't appreciate my POKéMON.$"
 msgstr ""
+"哼，真让人不爽。\n"
+"你不懂得欣赏我的宝可梦。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1413
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMIntro"
@@ -1883,6 +2508,8 @@ msgid ""
 "Howdy, I'm {STR_VAR_1}.\n"
 "I'm a POKéMON RANGER.$"
 msgstr ""
+"你好，我是{STR_VAR_1}。\n"
+"我是宝可梦巡护员。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1417
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon1"
@@ -1890,6 +2517,8 @@ msgid ""
 "Keeping me company are one\n"
 "{STR_VAR_1}-using {STR_VAR_2} and$"
 msgstr ""
+"陪伴我的是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1421
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon2Ask"
@@ -1898,6 +2527,9 @@ msgid ""
 "Don't you think we'd make an impressive\n"
 "tag team?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"你不觉得我们会是\n"
+"令人印象深刻的搭档吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1426
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMAccept"
@@ -1905,6 +2537,8 @@ msgid ""
 "That's super!\n"
 "I'll deal with the registration now.$"
 msgstr ""
+"太棒了！\n"
+"我现在就去办登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1430
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject"
@@ -1912,6 +2546,8 @@ msgid ""
 "Next time, choose my POKéMON,\n"
 "will you?$"
 msgstr ""
+"下次请选择我的宝可梦，\n"
+"好吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1434
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFIntro"
@@ -1919,6 +2555,8 @@ msgid ""
 "My name's {STR_VAR_1}.\n"
 "I'm a POKéMON RANGER!$"
 msgstr ""
+"我叫{STR_VAR_1}。\n"
+"我是宝可梦巡护员！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1438
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon1"
@@ -1926,6 +2564,8 @@ msgid ""
 "Let me tell you about my team. I have\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"让我介绍一下我的队伍。我有\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1442
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon2Ask"
@@ -1934,6 +2574,9 @@ msgid ""
 "How would you like to form a tag team\n"
 "with my little posse?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"要不要和我的小伙伴们\n"
+"组成搭档呢？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1447
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFAccept"
@@ -1941,6 +2584,8 @@ msgid ""
 "We'll be at our best!\n"
 "I'll get the registration done quick!$"
 msgstr ""
+"我们会发挥出最佳状态的！\n"
+"我马上把登记办好！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1451
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFReject"
@@ -1948,6 +2593,8 @@ msgid ""
 "I hope you'll choose my POKéMON\n"
 "next time.$"
 msgstr ""
+"希望你下次\n"
+"能选择我的宝可梦。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1455
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyIntro"
@@ -1955,6 +2602,8 @@ msgid ""
 "Pleased to meet you. I'm {STR_VAR_1}.\n"
 "I consider myself an AROMA LADY.$"
 msgstr ""
+"很高兴认识你。我是{STR_VAR_1}。\n"
+"我自认为是一名芳香小姐。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1459
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon1"
@@ -1962,6 +2611,8 @@ msgid ""
 "I travel with one {STR_VAR_2}\n"
 "that uses {STR_VAR_1} and$"
 msgstr ""
+"和我一起旅行的是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1463
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon2Ask"
@@ -1971,6 +2622,10 @@ msgid ""
 "I hope they strike your fancy.\n"
 "Would you care to be my partner?$"
 msgstr ""
+"会{STR_VAR_1}的\n"
+"{STR_VAR_2}。\p"
+"希望它们合你的心意。\n"
+"你愿意做我的搭档吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1469
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyAccept"
@@ -1978,6 +2633,8 @@ msgid ""
 "I'm honored by your acceptance.\n"
 "I will go register right this instant.$"
 msgstr ""
+"能得到你的认可，我很荣幸。\n"
+"我马上就去登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1473
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyReject"
@@ -1985,6 +2642,8 @@ msgid ""
 "It would be wonderful if we could form\n"
 "a tag team the next time we meet.$"
 msgstr ""
+"如果下次见面时能组队，\n"
+"那就太好了。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1477
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacIntro"
@@ -1992,6 +2651,8 @@ msgid ""
 "Want to know who I am?\n"
 "I'm {STR_VAR_1}, the RUIN MANIAC!$"
 msgstr ""
+"想知道我是谁吗？\n"
+"我是遗迹迷{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1481
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon1"
@@ -1999,6 +2660,8 @@ msgid ""
 "The POKéMON that I have with me are\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我带着的宝可梦是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1485
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon2Ask"
@@ -2007,6 +2670,9 @@ msgid ""
 "Intriguing, eh?\n"
 "How about you and I partner up?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"很有意思吧？\n"
+"你和我搭档怎么样？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1490
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacAccept"
@@ -2014,6 +2680,8 @@ msgid ""
 "That's a sound decision!\n"
 "I'll go do the registration paperwork.$"
 msgstr ""
+"明智的决定！\n"
+"我去办登记的手续。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1494
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject"
@@ -2021,11 +2689,13 @@ msgid ""
 "Hmm…\n"
 "I think my POKéMON are tough…$"
 msgstr ""
+"嗯……\n"
+"我觉得我的宝可梦很强啊……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1498
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro"
 msgid "I'm COOLTRAINER {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是精英训练家{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1501
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1"
@@ -2033,6 +2703,8 @@ msgid ""
 "The POKéMON I have right now are one\n"
 "{STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我现在带着的宝可梦是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1505
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon2Ask"
@@ -2042,6 +2714,10 @@ msgid ""
 "Don't you think it'd be pretty cool\n"
 "if we made a tag team?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\n"
+"很酷吧？\p"
+"你不觉得我们组队\n"
+"会很酷吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1511
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMAccept"
@@ -2049,6 +2725,8 @@ msgid ""
 "Cool!\n"
 "I'll go do the registration in a flash!$"
 msgstr ""
+"酷！\n"
+"我一眨眼就去登记好！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1515
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject"
@@ -2056,11 +2734,13 @@ msgid ""
 "I thought that we'd make just\n"
 "the greatest team ever.$"
 msgstr ""
+"我还以为我们会是\n"
+"史上最强的队伍呢。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1519
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFIntro"
 msgid "I'm COOLTRAINER {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是精英训练家{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1522
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon1"
@@ -2068,6 +2748,8 @@ msgid ""
 "The team I've been raising has one\n"
 "{STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我培育的队伍是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1526
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon2Ask"
@@ -2076,6 +2758,9 @@ msgid ""
 "Does that sound okay?\n"
 "How about we become tag partners?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"听起来还行吗？\n"
+"我们成为搭档怎么样？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1531
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFAccept"
@@ -2083,6 +2768,8 @@ msgid ""
 "Sounds A-OK!\n"
 "I'd better do the registration.$"
 msgstr ""
+"完全没问题！\n"
+"我得去办登记了。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1535
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFReject"
@@ -2090,6 +2777,8 @@ msgid ""
 "I was thinking how we would be\n"
 "one tough team…$"
 msgstr ""
+"我还在想，我们会是\n"
+"多么强的队伍……$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1539
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacIntro"
@@ -2097,6 +2786,8 @@ msgid ""
 "Heyo!\n"
 "I'm {STR_VAR_1}, the POKéMANIAC!$"
 msgstr ""
+"嘿哟！\n"
+"我是宝可梦狂{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1543
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon1"
@@ -2104,6 +2795,8 @@ msgid ""
 "What does a guy like me have?\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"像我这样的人会带什么呢？\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1547
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon2Ask"
@@ -2113,6 +2806,10 @@ msgid ""
 "Let's do it!\n"
 "We'll stomp around as a tag team!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}，\n"
+"就是这些！\p"
+"来吧！\n"
+"我们组队去横冲直撞吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1553
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacAccept"
@@ -2120,6 +2817,8 @@ msgid ""
 "Good call!\n"
 "I'll register the both of us!$"
 msgstr ""
+"好选择！\n"
+"我去为我们两个登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1557
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacReject"
@@ -2127,6 +2826,8 @@ msgid ""
 "My POKéMON are brutal!\n"
 "It's not my fault if you regret this!$"
 msgstr ""
+"我的宝可梦可是很凶猛的！\n"
+"你后悔了可不关我的事！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1561
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerIntro"
@@ -2134,6 +2835,8 @@ msgid ""
 "Yo, there!\n"
 "I'm KINDLER {STR_VAR_1}!$"
 msgstr ""
+"哟！\n"
+"我是喷火人{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1565
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon1"
@@ -2141,6 +2844,8 @@ msgid ""
 "You know what my training cooked up?\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"知道我的训练炼出了什么吗？\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1569
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon2Ask"
@@ -2149,6 +2854,9 @@ msgid ""
 "Well, what do you say?\n"
 "Want to form a tag team?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"那么，你怎么说？\n"
+"要组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1574
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerAccept"
@@ -2156,6 +2864,8 @@ msgid ""
 "All right!\n"
 "I'll get on with the registration.$"
 msgstr ""
+"好嘞！\n"
+"我这就去办登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1578
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerReject"
@@ -2163,11 +2873,13 @@ msgid ""
 "Promise you'll partner up with me\n"
 "the next time we run into each other.$"
 msgstr ""
+"答应我，下次碰到的时候\n"
+"要和我搭档哦。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1582
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperIntro"
 msgid "I'm {STR_VAR_1}, and I'm a CAMPER!$"
-msgstr ""
+msgstr "我是{STR_VAR_1}，是个露营男孩！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1585
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon1"
@@ -2175,6 +2887,8 @@ msgid ""
 "I've been raising one {STR_VAR_1}-\n"
 "using {STR_VAR_2} and one$"
 msgstr ""
+"我一直在培育会{STR_VAR_1}的\n"
+"{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1589
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon2Ask"
@@ -2183,6 +2897,9 @@ msgid ""
 "Do you think it'd be fun to team up?\n"
 "I bet it would be!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"你觉得组队会好玩吗？\n"
+"我觉得一定会！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1594
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperAccept"
@@ -2190,6 +2907,8 @@ msgid ""
 "Yeah!\n"
 "Off I go to register!$"
 msgstr ""
+"耶！\n"
+"我去登记了！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1598
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperReject"
@@ -2197,6 +2916,8 @@ msgid ""
 "Next time, okay?\n"
 "I want to be on your team.$"
 msgstr ""
+"下次吧，好吗？\n"
+"我想加入你的队伍。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1602
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerIntro"
@@ -2204,6 +2925,8 @@ msgid ""
 "Hello!\n"
 "I'm {STR_VAR_1}, and I'm a PICNICKER!$"
 msgstr ""
+"你好！\n"
+"我是{STR_VAR_1}，是个野餐女孩！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1606
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon1"
@@ -2211,6 +2934,8 @@ msgid ""
 "The POKéMON I've been taking are\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我一直带着的宝可梦是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1610
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon2Ask"
@@ -2219,6 +2944,9 @@ msgid ""
 "Are you interested in joining me\n"
 "on a tag team?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"你有兴趣\n"
+"和我组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1615
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerAccept"
@@ -2226,6 +2954,8 @@ msgid ""
 "Why, thank you!\n"
 "I will do the registration now.$"
 msgstr ""
+"哎呀，谢谢你！\n"
+"我现在就去登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1619
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerReject"
@@ -2233,11 +2963,13 @@ msgid ""
 "It would be nice if I could join you\n"
 "some other time.$"
 msgstr ""
+"要是下次能和你组队\n"
+"就好了。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1623
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMIntro"
 msgid "I'm PSYCHIC {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是超能力者{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1626
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon1"
@@ -2245,6 +2977,8 @@ msgid ""
 "The twosome I've been raising are\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我培育的两只宝可梦是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1630
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon2Ask"
@@ -2253,6 +2987,9 @@ msgid ""
 "Would you like to form a tag team\n"
 "with me?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"你愿意和我\n"
+"组队吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1635
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMAccept"
@@ -2260,6 +2997,8 @@ msgid ""
 "Sure thing!\n"
 "I'll take care of the registration!$"
 msgstr ""
+"没问题！\n"
+"登记就交给我吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1639
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMReject"
@@ -2267,6 +3006,8 @@ msgid ""
 "If we meet again, that's when I'd like\n"
 "to team up with you.$"
 msgstr ""
+"如果我们再次相遇，\n"
+"到时候我想和你组队。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1643
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFIntro"
@@ -2274,11 +3015,13 @@ msgid ""
 "I'm {STR_VAR_1}.\n"
 "I'm a PSYCHIC.$"
 msgstr ""
+"我是{STR_VAR_1}。\n"
+"我是超能力者。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1647
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon1"
 msgid "One {STR_VAR_2} with {STR_VAR_1} and$"
-msgstr ""
+msgstr "会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1650
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon2Ask"
@@ -2288,6 +3031,10 @@ msgid ""
 "Doesn't the idea of forming a tag-team\n"
 "partnership intrigue you?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}——\n"
+"它们是我的弟子。\p"
+"结成搭档的想法，\n"
+"难道不会让你感兴趣吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1656
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFAccept"
@@ -2295,6 +3042,8 @@ msgid ""
 "Thank you.\n"
 "I'll go deal with the registration.$"
 msgstr ""
+"谢谢你。\n"
+"我去办登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1660
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFReject"
@@ -2302,16 +3051,18 @@ msgid ""
 "I hope there will be another chance\n"
 "to forge an alliance.$"
 msgstr ""
+"希望还有机会\n"
+"能和你结盟。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1664
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFIntro"
 msgid "I'm SCHOOL KID {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是补习班学生{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1667
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon1"
 msgid "One {STR_VAR_1}-using {STR_VAR_2}$"
-msgstr ""
+msgstr "会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1670
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon2Ask"
@@ -2321,6 +3072,10 @@ msgid ""
 "May I please be your partner on\n"
 "a tag team?$"
 msgstr ""
+"和会{STR_VAR_1}的\n"
+"{STR_VAR_2}是我的宝可梦组合。\p"
+"我可以做你的\n"
+"搭档吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1676
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFAccept"
@@ -2328,6 +3083,8 @@ msgid ""
 "Ooh, thank you!\n"
 "I'll register at the counter right away!$"
 msgstr ""
+"哇，谢谢你！\n"
+"我马上去柜台登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1680
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFReject"
@@ -2335,6 +3092,8 @@ msgid ""
 "Please?\n"
 "May I join you the next time?$"
 msgstr ""
+"拜托？\n"
+"下次可以让我加入吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1684
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFIntro"
@@ -2342,6 +3101,8 @@ msgid ""
 "Hiya! The name's {STR_VAR_1}!\n"
 "I'm a POKéMON BREEDER!$"
 msgstr ""
+"嗨！我叫{STR_VAR_1}！\n"
+"我是宝可梦培育家！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1688
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon1"
@@ -2349,6 +3110,8 @@ msgid ""
 "The POKéMON I've raised are one\n"
 "{STR_VAR_1}-using {STR_VAR_2} and$"
 msgstr ""
+"我培育的宝可梦是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1692
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon2Ask"
@@ -2357,6 +3120,9 @@ msgid ""
 "Sound interesting?\n"
 "How about we form a tag team, then?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"听起来有意思吗？\n"
+"那我们组队怎么样？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1697
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFAccept"
@@ -2364,6 +3130,8 @@ msgid ""
 "All righty!\n"
 "You leave the registration to me!$"
 msgstr ""
+"好嘞！\n"
+"登记就交给我吧！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1701
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFReject"
@@ -2371,6 +3139,8 @@ msgid ""
 "You have to team up with me next time,\n"
 "all right?$"
 msgstr ""
+"下次你一定要和我组队，\n"
+"好吗？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1705
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFIntro"
@@ -2378,6 +3148,8 @@ msgid ""
 "I'm {STR_VAR_1}, and I'm proud to say\n"
 "that I am a POKéFAN.$"
 msgstr ""
+"我是{STR_VAR_1}，我很自豪地说，\n"
+"我是一名宝可梦爱好者。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1709
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon1"
@@ -2385,6 +3157,8 @@ msgid ""
 "The darling POKéMON I've raised are\n"
 "one {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我培育的宝贝宝可梦是\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1713
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon2Ask"
@@ -2393,6 +3167,9 @@ msgid ""
 "Aren't they just the cutest?\n"
 "We ought to make a team!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}。\p"
+"它们是不是可爱极了？\n"
+"我们应该组队！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1718
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFAccept"
@@ -2400,6 +3177,8 @@ msgid ""
 "Thank you, dear!\n"
 "I'll be on my way to register!$"
 msgstr ""
+"谢谢你，亲爱的！\n"
+"我这就去登记！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1722
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFReject"
@@ -2407,16 +3186,18 @@ msgid ""
 "My darling POKéMON are the best,\n"
 "I'll have you know. How annoying!$"
 msgstr ""
+"告诉你，我的宝贝宝可梦\n"
+"可是最棒的。真让人生气！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1726
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFIntro"
 msgid "Hi, I'm SWIMMER {STR_VAR_1}.$"
-msgstr ""
+msgstr "你好，我是比基尼大姐姐{STR_VAR_1}。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1729
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon1"
 msgid "One {STR_VAR_1}-using {STR_VAR_2}$"
-msgstr ""
+msgstr "会{STR_VAR_1}的{STR_VAR_2}$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1732
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon2Ask"
@@ -2425,6 +3206,9 @@ msgid ""
 "{STR_VAR_2} are what I've trained.\p"
 "You and me, let's make a tag team.$"
 msgstr ""
+"和会{STR_VAR_1}的\n"
+"{STR_VAR_2}是我训练的宝可梦。\p"
+"你和我，一起组队吧。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1737
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFAccept"
@@ -2432,6 +3216,8 @@ msgid ""
 "That's cool!\n"
 "I'll register the two of us.$"
 msgstr ""
+"太酷了！\n"
+"我去为我们两个登记。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1741
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFReject"
@@ -2439,6 +3225,8 @@ msgid ""
 "If we meet again, you owe me\n"
 "a tag team!$"
 msgstr ""
+"如果我们再见面，\n"
+"你可欠我一次组队哦！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1745
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMIntro"
@@ -2446,6 +3234,8 @@ msgid ""
 "What's happening?\n"
 "I'm {STR_VAR_1}, and I'm a TRIATHLETE.$"
 msgstr ""
+"最近怎么样？\n"
+"我是{STR_VAR_1}，是铁人三项选手。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1749
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1"
@@ -2453,6 +3243,8 @@ msgid ""
 "I got a couple decent POKéMON.\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"我有两只还不错的宝可梦。\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1753
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask"
@@ -2461,6 +3253,9 @@ msgid ""
 "It'd be neat if we made a tag team\n"
 "together, so how about it?$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"要是我们能组队就好了，\n"
+"怎么样？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1758
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMAccept"
@@ -2468,6 +3263,8 @@ msgid ""
 "Right on!\n"
 "You wait while I register, okay?$"
 msgstr ""
+"好嘞！\n"
+"我去登记，你等一下哦？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1762
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMReject"
@@ -2475,16 +3272,18 @@ msgid ""
 "I expect you'll let me join you\n"
 "next time, how's that?$"
 msgstr ""
+"下次你会让我加入的吧，\n"
+"怎么样？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1766
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFIntro"
 msgid "I'm the TRIATHLETE {STR_VAR_1}!$"
-msgstr ""
+msgstr "我是铁人三项选手{STR_VAR_1}！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1769
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon1"
 msgid "One {STR_VAR_2} with {STR_VAR_1} and$"
-msgstr ""
+msgstr "会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1772
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon2Ask"
@@ -2494,6 +3293,10 @@ msgid ""
 "What do you think?\n"
 "We'd make a good team, I'd say.$"
 msgstr ""
+"另一只会使用{STR_VAR_1}的\n"
+"{STR_VAR_2}。这就是我的组合。\p"
+"你觉得怎么样？\n"
+"我说我们会是很好的搭档。$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1778
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFAccept"
@@ -2501,6 +3304,8 @@ msgid ""
 "I like that answer!\n"
 "I'll get done with registration fast!$"
 msgstr ""
+"我喜欢这个回答！\n"
+"我马上去把登记办好！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1782
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFReject"
@@ -2508,6 +3313,8 @@ msgid ""
 "You'll give me another chance to form\n"
 "a partnership, won't you?$"
 msgstr ""
+"你会再给我一次\n"
+"组队的机会的，对吧？$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1786
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMIntro"
@@ -2515,6 +3322,8 @@ msgid ""
 "Hi, there! Hello!\n"
 "I'm {STR_VAR_1}, and I'm a SWIMMER!$"
 msgstr ""
+"嗨，你好！你好！\n"
+"我是{STR_VAR_1}，是个泳裤小伙！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1790
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon1"
@@ -2522,6 +3331,8 @@ msgid ""
 "Check out what I've been raising!\n"
 "One {STR_VAR_2} with {STR_VAR_1} and$"
 msgstr ""
+"看看我培育的宝可梦！\n"
+"会{STR_VAR_1}的{STR_VAR_2}和$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1794
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon2Ask"
@@ -2530,6 +3341,9 @@ msgid ""
 "Sweet, huh?\n"
 "It'd be sweet to form a team, too!$"
 msgstr ""
+"会{STR_VAR_1}的{STR_VAR_2}！\p"
+"很棒吧？\n"
+"要是能组队就更棒了！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1799
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMAccept"
@@ -2537,6 +3351,8 @@ msgid ""
 "Much obliged!\n"
 "I'll get this registration thing done!$"
 msgstr ""
+"多谢啦！\n"
+"我去把登记的事办好！$"
 
 #: data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.inc:1803
 msgctxt "BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMReject"
@@ -2544,3 +3360,5 @@ msgid ""
 "If we meet again, you have to team up\n"
 "with me. You'll do that, right?$"
 msgstr ""
+"如果我们再见面，你一定要和我\n"
+"组队。你会的，对吧？$"
