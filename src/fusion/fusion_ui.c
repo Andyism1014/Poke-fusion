@@ -35,6 +35,7 @@
 #define CARD_LINE_X         4
 #define CARD_HEADER_HEIGHT  18
 #define CARD_LINE_HEIGHT    12
+#define CARD_COLUMN_WIDTH   130 // Appraisal card text left of the IV radar.
 
 enum
 {
@@ -554,6 +555,13 @@ static void PrintCardLine(u32 line, const u8 *text)
     AddTextPrinterParameterized(sCardWindowId, FONT_SMALL, text, CARD_LINE_X, y, TEXT_SKIP_DRAW, NULL);
 }
 
+// A line of the text column beside the appraisal card's IV radar, narrowed to fit.
+static void PrintCardColumnLine(u32 line, const u8 *text)
+{
+    u32 y = CARD_HEADER_HEIGHT + line * CARD_LINE_HEIGHT;
+    AddTextPrinterParameterized(sCardWindowId, GetFontIdToFit(text, FONT_SMALL, 0, CARD_COLUMN_WIDTH), text, CARD_LINE_X, y, TEXT_SKIP_DRAW, NULL);
+}
+
 static void ShowCard(void)
 {
     CopyWindowToVram(sCardWindowId, COPYWIN_FULL);
@@ -588,22 +596,210 @@ void Fusion_ScriptHideCard(void)
 
 static const u8 sText_CardHeader[] = _("{STR_VAR_1}  Lv{STR_VAR_2}");
 static const u8 sText_CardGeneration[] = _("Fusion gen {STR_VAR_1}");
-static const u8 sText_CardNatureIvs[] = _("{STR_VAR_1} nature    IVs {STR_VAR_2}/186");
-static const u8 sText_CardIvs[] = _("HP {STR_VAR_1}");
-static const u8 sText_Atk[] = _("  Atk ");
-static const u8 sText_Def[] = _("  Def ");
-static const u8 sText_SpA[] = _("  SpA ");
-static const u8 sText_SpD[] = _("  SpD ");
-static const u8 sText_Spe[] = _("  Spe ");
+static const u8 sText_CardNature[] = _("{STR_VAR_1} nature");
+static const u8 sText_CardPerfectIvs[] = _("{STR_VAR_1}V");
+static const u8 sText_CardIvTotal[] = _("{STR_VAR_1}/186");
 static const u8 sText_Types[] = _("Types: ");
+
+// IV radar on the right of the appraisal card, laid out like the in-game IV judge.
+#define RADAR_CENTER_X      178
+#define RADAR_CENTER_Y      57
+#define RADAR_RADIUS        25
+#define RADAR_DIR_ONE       64 // Fixed-point 1.0 of the axis directions.
+#define RADAR_LABEL_GAP     3
+#define RADAR_LABEL_HEIGHT  11
+
+struct RadarPoint
+{
+    s16 x, y;
+};
+
+struct RadarAxis
+{
+    u8 stat;
+    s8 dx, dy;
+};
+
+// HP on top, then clockwise. 55/64 ~ cos 30°.
+static const struct RadarAxis sRadarAxes[NUM_STATS] =
+{
+    {STAT_HP,      0, -RADAR_DIR_ONE},
+    {STAT_ATK,    55, -RADAR_DIR_ONE / 2},
+    {STAT_DEF,    55,  RADAR_DIR_ONE / 2},
+    {STAT_SPEED,   0,  RADAR_DIR_ONE},
+    {STAT_SPDEF, -55,  RADAR_DIR_ONE / 2},
+    {STAT_SPATK, -55, -RADAR_DIR_ONE / 2},
+};
+
+static const u8 *const sRadarStatNames[NUM_STATS] =
+{
+    [STAT_HP] = COMPOUND_STRING("HP"),
+    [STAT_ATK] = COMPOUND_STRING("Atk"),
+    [STAT_DEF] = COMPOUND_STRING("Def"),
+    [STAT_SPEED] = COMPOUND_STRING("Spe"),
+    [STAT_SPATK] = COMPOUND_STRING("SpA"),
+    [STAT_SPDEF] = COMPOUND_STRING("SpD"),
+};
+
+static const u8 sCardTextColors[] = {TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY};
+static const u8 sCardPerfectColors[] = {TEXT_COLOR_WHITE, TEXT_COLOR_RED, TEXT_COLOR_LIGHT_RED};
+
+static s32 DivRound(s32 n, s32 d)
+{
+    return (n + (n < 0 ? -d : d) / 2) / d;
+}
+
+// The point at value/max along an axis.
+static struct RadarPoint GetRadarPoint(const struct RadarAxis *axis, u32 value, u32 max)
+{
+    s32 scale = RADAR_RADIUS * value, denom = RADAR_DIR_ONE * max;
+    struct RadarPoint point = {RADAR_CENTER_X + DivRound(axis->dx * scale, denom), RADAR_CENTER_Y + DivRound(axis->dy * scale, denom)};
+
+    return point;
+}
+
+static void FillCardSpan(s32 left, s32 right, s32 y, u8 color)
+{
+    FillWindowPixelRect(sCardWindowId, PIXEL_FILL(color), left, y, right - left + 1, 1);
+}
+
+static void DrawCardLine(struct RadarPoint a, struct RadarPoint b, u8 color)
+{
+    s32 dx = abs(b.x - a.x), dy = -abs(b.y - a.y);
+    s32 stepX = a.x < b.x ? 1 : -1, stepY = a.y < b.y ? 1 : -1;
+    s32 error = dx + dy;
+
+    for (;;)
+    {
+        s32 error2 = 2 * error;
+
+        FillCardSpan(a.x, a.x, a.y, color);
+        if (a.x == b.x && a.y == b.y)
+            break;
+        if (error2 >= dy)
+        {
+            error += dy;
+            a.x += stepX;
+        }
+        if (error2 <= dx)
+        {
+            error += dx;
+            a.y += stepY;
+        }
+    }
+}
+
+// Scanline fill. Horizontal edges can be skipped: the other two edges reach their ends.
+static void FillCardTriangle(const struct RadarPoint *points, u8 color)
+{
+    s32 top = min(points[0].y, min(points[1].y, points[2].y));
+    s32 bottom = max(points[0].y, max(points[1].y, points[2].y));
+
+    for (s32 y = top; y <= bottom; y++)
+    {
+        s32 left = WINDOW_WIDTH * 8, right = -1;
+
+        for (u32 i = 0; i < 3; i++)
+        {
+            struct RadarPoint a = points[i], b = points[(i + 1) % 3];
+            s32 x;
+
+            if (a.y == b.y || y < min(a.y, b.y) || y > max(a.y, b.y))
+                continue;
+            x = a.x + (y - a.y) * (b.x - a.x) / (b.y - a.y);
+            left = min(left, x);
+            right = max(right, x);
+        }
+        if (left <= right)
+            FillCardSpan(left, right, y, color);
+    }
+}
+
+// "HP 31" above/below the tip for the vertical axes, name over value beside it for the others.
+static void PrintRadarLabel(const struct RadarAxis *axis, u32 iv)
+{
+    struct RadarPoint tip = GetRadarPoint(axis, 1, 1);
+    const u8 *name = sRadarStatNames[axis->stat];
+    const u8 *valueColors = iv == MAX_PER_STAT_IVS ? sCardPerfectColors : sCardTextColors;
+    s32 nameWidth, valueWidth, nameX, valueX, nameY, valueY;
+
+    ConvertIntToDecimalStringN(gStringVar1, iv, STR_CONV_MODE_LEFT_ALIGN, 2);
+    nameWidth = GetStringWidth(FONT_SMALL, name, 0);
+    valueWidth = GetStringWidth(FONT_SMALL, gStringVar1, 0);
+    if (axis->dx == 0)
+    {
+        nameX = tip.x - (nameWidth + RADAR_LABEL_GAP + valueWidth) / 2;
+        valueX = nameX + nameWidth + RADAR_LABEL_GAP;
+        nameY = valueY = axis->dy < 0 ? tip.y - RADAR_LABEL_HEIGHT - RADAR_LABEL_GAP : tip.y;
+    }
+    else
+    {
+        nameX = axis->dx > 0 ? tip.x + RADAR_LABEL_GAP : tip.x - RADAR_LABEL_GAP - nameWidth;
+        valueX = axis->dx > 0 ? tip.x + RADAR_LABEL_GAP : tip.x - RADAR_LABEL_GAP - valueWidth;
+        nameY = tip.y - RADAR_LABEL_HEIGHT;
+        valueY = tip.y;
+    }
+    AddTextPrinterParameterized3(sCardWindowId, FONT_SMALL, nameX, nameY, sCardTextColors, TEXT_SKIP_DRAW, name);
+    AddTextPrinterParameterized3(sCardWindowId, FONT_SMALL, valueX, valueY, valueColors, TEXT_SKIP_DRAW, gStringVar1);
+}
+
+// Outer ring = 31, inner ring = half. Perfect IVs get a red dot and label, and the
+// header shows how many there are ("5V") next to the total.
+static void DrawIvRadar(struct Pokemon *mon)
+{
+    struct RadarPoint center = {RADAR_CENTER_X, RADAR_CENTER_Y};
+    struct RadarPoint outer[NUM_STATS], inner[NUM_STATS], ivPoints[NUM_STATS];
+    u32 ivs[NUM_STATS];
+    u32 perfect = 0, totalWidth, perfectWidth;
+
+    for (u32 i = 0; i < NUM_STATS; i++)
+    {
+        ivs[i] = GetMonData(mon, MON_DATA_HP_IV + sRadarAxes[i].stat);
+        perfect += (ivs[i] == MAX_PER_STAT_IVS);
+        outer[i] = GetRadarPoint(&sRadarAxes[i], 1, 1);
+        inner[i] = GetRadarPoint(&sRadarAxes[i], 1, 2);
+        ivPoints[i] = GetRadarPoint(&sRadarAxes[i], ivs[i], MAX_PER_STAT_IVS);
+        PrintRadarLabel(&sRadarAxes[i], ivs[i]);
+    }
+
+    ConvertIntToDecimalStringN(gStringVar1, perfect, STR_CONV_MODE_LEFT_ALIGN, 1);
+    StringExpandPlaceholders(gStringVar3, sText_CardPerfectIvs);
+    ConvertIntToDecimalStringN(gStringVar1, Fusion_GetBoxMonIvTotal(&mon->box), STR_CONV_MODE_LEFT_ALIGN, 3);
+    StringExpandPlaceholders(gStringVar4, sText_CardIvTotal);
+    totalWidth = GetStringWidth(FONT_SMALL, gStringVar4, 0);
+    perfectWidth = GetStringWidth(FONT_NORMAL, gStringVar3, 0);
+    AddTextPrinterParameterized3(sCardWindowId, FONT_SMALL, WINDOW_WIDTH * 8 - CARD_LINE_X - totalWidth, 3,
+                                 sCardTextColors, TEXT_SKIP_DRAW, gStringVar4);
+    AddTextPrinterParameterized3(sCardWindowId, FONT_NORMAL, WINDOW_WIDTH * 8 - CARD_LINE_X - totalWidth - RADAR_LABEL_GAP - perfectWidth, 1,
+                                 perfect > 0 ? sCardPerfectColors : sCardTextColors, TEXT_SKIP_DRAW, gStringVar3);
+
+    for (u32 i = 0; i < NUM_STATS; i++)
+    {
+        u32 next = (i + 1) % NUM_STATS;
+
+        DrawCardLine(center, outer[i], TEXT_COLOR_LIGHT_GRAY);
+        DrawCardLine(outer[i], outer[next], TEXT_COLOR_LIGHT_GRAY);
+        DrawCardLine(inner[i], inner[next], TEXT_COLOR_LIGHT_GRAY);
+    }
+    for (u32 i = 0; i < NUM_STATS; i++)
+    {
+        struct RadarPoint triangle[] = {center, ivPoints[i], ivPoints[(i + 1) % NUM_STATS]};
+
+        FillCardTriangle(triangle, TEXT_COLOR_LIGHT_BLUE);
+    }
+    for (u32 i = 0; i < NUM_STATS; i++)
+        DrawCardLine(ivPoints[i], ivPoints[(i + 1) % NUM_STATS], TEXT_COLOR_BLUE);
+    for (u32 i = 0; i < NUM_STATS; i++)
+    {
+        if (ivs[i] == MAX_PER_STAT_IVS)
+            FillWindowPixelRect(sCardWindowId, PIXEL_FILL(TEXT_COLOR_RED), ivPoints[i].x - 1, ivPoints[i].y - 1, 3, 3);
+    }
+}
 
 static void DrawAppraisalCard(struct Pokemon *mon)
 {
-    static const u8 *const sStatLabels[] = {NULL, sText_Atk, sText_Def, sText_Spe, sText_SpA, sText_SpD};
-    static const u8 sStatOrder[] = {STAT_HP, STAT_ATK, STAT_DEF, STAT_SPATK, STAT_SPDEF, STAT_SPEED};
     struct FusionGenetics genetics;
     u32 line = 0;
-    u8 *text;
 
     Fusion_GetMonGenetics(mon, &genetics);
     OpenCard();
@@ -611,51 +807,40 @@ static void DrawAppraisalCard(struct Pokemon *mon)
     StringCopy(gStringVar1, GetSpeciesName(GetMonData(mon, MON_DATA_SPECIES)));
     ConvertIntToDecimalStringN(gStringVar2, GetMonData(mon, MON_DATA_LEVEL), STR_CONV_MODE_LEFT_ALIGN, 3);
     StringExpandPlaceholders(gStringVar4, sText_CardHeader);
-    ConvertIntToDecimalStringN(gStringVar1, genetics.generation, STR_CONV_MODE_LEFT_ALIGN, 2);
-    StringExpandPlaceholders(gStringVar3, sText_CardGeneration);
-    PrintCardHeader(gStringVar4, genetics.generation > 0 ? gStringVar3 : NULL);
+    PrintCardHeader(gStringVar4, NULL);
 
-    StringCopy(gStringVar1, gNaturesInfo[GetMonData(mon, MON_DATA_HIDDEN_NATURE)].name);
-    ConvertIntToDecimalStringN(gStringVar2, Fusion_GetBoxMonIvTotal(&mon->box), STR_CONV_MODE_LEFT_ALIGN, 3);
-    StringExpandPlaceholders(gStringVar4, sText_CardNatureIvs);
-    PrintCardLine(line++, gStringVar4);
-
-    // HP Atk Def SpA SpD Spe, the order players know from the summary screen.
-    text = gStringVar4;
-    for (u32 i = 0; i < NUM_STATS; i++)
+    if (genetics.generation > 0)
     {
-        u32 stat = sStatOrder[i];
-        if (stat == STAT_HP)
-        {
-            ConvertIntToDecimalStringN(gStringVar1, GetMonData(mon, MON_DATA_HP_IV), STR_CONV_MODE_LEFT_ALIGN, 2);
-            text = StringExpandPlaceholders(text, sText_CardIvs);
-        }
-        else
-        {
-            text = StringCopy(text, sStatLabels[stat]);
-            text = ConvertIntToDecimalStringN(text, GetMonData(mon, MON_DATA_HP_IV + stat), STR_CONV_MODE_LEFT_ALIGN, 2);
-        }
+        ConvertIntToDecimalStringN(gStringVar1, genetics.generation, STR_CONV_MODE_LEFT_ALIGN, 2);
+        StringExpandPlaceholders(gStringVar4, sText_CardGeneration);
+        AddTextPrinterParameterized(sCardWindowId, FONT_SMALL, gStringVar4,
+                                    CARD_LINE_X + CARD_COLUMN_WIDTH - GetStringWidth(FONT_SMALL, gStringVar4, 0),
+                                    CARD_HEADER_HEIGHT, TEXT_SKIP_DRAW, NULL);
     }
-    PrintCardLine(line++, gStringVar4);
+    StringCopy(gStringVar1, gNaturesInfo[GetMonData(mon, MON_DATA_HIDDEN_NATURE)].name);
+    StringExpandPlaceholders(gStringVar4, sText_CardNature);
+    PrintCardColumnLine(line++, gStringVar4);
 
     AppendTypes(StringCopy(gStringVar4, sText_Types), GetMonData(mon, MON_DATA_SPECIES), genetics.extraType);
-    PrintCardLine(line++, gStringVar4);
+    PrintCardColumnLine(line++, gStringVar4);
 
     StringCopy(StringCopy(gStringVar4, sText_Ability), gAbilitiesInfo[GetMonAbility(mon)].name);
-    PrintCardLine(line++, gStringVar4);
+    PrintCardColumnLine(line++, gStringVar4);
 
     if (Fusion_CountPassives(&genetics) == 0)
     {
         StringCopy(StringCopy(gStringVar4, sText_Passives), sText_None);
-        PrintCardLine(line++, gStringVar4);
+        PrintCardColumnLine(line++, gStringVar4);
     }
     for (u32 i = 0; i < FUSION_MAX_PASSIVES; i++)
     {
         if (genetics.passives[i] == ABILITY_NONE)
             continue;
         StringCopy(StringCopy(gStringVar4, sText_Passive), gAbilitiesInfo[genetics.passives[i]].name);
-        PrintCardLine(line++, gStringVar4);
+        PrintCardColumnLine(line++, gStringVar4);
     }
+    // Last, so the labels' text boxes never paint over the lines.
+    DrawIvRadar(mon);
     ShowCard();
 }
 

@@ -56,7 +56,7 @@ mGBA 实测关键操作；测试存读档、进化、仓库移动。
 | 队伍 + 盒子统一访问 | `FusionMonRef` 指向队伍或任意盒子的格子；读取父母时用临时副本；`Fusion_CommitFusion` 先检查全部条件，通过后才写入（子代占父母 A 的位置，删除父母 B，队伍自动整理，最后一只队伍成员不会被消耗） | `src/fusion/fusion_storage.c` |
 | 炼妖终端（关键道具） | 开局获得。菜单：Appraise（鉴定）/ Storage（仓库）/ Exit；Fuse（合成）在阶段 03 加入 | `src/item_use.c`、`data/scripts/fusion.inc` |
 | 素材选择器 | 两级列表：来源（队伍 + 14 个盒子，显示数量）→ 宝可梦（等级、IV 总和、被动数 P、第三属性标记 +T）；B 键逐级返回 | `src/fusion/fusion_ui.c` |
-| 鉴定 | 显示特性、被动、第三属性、合宠世代 | `src/fusion/fusion_ui.c` |
+| 鉴定 | 显示个体值雷达图（几 V、总和）、特性、被动、第三属性、合宠世代 | `src/fusion/fusion_ui.c` |
 | 调试菜单 | R+START → Fusion…：生成指定遗传数据的宝可梦、切换捕捉模式、填满当前盒子 / 全部盒子的随机素材 | `src/debug.c`、`src/fusion/fusion_debug.c` |
 
 测试：`test/fusion/`（打包、加密、盒子移动、进化、队伍/盒子提交、迭代器、调试辅助）。
