@@ -1753,7 +1753,7 @@ msgstr "某人的电脑"
 
 #: src/strings.c:418
 msgid "LANETTE'S PC"
-msgstr "真树的电脑"
+msgstr "真由美的电脑"
 
 #: src/strings.c:419
 msgid "BILL'S PC"

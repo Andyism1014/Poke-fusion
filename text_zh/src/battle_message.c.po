@@ -333,7 +333,7 @@ msgstr "某人的"
 
 #: src/battle_message.c:180
 msgid "LANETTE's"
-msgstr "真树的"
+msgstr "真由美的"
 
 #: src/battle_message.c:181
 msgid "BILL's"
