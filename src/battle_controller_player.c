@@ -48,6 +48,7 @@
 #include "type_icons.h"
 #include "pokedex.h"
 #include "test/battle.h"
+#include "fusion/fusion.h"
 
 static void PlayerHandleLoadMonSprite(enum BattlerId battler);
 static void PlayerHandleDrawTrainerPic(enum BattlerId battler);
@@ -76,6 +77,7 @@ static void PlayerHandleEndLinkBattle(enum BattlerId battler);
 static void PlayerHandleBattleDebug(enum BattlerId battler);
 
 static void PlayerBufferRunCommand(enum BattlerId battler);
+static void HandleInputAbilityPanel(enum BattlerId battler);
 static void MoveSelectionDisplayPPNumber(enum BattlerId battler);
 static void MoveSelectionDisplayPPString(enum BattlerId battler);
 static void MoveSelectionDisplayMoveType(enum BattlerId battler);
@@ -396,6 +398,13 @@ static void HandleInputChooseAction(enum BattlerId battler)
     {
         SwapHpBarsWithHpText();
     }
+    else if (JOY_NEW(FUSION_BATTLE_ABILITY_PANEL_BUTTON)
+          && !(FUSION_BATTLE_ABILITY_PANEL_BUTTON == L_BUTTON && gSaveBlock2Ptr->optionsButtonMode == OPTIONS_BUTTON_MODE_L_EQUALS_A))
+    {
+        PlaySE(SE_SELECT);
+        Fusion_OpenBattleAbilityPanel(battler);
+        gBattlerControllerFuncs[battler] = HandleInputAbilityPanel;
+    }
     else if (DEBUG_BATTLE_MENU == TRUE && JOY_NEW(SELECT_BUTTON))
     {
         BtlController_EmitTwoReturnValues(battler, B_COMM_TO_ENGINE, B_ACTION_DEBUG, 0);
@@ -409,6 +418,13 @@ static void HandleInputChooseAction(enum BattlerId battler)
         BtlController_EmitTwoReturnValues(battler, B_COMM_TO_ENGINE, B_ACTION_THROW_BALL, 0);
         BtlController_Complete(battler);
     }
+}
+
+// Fusion: ability overview of the Pokémon on the field, opened from the action menu.
+static void HandleInputAbilityPanel(enum BattlerId battler)
+{
+    if (Fusion_HandleBattleAbilityPanelInput())
+        gBattlerControllerFuncs[battler] = HandleInputChooseAction;
 }
 
 void HandleInputChooseTarget(enum BattlerId battler)

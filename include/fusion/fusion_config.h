@@ -20,6 +20,9 @@
 #define FUSION_WILD_SECOND_PASSIVE_CHANCE   15 // Percent of those that get a second one.
 #define FUSION_WILD_THIRD_TYPE_CHANCE       3  // Percent of wild Pokémon with a random third type.
 
+// Ability overview panel (main ability + passives with descriptions). On the summary screen it opens with SELECT on the Info page.
+#define FUSION_BATTLE_ABILITY_PANEL_BUTTON  L_BUTTON // Opens the panel for the Pokémon on the field from the battle action menu.
+
 // Fusion Tower (endless post-game challenge in the Fusion Terminal)
 #define FUSION_TOWER_REQUIRES_GAME_CLEAR    TRUE // Unlocked after entering the Hall of Fame.
 #define FUSION_TOWER_BOSS_INTERVAL          10   // Every Nth floor is a boss with a full team.

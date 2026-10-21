@@ -16,8 +16,10 @@ A Pokémon Emerald ROM hack that brings the "fusion" (炼妖) system of *Fantasy
 - **One main ability plus up to 3 passive abilities.** Passives work in battle just like the main ability. About 150 common abilities are supported as passives, and the opposing AI takes them into account.
 - **Up to 3 types.** The third type counts for type matchups, STAB and move effects.
 - **Appraise** shows a Pokémon's IVs, nature, abilities, passives, types and fusion generation.
+- **Ability overview:** press SELECT on the summary screen's Info page, or L on the battle command menu, to see the main ability and every passive with what they do. In battle, LEFT/RIGHT switches between the Pokémon on the field.
 
-![Summary screen: press SELECT to view passives](docs/fusion/screenshots/readme_passives.png)
+![Summary screen: press SELECT to see every ability](docs/fusion/screenshots/ability_panel_summary.png)
+![Battle: press L to see the abilities of the Pokémon on the field](docs/fusion/screenshots/ability_panel_battle.png)
 
 ### Catching and exploring
 - **All-generation wild encounters.** Every area's wild Pokémon are replaced by Gen 1–9 Pokémon of similar strength and the same evolution stage.

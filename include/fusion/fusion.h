@@ -175,6 +175,20 @@ void Fusion_ScriptSetCaptureMode(void);
 void Fusion_ScriptToggleExpShare(void);
 void Fusion_ScriptToggleWildRandomizer(void);
 
+// fusion_ability_panel.c
+struct FusionAbilityPanelStyle
+{
+    u8 x;          // Left edge of every line.
+    u8 descX;      // Description indent from x.
+    u8 descY;      // Description offset below the name line.
+    u8 descFontId; // Narrowed to fit if needed.
+    const u8 *textColors;
+    const u8 *labelColors;
+};
+void Fusion_PrintAbilityPanelEntry(u32 windowId, const struct FusionAbilityPanelStyle *style, u32 slot, enum Ability ability, u32 y, u32 nameWidth);
+void Fusion_OpenBattleAbilityPanel(u32 battler);
+bool32 Fusion_HandleBattleAbilityPanelInput(void);
+
 // fusion_debug.c
 const u8 *Fusion_Debug_GetCaptureModeName(enum FusionCaptureMode mode);
 enum FusionCaptureMode Fusion_Debug_CycleCaptureMode(void);

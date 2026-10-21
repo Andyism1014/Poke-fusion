@@ -193,7 +193,7 @@ static EWRAM_DATA struct PokemonSummaryScreenData
     s16 switchCounter; // Used for various switch statement cases that decompress/load graphics or Pokémon data
     u8 unk_filler4[6];
     u8 categoryIconSpriteId;
-    u8 abilityViewIndex; // Fusion: ability shown on the Info page, 0 = main ability, N = passive N.
+    u8 abilityPanelWindowId; // Fusion: the ability overview opened with SELECT on the Info page.
 } *sMonSummaryScreen = NULL;
 
 EWRAM_DATA u8 gLastViewedMonIndex = 0;
@@ -266,7 +266,8 @@ static void PrintMonOTName(void);
 static void PrintMonOTID(void);
 static void PrintMonAbilityName(void);
 static void PrintMonAbilityDescription(void);
-static void CycleAbilityView(void);
+static void ShowAbilityPanel(u8 taskId);
+static void Task_HandleAbilityPanelInput(u8 taskId);
 static void BufferMonTrainerMemo(void);
 static void PrintMonTrainerMemo(void);
 static void BufferNatureString(void);
@@ -779,8 +780,7 @@ static const u8 sText_Relearn[] = _("{START_BUTTON} RELEARN"); // future note: d
 static const u8 sMemoNatureTextColor[] = _("{COLOR LIGHT_RED}{SHADOW GREEN}");
 static const u8 sMemoMiscTextColor[] = _("{COLOR WHITE}{SHADOW DARK_GRAY}"); // This is also affected by palettes, apparently
 static const u8 sText_PassiveCount[] = _("{SELECT_BUTTON}+{STR_VAR_1}");
-static const u8 sText_PassiveCycle[] = _("{SELECT_BUTTON}");
-static const u8 sText_PassiveLabel[] = _("Passive {STR_VAR_1}: ");
+static const u8 sText_AbilityPanelTitle[] = _("Abilities");
 static const u8 sStatsLeftColumnLayout[] = _("{DYNAMIC 0}/{DYNAMIC 1}\n{DYNAMIC 2}\n{DYNAMIC 3}");
 static const u8 sStatsLeftIVEVColumnLayout[] = _("{DYNAMIC 0}\n{DYNAMIC 1}\n{DYNAMIC 2}");
 static const u8 sStatsRightColumnLayout[] = _("{DYNAMIC 0}\n{DYNAMIC 1}\n{DYNAMIC 2}");
@@ -1586,7 +1586,6 @@ static bool8 ExtractMonDataToSummaryStruct(struct Pokemon *mon)
             if (passives[i] != ABILITY_NONE)
                 sum->passives[sum->passiveCount++] = passives[i];
         }
-        sMonSummaryScreen->abilityViewIndex = 0;
         sum->isShiny = GetMonData(mon, MON_DATA_IS_SHINY);
         return TRUE;
     }
@@ -1827,7 +1826,7 @@ static void Task_HandleInput(u8 taskId)
               && !sMonSummaryScreen->summary.isEgg && sMonSummaryScreen->summary.passiveCount != 0)
         {
             PlaySE(SE_SELECT);
-            CycleAbilityView();
+            ShowAbilityPanel(taskId);
         }
         else if (DEBUG_POKEMON_SPRITE_VISUALIZER && JOY_NEW(SELECT_BUTTON) && !gMain.inBattle)
         {
@@ -2182,7 +2181,6 @@ static void ChangePage(u8 taskId, s8 delta)
 
     PlaySE(SE_SELECT);
     ClearPageWindowTilemaps(sMonSummaryScreen->currPageIndex);
-    sMonSummaryScreen->abilityViewIndex = 0;
     currPageIndex = sMonSummaryScreen->currPageIndex += delta;
     data[0] = 0;
     if (delta == 1)
@@ -3552,62 +3550,86 @@ static void PrintMonOTID(void)
     }
 }
 
-static enum Ability GetShownAbility(void)
-{
-    if (sMonSummaryScreen->abilityViewIndex == 0)
-        return sMonSummaryScreen->summary.ability;
-    return sMonSummaryScreen->summary.passives[sMonSummaryScreen->abilityViewIndex - 1];
-}
-
-// Fusion: with passives, the ability line becomes "[Passive N: ]Name" plus a SELECT hint on the right.
+// Fusion: with passives, a "SELECT+N" hint on the right opens the ability overview panel.
 static void PrintMonAbilityName(void)
 {
     struct PokeSummary *sum = &sMonSummaryScreen->summary;
     u32 windowId = AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY);
-    u32 viewIndex = sMonSummaryScreen->abilityViewIndex;
-    u32 x = 0, hintX;
-    u8 text[24];
+    u32 width = WindowWidthPx(windowId);
+    u8 text[16];
 
-    if (sum->passiveCount == 0)
-    {
-        PrintTextOnWindow(windowId, gAbilitiesInfo[sum->ability].name, 0, 1, 0, 1);
-        return;
-    }
-
-    if (viewIndex == 0)
+    if (sum->passiveCount != 0)
     {
         ConvertIntToDecimalStringN(gStringVar1, sum->passiveCount, STR_CONV_MODE_LEFT_ALIGN, 1);
         StringExpandPlaceholders(text, sText_PassiveCount);
+        width = GetStringRightAlignXOffset(FONT_NORMAL, text, width);
+        PrintTextOnWindow(windowId, text, width, 1, 0, 5);
+        width -= 2;
     }
-    else
-    {
-        StringCopy(text, sText_PassiveCycle);
-    }
-    hintX = GetStringRightAlignXOffset(FONT_NORMAL, text, WindowWidthPx(windowId));
-    PrintTextOnWindow(windowId, text, hintX, 1, 0, 5);
-
-    if (viewIndex != 0)
-    {
-        ConvertIntToDecimalStringN(gStringVar1, viewIndex, STR_CONV_MODE_LEFT_ALIGN, 1);
-        StringExpandPlaceholders(text, sText_PassiveLabel);
-        PrintTextOnWindow(windowId, text, 0, 1, 0, 5);
-        x = GetStringWidth(FONT_NORMAL, text, 0);
-    }
-    PrintTextOnWindowToFitPx(windowId, gAbilitiesInfo[GetShownAbility()].name, x, 1, 0, 1, hintX - x - 2);
+    PrintTextOnWindowToFitPx(windowId, gAbilitiesInfo[sum->ability].name, 0, 1, 0, 1, width);
 }
 
 static void PrintMonAbilityDescription(void)
 {
-    enum Ability ability = GetShownAbility();
-    PrintTextOnWindowToFit(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), gAbilitiesInfo[ability].description, 0, 17, 0, 0);
+    PrintTextOnWindowToFit(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), gAbilitiesInfo[sMonSummaryScreen->summary.ability].description, 0, 17, 0, 0);
 }
 
-static void CycleAbilityView(void)
+// Fusion: the main ability and every passive with their descriptions, over the Info page.
+// The Info page data windows are removed meanwhile, the panel reuses their tiles.
+static const struct WindowTemplate sAbilityPanelTemplate =
 {
-    sMonSummaryScreen->abilityViewIndex = (sMonSummaryScreen->abilityViewIndex + 1) % (sMonSummaryScreen->summary.passiveCount + 1);
-    FillWindowPixelBuffer(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_ABILITY), PIXEL_FILL(0));
-    PrintMonAbilityName();
-    PrintMonAbilityDescription();
+    .bg = 0,
+    .tilemapLeft = 11,
+    .tilemapTop = 2,
+    .width = 18,
+    .height = 18,
+    .paletteNum = 6,
+    .baseBlock = 467,
+};
+
+static const u8 sAbilityPanelLabelColors[3] = {0, 8, 7};
+
+static const struct FusionAbilityPanelStyle sAbilityPanelStyle =
+{
+    .x = 0,
+    .descX = 0,
+    .descY = 14,
+    .descFontId = FONT_NORMAL,
+    .textColors = sTextColors[0],
+    .labelColors = sAbilityPanelLabelColors,
+};
+
+static void ShowAbilityPanel(u8 taskId)
+{
+    struct PokeSummary *sum = &sMonSummaryScreen->summary;
+    u32 i, windowId, width;
+
+    for (i = 0; i < ARRAY_COUNT(sMonSummaryScreen->windowIds); i++)
+        RemoveWindowByIndex(i);
+
+    windowId = sMonSummaryScreen->abilityPanelWindowId = AddWindow(&sAbilityPanelTemplate);
+    width = WindowWidthPx(windowId);
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(3));
+    AddTextPrinterParameterized4(windowId, FONT_NORMAL, 0, 0, 0, 0, sTextColors[0], TEXT_SKIP_DRAW, sText_AbilityPanelTitle);
+    FillWindowPixelRect(windowId, PIXEL_FILL(2), 0, 13, width, 1);
+    for (i = 0; i <= sum->passiveCount; i++)
+        Fusion_PrintAbilityPanelEntry(windowId, &sAbilityPanelStyle, i, i == 0 ? sum->ability : sum->passives[i - 1], 16 + i * 32, width);
+    PutWindowTilemap(windowId);
+    CopyWindowToVram(windowId, COPYWIN_FULL);
+    gTasks[taskId].func = Task_HandleAbilityPanelInput;
+}
+
+static void Task_HandleAbilityPanelInput(u8 taskId)
+{
+    if (JOY_NEW(A_BUTTON | B_BUTTON | SELECT_BUTTON))
+    {
+        PlaySE(SE_SELECT);
+        ClearWindowTilemap(sMonSummaryScreen->abilityPanelWindowId);
+        RemoveWindow(sMonSummaryScreen->abilityPanelWindowId);
+        PrintInfoPageText();
+        PutPageWindowTilemaps(PSS_PAGE_INFO);
+        gTasks[taskId].func = Task_HandleInput;
+    }
 }
 
 static void BufferMonTrainerMemo(void)
