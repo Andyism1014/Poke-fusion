@@ -56,7 +56,7 @@
 #define FLAG_DEXNAV_DETECTOR_MODE    0x22 // Fusion: DN_FLAG_DETECTOR_MODE
 #define FLAG_FUSION_EXP_SHARE        0x23 // Fusion: I_EXP_SHARE_FLAG, set on a new game
 #define FLAG_FUSION_WILD_ORIGINAL     0x24 // Fusion: set = original wild encounters instead of all-generation ones
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
+#define FLAG_FUSION_TERMINAL_INTRO   0x25 // Fusion: set once the Fusion Terminal tutorial was shown
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag

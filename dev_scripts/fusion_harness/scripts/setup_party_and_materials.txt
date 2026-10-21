@@ -23,4 +23,36 @@ shot h2
 press B 2 30
 wait 30
 shot h3
+# Open the Fusion Terminal once to dismiss its first-use intro, then put the START menu
+# and Bag cursors back where the other scripts expect them.
+press START 2 30
+tap DOWN 2 8
+press A 2 90
+press LEFT 2 40
+press DOWN 2 10
+press A 2 20
+press A 2 90
+press A 2 120
+press A 2 120
+press A 2 120
+press A 2 120
+press A 2 120
+press A 2 120
+wait 60
+press B 2 60
+wait 60
+press B 2 60
+wait 60
+shot intro_done
+press START 2 30
+press A 2 90
+press UP 2 10
+press RIGHT 2 40
+press B 2 90
+wait 30
+press UP 2 10
+press UP 2 10
+shot cursors_reset
+press B 2 30
+wait 30
 savestate mons

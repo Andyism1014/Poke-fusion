@@ -1,5 +1,8 @@
 EventScript_FusionTerminal::
 	lockall
+	goto_if_set FLAG_FUSION_TERMINAL_INTRO, EventScript_FusionTerminal_Menu
+	setflag FLAG_FUSION_TERMINAL_INTRO
+	msgbox Fusion_Text_TerminalIntro, MSGBOX_DEFAULT
 EventScript_FusionTerminal_Menu:
 	callnative Fusion_ScriptTowerBufferStatus
 	goto_if_eq VAR_RESULT, 1, EventScript_FusionTerminal_MenuWithTower
@@ -261,6 +264,18 @@ Fusion_Text_SettingsSummary:
 Fusion_Text_CaptureModeHelp:
 	.string "Convenient: wild Pokémon are 2x easier.\n"
 	.string "Material: always caught. Not legendaries.$"
+
+Fusion_Text_TerminalIntro:
+	.string "Welcome to the Fusion Terminal!\p"
+	.string "Fuse: combine two Pokémon from your\n"
+	.string "party or any Box into a new one.\p"
+	.string "The child takes moves, IVs, its main\n"
+	.string "ability and passives from both.\l"
+	.string "Both parents are used up.\p"
+	.string "Appraise: see IVs, passives and types.\n"
+	.string "Settings: capture mode, Exp. Share.\p"
+	.string "Tip: wild Pokémon sometimes carry\n"
+	.string "passives or a third type. Catch them!$"
 
 Fusion_Text_Tower:
 	.string "Tower$"
