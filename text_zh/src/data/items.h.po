@@ -6685,79 +6685,79 @@ msgstr "红宝石"
 
 #: src/data/items.h:15583
 msgid "Berserk Gene"
-msgstr ""
+msgstr "破坏基因"
 
 #: src/data/items.h:15842 src/data/items.h:15843
 msgid "Fresh-Start Mochi"
-msgstr ""
+msgstr "重来年糕"
 
 #: src/data/items.h:15894
 msgid "Stellar Tera Shard"
-msgstr ""
+msgstr "星晶太晶碎块"
 
 #: src/data/items.h:15910
 msgid "Jubilife Muffin"
-msgstr ""
+msgstr "祝庆松饼"
 
 #: src/data/items.h:15929
 msgid "Remedy"
-msgstr ""
+msgstr "药粉"
 
 #: src/data/items.h:15930
 msgid "Remedies"
-msgstr ""
+msgstr "药粉"
 
 #: src/data/items.h:15949
 msgid "Fine Remedy"
-msgstr ""
+msgstr "好药粉"
 
 #: src/data/items.h:15950
 msgid "Fine Remedies"
-msgstr ""
+msgstr "好药粉"
 
 #: src/data/items.h:15973
 msgid "Superb Remedy"
-msgstr ""
+msgstr "厉害药粉"
 
 #: src/data/items.h:15974
 msgid "Superb Remedies"
-msgstr ""
+msgstr "厉害药粉"
 
 #: src/data/items.h:15997
 msgid "Aux Evasion"
-msgstr ""
+msgstr "闪避粉"
 
 #: src/data/items.h:16020
 msgid "Aux Guard"
-msgstr ""
+msgstr "防守粉"
 
 #: src/data/items.h:16044
 msgid "Aux Power"
-msgstr ""
+msgstr "力量粉"
 
 #: src/data/items.h:16068
 msgid "Aux Powerguard"
-msgstr ""
+msgstr "力量防守粉"
 
 #: src/data/items.h:16092
 msgid "Choice Dumpling"
-msgstr ""
+msgstr "讲究团子"
 
 #: src/data/items.h:16106
 msgid "Swap Snack"
-msgstr ""
+msgstr "交换点心"
 
 #: src/data/items.h:16120
 msgid "Twice-Spiced Radish"
-msgstr ""
+msgstr "双香萝卜"
 
 #: src/data/items.h:16121
 msgid "Twice-Spiced Radishes"
-msgstr ""
+msgstr "双香萝卜"
 
 #: src/data/items.h:16135
 msgid "Pokéshi Doll"
-msgstr ""
+msgstr "宝可木偶"
 
 #. PokeAPI
 #: src/data/items.h:41

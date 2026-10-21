@@ -10,51 +10,57 @@ msgid ""
 "The minimum wager at this table\n"
 "is {STR_VAR_1}. Do you want to play?"
 msgstr ""
+"这张桌子的最低赌注\n"
+"是{STR_VAR_1}。要玩吗？"
 
 #: src/roulette.c:420
 msgid "You don't have enough COINS."
-msgstr ""
+msgstr "代币不够。"
 
 #: src/roulette.c:421
 msgid "Special rate table right now!"
-msgstr ""
+msgstr "现在是特别倍率桌！"
 
 #: src/roulette.c:422
 msgid ""
 "Place your wager with the + Control\n"
 "Pad, then press the A Button."
 msgstr ""
+"用十字键下注，\n"
+"然后按A键。"
 
 #: src/roulette.c:423
 msgid "It's a hit!"
-msgstr ""
+msgstr "猜中了！"
 
 #: src/roulette.c:424
 msgid "Jackpot!"
-msgstr ""
+msgstr "大奖！"
 
 #: src/roulette.c:425
 msgid "Nothing doing!"
-msgstr ""
+msgstr "没中！"
 
 #: src/roulette.c:426
 msgid "You've won {STR_VAR_1} COINS!"
-msgstr ""
+msgstr "你赢得了{STR_VAR_1}枚代币！"
 
 #: src/roulette.c:427
 msgid "No COINS left…"
-msgstr ""
+msgstr "代币用完了……"
 
 #: src/roulette.c:428
 msgid "Keep playing?"
-msgstr ""
+msgstr "还要继续玩吗？"
 
 #: src/roulette.c:429
 msgid "The ROULETTE board will be cleared."
-msgstr ""
+msgstr "轮盘将被清空。"
 
 #: src/roulette.c:430
 msgid ""
 "Your COIN CASE is full!\n"
 "Coins can be exchanged for prizes."
 msgstr ""
+"你的代币盒满了！\n"
+"代币可以兑换奖品。"

@@ -7,164 +7,164 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_misc.h:4
 msgid "HIGHS"
-msgstr ""
+msgstr "高处"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:10
 msgid "LOWS"
-msgstr ""
+msgstr "低处"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:16
 msgid "UM"
-msgstr ""
+msgstr "嗯"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:22
 msgid "REAR"
-msgstr ""
+msgstr "后面"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:28
 msgid "THINGS"
-msgstr ""
+msgstr "东西"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:34
 msgid "THING"
-msgstr ""
+msgstr "事情"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:40
 msgid "BELOW"
-msgstr ""
+msgstr "下面"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:46
 msgid "ABOVE"
-msgstr ""
+msgstr "上面"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:52
 msgid "BACK"
-msgstr ""
+msgstr "背后"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:58
 msgid "HIGH"
-msgstr ""
+msgstr "高"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:64
 msgid "HERE"
-msgstr ""
+msgstr "这里"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:70
 msgid "INSIDE"
-msgstr ""
+msgstr "里面"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:76
 msgid "OUTSIDE"
-msgstr ""
+msgstr "外面"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:82
 msgid "BESIDE"
-msgstr ""
+msgstr "旁边"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:88
 msgid "THIS IS IT!"
-msgstr ""
+msgstr "就是这个！"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:94
 msgid "THIS"
-msgstr ""
+msgstr "这个"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:100
 msgid "EVERY"
-msgstr ""
+msgstr "每个"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:106
 msgid "THESE"
-msgstr ""
+msgstr "这些"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:112
 msgid "THESE WERE"
-msgstr ""
+msgstr "这些曾是"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:118
 msgid "DOWN"
-msgstr ""
+msgstr "下"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:124
 msgid "THAT"
-msgstr ""
+msgstr "那个"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:130
 msgid "THOSE ARE"
-msgstr ""
+msgstr "那些是"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:136
 msgid "THOSE WERE"
-msgstr ""
+msgstr "那些曾是"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:142
 msgid "THAT'S IT!"
-msgstr ""
+msgstr "就这样！"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:154
 msgid "THAT WAS"
-msgstr ""
+msgstr "那曾是"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:160
 msgid "FRONT"
-msgstr ""
+msgstr "前面"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:166
 msgid "UP"
-msgstr ""
+msgstr "上"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:172
 msgid "CHOICE"
-msgstr ""
+msgstr "选择"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:178
 msgid "FAR"
-msgstr ""
+msgstr "远"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:184
 msgid "AWAY"
-msgstr ""
+msgstr "离开"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:190
 msgid "NEAR"
-msgstr ""
+msgstr "附近"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:196
 msgid "WHERE"
-msgstr ""
+msgstr "哪里"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:202
 msgid "WHEN"
-msgstr ""
+msgstr "何时"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:208
 msgid "WHAT"
-msgstr ""
+msgstr "什么"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:214
 msgid "DEEP"
-msgstr ""
+msgstr "深"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:220
 msgid "SHALLOW"
-msgstr ""
+msgstr "浅"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:226
 msgid "WHY"
-msgstr ""
+msgstr "为什么"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:232
 msgid "CONFUSED"
-msgstr ""
+msgstr "糊涂"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:238
 msgid "OPPOSITE"
-msgstr ""
+msgstr "相反"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:244
 msgid "LEFT"
-msgstr ""
+msgstr "左"
 
 #: src/data/easy_chat/easy_chat_group_misc.h:250
 msgid "RIGHT"
-msgstr ""
+msgstr "右"

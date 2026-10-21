@@ -7,15 +7,15 @@ msgstr ""
 
 #: src/berry_fix_program.c:38
 msgid "Berry Program Update"
-msgstr ""
+msgstr "树果程序更新"
 
 #: src/berry_fix_program.c:39
 msgid "Ruby/Sapphire"
-msgstr ""
+msgstr "红宝石/蓝宝石"
 
 #: src/berry_fix_program.c:40
 msgid "Emerald"
-msgstr ""
+msgstr "绿宝石"
 
 #: src/berry_fix_program.c:41
 msgid ""
@@ -23,6 +23,9 @@ msgid ""
 "Ruby/Sapphire Game Pak will be updated.\n"
 "{COLOR RED}{SHADOW LIGHT_RED}Press the A Button."
 msgstr ""
+"将更新《宝可梦 红宝石/蓝宝石》\n"
+"卡带中的树果程序。\n"
+"{COLOR RED}{SHADOW LIGHT_RED}请按A键。"
 
 #: src/berry_fix_program.c:44
 msgid ""
@@ -31,6 +34,10 @@ msgid ""
 "{COLOR RED}{SHADOW LIGHT_RED}YES: Press the A Button.\n"
 "NO: Turn off the power and try again."
 msgstr ""
+"请确认Game Boy Advance主机的\n"
+"连接方式与图示一致。\n"
+"{COLOR RED}{SHADOW LIGHT_RED}是：请按A键。\n"
+"否：请关闭电源后重试。"
 
 #: src/berry_fix_program.c:48
 msgid ""
@@ -39,6 +46,10 @@ msgid ""
 "SELECT simultaneously. Then, ensure\n"
 "the picture above appears."
 msgstr ""
+"请同时按住START键和SELECT键，\n"
+"打开《宝可梦 红宝石/蓝宝石》的\n"
+"电源，然后确认上方的画面\n"
+"是否出现。"
 
 #: src/berry_fix_program.c:52
 msgid ""
@@ -47,15 +58,23 @@ msgid ""
 "unplug the Game Boy Advance Game\n"
 "Link Cable."
 msgstr ""
+"正在传输，请稍候。\n"
+"{COLOR RED}{SHADOW LIGHT_RED}请不要关闭电源，\n"
+"也不要拔下Game Boy Advance\n"
+"连接线。"
 
 #: src/berry_fix_program.c:55
 msgid ""
 "Please follow the instructions on your\n"
 "POKéMON Ruby/Sapphire screen."
 msgstr ""
+"请按照《宝可梦 红宝石/蓝宝石》\n"
+"画面上的指示操作。"
 
 #: src/berry_fix_program.c:57
 msgid ""
 "Transmission failure.\n"
 "{COLOR RED}{SHADOW LIGHT_RED}Please try again."
 msgstr ""
+"传输失败。\n"
+"{COLOR RED}{SHADOW LIGHT_RED}请重试。"

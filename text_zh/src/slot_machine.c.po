@@ -7,21 +7,23 @@ msgstr ""
 
 #: src/slot_machine.c:653
 msgid "Quit the game?"
-msgstr ""
+msgstr "要结束游戏吗？"
 
 #: src/slot_machine.c:654
 msgid "You've got 9,999 COINS."
-msgstr ""
+msgstr "你已经有9,999枚代币了。"
 
 #: src/slot_machine.c:655
 msgid ""
 "You've run out of COINS.\n"
 "Game over!"
 msgstr ""
+"代币用完了。\n"
+"游戏结束！"
 
 #: src/slot_machine.c:656
 msgid "You don't have three COINS."
-msgstr ""
+msgstr "你没有三枚代币。"
 
 #: src/slot_machine.c:657
 msgid ""
@@ -32,3 +34,9 @@ msgid ""
 "awarded number of spins.\n"
 "It all ends on a Big Bonus."
 msgstr ""
+"转轴时间\n"
+"这是瞄准图案、\n"
+"一举命中的好机会！\n"
+"转轴时间会持续\n"
+"奖励的转动次数，\n"
+"直到中大奖为止。"

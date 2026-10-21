@@ -7,828 +7,828 @@ msgstr ""
 
 #: src/data/contest_opponents.h:151
 msgid "ELECTER"
-msgstr ""
+msgstr "落雷仔"
 
 #: src/data/contest_opponents.h:152
 msgid "EZRA"
-msgstr ""
+msgstr "埃兹拉"
 
 #: src/data/contest_opponents.h:160
 msgid "TROPO"
-msgstr ""
+msgstr "带龙龙"
 
 #: src/data/contest_opponents.h:161
 msgid "ALLAN"
-msgstr ""
+msgstr "艾伦"
 
 #: src/data/contest_opponents.h:169
 msgid "TUXA"
-msgstr ""
+msgstr "鸟然天"
 
 #: src/data/contest_opponents.h:170
 msgid "JULIET"
-msgstr ""
+msgstr "朱丽叶"
 
 #: src/data/contest_opponents.h:178
 msgid "PULSE"
-msgstr ""
+msgstr "拍拍正"
 
 #: src/data/contest_opponents.h:179
 msgid "BAILY"
-msgstr ""
+msgstr "贝莉"
 
 #: src/data/contest_opponents.h:187
 msgid "SHUPUP"
-msgstr ""
+msgstr "影娃娃"
 
 #: src/data/contest_opponents.h:188
 msgid "MELANY"
-msgstr ""
+msgstr "梅兰尼"
 
 #: src/data/contest_opponents.h:196
 msgid "GOOZAN"
-msgstr ""
+msgstr "鼬斩斩"
 
 #: src/data/contest_opponents.h:197
 msgid "HANA"
-msgstr ""
+msgstr "花"
 
 #: src/data/contest_opponents.h:205
 msgid "LOUDED"
-msgstr ""
+msgstr "爆音仔"
 
 #: src/data/contest_opponents.h:206 src/data/trainers.h:37623
 msgid "BRYANT"
-msgstr ""
+msgstr "布莱恩"
 
 #: src/data/contest_opponents.h:214
 msgid "KITSY"
-msgstr ""
+msgstr "雅雅猫"
 
 #: src/data/contest_opponents.h:215 src/data/battle_frontier/battle_frontier_trainers.h:2312
 msgid "OMAR"
-msgstr ""
+msgstr "奥马尔"
 
 #: src/data/contest_opponents.h:225
 msgid "POOCHY"
-msgstr ""
+msgstr "小狼犬"
 
 #: src/data/contest_opponents.h:226
 msgid "JIMMY"
-msgstr ""
+msgstr "吉米"
 
 #: src/data/contest_opponents.h:254
 msgid "MUSILLE"
-msgstr ""
+msgstr "萤甜甜"
 
 #: src/data/contest_opponents.h:255
 msgid "EDITH"
-msgstr ""
+msgstr "伊迪丝"
 
 #: src/data/contest_opponents.h:283
 msgid "DUSTER"
-msgstr ""
+msgstr "粉蛾蛾"
 
 #: src/data/contest_opponents.h:284 src/data/battle_frontier/battle_frontier_trainers.h:920
 msgid "EVAN"
-msgstr ""
+msgstr "伊万"
 
 #: src/data/contest_opponents.h:312 src/data/trade.h:973
 msgid "DOTS"
-msgstr ""
+msgstr "实果果"
 
 #: src/data/contest_opponents.h:313 src/data/battle_frontier/battle_frontier_trainers.h:1032
 msgid "KELSEY"
-msgstr ""
+msgstr "凯西"
 
 #: src/data/contest_opponents.h:341
 msgid "TATAY"
-msgstr ""
+msgstr "燕燕"
 
 #: src/data/contest_opponents.h:342
 msgid "MADISON"
-msgstr ""
+msgstr "麦迪逊"
 
 #: src/data/contest_opponents.h:370
 msgid "NINDA"
-msgstr ""
+msgstr "忍士仔"
 
 #: src/data/contest_opponents.h:371 src/data/battle_frontier/battle_frontier_trainers.h:2288
 msgid "RAYMOND"
-msgstr ""
+msgstr "雷蒙德"
 
 #: src/data/contest_opponents.h:399
 msgid "SMISH"
-msgstr ""
+msgstr "蘑菇菇"
 
 #: src/data/contest_opponents.h:400
 msgid "GRANT"
-msgstr ""
+msgstr "格兰特"
 
 #: src/data/contest_opponents.h:428
 msgid "SLEAL"
-msgstr ""
+msgstr "豹球球"
 
 #: src/data/contest_opponents.h:429 src/data/battle_frontier/battle_frontier_trainers.h:2368
 msgid "PAIGE"
-msgstr ""
+msgstr "佩吉"
 
 #: src/data/contest_opponents.h:457
 msgid "SLOKTH"
-msgstr ""
+msgstr "懒懒獭"
 
 #: src/data/contest_opponents.h:458
 msgid "ALEC"
-msgstr ""
+msgstr "亚历克"
 
 #: src/data/contest_opponents.h:486
 msgid "WHIRIS"
-msgstr ""
+msgstr "妞妞咕"
 
 #: src/data/contest_opponents.h:487
 msgid "SYDNEY"
-msgstr ""
+msgstr "悉妮"
 
 #: src/data/contest_opponents.h:515
 msgid "MAHITA"
-msgstr ""
+msgstr "小力士"
 
 #: src/data/contest_opponents.h:516
 msgid "MORRIS"
-msgstr ""
+msgstr "莫里斯"
 
 #: src/data/contest_opponents.h:544
 msgid "RONAR"
-msgstr ""
+msgstr "多拉可"
 
 #: src/data/contest_opponents.h:545
 msgid "MARIAH"
-msgstr ""
+msgstr "玛丽亚"
 
 #: src/data/contest_opponents.h:573
 msgid "BATRO"
-msgstr ""
+msgstr "蝠叉叉"
 
 #: src/data/contest_opponents.h:574
 msgid "RUSSELL"
-msgstr ""
+msgstr "拉塞尔"
 
 #: src/data/contest_opponents.h:602
 msgid "GULIN"
-msgstr ""
+msgstr "食溶溶"
 
 #: src/data/contest_opponents.h:603
 msgid "MELANIE"
-msgstr ""
+msgstr "梅兰妮"
 
 #: src/data/contest_opponents.h:631
 msgid "RIKELEC"
-msgstr ""
+msgstr "电雷兽"
 
 #: src/data/contest_opponents.h:632
 msgid "CHANCE"
-msgstr ""
+msgstr "钱斯"
 
 #: src/data/contest_opponents.h:660
 msgid "BULBY"
-msgstr ""
+msgstr "妙蛙蛙"
 
 #: src/data/contest_opponents.h:661
 msgid "AGATHA"
-msgstr ""
+msgstr "阿加莎"
 
 #: src/data/contest_opponents.h:689
 msgid "FUTTERBE"
-msgstr ""
+msgstr "大蝶蝶"
 
 #: src/data/contest_opponents.h:690 src/data/trainers.h:10045
 msgid "BEAU"
-msgstr ""
+msgstr "博"
 
 #: src/data/contest_opponents.h:718
 msgid "PIDEOT"
-msgstr ""
+msgstr "鸟比比"
 
 #: src/data/contest_opponents.h:719 src/data/battle_frontier/battle_frontier_trainers.h:1928
 msgid "KAY"
-msgstr ""
+msgstr "凯"
 
 #: src/data/contest_opponents.h:747
 msgid "DIGLE"
-msgstr ""
+msgstr "地鼠鼠"
 
 #: src/data/contest_opponents.h:748 src/data/trainers.h:38425
 msgid "CALE"
-msgstr ""
+msgstr "凯尔"
 
 #: src/data/contest_opponents.h:776
 msgid "WAGIL"
-msgstr ""
+msgstr "蝌蚪蚊"
 
 #: src/data/contest_opponents.h:777 src/data/battle_frontier/battle_frontier_trainers.h:2200
 msgid "CAITLIN"
-msgstr ""
+msgstr "凯特琳"
 
 #: src/data/contest_opponents.h:805
 msgid "TOTDIL"
-msgstr ""
+msgstr "锯鳄鳄"
 
 #: src/data/contest_opponents.h:806
 msgid "COLBY"
-msgstr ""
+msgstr "科尔比"
 
 #: src/data/contest_opponents.h:834
 msgid "BALEDY"
-msgstr ""
+msgstr "瓢虫芭"
 
 #: src/data/contest_opponents.h:835
 msgid "KYLIE"
-msgstr ""
+msgstr "凯莉"
 
 #: src/data/contest_opponents.h:863
 msgid "BIRDLY"
-msgstr ""
+msgstr "鸟信使"
 
 #: src/data/contest_opponents.h:864 src/data/battle_frontier/battle_frontier_trainers.h:2224
 msgid "LIAM"
-msgstr ""
+msgstr "利亚姆"
 
 #: src/data/contest_opponents.h:892
 msgid "TARVITAR"
-msgstr ""
+msgstr "基拉幼"
 
 #: src/data/contest_opponents.h:893
 msgid "MILO"
-msgstr ""
+msgstr "米洛"
 
 #: src/data/contest_opponents.h:921
 msgid "RELIA"
-msgstr ""
+msgstr "蔷薇薇"
 
 #: src/data/contest_opponents.h:922
 msgid "KARINA"
-msgstr ""
+msgstr "卡琳娜"
 
 #: src/data/contest_opponents.h:950
 msgid "DUODO"
-msgstr ""
+msgstr "利嘟嘟"
 
 #: src/data/contest_opponents.h:951
 msgid "BOBBY"
-msgstr ""
+msgstr "鲍比"
 
 #: src/data/contest_opponents.h:979
 msgid "PINCHIN"
-msgstr ""
+msgstr "颚蚁蚁"
 
 #: src/data/contest_opponents.h:980
 msgid "CLAIRE"
-msgstr ""
+msgstr "克莱尔"
 
 #: src/data/contest_opponents.h:1008
 msgid "NACAC"
-msgstr ""
+msgstr "仙人球"
 
 #: src/data/contest_opponents.h:1009
 msgid "WILLIE"
-msgstr ""
+msgstr "威利"
 
 #: src/data/contest_opponents.h:1037
 msgid "SHRAND"
-msgstr ""
+msgstr "王穿山"
 
 #: src/data/contest_opponents.h:1038
 msgid "CASSIDY"
-msgstr ""
+msgstr "卡西迪"
 
 #: src/data/contest_opponents.h:1066
 msgid "TOYBAL"
-msgstr ""
+msgstr "偶天秤"
 
 #: src/data/contest_opponents.h:1067
 msgid "MORGAN"
-msgstr ""
+msgstr "摩根"
 
 #: src/data/contest_opponents.h:1095
 msgid "CHAMCHAM"
-msgstr ""
+msgstr "恰恰姆"
 
 #: src/data/contest_opponents.h:1096 src/data/easy_chat/easy_chat_group_time.h:190
 msgid "SUMMER"
-msgstr ""
+msgstr "萨默"
 
 #: src/data/contest_opponents.h:1124
 msgid "SPININ"
-msgstr ""
+msgstr "斑晃晃"
 
 #: src/data/contest_opponents.h:1125
 msgid "MILES"
-msgstr ""
+msgstr "迈尔斯"
 
 #: src/data/contest_opponents.h:1153
 msgid "SWABY"
-msgstr ""
+msgstr "绵绵鸟"
 
 #: src/data/contest_opponents.h:1154
 msgid "AUDREY"
-msgstr ""
+msgstr "奥黛丽"
 
 #: src/data/contest_opponents.h:1182
 msgid "POINKER"
-msgstr ""
+msgstr "猪跳跳"
 
 #: src/data/contest_opponents.h:1183 src/data/battle_frontier/battle_frontier_trainers.h:2216 src/data/battle_frontier/battle_tent.h:690
 msgid "AVERY"
-msgstr ""
+msgstr "埃弗里"
 
 #: src/data/contest_opponents.h:1211
 msgid "KECON"
-msgstr ""
+msgstr "隐龙变"
 
 #: src/data/contest_opponents.h:1212
 msgid "ARIANA"
-msgstr ""
+msgstr "艾莉安"
 
 #: src/data/contest_opponents.h:1240
 msgid "GOLDEN"
-msgstr ""
+msgstr "金鱼角"
 
 #: src/data/contest_opponents.h:1241
 msgid "ASHTON"
-msgstr ""
+msgstr "阿什顿"
 
 #: src/data/contest_opponents.h:1269
 msgid "BOBOACH"
-msgstr ""
+msgstr "泥泥仔"
 
 #: src/data/contest_opponents.h:1270
 msgid "SANDRA"
-msgstr ""
+msgstr "桑德拉"
 
 #: src/data/contest_opponents.h:1298
 msgid "CORPY"
-msgstr ""
+msgstr "甲盔鸟"
 
 #: src/data/contest_opponents.h:1299
 msgid "CARSON"
-msgstr ""
+msgstr "卡森"
 
 #: src/data/contest_opponents.h:1327
 msgid "TADO"
-msgstr ""
+msgstr "童子莲"
 
 #: src/data/contest_opponents.h:1328
 msgid "KATRINA"
-msgstr ""
+msgstr "卡特琳"
 
 #: src/data/contest_opponents.h:1356
 msgid "BROWLO"
-msgstr ""
+msgstr "壳呆呆"
 
 #: src/data/contest_opponents.h:1357
 msgid "LUKE"
-msgstr ""
+msgstr "卢克"
 
 #: src/data/contest_opponents.h:1385
 msgid "FETCHIN"
-msgstr ""
+msgstr "葱鸭鸭"
 
 #: src/data/contest_opponents.h:1386 src/data/battle_frontier/battle_frontier_trainers.h:1920
 msgid "RAUL"
-msgstr ""
+msgstr "劳尔"
 
 #: src/data/contest_opponents.h:1414
 msgid "SEELEY"
-msgstr ""
+msgstr "海狮狮"
 
 #: src/data/contest_opponents.h:1415
 msgid "JADA"
-msgstr ""
+msgstr "杰达"
 
 #: src/data/contest_opponents.h:1443
 msgid "DROWZIN"
-msgstr ""
+msgstr "眠眠貘"
 
 #: src/data/contest_opponents.h:1444
 msgid "ZEEK"
-msgstr ""
+msgstr "齐克"
 
 #: src/data/contest_opponents.h:1472
 msgid "HITEMON"
-msgstr ""
+msgstr "拳郎郎"
 
 #: src/data/contest_opponents.h:1473
 msgid "DIEGO"
-msgstr ""
+msgstr "迭戈"
 
 #: src/data/contest_opponents.h:1501
 msgid "BLISS"
-msgstr ""
+msgstr "福蛋蛋"
 
 #: src/data/contest_opponents.h:1502
 msgid "ALIYAH"
-msgstr ""
+msgstr "阿莉雅"
 
 #: src/data/contest_opponents.h:1530
 msgid "KIDLEK"
-msgstr ""
+msgstr "击电怪"
 
 #: src/data/contest_opponents.h:1559
 msgid "SNUBBINS"
-msgstr ""
+msgstr "布鲁鲁"
 
 #: src/data/contest_opponents.h:1560
 msgid "DEVIN"
-msgstr ""
+msgstr "德文"
 
 #: src/data/contest_opponents.h:1588
 msgid "DREAVIS"
-msgstr ""
+msgstr "妖梦梦"
 
 #: src/data/contest_opponents.h:1589 src/data/battle_frontier/battle_frontier_trainers.h:1256
 msgid "TYLOR"
-msgstr ""
+msgstr "泰勒"
 
 #: src/data/contest_opponents.h:1617
 msgid "LAIRN"
-msgstr ""
+msgstr "多拉拉"
 
 #: src/data/contest_opponents.h:1618
 msgid "RONNIE"
-msgstr ""
+msgstr "罗尼"
 
 #: src/data/contest_opponents.h:1646
 msgid "SHIFTY"
-msgstr ""
+msgstr "天狗狗"
 
 #: src/data/contest_opponents.h:1647
 msgid "CLAUDIA"
-msgstr ""
+msgstr "克劳迪"
 
 #: src/data/contest_opponents.h:1675
 msgid "NINAS"
-msgstr ""
+msgstr "忍者忍"
 
 #: src/data/contest_opponents.h:1676
 msgid "ELIAS"
-msgstr ""
+msgstr "伊莱亚"
 
 #: src/data/contest_opponents.h:1704
 msgid "WELOW"
-msgstr ""
+msgstr "王燕燕"
 
 #: src/data/contest_opponents.h:1705
 msgid "JADE"
-msgstr ""
+msgstr "杰德"
 
 #: src/data/contest_opponents.h:1733
 msgid "YENA"
-msgstr ""
+msgstr "狼犬犬"
 
 #: src/data/contest_opponents.h:1734
 msgid "FRANCIS"
-msgstr ""
+msgstr "弗朗西"
 
 #: src/data/contest_opponents.h:1762
 msgid "TIFLY"
-msgstr ""
+msgstr "凤蝶蝶"
 
 #: src/data/contest_opponents.h:1763
 msgid "ALISHA"
-msgstr ""
+msgstr "艾丽莎"
 
 #: src/data/contest_opponents.h:1791
 msgid "KINGSEA"
-msgstr ""
+msgstr "王金鱼"
 
 #: src/data/contest_opponents.h:1792
 msgid "SAUL"
-msgstr ""
+msgstr "索尔"
 
 #: src/data/contest_opponents.h:1820
 msgid "CASTER"
-msgstr ""
+msgstr "泡泡飘"
 
 #: src/data/contest_opponents.h:1821
 msgid "FELICIA"
-msgstr ""
+msgstr "菲莉夏"
 
 #: src/data/contest_opponents.h:1849
 msgid "CHOKEM"
-msgstr ""
+msgstr "力豪豪"
 
 #: src/data/contest_opponents.h:1850
 msgid "EMILIO"
-msgstr ""
+msgstr "埃米利"
 
 #: src/data/contest_opponents.h:1878
 msgid "LOMBE"
-msgstr ""
+msgstr "小童莲"
 
 #: src/data/contest_opponents.h:1879
 msgid "KARLA"
-msgstr ""
+msgstr "卡拉"
 
 #: src/data/contest_opponents.h:1907
 msgid "VIPES"
-msgstr ""
+msgstr "匙蛇蛇"
 
 #: src/data/contest_opponents.h:1908
 msgid "DARRYL"
-msgstr ""
+msgstr "达里尔"
 
 #: src/data/contest_opponents.h:1936
 msgid "MERAIL"
-msgstr ""
+msgstr "鲸吼吼"
 
 #: src/data/contest_opponents.h:1937
 msgid "SELENA"
-msgstr ""
+msgstr "赛琳娜"
 
 #: src/data/contest_opponents.h:1965
 msgid "KARPAG"
-msgstr ""
+msgstr "王鲤鱼"
 
 #: src/data/contest_opponents.h:1966
 msgid "NOEL"
-msgstr ""
+msgstr "诺埃尔"
 
 #: src/data/contest_opponents.h:1994
 msgid "LUNONE"
-msgstr ""
+msgstr "石月月"
 
 #: src/data/contest_opponents.h:1995
 msgid "LACEY"
-msgstr ""
+msgstr "莱西"
 
 #: src/data/contest_opponents.h:2023
 msgid "ABSO"
-msgstr ""
+msgstr "阿勃勃"
 
 #: src/data/contest_opponents.h:2024
 msgid "CORBIN"
-msgstr ""
+msgstr "科尔宾"
 
 #: src/data/contest_opponents.h:2052
 msgid "EGGSOR"
-msgstr ""
+msgstr "蛋椰树"
 
 #: src/data/contest_opponents.h:2053
 msgid "GRACIE"
-msgstr ""
+msgstr "格蕾西"
 
 #: src/data/contest_opponents.h:2081
 msgid "CUBIN"
-msgstr ""
+msgstr "卡拉仔"
 
 #: src/data/contest_opponents.h:2082
 msgid "COLTIN"
-msgstr ""
+msgstr "科尔廷"
 
 #: src/data/contest_opponents.h:2110
 msgid "HITMON"
-msgstr ""
+msgstr "腿郎郎"
 
 #: src/data/contest_opponents.h:2111
 msgid "ELLIE"
-msgstr ""
+msgstr "艾莉"
 
 #: src/data/contest_opponents.h:2139
 msgid "SURTLE"
-msgstr ""
+msgstr "龟杰尼"
 
 #: src/data/contest_opponents.h:2140
 msgid "MARCUS"
-msgstr ""
+msgstr "马库斯"
 
 #: src/data/contest_opponents.h:2168
 msgid "KHANKAN"
-msgstr ""
+msgstr "袋袋兽"
 
 #: src/data/contest_opponents.h:2169
 msgid "KIARA"
-msgstr ""
+msgstr "琪亚拉"
 
 #: src/data/contest_opponents.h:2197
 msgid "PINOC"
-msgstr ""
+msgstr "果榛球"
 
 #: src/data/contest_opponents.h:2198 src/data/battle_frontier/battle_frontier_trainers.h:2256
 msgid "BRYCE"
-msgstr ""
+msgstr "布莱斯"
 
 #: src/data/contest_opponents.h:2226
 msgid "DILTOT"
-msgstr ""
+msgstr "弟弟龙"
 
 #: src/data/contest_opponents.h:2227
 msgid "JAMIE"
-msgstr ""
+msgstr "杰米"
 
 #: src/data/contest_opponents.h:2255
 msgid "DOOMOND"
-msgstr ""
+msgstr "加鲁黑"
 
 #: src/data/contest_opponents.h:2256 src/data/battle_frontier/apprentice.h:396
 msgid "JORGE"
-msgstr ""
+msgstr "豪尔赫"
 
 #: src/data/contest_opponents.h:2284
 msgid "MILKAN"
-msgstr ""
+msgstr "奶罐罐"
 
 #: src/data/contest_opponents.h:2285
 msgid "DEVON"
-msgstr ""
+msgstr "戴文"
 
 #: src/data/contest_opponents.h:2313
 msgid "RADOS"
-msgstr ""
+msgstr "鲤龙暴"
 
 #: src/data/contest_opponents.h:2314
 msgid "JUSTINA"
-msgstr ""
+msgstr "贾斯汀"
 
 #: src/data/contest_opponents.h:2342
 msgid "LOUDERD"
-msgstr ""
+msgstr "音爆爆"
 
 #: src/data/contest_opponents.h:2343
 msgid "RALPH"
-msgstr ""
+msgstr "拉尔夫"
 
 #: src/data/contest_opponents.h:2371
 msgid "SITTY"
-msgstr ""
+msgstr "尾喵喵"
 
 #: src/data/contest_opponents.h:2372 src/data/battle_frontier/apprentice.h:364
 msgid "ROSA"
-msgstr ""
+msgstr "罗莎"
 
 #: src/data/contest_opponents.h:2400
 msgid "SLING"
-msgstr ""
+msgstr "假王王"
 
 #: src/data/contest_opponents.h:2401
 msgid "KEATON"
-msgstr ""
+msgstr "基顿"
 
 #: src/data/contest_opponents.h:2429
 msgid "TARIA"
-msgstr ""
+msgstr "青鸟鸟"
 
 #: src/data/contest_opponents.h:2430
 msgid "MAYRA"
-msgstr ""
+msgstr "梅拉"
 
 #: src/data/contest_opponents.h:2458
 msgid "LIRKI"
-msgstr ""
+msgstr "莉安奇"
 
 #: src/data/contest_opponents.h:2459 src/data/battle_frontier/battle_frontier_trainers.h:1600
 msgid "LAMAR"
-msgstr ""
+msgstr "拉马尔"
 
 #: src/data/contest_opponents.h:2487
 msgid "BLOSSOM"
-msgstr ""
+msgstr "花美美"
 
 #: src/data/contest_opponents.h:2488
 msgid "AUBREY"
-msgstr ""
+msgstr "奥布里"
 
 #: src/data/contest_opponents.h:2516
 msgid "EYESAB"
-msgstr ""
+msgstr "眼勾魂"
 
 #: src/data/contest_opponents.h:2517
 msgid "NIGEL"
-msgstr ""
+msgstr "奈杰尔"
 
 #: src/data/contest_opponents.h:2545
 msgid "UTAN"
-msgstr ""
+msgstr "雀天然"
 
 #: src/data/contest_opponents.h:2546
 msgid "CAMILLE"
-msgstr ""
+msgstr "卡米耶"
 
 #: src/data/contest_opponents.h:2574
 msgid "PEDOS"
-msgstr ""
+msgstr "牙鲨鲨"
 
 #: src/data/contest_opponents.h:2575
 msgid "DEON"
-msgstr ""
+msgstr "迪昂"
 
 #: src/data/contest_opponents.h:2603
 msgid "LUVIS"
-msgstr ""
+msgstr "心鱼鱼"
 
 #: src/data/contest_opponents.h:2604
 msgid "JANELLE"
-msgstr ""
+msgstr "贾内尔"
 
 #: src/data/contest_opponents.h:2632
 msgid "HEROSS"
-msgstr ""
+msgstr "赫拉拉"
 
 #: src/data/contest_opponents.h:2633
 msgid "HEATH"
-msgstr ""
+msgstr "希斯"
 
 #: src/data/contest_opponents.h:2661
 msgid "RODLECT"
-msgstr ""
+msgstr "雷弹弹"
 
 #: src/data/contest_opponents.h:2662
 msgid "SASHA"
-msgstr ""
+msgstr "萨莎"
 
 #: src/data/contest_opponents.h:2690
 msgid "CHUPY"
-msgstr ""
+msgstr "丘皮皮"
 
 #: src/data/contest_opponents.h:2691
 msgid "FRANKIE"
-msgstr ""
+msgstr "弗兰基"
 
 #: src/data/contest_opponents.h:2719
 msgid "WOBET"
-msgstr ""
+msgstr "然翁翁"
 
 #: src/data/contest_opponents.h:2720
 msgid "HELEN"
-msgstr ""
+msgstr "海伦"
 
 #: src/data/contest_opponents.h:2748
 msgid "GAREN"
-msgstr ""
+msgstr "鬼耿耿"
 
 #: src/data/contest_opponents.h:2749
 msgid "CAMILE"
-msgstr ""
+msgstr "卡米尔"
 
 #: src/data/contest_opponents.h:2777
 msgid "GONPOR"
-msgstr ""
+msgstr "边多兽"
 
 #: src/data/contest_opponents.h:2778
 msgid "MARTIN"
-msgstr ""
+msgstr "马丁"
 
 #: src/data/contest_opponents.h:2806
 msgid "DRITE"
-msgstr ""
+msgstr "龙快快"
 
 #: src/data/contest_opponents.h:2807
 msgid "SERGIO"
-msgstr ""
+msgstr "塞尔吉"
 
 #: src/data/contest_opponents.h:2835
 msgid "MEOWY"
-msgstr ""
+msgstr "喵喵喵"
 
 #: src/data/contest_opponents.h:2836
 msgid "KAILEY"
-msgstr ""
+msgstr "凯丽"
 
 #: src/data/contest_opponents.h:2864
 msgid "NYX"
-msgstr ""
+msgstr "唇姐姐"
 
 #: src/data/contest_opponents.h:2865
 msgid "PERLA"
-msgstr ""
+msgstr "佩拉"
 
 #: src/data/contest_opponents.h:2893
 msgid "GEPITO"
-msgstr ""
+msgstr "比克波"
 
 #: src/data/contest_opponents.h:2894
 msgid "CLARA"
-msgstr ""
+msgstr "克拉拉"
 
 #: src/data/contest_opponents.h:2922
 msgid "SPEON"
-msgstr ""
+msgstr "伊布阳"
 
 #: src/data/contest_opponents.h:2923
 msgid "JAKOB"
-msgstr ""
+msgstr "雅各布"
 
 #: src/data/contest_opponents.h:2951
 msgid "SLOWGO"
-msgstr ""
+msgstr "王呆呆"
 
 #: src/data/contest_opponents.h:2952
 msgid "TREY"
-msgstr ""
+msgstr "特雷"
 
 #: src/data/contest_opponents.h:2980
 msgid "URSING"
-msgstr ""
+msgstr "熊圈圈"
 
 #: src/data/contest_opponents.h:2981
 msgid "LANE"
-msgstr ""
+msgstr "莱恩"

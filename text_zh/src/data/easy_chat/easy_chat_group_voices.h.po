@@ -7,236 +7,251 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_voices.h:10
 msgid "!!"
-msgstr ""
+msgstr "！！"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:16
 msgid "?!"
-msgstr ""
+msgstr "？！"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:34
 msgid "…!"
-msgstr ""
+msgstr "……！"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:40
 msgid "………"
-msgstr ""
+msgstr "………"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:52
 msgid "- - -"
-msgstr ""
+msgstr "- - -"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:58
 msgid "UH-OH"
-msgstr ""
+msgstr "糟了"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:64
 msgid "WAAAH"
-msgstr ""
+msgstr "哇啊啊"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:70
 msgid "AHAHA"
-msgstr ""
+msgstr "啊哈哈"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:76
 msgid "OH?"
-msgstr ""
+msgstr "哦？"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:82
 msgid "NOPE"
-msgstr ""
+msgstr "不要"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:88
 msgid "URGH"
-msgstr ""
+msgstr "呃"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:94
 msgid "HMM"
-msgstr ""
+msgstr "嗯……"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:100
 msgid "WHOAH"
-msgstr ""
+msgstr "哇哦"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:106
 msgid "WROOOAAR!"
-msgstr ""
+msgstr "吼喔喔！"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:112
 msgid "WOW"
-msgstr ""
+msgstr "哇"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:118
 msgid "GIGGLE"
-msgstr ""
+msgstr "嘻嘻"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:124
 msgid "SIGH"
-msgstr ""
+msgstr "唉"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:130
 msgid "UNBELIEVABLE"
-msgstr ""
+msgstr "不敢相信"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:136
 msgid "CRIES"
-msgstr ""
+msgstr "哭了"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:142
 msgid "AGREE"
-msgstr ""
+msgstr "同意"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:148
 msgid "EH?"
-msgstr ""
+msgstr "诶？"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:154
 msgid "CRY"
-msgstr ""
+msgstr "哭"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:160
 msgid "EHEHE"
-msgstr ""
+msgstr "诶嘿嘿"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:166
 msgid "OI, OI, OI"
-msgstr ""
+msgstr "喂喂喂"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:172
 msgid "OH, YEAH"
-msgstr ""
+msgstr "噢耶"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:178
 msgid "OH"
-msgstr ""
+msgstr "哦"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:184
 msgid "OOPS"
-msgstr ""
+msgstr "哎呀"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:190
 msgid "SHOCKED"
-msgstr ""
+msgstr "震惊"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:196
 msgid "EEK"
-msgstr ""
+msgstr "呀"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:202
 msgid "GRAAAH"
-msgstr ""
+msgstr "咕啊啊"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:208
 msgid "GWAHAHAHA"
-msgstr ""
+msgstr "咕哇哈哈哈"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:214
 msgid "WAY"
-msgstr ""
+msgstr "样子"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:220
 msgid "TCH"
-msgstr ""
+msgstr "啧"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:226
 msgid "HEHE"
-msgstr ""
+msgstr "嘿嘿"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:232
 msgid "HAH"
-msgstr ""
+msgstr "哈"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:238
 msgid "YUP"
-msgstr ""
+msgstr "嗯嗯"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:244
 msgid "HAHAHA"
-msgstr ""
+msgstr "哈哈哈"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:250
 msgid "AIYEEH"
-msgstr ""
+msgstr "哎呀呀"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:256
 msgid "HIYAH"
-msgstr ""
+msgstr "嘿呀"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:262
 msgid "FUFUFU"
-msgstr ""
+msgstr "呼呼呼"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:268
 msgid "LOL"
-msgstr ""
+msgstr "笑死"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:274
 msgid "SNORT"
-msgstr ""
+msgstr "哼哧"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:280
 msgid "HUMPH"
-msgstr ""
+msgstr "哼"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:286
 msgid "HEHEHE"
-msgstr ""
+msgstr "嘿嘿嘿"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:292
 msgid "HEH"
-msgstr ""
+msgstr "呵"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:298
 msgid "HOHOHO"
-msgstr ""
+msgstr "呵呵呵"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:304
 msgid "UH-HUH"
-msgstr ""
+msgstr "嗯哼"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:310
 msgid "OH, DEAR"
-msgstr ""
+msgstr "天哪"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:316
 msgid "ARRGH"
-msgstr ""
+msgstr "啊啊啊"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:322
 msgid "MUFUFU"
-msgstr ""
+msgstr "姆呼呼"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:328
 msgid "MMM"
-msgstr ""
+msgstr "嗯——"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:334
 msgid "OH-KAY"
-msgstr ""
+msgstr "好——的"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:340
 msgid "OKAY"
-msgstr ""
+msgstr "好的"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:346
 msgid "LALALA"
-msgstr ""
+msgstr "啦啦啦"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:352
 msgid "YAY"
-msgstr ""
+msgstr "耶"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:358
 msgid "AWW"
-msgstr ""
+msgstr "哎——"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:364
 msgid "WOWEE"
-msgstr ""
+msgstr "哇塞"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:370
 msgid "GWAH"
-msgstr ""
+msgstr "咕哇"
 
 #: src/data/easy_chat/easy_chat_group_voices.h:376
 msgid "WAHAHAHA"
-msgstr ""
+msgstr "哇哈哈哈"
+
+#: src/data/easy_chat/easy_chat_group_voices.h:4
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "!"
+msgstr "！"
+
+#: src/data/easy_chat/easy_chat_group_voices.h:46
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "-"
+msgstr "——"
+
+#: src/data/easy_chat/easy_chat_group_voices.h:28
+msgctxt "src/data/easy_chat/easy_chat_group_voices.h"
+msgid "…"
+msgstr "……"

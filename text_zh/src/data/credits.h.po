@@ -7,632 +7,632 @@ msgstr ""
 
 #: src/data/credits.h:66
 msgid "POKéMON EMERALD VERSION"
-msgstr ""
+msgstr "宝可梦 绿宝石"
 
 #: src/data/credits.h:67
 msgid "Credits"
-msgstr ""
+msgstr "制作人员"
 
 #: src/data/credits.h:68
 msgid "Executive Director"
-msgstr ""
+msgstr "执行导演"
 
 #: src/data/credits.h:69
 msgid "Director"
-msgstr ""
+msgstr "导演"
 
 #: src/data/credits.h:70
 msgid "Art Director"
-msgstr ""
+msgstr "美术导演"
 
 #: src/data/credits.h:71
 msgid "Battle Director"
-msgstr ""
+msgstr "对战导演"
 
 #: src/data/credits.h:72
 msgid "Main Programmer"
-msgstr ""
+msgstr "主程序"
 
 #: src/data/credits.h:73
 msgid "Battle System Programmers"
-msgstr ""
+msgstr "对战系统程序"
 
 #: src/data/credits.h:74
 msgid "Field System Programmer"
-msgstr ""
+msgstr "地图系统程序"
 
 #: src/data/credits.h:75
 msgid "Programmers"
-msgstr ""
+msgstr "程序"
 
 #: src/data/credits.h:76
 msgid "Main Graphic Designer"
-msgstr ""
+msgstr "主美术设计"
 
 #: src/data/credits.h:77
 msgid "Graphic Designers"
-msgstr ""
+msgstr "美术设计"
 
 #: src/data/credits.h:78
 msgid "POKéMON Designers"
-msgstr ""
+msgstr "宝可梦设计"
 
 #: src/data/credits.h:79
 msgid "Music Composition"
-msgstr ""
+msgstr "作曲"
 
 #: src/data/credits.h:80
 msgid "Sound Effects & POKéMON Voices"
-msgstr ""
+msgstr "音效与宝可梦叫声"
 
 #: src/data/credits.h:81
 msgid "Game Designers"
-msgstr ""
+msgstr "游戏设计"
 
 #: src/data/credits.h:82
 msgid "Scenario Plot"
-msgstr ""
+msgstr "剧情构思"
 
 #: src/data/credits.h:83
 msgid "Scenario"
-msgstr ""
+msgstr "剧本"
 
 #: src/data/credits.h:84
 msgid "Script Designers"
-msgstr ""
+msgstr "脚本设计"
 
 #: src/data/credits.h:85
 msgid "Map Designers"
-msgstr ""
+msgstr "地图设计"
 
 #: src/data/credits.h:86
 msgid "Map Data Designers"
-msgstr ""
+msgstr "地图数据设计"
 
 #: src/data/credits.h:87
 msgid "Parametric Designers"
-msgstr ""
+msgstr "数值设计"
 
 #: src/data/credits.h:88
 msgid "POKéDEX Text"
-msgstr ""
+msgstr "图鉴文本"
 
 #: src/data/credits.h:89
 msgid "Environment & Tool Programmers"
-msgstr ""
+msgstr "环境与工具程序"
 
 #: src/data/credits.h:90
 msgid "NCL Product Testing"
-msgstr ""
+msgstr "NCL 产品测试"
 
 #: src/data/credits.h:91
 msgid "Special Thanks"
-msgstr ""
+msgstr "特别感谢"
 
 #: src/data/credits.h:92
 msgid "Coordinators"
-msgstr ""
+msgstr "协调"
 
 #: src/data/credits.h:93
 msgid "Producers"
-msgstr ""
+msgstr "制作人"
 
 #: src/data/credits.h:94
 msgid "Executive Producers"
-msgstr ""
+msgstr "执行制作人"
 
 #: src/data/credits.h:95
 msgid "Information Supervisors"
-msgstr ""
+msgstr "信息监修"
 
 #: src/data/credits.h:96
 msgid "Task Managers"
-msgstr ""
+msgstr "任务管理"
 
 #: src/data/credits.h:97
 msgid "Braille Code Check"
-msgstr ""
+msgstr "点字校对"
 
 #: src/data/credits.h:98
 msgid "World Director"
-msgstr ""
+msgstr "世界观导演"
 
 #: src/data/credits.h:99
 msgid "Battle Frontier Data"
-msgstr ""
+msgstr "对战开拓区数据"
 
 #: src/data/credits.h:100
 msgid "Support Programmers"
-msgstr ""
+msgstr "支援程序"
 
 #: src/data/credits.h:101
 msgid "Artwork"
-msgstr ""
+msgstr "插画"
 
 #: src/data/credits.h:102
 msgid "Lead Programmer"
-msgstr ""
+msgstr "首席程序"
 
 #: src/data/credits.h:103
 msgid "Lead Graphic Artist"
-msgstr ""
+msgstr "首席美术"
 
 #: src/data/credits.h:104
 msgid "Satoshi Tajiri"
-msgstr ""
+msgstr "Satoshi Tajiri"
 
 #: src/data/credits.h:105
 msgid "Junichi Masuda"
-msgstr ""
+msgstr "Junichi Masuda"
 
 #: src/data/credits.h:106
 msgid "Ken Sugimori"
-msgstr ""
+msgstr "Ken Sugimori"
 
 #: src/data/credits.h:107
 msgid "Shigeki Morimoto"
-msgstr ""
+msgstr "Shigeki Morimoto"
 
 #: src/data/credits.h:108
 msgid "Tetsuya Watanabe"
-msgstr ""
+msgstr "Tetsuya Watanabe"
 
 #: src/data/credits.h:109
 msgid "Hisashi Sogabe"
-msgstr ""
+msgstr "Hisashi Sogabe"
 
 #: src/data/credits.h:110
 msgid "Sosuke Tamada"
-msgstr ""
+msgstr "Sosuke Tamada"
 
 #: src/data/credits.h:111
 msgid "Akito Mori"
-msgstr ""
+msgstr "Akito Mori"
 
 #: src/data/credits.h:112
 msgid "Keita Kagaya"
-msgstr ""
+msgstr "Keita Kagaya"
 
 #: src/data/credits.h:113
 msgid "Yoshinori Matsuda"
-msgstr ""
+msgstr "Yoshinori Matsuda"
 
 #: src/data/credits.h:114
 msgid "Hiroyuki Nakamura"
-msgstr ""
+msgstr "Hiroyuki Nakamura"
 
 #: src/data/credits.h:115
 msgid "Masao Taya"
-msgstr ""
+msgstr "Masao Taya"
 
 #: src/data/credits.h:116
 msgid "Satoshi Nohara"
-msgstr ""
+msgstr "Satoshi Nohara"
 
 #: src/data/credits.h:117
 msgid "Tomomichi Ohta"
-msgstr ""
+msgstr "Tomomichi Ohta"
 
 #: src/data/credits.h:118
 msgid "Miyuki Iwasawa"
-msgstr ""
+msgstr "Miyuki Iwasawa"
 
 #: src/data/credits.h:119
 msgid "Takenori Ohta"
-msgstr ""
+msgstr "Takenori Ohta"
 
 #: src/data/credits.h:120
 msgid "Hironobu Yoshida"
-msgstr ""
+msgstr "Hironobu Yoshida"
 
 #: src/data/credits.h:121
 msgid "Motofumi Fujiwara"
-msgstr ""
+msgstr "Motofumi Fujiwara"
 
 #: src/data/credits.h:122
 msgid "Satoshi Ohta"
-msgstr ""
+msgstr "Satoshi Ohta"
 
 #: src/data/credits.h:123
 msgid "Asuka Iwashita"
-msgstr ""
+msgstr "Asuka Iwashita"
 
 #: src/data/credits.h:124
 msgid "Aimi Tomita"
-msgstr ""
+msgstr "Aimi Tomita"
 
 #: src/data/credits.h:125
 msgid "Takao Unno"
-msgstr ""
+msgstr "Takao Unno"
 
 #: src/data/credits.h:126
 msgid "Kanako Eo"
-msgstr ""
+msgstr "Kanako Eo"
 
 #: src/data/credits.h:127
 msgid "Jun Okutani"
-msgstr ""
+msgstr "Jun Okutani"
 
 #: src/data/credits.h:128
 msgid "Atsuko Nishida"
-msgstr ""
+msgstr "Atsuko Nishida"
 
 #: src/data/credits.h:129
 msgid "Muneo Saito"
-msgstr ""
+msgstr "Muneo Saito"
 
 #: src/data/credits.h:130
 msgid "Rena Yoshikawa"
-msgstr ""
+msgstr "Rena Yoshikawa"
 
 #: src/data/credits.h:131
 msgid "Go Ichinose"
-msgstr ""
+msgstr "Go Ichinose"
 
 #: src/data/credits.h:132
 msgid "Morikazu Aoki"
-msgstr ""
+msgstr "Morikazu Aoki"
 
 #: src/data/credits.h:133
 msgid "Koji Nishino"
-msgstr ""
+msgstr "Koji Nishino"
 
 #: src/data/credits.h:134
 msgid "Kenji Matsushima"
-msgstr ""
+msgstr "Kenji Matsushima"
 
 #: src/data/credits.h:135
 msgid "Tetsuji Ohta"
-msgstr ""
+msgstr "Tetsuji Ohta"
 
 #: src/data/credits.h:136
 msgid "Hitomi Sato"
-msgstr ""
+msgstr "Hitomi Sato"
 
 #: src/data/credits.h:137
 msgid "Takeshi Kawachimaru"
-msgstr ""
+msgstr "Takeshi Kawachimaru"
 
 #: src/data/credits.h:138
 msgid "Teruyuki Shimoyamada"
-msgstr ""
+msgstr "Teruyuki Shimoyamada"
 
 #: src/data/credits.h:139
 msgid "Shigeru Ohmori"
-msgstr ""
+msgstr "Shigeru Ohmori"
 
 #: src/data/credits.h:140
 msgid "Tadashi Takahashi"
-msgstr ""
+msgstr "Tadashi Takahashi"
 
 #: src/data/credits.h:141
 msgid "Toshinobu Matsumiya"
-msgstr ""
+msgstr "Toshinobu Matsumiya"
 
 #: src/data/credits.h:142
 msgid "Akihito Tomisawa"
-msgstr ""
+msgstr "Akihito Tomisawa"
 
 #: src/data/credits.h:143
 msgid "Hiroki Enomoto"
-msgstr ""
+msgstr "Hiroki Enomoto"
 
 #: src/data/credits.h:144
 msgid "Kazuyuki Terada"
-msgstr ""
+msgstr "Kazuyuki Terada"
 
 #: src/data/credits.h:145
 msgid "Yuri Sakurai"
-msgstr ""
+msgstr "Yuri Sakurai"
 
 #: src/data/credits.h:146
 msgid "Hiromi Sagawa"
-msgstr ""
+msgstr "Hiromi Sagawa"
 
 #: src/data/credits.h:147
 msgid "Kenji Tominaga"
-msgstr ""
+msgstr "Kenji Tominaga"
 
 #: src/data/credits.h:148
 msgid "Yoshio Tajiri"
-msgstr ""
+msgstr "Yoshio Tajiri"
 
 #: src/data/credits.h:149
 msgid "Teiko Sasaki"
-msgstr ""
+msgstr "Teiko Sasaki"
 
 #: src/data/credits.h:150
 msgid "Sachiko Hamano"
-msgstr ""
+msgstr "Sachiko Hamano"
 
 #: src/data/credits.h:151
 msgid "Chie Matsumiya"
-msgstr ""
+msgstr "Chie Matsumiya"
 
 #: src/data/credits.h:152
 msgid "Akiko Shinozaki"
-msgstr ""
+msgstr "Akiko Shinozaki"
 
 #: src/data/credits.h:153
 msgid "Astuko Fujii"
-msgstr ""
+msgstr "Astuko Fujii"
 
 #: src/data/credits.h:154
 msgid "Nozomu Saito"
-msgstr ""
+msgstr "Nozomu Saito"
 
 #: src/data/credits.h:155
 msgid "Kenkichi Toyama"
-msgstr ""
+msgstr "Kenkichi Toyama"
 
 #: src/data/credits.h:156
 msgid "Suguru Nakatsui"
-msgstr ""
+msgstr "Suguru Nakatsui"
 
 #: src/data/credits.h:157
 msgid "Yumi Funasaka"
-msgstr ""
+msgstr "Yumi Funasaka"
 
 #: src/data/credits.h:158
 msgid "Naoko Yanase"
-msgstr ""
+msgstr "Naoko Yanase"
 
 #: src/data/credits.h:159
 msgid "NCL Super Mario Club"
-msgstr ""
+msgstr "NCL 超级马力欧俱乐部"
 
 #: src/data/credits.h:160
 msgid "Atsushi Tada"
-msgstr ""
+msgstr "Atsushi Tada"
 
 #: src/data/credits.h:161
 msgid "Takahiro Ohnishi"
-msgstr ""
+msgstr "Takahiro Ohnishi"
 
 #: src/data/credits.h:162
 msgid "Norihide Okamura"
-msgstr ""
+msgstr "Norihide Okamura"
 
 #: src/data/credits.h:163
 msgid "Hiro Nakamura"
-msgstr ""
+msgstr "Hiro Nakamura"
 
 #: src/data/credits.h:164
 msgid "Hiroyuki Uesugi"
-msgstr ""
+msgstr "Hiroyuki Uesugi"
 
 #: src/data/credits.h:165
 msgid "Teruki Murakawa"
-msgstr ""
+msgstr "Teruki Murakawa"
 
 #: src/data/credits.h:166
 msgid "Akira Kinashi"
-msgstr ""
+msgstr "Akira Kinashi"
 
 #: src/data/credits.h:167
 msgid "Michiko Takizawa"
-msgstr ""
+msgstr "Michiko Takizawa"
 
 #: src/data/credits.h:168
 msgid "Makiko Takada"
-msgstr ""
+msgstr "Makiko Takada"
 
 #: src/data/credits.h:169
 msgid "Takanao Kondo"
-msgstr ""
+msgstr "Takanao Kondo"
 
 #: src/data/credits.h:170
 msgid "Ai Mashima"
-msgstr ""
+msgstr "Ai Mashima"
 
 #: src/data/credits.h:171
 msgid "Gakuji Nomoto"
-msgstr ""
+msgstr "Gakuji Nomoto"
 
 #: src/data/credits.h:172
 msgid "Takehiro Izushi"
-msgstr ""
+msgstr "Takehiro Izushi"
 
 #: src/data/credits.h:173
 msgid "Hitoshi Yamagami"
-msgstr ""
+msgstr "Hitoshi Yamagami"
 
 #: src/data/credits.h:174
 msgid "Kyoko Watanabe"
-msgstr ""
+msgstr "Kyoko Watanabe"
 
 #: src/data/credits.h:175
 msgid "Takao Nakano"
-msgstr ""
+msgstr "Takao Nakano"
 
 #: src/data/credits.h:176
 msgid "Hiroyuki Jinnai"
-msgstr ""
+msgstr "Hiroyuki Jinnai"
 
 #: src/data/credits.h:177
 msgid "Hiroaki Tsuru"
-msgstr ""
+msgstr "Hiroaki Tsuru"
 
 #: src/data/credits.h:178
 msgid "Tsunekaz Ishihara"
-msgstr ""
+msgstr "Tsunekaz Ishihara"
 
 #: src/data/credits.h:179
 msgid "Satoru Iwata"
-msgstr ""
+msgstr "Satoru Iwata"
 
 #: src/data/credits.h:180
 msgid "Kazuya Suyama"
-msgstr ""
+msgstr "Kazuya Suyama"
 
 #: src/data/credits.h:181
 msgid "Satoshi Mitsuhara"
-msgstr ""
+msgstr "Satoshi Mitsuhara"
 
 #: src/data/credits.h:182
 msgid "Japan Braille Library"
-msgstr ""
+msgstr "日本点字图书馆"
 
 #: src/data/credits.h:183
 msgid "Tomotaka Komura"
-msgstr ""
+msgstr "Tomotaka Komura"
 
 #: src/data/credits.h:184
 msgid "Mikiko Ohhashi"
-msgstr ""
+msgstr "Mikiko Ohhashi"
 
 #: src/data/credits.h:185
 msgid "Daisuke Hoshino"
-msgstr ""
+msgstr "Daisuke Hoshino"
 
 #: src/data/credits.h:186
 msgid "Kenjiro Ito"
-msgstr ""
+msgstr "Kenjiro Ito"
 
 #: src/data/credits.h:187
 msgid "Rui Kawaguchi"
-msgstr ""
+msgstr "Rui Kawaguchi"
 
 #: src/data/credits.h:188
 msgid "Shunsuke Kohori"
-msgstr ""
+msgstr "Shunsuke Kohori"
 
 #: src/data/credits.h:189
 msgid "Sachiko Nakamichi"
-msgstr ""
+msgstr "Sachiko Nakamichi"
 
 #: src/data/credits.h:190
 msgid "Fujiko Nomura"
-msgstr ""
+msgstr "Fujiko Nomura"
 
 #: src/data/credits.h:191
 msgid "Kazuki Yoshihara"
-msgstr ""
+msgstr "Kazuki Yoshihara"
 
 #: src/data/credits.h:192
 msgid "Retsuji Nomoto"
-msgstr ""
+msgstr "Retsuji Nomoto"
 
 #: src/data/credits.h:193
 msgid "Azusa Tajima"
-msgstr ""
+msgstr "Azusa Tajima"
 
 #: src/data/credits.h:194
 msgid "Shusaku Egami"
-msgstr ""
+msgstr "Shusaku Egami"
 
 #: src/data/credits.h:195
 msgid "Package & Manual Illustration"
-msgstr ""
+msgstr "包装与说明书插画"
 
 #: src/data/credits.h:196
 msgid "English Version Coordinators"
-msgstr ""
+msgstr "英文版协调"
 
 #: src/data/credits.h:197
 msgid "Translator"
-msgstr ""
+msgstr "翻译"
 
 #: src/data/credits.h:198
 msgid "Text Editor"
-msgstr ""
+msgstr "文本编辑"
 
 #: src/data/credits.h:199
 msgid "NCL Coordinator"
-msgstr ""
+msgstr "NCL 协调"
 
 #: src/data/credits.h:200
 msgid "Graphic Designer"
-msgstr ""
+msgstr "美术设计"
 
 #: src/data/credits.h:201
 msgid "NOA Product Testing"
-msgstr ""
+msgstr "NOA 产品测试"
 
 #: src/data/credits.h:202
 msgid "Hideyuki Nakajima"
-msgstr ""
+msgstr "Hideyuki Nakajima"
 
 #: src/data/credits.h:203
 msgid "Hidenori Saeki"
-msgstr ""
+msgstr "Hidenori Saeki"
 
 #: src/data/credits.h:204
 msgid "Yoko Watanabe"
-msgstr ""
+msgstr "Yoko Watanabe"
 
 #: src/data/credits.h:205
 msgid "Sakae Kimura"
-msgstr ""
+msgstr "Sakae Kimura"
 
 #: src/data/credits.h:206
 msgid "Chiaki Shinkai"
-msgstr ""
+msgstr "Chiaki Shinkai"
 
 #: src/data/credits.h:207
 msgid "Seth McMahill"
-msgstr ""
+msgstr "Seth McMahill"
 
 #: src/data/credits.h:208
 msgid "Nob Ogasawara"
-msgstr ""
+msgstr "Nob Ogasawara"
 
 #: src/data/credits.h:209
 msgid "Teresa Lillygren"
-msgstr ""
+msgstr "Teresa Lillygren"
 
 #: src/data/credits.h:210
 msgid "Kimiko Nakamichi"
-msgstr ""
+msgstr "Kimiko Nakamichi"
 
 #: src/data/credits.h:211
 msgid "Souichi Yamamoto"
-msgstr ""
+msgstr "Souichi Yamamoto"
 
 #: src/data/credits.h:212
 msgid "Yuichiro Ito"
-msgstr ""
+msgstr "Yuichiro Ito"
 
 #: src/data/credits.h:213
 msgid "Thomas Hertzog"
-msgstr ""
+msgstr "Thomas Hertzog"
 
 #: src/data/credits.h:214
 msgid "Mika Kurosawa"
-msgstr ""
+msgstr "Mika Kurosawa"
 
 #: src/data/credits.h:215
 msgid "National Federation of the Blind"
-msgstr ""
+msgstr "美国全国盲人联合会"
 
 #: src/data/credits.h:216
 msgid "Patricia A. Maurer"
-msgstr ""
+msgstr "Patricia A. Maurer"
 
 #: src/data/credits.h:217
 msgid "European Blind Union"
-msgstr ""
+msgstr "欧洲盲人联盟"
 
 #: src/data/credits.h:218
 msgid "Australian Braille Authority"
-msgstr ""
+msgstr "澳大利亚盲文管理局"
 
 #: src/data/credits.h:219
 msgid "Royal New Zealand Federation for the Blind"
-msgstr ""
+msgstr "新西兰皇家盲人基金会"
 
 #: src/data/credits.h:220
 msgid "Motoyasu Tojima"
-msgstr ""
+msgstr "Motoyasu Tojima"
 
 #: src/data/credits.h:221
 msgid "Nicola Pratt-Barlow"
-msgstr ""
+msgstr "Nicola Pratt-Barlow"
 
 #: src/data/credits.h:222
 msgid "Shellie Dow"
-msgstr ""
+msgstr "Shellie Dow"
 
 #: src/data/credits.h:223
 msgid "Erik Johnson"
-msgstr ""
+msgstr "Erik Johnson"

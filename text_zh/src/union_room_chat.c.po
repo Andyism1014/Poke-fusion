@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/union_room_chat.c:744 src/data/easy_chat/easy_chat_group_voices.h:28
 msgid "…"
-msgstr ""
+msgstr "…"

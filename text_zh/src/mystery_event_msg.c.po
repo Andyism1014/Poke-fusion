@@ -10,59 +10,77 @@ msgid ""
 "Obtained a {STR_VAR_2} BERRY!\n"
 "Dad has it at PETALBURG GYM."
 msgstr ""
+"得到了{STR_VAR_2}果！\n"
+"爸爸在橙华道馆替你保管着。"
 
 #: src/mystery_event_msg.c:4
 msgid ""
 "The {STR_VAR_1} BERRY transformed into\n"
 "one {STR_VAR_2} BERRY."
 msgstr ""
+"{STR_VAR_1}果变成了\n"
+"一个{STR_VAR_2}果。"
 
 #: src/mystery_event_msg.c:5
 msgid ""
 "The {STR_VAR_1} BERRY has already been\n"
 "obtained."
 msgstr ""
+"已经得到过\n"
+"{STR_VAR_1}果了。"
 
 #: src/mystery_event_msg.c:6
 msgid ""
 "A special RIBBON was awarded to\n"
 "your party POKéMON."
 msgstr ""
+"同行的宝可梦\n"
+"获得了特别的奖章。"
 
 #: src/mystery_event_msg.c:7
 msgid ""
 "The POKéDEX has been upgraded\n"
 "with the NATIONAL MODE."
 msgstr ""
+"宝可梦图鉴升级了，\n"
+"加入了全国模式。"
 
 #: src/mystery_event_msg.c:8
 msgid "A rare word has been added."
-msgstr ""
+msgstr "新增了一个稀有词语。"
 
 #: src/mystery_event_msg.c:9
 msgid "{STR_VAR_1} was sent over!"
-msgstr ""
+msgstr "{STR_VAR_1}被送过来了！"
 
 #: src/mystery_event_msg.c:10
 msgid ""
 "Your party is full.\n"
 "{STR_VAR_1} could not be sent over."
 msgstr ""
+"同行的宝可梦已满。\n"
+"无法送来{STR_VAR_1}。"
 
 #: src/mystery_event_msg.c:11
 msgid ""
 "A new TRAINER has arrived in\n"
 "HOENN."
 msgstr ""
+"有一位新的训练家\n"
+"来到了丰缘地区。"
 
 #: src/mystery_event_msg.c:12
 msgid ""
 "A new adversary has arrived in the\n"
 "BATTLE TOWER."
 msgstr ""
+"有一位新的对手\n"
+"来到了对战塔。"
 
 #: src/mystery_event_msg.c:13
 msgid ""
 "This data can't be used in\n"
 "this version."
 msgstr ""
+"这个数据无法在\n"
+"这个版本中使用。"

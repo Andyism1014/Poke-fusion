@@ -7,8 +7,8 @@ msgstr ""
 
 #: src/trainer_fan_club.c:275
 msgid "LT. SURGE"
-msgstr ""
+msgstr "马志士"
 
 #: src/trainer_fan_club.c:276
 msgid "KOGA"
-msgstr ""
+msgstr "阿桔"

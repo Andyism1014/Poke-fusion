@@ -7,260 +7,270 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_endings.h:4
 msgid "WILL"
-msgstr ""
+msgstr "会"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:10
 msgid "WILL BE HERE"
-msgstr ""
+msgstr "会来这里"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:16
 msgid "OR"
-msgstr ""
+msgstr "或者"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:22
 msgid "TIMES"
-msgstr ""
+msgstr "次"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:28
 msgid "WONDER"
-msgstr ""
+msgstr "想知道"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:34
 msgid "IS IT?"
-msgstr ""
+msgstr "是吗？"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:40
 msgid "BE"
-msgstr ""
+msgstr "成为"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:46
 msgid "GIMME"
-msgstr ""
+msgstr "给我嘛"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:52
 msgid "COULD"
-msgstr ""
+msgstr "可以"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:58
 msgid "LIKELY TO"
-msgstr ""
+msgstr "可能会"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:64
 msgid "WOULD"
-msgstr ""
+msgstr "会吧"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:70
 msgid "IS"
-msgstr ""
+msgstr "是"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:76
 msgid "ISN'T IT?"
-msgstr ""
+msgstr "不是吗？"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:94
 msgid "ARE"
-msgstr ""
+msgstr "都是"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:100
 msgid "WAS"
-msgstr ""
+msgstr "那时是"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:106
 msgid "WERE"
-msgstr ""
+msgstr "曾是"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:112
 msgid "THOSE"
-msgstr ""
+msgstr "那些"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:118
 msgid "ISN'T"
-msgstr ""
+msgstr "不是"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:124
 msgid "WON'T"
-msgstr ""
+msgstr "不会"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:130
 msgid "CAN'T"
-msgstr ""
+msgstr "不能"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:136
 msgid "CAN"
-msgstr ""
+msgstr "能"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:142
 msgid "DON'T"
-msgstr ""
+msgstr "不要"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:148
 msgid "DO"
-msgstr ""
+msgstr "做"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:154
 msgid "DOES"
-msgstr ""
+msgstr "会做"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:160
 msgid "WHOM"
-msgstr ""
+msgstr "何人"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:166
 msgid "WHICH"
-msgstr ""
+msgstr "哪个"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:172
 msgid "WASN'T"
-msgstr ""
+msgstr "并不是"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:178
 msgid "WEREN'T"
-msgstr ""
+msgstr "都不是"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:190
 msgid "HAVEN'T"
-msgstr ""
+msgstr "还没"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:202
 msgid "AN"
-msgstr ""
+msgstr "一只"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:208
 msgid "NOT"
-msgstr ""
+msgstr "不"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:214
 msgid "THERE"
-msgstr ""
+msgstr "那里"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:220
 msgid "OK?"
-msgstr ""
+msgstr "好吗？"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:226
 msgid "SO"
-msgstr ""
+msgstr "所以"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:232
 msgid "MAYBE"
-msgstr ""
+msgstr "也许"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:238
 msgid "ABOUT"
-msgstr ""
+msgstr "关于"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:244
 msgid "OVER"
-msgstr ""
+msgstr "完了"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:250
 msgid "IT"
-msgstr ""
+msgstr "它"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:256
 msgid "ALL"
-msgstr ""
+msgstr "全部"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:262
 msgid "FOR"
-msgstr ""
+msgstr "为了"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:268 src/fusion/fusion_ui.c:1016
 msgid "ON"
-msgstr ""
+msgstr "开"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:274 src/fusion/fusion_ui.c:1017
 msgid "OFF"
-msgstr ""
+msgstr "关"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:280
 msgid "AS"
-msgstr ""
+msgstr "作为"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:286
 msgid "TO"
-msgstr ""
+msgstr "向"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:292
 msgid "WITH"
-msgstr ""
+msgstr "跟"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:298
 msgid "BETTER"
-msgstr ""
+msgstr "更好"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:304
 msgid "EVER"
-msgstr ""
+msgstr "曾经"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:310
 msgid "SINCE"
-msgstr ""
+msgstr "自从"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:316
 msgid "OF"
-msgstr ""
+msgstr "的"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:322
 msgid "BELONGS TO"
-msgstr ""
+msgstr "属于"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:328
 msgid "AT"
-msgstr ""
+msgstr "在"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:334
 msgid "IN"
-msgstr ""
+msgstr "之中"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:340
 msgid "OUT"
-msgstr ""
+msgstr "出去"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:346
 msgid "TOO"
-msgstr ""
+msgstr "也"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:352
 msgid "LIKE"
-msgstr ""
+msgstr "像"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:358
 msgid "DID"
-msgstr ""
+msgstr "做了"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:364
 msgid "DIDN'T"
-msgstr ""
+msgstr "没做"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:370
 msgid "DOESN'T"
-msgstr ""
+msgstr "不会做"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:376
 msgid "WITHOUT"
-msgstr ""
+msgstr "没有"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:382
 msgid "AFTER"
-msgstr ""
+msgstr "之后"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:388
 msgid "BEFORE"
-msgstr ""
+msgstr "之前"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:394
 msgid "WHILE"
-msgstr ""
+msgstr "期间"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:400
 msgid "THAN"
-msgstr ""
+msgstr "比"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:406
 msgid "ONCE"
-msgstr ""
+msgstr "一次"
 
 #: src/data/easy_chat/easy_chat_group_endings.h:412
 msgid "ANYWHERE"
-msgstr ""
+msgstr "到处"
+
+#: src/data/easy_chat/easy_chat_group_endings.h:82
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "LET'S"
+msgstr "一起来"
+
+#: src/data/easy_chat/easy_chat_group_endings.h:184
+msgctxt "src/data/easy_chat/easy_chat_group_endings.h"
+msgid "HAVE"
+msgstr "拥有"

@@ -7,60 +7,80 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_groups.h:64
 msgid "PEOPLE"
-msgstr ""
+msgstr "人物"
 
 #: src/data/easy_chat/easy_chat_groups.h:71
 msgid "VOICES"
-msgstr ""
+msgstr "声音"
 
 #: src/data/easy_chat/easy_chat_groups.h:78
 msgid "SPEECH"
-msgstr ""
+msgstr "说话"
 
 #: src/data/easy_chat/easy_chat_groups.h:85
 msgid "ENDINGS"
-msgstr ""
+msgstr "结尾"
 
 #: src/data/easy_chat/easy_chat_groups.h:92
 msgid "FEELINGS"
-msgstr ""
+msgstr "心情"
 
 #: src/data/easy_chat/easy_chat_groups.h:99
 msgid "CONDITIONS"
-msgstr ""
+msgstr "状况"
 
 #: src/data/easy_chat/easy_chat_groups.h:106
 msgid "ACTIONS"
-msgstr ""
+msgstr "行动"
 
 #: src/data/easy_chat/easy_chat_groups.h:113
 msgid "LIFESTYLE"
-msgstr ""
+msgstr "生活"
 
 #: src/data/easy_chat/easy_chat_groups.h:120
 msgid "HOBBIES"
-msgstr ""
+msgstr "爱好"
 
 #: src/data/easy_chat/easy_chat_groups.h:134
 msgid "MISC."
-msgstr ""
+msgstr "其他"
 
 #: src/data/easy_chat/easy_chat_groups.h:141
 msgid "ADJECTIVES"
-msgstr ""
+msgstr "形容词"
 
 #: src/data/easy_chat/easy_chat_groups.h:155
 msgid "MOVE 1"
-msgstr ""
+msgstr "招式1"
 
 #: src/data/easy_chat/easy_chat_groups.h:162
 msgid "MOVE 2"
-msgstr ""
+msgstr "招式2"
 
 #: src/data/easy_chat/easy_chat_groups.h:169
 msgid "TRENDY SAYING"
-msgstr ""
+msgstr "流行语"
 
 #: src/data/easy_chat/easy_chat_groups.h:176
 msgid "POKéMON2"
-msgstr ""
+msgstr "宝可梦2"
+
+#: src/data/easy_chat/easy_chat_groups.h:50
+msgctxt "src/data/easy_chat/easy_chat_groups.h"
+msgid "BATTLE"
+msgstr "对战"
+
+#: src/data/easy_chat/easy_chat_groups.h:148
+msgctxt "src/data/easy_chat/easy_chat_groups.h"
+msgid "EVENTS"
+msgstr "活动"
+
+#: src/data/easy_chat/easy_chat_groups.h:57
+msgctxt "src/data/easy_chat/easy_chat_groups.h"
+msgid "GREETINGS"
+msgstr "问候"
+
+#: src/data/easy_chat/easy_chat_groups.h:43
+msgctxt "src/data/easy_chat/easy_chat_groups.h"
+msgid "STATUS"
+msgstr "状态"

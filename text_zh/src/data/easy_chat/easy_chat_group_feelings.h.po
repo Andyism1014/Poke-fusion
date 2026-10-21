@@ -7,276 +7,276 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:1 src/data/easy_chat/easy_chat_group_feelings.h:74
 msgid "MEET"
-msgstr ""
+msgstr "见面"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:2 src/data/easy_chat/easy_chat_group_feelings.h:80
 msgid "PLAY"
-msgstr ""
+msgstr "玩"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:3 src/data/easy_chat/easy_chat_group_feelings.h:86
 msgid "HURRIED"
-msgstr ""
+msgstr "匆忙"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:4 src/data/easy_chat/easy_chat_group_feelings.h:92
 msgid "GOES"
-msgstr ""
+msgstr "去"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:5 src/data/easy_chat/easy_chat_group_feelings.h:98
 msgid "GIDDY"
-msgstr ""
+msgstr "晕乎乎"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:6 src/data/easy_chat/easy_chat_group_feelings.h:104
 msgid "HAPPY"
-msgstr ""
+msgstr "开心"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:7 src/data/easy_chat/easy_chat_group_feelings.h:110
 msgid "HAPPINESS"
-msgstr ""
+msgstr "幸福"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:8 src/data/easy_chat/easy_chat_group_feelings.h:116
 msgid "EXCITE"
-msgstr ""
+msgstr "兴奋"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:9 src/data/easy_chat/easy_chat_group_feelings.h:122
 msgid "IMPORTANT"
-msgstr ""
+msgstr "重要"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:10 src/data/easy_chat/easy_chat_group_feelings.h:128
 msgid "FUNNY"
-msgstr ""
+msgstr "好笑"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:11 src/data/easy_chat/easy_chat_group_feelings.h:134
 msgid "GOT"
-msgstr ""
+msgstr "得到了"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:12 src/data/easy_chat/easy_chat_group_feelings.h:140
 msgid "GO HOME"
-msgstr ""
+msgstr "回家"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:13 src/data/easy_chat/easy_chat_group_feelings.h:146
 msgid "DISAPPOINTED"
-msgstr ""
+msgstr "失望了"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:14 src/data/easy_chat/easy_chat_group_feelings.h:152
 msgid "DISAPPOINTS"
-msgstr ""
+msgstr "令人失望"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:15 src/data/easy_chat/easy_chat_group_feelings.h:158
 msgid "SAD"
-msgstr ""
+msgstr "难过"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:16 src/data/easy_chat/easy_chat_group_feelings.h:164
 msgid "TRY"
-msgstr ""
+msgstr "尝试"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:17 src/data/easy_chat/easy_chat_group_feelings.h:170
 msgid "TRIES"
-msgstr ""
+msgstr "试着"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:18 src/data/easy_chat/easy_chat_group_feelings.h:176
 msgid "HEARS"
-msgstr ""
+msgstr "听见"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:19 src/data/easy_chat/easy_chat_group_feelings.h:182
 msgid "THINK"
-msgstr ""
+msgstr "觉得"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:20 src/data/easy_chat/easy_chat_group_feelings.h:188
 msgid "HEAR"
-msgstr ""
+msgstr "听"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:21 src/data/easy_chat/easy_chat_group_feelings.h:194
 msgid "WANTS"
-msgstr ""
+msgstr "希望"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:22 src/data/easy_chat/easy_chat_group_feelings.h:200
 msgid "MISHEARD"
-msgstr ""
+msgstr "听错"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:23 src/data/easy_chat/easy_chat_group_feelings.h:206
 msgid "DISLIKE"
-msgstr ""
+msgstr "讨厌"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:24 src/data/easy_chat/easy_chat_group_feelings.h:212
 msgid "ANGRY"
-msgstr ""
+msgstr "生气"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:25 src/data/easy_chat/easy_chat_group_feelings.h:218
 msgid "ANGER"
-msgstr ""
+msgstr "愤怒"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:26 src/data/easy_chat/easy_chat_group_feelings.h:224
 msgid "SCARY"
-msgstr ""
+msgstr "可怕"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:27 src/data/easy_chat/easy_chat_group_feelings.h:230
 msgid "LONESOME"
-msgstr ""
+msgstr "寂寞"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:28 src/data/easy_chat/easy_chat_group_feelings.h:236
 msgid "DISAPPOINT"
-msgstr ""
+msgstr "失望"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:29 src/data/easy_chat/easy_chat_group_feelings.h:242
 msgid "JOY"
-msgstr ""
+msgstr "喜悦"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:30 src/data/easy_chat/easy_chat_group_feelings.h:248
 msgid "GETS"
-msgstr ""
+msgstr "得到"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:31 src/data/easy_chat/easy_chat_group_feelings.h:254
 msgid "NEVER"
-msgstr ""
+msgstr "从不"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:32 src/data/easy_chat/easy_chat_group_feelings.h:260
 msgid "DARN"
-msgstr ""
+msgstr "可恶"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:33 src/data/easy_chat/easy_chat_group_feelings.h:266
 msgid "DOWNCAST"
-msgstr ""
+msgstr "沮丧"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:34 src/data/easy_chat/easy_chat_group_feelings.h:272
 msgid "INCREDIBLE"
-msgstr ""
+msgstr "难以置信"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:35 src/data/easy_chat/easy_chat_group_feelings.h:278
 msgid "LIKES"
-msgstr ""
+msgstr "喜欢"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:36 src/data/easy_chat/easy_chat_group_feelings.h:284
 msgid "DISLIKES"
-msgstr ""
+msgstr "不喜欢"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:37 src/data/easy_chat/easy_chat_group_feelings.h:290
 msgid "BORING"
-msgstr ""
+msgstr "没意思"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:38 src/data/easy_chat/easy_chat_group_feelings.h:296
 msgid "CARE"
-msgstr ""
+msgstr "在乎"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:39 src/data/easy_chat/easy_chat_group_feelings.h:302
 msgid "CARES"
-msgstr ""
+msgstr "关心"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:40 src/data/easy_chat/easy_chat_group_feelings.h:308
 msgid "ALL RIGHT"
-msgstr ""
+msgstr "没问题"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:41 src/data/easy_chat/easy_chat_group_feelings.h:314
 msgid "ADORE"
-msgstr ""
+msgstr "爱慕"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:42 src/data/easy_chat/easy_chat_group_feelings.h:320
 msgid "DISASTER"
-msgstr ""
+msgstr "灾难"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:43 src/data/easy_chat/easy_chat_group_feelings.h:326
 msgid "ENJOY"
-msgstr ""
+msgstr "享受"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:44 src/data/easy_chat/easy_chat_group_feelings.h:332
 msgid "ENJOYS"
-msgstr ""
+msgstr "乐在其中"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:45 src/data/easy_chat/easy_chat_group_feelings.h:338
 msgid "EAT"
-msgstr ""
+msgstr "吃"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:46 src/data/easy_chat/easy_chat_group_feelings.h:344
 msgid "LACKING"
-msgstr ""
+msgstr "不足"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:47 src/data/easy_chat/easy_chat_group_feelings.h:350
 msgid "BAD"
-msgstr ""
+msgstr "坏"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:48 src/data/easy_chat/easy_chat_group_feelings.h:356
 msgid "HARD"
-msgstr ""
+msgstr "难"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:49 src/data/easy_chat/easy_chat_group_feelings.h:362
 msgid "TERRIBLE"
-msgstr ""
+msgstr "糟透了"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:50 src/data/easy_chat/easy_chat_group_feelings.h:368
 msgid "SHOULD"
-msgstr ""
+msgstr "应该"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:51 src/data/easy_chat/easy_chat_group_feelings.h:374
 msgid "NICE"
-msgstr ""
+msgstr "不错"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:52 src/data/easy_chat/easy_chat_group_feelings.h:380
 msgid "DRINK"
-msgstr ""
+msgstr "喝"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:53 src/data/easy_chat/easy_chat_group_feelings.h:386
 msgid "SURPRISE"
-msgstr ""
+msgstr "惊喜"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:54 src/data/easy_chat/easy_chat_group_feelings.h:392
 msgid "FEAR"
-msgstr ""
+msgstr "害怕"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:55 src/data/easy_chat/easy_chat_group_feelings.h:398
 msgid "WANT"
-msgstr ""
+msgstr "想要"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:56 src/data/easy_chat/easy_chat_group_feelings.h:404
 msgid "WAIT"
-msgstr ""
+msgstr "等等"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:57 src/data/easy_chat/easy_chat_group_feelings.h:410
 msgid "SATISFIED"
-msgstr ""
+msgstr "满足"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:58 src/data/easy_chat/easy_chat_group_feelings.h:416
 msgid "SEE"
-msgstr ""
+msgstr "看"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:59 src/data/easy_chat/easy_chat_group_feelings.h:422
 msgid "RARE"
-msgstr ""
+msgstr "稀有"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:60 src/data/easy_chat/easy_chat_group_feelings.h:428
 msgid "NEGATIVE"
-msgstr ""
+msgstr "消极"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:61 src/data/easy_chat/easy_chat_group_feelings.h:434
 msgid "DONE"
-msgstr ""
+msgstr "搞定"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:62 src/data/easy_chat/easy_chat_group_feelings.h:440
 msgid "DANGER"
-msgstr ""
+msgstr "危险"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:63 src/data/easy_chat/easy_chat_group_feelings.h:446
 msgid "DEFEATED"
-msgstr ""
+msgstr "被打败"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:64 src/data/easy_chat/easy_chat_group_feelings.h:452
 msgid "BEAT"
-msgstr ""
+msgstr "打败"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:65 src/data/easy_chat/easy_chat_group_feelings.h:458
 msgid "GREAT"
-msgstr ""
+msgstr "很棒"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:66 src/data/easy_chat/easy_chat_group_feelings.h:464
 msgid "ROMANTIC"
-msgstr ""
+msgstr "浪漫"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:67 src/data/easy_chat/easy_chat_group_feelings.h:470
 msgid "QUESTION"
-msgstr ""
+msgstr "问题"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:68 src/data/easy_chat/easy_chat_group_feelings.h:476
 msgid "UNDERSTAND"
-msgstr ""
+msgstr "明白"
 
 #: src/data/easy_chat/easy_chat_group_feelings.h:69 src/data/easy_chat/easy_chat_group_feelings.h:482
 msgid "UNDERSTANDS"
-msgstr ""
+msgstr "理解"

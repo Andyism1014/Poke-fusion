@@ -143,7 +143,7 @@ msgstr "命中率不会被降低"
 
 #: src/data/abilities.h:287
 msgid "Encounter rate increases."
-msgstr ""
+msgstr "容易遇到野生宝可梦"
 
 #: src/data/abilities.h:296
 msgid "Copies a foe's Ability."
@@ -223,15 +223,15 @@ msgstr "接触时有时使对手着迷"
 
 #: src/data/abilities.h:460
 msgid "Ups Sp. Atk with Minus."
-msgstr ""
+msgstr "和负电同在时特攻提高"
 
 #: src/data/abilities.h:462 src/data/abilities.h:474
 msgid "Plus or Minus ups Sp. Atk."
-msgstr ""
+msgstr "有正电或负电时特攻提高"
 
 #: src/data/abilities.h:472
 msgid "Ups Sp. Atk with Plus."
-msgstr ""
+msgstr "和正电同在时特攻提高"
 
 #: src/data/abilities.h:482
 msgid "Changes with the weather."
@@ -435,7 +435,7 @@ msgstr "出场时天气变为下雪"
 
 #: src/data/abilities.h:929
 msgid "Summons hail in battle."
-msgstr ""
+msgstr "出场时天气变为冰雹"
 
 #: src/data/abilities.h:937
 msgid "May gather Honey."
@@ -1135,7 +1135,7 @@ msgstr "一般招式变为龙属性"
 
 #: src/data/abilities.h:2520
 msgid "Eelevate"
-msgstr ""
+msgstr "电鳗浮游"
 
 #: src/data/abilities.h:2521
 msgid "Levitate and Beast Boost."
@@ -1151,7 +1151,7 @@ msgstr "如同在晴天下行动"
 
 #: src/data/abilities.h:2538
 msgid "Fire Mane"
-msgstr ""
+msgstr "火焰鬃毛"
 
 #: src/data/abilities.h:2539
 msgid "Ups Fire-type moves."
@@ -1163,7 +1163,7 @@ msgstr "受到攻击时使对手灼伤"
 
 #: src/data/abilities.h:2556
 msgid "Aura Guard"
-msgstr ""
+msgstr "气场守护"
 
 #: src/data/abilities.h:2557
 msgid "Unimplemented."

@@ -7,262 +7,321 @@ msgstr ""
 
 #: src/contest.c:366
 msgid "Link standby!"
-msgstr ""
+msgstr "等待连接！"
 
 #: src/contest.c:368
 msgid ""
 "Appeal no. {STR_VAR_1}!\n"
 "Which move will be played?"
 msgstr ""
+"第{STR_VAR_1}次表演！\n"
+"要使用哪个招式？"
 
 #: src/contest.c:369
 msgid ""
 "Appeal no. {STR_VAR_1}!\n"
 "But it can't participate!"
 msgstr ""
+"第{STR_VAR_1}次表演！\n"
+"但是无法参加！"
 
 #: src/contest.c:370
 msgid ""
 "{STR_VAR_1} appealed with\n"
 "{STR_VAR_2}!"
 msgstr ""
+"{STR_VAR_1}的表演招式是\n"
+"{STR_VAR_2}！"
 
 #: src/contest.c:371
 msgid ""
 "{STR_VAR_1} was watching\n"
 "the others.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}在观察\n"
+"其他宝可梦。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:372
 msgid ""
 "We're all out of\n"
 "Appeal Time!{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"表演时间\n"
+"已经结束了！{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:373
 msgid ""
 "The JUDGE looked at\n"
 "{STR_VAR_1} expectantly.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"评审满怀期待地\n"
+"看着{STR_VAR_1}。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:374
 msgid ""
 "The appeal combo went\n"
 "over well.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"表演组合技\n"
+"效果不错。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:375
 msgid ""
 "The appeal combo went\n"
 "over very well.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"表演组合技\n"
+"效果很好。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:376
 msgid ""
 "The appeal combo went\n"
 "over excellently.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"表演组合技\n"
+"效果极佳。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:377
 msgid ""
 "{STR_VAR_1} was too\n"
 "nervous to move.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}太紧张了，\n"
+"动弹不得。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:378 src/data/contest_text_tables.h:69
 msgid ""
 "But it couldn't improve\n"
 "its condition…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"但是状态\n"
+"没有提升……{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:379 src/data/contest_text_tables.h:70
 msgid ""
 "Its bad condition\n"
 "resulted in a weak appeal.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"状态不佳，\n"
+"表演效果很弱。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:380 src/data/contest_text_tables.h:71
 msgid ""
 "{STR_VAR_1} was\n"
 "unaffected.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}\n"
+"没有受到影响。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:381
 msgid ""
 "{STR_VAR_1} disappointed\n"
 "by repeating an appeal.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}重复表演，\n"
+"让人失望了。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:382
 msgid ""
 "{STR_VAR_1}'s {STR_VAR_3}\n"
 "went over great.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}的{STR_VAR_3}\n"
+"大受欢迎。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:383
 msgid ""
 "{STR_VAR_1}'s {STR_VAR_3}\n"
 "didn't go over well here…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}的{STR_VAR_3}\n"
+"在这里不受欢迎……{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:384
 msgid ""
 "{STR_VAR_1}'s {STR_VAR_3}\n"
 "got the crowd going.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}的{STR_VAR_3}\n"
+"让观众沸腾了。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:385
 msgid ""
 "{STR_VAR_1} can't appeal\n"
 "next turn…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}下一回合\n"
+"无法表演……{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:386 src/data/contest_text_tables.h:72
 msgid ""
 "It attracted the crowd's\n"
 "attention.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"吸引了\n"
+"观众的注意。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:387
 msgid ""
 "The crowd continues to\n"
 "watch {STR_VAR_3}.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"观众继续\n"
+"关注着{STR_VAR_3}。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:388
 msgid ""
 "{STR_VAR_1}'s\n"
 "{STR_VAR_2} is ignored.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}的\n"
+"{STR_VAR_2}被无视了。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/contest.c:693 src/strings.c:408 src/data/script_menu.h:1310 src/data/easy_chat/easy_chat_group_status.h:130
 msgid "COOL"
-msgstr ""
+msgstr "帅气"
 
 #: src/contest.c:694 src/data/lilycove_lady.h:43
 msgid "coolness"
-msgstr ""
+msgstr "帅气"
 
 #: src/contest.c:695
 msgid "COOL Move"
-msgstr ""
+msgstr "帅气招式"
 
 #: src/contest.c:696
 msgid "shyness"
-msgstr ""
+msgstr "害羞"
 
 #: src/contest.c:713 src/data/lilycove_lady.h:50
 msgid "beauty"
-msgstr ""
+msgstr "美丽"
 
 #: src/contest.c:714
 msgid "BEAUTY Move"
-msgstr ""
+msgstr "美丽招式"
 
 #: src/contest.c:715
 msgid "anxiety"
-msgstr ""
+msgstr "不安"
 
 #: src/contest.c:731 src/strings.c:410 src/data/script_menu.h:1312 src/data/easy_chat/easy_chat_group_status.h:148
 msgid "CUTE"
-msgstr ""
+msgstr "可爱"
 
 #: src/contest.c:732 src/data/lilycove_lady.h:57
 msgid "cuteness"
-msgstr ""
+msgstr "可爱"
 
 #: src/contest.c:733
 msgid "CUTE Move"
-msgstr ""
+msgstr "可爱招式"
 
 #: src/contest.c:734
 msgid "laziness"
-msgstr ""
+msgstr "懒散"
 
 #: src/contest.c:750 src/strings.c:411 src/data/script_menu.h:1313 src/data/easy_chat/easy_chat_group_status.h:112
 msgid "SMART"
-msgstr ""
+msgstr "聪明"
 
 #: src/contest.c:751 src/data/lilycove_lady.h:64
 msgid "smartness"
-msgstr ""
+msgstr "聪明"
 
 #: src/contest.c:752
 msgid "SMART Move"
-msgstr ""
+msgstr "聪明招式"
 
 #: src/contest.c:753
 msgid "hesitancy"
-msgstr ""
+msgstr "犹豫"
 
 #: src/contest.c:769 src/strings.c:412 src/data/script_menu.h:1314 src/data/easy_chat/easy_chat_group_status.h:310
 msgid "TOUGH"
-msgstr ""
+msgstr "强壮"
 
 #: src/contest.c:770 src/data/lilycove_lady.h:71
 msgid "toughness"
-msgstr ""
+msgstr "强壮"
 
 #: src/contest.c:771
 msgid "TOUGH Move"
-msgstr ""
+msgstr "强壮招式"
 
 #: src/contest.c:772
 msgid "fear"
-msgstr ""
+msgstr "恐惧"
 
 #: src/contest.c:795
 msgid ""
 "{STR_VAR_1} failed to\n"
 "stand out at all…{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}完全\n"
+"没有引人注目……{PAUSE_UNTIL_PRESS}"
 
 #: src/contest.c:796
 msgid ""
 "{STR_VAR_1} didn't stand\n"
 "out very much…{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}不太\n"
+"引人注目……{PAUSE_UNTIL_PRESS}"
 
 #: src/contest.c:797
 msgid ""
 "{STR_VAR_1} caught a\n"
 "little attention.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}稍微\n"
+"引起了注意。{PAUSE_UNTIL_PRESS}"
 
 #: src/contest.c:798
 msgid ""
 "{STR_VAR_1} attracted a\n"
 "lot of attention.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}引起了\n"
+"很多注意。{PAUSE_UNTIL_PRESS}"
 
 #: src/contest.c:799
 msgid ""
 "{STR_VAR_1} commanded\n"
 "total attention.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}吸引了\n"
+"全场的注意。{PAUSE_UNTIL_PRESS}"
 
 #: src/contest.c:800
 msgid ""
 "{STR_VAR_1} hasn't made\n"
 "its appeal.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}还没有\n"
+"进行表演。{PAUSE_UNTIL_PRESS}"
 
 #: src/contest.c:1647
 msgid "{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}"
-msgstr ""
+msgstr "{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}"
 
 #: src/contest.c:1654
 msgid "{COLOR BLUE}"
-msgstr ""
+msgstr "{COLOR BLUE}"
 
 #: src/contest.c:3104
 msgid "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}{COLOR TRANSPARENT}"
-msgstr ""
+msgstr "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}{COLOR TRANSPARENT}"
 
 #: src/contest.c:5997
 msgid "C."
-msgstr ""
+msgstr "C."
 
 #: src/contest.c:6018
 msgid "B."
-msgstr ""
+msgstr "B."
+
+#: src/contest.c:712
+msgctxt "src/contest.c"
+msgid "BEAUTY"
+msgstr "美丽"

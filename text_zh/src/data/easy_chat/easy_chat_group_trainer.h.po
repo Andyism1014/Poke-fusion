@@ -7,48 +7,88 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:4
 msgid "I CHOOSE YOU"
-msgstr ""
+msgstr "就决定是你了"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:10
 msgid "GOTCHA"
-msgstr ""
+msgstr "抓到了"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:28
 msgid "EVOLVE"
-msgstr ""
+msgstr "要进化"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:34
 msgid "ENCYCLOPEDIA"
-msgstr ""
+msgstr "百科全书"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:40
 msgid "NATURE"
-msgstr ""
+msgstr "性格"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:46
 msgid "CENTER"
-msgstr ""
+msgstr "中心"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:64
 msgid "SP. ABILITY"
-msgstr ""
+msgstr "特性"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:70 src/data/easy_chat/easy_chat_groups.h:36
 msgid "TRAINER"
-msgstr ""
+msgstr "训练家"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:76
 msgid "VERSION"
-msgstr ""
+msgstr "版本"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:94
 msgid "GET"
-msgstr ""
+msgstr "获得"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:112
 msgid "LEVEL"
-msgstr ""
+msgstr "等级"
 
 #: src/data/easy_chat/easy_chat_group_trainer.h:136
 msgid "FLAME"
-msgstr ""
+msgstr "火焰"
+
+#: src/data/easy_chat/easy_chat_group_trainer.h:52
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "EGG"
+msgstr "蛋"
+
+#: src/data/easy_chat/easy_chat_group_trainer.h:160
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "EMERALD"
+msgstr "绿宝石"
+
+#: src/data/easy_chat/easy_chat_group_trainer.h:142
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "GOLD"
+msgstr "金"
+
+#: src/data/easy_chat/easy_chat_group_trainer.h:58
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "LINK"
+msgstr "连接"
+
+#: src/data/easy_chat/easy_chat_group_trainer.h:106
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "RUBY"
+msgstr "红宝石"
+
+#: src/data/easy_chat/easy_chat_group_trainer.h:22
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "SAPPHIRE"
+msgstr "蓝宝石"
+
+#: src/data/easy_chat/easy_chat_group_trainer.h:154
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "SILVER"
+msgstr "银"
+
+#: src/data/easy_chat/easy_chat_group_trainer.h:16
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "TRADE"
+msgstr "交换"

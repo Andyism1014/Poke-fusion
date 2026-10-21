@@ -7,216 +7,241 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_battle.h:4
 msgid "MATCH UP"
-msgstr ""
+msgstr "对决"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:10
 msgid "GO"
-msgstr ""
+msgstr "上吧"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:16
 msgid "NO. 1"
-msgstr ""
+msgstr "第一名"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:22
 msgid "DECIDE"
-msgstr ""
+msgstr "决定"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:28
 msgid "LET ME WIN"
-msgstr ""
+msgstr "让我赢"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:34
 msgid "WINS"
-msgstr ""
+msgstr "获胜"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:40
 msgid "WIN"
-msgstr ""
+msgstr "赢"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:46
 msgid "WON"
-msgstr ""
+msgstr "赢了"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:52
 msgid "IF I WIN"
-msgstr ""
+msgstr "如果我赢"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:58
 msgid "WHEN I WIN"
-msgstr ""
+msgstr "等我赢了"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:64
 msgid "CAN'T WIN"
-msgstr ""
+msgstr "赢不了"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:70
 msgid "CAN WIN"
-msgstr ""
+msgstr "能赢"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:76
 msgid "NO MATCH"
-msgstr ""
+msgstr "不是对手"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:82
 msgid "SPIRIT"
-msgstr ""
+msgstr "斗志"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:88
 msgid "DECIDED"
-msgstr ""
+msgstr "决定了"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:94
 msgid "TRUMP CARD"
-msgstr ""
+msgstr "王牌"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:100
 msgid "TAKE THAT"
-msgstr ""
+msgstr "看招"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:106
 msgid "COME ON"
-msgstr ""
+msgstr "来吧"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:118
 msgid "SURRENDER"
-msgstr ""
+msgstr "投降"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:124
 msgid "GUTSY"
-msgstr ""
+msgstr "有胆量"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:130
 msgid "TALENT"
-msgstr ""
+msgstr "天赋"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:142
 msgid "SMITE"
-msgstr ""
+msgstr "痛击"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:148
 msgid "MATCH"
-msgstr ""
+msgstr "比赛"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:154
 msgid "VICTORY"
-msgstr ""
+msgstr "胜利"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:160
 msgid "OFFENSIVE"
-msgstr ""
+msgstr "进攻"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:166
 msgid "SENSE"
-msgstr ""
+msgstr "感觉"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:172
 msgid "VERSUS"
-msgstr ""
+msgstr "对"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:178
 msgid "FIGHTS"
-msgstr ""
+msgstr "打架"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:196
 msgid "STRONG"
-msgstr ""
+msgstr "强"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:202
 msgid "TOO STRONG"
-msgstr ""
+msgstr "太强了"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:208
 msgid "GO EASY"
-msgstr ""
+msgstr "手下留情"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:214
 msgid "FOE"
-msgstr ""
+msgstr "敌人"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:220
 msgid "GENIUS"
-msgstr ""
+msgstr "天才"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:226
 msgid "LEGEND"
-msgstr ""
+msgstr "传说"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:232
 msgid "ESCAPE"
-msgstr ""
+msgstr "逃走"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:238
 msgid "AIM"
-msgstr ""
+msgstr "目标"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:250
 msgid "FIGHT"
-msgstr ""
+msgstr "打斗"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:256
 msgid "RESUSCITATE"
-msgstr ""
+msgstr "复活"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:262
 msgid "POINTS"
-msgstr ""
+msgstr "分数"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:268
 msgid "SERIOUS"
-msgstr ""
+msgstr "认真"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:274
 msgid "GIVE UP"
-msgstr ""
+msgstr "放弃"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:280
 msgid "LOSS"
-msgstr ""
+msgstr "失败"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:286
 msgid "IF I LOSE"
-msgstr ""
+msgstr "如果我输"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:292
 msgid "LOST"
-msgstr ""
+msgstr "输了"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:298
 msgid "LOSE"
-msgstr ""
+msgstr "输"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:304
 msgid "GUARD"
-msgstr ""
+msgstr "防守"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:310
 msgid "PARTNER"
-msgstr ""
+msgstr "搭档"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:316
 msgid "REJECT"
-msgstr ""
+msgstr "驳回"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:328
 msgid "INVINCIBLE"
-msgstr ""
+msgstr "无敌"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:334
 msgid "RECEIVED"
-msgstr ""
+msgstr "收到了"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:346
 msgid "WEAK"
-msgstr ""
+msgstr "弱"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:352
 msgid "TOO WEAK"
-msgstr ""
+msgstr "太弱了"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:358
 msgid "PUSHOVER"
-msgstr ""
+msgstr "软柿子"
 
 #: src/data/easy_chat/easy_chat_group_battle.h:370
 msgid "RULE"
-msgstr ""
+msgstr "规则"
+
+#: src/data/easy_chat/easy_chat_group_battle.h:322
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "ACCEPT"
+msgstr "接受"
+
+#: src/data/easy_chat/easy_chat_group_battle.h:112
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "ATTACK"
+msgstr "攻击"
+
+#: src/data/easy_chat/easy_chat_group_battle.h:244
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "BATTLE"
+msgstr "对战"
+
+#: src/data/easy_chat/easy_chat_group_battle.h:364
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "LEADER"
+msgstr "领袖"
+
+#: src/data/easy_chat/easy_chat_group_battle.h:184
+msgctxt "src/data/easy_chat/easy_chat_group_battle.h"
+msgid "POWER"
+msgstr "力量"

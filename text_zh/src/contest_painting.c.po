@@ -10,111 +10,141 @@ msgid ""
 "{STR_VAR_1}\n"
 "{STR_VAR_2}'s {STR_VAR_3}"
 msgstr ""
+"{STR_VAR_1}\n"
+"{STR_VAR_2}的{STR_VAR_3}"
 
 #: src/contest_painting.c:53 src/data/script_menu.h:549
 msgid "NORMAL RANK"
-msgstr ""
+msgstr "普通级"
 
 #: src/contest_painting.c:54 src/data/script_menu.h:550
 msgid "SUPER RANK"
-msgstr ""
+msgstr "超级"
 
 #: src/contest_painting.c:55 src/data/script_menu.h:551
 msgid "HYPER RANK"
-msgstr ""
+msgstr "高级"
 
 #: src/contest_painting.c:56 src/data/script_menu.h:552
 msgid "MASTER RANK"
-msgstr ""
+msgstr "大师级"
 
 #: src/contest_painting.c:57 src/data/easy_chat/easy_chat_group_trainer.h:58
 msgid "LINK"
-msgstr ""
+msgstr "联机"
 
 #: src/contest_painting.c:86
 msgid ""
 "Nonstop supercool--\n"
 "the inestimable {STR_VAR_1}"
 msgstr ""
+"帅气无极限——\n"
+"无可估量的{STR_VAR_1}"
 
 #: src/contest_painting.c:87
 msgid ""
 "Hey, there!\n"
 "The good-looking POKéMON {STR_VAR_1}"
 msgstr ""
+"嘿，你好！\n"
+"长相帅气的宝可梦{STR_VAR_1}"
 
 #: src/contest_painting.c:88
 msgid ""
 "The marvelous, wonderful, and\n"
 "very great {STR_VAR_1}"
 msgstr ""
+"了不起、太精彩，\n"
+"非常伟大的{STR_VAR_1}"
 
 #: src/contest_painting.c:89
 msgid ""
 "This century's last Venus--\n"
 "the beautiful {STR_VAR_1}"
 msgstr ""
+"本世纪最后的维纳斯——\n"
+"美丽的{STR_VAR_1}"
 
 #: src/contest_painting.c:90
 msgid ""
 "{STR_VAR_1}'s dazzling,\n"
 "glittering smile"
 msgstr ""
+"{STR_VAR_1}耀眼的、\n"
+"闪闪发光的笑容"
 
 #: src/contest_painting.c:91
 msgid ""
 "POKéMON CENTER's super idol--\n"
 "the incomparable {STR_VAR_1}"
 msgstr ""
+"宝可梦中心的超级偶像——\n"
+"无与伦比的{STR_VAR_1}"
 
 #: src/contest_painting.c:92
 msgid "The lovely and sweet {STR_VAR_1}"
-msgstr ""
+msgstr "可爱又甜美的{STR_VAR_1}"
 
 #: src/contest_painting.c:93
 msgid ""
 "The pretty {STR_VAR_1}'s\n"
 "winning portrait"
 msgstr ""
+"漂亮的{STR_VAR_1}\n"
+"获奖肖像"
 
 #: src/contest_painting.c:94
 msgid ""
 "Give us a wink!\n"
 "The cutie POKéMON {STR_VAR_1}"
 msgstr ""
+"眨眨眼吧！\n"
+"小可爱宝可梦{STR_VAR_1}"
 
 #: src/contest_painting.c:95
 msgid ""
 "The smartness maestro--\n"
 "the wise POKéMON {STR_VAR_1}"
 msgstr ""
+"聪明大师——\n"
+"睿智的宝可梦{STR_VAR_1}"
 
 #: src/contest_painting.c:96
 msgid ""
 "{STR_VAR_1}--the one chosen\n"
 "above all POKéMON"
 msgstr ""
+"{STR_VAR_1}——\n"
+"从所有宝可梦中脱颖而出"
 
 #: src/contest_painting.c:97
 msgid ""
 "The excellent {STR_VAR_1}'s\n"
 "moment of elegance"
 msgstr ""
+"优秀的{STR_VAR_1}\n"
+"优雅的瞬间"
 
 #: src/contest_painting.c:98
 msgid ""
 "The powerfully muscular\n"
 "speedster {STR_VAR_1}"
 msgstr ""
+"肌肉强健的\n"
+"飞毛腿{STR_VAR_1}"
 
 #: src/contest_painting.c:99
 msgid ""
 "The strong, stronger, and\n"
 "strongest {STR_VAR_1}"
 msgstr ""
+"强大、更强大、\n"
+"最强大的{STR_VAR_1}"
 
 #: src/contest_painting.c:100
 msgid ""
 "The mighty tough\n"
 "hyper POKéMON {STR_VAR_1}"
 msgstr ""
+"无比强壮的\n"
+"超级宝可梦{STR_VAR_1}"

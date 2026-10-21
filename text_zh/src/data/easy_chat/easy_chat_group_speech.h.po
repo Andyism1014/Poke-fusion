@@ -7,236 +7,241 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_speech.h:4
 msgid "LISTEN"
-msgstr ""
+msgstr "听着"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:10
 msgid "NOT VERY"
-msgstr ""
+msgstr "不太"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:16
 msgid "MEAN"
-msgstr ""
+msgstr "刻薄"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:22
 msgid "LIE"
-msgstr ""
+msgstr "谎言"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:28
 msgid "LAY"
-msgstr ""
+msgstr "躺"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:34
 msgid "RECOMMEND"
-msgstr ""
+msgstr "推荐"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:40
 msgid "NITWIT"
-msgstr ""
+msgstr "笨蛋"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:46
 msgid "QUITE"
-msgstr ""
+msgstr "相当"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:52
 msgid "FROM"
-msgstr ""
+msgstr "从"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:58
 msgid "FEELING"
-msgstr ""
+msgstr "心情"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:64
 msgid "BUT"
-msgstr ""
+msgstr "但是"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:70
 msgid "HOWEVER"
-msgstr ""
+msgstr "不过"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:76
 msgid "CASE"
-msgstr ""
+msgstr "情况"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:82
 msgid "THE"
-msgstr ""
+msgstr "该"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:94
 msgid "HOW"
-msgstr ""
+msgstr "怎么"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:100
 msgid "HIT"
-msgstr ""
+msgstr "命中"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:106
 msgid "ENOUGH"
-msgstr ""
+msgstr "足够"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:112
 msgid "A LOT"
-msgstr ""
+msgstr "很多"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:118
 msgid "A LITTLE"
-msgstr ""
+msgstr "一点"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:124
 msgid "ABSOLUTELY"
-msgstr ""
+msgstr "绝对"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:130
 msgid "AND"
-msgstr ""
+msgstr "和"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:136
 msgid "ONLY"
-msgstr ""
+msgstr "只有"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:142
 msgid "AROUND"
-msgstr ""
+msgstr "周围"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:148
 msgid "PROBABLY"
-msgstr ""
+msgstr "大概"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:154
 msgid "IF"
-msgstr ""
+msgstr "如果"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:160
 msgid "VERY"
-msgstr ""
+msgstr "非常"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:166
 msgid "A TINY BIT"
-msgstr ""
+msgstr "一丁点"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:172
 msgid "WILD"
-msgstr ""
+msgstr "野生"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:178
 msgid "THAT'S"
-msgstr ""
+msgstr "那是"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:184
 msgid "JUST"
-msgstr ""
+msgstr "只是"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:190
 msgid "EVEN SO,"
-msgstr ""
+msgstr "即便如此，"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:196
 msgid "MUST BE"
-msgstr ""
+msgstr "一定是"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:202
 msgid "NATURALLY"
-msgstr ""
+msgstr "当然"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:208
 msgid "FOR NOW,"
-msgstr ""
+msgstr "暂且，"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:214
 msgid "UNDERSTOOD"
-msgstr ""
+msgstr "了解"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:220
 msgid "JOKING"
-msgstr ""
+msgstr "开玩笑"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:226
 msgid "READY"
-msgstr ""
+msgstr "准备好"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:232
 msgid "SOMETHING"
-msgstr ""
+msgstr "什么东西"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:238
 msgid "SOMEHOW"
-msgstr ""
+msgstr "总觉得"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:244
 msgid "ALTHOUGH"
-msgstr ""
+msgstr "虽然"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:250
 msgid "ALSO"
-msgstr ""
+msgstr "还有"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:256
 msgid "PERFECT"
-msgstr ""
+msgstr "完美"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:262
 msgid "AS MUCH AS"
-msgstr ""
+msgstr "和…一样"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:268
 msgid "REALLY"
-msgstr ""
+msgstr "真的"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:274
 msgid "TRULY"
-msgstr ""
+msgstr "的确"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:280
 msgid "SERIOUSLY"
-msgstr ""
+msgstr "认真地"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:286
 msgid "TOTALLY"
-msgstr ""
+msgstr "完全"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:292
 msgid "UNTIL"
-msgstr ""
+msgstr "直到"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:298
 msgid "AS IF"
-msgstr ""
+msgstr "好像"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:304
 msgid "MOOD"
-msgstr ""
+msgstr "气氛"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:310
 msgid "RATHER"
-msgstr ""
+msgstr "倒不如"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:316
 msgid "AWFULLY"
-msgstr ""
+msgstr "极其"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:322
 msgid "MODE"
-msgstr ""
+msgstr "模式"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:328
 msgid "MORE"
-msgstr ""
+msgstr "更多"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:334
 msgid "TOO LATE"
-msgstr ""
+msgstr "太迟了"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:340
 msgid "FINALLY"
-msgstr ""
+msgstr "终于"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:346
 msgid "ANY"
-msgstr ""
+msgstr "任何"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:352
 msgid "INSTEAD"
-msgstr ""
+msgstr "反而"
 
 #: src/data/easy_chat/easy_chat_group_speech.h:358
 msgid "FANTASTIC"
-msgstr ""
+msgstr "太棒了"
+
+#: src/data/easy_chat/easy_chat_group_speech.h:88
+msgctxt "src/data/easy_chat/easy_chat_group_speech.h"
+msgid "MISS"
+msgstr "想念"

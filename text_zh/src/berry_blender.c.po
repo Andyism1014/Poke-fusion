@@ -11,118 +11,129 @@ msgid ""
 "Please select a BERRY from your BAG\n"
 "to put in the BERRY BLENDER.\p"
 msgstr ""
+"启动树果混合器。\p"
+"请从背包里选择要放进\n"
+"树果混合器的树果。\p"
 
 #: src/berry_blender.c:256
 msgid "\p"
-msgstr ""
+msgstr "\p"
 
 #: src/berry_blender.c:257
 msgid " was made!"
-msgstr ""
+msgstr "做好了！"
 
 #: src/berry_blender.c:261
 msgid "MISTER"
-msgstr ""
+msgstr "大叔"
 
 #: src/berry_blender.c:262
 msgid "LADDIE"
-msgstr ""
+msgstr "小哥"
 
 #: src/berry_blender.c:263
 msgid "LASSIE"
-msgstr ""
+msgstr "小妹"
 
 #: src/berry_blender.c:264 src/strings.c:416 src/data/script_menu.h:1309 src/data/easy_chat/easy_chat_group_events.h:20 src/data/easy_chat/easy_chat_group_events.h:148
 msgid "MASTER"
-msgstr ""
+msgstr "大师级"
 
 #: src/berry_blender.c:265 src/data/easy_chat/easy_chat_group_people.h:328
 msgid "DUDE"
-msgstr ""
+msgstr "老兄"
 
 #: src/berry_blender.c:266 src/data/easy_chat/easy_chat_group_speech.h:88
 msgid "MISS"
-msgstr ""
+msgstr "小姐"
 
 #: src/berry_blender.c:269 src/strings.c:649 src/strings.c:698 src/strings.c:775 src/strings.c:787 src/strings.c:1040
 msgid "Communication standby…"
-msgstr ""
+msgstr "通信待机中……"
 
 #: src/berry_blender.c:270
 msgid "Would you like to blend another BERRY?"
-msgstr ""
+msgstr "还要再混合一个树果吗？"
 
 #: src/berry_blender.c:271
 msgid ""
 "You've run out of BERRIES for\n"
 "blending in the BERRY BLENDER.\p"
 msgstr ""
+"能放进树果混合器的\n"
+"树果已经用完了。\p"
 
 #: src/berry_blender.c:272
 msgid "Your {POKEBLOCK} CASE is full.\p"
-msgstr ""
+msgstr "你的宝可方块盒满了。\p"
 
 #: src/berry_blender.c:273
 msgid ""
 " has no BERRIES to put in\n"
 "the BERRY BLENDER."
 msgstr ""
+"没有能放进\n"
+"树果混合器的树果。"
 
 #: src/berry_blender.c:274
 msgid "'s {POKEBLOCK} CASE is full.\p"
-msgstr ""
+msgstr "的宝可方块盒满了。\p"
 
 #: src/berry_blender.c:275
 msgid "RESULTS OF BLENDING"
-msgstr ""
+msgstr "混合结果"
 
 #: src/berry_blender.c:277 src/strings.c:704 src/strings.c:870
 msgid "Time:"
-msgstr ""
+msgstr "时间："
 
 #: src/berry_blender.c:278 src/strings.c:708
 msgid " min. "
-msgstr ""
+msgstr "分"
 
 #: src/berry_blender.c:279 src/strings.c:710
 msgid " sec."
-msgstr ""
+msgstr "秒"
 
 #: src/berry_blender.c:280
 msgid "MAXIMUM SPEED"
-msgstr ""
+msgstr "最高速度"
 
 #: src/berry_blender.c:281
 msgid " RPM"
-msgstr ""
+msgstr " RPM"
 
 #: src/berry_blender.c:282 src/berry_blender.c:287 src/pokedex_plus_hgss.c:3936 src/strings.c:955
 msgid "."
-msgstr ""
+msgstr "."
 
 #: src/berry_blender.c:284
 msgid "RANKING"
-msgstr ""
+msgstr "排名"
 
 #: src/berry_blender.c:285
 msgid "The level is "
-msgstr ""
+msgstr "浓度为"
 
 #: src/berry_blender.c:286
 msgid ", and the feel is "
-msgstr ""
+msgstr "，口感为"
 
 #: src/berry_blender.c:289 src/strings.c:54 src/strings.c:675
 msgid ""
 "SAVING…\n"
 "DON'T TURN OFF THE POWER."
 msgstr ""
+"正在记录……\n"
+"请不要关闭电源。"
 
 #: src/berry_blender.c:290
 msgid ""
 "BERRY BLENDER\n"
 "MAXIMUM SPEED RECORD!"
 msgstr ""
+"树果混合器\n"
+"最高速度纪录！"
 
 #: src/berry_blender.c:291
 msgid ""
@@ -130,35 +141,47 @@ msgid ""
 "3 PLAYERS\n"
 "4 PLAYERS"
 msgstr ""
+"2人\n"
+"3人\n"
+"4人"
 
 #: src/berry_blender.c:892
 msgid ""
 "\n"
 "いいTVができました "
 msgstr ""
+"\n"
+"可以做出好节目了"
 
 #: src/berry_blender.c:893
 msgid ""
 "\n"
 "ダメTVができました "
 msgstr ""
+"\n"
+"做不出好节目"
 
 #: src/berry_blender.c:894
 msgid "からい"
-msgstr ""
+msgstr "辣"
 
 #: src/berry_blender.c:894
 msgid "しぶい"
-msgstr ""
+msgstr "涩"
 
 #: src/berry_blender.c:894
 msgid "あまい"
-msgstr ""
+msgstr "甜"
 
 #: src/berry_blender.c:894
 msgid "にがい"
-msgstr ""
+msgstr "苦"
 
 #: src/berry_blender.c:894
 msgid "すっぱい"
-msgstr ""
+msgstr "酸"
+
+#: src/berry_blender.c:264
+msgctxt "src/berry_blender.c"
+msgid "MASTER"
+msgstr "大师"

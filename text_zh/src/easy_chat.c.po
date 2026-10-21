@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/easy_chat.c:870
 msgid "{CLEAR 17}"
-msgstr ""
+msgstr "{CLEAR 17}"

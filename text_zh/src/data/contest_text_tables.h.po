@@ -10,287 +10,381 @@ msgid ""
 "It became more conscious\n"
 "of the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它变得更在意\n"
+"其他宝可梦了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:12
 msgid ""
 "{STR_VAR_1} can't make an\n"
 "appeal after this.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}之后\n"
+"无法再表演了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:13
 msgid ""
 "It settled down just a\n"
 "little bit.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它稍微\n"
+"冷静了一点。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:14
 msgid ""
 "It became oblivious to\n"
 "the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它完全不在意\n"
+"其他宝可梦了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:15
 msgid ""
 "It became less aware of\n"
 "the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它不太在意\n"
+"其他宝可梦了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:16
 msgid ""
 "It stopped caring about\n"
 "other POKéMON much.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它不再那么在意\n"
+"其他宝可梦了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:17
 msgid ""
 "It tried to startle the\n"
 "other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它想吓唬\n"
+"其他宝可梦。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:18
 msgid ""
 "It tried to dazzle the\n"
 "others.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它想让其他宝可梦\n"
+"眼花缭乱。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:19
 msgid ""
 "The JUDGE looked away\n"
 "from {STR_VAR_1}.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"评审把目光从\n"
+"{STR_VAR_1}身上移开了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:20
 msgid ""
 "It tried to unnerve the\n"
 "next POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它想扰乱\n"
+"下一只宝可梦。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:21
 msgid ""
 "{STR_VAR_1} became\n"
 "nervous.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}\n"
+"变得紧张了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:22
 msgid ""
 "The appeal tried to\n"
 "unnerve waiting POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"这次表演想扰乱\n"
+"等待中的宝可梦。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:23
 msgid ""
 "It taunted POKéMON\n"
 "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它挑衅了\n"
+"表现好的宝可梦。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:24
 msgid ""
 "{STR_VAR_1} regained its\n"
 "form.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}\n"
+"恢复了状态。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:25
 msgid ""
 "It tried to jam POKéMON\n"
 "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它想干扰\n"
+"表现好的宝可梦。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:26
 msgid ""
 "The standout {STR_VAR_1}\n"
 "hustled even more.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"表现突出的{STR_VAR_1}\n"
+"更加卖力了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:27
 msgid ""
 "The largely unnoticed\n"
 "{STR_VAR_1} worked hard.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"不太起眼的\n"
+"{STR_VAR_1}很努力。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:28
 msgid ""
 "It worked as much as\n"
 "POKéMON before it.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它和之前的宝可梦\n"
+"表现得一样好。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:29 src/data/contest_text_tables.h:31 src/data/contest_text_tables.h:32
 msgid ""
 "{STR_VAR_1}'s appeal did\n"
 "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}的表演\n"
+"不太顺利。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:30
 msgid ""
 "It worked as much as the\n"
 "preceding POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它和前一只宝可梦\n"
+"表现得一样好。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:33 src/data/contest_text_tables.h:38
 msgid ""
 "{STR_VAR_1}'s appeal\n"
 "went slightly well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}的表演\n"
+"还算不错。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:34 src/data/contest_text_tables.h:39
 msgid ""
 "{STR_VAR_1}'s appeal\n"
 "went pretty well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}的表演\n"
+"相当不错。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:35 src/data/contest_text_tables.h:41
 msgid ""
 "{STR_VAR_1}'s appeal\n"
 "went excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}的表演\n"
+"非常出色。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:36
 msgid ""
 "{STR_VAR_1}'s appeal was\n"
 "a dud.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}的表演\n"
+"完全失败了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:37
 msgid ""
 "{STR_VAR_1}'s appeal did\n"
 "not work very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}的表演\n"
+"效果不太好。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:40
 msgid ""
 "{STR_VAR_1}'s appeal\n"
 "went very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}的表演\n"
+"很成功。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:42
 msgid ""
 "It's the same type as the\n"
 "POKéMON before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"和前一只宝可梦\n"
+"类型相同——很好！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:43
 msgid ""
 "It's not the same type as\n"
 "the one before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"和前一只宝可梦\n"
+"类型不同——很好！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:44
 msgid ""
 "It stood out much more\n"
 "than the POKéMON before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它比前一只宝可梦\n"
+"更加引人注目。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:45
 msgid ""
 "It didn't do as well as the\n"
 "POKéMON before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"它不如前一只\n"
+"宝可梦表现得好。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:46
 msgid ""
 "{STR_VAR_1}'s condition\n"
 "rose above usual.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}的状态\n"
+"比平时更好了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:47
 msgid ""
 "{STR_VAR_1}'s hot status\n"
 "made it a great appeal!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"{STR_VAR_1}状态火热，\n"
+"表演非常精彩！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:48
 msgid ""
 "It moved up in line for\n"
 "the next appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"下次表演的\n"
+"顺序提前了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:49
 msgid ""
 "It moved back in line once\n"
 "for the next appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"下次表演的\n"
+"顺序推后了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:50
 msgid ""
 "It scrambled up the\n"
 "order for the next turn.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 msgstr ""
+"下一回合的\n"
+"顺序被打乱了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}"
 
 #: src/data/contest_text_tables.h:55
 msgid ""
 "{STR_VAR_1} managed to\n"
 "avert its gaze.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}成功地\n"
+"移开了视线。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:56
 msgid ""
 "{STR_VAR_1} managed to\n"
 "avoid seeing it.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}成功地\n"
+"避开了视线。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:57
 msgid ""
 "{STR_VAR_1} isn't fazed\n"
 "by that sort of thing.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}对那种事\n"
+"毫不在意。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:58
 msgid ""
 "{STR_VAR_1} became a\n"
 "little distracted.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}有点\n"
+"分心了。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:59
 msgid ""
 "It tried to startle the\n"
 "other POKéMON.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"它想吓唬\n"
+"其他宝可梦。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:60
 msgid ""
 "{STR_VAR_1} looked down\n"
 "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}分心\n"
+"低下了头。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:61
 msgid ""
 "{STR_VAR_1} turned back\n"
 "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}分心\n"
+"转过了身。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:62
 msgid ""
 "{STR_VAR_1} couldn't help\n"
 "uttering a cry.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}忍不住\n"
+"叫出了声。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:63
 msgid ""
 "{STR_VAR_1} couldn't help\n"
 "leaping up.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}忍不住\n"
+"跳了起来。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:64
 msgid ""
 "{STR_VAR_1} tripped over\n"
 "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"{STR_VAR_1}分心\n"
+"摔了一跤。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:65
 msgid "But it messed up.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
-msgstr ""
+msgstr "但是失败了。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:66
 msgid ""
 "But it failed to make\n"
 "the target nervous.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"但是没能让\n"
+"对手紧张。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:67
 msgid ""
 "But it failed to make\n"
 "anyone nervous.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 msgstr ""
+"但是没能让\n"
+"任何人紧张。{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
 
 #: src/data/contest_text_tables.h:68
 msgid "But it was ignored…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"
-msgstr ""
+msgstr "但是被无视了……{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}"

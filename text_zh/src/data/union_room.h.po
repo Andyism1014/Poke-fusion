@@ -7,361 +7,447 @@ msgstr ""
 
 #: src/data/union_room.h:3
 msgid "{ID}"
-msgstr ""
+msgstr "{ID}"
 
 #: src/data/union_room.h:4
 msgid "Please start over from the beginning."
-msgstr ""
+msgstr "请从头开始。"
 
 #: src/data/union_room.h:5
 msgid ""
 "The WIRELESS COMMUNICATION\n"
 "SYSTEM search has been canceled."
 msgstr ""
+"已取消搜索\n"
+"无线通信系统。"
 
 #: src/data/union_room.h:6
 msgid ""
 "Awaiting communication\n"
 "from another player."
 msgstr ""
+"正在等待\n"
+"其他玩家的通信。"
 
 #: src/data/union_room.h:7
 msgid ""
 "{STR_VAR_1}! Awaiting\n"
 "communication from another player."
 msgstr ""
+"{STR_VAR_1}！\n"
+"正在等待其他玩家的通信。"
 
 #: src/data/union_room.h:8
 msgid ""
 "{STR_VAR_1}! Awaiting link!\n"
 "Press START when everyone's ready."
 msgstr ""
+"{STR_VAR_1}！正在等待连接！\n"
+"大家都准备好后请按START键。"
 
 #: src/data/union_room.h:9
 msgid "シングルバトルを かいさいする"
-msgstr ""
+msgstr "举办单打对战"
 
 #: src/data/union_room.h:10
 msgid "ダブルバトルを かいさいする"
-msgstr ""
+msgstr "举办双打对战"
 
 #: src/data/union_room.h:11
 msgid "マルチバトルを かいさいする"
-msgstr ""
+msgstr "举办多人对战"
 
 #: src/data/union_room.h:12
 msgid "ポケモンこうかんを かいさいする"
-msgstr ""
+msgstr "举办宝可梦交换"
 
 #: src/data/union_room.h:13
 msgid "チャットを かいさいする"
-msgstr ""
+msgstr "举办聊天"
 
 #: src/data/union_room.h:14
 msgid "ふしぎなカードをくばる"
-msgstr ""
+msgstr "分享神奇卡片"
 
 #: src/data/union_room.h:15
 msgid "ふしぎなニュースをくばる"
-msgstr ""
+msgstr "分享神奇新闻"
 
 #: src/data/union_room.h:16
 msgid "ふしぎなできごとを かいさいする"
-msgstr ""
+msgstr "举办神秘事件"
 
 #: src/data/union_room.h:17
 msgid "なわとびを かいさいする"
-msgstr ""
+msgstr "举办跳绳"
 
 #: src/data/union_room.h:18
 msgid "きのみマッシャーを かいさいする"
-msgstr ""
+msgstr "举办树果粉碎"
 
 #: src/data/union_room.h:19
 msgid "きのみどりを かいさいする"
-msgstr ""
+msgstr "举办摘树果"
 
 #: src/data/union_room.h:20
 msgid "ぐるぐるこうかんを かいさいする"
-msgstr ""
+msgstr "举办转转交换"
 
 #: src/data/union_room.h:21
 msgid "ぐるぐるショップを かいさいする"
-msgstr ""
+msgstr "举办转转商店"
 
 #: src/data/union_room.h:41
 msgid ""
 "1 player\n"
 "needed."
 msgstr ""
+"还需要\n"
+"1人。"
 
 #: src/data/union_room.h:42
 msgid ""
 "2 players\n"
 "needed."
 msgstr ""
+"还需要\n"
+"2人。"
 
 #: src/data/union_room.h:43
 msgid ""
 "3 players\n"
 "needed."
 msgstr ""
+"还需要\n"
+"3人。"
 
 #: src/data/union_room.h:44
 msgid ""
 "4 players\n"
 "needed."
 msgstr ""
+"还需要\n"
+"4人。"
 
 #: src/data/union_room.h:45
 msgid ""
 "2-PLAYER\n"
 "MODE"
 msgstr ""
+"2人\n"
+"模式"
 
 #: src/data/union_room.h:46
 msgid ""
 "3-PLAYER\n"
 "MODE"
 msgstr ""
+"3人\n"
+"模式"
 
 #: src/data/union_room.h:47
 msgid ""
 "4-PLAYER\n"
 "MODE"
 msgstr ""
+"4人\n"
+"模式"
 
 #: src/data/union_room.h:48
 msgid ""
 "5-PLAYER\n"
 "MODE"
 msgstr ""
+"5人\n"
+"模式"
 
 #: src/data/union_room.h:89
 msgid ""
 "ため\n"
 "さんかしゃ ぼしゅうちゅう です！"
 msgstr ""
+"的参加者\n"
+"正在招募中！"
 
 #: src/data/union_room.h:90
 msgid ""
 "{STR_VAR_2} contacted you for\n"
 "{STR_VAR_1}. Accept?"
 msgstr ""
+"{STR_VAR_2}邀请你进行\n"
+"{STR_VAR_1}。要接受吗？"
 
 #: src/data/union_room.h:91
 msgid ""
 "{STR_VAR_2} contacted you.\n"
 "Will you share {STR_VAR_1}?"
 msgstr ""
+"{STR_VAR_2}联络了你。\n"
+"要分享{STR_VAR_1}吗？"
 
 #: src/data/union_room.h:92
 msgid ""
 "{STR_VAR_2} contacted you.\n"
 "Add to the members?"
 msgstr ""
+"{STR_VAR_2}联络了你。\n"
+"要加为成员吗？"
 
 #: src/data/union_room.h:93
 msgid ""
 "{STR_VAR_1}!\n"
 "Are these members OK?"
 msgstr ""
+"{STR_VAR_1}！\n"
+"这些成员可以吗？"
 
 #: src/data/union_room.h:94
 msgid ""
 "Cancel {STR_VAR_1} MODE\n"
 "with these members?"
 msgstr ""
+"要取消和这些成员的\n"
+"{STR_VAR_1}模式吗？"
 
 #: src/data/union_room.h:95
 msgid ""
 "An “OK” was sent\n"
 "to {STR_VAR_1}."
 msgstr ""
+"已经向{STR_VAR_1}\n"
+"发送了“OK”。"
 
 #: src/data/union_room.h:96
 msgid ""
 "The other TRAINER doesn't appear\n"
 "to be available now…\p"
 msgstr ""
+"对方训练家现在\n"
+"似乎没有空……\p"
 
 #: src/data/union_room.h:97
 msgid ""
 "You can't transmit with a TRAINER\n"
 "who is too far away.\p"
 msgstr ""
+"无法和距离太远的\n"
+"训练家通信。\p"
 
 #: src/data/union_room.h:98
 msgid ""
 "The other TRAINER(S) is/are not\n"
 "ready yet.\p"
 msgstr ""
+"对方训练家\n"
+"还没有准备好。\p"
 
 #: src/data/union_room.h:105
 msgid ""
 "The {STR_VAR_1} MODE with\n"
 "these members will be canceled.{PAUSE 60}"
 msgstr ""
+"将取消和这些成员的\n"
+"{STR_VAR_1}模式。{PAUSE 60}"
 
 #: src/data/union_room.h:106
 msgid ""
 "There is a member who can no\n"
 "longer remain available.\p"
 msgstr ""
+"有成员已经\n"
+"无法继续参加了。\p"
 
 #: src/data/union_room.h:113
 msgid ""
 "The other TRAINER appears\n"
 "unavailable…\p"
 msgstr ""
+"对方训练家\n"
+"似乎没有空……\p"
 
 #: src/data/union_room.h:114
 msgid "{STR_VAR_1} sent back an “OK”!"
-msgstr ""
+msgstr "{STR_VAR_1}回复了“OK”！"
 
 #: src/data/union_room.h:115
 msgid ""
 "{STR_VAR_1} OK'd your registration as\n"
 "a member."
 msgstr ""
+"{STR_VAR_1}同意了\n"
+"你作为成员加入。"
 
 #: src/data/union_room.h:116
 msgid "{STR_VAR_1} replied, “No…”\p"
-msgstr ""
+msgstr "{STR_VAR_1}回复：“不行……”\p"
 
 #: src/data/union_room.h:117
 msgid ""
 "{STR_VAR_1}!\n"
 "Awaiting other members!"
 msgstr ""
+"{STR_VAR_1}！\n"
+"正在等待其他成员！"
 
 #: src/data/union_room.h:118
 msgid "Quit being a member?"
-msgstr ""
+msgstr "要退出成员吗？"
 
 #: src/data/union_room.h:119
 msgid "You stopped being a member.\p"
-msgstr ""
+msgstr "你退出了成员。\p"
 
 #: src/data/union_room.h:134
 msgid ""
 "The WIRELESS COMMUNICATION\n"
 "SYSTEM link has been established."
 msgstr ""
+"无线通信系统的\n"
+"连接已经建立。"
 
 #: src/data/union_room.h:135
 msgid ""
 "The WIRELESS COMMUNICATION\n"
 "SYSTEM link has been dropped…"
 msgstr ""
+"无线通信系统的\n"
+"连接已经中断……"
 
 #: src/data/union_room.h:136
 msgid ""
 "The link with your friend has been\n"
 "dropped…"
 msgstr ""
+"和朋友的连接\n"
+"已经中断……"
 
 #: src/data/union_room.h:137
 msgid "{STR_VAR_1} replied, “No…”"
-msgstr ""
+msgstr "{STR_VAR_1}回复：“不行……”"
 
 #: src/data/union_room.h:152 src/data/union_room.h:153
 msgid ""
 "Do you want the {STR_VAR_2}\n"
 "MODE?"
 msgstr ""
+"要进行\n"
+"{STR_VAR_2}模式吗？"
 
 #: src/data/union_room.h:161
 msgid ""
 "Communicating…\n"
 "Please wait."
 msgstr ""
+"正在通信……\n"
+"请稍候。"
 
 #: src/data/union_room.h:162
 msgid ""
 "Awaiting {STR_VAR_1}'s response about\n"
 "the trade…"
 msgstr ""
+"正在等待{STR_VAR_1}\n"
+"对交换的回复……"
 
 #: src/data/union_room.h:163
 msgid ""
 "Communicating{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n"
 "{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}."
 msgstr ""
+"正在通信{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n"
+"{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}."
 
 #: src/data/union_room.h:165
 msgid ""
 "Communicating with {STR_VAR_1}{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n"
 "{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}."
 msgstr ""
+"正在和{STR_VAR_1}通信{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n"
+"{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}."
 
 #: src/data/union_room.h:167
 msgid ""
 "Please wait a while{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n"
 "{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}."
 msgstr ""
+"请稍等一会儿{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n"
+"{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}."
 
 #: src/data/union_room.h:176
 msgid ""
 "Hiya! Is there something that you\n"
 "wanted to do?"
 msgstr ""
+"嗨！\n"
+"你有什么想做的吗？"
 
 #: src/data/union_room.h:177
 msgid ""
 "Hello!\n"
 "Would you like to do something?"
 msgstr ""
+"你好！\n"
+"要一起做点什么吗？"
 
 #: src/data/union_room.h:178
 msgid ""
 "{STR_VAR_1}: Hiya, we meet again!\n"
 "What are you up for this time?"
 msgstr ""
+"{STR_VAR_1}：嗨，又见面了！\n"
+"这次想做什么？"
 
 #: src/data/union_room.h:179
 msgid ""
 "{STR_VAR_1}: Oh! {PLAYER}, hello!\n"
 "Would you like to do something?"
 msgstr ""
+"{STR_VAR_1}：啊！{PLAYER}，你好！\n"
+"要一起做点什么吗？"
 
 #: src/data/union_room.h:191
 msgid "Want to do something?"
-msgstr ""
+msgstr "想做点什么吗？"
 
 #: src/data/union_room.h:192
 msgid "Would you like to do something?"
-msgstr ""
+msgstr "要一起做点什么吗？"
 
 #: src/data/union_room.h:193
 msgid ""
 "{STR_VAR_1}: What would you like to\n"
 "do now?"
 msgstr ""
+"{STR_VAR_1}：\n"
+"现在想做什么？"
 
 #: src/data/union_room.h:194
 msgid "{STR_VAR_1}: Want to do anything else?"
-msgstr ""
+msgstr "{STR_VAR_1}：还想做别的吗？"
 
 #: src/data/union_room.h:207
 msgid "Somebody has contacted you.{PAUSE 60}"
-msgstr ""
+msgstr "有人联络了你。{PAUSE 60}"
 
 #: src/data/union_room.h:208
 msgid "{STR_VAR_1} has contacted you.{PAUSE 60}"
-msgstr ""
+msgstr "{STR_VAR_1}联络了你。{PAUSE 60}"
 
 #: src/data/union_room.h:215 src/data/union_room.h:462
 msgid ""
 "Awaiting a response from\n"
 "the other TRAINER…"
 msgstr ""
+"正在等待\n"
+"对方训练家的回复……"
 
 #: src/data/union_room.h:216
 msgid ""
 "Awaiting a response from\n"
 "{STR_VAR_1}…"
 msgstr ""
+"正在等待\n"
+"{STR_VAR_1}的回复……"
 
 #: src/data/union_room.h:223
 msgid ""
@@ -370,6 +456,10 @@ msgid ""
 "Would you like to show your\n"
 "TRAINER CARD?"
 msgstr ""
+"对方训练家向你出示了\n"
+"训练家卡片。\p"
+"要出示你的\n"
+"训练家卡片吗？"
 
 #: src/data/union_room.h:224
 msgid ""
@@ -378,6 +468,10 @@ msgid ""
 "Will you accept the battle\n"
 "challenge?"
 msgstr ""
+"对方训练家\n"
+"向你发起了对战。\p"
+"要接受对战的\n"
+"挑战吗？"
 
 #: src/data/union_room.h:225
 msgid ""
@@ -386,6 +480,10 @@ msgid ""
 "Will you accept the chat\n"
 "invitation?"
 msgstr ""
+"对方训练家\n"
+"邀请你聊天。\p"
+"要接受聊天的\n"
+"邀请吗？"
 
 #: src/data/union_room.h:226
 msgid ""
@@ -396,6 +494,12 @@ msgid ""
 "Will you accept this trade\n"
 "offer?"
 msgstr ""
+"有人想用\n"
+"Lv.{DYNAMIC 2}的{DYNAMIC 3}\p"
+"交换你登记的\n"
+"Lv.{DYNAMIC 0}的{DYNAMIC 1}。\p"
+"要接受这个\n"
+"交换提议吗？"
 
 #: src/data/union_room.h:227
 msgid ""
@@ -403,24 +507,28 @@ msgid ""
 "registered EGG.\l"
 "Will you accept this trade offer?"
 msgstr ""
+"有人想交换你登记的蛋。\n"
+"要接受这个交换提议吗？"
 
 #: src/data/union_room.h:228
 msgid "The chat has been dropped.\p"
-msgstr ""
+msgstr "聊天已经中断了。\p"
 
 #: src/data/union_room.h:229 src/data/union_room.h:230
 msgid "You declined the offer.\p"
-msgstr ""
+msgstr "你拒绝了提议。\p"
 
 #: src/data/union_room.h:231
 msgid "The chat was ended.\p"
-msgstr ""
+msgstr "聊天结束了。\p"
 
 #: src/data/union_room.h:241
 msgid ""
 "Oh, hey! We're in a chat right now.\n"
 "Want to join us?"
 msgstr ""
+"哦，嘿！我们正在聊天。\n"
+"要加入我们吗？"
 
 #: src/data/union_room.h:242
 msgid ""
@@ -428,12 +536,17 @@ msgid ""
 "We're having a chat right now.\l"
 "Want to join us?"
 msgstr ""
+"{STR_VAR_1}：嘿，{PLAYER}！\n"
+"我们正在聊天呢。\l"
+"要加入我们吗？"
 
 #: src/data/union_room.h:243
 msgid ""
 "Oh, hi! We're having a chat now.\n"
 "Would you like to join us?"
 msgstr ""
+"啊，你好！我们正在聊天。\n"
+"要不要加入我们？"
 
 #: src/data/union_room.h:244
 msgid ""
@@ -441,84 +554,109 @@ msgid ""
 "We're having a chat now.\l"
 "Would you like to join us?"
 msgstr ""
+"{STR_VAR_1}：啊，{PLAYER}，你好！\n"
+"我们正在聊天呢。\l"
+"要不要加入我们？"
 
 #: src/data/union_room.h:256
 msgid ""
 "……\n"
 "The TRAINER appears to be busy…\p"
 msgstr ""
+"……\n"
+"这位训练家好像很忙……\p"
 
 #: src/data/union_room.h:257
 msgid ""
 "A battle, huh?\n"
 "All right, just give me some time."
 msgstr ""
+"对战是吧？\n"
+"好啊，给我一点时间。"
 
 #: src/data/union_room.h:258 src/data/union_room.h:278
 msgid ""
 "You want to chat, huh?\n"
 "Sure, just wait a little."
 msgstr ""
+"想聊天是吧？\n"
+"好啊，稍等一下。"
 
 #: src/data/union_room.h:259
 msgid ""
 "Sure thing! As my “Greetings,”\n"
 "here's my TRAINER CARD."
 msgstr ""
+"没问题！作为“问候”，\n"
+"这是我的训练家卡片。"
 
 #: src/data/union_room.h:260
 msgid ""
 "A battle? Of course, but I need\n"
 "time to get ready."
 msgstr ""
+"对战？当然可以，\n"
+"不过我需要时间准备。"
 
 #: src/data/union_room.h:261
 msgid ""
 "Did you want to chat?\n"
 "Okay, but please wait a moment."
 msgstr ""
+"你想聊天吗？\n"
+"好的，请稍等一下。"
 
 #: src/data/union_room.h:262
 msgid ""
 "As my introduction, I'll show you\n"
 "my TRAINER CARD."
 msgstr ""
+"作为自我介绍，\n"
+"给你看看我的训练家卡片。"
 
 #: src/data/union_room.h:279
 msgid ""
 "Thanks for waiting!\n"
 "Let's get our battle started!{PAUSE 60}"
 msgstr ""
+"让你久等了！\n"
+"我们开始对战吧！{PAUSE 60}"
 
 #: src/data/union_room.h:280
 msgid ""
 "All right!\n"
 "Let's chat!{PAUSE 60}"
 msgstr ""
+"好！\n"
+"我们来聊天吧！{PAUSE 60}"
 
 #: src/data/union_room.h:281
 msgid ""
 "Sorry I made you wait!\n"
 "Let's get started!{PAUSE 60}"
 msgstr ""
+"抱歉让你久等了！\n"
+"我们开始吧！{PAUSE 60}"
 
 #: src/data/union_room.h:282
 msgid ""
 "Sorry I made you wait!\n"
 "Let's chat.{PAUSE 60}"
 msgstr ""
+"抱歉让你久等了！\n"
+"我们来聊天吧。{PAUSE 60}"
 
 #: src/data/union_room.h:283
 msgid "The trade will be started.{PAUSE 60}"
-msgstr ""
+msgstr "交换即将开始。{PAUSE 60}"
 
 #: src/data/union_room.h:284
 msgid "The battle will be started.{PAUSE 60}"
-msgstr ""
+msgstr "对战即将开始。{PAUSE 60}"
 
 #: src/data/union_room.h:285
 msgid "Entering the chat…{PAUSE 60}"
-msgstr ""
+msgstr "正在进入聊天……{PAUSE 60}"
 
 #: src/data/union_room.h:311
 msgid ""
@@ -526,6 +664,9 @@ msgid ""
 "be feeling too well right now.\l"
 "Let me battle you another time.\p"
 msgstr ""
+"抱歉！我的宝可梦\n"
+"现在状态好像不太好。\l"
+"下次再和你对战吧。\p"
 
 #: src/data/union_room.h:312
 msgid ""
@@ -533,6 +674,9 @@ msgid ""
 "aren't feeling well…\p"
 "Let's battle another time.\p"
 msgstr ""
+"非常抱歉，\n"
+"我的宝可梦状态不太好……\p"
+"下次再对战吧。\p"
 
 #: src/data/union_room.h:319
 msgid ""
@@ -540,6 +684,9 @@ msgid ""
 "Where'd it go now?\l"
 "Sorry! I'll show you another time!\p"
 msgstr ""
+"咦？我的训练家卡片……\n"
+"跑到哪里去了？\l"
+"抱歉！下次再给你看！\p"
 
 #: src/data/union_room.h:320
 msgid ""
@@ -547,18 +694,25 @@ msgid ""
 "TRAINER CARD?…\l"
 "Sorry! I'll show you later!\p"
 msgstr ""
+"哎？我把训练家卡片\n"
+"放到哪里去了？……\l"
+"抱歉！以后再给你看！\p"
 
 #: src/data/union_room.h:327
 msgid ""
 "If you want to do something with\n"
 "me, just give me a shout!\p"
 msgstr ""
+"如果想和我一起做点什么，\n"
+"随时叫我一声！\p"
 
 #: src/data/union_room.h:328
 msgid ""
 "If you want to do something with\n"
 "me, don't be shy.\p"
 msgstr ""
+"如果想和我一起做点什么，\n"
+"不用客气哦。\p"
 
 #: src/data/union_room.h:335
 msgid ""
@@ -566,6 +720,9 @@ msgid ""
 "something else.\l"
 "Another time, okay?\p"
 msgstr ""
+"哎呀！抱歉，\n"
+"我还有别的事要做。\l"
+"下次吧，好吗？\p"
 
 #: src/data/union_room.h:336
 msgid ""
@@ -573,24 +730,33 @@ msgid ""
 "two POKéMON that are below\l"
 "Lv. 30.\p"
 msgstr ""
+"想对战的话，\n"
+"需要两只\l"
+"Lv.30以下的宝可梦。\p"
 
 #: src/data/union_room.h:337
 msgid ""
 "For a battle, you need two\n"
 "POKéMON that are below Lv. 30.\p"
 msgstr ""
+"对战需要两只\n"
+"Lv.30以下的宝可梦。\p"
 
 #: src/data/union_room.h:339
 msgid ""
 "Oh, all right.\n"
 "Come see me anytime, okay?\p"
 msgstr ""
+"哦，好吧。\n"
+"随时来找我哦。\p"
 
 #: src/data/union_room.h:340
 msgid ""
 "Oh…\n"
 "Please come by anytime.\p"
 msgstr ""
+"哦……\n"
+"欢迎随时过来。\p"
 
 #: src/data/union_room.h:348
 msgid ""
@@ -598,6 +764,9 @@ msgid ""
 "I just can't right this instant.\l"
 "Let's chat another time.\p"
 msgstr ""
+"啊，抱歉！\n"
+"我现在实在没空。\l"
+"下次再聊吧。\p"
 
 #: src/data/union_room.h:349
 msgid ""
@@ -605,152 +774,201 @@ msgid ""
 "I have too much to do right now.\l"
 "Let's chat some other time.\p"
 msgstr ""
+"啊，对不起。\n"
+"我现在有好多事要做。\l"
+"改天再聊吧。\p"
 
 #: src/data/union_room.h:357
 msgid ""
 "Whoa!\n"
 "I can tell you're pretty tough!\p"
 msgstr ""
+"哇！\n"
+"看得出来你很强！\p"
 
 #: src/data/union_room.h:358
 msgid ""
 "You used that move?\n"
 "That's good strategy!\p"
 msgstr ""
+"你用了那个招式？\n"
+"真是好战术！\p"
 
 #: src/data/union_room.h:359
 msgid ""
 "Way to go!\n"
 "That was an eye-opener!\p"
 msgstr ""
+"干得好！\n"
+"真让我大开眼界！\p"
 
 #: src/data/union_room.h:360
 msgid ""
 "Oh! How could you use that\n"
 "POKéMON in that situation?\p"
 msgstr ""
+"哦！在那种情况下\n"
+"怎么会用那只宝可梦？\p"
 
 #: src/data/union_room.h:361
 msgid ""
 "That POKéMON…\n"
 "It's been raised really well!\p"
 msgstr ""
+"那只宝可梦……\n"
+"培育得真好！\p"
 
 #: src/data/union_room.h:362
 msgid ""
 "That's it!\n"
 "This is the right move now!\p"
 msgstr ""
+"就是这样！\n"
+"现在就该用这个招式！\p"
 
 #: src/data/union_room.h:363
 msgid ""
 "That's awesome!\n"
 "You can battle that way?\p"
 msgstr ""
+"太厉害了！\n"
+"还能这样对战啊？\p"
 
 #: src/data/union_room.h:364
 msgid ""
 "You have exquisite timing for\n"
 "switching POKéMON!\p"
 msgstr ""
+"你换宝可梦的时机\n"
+"把握得真好！\p"
 
 #: src/data/union_room.h:381
 msgid ""
 "Oh, I see!\n"
 "This is educational!\p"
 msgstr ""
+"原来如此！\n"
+"真是长知识了！\p"
 
 #: src/data/union_room.h:382
 msgid ""
 "Don't say anything funny anymore!\n"
 "I'm sore from laughing!\p"
 msgstr ""
+"别再说好笑的话了！\n"
+"我都笑得肚子疼了！\p"
 
 #: src/data/union_room.h:383
 msgid ""
 "Oh?\n"
 "Something like that happened.\p"
 msgstr ""
+"哦？\n"
+"还发生过那种事啊。\p"
 
 #: src/data/union_room.h:384
 msgid ""
 "Hmhm… What?\n"
 "So is this what you're saying?\p"
 msgstr ""
+"嗯嗯……什么？\n"
+"你是说这样吗？\p"
 
 #: src/data/union_room.h:385
 msgid ""
 "Is that right?\n"
 "I didn't know that.\p"
 msgstr ""
+"是这样吗？\n"
+"我都不知道。\p"
 
 #: src/data/union_room.h:386
 msgid ""
 "Ahaha!\n"
 "What is that about?\p"
 msgstr ""
+"啊哈哈！\n"
+"那是怎么回事？\p"
 
 #: src/data/union_room.h:387
 msgid ""
 "Yes, that's exactly it!\n"
 "That's what I meant.\p"
 msgstr ""
+"对，就是这样！\n"
+"我就是这个意思。\p"
 
 #: src/data/union_room.h:388
 msgid ""
 "In other words…\n"
 "Yes! That's right!\p"
 msgstr ""
+"也就是说……\n"
+"对！没错！\p"
 
 #: src/data/union_room.h:405
 msgid ""
 "I'm just showing my TRAINER CARD\n"
 "as my way of greeting.\p"
 msgstr ""
+"我只是出示训练家卡片\n"
+"来打个招呼。\p"
 
 #: src/data/union_room.h:406
 msgid "I hope I get to know you better!\p"
-msgstr ""
+msgstr "希望能和你更熟悉一些！\p"
 
 #: src/data/union_room.h:407
 msgid ""
 "We're showing each other our\n"
 "TRAINER CARDS to get acquainted.\p"
 msgstr ""
+"我们正在互相出示\n"
+"训练家卡片来认识彼此。\p"
 
 #: src/data/union_room.h:408
 msgid ""
 "Glad to meet you.\n"
 "Please don't be a stranger!\p"
 msgstr ""
+"很高兴认识你。\n"
+"以后常联系哦！\p"
 
 #: src/data/union_room.h:421
 msgid ""
 "Yeahah!\n"
 "I really wanted this POKéMON!\p"
 msgstr ""
+"耶！\n"
+"我一直很想要这只宝可梦！\p"
 
 #: src/data/union_room.h:422
 msgid ""
 "Finally, a trade got me that\n"
 "POKéMON I'd wanted a long time.\p"
 msgstr ""
+"终于通过交换得到了\n"
+"我想要很久的宝可梦。\p"
 
 #: src/data/union_room.h:423
 msgid "I'm trading POKéMON right now.\p"
-msgstr ""
+msgstr "我正在交换宝可梦。\p"
 
 #: src/data/union_room.h:424
 msgid ""
 "I finally got that POKéMON I\n"
 "wanted in a trade!\p"
 msgstr ""
+"我终于通过交换\n"
+"得到了想要的宝可梦！\p"
 
 #: src/data/union_room.h:437
 msgid ""
 "{STR_VAR_1} checked the\n"
 "TRADING BOARD.\p"
 msgstr ""
+"{STR_VAR_1}查看了\n"
+"交换公告板。\p"
 
 #: src/data/union_room.h:438
 msgid ""
@@ -760,6 +978,11 @@ msgid ""
 "Would you like to register one of\n"
 "your POKéMON?"
 msgstr ""
+"欢迎来到交换公告板。\p"
+"你可以在这里登记宝可梦，\n"
+"提供给别人交换。\p"
+"要登记你的\n"
+"宝可梦吗？"
 
 #: src/data/union_room.h:439
 msgid ""
@@ -775,6 +998,17 @@ msgid ""
 "Would you like to register one of\n"
 "your POKéMON?"
 msgstr ""
+"交换公告板是用来\n"
+"提供宝可梦进行交换的。\p"
+"你只需要登记一只\n"
+"用来交换的宝可梦。\p"
+"其他训练家可能会用\n"
+"同行的宝可梦来交换。\p"
+"希望你多多登记宝可梦，\n"
+"和很多很多\l"
+"其他训练家交换。\p"
+"要登记你的\n"
+"宝可梦吗？"
 
 #: src/data/union_room.h:449
 msgid ""
@@ -782,6 +1016,9 @@ msgid ""
 "trade on the TRADING BOARD.\p"
 "Thank you for using this service!\p"
 msgstr ""
+"你的宝可梦已经登记在\n"
+"交换公告板上了。\p"
+"感谢你使用本服务！\p"
 
 #: src/data/union_room.h:450
 msgid ""
@@ -789,336 +1026,413 @@ msgid ""
 "for trade on the TRADING BOARD.\p"
 "\n"
 msgstr ""
+"交换公告板上\n"
+"还没有人登记宝可梦。\p"
+"\n"
 
 #: src/data/union_room.h:451
 msgid ""
 "Please choose the type of POKéMON\n"
 "that you would like in the trade.\n"
 msgstr ""
+"请选择你想通过交换\n"
+"得到的宝可梦的属性。\n"
 
 #: src/data/union_room.h:452
 msgid ""
 "Which of your party POKéMON will\n"
 "you offer in trade?\p"
 msgstr ""
+"要用同行的哪只宝可梦\n"
+"来交换？\p"
 
 #: src/data/union_room.h:453
 msgid "Registration has been canceled.\p"
-msgstr ""
+msgstr "登记已经取消了。\p"
 
 #: src/data/union_room.h:454
 msgid "Registration has been completed.\p"
-msgstr ""
+msgstr "登记已经完成了。\p"
 
 #: src/data/union_room.h:455
 msgid "The trade has been canceled.\p"
-msgstr ""
+msgstr "交换已经取消了。\p"
 
 #: src/data/union_room.h:456
 msgid ""
 "Cancel the registration of your\n"
 "Lv. {STR_VAR_2} {STR_VAR_1}?"
 msgstr ""
+"要取消登记\n"
+"Lv.{STR_VAR_2}的{STR_VAR_1}吗？"
 
 #: src/data/union_room.h:457
 msgid ""
 "Cancel the registration of your\n"
 "EGG?"
 msgstr ""
+"要取消登记\n"
+"蛋吗？"
 
 #: src/data/union_room.h:458
 msgid "The registration has been canceled.\p"
-msgstr ""
+msgstr "已经取消了登记。\p"
 
 #: src/data/union_room.h:459
 msgid ""
 "TRAINERS wishing to make a trade\n"
 "will be listed."
 msgstr ""
+"这里会列出\n"
+"想要交换的训练家。"
 
 #: src/data/union_room.h:460
 msgid ""
 "Please choose the TRAINER with whom\n"
 "you would like to trade POKéMON."
 msgstr ""
+"请选择你想和他\n"
+"交换宝可梦的训练家。"
 
 #: src/data/union_room.h:461
 msgid ""
 "Would you like to ask {STR_VAR_1} to\n"
 "make a trade?"
 msgstr ""
+"要请{STR_VAR_1}\n"
+"和你交换吗？"
 
 #: src/data/union_room.h:463
 msgid ""
 "You have not registered a POKéMON\n"
 "for trading.\p"
 msgstr ""
+"你还没有登记\n"
+"用来交换的宝可梦。\p"
 
 #: src/data/union_room.h:464
 msgid ""
 "You don't have a {STR_VAR_2}-type\n"
 "POKéMON that {STR_VAR_1} wants.\p"
 msgstr ""
+"你没有{STR_VAR_1}想要的\n"
+"{STR_VAR_2}属性宝可梦。\p"
 
 #: src/data/union_room.h:465
 msgid ""
 "You don't have an EGG that\n"
 "{STR_VAR_1} wants.\p"
 msgstr ""
+"你没有{STR_VAR_1}\n"
+"想要的蛋。\p"
 
 #: src/data/union_room.h:466
 msgid ""
 "{STR_VAR_1} can't make a trade for\n"
 "your POKéMON right now.\p"
 msgstr ""
+"{STR_VAR_1}现在无法\n"
+"交换你的宝可梦。\p"
 
 #: src/data/union_room.h:467
 msgid ""
 "You can't make a trade for\n"
 "{STR_VAR_1}'s POKéMON right now.\p"
 msgstr ""
+"你现在无法交换\n"
+"{STR_VAR_1}的宝可梦。\p"
 
 #: src/data/union_room.h:475
 msgid "Your trade offer was rejected.\p"
-msgstr ""
+msgstr "你的交换提议被拒绝了。\p"
 
 #: src/data/union_room.h:476
 msgid "EGG TRADE"
-msgstr ""
+msgstr "交换蛋"
 
 #: src/data/union_room.h:477
 msgid "{DPAD_UPDOWN}CHOOSE  {A_BUTTON}JOIN  {B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{DPAD_UPDOWN}选择  {A_BUTTON}加入  {B_BUTTON}取消"
 
 #: src/data/union_room.h:478
 msgid "Please choose a TRAINER."
-msgstr ""
+msgstr "请选择训练家。"
 
 #: src/data/union_room.h:479
 msgid ""
 "Please choose a TRAINER for\n"
 "a SINGLE BATTLE."
 msgstr ""
+"请选择进行\n"
+"单打对战的训练家。"
 
 #: src/data/union_room.h:480
 msgid ""
 "Please choose a TRAINER for\n"
 "a DOUBLE BATTLE."
 msgstr ""
+"请选择进行\n"
+"双打对战的训练家。"
 
 #: src/data/union_room.h:481
 msgid ""
 "Please choose the LEADER\n"
 "for a MULTI BATTLE."
 msgstr ""
+"请选择\n"
+"多人对战的领队。"
 
 #: src/data/union_room.h:482
 msgid ""
 "Please choose the TRAINER to\n"
 "trade with."
 msgstr ""
+"请选择\n"
+"要交换的训练家。"
 
 #: src/data/union_room.h:483
 msgid ""
 "Please choose the TRAINER who is\n"
 "sharing WONDER CARDS."
 msgstr ""
+"请选择正在\n"
+"分享神奇卡片的训练家。"
 
 #: src/data/union_room.h:484
 msgid ""
 "Please choose the TRAINER who is\n"
 "sharing WONDER NEWS."
 msgstr ""
+"请选择正在\n"
+"分享神奇新闻的训练家。"
 
 #: src/data/union_room.h:485
 msgid ""
 "Jump with mini POKéMON!\n"
 "Please choose the LEADER."
 msgstr ""
+"和小宝可梦一起跳吧！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:486
 msgid ""
 "BERRY CRUSH!\n"
 "Please choose the LEADER."
 msgstr ""
+"树果粉碎！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:487
 msgid ""
 "DODRIO BERRY-PICKING!\n"
 "Please choose the LEADER."
 msgstr ""
+"嘟嘟利摘树果！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:488
 msgid ""
 "BERRY BLENDER!\n"
 "Please choose the LEADER."
 msgstr ""
+"树果混合器！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:489
 msgid ""
 "RECORD CORNER!\n"
 "Please choose the LEADER."
 msgstr ""
+"记录交换处！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:490
 msgid ""
 "COOLNESS CONTEST!\n"
 "Please choose the LEADER."
 msgstr ""
+"帅气华丽大赛！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:491
 msgid ""
 "BEAUTY CONTEST!\n"
 "Please choose the LEADER."
 msgstr ""
+"美丽华丽大赛！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:492
 msgid ""
 "CUTENESS CONTEST!\n"
 "Please choose the LEADER."
 msgstr ""
+"可爱华丽大赛！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:493
 msgid ""
 "SMARTNESS CONTEST!\n"
 "Please choose the LEADER."
 msgstr ""
+"聪明华丽大赛！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:494
 msgid ""
 "TOUGHNESS CONTEST!\n"
 "Please choose the LEADER."
 msgstr ""
+"强壮华丽大赛！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:495
 msgid ""
 "BATTLE TOWER LEVEL 50!\n"
 "Please choose the LEADER."
 msgstr ""
+"对战塔50级！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:496
 msgid ""
 "BATTLE TOWER OPEN LEVEL!\n"
 "Please choose the LEADER."
 msgstr ""
+"对战塔自由级！\n"
+"请选择领队。"
 
 #: src/data/union_room.h:524
 msgid ""
 "Searching for a WIRELESS\n"
 "COMMUNICATION SYSTEM. Wait..."
 msgstr ""
+"正在搜索无线通信系统。\n"
+"请稍候……"
 
 #: src/data/union_room.h:525
 msgid ""
 "For a DOUBLE BATTLE, you must have\n"
 "at least two POKéMON.\p"
 msgstr ""
+"双打对战至少需要\n"
+"两只宝可梦。\p"
 
 #: src/data/union_room.h:526
 msgid "Awaiting {STR_VAR_1}'s response…"
-msgstr ""
+msgstr "正在等待{STR_VAR_1}的回复……"
 
 #: src/data/union_room.h:527
 msgid ""
 "{STR_VAR_1} has been asked to register\n"
 "you as a member. Please wait."
 msgstr ""
+"已请求{STR_VAR_1}\n"
+"让你加入成员。请稍候。"
 
 #: src/data/union_room.h:528
 msgid ""
 "Awaiting a response from the\n"
 "WIRELESS COMMUNICATION SYSTEM."
 msgstr ""
+"正在等待\n"
+"无线通信系统的回应。"
 
 #: src/data/union_room.h:529
 msgid ""
 "Please wait for other TRAINERS to\n"
 "gather and get ready."
 msgstr ""
+"请等待其他训练家\n"
+"集合并做好准备。"
 
 #: src/data/union_room.h:530
 msgid ""
 "No CARDS appear to be shared \n"
 "right now."
 msgstr ""
+"现在似乎没有人\n"
+"在分享卡片。"
 
 #: src/data/union_room.h:531
 msgid ""
 "No NEWS appears to be shared\n"
 "right now."
 msgstr ""
+"现在似乎没有人\n"
+"在分享新闻。"
 
 #: src/data/union_room.h:539 src/data/union_room.h:549 src/data/easy_chat/easy_chat_group_hobbies.h:34
 msgid "CHAT"
-msgstr ""
+msgstr "聊天"
 
 #: src/data/union_room.h:540 src/data/easy_chat/easy_chat_groups.h:57
 msgid "GREETINGS"
-msgstr ""
+msgstr "打招呼"
 
 #: src/data/union_room.h:544
 msgid "NAME{CLEAR_TO 60}WANTED{CLEAR_TO 110}OFFER{CLEAR_TO 198}LV."
-msgstr ""
+msgstr "名字{CLEAR_TO 60}想要{CLEAR_TO 110}提供{CLEAR_TO 198}Lv."
 
 #: src/data/union_room.h:550 src/data/easy_chat/easy_chat_group_hobbies.h:58
 msgid "CARDS"
-msgstr ""
+msgstr "卡片"
 
 #: src/data/union_room.h:555
 msgid "BERRY-PICKING"
-msgstr ""
+msgstr "摘树果"
 
 #: src/data/union_room.h:556 src/data/easy_chat/easy_chat_group_actions.h:178
 msgid "SEARCH"
-msgstr ""
+msgstr "搜索"
 
 #: src/data/union_room.h:557
 msgid "BERRY BLENDER"
-msgstr ""
+msgstr "树果混合器"
 
 #: src/data/union_room.h:559 src/data/text/ribbon_descriptions.h:3
 msgid "COOL CONTEST"
-msgstr ""
+msgstr "帅气华丽大赛"
 
 #: src/data/union_room.h:561 src/data/text/ribbon_descriptions.h:5
 msgid "CUTE CONTEST"
-msgstr ""
+msgstr "可爱华丽大赛"
 
 #: src/data/union_room.h:562 src/data/text/ribbon_descriptions.h:6
 msgid "SMART CONTEST"
-msgstr ""
+msgstr "聪明华丽大赛"
 
 #: src/data/union_room.h:563 src/data/text/ribbon_descriptions.h:7
 msgid "TOUGH CONTEST"
-msgstr ""
+msgstr "强壮华丽大赛"
 
 #: src/data/union_room.h:564
 msgid "BATTLE TOWER LV. 50"
-msgstr ""
+msgstr "对战塔50级"
 
 #: src/data/union_room.h:565
 msgid "BATTLE TOWER OPEN LEVEL"
-msgstr ""
+msgstr "对战塔自由级"
 
 #: src/data/union_room.h:566
 msgid "It's a NORMAL CARD."
-msgstr ""
+msgstr "是普通卡片。"
 
 #: src/data/union_room.h:567
 msgid "It's a BRONZE CARD!"
-msgstr ""
+msgstr "是青铜卡片！"
 
 #: src/data/union_room.h:568
 msgid "It's a COPPER CARD!"
-msgstr ""
+msgstr "是红铜卡片！"
 
 #: src/data/union_room.h:569
 msgid "It's a SILVER CARD!"
-msgstr ""
+msgstr "是白银卡片！"
 
 #: src/data/union_room.h:570
 msgid "It's a GOLD CARD!"
-msgstr ""
+msgstr "是黄金卡片！"
 
 #: src/data/union_room.h:580
 msgid ""
@@ -1128,6 +1442,11 @@ msgid ""
 "POKéDEX: {DYNAMIC 3}\n"
 "TIME:    {DYNAMIC 4}:{DYNAMIC 5}\p"
 msgstr ""
+"这是{DYNAMIC 0} {DYNAMIC 1}的\n"
+"训练家卡片……\l"
+"{DYNAMIC 2}\p"
+"图鉴：{DYNAMIC 3}\n"
+"时间：  {DYNAMIC 4}:{DYNAMIC 5}\p"
 
 #: src/data/union_room.h:581
 msgid ""
@@ -1136,17 +1455,23 @@ msgid ""
 "“{DYNAMIC 4} {DYNAMIC 5}\n"
 "{DYNAMIC 6} {DYNAMIC 7}”\p"
 msgstr ""
+"对战：胜{DYNAMIC 0}场  负{DYNAMIC 2}场\n"
+"交换：{DYNAMIC 3}次\p"
+"“{DYNAMIC 4} {DYNAMIC 5}\n"
+"{DYNAMIC 6} {DYNAMIC 7}”\p"
 
 #: src/data/union_room.h:582
 msgid "{DYNAMIC 1}: Glad to have met you!{PAUSE 60}"
-msgstr ""
+msgstr "{DYNAMIC 1}：很高兴认识你！{PAUSE 60}"
 
 #: src/data/union_room.h:583
 msgid "{DYNAMIC 1}: Glad to meet you!{PAUSE 60}"
-msgstr ""
+msgstr "{DYNAMIC 1}：很高兴见到你！{PAUSE 60}"
 
 #: src/data/union_room.h:590
 msgid ""
 "Finished checking {DYNAMIC 1}'s\n"
 "TRAINER CARD.{PAUSE 60}"
 msgstr ""
+"看完了{DYNAMIC 1}的\n"
+"训练家卡片。{PAUSE 60}"

@@ -7,12 +7,12 @@ msgstr ""
 
 #: src/dodrio_berry_picking.c:3064
 msgid "あいうえおかき"
-msgstr ""
+msgstr "あいうえおかき"
 
 #: src/dodrio_berry_picking.c:3065
 msgid "ABCDEFG"
-msgstr ""
+msgstr "ABCDEFG"
 
 #: src/dodrio_berry_picking.c:3066
 msgid "0123456"
-msgstr ""
+msgstr "0123456"

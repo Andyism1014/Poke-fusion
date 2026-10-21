@@ -7,148 +7,163 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:4
 msgid "THANKS"
-msgstr ""
+msgstr "谢谢"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:16
 msgid "HERE GOES"
-msgstr ""
+msgstr "要上了"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:22
 msgid "HERE I COME"
-msgstr ""
+msgstr "我来了"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:28
 msgid "HERE IT IS"
-msgstr ""
+msgstr "给你"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:34
 msgid "YEAH"
-msgstr ""
+msgstr "是啊"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:40
 msgid "WELCOME"
-msgstr ""
+msgstr "欢迎"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:46
 msgid "OI"
-msgstr ""
+msgstr "喂"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:52
 msgid "HOW DO"
-msgstr ""
+msgstr "你好吗"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:58
 msgid "CONGRATS"
-msgstr ""
+msgstr "恭喜"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:64
 msgid "GIVE ME"
-msgstr ""
+msgstr "给我"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:76
 msgid "APOLOGIZE"
-msgstr ""
+msgstr "道歉"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:82
 msgid "FORGIVE"
-msgstr ""
+msgstr "原谅"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:88
 msgid "HEY, THERE"
-msgstr ""
+msgstr "嘿你好"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:100
 msgid "GOOD-BYE"
-msgstr ""
+msgstr "再见"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:112
 msgid "I'VE ARRIVED"
-msgstr ""
+msgstr "我到了"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:118
 msgid "PARDON"
-msgstr ""
+msgstr "什么"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:124
 msgid "EXCUSE"
-msgstr ""
+msgstr "失礼"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:130
 msgid "SEE YA"
-msgstr ""
+msgstr "回见"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:136
 msgid "EXCUSE ME"
-msgstr ""
+msgstr "打扰了"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:142
 msgid "WELL, THEN"
-msgstr ""
+msgstr "那么"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:148
 msgid "GO AHEAD"
-msgstr ""
+msgstr "请便"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:154
 msgid "APPRECIATE"
-msgstr ""
+msgstr "感激"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:160
 msgid "HEY?"
-msgstr ""
+msgstr "嘿？"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:166
 msgid "WHAT'S UP?"
-msgstr ""
+msgstr "怎么了？"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:172
 msgid "HUH?"
-msgstr ""
+msgstr "啊？"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:184
 msgid "HI"
-msgstr ""
+msgstr "嗨"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:190
 msgid "YEAH, YEAH"
-msgstr ""
+msgstr "好啦好啦"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:196
 msgid "BYE-BYE"
-msgstr ""
+msgstr "拜拜"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:202
 msgid "MEET YOU"
-msgstr ""
+msgstr "幸会"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:208
 msgid "HEY"
-msgstr ""
+msgstr "嘿"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:214
 msgid "SMELL"
-msgstr ""
+msgstr "闻"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:220
 msgid "LISTENING"
-msgstr ""
+msgstr "在听"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:226
 msgid "HOO-HAH"
-msgstr ""
+msgstr "呼哈"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:232
 msgid "YAHOO"
-msgstr ""
+msgstr "呀呼"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:238
 msgid "YO"
-msgstr ""
+msgstr "哟"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:244
 msgid "COME OVER"
-msgstr ""
+msgstr "过来"
 
 #: src/data/easy_chat/easy_chat_group_greetings.h:250
 msgid "COUNT ON"
-msgstr ""
+msgstr "拜托了"
+
+#: src/data/easy_chat/easy_chat_group_greetings.h:94
+msgctxt "src/data/easy_chat/easy_chat_group_greetings.h"
+msgid "HELLO"
+msgstr "你好"
+
+#: src/data/easy_chat/easy_chat_group_greetings.h:70
+msgctxt "src/data/easy_chat/easy_chat_group_greetings.h"
+msgid "SORRY"
+msgstr "抱歉"
+
+#: src/data/easy_chat/easy_chat_group_greetings.h:106
+msgctxt "src/data/easy_chat/easy_chat_group_greetings.h"
+msgid "THANK YOU"
+msgstr "谢谢你"

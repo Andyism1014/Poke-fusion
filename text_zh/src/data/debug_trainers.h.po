@@ -7,12 +7,12 @@ msgstr ""
 
 #: src/data/debug_trainers.h:13
 msgid "Player"
-msgstr ""
+msgstr "玩家"
 
 #: src/data/debug_trainers.h:29 src/data/debug_trainers.h:99
 msgid "Buffie"
-msgstr ""
+msgstr "巴菲"
 
 #: src/data/debug_trainers.h:79
 msgid "Debugger"
-msgstr ""
+msgstr "调试员"

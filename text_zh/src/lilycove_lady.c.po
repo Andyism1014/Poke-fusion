@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/lilycove_lady.c:374 src/strings.c:550
 msgid "Lady"
-msgstr ""
+msgstr "女士"

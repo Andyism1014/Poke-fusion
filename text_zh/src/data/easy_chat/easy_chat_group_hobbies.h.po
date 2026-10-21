@@ -7,204 +7,214 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:4
 msgid "IDOL"
-msgstr ""
+msgstr "偶像"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:10
 msgid "ANIME"
-msgstr ""
+msgstr "动画"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:16
 msgid "SONG"
-msgstr ""
+msgstr "歌曲"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:22
 msgid "MOVIE"
-msgstr ""
+msgstr "电影"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:28
 msgid "SWEETS"
-msgstr ""
+msgstr "甜点"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:40
 msgid "CHILD'S PLAY"
-msgstr ""
+msgstr "儿戏"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:46
 msgid "TOYS"
-msgstr ""
+msgstr "玩具"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:52
 msgid "MUSIC"
-msgstr ""
+msgstr "音乐"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:64
 msgid "SHOPPING"
-msgstr ""
+msgstr "购物"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:70
 msgid "CAMERA"
-msgstr ""
+msgstr "相机"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:76
 msgid "VIEWING"
-msgstr ""
+msgstr "观赏"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:82
 msgid "SPECTATOR"
-msgstr ""
+msgstr "观众"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:88
 msgid "GOURMET"
-msgstr ""
+msgstr "美食"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:94
 msgid "GAME"
-msgstr ""
+msgstr "游戏"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:100
 msgid "RPG"
-msgstr ""
+msgstr "角色扮演"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:106
 msgid "COLLECTION"
-msgstr ""
+msgstr "收藏"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:112
 msgid "COMPLETE"
-msgstr ""
+msgstr "收集齐"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:118
 msgid "MAGAZINE"
-msgstr ""
+msgstr "杂志"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:130
 msgid "BIKE"
-msgstr ""
+msgstr "自行车"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:136
 msgid "HOBBY"
-msgstr ""
+msgstr "爱好"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:142
 msgid "SPORTS"
-msgstr ""
+msgstr "运动"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:148
 msgid "SOFTWARE"
-msgstr ""
+msgstr "软件"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:154
 msgid "SONGS"
-msgstr ""
+msgstr "歌谣"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:160
 msgid "DIET"
-msgstr ""
+msgstr "减肥"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:166
 msgid "TREASURE"
-msgstr ""
+msgstr "宝物"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:172
 msgid "TRAVEL"
-msgstr ""
+msgstr "旅行"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:178
 msgid "DANCE"
-msgstr ""
+msgstr "舞蹈"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:184
 msgid "CHANNEL"
-msgstr ""
+msgstr "频道"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:190
 msgid "MAKING"
-msgstr ""
+msgstr "制作"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:196
 msgid "FISHING"
-msgstr ""
+msgstr "钓鱼"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:202
 msgid "DATE"
-msgstr ""
+msgstr "约会"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:208
 msgid "DESIGN"
-msgstr ""
+msgstr "设计"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:214
 msgid "LOCOMOTIVE"
-msgstr ""
+msgstr "火车头"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:220
 msgid "PLUSH DOLL"
-msgstr ""
+msgstr "布偶"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:226
 msgid "PC"
-msgstr ""
+msgstr "电脑"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:232
 msgid "FLOWERS"
-msgstr ""
+msgstr "花"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:238
 msgid "HERO"
-msgstr ""
+msgstr "英雄"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:244
 msgid "NAP"
-msgstr ""
+msgstr "午睡"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:250
 msgid "HEROINE"
-msgstr ""
+msgstr "女英雄"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:256
 msgid "FASHION"
-msgstr ""
+msgstr "时尚"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:262
 msgid "ADVENTURE"
-msgstr ""
+msgstr "冒险"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:268
 msgid "BOARD"
-msgstr ""
+msgstr "桌游"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:274
 msgid "BALL"
-msgstr ""
+msgstr "球"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:280
 msgid "BOOK"
-msgstr ""
+msgstr "书"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:286
 msgid "FESTIVAL"
-msgstr ""
+msgstr "祭典"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:292
 msgid "COMICS"
-msgstr ""
+msgstr "漫画"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:298
 msgid "HOLIDAY"
-msgstr ""
+msgstr "节日"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:304
 msgid "PLANS"
-msgstr ""
+msgstr "计划"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:310
 msgid "TRENDY"
-msgstr ""
+msgstr "流行"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:316
 msgid "VACATION"
-msgstr ""
+msgstr "假期"
 
 #: src/data/easy_chat/easy_chat_group_hobbies.h:322
 msgid "LOOK"
-msgstr ""
+msgstr "外表"
+
+#: src/data/easy_chat/easy_chat_group_hobbies.h:58
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "CARDS"
+msgstr "卡牌"
+
+#: src/data/easy_chat/easy_chat_group_hobbies.h:34
+msgctxt "src/data/easy_chat/easy_chat_group_hobbies.h"
+msgid "CHAT"
+msgstr "闲聊"

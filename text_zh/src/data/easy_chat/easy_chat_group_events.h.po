@@ -7,80 +7,125 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_events.h:3 src/data/easy_chat/easy_chat_group_events.h:46
 msgid "STAY-AT-HOME"
-msgstr ""
+msgstr "宅家"
 
 #: src/data/easy_chat/easy_chat_group_events.h:5 src/data/easy_chat/easy_chat_group_events.h:58
 msgid "CONTEST"
-msgstr ""
+msgstr "华丽大赛"
 
 #: src/data/easy_chat/easy_chat_group_events.h:6 src/data/easy_chat/easy_chat_group_events.h:64
 msgid "MC"
-msgstr ""
+msgstr "主持人"
 
 #: src/data/easy_chat/easy_chat_group_events.h:7 src/data/easy_chat/easy_chat_group_events.h:70
 msgid "JUDGE"
-msgstr ""
+msgstr "评审"
 
 #: src/data/easy_chat/easy_chat_group_events.h:9 src/data/easy_chat/easy_chat_group_events.h:82
 msgid "STAGE"
-msgstr ""
+msgstr "舞台"
 
 #: src/data/easy_chat/easy_chat_group_events.h:11 src/data/easy_chat/easy_chat_group_events.h:94
 msgid "EVOLUTION"
-msgstr ""
+msgstr "进化"
 
 #: src/data/easy_chat/easy_chat_group_events.h:14 src/data/easy_chat/easy_chat_group_events.h:112
 msgid "LEADERS"
-msgstr ""
+msgstr "馆主们"
 
 #: src/data/easy_chat/easy_chat_group_events.h:15 src/data/easy_chat/easy_chat_group_events.h:118
 msgid "BATTLE ROOM"
-msgstr ""
+msgstr "对战房间"
 
 #: src/data/easy_chat/easy_chat_group_events.h:16 src/data/easy_chat/easy_chat_group_events.h:124
 msgid "HIDDEN"
-msgstr ""
+msgstr "隐藏"
 
 #: src/data/easy_chat/easy_chat_group_events.h:18 src/data/easy_chat/easy_chat_group_events.h:136
 msgid "BLEND"
-msgstr ""
+msgstr "混合"
 
 #: src/data/easy_chat/easy_chat_group_events.h:19 src/data/easy_chat/easy_chat_group_events.h:142
 msgid "{POKEBLOCK}"
-msgstr ""
+msgstr "宝可方块"
 
 #: src/data/easy_chat/easy_chat_group_events.h:21 src/data/easy_chat/easy_chat_group_events.h:154
 msgid "RANK"
-msgstr ""
+msgstr "级别"
 
 #: src/data/easy_chat/easy_chat_group_events.h:22 src/data/easy_chat/easy_chat_group_events.h:160
 msgid "RIBBON"
-msgstr ""
+msgstr "奖章"
 
 #: src/data/easy_chat/easy_chat_group_events.h:23 src/data/easy_chat/easy_chat_group_events.h:166
 msgid "CRUSH"
-msgstr ""
+msgstr "粉碎"
 
 #: src/data/easy_chat/easy_chat_group_events.h:24 src/data/easy_chat/easy_chat_group_events.h:172
 msgid "DIRECT"
-msgstr ""
+msgstr "直连"
 
 #: src/data/easy_chat/easy_chat_group_events.h:25 src/data/easy_chat/easy_chat_group_events.h:178
 msgid "TOWER"
-msgstr ""
+msgstr "塔"
 
 #: src/data/easy_chat/easy_chat_group_events.h:26 src/data/easy_chat/easy_chat_group_events.h:184
 msgid "UNION"
-msgstr ""
+msgstr "联合"
 
 #: src/data/easy_chat/easy_chat_group_events.h:27 src/data/easy_chat/easy_chat_group_events.h:190
 msgid "ROOM"
-msgstr ""
+msgstr "房间"
 
 #: src/data/easy_chat/easy_chat_group_events.h:28 src/data/easy_chat/easy_chat_group_events.h:196
 msgid "WIRELESS"
-msgstr ""
+msgstr "无线"
 
 #: src/data/easy_chat/easy_chat_group_events.h:29 src/data/easy_chat/easy_chat_group_events.h:202
 msgid "FRONTIER"
-msgstr ""
+msgstr "开拓区"
+
+#: src/data/easy_chat/easy_chat_group_events.h:1 src/data/easy_chat/easy_chat_group_events.h:34
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "APPEAL"
+msgstr "表演"
+
+#: src/data/easy_chat/easy_chat_group_events.h:13 src/data/easy_chat/easy_chat_group_events.h:106
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "BATTLE TOWER"
+msgstr "对战塔"
+
+#: src/data/easy_chat/easy_chat_group_events.h:4 src/data/easy_chat/easy_chat_group_events.h:52
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "BERRY"
+msgstr "树果"
+
+#: src/data/easy_chat/easy_chat_group_events.h:2 src/data/easy_chat/easy_chat_group_events.h:40
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "EVENTS"
+msgstr "活动"
+
+#: src/data/easy_chat/easy_chat_group_events.h:10 src/data/easy_chat/easy_chat_group_events.h:88
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "HALL OF FAME"
+msgstr "殿堂"
+
+#: src/data/easy_chat/easy_chat_group_events.h:12 src/data/easy_chat/easy_chat_group_events.h:100
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "HYPER"
+msgstr "高级"
+
+#: src/data/easy_chat/easy_chat_group_events.h:20 src/data/easy_chat/easy_chat_group_events.h:148
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "MASTER"
+msgstr "大师级"
+
+#: src/data/easy_chat/easy_chat_group_events.h:17 src/data/easy_chat/easy_chat_group_events.h:130
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "SECRET BASE"
+msgstr "秘密基地"
+
+#: src/data/easy_chat/easy_chat_group_events.h:8 src/data/easy_chat/easy_chat_group_events.h:76
+msgctxt "src/data/easy_chat/easy_chat_group_events.h"
+msgid "SUPER"
+msgstr "超级"

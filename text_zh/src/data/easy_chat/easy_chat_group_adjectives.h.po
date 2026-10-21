@@ -7,144 +7,144 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:4
 msgid "WANDERING"
-msgstr ""
+msgstr "徘徊"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:10
 msgid "RICKETY"
-msgstr ""
+msgstr "摇摇欲坠"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:16
 msgid "ROCK-SOLID"
-msgstr ""
+msgstr "坚如磐石"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:22
 msgid "HUNGRY"
-msgstr ""
+msgstr "饿"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:28
 msgid "TIGHT"
-msgstr ""
+msgstr "紧"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:34
 msgid "TICKLISH"
-msgstr ""
+msgstr "怕痒"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:40
 msgid "TWIRLING"
-msgstr ""
+msgstr "转圈圈"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:46
 msgid "SPIRALING"
-msgstr ""
+msgstr "螺旋"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:52
 msgid "THIRSTY"
-msgstr ""
+msgstr "口渴"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:58
 msgid "LOLLING"
-msgstr ""
+msgstr "懒洋洋"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:64
 msgid "SILKY"
-msgstr ""
+msgstr "丝滑"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:70
 msgid "SADLY"
-msgstr ""
+msgstr "悲伤地"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:76
 msgid "HOPELESS"
-msgstr ""
+msgstr "没希望"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:82
 msgid "USELESS"
-msgstr ""
+msgstr "没用"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:88
 msgid "DROOLING"
-msgstr ""
+msgstr "流口水"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:94
 msgid "EXCITING"
-msgstr ""
+msgstr "刺激"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:100
 msgid "THICK"
-msgstr ""
+msgstr "厚"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:106
 msgid "SMOOTH"
-msgstr ""
+msgstr "顺滑"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:112
 msgid "SLIMY"
-msgstr ""
+msgstr "黏糊糊"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:118
 msgid "THIN"
-msgstr ""
+msgstr "薄"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:124
 msgid "BREAK"
-msgstr ""
+msgstr "坏掉"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:130
 msgid "VORACIOUS"
-msgstr ""
+msgstr "贪吃"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:136
 msgid "SCATTER"
-msgstr ""
+msgstr "散开"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:142
 msgid "AWESOME"
-msgstr ""
+msgstr "超厉害"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:148
 msgid "WIMPY"
-msgstr ""
+msgstr "软弱"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:154
 msgid "WOBBLY"
-msgstr ""
+msgstr "晃悠悠"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:160
 msgid "SHAKY"
-msgstr ""
+msgstr "颤抖"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:166
 msgid "RIPPED"
-msgstr ""
+msgstr "撕裂"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:172
 msgid "SHREDDED"
-msgstr ""
+msgstr "粉碎"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:178
 msgid "INCREASING"
-msgstr ""
+msgstr "增加中"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:184
 msgid "YET"
-msgstr ""
+msgstr "还"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:190
 msgid "DESTROYED"
-msgstr ""
+msgstr "被摧毁"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:196
 msgid "FIERY"
-msgstr ""
+msgstr "火热"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:202
 msgid "LOVEY-DOVEY"
-msgstr ""
+msgstr "甜蜜蜜"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:208
 msgid "HAPPILY"
-msgstr ""
+msgstr "开心地"
 
 #: src/data/easy_chat/easy_chat_group_adjectives.h:214
 msgid "ANTICIPATION"
-msgstr ""
+msgstr "期待"

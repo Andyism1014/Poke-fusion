@@ -7,44 +7,44 @@ msgstr ""
 
 #: src/data/lilycove_lady.h:42
 msgid "HANDSOME"
-msgstr ""
+msgstr "帅帅"
 
 #: src/data/lilycove_lady.h:49
 msgid "VINNY"
-msgstr ""
+msgstr "维尼"
 
 #: src/data/lilycove_lady.h:56
 msgid "MOREME"
-msgstr ""
+msgstr "莫蕾米"
 
 #: src/data/lilycove_lady.h:63
 msgid "IRONHARD"
-msgstr ""
+msgstr "铁硬汉"
 
 #: src/data/lilycove_lady.h:70
 msgid "MUSCLE"
-msgstr ""
+msgstr "肌肉"
 
 #: src/data/lilycove_lady.h:420
 msgid "slippery"
-msgstr ""
+msgstr "滑溜溜"
 
 #: src/data/lilycove_lady.h:421
 msgid "roundish"
-msgstr ""
+msgstr "圆滚滚"
 
 #: src/data/lilycove_lady.h:422
 msgid "wham-ish"
-msgstr ""
+msgstr "带劲"
 
 #: src/data/lilycove_lady.h:423
 msgid "shiny"
-msgstr ""
+msgstr "闪亮亮"
 
 #: src/data/lilycove_lady.h:424
 msgid "sticky"
-msgstr ""
+msgstr "黏糊糊"
 
 #: src/data/lilycove_lady.h:425
 msgid "pointy"
-msgstr ""
+msgstr "尖尖"

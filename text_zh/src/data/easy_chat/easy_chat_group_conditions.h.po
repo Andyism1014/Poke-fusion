@@ -7,264 +7,264 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:4
 msgid "HOT"
-msgstr ""
+msgstr "热"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:10
 msgid "EXISTS"
-msgstr ""
+msgstr "存在"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:16
 msgid "EXCESS"
-msgstr ""
+msgstr "过剩"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:22
 msgid "APPROVED"
-msgstr ""
+msgstr "认可"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:28
 msgid "HAS"
-msgstr ""
+msgstr "有"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:34
 msgid "GOOD"
-msgstr ""
+msgstr "好"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:40
 msgid "LESS"
-msgstr ""
+msgstr "更少"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:46
 msgid "MOMENTUM"
-msgstr ""
+msgstr "气势"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:52
 msgid "GOING"
-msgstr ""
+msgstr "要去"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:58
 msgid "WEIRD"
-msgstr ""
+msgstr "奇怪"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:64
 msgid "BUSY"
-msgstr ""
+msgstr "忙"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:70
 msgid "TOGETHER"
-msgstr ""
+msgstr "一起"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:76
 msgid "FULL"
-msgstr ""
+msgstr "满"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:82
 msgid "ABSENT"
-msgstr ""
+msgstr "不在"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:88
 msgid "BEING"
-msgstr ""
+msgstr "正在"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:94
 msgid "NEED"
-msgstr ""
+msgstr "需要"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:100
 msgid "TASTY"
-msgstr ""
+msgstr "好吃"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:106
 msgid "SKILLED"
-msgstr ""
+msgstr "熟练"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:112
 msgid "NOISY"
-msgstr ""
+msgstr "吵"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:118
 msgid "BIG"
-msgstr ""
+msgstr "大"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:124
 msgid "LATE"
-msgstr ""
+msgstr "迟"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:130
 msgid "CLOSE"
-msgstr ""
+msgstr "接近"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:136
 msgid "DOCILE"
-msgstr ""
+msgstr "温顺"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:142
 msgid "AMUSING"
-msgstr ""
+msgstr "有趣"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:148
 msgid "ENTERTAINING"
-msgstr ""
+msgstr "好玩"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:154
 msgid "PERFECTION"
-msgstr ""
+msgstr "完美无缺"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:160
 msgid "PRETTY"
-msgstr ""
+msgstr "漂亮"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:166
 msgid "HEALTHY"
-msgstr ""
+msgstr "健康"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:172
 msgid "EXCELLENT"
-msgstr ""
+msgstr "优秀"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:178
 msgid "UPSIDE DOWN"
-msgstr ""
+msgstr "颠倒"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:184
 msgid "COLD"
-msgstr ""
+msgstr "冷"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:190
 msgid "REFRESHING"
-msgstr ""
+msgstr "清爽"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:196
 msgid "UNAVOIDABLE"
-msgstr ""
+msgstr "没办法"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:202
 msgid "MUCH"
-msgstr ""
+msgstr "许多"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:208
 msgid "OVERWHELMING"
-msgstr ""
+msgstr "压倒性"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:214
 msgid "FABULOUS"
-msgstr ""
+msgstr "极好"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:220
 msgid "ELSE"
-msgstr ""
+msgstr "其他"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:226
 msgid "EXPENSIVE"
-msgstr ""
+msgstr "贵"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:232
 msgid "CORRECT"
-msgstr ""
+msgstr "正确"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:238
 msgid "IMPOSSIBLE"
-msgstr ""
+msgstr "不可能"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:244
 msgid "SMALL"
-msgstr ""
+msgstr "小"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:250
 msgid "DIFFERENT"
-msgstr ""
+msgstr "不同"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:256
 msgid "TIRED"
-msgstr ""
+msgstr "累"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:262
 msgid "SKILL"
-msgstr ""
+msgstr "技术"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:268
 msgid "TOP"
-msgstr ""
+msgstr "顶尖"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:274
 msgid "NON-STOP"
-msgstr ""
+msgstr "不停"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:280
 msgid "PREPOSTEROUS"
-msgstr ""
+msgstr "荒唐"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:292
 msgid "NOTHING"
-msgstr ""
+msgstr "什么都没"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:298
 msgid "NATURAL"
-msgstr ""
+msgstr "自然"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:304
 msgid "BECOMES"
-msgstr ""
+msgstr "变成"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:310
 msgid "LUKEWARM"
-msgstr ""
+msgstr "温吞"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:322
 msgid "LOW"
-msgstr ""
+msgstr "低"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:328
 msgid "AWFUL"
-msgstr ""
+msgstr "糟糕"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:334
 msgid "ALONE"
-msgstr ""
+msgstr "独自"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:340
 msgid "BORED"
-msgstr ""
+msgstr "无聊"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:346
 msgid "SECRET"
-msgstr ""
+msgstr "秘密"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:352
 msgid "MYSTERY"
-msgstr ""
+msgstr "神秘"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:358
 msgid "LACKS"
-msgstr ""
+msgstr "缺少"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:364
 msgid "BEST"
-msgstr ""
+msgstr "最好"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:370
 msgid "LOUSY"
-msgstr ""
+msgstr "差劲"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:376
 msgid "MISTAKE"
-msgstr ""
+msgstr "错误"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:382
 msgid "KIND"
-msgstr ""
+msgstr "亲切"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:388
 msgid "WELL"
-msgstr ""
+msgstr "很好"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:394
 msgid "WEAKENED"
-msgstr ""
+msgstr "变弱"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:406
 msgid "SEEMS"
-msgstr ""
+msgstr "似乎"
 
 #: src/data/easy_chat/easy_chat_group_conditions.h:412
 msgid "BADLY"
-msgstr ""
+msgstr "很糟"

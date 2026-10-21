@@ -7,124 +7,129 @@ msgstr ""
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:4
 msgid "KTHX, BYE."
-msgstr ""
+msgstr "谢啦拜拜"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:10
 msgid "YES, SIR!"
-msgstr ""
+msgstr "遵命！"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:16
 msgid "AVANT GARDE"
-msgstr ""
+msgstr "前卫"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:22
 msgid "COUPLE"
-msgstr ""
+msgstr "情侣"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:28
 msgid "MUCH OBLIGED"
-msgstr ""
+msgstr "多谢了"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:34
 msgid "YEEHAW!"
-msgstr ""
+msgstr "耶嘿！"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:40
 msgid "MEGA"
-msgstr ""
+msgstr "超级"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:46
 msgid "1-HIT KO!"
-msgstr ""
+msgstr "一击必杀！"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:52
 msgid "DESTINY"
-msgstr ""
+msgstr "命运"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:64
 msgid "NEW"
-msgstr ""
+msgstr "新"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:70
 msgid "FLATTEN"
-msgstr ""
+msgstr "压扁"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:76
 msgid "KIDDING"
-msgstr ""
+msgstr "骗你的"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:82
 msgid "LOSER"
-msgstr ""
+msgstr "输家"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:88
 msgid "LOSING"
-msgstr ""
+msgstr "输掉"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:94
 msgid "HAPPENING"
-msgstr ""
+msgstr "热门"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:100
 msgid "HIP AND"
-msgstr ""
+msgstr "时髦又"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:106
 msgid "SHAKE"
-msgstr ""
+msgstr "摇摆"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:112
 msgid "SHADY"
-msgstr ""
+msgstr "可疑"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:118
 msgid "UPBEAT"
-msgstr ""
+msgstr "乐观"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:124
 msgid "MODERN"
-msgstr ""
+msgstr "摩登"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:130
 msgid "SMELL YA"
-msgstr ""
+msgstr "溜了"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:136
 msgid "BANG"
-msgstr ""
+msgstr "砰"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:148
 msgid "HASSLE"
-msgstr ""
+msgstr "麻烦"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:154
 msgid "WINNER"
-msgstr ""
+msgstr "赢家"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:160
 msgid "FEVER"
-msgstr ""
+msgstr "狂热"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:166
 msgid "WANNABE"
-msgstr ""
+msgstr "冒牌"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:172
 msgid "BABY"
-msgstr ""
+msgstr "宝宝"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:178
 msgid "HEART"
-msgstr ""
+msgstr "心"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:184
 msgid "OLD"
-msgstr ""
+msgstr "老"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:190
 msgid "YOUNG"
-msgstr ""
+msgstr "年轻"
 
 #: src/data/easy_chat/easy_chat_group_trendy_saying.h:196
 msgid "UGLY"
-msgstr ""
+msgstr "丑"
+
+#: src/data/easy_chat/easy_chat_group_trendy_saying.h:142
+msgctxt "src/data/easy_chat/easy_chat_group_trendy_saying.h"
+msgid "KNOCKOUT"
+msgstr "击倒"
