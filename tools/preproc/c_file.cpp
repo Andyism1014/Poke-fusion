@@ -32,6 +32,7 @@
 #include "utf8.h"
 #include "string_parser.h"
 #include "io.h"
+#include "translations.h"
 
 CFile::CFile(const char * filenameCStr, bool isStdin, const char * graphicsRootCStr)
 {
@@ -267,6 +268,7 @@ void CFile::SkipWhitespace()
 std::vector<unsigned char> CFile::ConvertString()
 {
     std::vector<unsigned char> converted;
+    std::string literal;
 
     while (true)
     {
@@ -276,6 +278,7 @@ std::vector<unsigned char> CFile::ConvertString()
         {
             unsigned char s[kMaxStringLength];
             int length = 0;
+            long start = m_pos;
             StringParser stringParser(m_buffer, m_size);
             try
             {
@@ -286,6 +289,8 @@ std::vector<unsigned char> CFile::ConvertString()
                 RaiseError(e.what());
             }
             converted.insert(converted.end(), s, s + length);
+            if (g_translations != nullptr)
+                literal.append(&m_buffer[start + 1], m_pos - start - 2);
         }
         else if (m_buffer[m_pos] == ')')
         {
@@ -300,6 +305,17 @@ std::vector<unsigned char> CFile::ConvertString()
                 RaiseError("unexpected character '%c'", m_buffer[m_pos]);
             else
                 RaiseError("unexpected character '\\x%02X'", m_buffer[m_pos]);
+        }
+    }
+
+    if (g_translations != nullptr)
+    {
+        const std::string* translation = g_translations->LookupCString(m_location.filename, literal);
+        if (translation != nullptr)
+        {
+            std::string error;
+            if (!EncodeTranslation(*translation, converted, error))
+                RaiseError("bad translation of \"%s\": %s", literal.c_str(), error.c_str());
         }
     }
 

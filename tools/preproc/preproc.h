@@ -46,7 +46,7 @@ do                                               \
 #endif // _MSC_VER
 
 const int kMaxPath = 256;
-const int kMaxStringLength = 1024;
+const int kMaxStringLength = 4096;
 const unsigned long kMaxCharmapSequenceLength = 16;
 
 extern Charmap* g_charmap;

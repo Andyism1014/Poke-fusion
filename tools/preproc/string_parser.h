@@ -28,7 +28,7 @@
 class StringParser
 {
 public:
-    StringParser(char* buffer, long size) : m_buffer(buffer), m_size(size), m_pos(0) {}
+    StringParser(char* buffer, long size, bool isTranslation = false) : m_buffer(buffer), m_size(size), m_pos(0), m_isTranslation(isTranslation) {}
     int ParseString(long srcPos, unsigned char* dest, int &destLength);
 
 private:
@@ -41,6 +41,7 @@ private:
     char* m_buffer;
     long m_size;
     long m_pos;
+    bool m_isTranslation;
 
     Integer ReadInteger();
     Integer ReadDecimal();

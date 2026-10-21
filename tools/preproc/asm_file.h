@@ -58,12 +58,15 @@ public:
     Label GetLabel();
     std::string PeekSection();
     std::string ReadPath();
-    int ReadString(unsigned char* s);
+    int ReadString(unsigned char* s, bool* isPadded = nullptr);
     int ReadBraille(unsigned char* s);
     bool IsAtEnd();
     void OutputLine();
     void OutputLocation();
     bool ParseEnum();
+    bool IsRestOfLineBlank();
+    const std::string& GetFilename() const { return m_filename; }
+    long GetLineNum() const { return m_lineNum; }
 
 private:
     char* m_buffer;

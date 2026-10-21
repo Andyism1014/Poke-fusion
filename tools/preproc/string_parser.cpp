@@ -25,6 +25,7 @@
 #include "string_parser.h"
 #include "char_util.h"
 #include "utf8.h"
+#include "translations.h"
 
 // Reads a charmap char or escape sequence.
 std::string StringParser::ReadCharOrEscape()
@@ -80,7 +81,12 @@ std::string StringParser::ReadCharOrEscape()
     if (isEscape && code >= 128)
         RaiseError("escapes using non-ASCII characters are invalid");
 
-    sequence = isEscape ? g_charmap->Escape(code) : g_charmap->Char(code);
+    if (isEscape)
+        sequence = g_charmap->Escape(code);
+    else if (m_isTranslation && g_translationCharmap != nullptr && (sequence = g_translationCharmap->Char(code)).length() != 0)
+        ; // Translated text: full-width glyphs take priority.
+    else
+        sequence = g_charmap->Char(code);
 
     if (sequence.length() == 0)
     {

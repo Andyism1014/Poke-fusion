@@ -286,7 +286,7 @@ std::string AsmFile::ReadPath()
 }
 
 // Reads a charmap string.
-int AsmFile::ReadString(unsigned char* s)
+int AsmFile::ReadString(unsigned char* s, bool* isPadded)
 {
     SkipWhitespace();
 
@@ -304,10 +304,16 @@ int AsmFile::ReadString(unsigned char* s)
 
     SkipWhitespace();
 
+    if (isPadded != nullptr)
+        *isPadded = false;
+
     if (ConsumeComma())
     {
         SkipWhitespace();
         int padLength = ReadPadLength();
+
+        if (isPadded != nullptr)
+            *isPadded = true;
 
         while (length < padLength)
         {
@@ -728,6 +734,17 @@ void AsmFile::ExpectEmptyRestOfLine()
     {
         RaiseError("junk at end of line");
     }
+}
+
+// Checks if the rest of the current line is empty (comments are already blanked).
+bool AsmFile::IsRestOfLineBlank()
+{
+    long pos = m_pos;
+
+    while (m_buffer[pos] == ' ' || m_buffer[pos] == '\t' || m_buffer[pos] == '\r')
+        pos++;
+
+    return m_buffer[pos] == '\n' || m_buffer[pos] == 0;
 }
 
 // Checks if we're at the end of the file.
