@@ -11,8 +11,10 @@ msgid ""
 "Every POKéMON has a special ability\n"
 "that it can use.$"
 msgstr ""
+"每只宝可梦都有\n"
+"自己能使用的特性。$"
 
 #: data/maps/RustboroCity_Flat1_1F/scripts.inc:16
 msgctxt "RustboroCity_Flat1_1F_Text_PokemonStrange"
 msgid "POKéMON are such strange creatures.$"
-msgstr ""
+msgstr "宝可梦真是不可思议的生物啊。$"

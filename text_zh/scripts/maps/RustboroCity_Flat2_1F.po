@@ -11,8 +11,10 @@ msgid ""
 "DEVON CORPORATION's workers live in\n"
 "this building.$"
 msgstr ""
+"得文股份有限公司的员工\n"
+"都住在这栋楼里。$"
 
 #: data/maps/RustboroCity_Flat2_1F/scripts.inc:22
 msgctxt "RustboroCity_Flat2_1F_Text_Skitty"
 msgid "SKITTY: Gyaaaah!$"
-msgstr ""
+msgstr "向尾喵：喵呜——！$"
