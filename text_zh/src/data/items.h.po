@@ -11,6 +11,8 @@ msgid ""
 "traveled across\n"
 "space and time."
 msgstr ""
+"一种穿越了时空的\n"
+"神奇球。"
 
 #: src/data/items.h:59
 msgid ""
@@ -18,6 +20,9 @@ msgid ""
 "catching wild\n"
 "Pokémon."
 msgstr ""
+"用于投向野生\n"
+"宝可梦并将其\n"
+"捕捉的球。"
 
 #: src/data/items.h:75
 msgid ""
@@ -25,6 +30,8 @@ msgid ""
 "higher catch rate\n"
 "than a Poké Ball."
 msgstr ""
+"比精灵球更容易\n"
+"捕捉宝可梦的球。"
 
 #: src/data/items.h:91
 msgid ""
@@ -32,6 +39,8 @@ msgid ""
 "a higher catch rate\n"
 "than a Great Ball."
 msgstr ""
+"比超级球更容易\n"
+"捕捉宝可梦的球。"
 
 #: src/data/items.h:107
 msgid ""
@@ -39,6 +48,9 @@ msgid ""
 "catches a Pokémon\n"
 "without fail."
 msgstr ""
+"必定能捕捉到\n"
+"野生宝可梦的\n"
+"最强的球。"
 
 #: src/data/items.h:123
 msgid ""
@@ -46,6 +58,8 @@ msgid ""
 "in commemoration\n"
 "of some event."
 msgstr ""
+"为纪念某个活动而\n"
+"制作的稀有的球。"
 
 #: src/data/items.h:139
 msgid ""
@@ -53,6 +67,9 @@ msgid ""
 "that restores\n"
 "caught Pokémon."
 msgstr ""
+"能在捕捉后回复\n"
+"宝可梦HP和\n"
+"状态的球。"
 
 #: src/data/items.h:155
 msgid ""
@@ -60,6 +77,9 @@ msgid ""
 "well on Water- and\n"
 "Bug-type Pokémon."
 msgstr ""
+"容易捕捉水属性和\n"
+"虫属性\n"
+"宝可梦的球。"
 
 #: src/data/items.h:171
 msgid ""
@@ -67,6 +87,8 @@ msgid ""
 "better on weaker\n"
 "Pokémon."
 msgstr ""
+"对方越弱越容易\n"
+"捕捉的球。"
 
 #: src/data/items.h:207
 msgid ""
@@ -74,6 +96,9 @@ msgid ""
 "better at night\n"
 "or in dark places."
 msgstr ""
+"在夜晚或洞窟等\n"
+"昏暗场所更容易\n"
+"捕捉的球。"
 
 #: src/data/items.h:223
 msgid ""
@@ -81,6 +106,8 @@ msgid ""
 "power in battles\n"
 "taking many turns."
 msgstr ""
+"回合数越多越容易\n"
+"捕捉的球。"
 
 #: src/data/items.h:239
 msgid ""
@@ -88,6 +115,9 @@ msgid ""
 "better at the\n"
 "start of a battle."
 msgstr ""
+"在战斗开始后立刻\n"
+"使用时容易\n"
+"捕捉的球。"
 
 #: src/data/items.h:255
 msgid ""
@@ -95,6 +125,8 @@ msgid ""
 "better on Pokémon\n"
 "caught before."
 msgstr ""
+"容易捕捉已经捕捉\n"
+"过的宝可梦的球。"
 
 #: src/data/items.h:271
 msgid ""
@@ -102,6 +134,9 @@ msgid ""
 "makes Pokémon\n"
 "quickly friendly."
 msgstr ""
+"舒适的球。\n"
+"捕捉到的宝可梦会\n"
+"很快变得亲密。"
 
 #: src/data/items.h:287
 msgid ""
@@ -109,6 +144,9 @@ msgid ""
 "better on lower-\n"
 "level Pokémon."
 msgstr ""
+"对方等级比自己\n"
+"越低越容易\n"
+"捕捉的球。"
 
 #: src/data/items.h:303
 msgid ""
@@ -116,6 +154,9 @@ msgid ""
 "better on Pokémon\n"
 "hooked by a Rod."
 msgstr ""
+"容易捕捉用钓\n"
+"竿钓上来的\n"
+"宝可梦的球。"
 
 #: src/data/items.h:319
 msgid ""
@@ -123,6 +164,9 @@ msgid ""
 "better on Moon\n"
 "Stone evolvers."
 msgstr ""
+"容易捕捉用\n"
+"月之石进化的\n"
+"宝可梦的球。"
 
 #: src/data/items.h:335
 msgid ""
@@ -130,6 +174,8 @@ msgid ""
 "caught Pokémon\n"
 "more friendly."
 msgstr ""
+"捕捉到的宝可梦会\n"
+"变得更亲密的球。"
 
 #: src/data/items.h:351
 msgid ""
@@ -137,6 +183,9 @@ msgid ""
 "better on the\n"
 "opposite gender."
 msgstr ""
+"容易捕捉与自己\n"
+"性别相反的\n"
+"宝可梦的球。"
 
 #: src/data/items.h:367
 msgid ""
@@ -144,6 +193,8 @@ msgid ""
 "better on fast\n"
 "Pokémon."
 msgstr ""
+"容易捕捉速度快的\n"
+"宝可梦的球。"
 
 #: src/data/items.h:383
 msgid ""
@@ -151,6 +202,8 @@ msgid ""
 "better on very\n"
 "heavy Pokémon."
 msgstr ""
+"越重的宝可梦越\n"
+"容易捕捉的球。"
 
 #: src/data/items.h:421
 msgid ""
@@ -158,6 +211,8 @@ msgid ""
 "is used only in the\n"
 "Safari Zone."
 msgstr ""
+"只能在狩猎地带\n"
+"使用的特别的球。"
 
 #: src/data/items.h:437
 msgid ""
@@ -165,12 +220,16 @@ msgid ""
 "is used in the Bug-\n"
 "Catching Contest."
 msgstr ""
+"捕虫大赛中使用的\n"
+"特别的球。"
 
 #: src/data/items.h:453
 msgid ""
 "A special Poké Ball\n"
 "for the Pal Park."
 msgstr ""
+"伙伴公园专用的特\n"
+"别的精灵球。"
 
 #: src/data/items.h:468
 msgid ""
@@ -178,6 +237,9 @@ msgid ""
 "designed to catch\n"
 "Ultra Beasts."
 msgstr ""
+"为捕捉究极异兽而\n"
+"制作的特别的\n"
+"精灵球。"
 
 #: src/data/items.h:484
 msgid ""
@@ -185,6 +247,9 @@ msgid ""
 "to commemorate a\n"
 "special occasion."
 msgstr ""
+"为纪念某个特别的\n"
+"日子而制作的\n"
+"稀有的球。"
 
 #: src/data/items.h:503
 msgid ""
@@ -192,12 +257,18 @@ msgid ""
 "a Pokémon by\n"
 "20 points."
 msgstr ""
+"喷雾式伤药。\n"
+"能让1只宝可梦\n"
+"回复20HP。"
 
 #: src/data/items.h:571
 msgid ""
 "Fully restores the\n"
 "HP of a Pokémon."
 msgstr ""
+"喷雾式伤药。\n"
+"能让1只宝可梦回复\n"
+"全部HP。"
 
 #: src/data/items.h:590
 msgid ""
@@ -205,6 +276,9 @@ msgid ""
 "HP and status of a\n"
 "Pokémon."
 msgstr ""
+"能让1只宝可梦回复\n"
+"全部HP并治愈所有\n"
+"异常状态。"
 
 #: src/data/items.h:609
 msgid ""
@@ -212,6 +286,9 @@ msgid ""
 "Pokémon with half\n"
 "its HP."
 msgstr ""
+"能让濒死的\n"
+"宝可梦复活，\n"
+"并回复一半的HP。"
 
 #: src/data/items.h:628 src/data/items.h:1095
 msgid ""
@@ -219,6 +296,9 @@ msgid ""
 "Pokémon with all\n"
 "its HP."
 msgstr ""
+"能让濒死的\n"
+"宝可梦复活，\n"
+"并回复全部HP。"
 
 #: src/data/items.h:720
 msgid ""
@@ -226,6 +306,9 @@ msgid ""
 "that restores HP\n"
 "by 100 points."
 msgstr ""
+"营养丰富的牛奶。\n"
+"能让1只宝可梦回复\n"
+"100HP。"
 
 #: src/data/items.h:785
 msgid ""
@@ -233,6 +316,9 @@ msgid ""
 "that heals all\n"
 "status problems."
 msgstr ""
+"很苦的药粉。\n"
+"能治愈1只宝可梦的\n"
+"所有异常状态。"
 
 #: src/data/items.h:804
 msgid ""
@@ -240,30 +326,41 @@ msgid ""
 "that revives a\n"
 "fainted Pokémon."
 msgstr ""
+"非常苦的药草。\n"
+"能让濒死的\n"
+"宝可梦复活。"
 
 #: src/data/items.h:823
 msgid ""
 "Heals a poisoned\n"
 "Pokémon."
 msgstr ""
+"能治愈1只宝可梦的\n"
+"中毒状态。"
 
 #: src/data/items.h:841
 msgid ""
 "Heals a paralyzed\n"
 "Pokémon."
 msgstr ""
+"能治愈1只宝可梦的\n"
+"麻痹状态。"
 
 #: src/data/items.h:865
 msgid ""
 "Heals Pokémon\n"
 "of a burn."
 msgstr ""
+"能治愈1只宝可梦的\n"
+"灼伤状态。"
 
 #: src/data/items.h:918
 msgid ""
 "Awakens a sleeping\n"
 "Pokémon."
 msgstr ""
+"能让1只睡眠的\n"
+"宝可梦醒过来。"
 
 #: src/data/items.h:936
 msgid ""
@@ -271,6 +368,8 @@ msgid ""
 "status problems of\n"
 "one Pokémon."
 msgstr ""
+"能治愈1只宝可梦的\n"
+"所有异常状态。"
 
 #: src/data/items.h:956
 msgid ""
@@ -278,6 +377,8 @@ msgid ""
 "of a selected move\n"
 "by 10."
 msgstr ""
+"能让1个指定招式\n"
+"回复10PP。"
 
 #: src/data/items.h:976
 msgid ""
@@ -285,12 +386,17 @@ msgid ""
 "PP of a selected\n"
 "move."
 msgstr ""
+"能让1个指定招式\n"
+"回复全部PP。"
 
 #: src/data/items.h:996
 msgid ""
 "Restores the PP\n"
 "of all moves by 10."
 msgstr ""
+"能让1只宝可梦\n"
+"的所有招式\n"
+"回复10PP。"
 
 #: src/data/items.h:1015
 msgid ""
@@ -298,6 +404,9 @@ msgid ""
 "PP of a Pokémon's\n"
 "moves."
 msgstr ""
+"能让1只宝可梦的\n"
+"所有招式回复\n"
+"全部PP。"
 
 #: src/data/items.h:1036
 msgid ""
@@ -305,6 +414,9 @@ msgid ""
 "that restores HP\n"
 "by 20 points."
 msgstr ""
+"100%纯天然果汁。\n"
+"能让1只宝可梦\n"
+"回复20HP。"
 
 #: src/data/items.h:1056
 msgid ""
@@ -312,6 +424,9 @@ msgid ""
 "restores all\n"
 "fainted Pokémon."
 msgstr ""
+"能让所有濒死的\n"
+"宝可梦复活，\n"
+"并回复全部HP。"
 
 #: src/data/items.h:1075
 msgid ""
@@ -319,6 +434,9 @@ msgid ""
 "that restores HP\n"
 "by 20 points."
 msgstr ""
+"甜甜的巧克力。\n"
+"能让1只宝可梦\n"
+"回复20HP。"
 
 #: src/data/items.h:1117 src/data/items.h:1136 src/data/items.h:1155 src/data/items.h:1175 src/data/items.h:1194 src/data/items.h:1213 src/data/items.h:1232 src/data/items.h:1251 (+1 more)
 msgid ""
@@ -326,12 +444,17 @@ msgid ""
 "that heals all\n"
 "status problems."
 msgstr ""
+"当地的名产。\n"
+"能治愈1只宝可梦的\n"
+"所有异常状态。"
 
 #: src/data/items.h:1272 src/data/items.h:1425 src/data/items.h:15732
 msgid ""
 "Raises the base HP\n"
 "of one Pokémon."
 msgstr ""
+"能提高1只宝可梦HP\n"
+"的努力值。"
 
 #: src/data/items.h:1289 src/data/items.h:1442 src/data/items.h:15750
 msgid ""
@@ -339,6 +462,8 @@ msgid ""
 "Attack stat of one\n"
 "Pokémon."
 msgstr ""
+"能提高1只宝可梦\n"
+"攻击的努力值。"
 
 #: src/data/items.h:1307 src/data/items.h:1460 src/data/items.h:15769
 msgid ""
@@ -346,6 +471,8 @@ msgid ""
 "Defense stat of\n"
 "one Pokémon."
 msgstr ""
+"能提高1只宝可梦\n"
+"防御的努力值。"
 
 #: src/data/items.h:1325 src/data/items.h:1478 src/data/items.h:15788
 msgid ""
@@ -353,6 +480,8 @@ msgid ""
 "Sp. Atk stat of one\n"
 "Pokémon."
 msgstr ""
+"能提高1只宝可梦\n"
+"特攻的努力值。"
 
 #: src/data/items.h:1343 src/data/items.h:1496 src/data/items.h:15807
 msgid ""
@@ -360,6 +489,8 @@ msgid ""
 "Sp. Def stat of one\n"
 "Pokémon."
 msgstr ""
+"能提高1只宝可梦\n"
+"特防的努力值。"
 
 #: src/data/items.h:1362 src/data/items.h:1514 src/data/items.h:15826
 msgid ""
@@ -367,6 +498,8 @@ msgid ""
 "Speed stat of one\n"
 "Pokémon."
 msgstr ""
+"能提高1只宝可梦\n"
+"速度的努力值。"
 
 #: src/data/items.h:1386
 msgid ""
@@ -374,6 +507,8 @@ msgid ""
 "PP of a selected\n"
 "move."
 msgstr ""
+"能稍微提高1个指定\n"
+"招式的PP最大值。"
 
 #: src/data/items.h:1405
 msgid ""
@@ -381,6 +516,9 @@ msgid ""
 "move to its maximum\n"
 "points."
 msgstr ""
+"能将1个指定招式的\n"
+"PP最大值提升\n"
+"到极限。"
 
 #: src/data/items.h:1541
 msgid ""
@@ -388,6 +526,8 @@ msgid ""
 "allows a Pokémon to\n"
 "switch Abilities."
 msgstr ""
+"能交换宝可梦特性\n"
+"的胶囊。"
 
 #: src/data/items.h:1559
 msgid ""
@@ -395,6 +535,9 @@ msgid ""
 "Ability to a\n"
 "rarer Ability."
 msgstr ""
+"能将宝可梦的特性\n"
+"变为稀有特性\n"
+"的膏药。"
 
 #: src/data/items.h:1577
 msgid ""
@@ -402,6 +545,9 @@ msgid ""
 "raises Attack and\n"
 "lowers Defense."
 msgstr ""
+"闻过后攻击\n"
+"容易成长，\n"
+"防御难以成长。"
 
 #: src/data/items.h:1595
 msgid ""
@@ -409,6 +555,9 @@ msgid ""
 "raises Attack and\n"
 "lowers Sp. Atk."
 msgstr ""
+"闻过后攻击\n"
+"容易成长，\n"
+"特攻难以成长。"
 
 #: src/data/items.h:1613
 msgid ""
@@ -416,6 +565,9 @@ msgid ""
 "raises Attack and\n"
 "lowers Sp. Def."
 msgstr ""
+"闻过后攻击\n"
+"容易成长，\n"
+"特防难以成长。"
 
 #: src/data/items.h:1631
 msgid ""
@@ -423,6 +575,9 @@ msgid ""
 "raises Attack and\n"
 "lowers Speed."
 msgstr ""
+"闻过后攻击\n"
+"容易成长，\n"
+"速度难以成长。"
 
 #: src/data/items.h:1649
 msgid ""
@@ -430,6 +585,9 @@ msgid ""
 "raises Defense and\n"
 "lowers Attack."
 msgstr ""
+"闻过后防御\n"
+"容易成长，\n"
+"攻击难以成长。"
 
 #: src/data/items.h:1667
 msgid ""
@@ -437,6 +595,9 @@ msgid ""
 "raises Defense and\n"
 "lowers Sp. Atk."
 msgstr ""
+"闻过后防御\n"
+"容易成长，\n"
+"特攻难以成长。"
 
 #: src/data/items.h:1685
 msgid ""
@@ -444,6 +605,9 @@ msgid ""
 "raises Defense and\n"
 "lowers Sp. Def."
 msgstr ""
+"闻过后防御\n"
+"容易成长，\n"
+"特防难以成长。"
 
 #: src/data/items.h:1703
 msgid ""
@@ -451,6 +615,9 @@ msgid ""
 "raises Defense and\n"
 "lowers Speed."
 msgstr ""
+"闻过后防御\n"
+"容易成长，\n"
+"速度难以成长。"
 
 #: src/data/items.h:1721
 msgid ""
@@ -458,6 +625,9 @@ msgid ""
 "raises Sp. Atk and\n"
 "lowers Attack."
 msgstr ""
+"闻过后特攻\n"
+"容易成长，\n"
+"攻击难以成长。"
 
 #: src/data/items.h:1739
 msgid ""
@@ -465,6 +635,9 @@ msgid ""
 "raises Sp. Atk and\n"
 "lowers Defense."
 msgstr ""
+"闻过后特攻\n"
+"容易成长，\n"
+"防御难以成长。"
 
 #: src/data/items.h:1757
 msgid ""
@@ -472,6 +645,9 @@ msgid ""
 "raises Sp. Atk and\n"
 "lowers Sp. Def."
 msgstr ""
+"闻过后特攻\n"
+"容易成长，\n"
+"特防难以成长。"
 
 #: src/data/items.h:1775
 msgid ""
@@ -479,6 +655,9 @@ msgid ""
 "raises Sp. Atk and\n"
 "lowers Speed."
 msgstr ""
+"闻过后特攻\n"
+"容易成长，\n"
+"速度难以成长。"
 
 #: src/data/items.h:1793
 msgid ""
@@ -486,6 +665,9 @@ msgid ""
 "raises Sp. Def and\n"
 "lowers Attack."
 msgstr ""
+"闻过后特防\n"
+"容易成长，\n"
+"攻击难以成长。"
 
 #: src/data/items.h:1811
 msgid ""
@@ -493,6 +675,9 @@ msgid ""
 "raises Sp. Def and\n"
 "lowers Defense."
 msgstr ""
+"闻过后特防\n"
+"容易成长，\n"
+"防御难以成长。"
 
 #: src/data/items.h:1829
 msgid ""
@@ -500,6 +685,9 @@ msgid ""
 "raises Sp. Def and\n"
 "lowers Sp. Atk."
 msgstr ""
+"闻过后特防\n"
+"容易成长，\n"
+"特攻难以成长。"
 
 #: src/data/items.h:1847
 msgid ""
@@ -507,6 +695,9 @@ msgid ""
 "raises Sp. Def and\n"
 "lowers Speed."
 msgstr ""
+"闻过后特防\n"
+"容易成长，\n"
+"速度难以成长。"
 
 #: src/data/items.h:1865
 msgid ""
@@ -514,6 +705,9 @@ msgid ""
 "raises Speed and\n"
 "lowers Attack."
 msgstr ""
+"闻过后速度\n"
+"容易成长，\n"
+"攻击难以成长。"
 
 #: src/data/items.h:1883
 msgid ""
@@ -521,6 +715,9 @@ msgid ""
 "raises Speed and\n"
 "lowers Defense."
 msgstr ""
+"闻过后速度\n"
+"容易成长，\n"
+"防御难以成长。"
 
 #: src/data/items.h:1901
 msgid ""
@@ -528,6 +725,9 @@ msgid ""
 "raises Speed and\n"
 "lowers Sp. Atk."
 msgstr ""
+"闻过后速度\n"
+"容易成长，\n"
+"特攻难以成长。"
 
 #: src/data/items.h:1919
 msgid ""
@@ -535,6 +735,9 @@ msgid ""
 "raises Speed and\n"
 "lowers Sp. Def."
 msgstr ""
+"闻过后速度\n"
+"容易成长，\n"
+"特防难以成长。"
 
 #: src/data/items.h:1937
 msgid ""
@@ -542,6 +745,9 @@ msgid ""
 "makes a Pokémon's\n"
 "stats grow equally."
 msgstr ""
+"闻过后宝可梦的\n"
+"所有能力都会均衡\n"
+"地成长。"
 
 #: src/data/items.h:1958
 msgid ""
@@ -549,6 +755,8 @@ msgid ""
 "of a Pokémon by\n"
 "one."
 msgstr ""
+"能让1只宝可梦的\n"
+"等级提升1级。"
 
 #: src/data/items.h:1978
 msgid ""
@@ -556,6 +764,8 @@ msgid ""
 "amount of Exp. to\n"
 "a single Pokémon."
 msgstr ""
+"能让1只宝可梦获得\n"
+"极少量经验值。"
 
 #: src/data/items.h:1998
 msgid ""
@@ -563,6 +773,8 @@ msgid ""
 "amount of Exp. to\n"
 "a single Pokémon."
 msgstr ""
+"能让1只宝可梦获得\n"
+"少量经验值。"
 
 #: src/data/items.h:2018
 msgid ""
@@ -570,6 +782,8 @@ msgid ""
 "amount of Exp. to\n"
 "a single Pokémon."
 msgstr ""
+"能让1只宝可梦获得\n"
+"适量经验值。"
 
 #: src/data/items.h:2038
 msgid ""
@@ -577,6 +791,8 @@ msgid ""
 "amount of Exp. to\n"
 "a single Pokémon."
 msgstr ""
+"能让1只宝可梦获得\n"
+"大量经验值。"
 
 #: src/data/items.h:2058
 msgid ""
@@ -584,6 +800,8 @@ msgid ""
 "amount of Exp. to\n"
 "a single Pokémon."
 msgstr ""
+"能让1只宝可梦获得\n"
+"极大量经验值。"
 
 #: src/data/items.h:2077
 msgid ""
@@ -591,6 +809,8 @@ msgid ""
 "Level of a single\n"
 "Pokémon by one."
 msgstr ""
+"能让1只宝可梦的极\n"
+"巨等级提升1级。"
 
 #: src/data/items.h:2096
 msgid ""
@@ -598,6 +818,9 @@ msgid ""
 "awakens sleeping\n"
 "Pokémon."
 msgstr ""
+"玻璃制的笛子。\n"
+"能让睡眠的宝可梦\n"
+"醒过来。"
 
 #: src/data/items.h:2116
 msgid ""
@@ -605,6 +828,9 @@ msgid ""
 "snaps Pokémon\n"
 "out of confusion."
 msgstr ""
+"玻璃制的笛子。\n"
+"能治愈宝可梦的\n"
+"混乱状态。"
 
 #: src/data/items.h:2136
 msgid ""
@@ -612,6 +838,9 @@ msgid ""
 "snaps Pokémon\n"
 "out of attraction."
 msgstr ""
+"玻璃制的笛子。\n"
+"能治愈宝可梦的着\n"
+"迷状态。"
 
 #: src/data/items.h:2159
 msgid ""
@@ -619,12 +848,18 @@ msgid ""
 "keeps away wild\n"
 "Pokémon."
 msgstr ""
+"玻璃制的笛子。\n"
+"能让野生宝可梦难\n"
+"以出现。"
 
 #: src/data/items.h:2178
 msgid ""
 "A glass flute that\n"
 "lures wild Pokémon."
 msgstr ""
+"玻璃制的笛子。\n"
+"能让野生宝可梦\n"
+"容易出现。"
 
 #: src/data/items.h:2198
 msgid ""
@@ -632,6 +867,9 @@ msgid ""
 "Pokémon for 100\n"
 "steps."
 msgstr ""
+"在100步之内，\n"
+"弱小的野生宝可梦\n"
+"不会出现。"
 
 #: src/data/items.h:2216
 msgid ""
@@ -639,6 +877,9 @@ msgid ""
 "Pokémon for 200\n"
 "steps."
 msgstr ""
+"在200步之内，\n"
+"弱小的野生宝可梦\n"
+"不会出现。"
 
 #: src/data/items.h:2234
 msgid ""
@@ -646,6 +887,9 @@ msgid ""
 "Pokémon for 250\n"
 "steps."
 msgstr ""
+"在250步之内，\n"
+"弱小的野生宝可梦\n"
+"不会出现。"
 
 #: src/data/items.h:2252
 msgid ""
@@ -653,6 +897,9 @@ msgid ""
 "likely to appear\n"
 "for 100 steps."
 msgstr ""
+"在100步之内，\n"
+"野生宝可梦更\n"
+"容易出现。"
 
 #: src/data/items.h:2271
 msgid ""
@@ -660,6 +907,9 @@ msgid ""
 "likely to appear\n"
 "for 200 steps."
 msgstr ""
+"在200步之内，\n"
+"野生宝可梦更\n"
+"容易出现。"
 
 #: src/data/items.h:2290
 msgid ""
@@ -667,6 +917,9 @@ msgid ""
 "likely to appear\n"
 "for 250 steps."
 msgstr ""
+"在250步之内，\n"
+"野生宝可梦更\n"
+"容易出现。"
 
 #: src/data/items.h:2307
 msgid ""
@@ -674,6 +927,8 @@ msgid ""
 "instantly from a\n"
 "cave or a dungeon."
 msgstr ""
+"能从洞窟或迷宫中\n"
+"瞬间脱离的绳子。"
 
 #: src/data/items.h:2490
 msgid ""
@@ -681,6 +936,8 @@ msgid ""
 "critical-hit ratio\n"
 "during one battle."
 msgstr ""
+"在1场战斗中，\n"
+"更容易击中要害。"
 
 #: src/data/items.h:2510
 msgid ""
@@ -688,6 +945,8 @@ msgid ""
 "lowering when\n"
 "used in battle."
 msgstr ""
+"在战斗中使用，能\n"
+"防止能力被降低。"
 
 #: src/data/items.h:2535 src/data/items.h:2553 src/data/items.h:2571
 msgid ""
@@ -695,6 +954,9 @@ msgid ""
 "any battle with\n"
 "a wild Pokémon."
 msgstr ""
+"能从与野生\n"
+"宝可梦的战斗中\n"
+"必定逃走。"
 
 #: src/data/items.h:2590
 msgid ""
@@ -702,6 +964,9 @@ msgid ""
 "raise all stats\n"
 "during one battle."
 msgstr ""
+"在1场战斗中，\n"
+"提高宝可梦的\n"
+"全部能力。"
 
 #: src/data/items.h:2610
 msgid ""
@@ -709,6 +974,8 @@ msgid ""
 "cap that gives off\n"
 "a silver gleam."
 msgstr ""
+"闪着银色光芒的美\n"
+"丽瓶盖。"
 
 #: src/data/items.h:2627
 msgid ""
@@ -716,6 +983,8 @@ msgid ""
 "cap that gives off\n"
 "a golden gleam."
 msgstr ""
+"闪着金色光芒的美\n"
+"丽瓶盖。"
 
 #: src/data/items.h:2644
 msgid ""
@@ -723,6 +992,9 @@ msgid ""
 "gold. Can be sold at\n"
 "a high price."
 msgstr ""
+"纯金打造的金珠。\n"
+"可以高价卖\n"
+"给商店。"
 
 #: src/data/items.h:2667
 msgid ""
@@ -730,6 +1002,8 @@ msgid ""
 "gold. Can be sold at\n"
 "a high price."
 msgstr ""
+"大颗的金珠。可以\n"
+"高价卖给商店。"
 
 #: src/data/items.h:2684
 msgid ""
@@ -737,6 +1011,9 @@ msgid ""
 "that would sell\n"
 "at a cheap price."
 msgstr ""
+"普通的小蘑菇。\n"
+"可以低价卖\n"
+"给商店。"
 
 #: src/data/items.h:2701
 msgid ""
@@ -744,6 +1021,9 @@ msgid ""
 "that would sell at a\n"
 "high price."
 msgstr ""
+"稀有的大蘑菇。\n"
+"可以高价卖\n"
+"给商店。"
 
 #: src/data/items.h:2724
 msgid ""
@@ -751,6 +1031,9 @@ msgid ""
 "fragrance. It would\n"
 "sell at a high price."
 msgstr ""
+"散发着好闻的香\n"
+"气。可以高价卖\n"
+"给商店。"
 
 #: src/data/items.h:2741
 msgid ""
@@ -758,6 +1041,8 @@ msgid ""
 "that would sell at a\n"
 "cheap price."
 msgstr ""
+"美丽的珍珠。可以\n"
+"低价卖给商店。"
 
 #: src/data/items.h:2758
 msgid ""
@@ -765,6 +1050,9 @@ msgid ""
 "that would sell at a\n"
 "high price."
 msgstr ""
+"漂亮的大珍珠。\n"
+"可以高价卖\n"
+"给商店。"
 
 #: src/data/items.h:2783
 msgid ""
@@ -772,6 +1060,9 @@ msgid ""
 "that would sell at a\n"
 "high price."
 msgstr ""
+"非常大的珍珠。\n"
+"可以高价卖\n"
+"给商店。"
 
 #: src/data/items.h:2800
 msgid ""
@@ -779,6 +1070,9 @@ msgid ""
 "Can be sold at a\n"
 "high price."
 msgstr ""
+"美丽的红色沙子。\n"
+"可以高价卖\n"
+"给商店。"
 
 #: src/data/items.h:2817
 msgid ""
@@ -786,6 +1080,9 @@ msgid ""
 "It would sell for a\n"
 "very high price."
 msgstr ""
+"红色宝石的碎片。\n"
+"可以以非常高的价\n"
+"格卖给商店。"
 
 #: src/data/items.h:2842
 msgid ""
@@ -793,6 +1090,9 @@ msgid ""
 "a comet. It would\n"
 "sell at a high price."
 msgstr ""
+"彗星掉落的碎片。\n"
+"可以高价卖\n"
+"给商店。"
 
 #: src/data/items.h:2859
 msgid ""
@@ -800,6 +1100,8 @@ msgid ""
 "deep inside the\n"
 "Shoal Cave."
 msgstr ""
+"在浅滩洞穴深处取\n"
+"得的盐。"
 
 #: src/data/items.h:2876
 msgid ""
@@ -807,6 +1109,8 @@ msgid ""
 "deep inside the\n"
 "Shoal Cave."
 msgstr ""
+"在浅滩洞穴深处找\n"
+"到的贝壳。"
 
 #: src/data/items.h:2893 src/data/items.h:2910 src/data/items.h:2927 src/data/items.h:2944
 msgid ""
@@ -814,6 +1118,9 @@ msgid ""
 "ancient item. Can\n"
 "be sold cheaply."
 msgstr ""
+"古代道具的碎片。\n"
+"可以低价卖\n"
+"给商店。"
 
 #: src/data/items.h:2961
 msgid ""
@@ -821,6 +1128,8 @@ msgid ""
 "It is coveted by\n"
 "collectors."
 msgstr ""
+"美丽的鳞片。收藏\n"
+"家们都很想要。"
 
 #: src/data/items.h:2985
 msgid ""
@@ -828,6 +1137,9 @@ msgid ""
 "attracts wild\n"
 "Pokémon when used."
 msgstr ""
+"甜甜的蜜。\n"
+"使用后能吸引野生\n"
+"宝可梦。"
 
 #: src/data/items.h:3002
 msgid ""
@@ -835,6 +1147,9 @@ msgid ""
 "that would sell at a\n"
 "high price."
 msgstr ""
+"研究用的骨头。\n"
+"可以高价卖\n"
+"给商店。"
 
 #: src/data/items.h:3019
 msgid ""
@@ -842,6 +1157,9 @@ msgid ""
 "can be heard from\n"
 "it occasionally."
 msgstr ""
+"重要的道具。\n"
+"有时能听到里面传\n"
+"来声音。"
 
 #: src/data/items.h:3036
 msgid ""
@@ -849,6 +1167,9 @@ msgid ""
 "that has no effect\n"
 "on Pokémon."
 msgstr ""
+"普通的羽毛。\n"
+"对宝可梦没有任\n"
+"何效果。"
 
 #: src/data/items.h:3053
 msgid ""
@@ -856,6 +1177,8 @@ msgid ""
 "by a civilization\n"
 "3,000 years ago."
 msgstr ""
+"3000年前的文明\n"
+"使用过的铜币。"
 
 #: src/data/items.h:3070
 msgid ""
@@ -863,6 +1186,8 @@ msgid ""
 "by a civilization\n"
 "3,000 years ago."
 msgstr ""
+"3000年前的文明\n"
+"使用过的银币。"
 
 #: src/data/items.h:3087
 msgid ""
@@ -870,6 +1195,8 @@ msgid ""
 "by a civilization\n"
 "3,000 years ago."
 msgstr ""
+"3000年前的文明\n"
+"使用过的金币。"
 
 #: src/data/items.h:3104
 msgid ""
@@ -877,6 +1204,8 @@ msgid ""
 "by a civilization\n"
 "3,000 years ago."
 msgstr ""
+"3000年前的文明\n"
+"制作的易碎的壶。"
 
 #: src/data/items.h:3121
 msgid ""
@@ -884,6 +1213,8 @@ msgid ""
 "by a civilization\n"
 "3,000 years ago."
 msgstr ""
+"3000年前的文明\n"
+"制作的手镯。"
 
 #: src/data/items.h:3138
 msgid ""
@@ -891,6 +1222,8 @@ msgid ""
 "by a civilization\n"
 "3,000 years ago."
 msgstr ""
+"3000年前的文明\n"
+"制作的石像。"
 
 #: src/data/items.h:3155
 msgid ""
@@ -898,6 +1231,9 @@ msgid ""
 "by a civilization\n"
 "3,000 years ago."
 msgstr ""
+"3000年前的文明\n"
+"制作的沉重\n"
+"的王冠。"
 
 #: src/data/items.h:3172
 msgid ""
@@ -905,6 +1241,8 @@ msgid ""
 "depicts a Pokémon\n"
 "from Alola."
 msgstr ""
+"描绘阿罗拉地区\n"
+"宝可梦的装饰品。"
 
 #: src/data/items.h:3190
 msgid ""
@@ -912,6 +1250,8 @@ msgid ""
 "ancient marine\n"
 "Pokémon's seashell."
 msgstr ""
+"古代海洋宝可梦的\n"
+"螺壳的碎片。"
 
 #: src/data/items.h:3213
 msgid ""
@@ -919,6 +1259,8 @@ msgid ""
 "ancient marine\n"
 "Pokémon's shell."
 msgstr ""
+"古代海洋宝可梦的\n"
+"甲壳的碎片。"
 
 #: src/data/items.h:3236
 msgid ""
@@ -926,6 +1268,8 @@ msgid ""
 "the genes of an\n"
 "ancient Pokémon."
 msgstr ""
+"含有古代宝可梦遗\n"
+"传基因的石头。"
 
 #: src/data/items.h:3259 src/data/items.h:3282
 msgid ""
@@ -933,6 +1277,8 @@ msgid ""
 "ancient, seafloor-\n"
 "dwelling Pokémon."
 msgstr ""
+"古代海底宝可梦\n"
+"的化石。"
 
 #: src/data/items.h:3306
 msgid ""
@@ -940,6 +1286,8 @@ msgid ""
 "ancient land\n"
 "Pokémon's collar."
 msgstr ""
+"古代陆地宝可梦的\n"
+"颈部的一部分。"
 
 #: src/data/items.h:3323
 msgid ""
@@ -947,6 +1295,8 @@ msgid ""
 "ancient land\n"
 "Pokémon's head."
 msgstr ""
+"古代陆地宝可梦的\n"
+"头部的一部分。"
 
 #: src/data/items.h:3340
 msgid ""
@@ -954,6 +1304,8 @@ msgid ""
 "ancient sea\n"
 "Pokémon's back."
 msgstr ""
+"古代海洋宝可梦的\n"
+"背部的一部分。"
 
 #: src/data/items.h:3357
 msgid ""
@@ -961,6 +1313,8 @@ msgid ""
 "ancient sky\n"
 "Pokémon's wing."
 msgstr ""
+"古代天空宝可梦的\n"
+"翅膀的一部分。"
 
 #: src/data/items.h:3374
 msgid ""
@@ -968,6 +1322,8 @@ msgid ""
 "ancient land\n"
 "Pokémon's jaw."
 msgstr ""
+"古代陆地宝可梦的\n"
+"颚部的碎片。"
 
 #: src/data/items.h:3391
 msgid ""
@@ -975,6 +1331,8 @@ msgid ""
 "ancient land\n"
 "Pokémon's skin sail."
 msgstr ""
+"古代陆地宝可梦背\n"
+"上的帆的印痕。"
 
 #: src/data/items.h:3408
 msgid ""
@@ -982,6 +1340,8 @@ msgid ""
 "ancient, sky-\n"
 "soaring Pokémon."
 msgstr ""
+"古代翱翔天空的\n"
+"宝可梦的化石。"
 
 #: src/data/items.h:3426 src/data/items.h:3460
 msgid ""
@@ -989,6 +1349,8 @@ msgid ""
 "ancient, sea-\n"
 "dwelling Pokémon."
 msgstr ""
+"古代海洋宝可梦\n"
+"的化石。"
 
 #: src/data/items.h:3443
 msgid ""
@@ -996,6 +1358,8 @@ msgid ""
 "ancient, land-\n"
 "roaming Pokémon."
 msgstr ""
+"古代陆地宝可梦\n"
+"的化石。"
 
 #: src/data/items.h:3481
 msgid ""
@@ -1003,6 +1367,9 @@ msgid ""
 "growth, but dries\n"
 "the soil faster."
 msgstr ""
+"能加快树果生长，\n"
+"但土壤也会更\n"
+"快变干。"
 
 #: src/data/items.h:3486 src/data/items.h:3512 src/data/items.h:3538 src/data/items.h:3564 src/data/items.h:3590 src/data/items.h:3616 src/data/items.h:3642 src/data/items.h:3668
 msgid ""
@@ -1010,6 +1377,8 @@ msgid ""
 "unsuitable for\n"
 "the soil."
 msgstr ""
+"看来不适合用在这\n"
+"里的土壤上。"
 
 #: src/data/items.h:3507
 msgid ""
@@ -1017,6 +1386,9 @@ msgid ""
 "dry slower, but\n"
 "slows Berry growth."
 msgstr ""
+"能让土壤更慢变\n"
+"干，但树果生长\n"
+"会变慢。"
 
 #: src/data/items.h:3533
 msgid ""
@@ -1024,6 +1396,8 @@ msgid ""
 "ripened Berries\n"
 "remain on plants."
 msgstr ""
+"能延长成熟的树果\n"
+"留在树上的时间。"
 
 #: src/data/items.h:3559
 msgid ""
@@ -1031,6 +1405,9 @@ msgid ""
 "plants grow where\n"
 "mature ones withered."
 msgstr ""
+"树枯萎后，\n"
+"增加从原地重新长\n"
+"出的次数。"
 
 #: src/data/items.h:3585
 msgid ""
@@ -1038,6 +1415,8 @@ msgid ""
 "growing Berries that\n"
 "increases the harvest."
 msgstr ""
+"能增加树果收获量\n"
+"的肥料。"
 
 #: src/data/items.h:3611
 msgid ""
@@ -1045,6 +1424,8 @@ msgid ""
 "growing Berries that\n"
 "causes mutations."
 msgstr ""
+"能让树果产生变异\n"
+"的肥料。"
 
 #: src/data/items.h:3637
 msgid ""
@@ -1052,6 +1433,9 @@ msgid ""
 "harvest that can be\n"
 "grown by watering."
 msgstr ""
+"能增加浇水所带来\n"
+"的树果收获量\n"
+"的肥料。"
 
 #: src/data/items.h:3663
 msgid ""
@@ -1059,6 +1443,9 @@ msgid ""
 "effects of Rich, Boost,\n"
 "and Surprise Mulch."
 msgstr ""
+"兼具硕果肥、\n"
+"劲劲肥和吃惊肥\n"
+"效果的肥料。"
 
 #: src/data/items.h:3696
 msgid ""
@@ -1066,6 +1453,8 @@ msgid ""
 "It assails your\n"
 "nostrils."
 msgstr ""
+"红色的球果。\n"
+"味道很冲鼻子。"
 
 #: src/data/items.h:3712
 msgid ""
@@ -1073,6 +1462,8 @@ msgid ""
 "It smells a bit\n"
 "like grass."
 msgstr ""
+"蓝色的球果。闻起\n"
+"来有点像青草。"
 
 #: src/data/items.h:3728
 msgid ""
@@ -1080,6 +1471,8 @@ msgid ""
 "It has a light,\n"
 "refreshing scent."
 msgstr ""
+"黄色的球果。有淡\n"
+"淡的清爽香气。"
 
 #: src/data/items.h:3744
 msgid ""
@@ -1087,6 +1480,8 @@ msgid ""
 "It has an aromatic,\n"
 "mysterious scent."
 msgstr ""
+"绿色的球果。有\n"
+"神秘的芳香气味。"
 
 #: src/data/items.h:3760
 msgid ""
@@ -1094,6 +1489,8 @@ msgid ""
 "It has a nice,\n"
 "sweet scent."
 msgstr ""
+"粉红色的球果。\n"
+"有好闻的甜香。"
 
 #: src/data/items.h:3776
 msgid ""
@@ -1101,6 +1498,8 @@ msgid ""
 "It doesn't smell\n"
 "like anything."
 msgstr ""
+"白色的球果。\n"
+"没有任何气味。"
 
 #: src/data/items.h:3792
 msgid ""
@@ -1108,6 +1507,8 @@ msgid ""
 "Its scent is\n"
 "indescribable."
 msgstr ""
+"黑色的球果。\n"
+"气味难以形容。"
 
 #: src/data/items.h:3808
 msgid ""
@@ -1115,6 +1516,9 @@ msgid ""
 "den to attract a\n"
 "Dynamax Pokémon."
 msgstr ""
+"扔进巢穴就能吸引\n"
+"来极巨化的\n"
+"宝可梦。"
 
 #: src/data/items.h:3825
 msgid ""
@@ -1122,6 +1526,8 @@ msgid ""
 "called Galarica\n"
 "that grows in Galar."
 msgstr ""
+"生长于伽勒尔的伽\n"
+"勒豆蔻树的枝条。"
 
 #: src/data/items.h:3843
 msgid ""
@@ -1129,6 +1535,8 @@ msgid ""
 "can be obtained on\n"
 "the Isle of Armor."
 msgstr ""
+"能在铠岛获得的\n"
+"稀有矿石。"
 
 #: src/data/items.h:3861
 msgid ""
@@ -1136,6 +1544,8 @@ msgid ""
 "obtained in\n"
 "the Max Lair."
 msgstr ""
+"在极巨巢穴获得的\n"
+"神秘矿石。"
 
 #: src/data/items.h:3881
 msgid ""
@@ -1143,6 +1553,9 @@ msgid ""
 "Mail to be held by\n"
 "a Pokémon."
 msgstr ""
+"印有蛇纹熊\n"
+"图案的邮件。\n"
+"让宝可梦携带。"
 
 #: src/data/items.h:3899
 msgid ""
@@ -1150,6 +1563,9 @@ msgid ""
 "Mail to be held by\n"
 "a Pokémon."
 msgstr ""
+"印有长翅鸥\n"
+"图案的邮件。\n"
+"让宝可梦携带。"
 
 #: src/data/items.h:3917
 msgid ""
@@ -1157,6 +1573,9 @@ msgid ""
 "Mail to be held by\n"
 "a Pokémon."
 msgstr ""
+"印有皮卡丘\n"
+"图案的邮件。\n"
+"让宝可梦携带。"
 
 #: src/data/items.h:3935
 msgid ""
@@ -1164,6 +1583,9 @@ msgid ""
 "Mail to be held by\n"
 "a Pokémon."
 msgstr ""
+"印有小磁怪\n"
+"图案的邮件。\n"
+"让宝可梦携带。"
 
 #: src/data/items.h:3953
 msgid ""
@@ -1171,6 +1593,9 @@ msgid ""
 "Mail to be held by\n"
 "a Pokémon."
 msgstr ""
+"印有懒人獭\n"
+"图案的邮件。\n"
+"让宝可梦携带。"
 
 #: src/data/items.h:3971
 msgid ""
@@ -1178,6 +1603,9 @@ msgid ""
 "Mail to be held by\n"
 "a Pokémon."
 msgstr ""
+"印有吼吼鲸\n"
+"图案的邮件。\n"
+"让宝可梦携带。"
 
 #: src/data/items.h:3989 src/data/items.h:4043
 msgid ""
@@ -1185,6 +1613,9 @@ msgid ""
 "sketch of the\n"
 "holding Pokémon."
 msgstr ""
+"印有携带它的\n"
+"宝可梦的画像\n"
+"的邮件。"
 
 #: src/data/items.h:4007
 msgid ""
@@ -1192,6 +1623,9 @@ msgid ""
 "Mail to be held by\n"
 "a Pokémon."
 msgstr ""
+"印有夜巡灵\n"
+"图案的邮件。\n"
+"让宝可梦携带。"
 
 #: src/data/items.h:4025
 msgid ""
@@ -1199,6 +1633,9 @@ msgid ""
 "Mail to be held by\n"
 "a Pokémon."
 msgstr ""
+"印有美丽花\n"
+"图案的邮件。\n"
+"让宝可梦携带。"
 
 #: src/data/items.h:4061
 msgid ""
@@ -1206,6 +1643,9 @@ msgid ""
 "Mail to be held\n"
 "by a Pokémon."
 msgstr ""
+"印有华丽图案\n"
+"的邮件。让\n"
+"宝可梦携带。"
 
 #: src/data/items.h:4079
 msgid ""
@@ -1213,6 +1653,8 @@ msgid ""
 "drawings of three\n"
 "Pokémon."
 msgstr ""
+"印有3只宝可梦插画\n"
+"的邮件。"
 
 #: src/data/items.h:4098 src/data/items.h:4116 src/data/items.h:4134 src/data/items.h:4152 src/data/items.h:4170 src/data/items.h:4188 src/data/items.h:4214 src/data/items.h:4232 (+3 more)
 msgid ""
@@ -1220,6 +1662,9 @@ msgid ""
 "species of Pokémon\n"
 "evolve."
 msgstr ""
+"能让特定种类的\n"
+"宝可梦进化的\n"
+"神奇石头。"
 
 #: src/data/items.h:4286 src/data/items.h:4304 src/data/items.h:15623
 msgid ""
@@ -1227,6 +1672,8 @@ msgid ""
 "that makes certain\n"
 "Pokémon evolve."
 msgstr ""
+"能让特定宝可梦\n"
+"进化的神奇苹果。"
 
 #: src/data/items.h:4322 src/data/items.h:4340
 msgid ""
@@ -1234,6 +1681,8 @@ msgid ""
 "that makes certain\n"
 "Pokémon evolve."
 msgstr ""
+"能让特定宝可梦\n"
+"进化的神奇茶壶。"
 
 #: src/data/items.h:4358
 msgid ""
@@ -1241,6 +1690,8 @@ msgid ""
 "makes Galarian\n"
 "Slowpoke happy."
 msgstr ""
+"伽勒尔呆呆兽会很\n"
+"开心的手环。"
 
 #: src/data/items.h:4376
 msgid ""
@@ -1248,6 +1699,8 @@ msgid ""
 "makes Galarian\n"
 "Slowpoke happy."
 msgstr ""
+"伽勒尔呆呆兽会很\n"
+"开心的花环。"
 
 #: src/data/items.h:4395
 msgid ""
@@ -1255,12 +1708,16 @@ msgid ""
 "held by Dragon-\n"
 "type Pokémon."
 msgstr ""
+"龙属性宝可梦所拥\n"
+"有的神奇鳞片。"
 
 #: src/data/items.h:4413
 msgid ""
 "A peculiar box made\n"
 "by Silph Co."
 msgstr ""
+"西尔佛公司制作的\n"
+"透明的神奇盒子。"
 
 #: src/data/items.h:4430
 msgid ""
@@ -1268,6 +1725,9 @@ msgid ""
 "It is loved by\n"
 "a certain Pokémon."
 msgstr ""
+"某种宝可梦很\n"
+"喜欢的护具。\n"
+"非常坚硬。"
 
 #: src/data/items.h:4448
 msgid ""
@@ -1275,6 +1735,9 @@ msgid ""
 "energy loved by\n"
 "a certain Pokémon."
 msgstr ""
+"装满电气能量的\n"
+"盒子。某种宝可梦\n"
+"很喜欢。"
 
 #: src/data/items.h:4466
 msgid ""
@@ -1282,6 +1745,9 @@ msgid ""
 "energy loved by\n"
 "a certain Pokémon."
 msgstr ""
+"装满熔岩能量的\n"
+"盒子。某种宝可梦\n"
+"很喜欢。"
 
 #: src/data/items.h:4484
 msgid ""
@@ -1289,6 +1755,8 @@ msgid ""
 "device overflowing\n"
 "with dubious data."
 msgstr ""
+"装满可疑数据的透\n"
+"明装置。"
 
 #: src/data/items.h:4502
 msgid ""
@@ -1296,6 +1764,8 @@ msgid ""
 "energy loved by\n"
 "a certain Pokémon."
 msgstr ""
+"充满能量的布。某\n"
+"种宝可梦很喜欢。"
 
 #: src/data/items.h:4526
 msgid ""
@@ -1303,6 +1773,8 @@ msgid ""
 "that makes certain\n"
 "Pokémon evolve."
 msgstr ""
+"能让特定宝可梦\n"
+"进化的神奇鳞片。"
 
 #: src/data/items.h:4544
 msgid ""
@@ -1310,6 +1782,9 @@ msgid ""
 "treat loved by\n"
 "a certain Pokémon."
 msgstr ""
+"又软又甜的点心。\n"
+"某种宝可梦\n"
+"很喜欢。"
 
 #: src/data/items.h:4562
 msgid ""
@@ -1317,6 +1792,9 @@ msgid ""
 "perfumes loved by\n"
 "a certain Pokémon."
 msgstr ""
+"装有香料的香袋。\n"
+"某种宝可梦\n"
+"很喜欢。"
 
 #: src/data/items.h:4598
 msgid ""
@@ -1324,6 +1802,9 @@ msgid ""
 "sweet. When held by\n"
 "Milcery, it's happy."
 msgstr ""
+"草莓形状的糖饰。\n"
+"让小仙奶携带会\n"
+"很开心。"
 
 #: src/data/items.h:4615
 msgid ""
@@ -1331,6 +1812,9 @@ msgid ""
 "sweet. When held by\n"
 "Milcery, it's happy."
 msgstr ""
+"爱心形状的糖饰。\n"
+"让小仙奶携带会\n"
+"很开心。"
 
 #: src/data/items.h:4632
 msgid ""
@@ -1338,6 +1822,9 @@ msgid ""
 "sweet. When held by\n"
 "Milcery, it's happy."
 msgstr ""
+"野莓形状的糖饰。\n"
+"让小仙奶携带会\n"
+"很开心。"
 
 #: src/data/items.h:4649
 msgid ""
@@ -1345,6 +1832,9 @@ msgid ""
 "sweet. When held by\n"
 "Milcery, it's happy."
 msgstr ""
+"幸运草形状的糖\n"
+"饰。让小仙奶携带\n"
+"会很开心。"
 
 #: src/data/items.h:4666
 msgid ""
@@ -1352,6 +1842,9 @@ msgid ""
 "sweet. When held by\n"
 "Milcery, it's happy."
 msgstr ""
+"花朵形状的糖饰。\n"
+"让小仙奶携带会\n"
+"很开心。"
 
 #: src/data/items.h:4683
 msgid ""
@@ -1359,6 +1852,9 @@ msgid ""
 "sweet. When held by\n"
 "Milcery, it's happy."
 msgstr ""
+"星星形状的糖饰。\n"
+"让小仙奶携带会\n"
+"很开心。"
 
 #: src/data/items.h:4700
 msgid ""
@@ -1366,6 +1862,9 @@ msgid ""
 "sweet. When held by\n"
 "Milcery, it's happy."
 msgstr ""
+"蝴蝶结形状的糖\n"
+"饰。让小仙奶携带\n"
+"会很开心。"
 
 #: src/data/items.h:4718
 msgid ""
@@ -1373,6 +1872,9 @@ msgid ""
 "item that prevents\n"
 "evolution."
 msgstr ""
+"神奇的携带物。\n"
+"携带后宝可梦不\n"
+"会进化。"
 
 #: src/data/items.h:4738 src/data/items.h:4756 src/data/items.h:4774 src/data/items.h:4792
 msgid ""
@@ -1380,6 +1882,9 @@ msgid ""
 "changes the form\n"
 "of certain Pokémon."
 msgstr ""
+"花的蜜。能改变\n"
+"特定宝可梦\n"
+"的样子。"
 
 #: src/data/items.h:4813 src/data/items.h:9002
 msgid ""
@@ -1387,6 +1892,9 @@ msgid ""
 "raises the power of\n"
 "Fire-type moves."
 msgstr ""
+"携带后，火属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:4833 src/data/items.h:8545 src/data/items.h:8657 src/data/items.h:9022
 msgid ""
@@ -1394,6 +1902,9 @@ msgid ""
 "raises the power of\n"
 "Water-type moves."
 msgstr ""
+"携带后，水属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:4853 src/data/items.h:9042
 msgid ""
@@ -1401,6 +1912,9 @@ msgid ""
 "boosts Electric-\n"
 "type moves."
 msgstr ""
+"携带后，电属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:4873 src/data/items.h:8677 src/data/items.h:9062
 msgid ""
@@ -1408,6 +1922,9 @@ msgid ""
 "raises the power of\n"
 "Grass-type moves."
 msgstr ""
+"携带后，草属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:4893 src/data/items.h:9082
 msgid ""
@@ -1415,6 +1932,9 @@ msgid ""
 "raises the power of\n"
 "Ice-type moves."
 msgstr ""
+"携带后，冰属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:4913 src/data/items.h:9102
 msgid ""
@@ -1422,6 +1942,9 @@ msgid ""
 "boosts Fighting-\n"
 "type moves."
 msgstr ""
+"携带后，格斗属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:4933 src/data/items.h:9122
 msgid ""
@@ -1429,6 +1952,9 @@ msgid ""
 "raises the power of\n"
 "Poison-type moves."
 msgstr ""
+"携带后，毒属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:4953 src/data/items.h:9143
 msgid ""
@@ -1436,6 +1962,9 @@ msgid ""
 "raises the power of\n"
 "Ground-type moves."
 msgstr ""
+"携带后，地面属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:4973 src/data/items.h:9163
 msgid ""
@@ -1443,6 +1972,9 @@ msgid ""
 "raises the power of\n"
 "Flying-type moves."
 msgstr ""
+"携带后，飞行属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:4993 src/data/items.h:8598 src/data/items.h:9183
 msgid ""
@@ -1450,6 +1982,9 @@ msgid ""
 "boosts Psychic-\n"
 "type moves."
 msgstr ""
+"携带后，\n"
+"超能力属性招式的\n"
+"威力会提高。"
 
 #: src/data/items.h:5013 src/data/items.h:9203
 msgid ""
@@ -1457,6 +1992,9 @@ msgid ""
 "raises the power of\n"
 "Bug-type moves."
 msgstr ""
+"携带后，虫属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:5033 src/data/items.h:8618 src/data/items.h:9223
 msgid ""
@@ -1464,6 +2002,9 @@ msgid ""
 "raises the power of\n"
 "Rock-type moves."
 msgstr ""
+"携带后，岩石属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:5053 src/data/items.h:9243
 msgid ""
@@ -1471,6 +2012,9 @@ msgid ""
 "raises the power of\n"
 "Ghost-type moves."
 msgstr ""
+"携带后，幽灵属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:5073 src/data/items.h:9263
 msgid ""
@@ -1478,6 +2022,9 @@ msgid ""
 "raises the power of\n"
 "Dragon-type moves."
 msgstr ""
+"携带后，龙属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:5093 src/data/items.h:9284
 msgid ""
@@ -1485,6 +2032,9 @@ msgid ""
 "raises the power of\n"
 "Dark-type moves."
 msgstr ""
+"携带后，恶属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:5113 src/data/items.h:9310
 msgid ""
@@ -1492,6 +2042,9 @@ msgid ""
 "raises the power of\n"
 "Steel-type moves."
 msgstr ""
+"携带后，钢属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:5133 src/data/items.h:15605
 msgid ""
@@ -1499,6 +2052,9 @@ msgid ""
 "raises the power of\n"
 "Fairy-type moves."
 msgstr ""
+"携带后，妖精属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:5154
 msgid ""
@@ -1506,6 +2062,8 @@ msgid ""
 "Blast to a\n"
 "Water-type move."
 msgstr ""
+"能将高科技光炮变\n"
+"为水属性招式。"
 
 #: src/data/items.h:5173
 msgid ""
@@ -1513,6 +2071,8 @@ msgid ""
 "Blast to an\n"
 "Electric move."
 msgstr ""
+"能将高科技光炮变\n"
+"为电属性招式。"
 
 #: src/data/items.h:5192
 msgid ""
@@ -1520,6 +2080,8 @@ msgid ""
 "Blast to a\n"
 "Fire-type move."
 msgstr ""
+"能将高科技光炮变\n"
+"为火属性招式。"
 
 #: src/data/items.h:5211
 msgid ""
@@ -1527,6 +2089,8 @@ msgid ""
 "Blast to an\n"
 "Ice-type move."
 msgstr ""
+"能将高科技光炮变\n"
+"为冰属性招式。"
 
 #: src/data/items.h:5234
 msgid ""
@@ -1534,6 +2098,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了火属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5255
 msgid ""
@@ -1541,6 +2108,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了水属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5276
 msgid ""
@@ -1548,6 +2118,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了电属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5297
 msgid ""
@@ -1555,6 +2128,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了草属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5318
 msgid ""
@@ -1562,6 +2138,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了冰属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5339
 msgid ""
@@ -1569,6 +2148,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了格斗属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5360
 msgid ""
@@ -1576,6 +2158,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了毒属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5381
 msgid ""
@@ -1583,6 +2168,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了地面属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5402
 msgid ""
@@ -1590,6 +2178,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了飞行属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5423
 msgid ""
@@ -1597,6 +2188,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了超能力属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5444
 msgid ""
@@ -1604,6 +2198,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了虫属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5465
 msgid ""
@@ -1611,6 +2208,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了岩石属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5486
 msgid ""
@@ -1618,6 +2218,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了幽灵属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5507
 msgid ""
@@ -1625,6 +2228,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了龙属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5528
 msgid ""
@@ -1632,6 +2238,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了恶属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5549
 msgid ""
@@ -1639,6 +2248,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了钢属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5570
 msgid ""
@@ -1646,6 +2258,9 @@ msgid ""
 "type data. Changes\n"
 "Silvally's type."
 msgstr ""
+"记录了妖精属性\n"
+"数据。能改变\n"
+"银伴战兽的属性。"
 
 #: src/data/items.h:5588
 msgid ""
@@ -1653,6 +2268,9 @@ msgid ""
 "sword to halt a\n"
 "terrible disaster."
 msgstr ""
+"曾有英雄用这把剑\n"
+"阻止了可怕\n"
+"的灾难。"
 
 #: src/data/items.h:5604
 msgid ""
@@ -1660,6 +2278,9 @@ msgid ""
 "shield to halt a\n"
 "terrible disaster."
 msgstr ""
+"曾有英雄用这面盾\n"
+"阻止了可怕\n"
+"的灾难。"
 
 #: src/data/items.h:5623
 msgid ""
@@ -1667,6 +2288,9 @@ msgid ""
 "said to contain an\n"
 "ancient power."
 msgstr ""
+"闪着红光的宝珠。\n"
+"据说蕴含着远古\n"
+"的力量。"
 
 #: src/data/items.h:5640
 msgid ""
@@ -1674,6 +2298,9 @@ msgid ""
 "said to contain an\n"
 "ancient power."
 msgstr ""
+"闪着蓝光的宝珠。\n"
+"据说蕴含着远古\n"
+"的力量。"
 
 #: src/data/items.h:5659
 msgid ""
@@ -1681,6 +2308,9 @@ msgid ""
 "Venusaur to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让妙蛙花携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5677 src/data/items.h:5695
 msgid ""
@@ -1688,6 +2318,9 @@ msgid ""
 "Charizard to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让喷火龙携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5713
 msgid ""
@@ -1695,6 +2328,9 @@ msgid ""
 "Blastoise to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让水箭龟携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5731
 msgid ""
@@ -1702,6 +2338,9 @@ msgid ""
 "Beedrill to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让大针蜂携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5749
 msgid ""
@@ -1709,6 +2348,9 @@ msgid ""
 "Pidgeot to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让大比鸟携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5767
 msgid ""
@@ -1716,6 +2358,9 @@ msgid ""
 "Alakazam to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让胡地携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5785
 msgid ""
@@ -1723,6 +2368,9 @@ msgid ""
 "Slowbro to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让呆壳兽携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5803
 msgid ""
@@ -1730,6 +2378,9 @@ msgid ""
 "Gengar to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让耿鬼携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5821
 msgid ""
@@ -1737,6 +2388,9 @@ msgid ""
 "Kangaskhan to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让袋兽携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5839
 msgid ""
@@ -1744,6 +2398,9 @@ msgid ""
 "Pinsir to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让凯罗斯携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5857
 msgid ""
@@ -1751,6 +2408,9 @@ msgid ""
 "Gyarados to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让暴鲤龙携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5875
 msgid ""
@@ -1758,6 +2418,9 @@ msgid ""
 "Aerodactyl to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让化石翼龙携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5893 src/data/items.h:5911
 msgid ""
@@ -1765,6 +2428,9 @@ msgid ""
 "Mewtwo to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让超梦携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5929
 msgid ""
@@ -1772,6 +2438,9 @@ msgid ""
 "Ampharos to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让电龙携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5947
 msgid ""
@@ -1779,6 +2448,9 @@ msgid ""
 "Steelix to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让大钢蛇携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5965
 msgid ""
@@ -1786,6 +2458,9 @@ msgid ""
 "Scizor to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让巨钳螳螂携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:5983
 msgid ""
@@ -1793,6 +2468,9 @@ msgid ""
 "Heracross to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让赫拉克罗斯携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6001
 msgid ""
@@ -1800,6 +2478,9 @@ msgid ""
 "Houndoom to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让黑鲁加携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6019
 msgid ""
@@ -1807,6 +2488,9 @@ msgid ""
 "Tyranitar to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让班基拉斯携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6037
 msgid ""
@@ -1814,6 +2498,9 @@ msgid ""
 "Sceptile to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让蜥蜴王携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6055
 msgid ""
@@ -1821,6 +2508,9 @@ msgid ""
 "Blaziken to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让火焰鸡携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6073
 msgid ""
@@ -1828,6 +2518,9 @@ msgid ""
 "Swampert to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让巨沼怪携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6091
 msgid ""
@@ -1835,6 +2528,9 @@ msgid ""
 "Gardevoir to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让沙奈朵携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6109
 msgid ""
@@ -1842,6 +2538,9 @@ msgid ""
 "Sableye to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让勾魂眼携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6127
 msgid ""
@@ -1849,6 +2548,9 @@ msgid ""
 "Mawile to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让大嘴娃携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6145
 msgid ""
@@ -1856,6 +2558,9 @@ msgid ""
 "Aggron to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让波士可多拉携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6163
 msgid ""
@@ -1863,6 +2568,9 @@ msgid ""
 "Medicham to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让恰雷姆携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6181
 msgid ""
@@ -1870,6 +2578,9 @@ msgid ""
 "Manectric to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让雷电兽携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6199
 msgid ""
@@ -1877,6 +2588,9 @@ msgid ""
 "Sharpedo to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让巨牙鲨携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6217
 msgid ""
@@ -1884,6 +2598,9 @@ msgid ""
 "Camerupt to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让喷火驼携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6235
 msgid ""
@@ -1891,6 +2608,9 @@ msgid ""
 "Altaria to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让七夕青鸟携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6253
 msgid ""
@@ -1898,6 +2618,9 @@ msgid ""
 "Banette to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让诅咒娃娃携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6271 src/data/items.h:7081
 msgid ""
@@ -1905,6 +2628,9 @@ msgid ""
 "Absol to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让阿勃梭鲁携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6289
 msgid ""
@@ -1912,6 +2638,9 @@ msgid ""
 "Glalie to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让冰鬼护携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6307
 msgid ""
@@ -1919,6 +2648,9 @@ msgid ""
 "Salamence to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让暴飞龙携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6325
 msgid ""
@@ -1926,6 +2658,9 @@ msgid ""
 "Metagross to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让巨金怪携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6343
 msgid ""
@@ -1933,6 +2668,9 @@ msgid ""
 "Latias to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让拉帝亚斯携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6361
 msgid ""
@@ -1940,6 +2678,9 @@ msgid ""
 "Latios to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让拉帝欧斯携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6379
 msgid ""
@@ -1947,6 +2688,9 @@ msgid ""
 "Lopunny to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让长耳兔携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6397 src/data/items.h:7117
 msgid ""
@@ -1954,6 +2698,9 @@ msgid ""
 "Garchomp to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让烈咬陆鲨携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6415 src/data/items.h:7135
 msgid ""
@@ -1961,6 +2708,9 @@ msgid ""
 "Lucario to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让路卡利欧携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6433
 msgid ""
@@ -1968,6 +2718,9 @@ msgid ""
 "Abomasnow to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让暴雪王携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6451
 msgid ""
@@ -1975,6 +2728,9 @@ msgid ""
 "Gallade to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让艾路雷朵携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6469
 msgid ""
@@ -1982,6 +2738,9 @@ msgid ""
 "Audino to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让差不多娃娃携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6487
 msgid ""
@@ -1989,6 +2748,9 @@ msgid ""
 "Diancie to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让蒂安希携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6505
 msgid ""
@@ -1996,6 +2758,9 @@ msgid ""
 "Clefable to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让皮可西携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6523
 msgid ""
@@ -2003,6 +2768,9 @@ msgid ""
 "Victreebel to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让大食花携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6541
 msgid ""
@@ -2010,6 +2778,9 @@ msgid ""
 "Starmie to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让宝石海星携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6559
 msgid ""
@@ -2017,6 +2788,9 @@ msgid ""
 "Dragonite to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让快龙携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6577
 msgid ""
@@ -2024,6 +2798,9 @@ msgid ""
 "Meganium to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让大竺葵携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6595
 msgid ""
@@ -2031,6 +2808,9 @@ msgid ""
 "Feraligatr to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让大力鳄携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6613
 msgid ""
@@ -2038,6 +2818,9 @@ msgid ""
 "Skarmory to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让盔甲鸟携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6631
 msgid ""
@@ -2045,6 +2828,9 @@ msgid ""
 "Froslass to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让雪妖女携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6649
 msgid ""
@@ -2052,6 +2838,9 @@ msgid ""
 "Emboar to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让炎武王携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6667
 msgid ""
@@ -2059,6 +2848,9 @@ msgid ""
 "Excadrill to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让龙头地鼠携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6685
 msgid ""
@@ -2066,6 +2858,9 @@ msgid ""
 "Scolipede to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让蜈蚣王携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6703
 msgid ""
@@ -2073,6 +2868,9 @@ msgid ""
 "Scrafty to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让头巾混混携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6721
 msgid ""
@@ -2080,6 +2878,9 @@ msgid ""
 "Eelektross to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让麻麻鳗鱼王携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6739
 msgid ""
@@ -2087,6 +2888,9 @@ msgid ""
 "Chandelure to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让水晶灯火灵携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6757
 msgid ""
@@ -2094,6 +2898,9 @@ msgid ""
 "Chesnaught to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让布里卡隆携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6775
 msgid ""
@@ -2101,6 +2908,9 @@ msgid ""
 "Delphox to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让妖火红狐携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6793
 msgid ""
@@ -2108,6 +2918,9 @@ msgid ""
 "Greninja to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让甲贺忍蛙携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6811
 msgid ""
@@ -2115,6 +2928,9 @@ msgid ""
 "Pyroar to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让火炎狮携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6829
 msgid ""
@@ -2122,6 +2938,9 @@ msgid ""
 "Floette to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让花叶蒂携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6847
 msgid ""
@@ -2129,6 +2948,9 @@ msgid ""
 "Malamar to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让乌贼王携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6865
 msgid ""
@@ -2136,6 +2958,9 @@ msgid ""
 "Barbaracle to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让龟足巨铠携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6883
 msgid ""
@@ -2143,6 +2968,9 @@ msgid ""
 "Dragalge to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让毒藻龙携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6901
 msgid ""
@@ -2150,6 +2978,9 @@ msgid ""
 "Hawlucha to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让摔角鹰人携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6919
 msgid ""
@@ -2157,6 +2988,9 @@ msgid ""
 "Zygarde to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让基格尔德携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6937
 msgid ""
@@ -2164,6 +2998,9 @@ msgid ""
 "Drampa to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让老翁龙携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6955
 msgid ""
@@ -2171,6 +3008,9 @@ msgid ""
 "Falinks to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让列阵兵携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6973
 msgid ""
@@ -2178,6 +3018,9 @@ msgid ""
 "Heatran to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让席多蓝恩携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:6991
 msgid ""
@@ -2185,6 +3028,9 @@ msgid ""
 "Darkrai to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让达克莱伊携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7009
 msgid ""
@@ -2192,6 +3038,9 @@ msgid ""
 "Zeraora to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让捷拉奥拉携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7027 src/data/items.h:7045
 msgid ""
@@ -2199,6 +3048,9 @@ msgid ""
 "Raichu to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让雷丘携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7063
 msgid ""
@@ -2206,6 +3058,9 @@ msgid ""
 "Chimecho to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让风铃铃携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7099
 msgid ""
@@ -2213,6 +3068,9 @@ msgid ""
 "Staraptor to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让姆克鹰携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7153
 msgid ""
@@ -2220,6 +3078,9 @@ msgid ""
 "Golurk to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让泥偶巨人携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7171
 msgid ""
@@ -2227,6 +3088,9 @@ msgid ""
 "Meowstic to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让超能妙喵携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7189
 msgid ""
@@ -2234,6 +3098,9 @@ msgid ""
 "Crabominable to\n"
 "Mega in battle."
 msgstr ""
+"让好胜毛蟹携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7207
 msgid ""
@@ -2241,6 +3108,9 @@ msgid ""
 "Golisopod to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让具甲武者携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7225
 msgid ""
@@ -2248,6 +3118,9 @@ msgid ""
 "Magearna to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让玛机雅娜携带\n"
+"后，就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7243
 msgid ""
@@ -2255,6 +3128,9 @@ msgid ""
 "Scovillain to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让狠辣椒携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7261
 msgid ""
@@ -2262,6 +3138,9 @@ msgid ""
 "Baxcalibur to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让戟脊龙携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7279
 msgid ""
@@ -2269,6 +3148,9 @@ msgid ""
 "Tatsugiri to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让米立龙携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7297
 msgid ""
@@ -2276,6 +3158,9 @@ msgid ""
 "Glimmora to Mega\n"
 "Evolve in battle."
 msgstr ""
+"让晶光花携带后，\n"
+"就能在战斗中\n"
+"超级进化。"
 
 #: src/data/items.h:7325
 msgid ""
@@ -2283,6 +3168,9 @@ msgid ""
 "of a Normal-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高一般属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7344
 msgid ""
@@ -2290,6 +3178,9 @@ msgid ""
 "of a Fire-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高火属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7363
 msgid ""
@@ -2297,6 +3188,9 @@ msgid ""
 "of a Water-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高水属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7382
 msgid ""
@@ -2304,6 +3198,9 @@ msgid ""
 "of an Electric-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高电属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7401
 msgid ""
@@ -2311,6 +3208,9 @@ msgid ""
 "of a Grass-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高草属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7420
 msgid ""
@@ -2318,6 +3218,9 @@ msgid ""
 "of an Ice-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高冰属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7439
 msgid ""
@@ -2325,6 +3228,9 @@ msgid ""
 "of a Fighting-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高格斗属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7458
 msgid ""
@@ -2332,6 +3238,9 @@ msgid ""
 "of a Poison-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高毒属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7477
 msgid ""
@@ -2339,6 +3248,9 @@ msgid ""
 "of a Ground-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高地面属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7496
 msgid ""
@@ -2346,6 +3258,9 @@ msgid ""
 "of a Flying-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高飞行属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7515
 msgid ""
@@ -2353,6 +3268,9 @@ msgid ""
 "of a Psychic-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高超能力属性\n"
+"招式的威力。"
 
 #: src/data/items.h:7534
 msgid ""
@@ -2360,6 +3278,9 @@ msgid ""
 "of a Bug-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高虫属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7553
 msgid ""
@@ -2367,6 +3288,9 @@ msgid ""
 "of a Rock-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高岩石属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7572
 msgid ""
@@ -2374,6 +3298,9 @@ msgid ""
 "of a Ghost-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高幽灵属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7591
 msgid ""
@@ -2381,6 +3308,9 @@ msgid ""
 "of a Dragon-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高龙属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7610
 msgid ""
@@ -2388,6 +3318,9 @@ msgid ""
 "of a Dark-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高恶属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7629
 msgid ""
@@ -2395,6 +3328,9 @@ msgid ""
 "of a Steel-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高钢属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7648
 msgid ""
@@ -2402,6 +3338,9 @@ msgid ""
 "of a Fairy-\n"
 "type move once."
 msgstr ""
+"只能使用1次，\n"
+"提高妖精属性招式\n"
+"的威力。"
 
 #: src/data/items.h:7668
 msgid ""
@@ -2409,6 +3348,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将一般属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7686
 msgid ""
@@ -2416,6 +3357,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将火属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7704
 msgid ""
@@ -2423,6 +3366,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将水属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7722
 msgid ""
@@ -2430,6 +3375,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将电属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7740
 msgid ""
@@ -2437,6 +3384,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将草属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7758
 msgid ""
@@ -2444,6 +3393,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将冰属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7776
 msgid ""
@@ -2451,6 +3402,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将格斗属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7794
 msgid ""
@@ -2458,6 +3411,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将毒属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7812
 msgid ""
@@ -2465,6 +3420,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将地面属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7830
 msgid ""
@@ -2472,6 +3429,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将飞行属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7848
 msgid ""
@@ -2479,6 +3438,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将超能力属性\n"
+"招式升级为Z招式。"
 
 #: src/data/items.h:7866
 msgid ""
@@ -2486,6 +3447,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将虫属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7884
 msgid ""
@@ -2493,6 +3456,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将岩石属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7902
 msgid ""
@@ -2500,6 +3465,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将幽灵属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7920
 msgid ""
@@ -2507,6 +3474,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将龙属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7938
 msgid ""
@@ -2514,6 +3483,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将恶属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7956
 msgid ""
@@ -2521,6 +3492,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将钢属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7974
 msgid ""
@@ -2528,6 +3501,8 @@ msgid ""
 "type moves to\n"
 "Z-Moves."
 msgstr ""
+"能将妖精属性招式\n"
+"升级为Z招式。"
 
 #: src/data/items.h:7992
 msgid ""
@@ -2535,6 +3510,9 @@ msgid ""
 "Volt Tackle\n"
 "to a Z-Move."
 msgstr ""
+"能将皮卡丘的\n"
+"伏特攻击升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8010
 msgid ""
@@ -2542,6 +3520,8 @@ msgid ""
 "Last Resort\n"
 "to a Z-Move."
 msgstr ""
+"能将伊布的珍藏\n"
+"升级为Z招式。"
 
 #: src/data/items.h:8028
 msgid ""
@@ -2549,6 +3529,9 @@ msgid ""
 "Giga Impact\n"
 "to a Z-Move."
 msgstr ""
+"能将卡比兽的\n"
+"终极冲击升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8046
 msgid ""
@@ -2556,6 +3539,9 @@ msgid ""
 "Psychic\n"
 "to a Z-Move."
 msgstr ""
+"能将梦幻的\n"
+"精神强念升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8064
 msgid ""
@@ -2563,6 +3549,8 @@ msgid ""
 "Spirit Shackle\n"
 "to a Z-Move."
 msgstr ""
+"能将狙射树枭的\n"
+"缝影升级为Z招式。"
 
 #: src/data/items.h:8082
 msgid ""
@@ -2570,6 +3558,9 @@ msgid ""
 "Darkest Lariat\n"
 "to a Z-Move."
 msgstr ""
+"能将炽焰咆哮虎的\n"
+"DD金勾臂升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8100
 msgid ""
@@ -2577,6 +3568,9 @@ msgid ""
 "Sparkling Aria\n"
 "to a Z-Move."
 msgstr ""
+"能将西狮海壬的\n"
+"泡影的咏叹调升级\n"
+"为Z招式。"
 
 #: src/data/items.h:8118
 msgid ""
@@ -2584,6 +3578,9 @@ msgid ""
 "Stone Edge\n"
 "to a Z-Move."
 msgstr ""
+"能将鬃岩狼人的\n"
+"尖石攻击升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8136
 msgid ""
@@ -2591,6 +3588,8 @@ msgid ""
 "Play Rough\n"
 "to a Z-Move."
 msgstr ""
+"能将谜拟丘的嬉闹\n"
+"升级为Z招式。"
 
 #: src/data/items.h:8154
 msgid ""
@@ -2598,6 +3597,9 @@ msgid ""
 "Clanging Scales\n"
 "to a Z-Move."
 msgstr ""
+"能将杖尾鳞甲龙的\n"
+"鳞片噪音升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8172
 msgid ""
@@ -2605,6 +3607,9 @@ msgid ""
 "Nature's Madness\n"
 "to a Z-Move."
 msgstr ""
+"能将卡璞们的\n"
+"自然之怒升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8190
 msgid ""
@@ -2612,6 +3617,9 @@ msgid ""
 "Sunsteel Strike\n"
 "to a Z-Move."
 msgstr ""
+"能将索尔迦雷欧的\n"
+"流星闪冲升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8208
 msgid ""
@@ -2619,6 +3627,9 @@ msgid ""
 "Moongeist Beam\n"
 "to a Z-Move."
 msgstr ""
+"能将露奈雅拉的\n"
+"暗影之光升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8226
 msgid ""
@@ -2626,6 +3637,9 @@ msgid ""
 "Spectral Thief\n"
 "to a Z-Move."
 msgstr ""
+"能将玛夏多的\n"
+"暗影偷盗升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8244
 msgid ""
@@ -2633,6 +3647,9 @@ msgid ""
 "Raichu Thunderbolt\n"
 "to a Z-Move."
 msgstr ""
+"能将阿罗拉雷丘的\n"
+"十万伏特升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8262
 msgid ""
@@ -2640,6 +3657,9 @@ msgid ""
 "a cap's Thunderbolt\n"
 "to a Z-Move."
 msgstr ""
+"能将戴帽子皮卡丘\n"
+"的十万伏特升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8280
 msgid ""
@@ -2647,6 +3667,9 @@ msgid ""
 "Photon Geyser\n"
 "to a Z-Move."
 msgstr ""
+"能将奈克洛兹玛的\n"
+"光子喷涌升级为\n"
+"Z招式。"
 
 #: src/data/items.h:8347
 msgid ""
@@ -2654,6 +3677,9 @@ msgid ""
 "boosts Cubone or\n"
 "Marowak's Attack."
 msgstr ""
+"让卡拉卡拉或\n"
+"嘎啦嘎啦携带后，\n"
+"攻击会提高。"
 
 #: src/data/items.h:8366
 msgid ""
@@ -2661,6 +3687,9 @@ msgid ""
 "raises Chansey's\n"
 "critical-hit rate."
 msgstr ""
+"让吉利蛋携带\n"
+"后，招式容易\n"
+"击中要害。"
 
 #: src/data/items.h:8384
 msgid ""
@@ -2668,6 +3697,8 @@ msgid ""
 "boosts Ditto's\n"
 "Defense."
 msgstr ""
+"让百变怪携带后，\n"
+"防御会提高。"
 
 #: src/data/items.h:8402
 msgid ""
@@ -2675,6 +3706,8 @@ msgid ""
 "boosts Ditto's\n"
 "Speed."
 msgstr ""
+"让百变怪携带后，\n"
+"速度会提高。"
 
 #: src/data/items.h:8420
 msgid ""
@@ -2682,6 +3715,8 @@ msgid ""
 "boosts the Sp. Def\n"
 "of Clamperl."
 msgstr ""
+"让珍珠贝携带后，\n"
+"特防会提高。"
 
 #: src/data/items.h:8440
 msgid ""
@@ -2689,6 +3724,8 @@ msgid ""
 "boosts the Sp. Atk\n"
 "of Clamperl."
 msgstr ""
+"让珍珠贝携带后，\n"
+"特攻会提高。"
 
 #: src/data/items.h:8485
 msgid ""
@@ -2696,6 +3733,9 @@ msgid ""
 "Dragon- and Steel-\n"
 "type moves."
 msgstr ""
+"帝牙卢卡携带后，\n"
+"龙和钢属性招式的\n"
+"威力会提高。"
 
 #: src/data/items.h:8504
 msgid ""
@@ -2703,6 +3743,9 @@ msgid ""
 "Dragon- and Water-\n"
 "type moves."
 msgstr ""
+"帕路奇亚携带后，\n"
+"龙和水属性招式的\n"
+"威力会提高。"
 
 #: src/data/items.h:8523
 msgid ""
@@ -2710,6 +3753,9 @@ msgid ""
 "Dragon- and Ghost-\n"
 "type moves."
 msgstr ""
+"骑拉帝纳携带后，\n"
+"龙和幽灵属性招式\n"
+"的威力会提高。"
 
 #: src/data/items.h:8550
 msgid ""
@@ -2717,6 +3763,9 @@ msgid ""
 "slightly boosts\n"
 "Water-type moves."
 msgstr ""
+"携带后，水属性\n"
+"招式的威力会稍\n"
+"微提高。"
 
 #: src/data/items.h:8572
 msgid ""
@@ -2724,6 +3773,9 @@ msgid ""
 "cuts the\n"
 "foe's accuracy."
 msgstr ""
+"携带后，能降低\n"
+"对手招式的\n"
+"命中率。"
 
 #: src/data/items.h:8578
 msgid ""
@@ -2731,6 +3783,9 @@ msgid ""
 "slightly cuts the\n"
 "foe's accuracy."
 msgstr ""
+"携带后，能稍微\n"
+"降低对手招式的\n"
+"命中率。"
 
 #: src/data/items.h:8638 src/data/items.h:10397
 msgid ""
@@ -2738,6 +3793,8 @@ msgid ""
 "the holder move\n"
 "slower than usual."
 msgstr ""
+"携带后，行动会比\n"
+"平时更慢。"
 
 #: src/data/items.h:8696 src/data/items.h:9938
 msgid ""
@@ -2745,6 +3802,9 @@ msgid ""
 "battle if the\n"
 "holder takes part."
 msgstr ""
+"携带它的宝可梦参\n"
+"加战斗后，获得的\n"
+"奖金会翻倍。"
 
 #: src/data/items.h:8714 src/data/items.h:9956
 msgid ""
@@ -2752,6 +3812,9 @@ msgid ""
 "helps repel wild\n"
 "Pokémon."
 msgstr ""
+"携带后，野生\n"
+"宝可梦会难\n"
+"以出现。"
 
 #: src/data/items.h:8734
 msgid ""
@@ -2759,6 +3822,8 @@ msgid ""
 "raises Cool in\n"
 "Contests."
 msgstr ""
+"在华丽大赛中，\n"
+"能提高帅气。"
 
 #: src/data/items.h:8752
 msgid ""
@@ -2766,6 +3831,8 @@ msgid ""
 "raises Beauty in\n"
 "Contests."
 msgstr ""
+"在华丽大赛中，\n"
+"能提高美丽。"
 
 #: src/data/items.h:8770
 msgid ""
@@ -2773,6 +3840,8 @@ msgid ""
 "raises Cute in\n"
 "Contests."
 msgstr ""
+"在华丽大赛中，\n"
+"能提高可爱。"
 
 #: src/data/items.h:8788
 msgid ""
@@ -2780,6 +3849,8 @@ msgid ""
 "raises Smart in\n"
 "Contests."
 msgstr ""
+"在华丽大赛中，\n"
+"能提高聪明。"
 
 #: src/data/items.h:8806
 msgid ""
@@ -2787,6 +3858,8 @@ msgid ""
 "raises Tough in\n"
 "Contests."
 msgstr ""
+"在华丽大赛中，\n"
+"能提高强壮。"
 
 #: src/data/items.h:8826
 msgid ""
@@ -2794,6 +3867,9 @@ msgid ""
 "but reduces\n"
 "Speed in battle."
 msgstr ""
+"能促进成长，\n"
+"但战斗中速度\n"
+"会降低。"
 
 #: src/data/items.h:8845
 msgid ""
@@ -2801,6 +3877,9 @@ msgid ""
 "gain, but cuts\n"
 "Speed in battle."
 msgstr ""
+"容易提高HP的\n"
+"努力值，但战斗中\n"
+"速度会降低。"
 
 #: src/data/items.h:8865
 msgid ""
@@ -2808,6 +3887,9 @@ msgid ""
 "gain, but cuts\n"
 "Speed in battle."
 msgstr ""
+"容易提高攻击的\n"
+"努力值，但战斗中\n"
+"速度会降低。"
 
 #: src/data/items.h:8885
 msgid ""
@@ -2815,6 +3897,9 @@ msgid ""
 "gain, but cuts\n"
 "Speed in battle."
 msgstr ""
+"容易提高防御的\n"
+"努力值，但战斗中\n"
+"速度会降低。"
 
 #: src/data/items.h:8906
 msgid ""
@@ -2822,6 +3907,9 @@ msgid ""
 "gain, but cuts\n"
 "Speed in battle."
 msgstr ""
+"容易提高特攻的\n"
+"努力值，但战斗中\n"
+"速度会降低。"
 
 #: src/data/items.h:8926
 msgid ""
@@ -2829,6 +3917,9 @@ msgid ""
 "gain, but cuts\n"
 "Speed in battle."
 msgstr ""
+"容易提高特防的\n"
+"努力值，但战斗中\n"
+"速度会降低。"
 
 #: src/data/items.h:8946
 msgid ""
@@ -2836,6 +3927,9 @@ msgid ""
 "gain, but cuts\n"
 "Speed in battle."
 msgstr ""
+"容易提高速度的\n"
+"努力值，但战斗中\n"
+"速度会降低。"
 
 #: src/data/items.h:8976
 msgid ""
@@ -2843,6 +3937,9 @@ msgid ""
 "raises the power of\n"
 "Normal-type moves."
 msgstr ""
+"携带后，一般属性\n"
+"招式的威力\n"
+"会提高。"
 
 #: src/data/items.h:9338
 msgid ""
@@ -2850,6 +3947,9 @@ msgid ""
 "but permits\n"
 "only one move."
 msgstr ""
+"攻击会提高，\n"
+"但只能使出相同\n"
+"的招式。"
 
 #: src/data/items.h:9363
 msgid ""
@@ -2857,6 +3957,9 @@ msgid ""
 "but permits\n"
 "only one move."
 msgstr ""
+"特攻会提高，\n"
+"但只能使出相同\n"
+"的招式。"
 
 #: src/data/items.h:9388
 msgid ""
@@ -2864,6 +3967,9 @@ msgid ""
 "but permits\n"
 "only one move."
 msgstr ""
+"速度会提高，\n"
+"但只能使出相同\n"
+"的招式。"
 
 #: src/data/items.h:9414
 msgid ""
@@ -2871,6 +3977,9 @@ msgid ""
 "burns the\n"
 "holder in battle."
 msgstr ""
+"神奇的宝珠。\n"
+"携带后，在战斗中\n"
+"会陷入灼伤。"
 
 #: src/data/items.h:9438
 msgid ""
@@ -2878,6 +3987,9 @@ msgid ""
 "badly poisons the\n"
 "holder in battle."
 msgstr ""
+"神奇的宝珠。\n"
+"携带后，在战斗中\n"
+"会陷入剧毒。"
 
 #: src/data/items.h:9464
 msgid ""
@@ -2885,6 +3997,8 @@ msgid ""
 "when the\n"
 "holder summons it."
 msgstr ""
+"携带后，自己降下\n"
+"的雨会持续更久。"
 
 #: src/data/items.h:9488
 msgid ""
@@ -2892,6 +4006,9 @@ msgid ""
 "sunlight when the\n"
 "holder summons it."
 msgstr ""
+"携带后，自己带来\n"
+"的大晴天会\n"
+"持续更久。"
 
 #: src/data/items.h:9512
 msgid ""
@@ -2899,6 +4016,9 @@ msgid ""
 "sandstorm when the\n"
 "holder summons it."
 msgstr ""
+"携带后，自己扬\n"
+"起的沙暴会\n"
+"持续更久。"
 
 #: src/data/items.h:9537
 msgid ""
@@ -2906,6 +4026,9 @@ msgid ""
 "hailstorm when the\n"
 "holder summons it."
 msgstr ""
+"携带后，自己降\n"
+"下的冰雹会\n"
+"持续更久。"
 
 #: src/data/items.h:9542
 msgid ""
@@ -2913,6 +4036,8 @@ msgid ""
 "snowstorm when the\n"
 "holder summons it."
 msgstr ""
+"携带后，自己降下\n"
+"的雪会持续更久。"
 
 #: src/data/items.h:9547
 msgid ""
@@ -2920,6 +4045,9 @@ msgid ""
 "snow when the\n"
 "holder summons it."
 msgstr ""
+"携带后，自己降下\n"
+"的冰雹或雪会\n"
+"持续更久。"
 
 #: src/data/items.h:9569
 msgid ""
@@ -2927,6 +4055,8 @@ msgid ""
 "Electric Terrain,\n"
 "but only once."
 msgstr ""
+"在电气场地上防御\n"
+"会提高。仅限1次。"
 
 #: src/data/items.h:9588
 msgid ""
@@ -2934,6 +4064,8 @@ msgid ""
 "Psychic Terrain,\n"
 "but only once."
 msgstr ""
+"在精神场地上特防\n"
+"会提高。仅限1次。"
 
 #: src/data/items.h:9607
 msgid ""
@@ -2941,6 +4073,8 @@ msgid ""
 "Misty Terrain,\n"
 "but only once."
 msgstr ""
+"在薄雾场地上特防\n"
+"会提高。仅限1次。"
 
 #: src/data/items.h:9626
 msgid ""
@@ -2948,6 +4082,8 @@ msgid ""
 "Grassy Terrain,\n"
 "but only once."
 msgstr ""
+"在青草场地上防御\n"
+"会提高。仅限1次。"
 
 #: src/data/items.h:9653
 msgid ""
@@ -2955,6 +4091,9 @@ msgid ""
 "holder is hurt by\n"
 "a Water-type move."
 msgstr ""
+"受到水属性\n"
+"招式攻击时，\n"
+"特攻会提高。"
 
 #: src/data/items.h:9679
 msgid ""
@@ -2962,6 +4101,9 @@ msgid ""
 "holder is hurt by\n"
 "an Electric move."
 msgstr ""
+"受到电属性\n"
+"招式攻击时，\n"
+"攻击会提高。"
 
 #: src/data/items.h:9705
 msgid ""
@@ -2969,6 +4111,9 @@ msgid ""
 "holder is hurt by\n"
 "a Water-type move."
 msgstr ""
+"受到水属性\n"
+"招式攻击时，\n"
+"特防会提高。"
 
 #: src/data/items.h:9730
 msgid ""
@@ -2976,6 +4121,9 @@ msgid ""
 "holder is hurt by\n"
 "an Ice-type move."
 msgstr ""
+"受到冰属性\n"
+"招式攻击时，\n"
+"攻击会提高。"
 
 #: src/data/items.h:9757
 msgid ""
@@ -2983,6 +4131,9 @@ msgid ""
 "casts a glare to\n"
 "reduce accuracy."
 msgstr ""
+"携带后，会发出耀\n"
+"眼的光，降低对手\n"
+"的命中率。"
 
 #: src/data/items.h:9781
 msgid ""
@@ -2990,6 +4141,8 @@ msgid ""
 "restores any\n"
 "lowered stat once."
 msgstr ""
+"携带后，能让降低\n"
+"的能力复原1次。"
 
 #: src/data/items.h:9799
 msgid ""
@@ -2997,6 +4150,9 @@ msgid ""
 "all party members\n"
 "to share in Exp."
 msgstr ""
+"能让同行的所有\n"
+"宝可梦都获得\n"
+"经验值的装置。"
 
 #: src/data/items.h:9807
 msgid ""
@@ -3004,6 +4160,9 @@ msgid ""
 "gets Exp. Points\n"
 "from battles."
 msgstr ""
+"携带后，即使没有\n"
+"出场也能获得\n"
+"经验值。"
 
 #: src/data/items.h:9834
 msgid ""
@@ -3011,6 +4170,8 @@ msgid ""
 "occasionally allows\n"
 "the first strike."
 msgstr ""
+"携带后，有时能比\n"
+"对手先行动。"
 
 #: src/data/items.h:9858
 msgid ""
@@ -3018,6 +4179,9 @@ msgid ""
 "calms spirits and\n"
 "fosters friendship."
 msgstr ""
+"携带后，心情会\n"
+"平静下来，\n"
+"变得容易亲密。"
 
 #: src/data/items.h:9913 src/data/items.h:10592
 msgid ""
@@ -3025,6 +4189,8 @@ msgid ""
 "may cause flinching\n"
 "when the foe is hit."
 msgstr ""
+"携带后，攻击时有\n"
+"时会使对手畏缩。"
 
 #: src/data/items.h:9980
 msgid ""
@@ -3032,6 +4198,9 @@ msgid ""
 "assures fleeing\n"
 "from wild Pokémon."
 msgstr ""
+"携带后，必定能从\n"
+"野生宝可梦的战斗\n"
+"中逃走。"
 
 #: src/data/items.h:10005
 msgid ""
@@ -3039,6 +4208,9 @@ msgid ""
 "occasionally\n"
 "prevents fainting."
 msgstr ""
+"携带后，有时能在\n"
+"受到致命攻击时保\n"
+"留1HP。"
 
 #: src/data/items.h:10023
 msgid ""
@@ -3046,6 +4218,9 @@ msgid ""
 "boosts Exp. Points\n"
 "earned in battle."
 msgstr ""
+"携带后，战斗中\n"
+"获得的经验值\n"
+"会增加。"
 
 #: src/data/items.h:10048 src/data/items.h:10566
 msgid ""
@@ -3053,6 +4228,8 @@ msgid ""
 "improves the\n"
 "critical-hit rate."
 msgstr ""
+"携带后，招式容易\n"
+"击中要害。"
 
 #: src/data/items.h:10074
 msgid ""
@@ -3060,6 +4237,9 @@ msgid ""
 "gradually restores\n"
 "HP in battle."
 msgstr ""
+"携带后，在战斗中\n"
+"每回合会回复\n"
+"少许HP。"
 
 #: src/data/items.h:10099
 msgid ""
@@ -3067,6 +4247,9 @@ msgid ""
 "restores HP upon\n"
 "striking the foe."
 msgstr ""
+"携带后，给予对手\n"
+"伤害时能回复\n"
+"少许HP。"
 
 #: src/data/items.h:10125
 msgid ""
@@ -3074,6 +4257,9 @@ msgid ""
 "that boosts the\n"
 "accuracy of moves."
 msgstr ""
+"放大镜。携带后，\n"
+"招式的命中率\n"
+"会提高。"
 
 #: src/data/items.h:10150
 msgid ""
@@ -3081,6 +4267,9 @@ msgid ""
 "slightly boosts\n"
 "physical moves."
 msgstr ""
+"头巾。携带后，\n"
+"物理招式的威力会\n"
+"稍微提高。"
 
 #: src/data/items.h:10176
 msgid ""
@@ -3088,6 +4277,9 @@ msgid ""
 "slightly boost\n"
 "special moves."
 msgstr ""
+"厚眼镜。携带后，\n"
+"特殊招式的威力会\n"
+"稍微提高。"
 
 #: src/data/items.h:10201
 msgid ""
@@ -3095,6 +4287,9 @@ msgid ""
 "that boosts super\n"
 "effective moves."
 msgstr ""
+"用旧的腰带。\n"
+"效果绝佳的招式\n"
+"威力会提高。"
 
 #: src/data/items.h:10225
 msgid ""
@@ -3102,6 +4297,9 @@ msgid ""
 "like Light Screen\n"
 "last longer."
 msgstr ""
+"携带后，光墙等\n"
+"壁障的持续时间\n"
+"会延长。"
 
 #: src/data/items.h:10249
 msgid ""
@@ -3109,6 +4307,9 @@ msgid ""
 "cuts HP when the\n"
 "holder lands hits."
 msgstr ""
+"招式威力会提高，\n"
+"但攻击时会\n"
+"减少HP。"
 
 #: src/data/items.h:10273
 msgid ""
@@ -3116,6 +4317,9 @@ msgid ""
 "use of a move that\n"
 "requires charging."
 msgstr ""
+"能让需要蓄力的\n"
+"招式立刻使出。\n"
+"仅限1次。"
 
 #: src/data/items.h:10298
 msgid ""
@@ -3123,6 +4327,9 @@ msgid ""
 "full HP, it endures\n"
 "one KO with 1 HP."
 msgstr ""
+"HP全满时受到\n"
+"致命攻击，\n"
+"也能保留1HP。"
 
 #: src/data/items.h:10324
 msgid ""
@@ -3130,6 +4337,9 @@ msgid ""
 "the holder moves\n"
 "after the foe."
 msgstr ""
+"比对手后行动时，\n"
+"招式的命中率\n"
+"会提高。"
 
 #: src/data/items.h:10349
 msgid ""
@@ -3137,6 +4347,8 @@ msgid ""
 "of a move that is\n"
 "used repeatedly."
 msgstr ""
+"连续使用同一招式\n"
+"时，威力会提高。"
 
 #: src/data/items.h:10373
 msgid ""
@@ -3144,6 +4356,9 @@ msgid ""
 "makes Ground moves\n"
 "hit the holder."
 msgstr ""
+"速度会降低，\n"
+"且地面属性招式会\n"
+"击中自己。"
 
 #: src/data/items.h:10421
 msgid ""
@@ -3151,6 +4366,8 @@ msgid ""
 "in love, the foe\n"
 "does too."
 msgstr ""
+"自己着迷时，会让\n"
+"对手也陷入着迷。"
 
 #: src/data/items.h:10445
 msgid ""
@@ -3158,6 +4375,9 @@ msgid ""
 "Poison-types' HP.\n"
 "Damages all others."
 msgstr ""
+"毒属性携带会逐渐\n"
+"回复HP，其他属性\n"
+"则会受伤。"
 
 #: src/data/items.h:10469
 msgid ""
@@ -3165,6 +4385,9 @@ msgid ""
 "like Bind and Wrap\n"
 "last longer."
 msgstr ""
+"携带后，绑紧或\n"
+"紧束等招式的持续\n"
+"时间会延长。"
 
 #: src/data/items.h:10493
 msgid ""
@@ -3172,6 +4395,9 @@ msgid ""
 "each turn. Latches\n"
 "on from contact."
 msgstr ""
+"每回合会受到\n"
+"伤害，接触时会附\n"
+"着到对手身上。"
 
 #: src/data/items.h:10517
 msgid ""
@@ -3179,6 +4405,8 @@ msgid ""
 "to switch out\n"
 "without fail."
 msgstr ""
+"携带后，必定能和\n"
+"替补宝可梦替换。"
 
 #: src/data/items.h:10542
 msgid ""
@@ -3186,6 +4414,8 @@ msgid ""
 "of HP restored from\n"
 "HP-stealing moves."
 msgstr ""
+"吸取HP的招式所\n"
+"回复的HP会增加。"
 
 #: src/data/items.h:10618
 msgid ""
@@ -3193,6 +4423,9 @@ msgid ""
 "stats of Pokémon\n"
 "that can evolve."
 msgstr ""
+"能进化的宝可梦\n"
+"携带后，防御和\n"
+"特防会提高。"
 
 #: src/data/items.h:10642
 msgid ""
@@ -3200,6 +4433,8 @@ msgid ""
 "reduces the weight\n"
 "of the holder."
 msgstr ""
+"轻巧的石头。携带\n"
+"后，体重会减轻。"
 
 #: src/data/items.h:10667
 msgid ""
@@ -3207,6 +4442,9 @@ msgid ""
 "make contact with\n"
 "the holder."
 msgstr ""
+"对手接触自己时，\n"
+"会让对手受\n"
+"到伤害。"
 
 #: src/data/items.h:10692
 msgid ""
@@ -3214,6 +4452,9 @@ msgid ""
 "float, but bursts\n"
 "if hit by an attack."
 msgstr ""
+"携带后会浮在\n"
+"空中，但受到攻击\n"
+"后就会破掉。"
 
 #: src/data/items.h:10717
 msgid ""
@@ -3221,6 +4462,8 @@ msgid ""
 "holder are removed\n"
 "from the battle."
 msgstr ""
+"受到攻击时，能让\n"
+"攻击的对手退场。"
 
 #: src/data/items.h:10742
 msgid ""
@@ -3228,6 +4471,9 @@ msgid ""
 "effect due to type\n"
 "will hit the holder."
 msgstr ""
+"因属性而无效的\n"
+"招式也能击中\n"
+"携带者。"
 
 #: src/data/items.h:10766
 msgid ""
@@ -3235,6 +4481,9 @@ msgid ""
 "of the holder's\n"
 "binding moves."
 msgstr ""
+"携带后，绑紧等\n"
+"招式造成的伤害\n"
+"会提高。"
 
 #: src/data/items.h:10791
 msgid ""
@@ -3242,6 +4491,8 @@ msgid ""
 "hit, it will be\n"
 "switched out."
 msgstr ""
+"受到攻击时，能和\n"
+"替补宝可梦替换。"
 
 #: src/data/items.h:10811
 msgid ""
@@ -3249,6 +4500,9 @@ msgid ""
 "effectively, ups\n"
 "offenses sharply."
 msgstr ""
+"受到效果绝佳的\n"
+"攻击时，攻击和\n"
+"特攻会大幅提高。"
 
 #: src/data/items.h:10830
 msgid ""
@@ -3256,6 +4510,8 @@ msgid ""
 "prevents the use\n"
 "of status moves."
 msgstr ""
+"特防会提高，但不\n"
+"能使出变化招式。"
 
 #: src/data/items.h:10855
 msgid ""
@@ -3263,6 +4519,9 @@ msgid ""
 "weather damage,\n"
 "powder and spores."
 msgstr ""
+"能防住天气造成的\n"
+"伤害，以及粉末\n"
+"和孢子。"
 
 #: src/data/items.h:10879
 msgid ""
@@ -3270,6 +4529,8 @@ msgid ""
 "Speed if the holder\n"
 "is intimidated."
 msgstr ""
+"受到威吓时，\n"
+"速度会提高。"
 
 #: src/data/items.h:10897
 msgid ""
@@ -3277,6 +4538,9 @@ msgid ""
 "duration when the\n"
 "holder summons it."
 msgstr ""
+"携带后，自己展\n"
+"开的场地会\n"
+"持续更久。"
 
 #: src/data/items.h:10916
 msgid ""
@@ -3284,6 +4548,8 @@ msgid ""
 "effects triggered\n"
 "by making contact."
 msgstr ""
+"能防住接触对手时\n"
+"触发的效果。"
 
 #: src/data/items.h:10934
 msgid ""
@@ -3291,6 +4557,8 @@ msgid ""
 "the holder uses a\n"
 "sound-based move."
 msgstr ""
+"使出声音招式时，\n"
+"特攻会提高。"
 
 #: src/data/items.h:10952
 msgid ""
@@ -3298,6 +4566,9 @@ msgid ""
 "stats are lowered,\n"
 "it'll be switched."
 msgstr ""
+"能力被降低\n"
+"时，会和替补\n"
+"宝可梦替换。"
 
 #: src/data/items.h:10971
 msgid ""
@@ -3305,6 +4576,8 @@ msgid ""
 "effects of traps\n"
 "set on the field."
 msgstr ""
+"能防住场地上设置\n"
+"的陷阱的效果。"
 
 #: src/data/items.h:10990
 msgid ""
@@ -3312,6 +4585,9 @@ msgid ""
 "if a move misses\n"
 "due to accuracy."
 msgstr ""
+"招式因命中率而落\n"
+"空时，速度会大\n"
+"幅提高。"
 
 #: src/data/items.h:11008
 msgid ""
@@ -3319,6 +4595,9 @@ msgid ""
 "Speed when Trick\n"
 "Room takes effect."
 msgstr ""
+"戏法空间生效时，\n"
+"携带者的速度\n"
+"会降低。"
 
 #: src/data/items.h:11026
 msgid ""
@@ -3326,6 +4605,9 @@ msgid ""
 "effects of rain\n"
 "and harsh sunlight."
 msgstr ""
+"能防住雨天和\n"
+"大晴天带来\n"
+"的影响。"
 
 #: src/data/items.h:11047
 msgid ""
@@ -3333,6 +4615,8 @@ msgid ""
 "heals paralysis\n"
 "in battle."
 msgstr ""
+"携带后，能在战斗\n"
+"中治愈麻痹。"
 
 #: src/data/items.h:11067
 msgid ""
@@ -3340,6 +4624,9 @@ msgid ""
 "awakens Pokémon\n"
 "in battle."
 msgstr ""
+"携带后，能在战斗\n"
+"中让宝可梦\n"
+"醒过来。"
 
 #: src/data/items.h:11087
 msgid ""
@@ -3347,6 +4634,8 @@ msgid ""
 "heals poisoning\n"
 "in battle."
 msgstr ""
+"携带后，能在战斗\n"
+"中治愈中毒。"
 
 #: src/data/items.h:11107
 msgid ""
@@ -3354,6 +4643,8 @@ msgid ""
 "heals a burn in\n"
 "battle."
 msgstr ""
+"携带后，能在战斗\n"
+"中治愈灼伤。"
 
 #: src/data/items.h:11152
 msgid ""
@@ -3361,6 +4652,8 @@ msgid ""
 "restores 10 PP in\n"
 "battle."
 msgstr ""
+"携带后，能在战斗\n"
+"中回复10PP。"
 
 #: src/data/items.h:11173
 msgid ""
@@ -3368,6 +4661,8 @@ msgid ""
 "restores 10 HP in\n"
 "battle."
 msgstr ""
+"携带后，能在战斗\n"
+"中回复10HP。"
 
 #: src/data/items.h:11193
 msgid ""
@@ -3375,6 +4670,8 @@ msgid ""
 "heals confusion\n"
 "in battle."
 msgstr ""
+"携带后，能在战斗\n"
+"中治愈混乱。"
 
 #: src/data/items.h:11213
 msgid ""
@@ -3382,6 +4679,9 @@ msgid ""
 "heals any status\n"
 "problem in battle."
 msgstr ""
+"携带后，能在战斗\n"
+"中治愈所有\n"
+"异常状态。"
 
 #: src/data/items.h:11235
 msgid ""
@@ -3389,6 +4689,8 @@ msgid ""
 "restores a little\n"
 "HP in battle."
 msgstr ""
+"携带后，能在战斗\n"
+"中回复少许HP。"
 
 #: src/data/items.h:11242
 msgid ""
@@ -3396,6 +4698,8 @@ msgid ""
 "restores 30 HP in\n"
 "battle."
 msgstr ""
+"携带后，能在战斗\n"
+"中回复30HP。"
 
 #: src/data/items.h:11265 src/data/items.h:11285 src/data/items.h:11305 src/data/items.h:11325 src/data/items.h:11345
 msgid ""
@@ -3403,6 +4707,9 @@ msgid ""
 "confuses if the\n"
 "flavor is hated."
 msgstr ""
+"能回复HP，\n"
+"但讨厌其味道的\n"
+"宝可梦会混乱。"
 
 #: src/data/items.h:11362
 msgid ""
@@ -3410,6 +4717,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Razz."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出蔓莓果。"
 
 #: src/data/items.h:11379
 msgid ""
@@ -3417,6 +4727,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Bluk."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出墨莓果。"
 
 #: src/data/items.h:11396
 msgid ""
@@ -3424,6 +4737,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Nanab."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出蕉香果。"
 
 #: src/data/items.h:11413
 msgid ""
@@ -3431,6 +4747,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Wepear."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出西梨果。"
 
 #: src/data/items.h:11430
 msgid ""
@@ -3438,6 +4757,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Pinap."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出凰梨果。"
 
 #: src/data/items.h:11447
 msgid ""
@@ -3445,6 +4767,9 @@ msgid ""
 "friendly but lowers\n"
 "base HP."
 msgstr ""
+"能让宝可梦变得\n"
+"亲密，但HP的\n"
+"努力值会降低。"
 
 #: src/data/items.h:11465
 msgid ""
@@ -3452,6 +4777,9 @@ msgid ""
 "friendly but lowers\n"
 "base Attack."
 msgstr ""
+"能让宝可梦变得\n"
+"亲密，但攻击的\n"
+"努力值会降低。"
 
 #: src/data/items.h:11483
 msgid ""
@@ -3459,6 +4787,9 @@ msgid ""
 "friendly but lowers\n"
 "base Defense."
 msgstr ""
+"能让宝可梦变得\n"
+"亲密，但防御的\n"
+"努力值会降低。"
 
 #: src/data/items.h:11501
 msgid ""
@@ -3466,6 +4797,9 @@ msgid ""
 "friendly but lowers\n"
 "base Sp. Atk."
 msgstr ""
+"能让宝可梦变得\n"
+"亲密，但特攻的\n"
+"努力值会降低。"
 
 #: src/data/items.h:11519
 msgid ""
@@ -3473,6 +4807,9 @@ msgid ""
 "friendly but lowers\n"
 "base Sp. Def."
 msgstr ""
+"能让宝可梦变得\n"
+"亲密，但特防的\n"
+"努力值会降低。"
 
 #: src/data/items.h:11537
 msgid ""
@@ -3480,6 +4817,9 @@ msgid ""
 "friendly but lowers\n"
 "base Speed."
 msgstr ""
+"能让宝可梦变得\n"
+"亲密，但速度的\n"
+"努力值会降低。"
 
 #: src/data/items.h:11555
 msgid ""
@@ -3487,6 +4827,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Cornn."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出玉黍果。"
 
 #: src/data/items.h:11572
 msgid ""
@@ -3494,6 +4837,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Magost."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出岳竹果。"
 
 #: src/data/items.h:11589
 msgid ""
@@ -3501,6 +4847,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Rabuta."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出茸丹果。"
 
 #: src/data/items.h:11606
 msgid ""
@@ -3508,6 +4857,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Nomel."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出檬柠果。"
 
 #: src/data/items.h:11623
 msgid ""
@@ -3515,6 +4867,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Spelon."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出刺角果。"
 
 #: src/data/items.h:11640
 msgid ""
@@ -3522,6 +4877,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Pamtre."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出椰木果。"
 
 #: src/data/items.h:11657
 msgid ""
@@ -3529,6 +4887,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Watmel."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出瓜西果。"
 
 #: src/data/items.h:11674
 msgid ""
@@ -3536,6 +4897,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Durin."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出金枕果。"
 
 #: src/data/items.h:11691
 msgid ""
@@ -3543,6 +4907,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow Belue."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出靛莓果。"
 
 #: src/data/items.h:11710
 msgid ""
@@ -3550,6 +4917,9 @@ msgid ""
 "weakens one\n"
 "Normal-type move."
 msgstr ""
+"携带后，能减弱1次\n"
+"一般属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11729
 msgid ""
@@ -3557,6 +4927,9 @@ msgid ""
 "supereffective\n"
 "Fire-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的火属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11748
 msgid ""
@@ -3564,6 +4937,9 @@ msgid ""
 "supereffective\n"
 "Water-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的水属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11767
 msgid ""
@@ -3571,6 +4947,9 @@ msgid ""
 "supereffective\n"
 "Electric move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的电属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11786
 msgid ""
@@ -3578,6 +4957,9 @@ msgid ""
 "supereffective\n"
 "Grass-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的草属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11805
 msgid ""
@@ -3585,6 +4967,9 @@ msgid ""
 "supereffective\n"
 "Ice-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的冰属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11824
 msgid ""
@@ -3592,6 +4977,9 @@ msgid ""
 "supereffective\n"
 "Fighting move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的格斗属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11843
 msgid ""
@@ -3599,6 +4987,9 @@ msgid ""
 "supereffective\n"
 "Poison-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的毒属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11862
 msgid ""
@@ -3606,6 +4997,9 @@ msgid ""
 "supereffective\n"
 "Ground-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的地面属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11881
 msgid ""
@@ -3613,6 +5007,9 @@ msgid ""
 "supereffective\n"
 "Flying-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的飞行属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11900
 msgid ""
@@ -3620,6 +5017,9 @@ msgid ""
 "supereffective\n"
 "Psychic-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的超能力属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11919
 msgid ""
@@ -3627,6 +5027,9 @@ msgid ""
 "supereffective\n"
 "Bug-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的虫属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11938
 msgid ""
@@ -3634,6 +5037,9 @@ msgid ""
 "supereffective\n"
 "Rock-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的岩石属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11957
 msgid ""
@@ -3641,6 +5047,9 @@ msgid ""
 "supereffective\n"
 "Ghost-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的幽灵属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11976
 msgid ""
@@ -3648,6 +5057,9 @@ msgid ""
 "supereffective\n"
 "Dragon-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的龙属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:11995
 msgid ""
@@ -3655,6 +5067,9 @@ msgid ""
 "supereffective\n"
 "Dark-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的恶属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:12014
 msgid ""
@@ -3662,6 +5077,9 @@ msgid ""
 "supereffective\n"
 "Steel-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的钢属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:12033
 msgid ""
@@ -3669,6 +5087,9 @@ msgid ""
 "supereffective\n"
 "Fairy-type move."
 msgstr ""
+"能减弱1次效果绝佳\n"
+"的妖精属性招式\n"
+"的伤害。"
 
 #: src/data/items.h:12052
 msgid ""
@@ -3676,6 +5097,8 @@ msgid ""
 "raises Attack in\n"
 "a pinch."
 msgstr ""
+"携带后，危急时\n"
+"攻击会提高。"
 
 #: src/data/items.h:12071
 msgid ""
@@ -3683,6 +5106,8 @@ msgid ""
 "raises Defense in\n"
 "a pinch."
 msgstr ""
+"携带后，危急时\n"
+"防御会提高。"
 
 #: src/data/items.h:12090
 msgid ""
@@ -3690,6 +5115,8 @@ msgid ""
 "raises Speed in\n"
 "a pinch."
 msgstr ""
+"携带后，危急时\n"
+"速度会提高。"
 
 #: src/data/items.h:12109
 msgid ""
@@ -3697,6 +5124,8 @@ msgid ""
 "raises Sp. Atk in\n"
 "a pinch."
 msgstr ""
+"携带后，危急时\n"
+"特攻会提高。"
 
 #: src/data/items.h:12128
 msgid ""
@@ -3704,6 +5133,8 @@ msgid ""
 "raises Sp. Def in\n"
 "a pinch."
 msgstr ""
+"携带后，危急时\n"
+"特防会提高。"
 
 #: src/data/items.h:12147
 msgid ""
@@ -3711,6 +5142,8 @@ msgid ""
 "ups the critical-\n"
 "hit rate in a pinch."
 msgstr ""
+"携带后，危急时\n"
+"容易击中要害。"
 
 #: src/data/items.h:12166
 msgid ""
@@ -3718,6 +5151,9 @@ msgid ""
 "sharply raises a\n"
 "stat in a pinch."
 msgstr ""
+"携带后，危急时某\n"
+"项能力会大\n"
+"幅提高。"
 
 #: src/data/items.h:12184
 msgid ""
@@ -3725,6 +5161,9 @@ msgid ""
 "hit by a super\n"
 "effective move."
 msgstr ""
+"受到效果绝佳的\n"
+"招式攻击时，\n"
+"能回复HP。"
 
 #: src/data/items.h:12203
 msgid ""
@@ -3732,6 +5171,9 @@ msgid ""
 "boosts accuracy in\n"
 "a pinch."
 msgstr ""
+"携带后，危急时\n"
+"招式的命中率\n"
+"会提高。"
 
 #: src/data/items.h:12222
 msgid ""
@@ -3739,6 +5181,8 @@ msgid ""
 "to move first just\n"
 "once in a pinch."
 msgstr ""
+"携带后，危急时能\n"
+"先行动1次。"
 
 #: src/data/items.h:12240
 msgid ""
@@ -3746,6 +5190,9 @@ msgid ""
 "move, the foe will\n"
 "also take damage."
 msgstr ""
+"受到物理招式攻击\n"
+"时，对手也会受\n"
+"到伤害。"
 
 #: src/data/items.h:12258
 msgid ""
@@ -3753,6 +5200,9 @@ msgid ""
 "move, the foe will\n"
 "also take damage."
 msgstr ""
+"受到特殊招式攻击\n"
+"时，对手也会受\n"
+"到伤害。"
 
 #: src/data/items.h:12276
 msgid ""
@@ -3760,6 +5210,8 @@ msgid ""
 "move, it raises the\n"
 "holder's Defense."
 msgstr ""
+"受到物理招式攻击\n"
+"时，防御会提高。"
 
 #: src/data/items.h:12294
 msgid ""
@@ -3767,6 +5219,8 @@ msgid ""
 "move, it raises the\n"
 "holder's Sp. Def."
 msgstr ""
+"受到特殊招式攻击\n"
+"时，特防会提高。"
 
 #: src/data/items.h:12311
 msgid ""
@@ -3774,6 +5228,9 @@ msgid ""
 "Plant in loamy soil\n"
 "to grow a mystery."
 msgstr ""
+"宝可方块的材料。\n"
+"种在松软的土里能\n"
+"长出神秘的树果。"
 
 #: src/data/items.h:12330
 msgid ""
@@ -3781,6 +5238,8 @@ msgid ""
 "if the user is\n"
 "hit by the foe."
 msgstr ""
+"威力强大，但受到\n"
+"攻击时就会失败。"
 
 #: src/data/items.h:12344
 msgid ""
@@ -3788,6 +5247,8 @@ msgid ""
 "the foe with long,\n"
 "sharp claws."
 msgstr ""
+"用尖锐的巨爪劈开\n"
+"对手进行攻击。"
 
 #: src/data/items.h:12358
 msgid ""
@@ -3795,6 +5256,9 @@ msgid ""
 "ultrasonic wave\n"
 "that may confuse."
 msgstr ""
+"用水的振动\n"
+"攻击。有时会使\n"
+"对手混乱。"
 
 #: src/data/items.h:12372
 msgid ""
@@ -3802,6 +5266,9 @@ msgid ""
 "Sp. Def by focusing\n"
 "the mind."
 msgstr ""
+"静心凝神，\n"
+"提高自己的特攻\n"
+"和特防。"
 
 #: src/data/items.h:12386
 msgid ""
@@ -3809,6 +5276,9 @@ msgid ""
 "the foe switch or\n"
 "ends the battle."
 msgstr ""
+"放走对手，\n"
+"强制换人或结束\n"
+"野生宝可梦战斗。"
 
 #: src/data/items.h:12400
 msgid ""
@@ -3816,6 +5286,9 @@ msgid ""
 "with a toxin that\n"
 "gradually worsens."
 msgstr ""
+"让对手陷入剧毒\n"
+"状态。伤害会逐\n"
+"渐增加。"
 
 #: src/data/items.h:12434
 msgid ""
@@ -3823,6 +5296,9 @@ msgid ""
 "to raise both\n"
 "Attack & Defense."
 msgstr ""
+"强健肌肉，\n"
+"提高自己的攻击\n"
+"和防御。"
 
 #: src/data/items.h:12448
 msgid ""
@@ -3830,6 +5306,9 @@ msgid ""
 "in a row to strike\n"
 "the foe."
 msgstr ""
+"向对手猛烈地发射\n"
+"种子，连续攻击2\n"
+"～5次。"
 
 #: src/data/items.h:12462
 msgid ""
@@ -3837,6 +5316,9 @@ msgid ""
 "varies among\n"
 "different Pokémon."
 msgstr ""
+"招式的属性会随着\n"
+"使用者的不同\n"
+"而改变。"
 
 #: src/data/items.h:12476
 msgid ""
@@ -3844,6 +5326,9 @@ msgid ""
 "of Fire-type moves\n"
 "for 5 turns."
 msgstr ""
+"5回合内阳光强烈，\n"
+"提高火属性招式\n"
+"的威力。"
 
 #: src/data/items.h:12568
 msgid ""
@@ -3851,6 +5336,9 @@ msgid ""
 "light that reduces\n"
 "special damage."
 msgstr ""
+"制造神奇的壁障，\n"
+"减弱受到的\n"
+"特殊攻击。"
 
 #: src/data/items.h:12582
 msgid ""
@@ -3858,6 +5346,9 @@ msgid ""
 "but may fail if used\n"
 "in succession."
 msgstr ""
+"完全抵挡对手的\n"
+"攻击。连续使用\n"
+"容易失败。"
 
 #: src/data/items.h:12596
 msgid ""
@@ -3865,6 +5356,9 @@ msgid ""
 "of Water-type\n"
 "moves for 5 turns."
 msgstr ""
+"5回合内降大雨，\n"
+"提高水属性招式\n"
+"的威力。"
 
 #: src/data/items.h:12610
 msgid ""
@@ -3872,6 +5366,9 @@ msgid ""
 "HP of the damage \n"
 "this move inflicts."
 msgstr ""
+"吸取对手的养分\n"
+"攻击。回复伤害\n"
+"一半的HP。"
 
 #: src/data/items.h:12624
 msgid ""
@@ -3879,6 +5376,8 @@ msgid ""
 "status problems\n"
 "for 5 turns."
 msgstr ""
+"5回合内保护我方不\n"
+"会陷入异常状态。"
 
 #: src/data/items.h:12638
 msgid ""
@@ -3886,6 +5385,9 @@ msgid ""
 "likes you, the more\n"
 "powerful this move."
 msgstr ""
+"宝可梦越不亲\n"
+"近训练家，\n"
+"威力越大。"
 
 #: src/data/items.h:12652
 msgid ""
@@ -3893,6 +5395,9 @@ msgid ""
 "the 1st turn, then\n"
 "attacks next turn."
 msgstr ""
+"第1回合收集日光，\n"
+"第2回合发射光\n"
+"束攻击。"
 
 #: src/data/items.h:12666
 msgid ""
@@ -3900,6 +5405,9 @@ msgid ""
 "a hard tail. It may\n"
 "lower Defense."
 msgstr ""
+"用坚硬的尾巴\n"
+"摔打对手。\n"
+"有时会降低防御。"
 
 #: src/data/items.h:12680
 msgid ""
@@ -3907,6 +5415,9 @@ msgid ""
 "attack that may\n"
 "cause paralysis."
 msgstr ""
+"向对手发出强力\n"
+"电击。有时会让\n"
+"对手麻痹。"
 
 #: src/data/items.h:12694
 msgid ""
@@ -3914,6 +5425,9 @@ msgid ""
 "with a thunderbolt.\n"
 "It may paralyze."
 msgstr ""
+"向对手劈下暴\n"
+"雷。有时会让\n"
+"对手麻痹。"
 
 #: src/data/items.h:12708
 msgid ""
@@ -3921,6 +5435,9 @@ msgid ""
 "that hits all\n"
 "other Pokémon."
 msgstr ""
+"利用地震的冲击，\n"
+"攻击周围所有\n"
+"宝可梦。"
 
 #: src/data/items.h:12722
 msgid ""
@@ -3928,6 +5445,9 @@ msgid ""
 "likes you, the more\n"
 "powerful this move."
 msgstr ""
+"宝可梦越亲\n"
+"近训练家，\n"
+"威力越大。"
 
 #: src/data/items.h:12736
 msgid ""
@@ -3935,6 +5455,8 @@ msgid ""
 "the 1st turn, then\n"
 "strikes next turn."
 msgstr ""
+"第1回合钻入地下，\n"
+"第2回合攻击对手。"
 
 #: src/data/items.h:12750
 msgid ""
@@ -3942,6 +5464,9 @@ msgid ""
 "attack that may\n"
 "lower Sp. Def."
 msgstr ""
+"向对手发送强\n"
+"大的念力。\n"
+"有时会降低特防。"
 
 #: src/data/items.h:12764
 msgid ""
@@ -3949,6 +5474,9 @@ msgid ""
 "at the foe. It may\n"
 "lower Sp. Def."
 msgstr ""
+"投掷黑影之团\n"
+"攻击。有时会降低\n"
+"对手特防。"
 
 #: src/data/items.h:12778
 msgid ""
@@ -3956,6 +5484,9 @@ msgid ""
 "like Light Screen\n"
 "and causes damage."
 msgstr ""
+"破坏光墙和\n"
+"反射壁等，\n"
+"同时给予伤害。"
 
 #: src/data/items.h:12792
 msgid ""
@@ -3963,6 +5494,9 @@ msgid ""
 "copies to raise\n"
 "evasiveness."
 msgstr ""
+"快速移动制造分\n"
+"身，提高自己的\n"
+"闪避率。"
 
 #: src/data/items.h:12806
 msgid ""
@@ -3970,6 +5504,9 @@ msgid ""
 "light that weakens\n"
 "physical attacks."
 msgstr ""
+"制造神奇的壁障，\n"
+"减弱受到的\n"
+"物理攻击。"
 
 #: src/data/items.h:12820
 msgid ""
@@ -3977,6 +5514,9 @@ msgid ""
 "jolt of electricity\n"
 "that never misses."
 msgstr ""
+"向对手发出电击\n"
+"攻击。攻击必定\n"
+"会命中。"
 
 #: src/data/items.h:12834
 msgid ""
@@ -3984,6 +5524,9 @@ msgid ""
 "fire that may burn\n"
 "the foe."
 msgstr ""
+"向对手发射烈\n"
+"焰。有时会让\n"
+"对手灼伤。"
 
 #: src/data/items.h:12848
 msgid ""
@@ -3991,6 +5534,9 @@ msgid ""
 "foe. It may poison\n"
 "the foe."
 msgstr ""
+"将污泥投掷向\n"
+"对手。有时会让\n"
+"对手中毒。"
 
 #: src/data/items.h:12862
 msgid ""
@@ -3998,6 +5544,8 @@ msgid ""
 "that hits\n"
 "over 5 turns."
 msgstr ""
+"扬起持续5回合的\n"
+"沙暴，给予伤害。"
 
 #: src/data/items.h:12876
 msgid ""
@@ -4005,6 +5553,9 @@ msgid ""
 "attack that may\n"
 "burn the foe."
 msgstr ""
+"用大字形的火焰\n"
+"攻击。有时会让\n"
+"对手灼伤。"
 
 #: src/data/items.h:12890
 msgid ""
@@ -4012,6 +5563,9 @@ msgid ""
 "moving with rocks.\n"
 "May lower Speed."
 msgstr ""
+"投掷岩石阻挡\n"
+"对手。有时会降低\n"
+"其速度。"
 
 #: src/data/items.h:12904
 msgid ""
@@ -4019,6 +5573,9 @@ msgid ""
 "attack that can't\n"
 "be avoided."
 msgstr ""
+"以惊人的速度攻击\n"
+"对手。攻击必定\n"
+"会命中。"
 
 #: src/data/items.h:12918
 msgid ""
@@ -4026,6 +5583,8 @@ msgid ""
 "from using the same\n"
 "move in a row."
 msgstr ""
+"让对手不能连续\n"
+"使用相同的招式。"
 
 #: src/data/items.h:12932
 msgid ""
@@ -4033,6 +5592,8 @@ msgid ""
 "poisoned, burned,\n"
 "or paralyzed."
 msgstr ""
+"中毒、灼伤或麻痹\n"
+"时，威力会翻倍。"
 
 #: src/data/items.h:12946
 msgid ""
@@ -4040,6 +5601,9 @@ msgid ""
 "attack depending\n"
 "on the location."
 msgstr ""
+"根据使用场所不\n"
+"同，追加效果也\n"
+"会改变。"
 
 #: src/data/items.h:12960
 msgid ""
@@ -4047,6 +5611,9 @@ msgid ""
 "2 turns to restore\n"
 "health and status."
 msgstr ""
+"连续睡2回合，\n"
+"回复HP和所有\n"
+"异常状态。"
 
 #: src/data/items.h:12974
 msgid ""
@@ -4054,6 +5621,9 @@ msgid ""
 "the opposite\n"
 "gender to attack."
 msgstr ""
+"魅惑异性，\n"
+"使对手变得难以使\n"
+"出招式。"
 
 #: src/data/items.h:12988
 msgid ""
@@ -4061,6 +5631,8 @@ msgid ""
 "it steals the\n"
 "foe's held item."
 msgstr ""
+"攻击的同时盗取\n"
+"对手携带的道具。"
 
 #: src/data/items.h:13002
 msgid ""
@@ -4068,6 +5640,9 @@ msgid ""
 "foe. This may\n"
 "raise Defense."
 msgstr ""
+"用坚硬的\n"
+"翅膀攻击。\n"
+"有时会提高防御。"
 
 #: src/data/items.h:13016
 msgid ""
@@ -4075,6 +5650,9 @@ msgid ""
 "with the foe on the\n"
 "turn this is used."
 msgstr ""
+"利用超能力，\n"
+"互换自己和对手\n"
+"的特性。"
 
 #: src/data/items.h:13030
 msgid ""
@@ -4082,6 +5660,9 @@ msgid ""
 "healing or stat-\n"
 "changing move."
 msgstr ""
+"抢夺对手打算使用\n"
+"的回复或能力\n"
+"变化招式。"
 
 #: src/data/items.h:13044
 msgid ""
@@ -4089,6 +5670,9 @@ msgid ""
 "attack, but harshly\n"
 "lowers Sp. Atk."
 msgstr ""
+"全力攻击对手。\n"
+"自己的特攻会大\n"
+"幅降低。"
 
 #: src/data/items.h:13608
 msgid ""
@@ -4096,6 +5680,8 @@ msgid ""
 "with sharp blades\n"
 "or claws."
 msgstr ""
+"用镰刀或爪子等切\n"
+"斩对手进行攻击。"
 
 #: src/data/items.h:13622
 msgid ""
@@ -4103,6 +5689,8 @@ msgid ""
 "first turn, then\n"
 "attacks next turn."
 msgstr ""
+"第1回合飞上天空，\n"
+"第2回合攻击对手。"
 
 #: src/data/items.h:13654
 msgid ""
@@ -4110,6 +5698,8 @@ msgid ""
 "power, then slams\n"
 "the foe."
 msgstr ""
+"使出浑身力气殴打\n"
+"对手进行攻击。"
 
 #: src/data/items.h:13668
 msgid ""
@@ -4117,6 +5707,9 @@ msgid ""
 "blast of light that\n"
 "lowers accuracy."
 msgstr ""
+"使出耀眼的强光，\n"
+"降低对手的\n"
+"命中率。"
 
 #: src/data/items.h:13682
 msgid ""
@@ -4124,6 +5717,9 @@ msgid ""
 "tough attack that\n"
 "may lower Defense."
 msgstr ""
+"用拳头击碎对手。\n"
+"有时会降低对手\n"
+"的防御。"
 
 #: src/data/items.h:13716
 msgid ""
@@ -4131,6 +5727,9 @@ msgid ""
 "the 1st turn, then\n"
 "attacks next turn."
 msgstr ""
+"第1回合潜入水中，\n"
+"第2回合浮上\n"
+"来攻击。"
 
 #: src/data/items.h:13733
 msgid ""
@@ -4138,6 +5737,9 @@ msgid ""
 "chance of finding\n"
 "Pokémon Eggs."
 msgstr ""
+"携带后，更容易在\n"
+"培育屋发现\n"
+"宝可梦蛋。"
 
 #: src/data/items.h:13749
 msgid ""
@@ -4145,6 +5747,8 @@ msgid ""
 "chance of finding\n"
 "Shiny Pokémon."
 msgstr ""
+"携带后，更容易遇\n"
+"到异色宝可梦。"
 
 #: src/data/items.h:13765
 msgid ""
@@ -4152,6 +5756,8 @@ msgid ""
 "chance of getting\n"
 "a critical catch."
 msgstr ""
+"携带后，更容易发\n"
+"生会心捕获。"
 
 #: src/data/items.h:13781
 msgid ""
@@ -4159,6 +5765,8 @@ msgid ""
 "Exp. Points that\n"
 "Pokémon can get."
 msgstr ""
+"宝可梦获得的\n"
+"经验值会增加。"
 
 #: src/data/items.h:13799
 msgid ""
@@ -4166,6 +5774,9 @@ msgid ""
 "hop in and out of\n"
 "the devices listed."
 msgstr ""
+"能让洛托姆进入\n"
+"目录中的电器，\n"
+"或从中出来。"
 
 #: src/data/items.h:13815
 msgid ""
@@ -4173,6 +5784,8 @@ msgid ""
 "an expression of\n"
 "gratitude."
 msgstr ""
+"用来表达感谢之\n"
+"情的花。"
 
 #: src/data/items.h:13832
 msgid ""
@@ -4180,6 +5793,8 @@ msgid ""
 "Pokémon back to\n"
 "its original shape."
 msgstr ""
+"能让宝可梦恢复原\n"
+"来样子的镜子。"
 
 #: src/data/items.h:13849
 msgid ""
@@ -4187,12 +5802,17 @@ msgid ""
 "fuses Kyurem and\n"
 "a certain Pokémon."
 msgstr ""
+"能将酋雷姆和某种\n"
+"宝可梦合体的\n"
+"基因楔。"
 
 #: src/data/items.h:13865
 msgid ""
 "An item to change\n"
 "Zygarde's forms."
 msgstr ""
+"能改变基格尔德\n"
+"形态的道具。"
 
 #: src/data/items.h:13880
 msgid ""
@@ -4200,6 +5820,9 @@ msgid ""
 "seal a certain\n"
 "Pokémon long ago."
 msgstr ""
+"很久以前用来封印\n"
+"某种宝可梦\n"
+"的瓶子。"
 
 #: src/data/items.h:13896
 msgid ""
@@ -4207,6 +5830,9 @@ msgid ""
 "Necrozma and\n"
 "Solgaleo."
 msgstr ""
+"能让奈克洛兹玛和\n"
+"索尔迦雷欧合体\n"
+"或分离。"
 
 #: src/data/items.h:13912
 msgid ""
@@ -4214,6 +5840,9 @@ msgid ""
 "Necrozma and\n"
 "Lunala."
 msgstr ""
+"能让奈克洛兹玛和\n"
+"露奈雅拉合体\n"
+"或分离。"
 
 #: src/data/items.h:13929
 msgid ""
@@ -4221,6 +5850,8 @@ msgid ""
 "separates Calyrex\n"
 "and its steed."
 msgstr ""
+"能让蕾冠王和它的\n"
+"爱马合体或分离。"
 
 #: src/data/items.h:13947
 msgid ""
@@ -4228,6 +5859,8 @@ msgid ""
 "with Mega Stones\n"
 "to Mega Evolve."
 msgstr ""
+"能让携带超级石的\n"
+"宝可梦超级进化。"
 
 #: src/data/items.h:13963
 msgid ""
@@ -4235,6 +5868,8 @@ msgid ""
 "enables Pokémon\n"
 "to use Z-Power."
 msgstr ""
+"能让宝可梦使用Z力\n"
+"量的手环。"
 
 #: src/data/items.h:13979
 msgid ""
@@ -4242,6 +5877,8 @@ msgid ""
 "Dynamax when at\n"
 "a Power Spot."
 msgstr ""
+"在能量点能让\n"
+"宝可梦极巨化。"
 
 #: src/data/items.h:13996
 msgid ""
@@ -4249,6 +5886,8 @@ msgid ""
 "that is faster than\n"
 "the Running Shoes."
 msgstr ""
+"比跑步鞋还要快的\n"
+"折叠式自行车。"
 
 #: src/data/items.h:14013
 msgid ""
@@ -4256,6 +5895,9 @@ msgid ""
 "that doubles your\n"
 "speed or better."
 msgstr ""
+"能让移动速度提高\n"
+"到2倍以上的折叠式\n"
+"自行车。"
 
 #: src/data/items.h:14030
 msgid ""
@@ -4263,6 +5905,8 @@ msgid ""
 "capable of jumps\n"
 "and wheelies."
 msgstr ""
+"能跳跃和翘前轮的\n"
+"折叠式自行车。"
 
 #: src/data/items.h:14047
 msgid ""
@@ -4270,6 +5914,9 @@ msgid ""
 "water to fish for\n"
 "wild Pokémon."
 msgstr ""
+"在有水的地方\n"
+"使用，就能钓到\n"
+"野生宝可梦。"
 
 #: src/data/items.h:14064
 msgid ""
@@ -4277,6 +5924,9 @@ msgid ""
 "rod for catching\n"
 "wild Pokémon."
 msgstr ""
+"性能不错的钓竿。\n"
+"能钓到野生\n"
+"宝可梦。"
 
 #: src/data/items.h:14081
 msgid ""
@@ -4284,6 +5934,8 @@ msgid ""
 "rod for catching\n"
 "wild Pokémon."
 msgstr ""
+"最好的钓竿。能钓\n"
+"到野生宝可梦。"
 
 #: src/data/items.h:14098
 msgid ""
@@ -4291,6 +5943,9 @@ msgid ""
 "signals an invisible\n"
 "item by sound."
 msgstr ""
+"能用声音告诉你\n"
+"看不见的道具位置\n"
+"的装置。"
 
 #: src/data/items.h:14114
 msgid ""
@@ -4298,6 +5953,9 @@ msgid ""
 "anytime. Shows your\n"
 "present location."
 msgstr ""
+"随时都可以查看。\n"
+"能显示现在所在\n"
+"的位置。"
 
 #: src/data/items.h:14130
 msgid ""
@@ -4305,6 +5963,9 @@ msgid ""
 "that flags battle-\n"
 "ready Trainers."
 msgstr ""
+"可充电的装置。\n"
+"能找出想要再战的\n"
+"训练家。"
 
 #: src/data/items.h:14150
 msgid ""
@@ -4312,6 +5973,9 @@ msgid ""
 "that holds TMs and\n"
 "HMs."
 msgstr ""
+"能收纳招式学习器\n"
+"和秘传学习器\n"
+"的盒子。"
 
 #: src/data/items.h:14167
 msgid ""
@@ -4319,6 +5983,8 @@ msgid ""
 "container that\n"
 "holds Berries."
 msgstr ""
+"能收纳树果的方便\n"
+"的袋子。"
 
 #: src/data/items.h:14183
 msgid ""
@@ -4326,6 +5992,8 @@ msgid ""
 "the Pokémon\n"
 "Storage System."
 msgstr ""
+"能随时使用宝可梦\n"
+"寄放系统。"
 
 #: src/data/items.h:14199
 msgid ""
@@ -4333,6 +6001,9 @@ msgid ""
 "Pokémon from the\n"
 "party or any Box."
 msgstr ""
+"能对队伍或盒子里\n"
+"的宝可梦进行鉴定\n"
+"和炼妖。"
 
 #: src/data/items.h:14215
 msgid ""
@@ -4340,6 +6011,9 @@ msgid ""
 "passive. If full,\n"
 "rerolls the last."
 msgstr ""
+"随机获得1个被动\n"
+"特性。已满时重新\n"
+"随机最后1个。"
 
 #: src/data/items.h:14230
 msgid ""
@@ -4347,12 +6021,17 @@ msgid ""
 "new random third\n"
 "type."
 msgstr ""
+"让1只宝可梦\n"
+"随机获得新的\n"
+"第三属性。"
 
 #: src/data/items.h:14245
 msgid ""
 "A case that holds\n"
 "up to 9,999 Coins."
 msgstr ""
+"最多能装9999枚代\n"
+"币的盒子。"
 
 #: src/data/items.h:14260
 msgid ""
@@ -4360,6 +6039,9 @@ msgid ""
 "Powder made using\n"
 "a Berry Crusher."
 msgstr ""
+"收纳用树果粉碎器\n"
+"制作的树果粉末\n"
+"的罐子。"
 
 #: src/data/items.h:14276
 msgid ""
@@ -4367,6 +6049,8 @@ msgid ""
 "watering Berries\n"
 "and plants."
 msgstr ""
+"用来给树果和植物\n"
+"浇水的工具。"
 
 #: src/data/items.h:14292
 msgid ""
@@ -4374,6 +6058,8 @@ msgid ""
 "search out Pokémon\n"
 "hiding in grass."
 msgstr ""
+"能找出藏在草丛中\n"
+"的宝可梦的工具。"
 
 #: src/data/items.h:14308
 msgid ""
@@ -4381,6 +6067,9 @@ msgid ""
 "{POKEBLOCK}s made with\n"
 "a Berry Blender."
 msgstr ""
+"收纳用树果混合器\n"
+"制作的宝可方块\n"
+"的盒子。"
 
 #: src/data/items.h:14324
 msgid ""
@@ -4388,6 +6077,8 @@ msgid ""
 "gather and hold\n"
 "volcanic ash."
 msgstr ""
+"用来收集火山灰\n"
+"的袋子。"
 
 #: src/data/items.h:14340
 msgid ""
@@ -4395,6 +6086,9 @@ msgid ""
 "flute that awakens\n"
 "Pokémon."
 msgstr ""
+"能让宝可梦醒过来\n"
+"的音色悦耳\n"
+"的笛子。"
 
 #: src/data/items.h:14357
 msgid ""
@@ -4402,6 +6096,8 @@ msgid ""
 "on famous people\n"
 "for instant recall."
 msgstr ""
+"记录着名人的信\n"
+"息，能随时查看。"
 
 #: src/data/items.h:14373
 msgid ""
@@ -4409,6 +6105,8 @@ msgid ""
 "an advice program\n"
 "for Trainers."
 msgstr ""
+"正在播放训练家\n"
+"指导节目的电视。"
 
 #: src/data/items.h:14391
 msgid ""
@@ -4416,6 +6114,8 @@ msgid ""
 "for sailing on a\n"
 "ferry."
 msgstr ""
+"乘坐渡轮时必需\n"
+"的船票。"
 
 #: src/data/items.h:14407
 msgid ""
@@ -4423,6 +6123,8 @@ msgid ""
 "ferry to a distant\n"
 "southern island."
 msgstr ""
+"乘坐渡轮前往遥远\n"
+"南方小岛的船票。"
 
 #: src/data/items.h:14424
 msgid ""
@@ -4430,6 +6132,8 @@ msgid ""
 "to board the ship\n"
 "to Navel Rock."
 msgstr ""
+"乘船前往肚脐岩所\n"
+"必需的船票。"
 
 #: src/data/items.h:14440
 msgid ""
@@ -4437,6 +6141,8 @@ msgid ""
 "to board the ship\n"
 "to Birth Island."
 msgstr ""
+"乘船前往诞生之岛\n"
+"所必需的船票。"
 
 #: src/data/items.h:14456
 msgid ""
@@ -4444,6 +6150,9 @@ msgid ""
 "that shows the way\n"
 "to a certain island."
 msgstr ""
+"褪色的海图。\n"
+"标示着前往某座小\n"
+"岛的路线。"
 
 #: src/data/items.h:14472
 msgid ""
@@ -4451,6 +6160,8 @@ msgid ""
 "from the President\n"
 "of the Devon Corp."
 msgstr ""
+"得文公司社长写\n"
+"给大吾的信。"
 
 #: src/data/items.h:14489
 msgid ""
@@ -4458,6 +6169,8 @@ msgid ""
 "contains Devon's\n"
 "machine parts."
 msgstr ""
+"装有得文公司机器\n"
+"零件的包裹。"
 
 #: src/data/items.h:14506
 msgid ""
@@ -4465,6 +6178,9 @@ msgid ""
 "protect eyes from\n"
 "desert sandstorms."
 msgstr ""
+"漂亮的护目镜。\n"
+"能在沙漠中阻\n"
+"挡沙暴。"
 
 #: src/data/items.h:14522
 msgid ""
@@ -4472,6 +6188,9 @@ msgid ""
 "that signals any\n"
 "unseeable Pokémon."
 msgstr ""
+"得文公司制造的\n"
+"装置。能发现\n"
+"看不见的宝可梦。"
 
 #: src/data/items.h:14538
 msgid ""
@@ -4479,6 +6198,8 @@ msgid ""
 "Mauville beneath\n"
 "Mauville City."
 msgstr ""
+"紫堇市地下的\n"
+"新紫堇的钥匙。"
 
 #: src/data/items.h:14554
 msgid ""
@@ -4486,6 +6207,8 @@ msgid ""
 "inside the\n"
 "Abandoned Ship."
 msgstr ""
+"在弃船里找到\n"
+"的装置。"
 
 #: src/data/items.h:14570
 msgid ""
@@ -4493,6 +6216,8 @@ msgid ""
 "storage inside the\n"
 "Abandoned Ship."
 msgstr ""
+"弃船里仓库\n"
+"的钥匙。"
 
 #: src/data/items.h:14587 src/data/items.h:14604 src/data/items.h:14621 src/data/items.h:14638
 msgid ""
@@ -4500,6 +6225,8 @@ msgid ""
 "door inside the\n"
 "Abandoned Ship."
 msgstr ""
+"能打开弃船里某扇\n"
+"门的钥匙。"
 
 #: src/data/items.h:14654
 msgid ""
@@ -4507,6 +6234,8 @@ msgid ""
 "a certain Pokémon\n"
 "to change Formes."
 msgstr ""
+"能让某种宝可梦改\n"
+"变形态的岩石。"
 
 #: src/data/items.h:14670
 msgid ""
@@ -4514,6 +6243,9 @@ msgid ""
 "the same shape as\n"
 "Team Magma's mark."
 msgstr ""
+"和熔岩队标志形状\n"
+"相同的徽章\n"
+"状物品。"
 
 #: src/data/items.h:14687
 msgid ""
@@ -4521,6 +6253,9 @@ msgid ""
 "for entering\n"
 "Pokémon Contests."
 msgstr ""
+"参加宝可梦华丽大\n"
+"赛时所必需的\n"
+"通行证。"
 
 #: src/data/items.h:14703
 msgid ""
@@ -4528,6 +6263,9 @@ msgid ""
 "Oak from a Pokémon\n"
 "Mart's clerk."
 msgstr ""
+"友好商店店员托付\n"
+"给大木博士\n"
+"的包裹。"
 
 #: src/data/items.h:14719
 msgid ""
@@ -4535,6 +6273,8 @@ msgid ""
 "Cinnabar Island\n"
 "Gym's entrance."
 msgstr ""
+"红莲岛道馆入口\n"
+"的钥匙。"
 
 #: src/data/items.h:14735
 msgid ""
@@ -4542,6 +6282,9 @@ msgid ""
 "obtaining a bicycle\n"
 "from the Bike Shop."
 msgstr ""
+"可以在自行车店\n"
+"兑换自行车的\n"
+"兑换券。"
 
 #: src/data/items.h:14752
 msgid ""
@@ -4549,6 +6292,8 @@ msgid ""
 "by the Safari\n"
 "Zone's Warden."
 msgstr ""
+"狩猎地带园长弄丢\n"
+"的金色假牙。"
 
 #: src/data/items.h:14768
 msgid ""
@@ -4556,6 +6301,9 @@ msgid ""
 "key used in Silph\n"
 "Co's office."
 msgstr ""
+"西尔佛公司办公室\n"
+"使用的卡片式\n"
+"门钥匙。"
 
 #: src/data/items.h:14784
 msgid ""
@@ -4563,6 +6311,8 @@ msgid ""
 "used in Team\n"
 "Rocket's Hideout."
 msgstr ""
+"火箭队秘密基地中\n"
+"使用的电梯钥匙。"
 
 #: src/data/items.h:14800
 msgid ""
@@ -4570,6 +6320,9 @@ msgid ""
 "makes unseeable\n"
 "Pokémon visible."
 msgstr ""
+"西尔佛公司的\n"
+"观测镜。能看见\n"
+"看不见的宝可梦。"
 
 #: src/data/items.h:14817
 msgid ""
@@ -4577,6 +6330,9 @@ msgid ""
 "between One, Two,\n"
 "and Three Island."
 msgstr ""
+"能乘坐往来于1、\n"
+"2、3号岛之间的\n"
+"渡轮的通行证。"
 
 #: src/data/items.h:14834
 msgid ""
@@ -4584,6 +6340,9 @@ msgid ""
 "Vermilion and the\n"
 "Sevii Islands."
 msgstr ""
+"能乘坐往来于\n"
+"枯叶市和七之岛\n"
+"的渡轮。"
 
 #: src/data/items.h:14851
 msgid ""
@@ -4591,6 +6350,8 @@ msgid ""
 "tea prepared by an\n"
 "old lady."
 msgstr ""
+"老奶奶泡的茶。\n"
+"能让人解渴。"
 
 #: src/data/items.h:14868
 msgid ""
@@ -4598,6 +6359,9 @@ msgid ""
 "glowing gem that\n"
 "symbolizes passion."
 msgstr ""
+"闪耀着红光的\n"
+"美丽宝石。\n"
+"象征着热情。"
 
 #: src/data/items.h:14884
 msgid ""
@@ -4605,6 +6369,9 @@ msgid ""
 "that symbolizes\n"
 "honesty."
 msgstr ""
+"闪耀着蓝光的\n"
+"美丽宝石。\n"
+"象征着诚实。"
 
 #: src/data/items.h:14903
 msgid ""
@@ -4612,6 +6379,8 @@ msgid ""
 "from having its\n"
 "Ability changed."
 msgstr ""
+"携带后，特性不会\n"
+"被改变。"
 
 #: src/data/items.h:14921
 msgid ""
@@ -4619,6 +6388,8 @@ msgid ""
 "holder from\n"
 "stat-lowering."
 msgstr ""
+"携带后，能力不会\n"
+"被对手降低。"
 
 #: src/data/items.h:14939
 msgid ""
@@ -4626,6 +6397,9 @@ msgid ""
 "moves and prevents\n"
 "contact with foes."
 msgstr ""
+"拳击招式的威力会\n"
+"提高，且不会接\n"
+"触对手。"
 
 #: src/data/items.h:14957
 msgid ""
@@ -4633,6 +6407,9 @@ msgid ""
 "holder from\n"
 "additional effects."
 msgstr ""
+"携带后，不会受到\n"
+"招式的追加\n"
+"效果影响。"
 
 #: src/data/items.h:14976
 msgid ""
@@ -4640,6 +6417,9 @@ msgid ""
 "multistrike moves\n"
 "hit more times."
 msgstr ""
+"携带后，连续攻击\n"
+"招式的命中次数\n"
+"会增加。"
 
 #: src/data/items.h:14993 src/data/items.h:15079
 msgid ""
@@ -4647,6 +6427,8 @@ msgid ""
 "that makes certain\n"
 "Pokémon evolve."
 msgstr ""
+"能让特定宝可梦\n"
+"进化的一套铠甲。"
 
 #: src/data/items.h:15013
 msgid ""
@@ -4654,6 +6436,9 @@ msgid ""
 "of Pokémon with\n"
 "certain Abilities."
 msgstr ""
+"能提高拥有特定\n"
+"特性的宝可梦\n"
+"的能力。"
 
 #: src/data/items.h:15030
 msgid ""
@@ -4661,6 +6446,8 @@ msgid ""
 "shoot. It's popular\n"
 "with gourmands."
 msgstr ""
+"大大的竹笋。\n"
+"很受美食家欢迎。"
 
 #: src/data/items.h:15047
 msgid ""
@@ -4668,6 +6455,8 @@ msgid ""
 "Gimmighoul hoard\n"
 "and treasure."
 msgstr ""
+"索财灵会囤积的财\n"
+"宝材料。"
 
 #: src/data/items.h:15063
 msgid ""
@@ -4675,6 +6464,9 @@ msgid ""
 "Bisharp that head\n"
 "a group hold it."
 msgstr ""
+"刃的碎片。率领群\n"
+"体的劈斩司令会\n"
+"持有它。"
 
 #: src/data/items.h:15098
 msgid ""
@@ -4682,6 +6474,9 @@ msgid ""
 "stat increases,\n"
 "but only once."
 msgstr ""
+"对手能力提高时，\n"
+"自己也提高相同\n"
+"能力。仅限1次。"
 
 #: src/data/items.h:15116 src/data/items.h:15135
 msgid ""
@@ -4689,6 +6484,8 @@ msgid ""
 "that makes certain\n"
 "Pokémon evolve."
 msgstr ""
+"能让特定宝可梦\n"
+"进化的神奇卷轴。"
 
 #: src/data/items.h:15153
 msgid ""
@@ -4696,6 +6493,8 @@ msgid ""
 "can cause Pokémon\n"
 "to Terastallize."
 msgstr ""
+"充能后，能让\n"
+"宝可梦太晶化。"
 
 #: src/data/items.h:15169
 msgid ""
@@ -4703,6 +6502,8 @@ msgid ""
 "shoot. It's popular\n"
 "with gourmands."
 msgstr ""
+"小小的竹笋。\n"
+"很受美食家欢迎。"
 
 #: src/data/items.h:15186 src/data/items.h:15202 src/data/items.h:15218 src/data/items.h:15234 src/data/items.h:15250 src/data/items.h:15266 src/data/items.h:15282 src/data/items.h:15298 (+11 more)
 msgid ""
@@ -4710,6 +6511,9 @@ msgid ""
 "form when a Tera\n"
 "Pokémon falls."
 msgstr ""
+"太晶宝可梦倒下\n"
+"时，有时会留下\n"
+"的碎块。"
 
 #: src/data/items.h:15476
 msgid ""
@@ -4717,6 +6521,9 @@ msgid ""
 "allows Dialga\n"
 "to change form."
 msgstr ""
+"发光的宝石。\n"
+"能让帝牙卢卡改\n"
+"变样子。"
 
 #: src/data/items.h:15495
 msgid ""
@@ -4724,6 +6531,9 @@ msgid ""
 "allows Giratina\n"
 "to change form."
 msgstr ""
+"发光的宝石。\n"
+"能让骑拉帝纳改\n"
+"变样子。"
 
 #: src/data/items.h:15514
 msgid ""
@@ -4731,6 +6541,9 @@ msgid ""
 "allows Palkia\n"
 "to change form."
 msgstr ""
+"发光的宝石。\n"
+"能让帕路奇亚改\n"
+"变样子。"
 
 #: src/data/items.h:15531
 msgid ""
@@ -4738,6 +6551,8 @@ msgid ""
 "It is loved by\n"
 "a certain Pokémon."
 msgstr ""
+"黑色的石头。某种\n"
+"宝可梦很喜欢。"
 
 #: src/data/items.h:15549
 msgid ""
@@ -4745,6 +6560,9 @@ msgid ""
 "energy loved by\n"
 "certain Pokémon."
 msgstr ""
+"散发着能量的绳\n"
+"子。某种宝可梦\n"
+"很喜欢。"
 
 #: src/data/items.h:15567
 msgid ""
@@ -4752,6 +6570,8 @@ msgid ""
 "It is loved by\n"
 "a certain Pokémon."
 msgstr ""
+"一块泥炭。某种\n"
+"宝可梦很喜欢。"
 
 #: src/data/items.h:15586
 msgid ""
@@ -4759,6 +6579,8 @@ msgid ""
 "Attack, but causes\n"
 "lasting confusion."
 msgstr ""
+"大幅提高攻击，但\n"
+"会持续陷入混乱。"
 
 #: src/data/items.h:15641 src/data/items.h:15659
 msgid ""
@@ -4766,6 +6588,8 @@ msgid ""
 "that makes certain\n"
 "Pokémon evolve."
 msgstr ""
+"能让特定宝可梦\n"
+"进化的神奇茶碗。"
 
 #: src/data/items.h:15679
 msgid ""
@@ -4773,6 +6597,8 @@ msgid ""
 "wield the Rock\n"
 "type in battle."
 msgstr ""
+"能让厄诡椪在战斗\n"
+"中使用岩石属性。"
 
 #: src/data/items.h:15697
 msgid ""
@@ -4780,6 +6606,8 @@ msgid ""
 "wield the Water\n"
 "type in battle."
 msgstr ""
+"能让厄诡椪在战斗\n"
+"中使用水属性。"
 
 #: src/data/items.h:15715
 msgid ""
@@ -4787,6 +6615,8 @@ msgid ""
 "wield the Fire\n"
 "type in battle."
 msgstr ""
+"能让厄诡椪在战斗\n"
+"中使用火属性。"
 
 #: src/data/items.h:15845
 msgid ""
@@ -4794,6 +6624,9 @@ msgid ""
 "a Pokémon to lose\n"
 "all its base stats."
 msgstr ""
+"能让宝可梦的\n"
+"努力值全部归零\n"
+"的年糕。"
 
 #: src/data/items.h:15864
 msgid ""
@@ -4801,6 +6634,9 @@ msgid ""
 "number of Tera\n"
 "Shards from raids."
 msgstr ""
+"携带后，团体战中\n"
+"获得的太晶碎块\n"
+"会增加。"
 
 #: src/data/items.h:15879
 msgid ""
@@ -4808,6 +6644,8 @@ msgid ""
 "that makes certain\n"
 "Pokémon evolve."
 msgstr ""
+"能让特定宝可梦\n"
+"进化的神奇金属。"
 
 #: src/data/items.h:15932
 msgid ""
@@ -4815,6 +6653,9 @@ msgid ""
 "that restores HP\n"
 "by 20 points."
 msgstr ""
+"很苦的药粉。\n"
+"能让1只宝可梦\n"
+"回复20HP。"
 
 #: src/data/items.h:16137
 msgid ""
@@ -4822,22 +6663,25 @@ msgid ""
 "image of a Pokémon.\n"
 "It can be sold."
 msgstr ""
+"模仿宝可梦样子的\n"
+"木制玩偶。\n"
+"可以卖钱。"
 
 #: src/data/items.h:14165
 msgid "Berry Pouches"
-msgstr ""
+msgstr "树果袋"
 
 #: src/data/items.h:14815
 msgid "Tri-Passes"
-msgstr ""
+msgstr "三岛通行证"
 
 #: src/data/items.h:14832
 msgid "Rainbow Passes"
-msgstr ""
+msgstr "彩虹通行证"
 
 #: src/data/items.h:14866
 msgid "Rubies"
-msgstr ""
+msgstr "红宝石"
 
 #: src/data/items.h:15583
 msgid "Berserk Gene"
