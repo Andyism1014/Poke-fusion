@@ -33,6 +33,7 @@ static bool32 HandleEndTurnOrder(enum BattlerId battler)
 
     gBattleTurnCounter++;
     gBattleStruct->eventState.endTurn++;
+    memset(gBattleStruct->fusionPassiveSlot[FUSION_PASSIVE_CURSOR_END_TURN], 0, sizeof(gBattleStruct->fusionPassiveSlot[FUSION_PASSIVE_CURSOR_END_TURN])); // Fusion
 
     for (enum BattlerId i = 0; i < gBattlersCount; i++)
         gBattlerByTurnOrder[i] = i;
@@ -97,6 +98,41 @@ static bool32 HandleEndTurnWeather(enum BattlerId battler)
     return EndOrContinueWeather();
 }
 
+// Fusion: runs ABILITYEFFECT_ENDTURN for the battler's next passive that passes the filter.
+// Returns TRUE while a passive ran a script; the caller then stays in its state and calls again.
+static bool32 TryEndTurnPassives(enum BattlerId battler, bool32 (*isEventAbility)(enum Ability ability))
+{
+    u8 *slot = &gBattleStruct->fusionPassiveSlot[FUSION_PASSIVE_CURSOR_END_TURN][battler];
+
+    while (*slot < FUSION_MAX_PASSIVES)
+    {
+        enum Ability passive = GetBattlerPassive(battler, (*slot)++);
+        if (isEventAbility(passive) && AbilityBattleEffects(ABILITYEFFECT_ENDTURN, battler, passive, MOVE_NONE, TRUE))
+            return TRUE;
+    }
+    *slot = 0;
+    return FALSE;
+}
+
+static bool32 IsWeatherEndTurnAbility(enum Ability ability)
+{
+    switch (GetBattleWeather(gBattleWeather))
+    {
+    case BATTLE_WEATHER_RAIN:
+    case BATTLE_WEATHER_RAIN_PRIMAL:
+    case BATTLE_WEATHER_RAIN_DOWNPOUR:
+        return ability == ABILITY_DRY_SKIN || ability == ABILITY_RAIN_DISH;
+    case BATTLE_WEATHER_SUN:
+    case BATTLE_WEATHER_SUN_PRIMAL:
+        return ability == ABILITY_DRY_SKIN || ability == ABILITY_SOLAR_POWER;
+    case BATTLE_WEATHER_HAIL:
+    case BATTLE_WEATHER_SNOW:
+        return ability == ABILITY_ICE_BODY;
+    default:
+        return FALSE;
+    }
+}
+
 static bool32 HandleEndTurnWeatherDamage(enum BattlerId battler)
 {
     bool32 effect = FALSE;
@@ -112,11 +148,17 @@ static bool32 HandleEndTurnWeatherDamage(enum BattlerId battler)
         return effect;
     }
 
-    gBattleStruct->eventState.endTurnBattler++;
-
     if (!IsBattlerPresent(battler) || !HasWeatherEffect())
+    {
+        gBattleStruct->eventState.endTurnBattler++;
         return effect;
+    }
 
+    // Fusion: weather abilities among the passives (Rain Dish, Dry Skin, Ice Body...) first
+    if (BATTLER_HAS_ANY_PASSIVE(battler) && TryEndTurnPassives(battler, IsWeatherEndTurnAbility))
+        return TRUE;
+
+    gBattleStruct->eventState.endTurnBattler++;
 
     switch (currBattleWeather)
     {
@@ -141,10 +183,10 @@ static bool32 HandleEndTurnWeatherDamage(enum BattlerId battler)
         }
         break;
     case BATTLE_WEATHER_SANDSTORM:
-        if (ability != ABILITY_SAND_VEIL
-         && ability != ABILITY_SAND_FORCE
-         && ability != ABILITY_SAND_RUSH
-         && ability != ABILITY_OVERCOAT
+        if (!ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_SAND_VEIL)
+         && !ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_SAND_FORCE)
+         && !ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_SAND_RUSH)
+         && !ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_OVERCOAT)
          && !IS_BATTLER_ANY_TYPE(battler, TYPE_ROCK, TYPE_GROUND, TYPE_STEEL)
          && gBattleMons[battler].volatiles.semiInvulnerable != STATE_UNDERGROUND
          && gBattleMons[battler].volatiles.semiInvulnerable != STATE_UNDERWATER
@@ -166,8 +208,9 @@ static bool32 HandleEndTurnWeatherDamage(enum BattlerId battler)
         }
         else if (currBattleWeather == BATTLE_WEATHER_HAIL)
         {
-            if (ability != ABILITY_SNOW_CLOAK
-             && ability != ABILITY_OVERCOAT
+            if (!ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_SNOW_CLOAK)
+             && !ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_OVERCOAT)
+             && !ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_ICE_BODY)
              && !IS_BATTLER_OF_TYPE(battler, TYPE_ICE)
              && gBattleMons[battler].volatiles.semiInvulnerable != STATE_UNDERGROUND
              && gBattleMons[battler].volatiles.semiInvulnerable != STATE_UNDERWATER
@@ -316,6 +359,11 @@ static bool32 HandleEndTurnWish(enum BattlerId battler)
     return effect;
 }
 
+static bool32 IsFirstBlockEndTurnAbility(enum Ability ability)
+{
+    return ability == ABILITY_HEALER || ability == ABILITY_HYDRATION || ability == ABILITY_SHED_SKIN;
+}
+
 static bool32 HandleEndTurnFirstEventBlock(enum BattlerId battler)
 {
     bool32 effect = FALSE;
@@ -414,20 +462,17 @@ static bool32 HandleEndTurnFirstEventBlock(enum BattlerId battler)
     case FIRST_EVENT_BLOCK_ABILITIES:
     {
         enum Ability ability = GetBattlerAbility(battler);
-        switch (ability)
-        {
-        case ABILITY_HEALER:
-        case ABILITY_HYDRATION:
-        case ABILITY_SHED_SKIN:
-            if (AbilityBattleEffects(ABILITYEFFECT_ENDTURN, battler, ability, MOVE_NONE, TRUE))
-                effect = TRUE;
-            break;
-        default:
-            break;
-        }
+        if (IsFirstBlockEndTurnAbility(ability) && AbilityBattleEffects(ABILITYEFFECT_ENDTURN, battler, ability, MOVE_NONE, TRUE))
+            effect = TRUE;
         gBattleStruct->eventState.endTurnBlock++;
         break;
     }
+    case FIRST_EVENT_BLOCK_PASSIVES:
+        if (BATTLER_HAS_ANY_PASSIVE(battler) && TryEndTurnPassives(battler, IsFirstBlockEndTurnAbility))
+            effect = TRUE;
+        else
+            gBattleStruct->eventState.endTurnBlock++;
+        break;
     case FIRST_EVENT_BLOCK_HEAL_ITEMS:
         if (ItemBattleEffects(battler, 0, GetBattlerHoldEffect(battler), IsLeftoversActivation))
             effect = TRUE;
@@ -502,8 +547,9 @@ static bool32 HandleEndTurnLeechSeed(enum BattlerId battler)
         s32 drainAmount = GetNonDynamaxMaxHP(drainedBattler) / 8;
         s32 healAmount = GetDrainedBigRootHp(receiverBattler, drainAmount);
 
-        if (GetBattlerAbility(drainedBattler) == ABILITY_LIQUID_OOZE)
+        if (BattlerHasAbility(drainedBattler, ABILITY_LIQUID_OOZE))
         {
+            gLastUsedAbility = ABILITY_LIQUID_OOZE;
             SetPassiveDamageAmount(drainedBattler, drainAmount);
             SetPassiveDamageAmount(receiverBattler, healAmount);
             gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_LEECH_SEED_OOZE;
@@ -542,8 +588,9 @@ static bool32 HandleEndTurnPoison(enum BattlerId battler)
             if (isToxicPoison && (gBattleMons[battler].status1 & STATUS1_TOXIC_COUNTER) != STATUS1_TOXIC_TURN(15)) // not 16 turns
                 gBattleMons[battler].status1 += STATUS1_TOXIC_TURN(1);
         }
-        else if (ability == ABILITY_POISON_HEAL)
+        else if (ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_POISON_HEAL))
         {
+            gLastUsedAbility = ABILITY_POISON_HEAL; // Fusion: popup names a passive
             if (isToxicPoison && (gBattleMons[battler].status1 & STATUS1_TOXIC_COUNTER) != STATUS1_TOXIC_TURN(15)) // not 16 turns
                 gBattleMons[battler].status1 += STATUS1_TOXIC_TURN(1);
 
@@ -587,7 +634,7 @@ static bool32 HandleEndTurnBurn(enum BattlerId battler)
      && !IsAbilityAndRecord(battler, ability, ABILITY_MAGIC_GUARD))
     {
         s32 burnDamage = GetNonDynamaxMaxHP(battler) / ((GetConfig(B_BURN_DAMAGE) >= GEN_7 || GetConfig(B_BURN_DAMAGE) == GEN_1) ? 16 : 8);
-        if (ability == ABILITY_HEATPROOF)
+        if (ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_HEATPROOF))
         {
             if (burnDamage > (burnDamage / 2) + 1) // Record ability if the burn takes less damage than it normally would.
                 RecordAbilityBattle(battler, ABILITY_HEATPROOF);
@@ -933,8 +980,8 @@ static bool32 HandleEndTurnYawn(enum BattlerId battler)
         gBattleMons[battler].volatiles.yawn--;
         if (!gBattleMons[battler].volatiles.yawn
          && !(gBattleMons[battler].status1 & STATUS1_ANY)
-         && ability != ABILITY_VITAL_SPIRIT
-         && ability != ABILITY_INSOMNIA
+         && !ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_VITAL_SPIRIT)
+         && !ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_INSOMNIA)
          && !UproarWakeUpCheck(battler)
          && !IsLeafGuardProtected(battler, ability))
         {
@@ -1306,7 +1353,7 @@ static bool32 HandleEndTurnThirdEventBlock(enum BattlerId battler)
                 if (GetConfig(B_UPROAR) >= GEN_5) // This effect is only present in pre-Gen 5 Uproar
                     break;
 
-                bool32 hasSoundproof = GetConfig(B_UPROAR_IGNORE_SOUNDPROOF) < GEN_5 && GetBattlerAbility(gEffectBattler) == ABILITY_SOUNDPROOF;
+                bool32 hasSoundproof = GetConfig(B_UPROAR_IGNORE_SOUNDPROOF) < GEN_5 && BattlerHasAbility(gEffectBattler, ABILITY_SOUNDPROOF);
 
                 if ((gBattleMons[gEffectBattler].status1 & STATUS1_SLEEP)
                  && !hasSoundproof)
@@ -1355,22 +1402,12 @@ static bool32 HandleEndTurnThirdEventBlock(enum BattlerId battler)
         break;
     }
     case THIRD_EVENT_BLOCK_PASSIVES:
-    {
         // Fusion: one passive per call; stay in this state until all were tried.
-        u8 *slot = &gBattleStruct->fusionPassiveSlot[FUSION_PASSIVE_CURSOR_END_TURN][battler];
-        while (*slot < FUSION_MAX_PASSIVES && !effect)
-        {
-            enum Ability passive = GetBattlerPassive(battler, (*slot)++);
-            if (IsThirdBlockEndTurnAbility(passive) && AbilityBattleEffects(ABILITYEFFECT_ENDTURN, battler, passive, MOVE_NONE, TRUE))
-                effect = TRUE;
-        }
-        if (!effect)
-        {
-            *slot = 0;
+        if (BATTLER_HAS_ANY_PASSIVE(battler) && TryEndTurnPassives(battler, IsThirdBlockEndTurnAbility))
+            effect = TRUE;
+        else
             gBattleStruct->eventState.endTurnBlock++;
-        }
         break;
-    }
     case THIRD_EVENT_BLOCK_ITEMS:
         if (ItemBattleEffects(battler, 0, GetBattlerHoldEffect(battler), IsOrbsWhiteHerbActivation))
             effect = TRUE;

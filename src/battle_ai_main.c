@@ -1318,7 +1318,7 @@ static s32 AI_CheckBadMove(enum BattlerId battlerAtk, enum BattlerId battlerDef,
     // Don't use moves that miss against already semi-invulnerable targets when we move first.
     if (!CanBreakThroughSemiInvulnerablity(battlerAtk, battlerDef, aiData->abilities[battlerAtk], aiData->abilities[battlerDef], move)
      && moveEffect != EFFECT_SEMI_INVULNERABLE && AI_IsFaster(battlerAtk, battlerDef, move, predictedMove, CONSIDER_PRIORITY)
-     && abilityAtk != ABILITY_NO_GUARD && abilityDef != ABILITY_NO_GUARD)
+     && !ABILITY_OR_PASSIVE_IS(battlerAtk, abilityAtk, ABILITY_NO_GUARD) && !ABILITY_OR_PASSIVE_IS(battlerDef, abilityDef, ABILITY_NO_GUARD))
     {
         RETURN_SCORE_MINUS(10);
     }
@@ -1344,7 +1344,7 @@ static s32 AI_CheckBadMove(enum BattlerId battlerAtk, enum BattlerId battlerDef,
 
         if (moveEffect == EFFECT_SEMI_INVULNERABLE && aiData->holdEffects[battlerAtk] != HOLD_EFFECT_POWER_HERB)
         {
-            if (abilityAtk == ABILITY_NO_GUARD || abilityDef == ABILITY_NO_GUARD)
+            if (ABILITY_OR_PASSIVE_IS(battlerAtk, abilityAtk, ABILITY_NO_GUARD) || ABILITY_OR_PASSIVE_IS(battlerDef, abilityDef, ABILITY_NO_GUARD))
                 RETURN_SCORE_MINUS(10);
         }
     }
@@ -1380,7 +1380,8 @@ static s32 AI_CheckBadMove(enum BattlerId battlerAtk, enum BattlerId battlerDef,
     if (effectiveness == UQ_4_12(0.0))
         RETURN_SCORE_MINUS(20);
 
-    if (DoesBattlerIgnoreAbilityChecks(battlerAtk, abilityAtk, move))
+    bool32 defAbilitiesIgnored = DoesBattlerIgnoreAbilityChecks(battlerAtk, abilityAtk, move);
+    if (defAbilitiesIgnored)
         abilityDef = ABILITY_NONE;
 
     // If a Pokémon can be guaranteed flinched, don't target the Pokémon that can't be flinched.
@@ -1412,121 +1413,130 @@ static s32 AI_CheckBadMove(enum BattlerId battlerAtk, enum BattlerId battlerDef,
         if (AI_CanMoveBeBlockedByTarget(&ctx))
             RETURN_SCORE_MINUS(20);
 
-        switch (abilityDef)
+        // Fusion: passives are public, check them too unless the attacker ignores the target's abilities
+        FOR_EACH_ABILITY_SLOT(defAbility, battlerDef, abilityDef)
         {
-        case ABILITY_MAGIC_GUARD:
-            switch (moveEffect)
-            {
-            case EFFECT_LEECH_SEED:
-                ADJUST_SCORE(-5);
+            if (defAbilitiesIgnored && defAbility != abilityDef)
                 break;
-            case EFFECT_CURSE:
-                if (IS_BATTLER_OF_TYPE(battlerAtk, TYPE_GHOST)) // Don't use Curse if you're a ghost type vs a Magic Guard user, they'll take no damage.
+            switch (defAbility)
+            {
+            case ABILITY_MAGIC_GUARD:
+                switch (moveEffect)
+                {
+                case EFFECT_LEECH_SEED:
                     ADJUST_SCORE(-5);
-                break;
-            default:
-                break;
-            }
+                    break;
+                case EFFECT_CURSE:
+                    if (IS_BATTLER_OF_TYPE(battlerAtk, TYPE_GHOST)) // Don't use Curse if you're a ghost type vs a Magic Guard user, they'll take no damage.
+                        ADJUST_SCORE(-5);
+                    break;
+                default:
+                    break;
+                }
 
-            switch (nonVolatileStatus)
-            {
-            case MOVE_EFFECT_POISON:
-            case MOVE_EFFECT_TOXIC:
-            case MOVE_EFFECT_BURN:
-                ADJUST_SCORE(-5);
+                switch (nonVolatileStatus)
+                {
+                case MOVE_EFFECT_POISON:
+                case MOVE_EFFECT_TOXIC:
+                case MOVE_EFFECT_BURN:
+                    ADJUST_SCORE(-5);
+                    break;
+                default:
+                    break;
+                }
                 break;
-            default:
-                break;
-            }
-            break;
-        case ABILITY_WONDER_GUARD:
-            if (effectiveness < UQ_4_12(2.0))
-                RETURN_SCORE_MINUS(20);
-            break;
-        case ABILITY_JUSTIFIED:
-            if (moveType == TYPE_DARK && !IsBattleMoveStatus(move) && !IsTargetingPartner(battlerAtk, battlerDef))
-                RETURN_SCORE_MINUS(10);
-            break;
-        case ABILITY_RATTLED:
-            if (!IsBattleMoveStatus(move)
-              && (moveType == TYPE_DARK || moveType == TYPE_GHOST || moveType == TYPE_BUG))
-                RETURN_SCORE_MINUS(10);
-            break;
-        case ABILITY_AROMA_VEIL:
-            if (IsAromaVeilProtectedEffect(moveEffect))
-                RETURN_SCORE_MINUS(10);
-            break;
-        case ABILITY_SWEET_VEIL:
-            if (nonVolatileStatus == MOVE_EFFECT_SLEEP)
-                RETURN_SCORE_MINUS(10);
-            break;
-        case ABILITY_FLOWER_VEIL:
-            if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_GRASS) && (IsNonVolatileStatusMove(move)))
-                RETURN_SCORE_MINUS(10);
-            break;
-        case ABILITY_MAGIC_BOUNCE:
-            if (MoveCanBeBouncedBack(move))
-                RETURN_SCORE_MINUS(20);
-            break;
-        case ABILITY_CONTRARY:
-            if (IsStatLoweringMove(move))
-                RETURN_SCORE_MINUS(20);
-            break;
-        case ABILITY_COMATOSE:
-            if (IsNonVolatileStatusMove(move))
-                RETURN_SCORE_MINUS(10);
-            break;
-        case ABILITY_SHIELDS_DOWN:
-            if (IsShieldsDownProtected(battlerAtk, aiData->abilities[battlerAtk]) && IsNonVolatileStatusMove(move))
-                RETURN_SCORE_MINUS(10);
-            break;
-        case ABILITY_LEAF_GUARD:
-            if ((AI_GetWeather() & B_WEATHER_SUN)
-              && aiData->holdEffects[battlerDef] != HOLD_EFFECT_UTILITY_UMBRELLA
-              && IsNonVolatileStatusMove(move))
-                RETURN_SCORE_MINUS(10);
-            break;
-        default:
-            break;
-        } // def ability checks
-
-        // target partner ability checks & not attacking partner
-        if (hasTwoOpponents)
-        {
-            switch (aiData->abilities[GetPartnerBattler(battlerDef)])
-            {
-            case ABILITY_LIGHTNING_ROD:
-                if (moveType == TYPE_ELECTRIC && !IsMoveRedirectionPrevented(battlerAtk, move, aiData->abilities[battlerAtk]))
+            case ABILITY_WONDER_GUARD:
+                if (effectiveness < UQ_4_12(2.0))
                     RETURN_SCORE_MINUS(20);
                 break;
-            case ABILITY_STORM_DRAIN:
-                if (moveType == TYPE_WATER && !IsMoveRedirectionPrevented(battlerAtk, move, aiData->abilities[battlerAtk]))
-                    RETURN_SCORE_MINUS(20);
+            case ABILITY_JUSTIFIED:
+                if (moveType == TYPE_DARK && !IsBattleMoveStatus(move) && !IsTargetingPartner(battlerAtk, battlerDef))
+                    RETURN_SCORE_MINUS(10);
                 break;
-            case ABILITY_MAGIC_BOUNCE:
-                if (CanMoveBeBouncedBack(battlerAtk, move))
-                    RETURN_SCORE_MINUS(20);
-                break;
-            case ABILITY_SWEET_VEIL:
-                if (nonVolatileStatus == MOVE_EFFECT_SLEEP)
-                    RETURN_SCORE_MINUS(20);
-                break;
-            case ABILITY_FLOWER_VEIL:
-                if ((IS_BATTLER_OF_TYPE(battlerDef, TYPE_GRASS)) && (IsNonVolatileStatusMove(move) || IsStatLoweringMove(move)))
+            case ABILITY_RATTLED:
+                if (!IsBattleMoveStatus(move)
+                  && (moveType == TYPE_DARK || moveType == TYPE_GHOST || moveType == TYPE_BUG))
                     RETURN_SCORE_MINUS(10);
                 break;
             case ABILITY_AROMA_VEIL:
                 if (IsAromaVeilProtectedEffect(moveEffect))
                     RETURN_SCORE_MINUS(10);
                 break;
+            case ABILITY_SWEET_VEIL:
+                if (nonVolatileStatus == MOVE_EFFECT_SLEEP)
+                    RETURN_SCORE_MINUS(10);
+                break;
+            case ABILITY_FLOWER_VEIL:
+                if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_GRASS) && (IsNonVolatileStatusMove(move)))
+                    RETURN_SCORE_MINUS(10);
+                break;
+            case ABILITY_MAGIC_BOUNCE:
+                if (MoveCanBeBouncedBack(move))
+                    RETURN_SCORE_MINUS(20);
+                break;
+            case ABILITY_CONTRARY:
+                if (IsStatLoweringMove(move))
+                    RETURN_SCORE_MINUS(20);
+                break;
+            case ABILITY_COMATOSE:
+                if (IsNonVolatileStatusMove(move))
+                    RETURN_SCORE_MINUS(10);
+                break;
+            case ABILITY_SHIELDS_DOWN:
+                if (IsShieldsDownProtected(battlerAtk, aiData->abilities[battlerAtk]) && IsNonVolatileStatusMove(move))
+                    RETURN_SCORE_MINUS(10);
+                break;
+            case ABILITY_LEAF_GUARD:
+                if ((AI_GetWeather() & B_WEATHER_SUN)
+                  && aiData->holdEffects[battlerDef] != HOLD_EFFECT_UTILITY_UMBRELLA
+                  && IsNonVolatileStatusMove(move))
+                    RETURN_SCORE_MINUS(10);
+                break;
             default:
                 break;
+            }
+        } // def ability checks
+
+        // target partner ability checks & not attacking partner
+        if (hasTwoOpponents)
+        {
+            FOR_EACH_ABILITY_SLOT(partnerAbility, GetPartnerBattler(battlerDef), aiData->abilities[GetPartnerBattler(battlerDef)])
+            {
+                switch (partnerAbility)
+                {
+                case ABILITY_LIGHTNING_ROD:
+                    if (moveType == TYPE_ELECTRIC && !IsMoveRedirectionPrevented(battlerAtk, move, aiData->abilities[battlerAtk]))
+                        RETURN_SCORE_MINUS(20);
+                    break;
+                case ABILITY_STORM_DRAIN:
+                    if (moveType == TYPE_WATER && !IsMoveRedirectionPrevented(battlerAtk, move, aiData->abilities[battlerAtk]))
+                        RETURN_SCORE_MINUS(20);
+                    break;
+                case ABILITY_MAGIC_BOUNCE:
+                    if (CanMoveBeBouncedBack(battlerAtk, move))
+                        RETURN_SCORE_MINUS(20);
+                    break;
+                case ABILITY_SWEET_VEIL:
+                    if (nonVolatileStatus == MOVE_EFFECT_SLEEP)
+                        RETURN_SCORE_MINUS(20);
+                    break;
+                case ABILITY_FLOWER_VEIL:
+                    if ((IS_BATTLER_OF_TYPE(battlerDef, TYPE_GRASS)) && (IsNonVolatileStatusMove(move) || IsStatLoweringMove(move)))
+                        RETURN_SCORE_MINUS(10);
+                    break;
+                case ABILITY_AROMA_VEIL:
+                    if (IsAromaVeilProtectedEffect(moveEffect))
+                        RETURN_SCORE_MINUS(10);
+                    break;
+                default:
+                    break;
+                }
             }
         } // def partner ability checks
 
         // gen7+ dark type mons immune to priority->elevated moves from prankster
         if (GetConfig(B_PRANKSTER_DARK_TYPES) >= GEN_7 && IS_BATTLER_OF_TYPE(battlerDef, TYPE_DARK)
-          && aiData->abilities[battlerAtk] == ABILITY_PRANKSTER && IsBattleMoveStatus(move)
+          && ABILITY_OR_PASSIVE_IS(battlerAtk, aiData->abilities[battlerAtk], ABILITY_PRANKSTER) && IsBattleMoveStatus(move)
           && moveTarget != TARGET_OPPONENTS_FIELD
           && moveTarget != TARGET_USER)
             RETURN_SCORE_MINUS(10);

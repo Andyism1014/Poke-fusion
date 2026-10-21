@@ -3401,6 +3401,7 @@ void PokemonToBattleMon(struct Pokemon *src, struct BattlePokemon *dst)
     dst->types[0] = GetSpeciesType(dst->species, 0);
     dst->types[1] = GetSpeciesType(dst->species, 1);
     Fusion_GetMonBattleData(src, &dst->fusionType, &dst->fusionAbility, dst->passives);
+    Fusion_NotePassives(dst->passives);
     dst->types[2] = dst->fusionType;
     dst->isShiny = IsMonShiny(src);
     dst->affectionHearts = GetMonAffectionHearts(src);

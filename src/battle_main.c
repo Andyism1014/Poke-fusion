@@ -3135,6 +3135,7 @@ static void DoBattleIntro(void)
             else
             {
                 memcpy(&gBattleMons[battler], &gBattleResources->bufferB[battler][4], sizeof(struct BattlePokemon));
+                Fusion_NotePassives(gBattleMons[battler].passives);
                 gBattleMons[battler].types[0] = GetSpeciesType(gBattleMons[battler].species, 0);
                 gBattleMons[battler].types[1] = GetSpeciesType(gBattleMons[battler].species, 1);
                 gBattleMons[battler].types[2] = gBattleMons[battler].fusionType;
@@ -3701,7 +3702,7 @@ u8 IsRunningFromBattleImpossible(enum BattlerId battler)
         return BATTLE_RUN_SUCCESS;
     if (gBattleTypeFlags & BATTLE_TYPE_LINK)
         return BATTLE_RUN_SUCCESS;
-    if (GetBattlerAbility(battler) == ABILITY_RUN_AWAY)
+    if (BattlerHasAbility(battler, ABILITY_RUN_AWAY))
         return BATTLE_RUN_SUCCESS;
 
     if ((i = IsAbilityPreventingEscape(battler)))
@@ -4370,16 +4371,8 @@ void SwapTurnOrder(u8 id1, u8 id2)
     SWAP(gBattlerByTurnOrder[id1], gBattlerByTurnOrder[id2], temp);
 }
 
-// For AI, so it doesn't 'cheat' by knowing player's ability
-u32 GetBattlerTotalSpeedStat(enum BattlerId battler, enum Ability ability, enum HoldEffect holdEffect)
+static inline u32 ApplySpeedAbilityModifiers(enum BattlerId battler, enum Ability ability, enum HoldEffect holdEffect, u32 weather, u32 speed, bool32 boosterEnergy)
 {
-    u32 speed = gBattleMons[battler].speed;
-
-    // stat stages
-    speed *= gStatStageRatios[gBattleMons[battler].statStages[STAT_SPEED]][0];
-    speed /= gStatStageRatios[gBattleMons[battler].statStages[STAT_SPEED]][1];
-
-    u32 weather = GetWeather();
     // weather abilities
     if (ability == ABILITY_SWIFT_SWIM       && holdEffect != HOLD_EFFECT_UTILITY_UMBRELLA && weather  & B_WEATHER_RAIN)
         speed *= 2;
@@ -4397,12 +4390,37 @@ u32 GetBattlerTotalSpeedStat(enum BattlerId battler, enum Ability ability, enum 
         speed *= 2;
     else if (ability == ABILITY_SLOW_START && gBattleMons[battler].volatiles.slowStartTimer != 0)
         speed /= 2;
-    else if ((ability == ABILITY_PROTOSYNTHESIS && !gBattleMons[battler].volatiles.transformed && weather & B_WEATHER_SUN) || gBattleMons[battler].volatiles.boosterEnergyActivated)
+    else if ((ability == ABILITY_PROTOSYNTHESIS && !gBattleMons[battler].volatiles.transformed && weather & B_WEATHER_SUN) || (boosterEnergy && gBattleMons[battler].volatiles.boosterEnergyActivated))
         speed = (GetParadoxBoostedStatId(battler) == STAT_SPEED) ? (speed * 150) / 100 : speed;
-    else if (ability == ABILITY_QUARK_DRIVE && !(gBattleMons[battler].volatiles.transformed) && (gFieldTimers.terrain == B_TERRAIN_ELECTRIC || gBattleMons[battler].volatiles.boosterEnergyActivated))
+    else if (ability == ABILITY_QUARK_DRIVE && !(gBattleMons[battler].volatiles.transformed) && (gFieldTimers.terrain == B_TERRAIN_ELECTRIC || (boosterEnergy && gBattleMons[battler].volatiles.boosterEnergyActivated)))
         speed = (GetParadoxBoostedStatId(battler) == STAT_SPEED) ? (speed * 150) / 100 : speed;
     else if (ability == ABILITY_UNBURDEN && gBattleMons[battler].volatiles.unburdenActive)
         speed *= 2;
+
+    return speed;
+}
+
+// For AI, so it doesn't 'cheat' by knowing player's ability
+u32 GetBattlerTotalSpeedStat(enum BattlerId battler, enum Ability ability, enum HoldEffect holdEffect)
+{
+    u32 speed = gBattleMons[battler].speed;
+
+    // stat stages
+    speed *= gStatStageRatios[gBattleMons[battler].statStages[STAT_SPEED]][0];
+    speed /= gStatStageRatios[gBattleMons[battler].statStages[STAT_SPEED]][1];
+
+    u32 weather = GetWeather();
+    speed = ApplySpeedAbilityModifiers(battler, ability, holdEffect, weather, speed, TRUE);
+    // Fusion: passives modify speed like the main ability, Booster Energy only counts once
+    if (BATTLER_HAS_ANY_PASSIVE(battler))
+    {
+        for (u32 slot = 0; slot < FUSION_MAX_PASSIVES; slot++)
+        {
+            enum Ability passive = GetBattlerPassive(battler, slot);
+            if (passive != ABILITY_NONE)
+                speed = ApplySpeedAbilityModifiers(battler, passive, holdEffect, weather, speed, FALSE);
+        }
+    }
 
     // player's badge boost
     if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK | BATTLE_TYPE_FRONTIER))
@@ -4427,7 +4445,7 @@ u32 GetBattlerTotalSpeedStat(enum BattlerId battler, enum Ability ability, enum 
         speed *= 2;
 
     // paralysis drop
-    if (gBattleMons[battler].status1 & STATUS1_PARALYSIS && ability != ABILITY_QUICK_FEET)
+    if (gBattleMons[battler].status1 & STATUS1_PARALYSIS && !ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_QUICK_FEET))
         speed /= GetConfig(B_PARALYSIS_SPEED) >= GEN_7 ? 2 : 4;
 
     if (gSideStatuses[GetBattlerSide(battler)] & SIDE_STATUS_SWAMP)
@@ -4457,6 +4475,7 @@ s32 GetChosenMovePriority(enum BattlerId battler, enum Ability ability)
 s32 GetBattleMovePriority(enum BattlerId battler, enum Ability ability, enum Move move)
 {
     s32 priority = 0;
+    bool32 hasPassives = BATTLER_HAS_ANY_PASSIVE(battler);
 
     if (GetActiveGimmick(battler) == GIMMICK_Z_MOVE && !IsBattleMoveStatus(move))
         move = GetUsableZMove(battler, move);
@@ -4471,7 +4490,7 @@ s32 GetBattleMovePriority(enum BattlerId battler, enum Ability ability, enum Mov
     {
         priority = -8;
     }
-    else if (ability == ABILITY_GALE_WINGS
+    else if (ABILITY_OR_PASSIVE_IS_P(hasPassives, battler, ability, ABILITY_GALE_WINGS)
           && (GetConfig(B_GALE_WINGS) < GEN_7 || IsBattlerAtMaxHp(battler))
           && GetMoveType(move) == TYPE_FLYING)
     {
@@ -4488,7 +4507,7 @@ s32 GetBattleMovePriority(enum BattlerId battler, enum Ability ability, enum Mov
     {
         priority++;
     }
-    else if (ability == ABILITY_TRIAGE && IsHealingMove(move))
+    else if (ABILITY_OR_PASSIVE_IS_P(hasPassives, battler, ability, ABILITY_TRIAGE) && IsHealingMove(move))
     {
         priority += 3;
     }
@@ -5517,6 +5536,38 @@ enum Type TrySetAteType(enum Move move, enum BattlerId battlerAtk, enum Ability 
     return ateType;
 }
 
+static bool32 IsMoveTypeChangingAbility(enum Ability ability, enum Move move)
+{
+    switch (ability)
+    {
+    case ABILITY_PIXILATE:
+    case ABILITY_REFRIGERATE:
+    case ABILITY_AERILATE:
+    case ABILITY_GALVANIZE:
+    case ABILITY_DRAGONIZE:
+    case ABILITY_NORMALIZE:
+        return TRUE;
+    case ABILITY_LIQUID_VOICE:
+        return IsSoundMove(move);
+    default:
+        return FALSE;
+    }
+}
+
+// Fusion: a passive -ate ability, Normalize or Liquid Voice changes the move type when the main ability doesn't.
+static enum Ability GetMoveTypeChangingAbility(enum BattlerId battler, enum Ability ability, enum Move move)
+{
+    if (IsMoveTypeChangingAbility(ability, move))
+        return ability;
+    for (u32 slot = 0; slot < FUSION_MAX_PASSIVES; slot++)
+    {
+        enum Ability passive = GetBattlerPassive(battler, slot);
+        if (IsMoveTypeChangingAbility(passive, move))
+            return passive;
+    }
+    return ability;
+}
+
 // Returns TYPE_NONE if type doesn't change.
 enum Type GetDynamicMoveType(struct Pokemon *mon, enum Move move, enum BattlerId battler, enum Ability ability, enum HoldEffect holdEffect, enum MonState state)
 {
@@ -5720,6 +5771,9 @@ enum Type GetDynamicMoveType(struct Pokemon *mon, enum Move move, enum BattlerId
     default:
         break;
     }
+
+    if (state == MON_IN_BATTLE && BATTLER_HAS_ANY_PASSIVE(battler))
+        ability = GetMoveTypeChangingAbility(battler, ability, move);
 
     if (IsSoundMove(move) && ability == ABILITY_LIQUID_VOICE)
     {
