@@ -1266,6 +1266,26 @@ static bool32 HandleEndTurnTerrain(enum BattlerId battler)
     return FALSE;
 }
 
+
+static bool32 IsThirdBlockEndTurnAbility(enum Ability ability)
+{
+    switch (ability)
+    {
+    case ABILITY_TRUANT: // Not fully accurate but it has to be handled somehow. TODO: Implement the correct gen5+ behavior
+    case ABILITY_CUD_CHEW:
+    case ABILITY_SLOW_START:
+    case ABILITY_BAD_DREAMS:
+    case ABILITY_BALL_FETCH:
+    case ABILITY_HARVEST:
+    case ABILITY_MOODY:
+    case ABILITY_PICKUP:
+    case ABILITY_SPEED_BOOST:
+        return TRUE;
+    default:
+        return FALSE;
+    }
+}
+
 static bool32 HandleEndTurnThirdEventBlock(enum BattlerId battler)
 {
     bool32 effect = FALSE;
@@ -1329,24 +1349,26 @@ static bool32 HandleEndTurnThirdEventBlock(enum BattlerId battler)
     case THIRD_EVENT_BLOCK_ABILITIES:
     {
         enum Ability ability = GetBattlerAbility(battler);
-        switch (ability)
-        {
-        case ABILITY_TRUANT: // Not fully accurate but it has to be handled somehow. TODO: Implement the correct gen5+ behavior
-        case ABILITY_CUD_CHEW:
-        case ABILITY_SLOW_START:
-        case ABILITY_BAD_DREAMS:
-        case ABILITY_BALL_FETCH:
-        case ABILITY_HARVEST:
-        case ABILITY_MOODY:
-        case ABILITY_PICKUP:
-        case ABILITY_SPEED_BOOST:
-            if (AbilityBattleEffects(ABILITYEFFECT_ENDTURN, battler, ability, MOVE_NONE, TRUE))
-                effect = TRUE;
-            break;
-        default:
-            break;
-        }
+        if (IsThirdBlockEndTurnAbility(ability) && AbilityBattleEffects(ABILITYEFFECT_ENDTURN, battler, ability, MOVE_NONE, TRUE))
+            effect = TRUE;
         gBattleStruct->eventState.endTurnBlock++;
+        break;
+    }
+    case THIRD_EVENT_BLOCK_PASSIVES:
+    {
+        // Fusion: one passive per call; stay in this state until all were tried.
+        u8 *slot = &gBattleStruct->fusionPassiveSlot[FUSION_PASSIVE_CURSOR_END_TURN][battler];
+        while (*slot < FUSION_MAX_PASSIVES && !effect)
+        {
+            enum Ability passive = GetBattlerPassive(battler, (*slot)++);
+            if (IsThirdBlockEndTurnAbility(passive) && AbilityBattleEffects(ABILITYEFFECT_ENDTURN, battler, passive, MOVE_NONE, TRUE))
+                effect = TRUE;
+        }
+        if (!effect)
+        {
+            *slot = 0;
+            gBattleStruct->eventState.endTurnBlock++;
+        }
         break;
     }
     case THIRD_EVENT_BLOCK_ITEMS:

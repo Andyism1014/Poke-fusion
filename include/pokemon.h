@@ -1,6 +1,7 @@
 #ifndef GUARD_POKEMON_H
 #define GUARD_POKEMON_H
 
+#include "constants/fusion.h"
 #include "contest_effect.h"
 #include "sprite.h"
 #include "wild_encounter_ow.h"
@@ -126,6 +127,7 @@ enum MonData {
     MON_DATA_TERA_TYPE,
     MON_DATA_EVOLUTION_TRACKER,
     MON_DATA_FUSION_GENETICS, // Raw packed bytes, use Fusion_GetBoxMonGenetics / Fusion_SetBoxMonGenetics instead.
+    MON_DATA_FUSION_EFFECTIVE_ABILITY, // Read only: the cross-species main ability, or the species ability. Used by GetMonAbility.
 };
 
 #define BLOCK_AI_DYNAMAX 15 // Used as dynamax level value by the AI to indicate this mon shouldn't dynamax
@@ -353,6 +355,8 @@ struct BattlePokemon
     enum Ability ability;
     enum Type types[3];
     enum Type fusionType; // Fusion: persistent third type, TYPE_MYSTERY if none. Restored into types[2] on switch-in.
+    enum Ability fusionAbility; // Fusion: cross-species main ability, ABILITY_NONE = use species + abilityNum.
+    enum Ability passives[FUSION_MAX_PASSIVES]; // Fusion: active alongside the main ability, see GetBattlerPassive.
     u8 pp[MAX_MON_MOVES];
     u16 hp;
     u8 level;

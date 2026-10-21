@@ -76,6 +76,13 @@ void Fusion_UnpackGenetics(const u8 *packed, struct FusionGenetics *genetics)
     genetics->flags = GetBits(raw, SHIFT_FLAGS, FLAG_BITS);
 }
 
+// Main ability only, without unpacking the rest.
+enum Ability Fusion_UnpackMainAbility(const u8 *packed)
+{
+    u32 raw = packed[0] | (packed[1] << 8);
+    return SanitizeAbility(GetBits(raw, SHIFT_MAIN_ABILITY, ABILITY_BITS));
+}
+
 void Fusion_GetBoxMonGenetics(struct BoxPokemon *boxMon, struct FusionGenetics *genetics)
 {
     u8 packed[FUSION_GENETICS_SIZE];

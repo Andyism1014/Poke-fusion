@@ -3240,7 +3240,7 @@ static void Cmd_switchindataupdate(void)
     gBattleMons[battler].types[0] = GetSpeciesType(gBattleMons[battler].species, 0);
     gBattleMons[battler].types[1] = GetSpeciesType(gBattleMons[battler].species, 1);
     gBattleMons[battler].types[2] = gBattleMons[battler].fusionType;
-    gBattleMons[battler].ability = GetAbilityBySpecies(gBattleMons[battler].species, gBattleMons[battler].abilityNum);
+    gBattleMons[battler].ability = GetBattleMonBaseAbility(&gBattleMons[battler]);
     #if TESTING
     if (gTestRunnerEnabled)
     {
@@ -6476,7 +6476,6 @@ static void Cmd_healpartystatus(void)
     for (i = 0; i < PARTY_SIZE; i++)
     {
         enum Species species = GetMonData(&party[i], MON_DATA_SPECIES_OR_EGG);
-        u8 abilityNum = GetMonData(&party[i], MON_DATA_ABILITY_NUM);
 
         if (species != SPECIES_NONE && species != SPECIES_EGG)
         {
@@ -6495,7 +6494,7 @@ static void Cmd_healpartystatus(void)
                 ability = GetBattlerAbility(partner);
             else
             {
-                ability = GetAbilityBySpecies(species, abilityNum);
+                ability = GetMonAbility(&party[i]);
                 #if TESTING
                 if (gTestRunnerEnabled)
                 {
@@ -7484,35 +7483,47 @@ static void Cmd_switchoutabilities(void)
         }
     }
 
-    switch (GetBattlerAbility(battler))
+    // Fusion: Natural Cure and Regenerator can both be active. Each needs its own controller
+    // update, so apply one per execution and run this command again for the next one.
+    FOR_EACH_ABILITY_SLOT(ability, battler, GetBattlerAbility(battler))
     {
-    case ABILITY_NATURAL_CURE:
-        if (gBattleMons[battler].status1 & STATUS1_SLEEP)
-            TryDeactivateSleepClause(battler, gBattlerPartyIndexes[battler]);
+        switch (ability)
+        {
+        case ABILITY_NATURAL_CURE:
+            if (gBattleStruct->fusionSwitchOutDone & (1u << 0))
+                break;
+            gBattleStruct->fusionSwitchOutDone |= 1u << 0;
+            if (gBattleMons[battler].status1 & STATUS1_SLEEP)
+                TryDeactivateSleepClause(battler, gBattlerPartyIndexes[battler]);
 
-        gBattleMons[battler].status1 = 0;
-        BtlController_EmitSetMonData(battler, B_COMM_TO_CONTROLLER, REQUEST_STATUS_BATTLE,
-                                        1u << gBattlerPartyIndexes[battler],
-                                        sizeof(gBattleMons[battler].status1),
-                                        &gBattleMons[battler].status1);
-        MarkBattlerForControllerExec(battler);
-        break;
-    case ABILITY_REGENERATOR:
-    {
-        u32 regenerate = GetNonDynamaxMaxHP(battler) / 3;
-        regenerate += gBattleMons[battler].hp;
-        if (regenerate > gBattleMons[battler].maxHP)
-            regenerate = gBattleMons[battler].maxHP;
-        BtlController_EmitSetMonData(battler, B_COMM_TO_CONTROLLER, REQUEST_HP_BATTLE,
-                                        1u << gBattlerPartyIndexes[battler],
-                                        sizeof(regenerate),
-                                        &regenerate);
-        MarkBattlerForControllerExec(battler);
-        break;
+            gBattleMons[battler].status1 = 0;
+            BtlController_EmitSetMonData(battler, B_COMM_TO_CONTROLLER, REQUEST_STATUS_BATTLE,
+                                            1u << gBattlerPartyIndexes[battler],
+                                            sizeof(gBattleMons[battler].status1),
+                                            &gBattleMons[battler].status1);
+            MarkBattlerForControllerExec(battler);
+            return;
+        case ABILITY_REGENERATOR:
+        {
+            u32 regenerate = GetNonDynamaxMaxHP(battler) / 3;
+            if (gBattleStruct->fusionSwitchOutDone & (1u << 1))
+                break;
+            gBattleStruct->fusionSwitchOutDone |= 1u << 1;
+            regenerate += gBattleMons[battler].hp;
+            if (regenerate > gBattleMons[battler].maxHP)
+                regenerate = gBattleMons[battler].maxHP;
+            BtlController_EmitSetMonData(battler, B_COMM_TO_CONTROLLER, REQUEST_HP_BATTLE,
+                                            1u << gBattlerPartyIndexes[battler],
+                                            sizeof(regenerate),
+                                            &regenerate);
+            MarkBattlerForControllerExec(battler);
+            return;
+        }
+        default:
+            break;
+        }
     }
-    default:
-        break;
-    }
+    gBattleStruct->fusionSwitchOutDone = 0;
 
     gBattleStruct->battlerState[battler].notOnField = TRUE;
 
@@ -9976,17 +9987,15 @@ static void UpdatePokeFlutePartyStatus(struct Pokemon* party, enum BattlerPositi
     enum BattlerId battler;
     u32 monToCheck, status;
     enum Species species;
-    u16 abilityNum;
     monToCheck = 0;
     for (i = 0; i < PARTY_SIZE; i++)
     {
         species = GetMonData(&party[i], MON_DATA_SPECIES_OR_EGG);
-        abilityNum = GetMonData(&party[i], MON_DATA_ABILITY_NUM);
         status = GetMonData(&party[i], MON_DATA_STATUS);
         if (species != SPECIES_NONE
             && species != SPECIES_EGG
             && status & AILMENT_FNT
-            && GetAbilityBySpecies(species, abilityNum) != ABILITY_SOUNDPROOF)
+            && GetMonAbility(&party[i]) != ABILITY_SOUNDPROOF)
             monToCheck |= (1 << i);
     }
     if (monToCheck)

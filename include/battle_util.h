@@ -111,6 +111,34 @@ enum Ability GetBattlerAbilityIgnoreMoldBreaker(enum BattlerId battler);
 enum Ability GetBattlerAbilityNoAbilityShield(enum BattlerId battler);
 enum Ability GetBattlerAbilityInternal(enum BattlerId battler, bool32 ignoreMoldBreaker, bool32 noAbilityShield);
 enum Ability GetBattlerAbility(enum BattlerId battler);
+// Fusion: passives (see docs/fusion/research/multi_ability.md)
+bool32 BattlerHasAnyPassive(enum BattlerId battler);
+enum Ability GetBattlerPassive(enum BattlerId battler, u32 slot);
+enum Ability GetBattlerPassiveIgnoreMoldBreaker(enum BattlerId battler, u32 slot);
+bool32 BattlerHasAbilityRaw(enum BattlerId battler, enum Ability ability);
+bool32 BattlerHasPassive(enum BattlerId battler, enum Ability ability);
+bool32 BattlerHasPassiveIgnoreMoldBreaker(enum BattlerId battler, enum Ability ability);
+bool32 BattlerHasAbility(enum BattlerId battler, enum Ability ability);
+bool32 BattlerHasAbilityIgnoreMoldBreaker(enum BattlerId battler, enum Ability ability);
+bool32 AbilityOrPassiveIs(enum BattlerId battler, enum Ability mainAbility, enum Ability ability);
+enum Ability GetBattlerAbilityInSlot(enum BattlerId battler, u32 slot, enum Ability mainAbility);
+
+// Fusion: runs the loop body for the main ability (slot 0) and then each active passive.
+// Duplicates are skipped, so an ability never stacks with itself.
+// Battlers without passives run the body exactly once, like vanilla.
+#define BATTLER_HAS_ANY_PASSIVE(_battler) \
+    ((gBattleMons[_battler].passives[0] | gBattleMons[_battler].passives[1] | gBattleMons[_battler].passives[2]) != ABILITY_NONE)
+#define FOR_EACH_ABILITY_SLOT(_ability, _battler, _mainAbility)                                                     \
+    for (u32 _last##_ability = BATTLER_HAS_ANY_PASSIVE(_battler) ? FUSION_MAX_PASSIVES : 0, _slot##_ability = 0, \
+             _ability = (_mainAbility);                                                                          \
+         _slot##_ability <= _last##_ability;                                                                     \
+         _ability = (++_slot##_ability <= _last##_ability) ? GetBattlerAbilityInSlot(_battler, _slot##_ability, _mainAbility) : ABILITY_NONE)
+
+// Inline form of AbilityOrPassiveIs for hot paths.
+#define ABILITY_OR_PASSIVE_IS(_battler, _mainAbility, _ability) \
+    ((_mainAbility) == (_ability) || (BATTLER_HAS_ANY_PASSIVE(_battler) && BattlerHasPassive(_battler, _ability)))
+
+bool32 TryNextPassiveAbilityEffect(enum FusionPassiveCursor cursor, enum AbilityEffect caseID, enum BattlerId battler, enum Move move, bool32 shouldAbilityTrigger);
 u32 IsAbilityOnSide(enum BattlerId battler, enum Ability ability);
 u32 IsAbilityOnField(enum Ability ability);
 u32 IsAbilityPreventingEscape(enum BattlerId battler);
@@ -183,6 +211,7 @@ enum DamageCategory GetCategoryBasedOnStats(enum BattlerId battler);
 void SetShellSideArmCategory(void);
 bool32 MoveIsAffectedBySheerForce(enum Move move);
 bool32 IsSheerForceAffected(enum Move move, enum Ability ability);
+bool32 IsBattlerSheerForceAffected(enum BattlerId battler, enum Move move, enum Ability ability);
 void SetItemsToRestoreAfterBattle(enum BattleTrainer trainer, u32 partySlot);
 void TryRestoreHeldItems(void);
 void RestoreCaughtWildMonHeldItem(struct Pokemon *mon, enum BattlerId battler);

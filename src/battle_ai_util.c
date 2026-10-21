@@ -1036,7 +1036,7 @@ static bool32 AI_IsMoveEffectInPlus(enum BattlerId battlerAtk, enum BattlerId ba
     enum Move predictedMove = GetPredictedMove(battlerAtk, battlerDef, gAiLogicData);
     bool32 aiIsFaster = AI_IsFaster(battlerAtk, battlerDef, move, predictedMove, CONSIDER_PRIORITY);
 
-    if (IsSheerForceAffected(move, abilityAtk)
+    if (IsBattlerSheerForceAffected(battlerAtk, move, abilityAtk)
      && !(move == MOVE_ORDER_UP && gBattleStruct->battlerState[battlerAtk].commanderSpecies != SPECIES_NONE))
     {
         return FALSE;
@@ -1785,6 +1785,10 @@ enum Ability AI_DecideKnownAbilityForTurn(enum BattlerId battlerId)
 
     if (gAiPartyData->mons[GetBattlerSide(battlerId)][gBattlerPartyIndexes[battlerId]].ability != ABILITY_NONE)
         return gAiPartyData->mons[GetBattlerSide(battlerId)][gBattlerPartyIndexes[battlerId]].ability;
+
+    // Fusion: cross-species abilities are shown to both players.
+    if (gBattleMons[battlerId].fusionAbility != ABILITY_NONE && knownAbility == gBattleMons[battlerId].fusionAbility)
+        return knownAbility;
 
     // Abilities that prevent fleeing - treat as always known
     if (knownAbility == ABILITY_SHADOW_TAG || knownAbility == ABILITY_MAGNET_PULL || knownAbility == ABILITY_ARENA_TRAP)

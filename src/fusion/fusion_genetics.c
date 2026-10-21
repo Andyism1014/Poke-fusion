@@ -38,13 +38,9 @@ static bool32 ContainsType(const enum Type *list, u32 count, enum Type type)
     return FALSE;
 }
 
+// GetMonAbility already honors the cross-species override.
 enum Ability Fusion_GetMonMainAbility(struct Pokemon *mon)
 {
-    struct FusionGenetics genetics;
-
-    Fusion_GetMonGenetics(mon, &genetics);
-    if (genetics.mainAbility != ABILITY_NONE)
-        return genetics.mainAbility;
     return GetMonAbility(mon);
 }
 
@@ -59,6 +55,23 @@ enum Type Fusion_GetBoxMonThirdType(struct BoxPokemon *boxMon)
     if (genetics.extraType == GetSpeciesType(species, 0) || genetics.extraType == GetSpeciesType(species, 1))
         return TYPE_NONE;
     return genetics.extraType;
+}
+
+// Abilities that rewrite the Pokémon's ability or form, or can't be copied in battle,
+// only work as a main ability. They are never inherited as passives.
+bool32 Fusion_CanBePassive(enum Ability ability)
+{
+    if (ability == ABILITY_NONE || ability >= ABILITIES_COUNT)
+        return FALSE;
+    if (gAbilitiesInfo[ability].cantBeCopied)
+        return FALSE;
+    switch (ability)
+    {
+    case ABILITY_GULP_MISSILE:
+        return FALSE;
+    default:
+        return TRUE;
+    }
 }
 
 // Every ability a parent can pass on: its main ability followed by its passives.
@@ -118,7 +131,7 @@ static u32 BuildPassivePool(struct Pokemon *parentA, struct Pokemon *parentB, en
         {
             enum Ability ability = abilities[parent][i];
 
-            if (ability != ABILITY_NONE && ability != childMain && !ContainsAbility(pool, count, ability))
+            if (Fusion_CanBePassive(ability) && ability != childMain && !ContainsAbility(pool, count, ability))
                 pool[count++] = ability;
         }
     }

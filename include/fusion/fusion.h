@@ -4,8 +4,8 @@
 #include "fusion/fusion_config.h"
 #include "constants/abilities.h"
 #include "constants/pokemon.h"
+#include "constants/fusion.h"
 
-#define FUSION_MAX_PASSIVES     3
 #define FUSION_GENETICS_SIZE    6 // Bytes stored per BoxPokemon, see PokemonSubstruct2.fusionGenetics.
 #define FUSION_MAX_GENERATION   31
 
@@ -76,6 +76,7 @@ struct FusionPreview
 
 // fusion_genetics.c
 enum Ability Fusion_GetMonMainAbility(struct Pokemon *mon);
+bool32 Fusion_CanBePassive(enum Ability ability);
 enum Type Fusion_GetBoxMonThirdType(struct BoxPokemon *boxMon);
 void Fusion_BuildPreview(struct Pokemon *parentA, struct Pokemon *parentB, struct FusionPreview *preview);
 void Fusion_GenerateChild(struct Pokemon *parentA, struct Pokemon *parentB, u32 seed, struct Pokemon *child);
@@ -84,10 +85,14 @@ bool32 Fusion_Fuse(const struct FusionMonRef *refA, const struct FusionMonRef *r
 
 // fusion_types.c
 enum Type Fusion_GetMonBattleThirdType(struct Pokemon *mon);
+enum Ability Fusion_GetMonAbilityOverride(struct Pokemon *mon);
+void Fusion_GetMonPassives(struct Pokemon *mon, enum Ability *passives);
+void Fusion_GetMonBattleData(struct Pokemon *mon, enum Type *thirdType, enum Ability *mainAbility, enum Ability *passives);
 
 // fusion_save.c
 void Fusion_PackGenetics(const struct FusionGenetics *genetics, u8 *packed);
 void Fusion_UnpackGenetics(const u8 *packed, struct FusionGenetics *genetics);
+enum Ability Fusion_UnpackMainAbility(const u8 *packed);
 void Fusion_GetBoxMonGenetics(struct BoxPokemon *boxMon, struct FusionGenetics *genetics);
 void Fusion_SetBoxMonGenetics(struct BoxPokemon *boxMon, const struct FusionGenetics *genetics);
 void Fusion_GetMonGenetics(struct Pokemon *mon, struct FusionGenetics *genetics);

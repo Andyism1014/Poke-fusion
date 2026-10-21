@@ -179,7 +179,8 @@ TEST("Fusion genetics: a cross-species main ability is stored as an override")
         if (g.mainAbility != ABILITY_NONE)
         {
             sawOverride = TRUE;
-            EXPECT_NE(g.mainAbility, GetMonAbility(&child));
+            EXPECT_NE(g.mainAbility, GetAbilityBySpecies(GetMonData(&child, MON_DATA_SPECIES), GetMonData(&child, MON_DATA_ABILITY_NUM)));
+            EXPECT_EQ(g.mainAbility, GetMonAbility(&child));
         }
     }
     EXPECT(sawOverride);
@@ -271,4 +272,27 @@ TEST("Fusion: parents holding mail are rejected")
     SetMonData(&gParties[B_TRAINER_PLAYER][1], MON_DATA_HELD_ITEM, &mail);
 
     EXPECT_EQ(Fusion_CheckParents(&refA, &refB), FUSION_CHECK_HOLDS_MAIL);
+}
+
+TEST("Fusion genetics: form and copy abilities are never inherited as passives")
+{
+    struct Pokemon a, b, child;
+
+    EXPECT(!Fusion_CanBePassive(ABILITY_TRACE));
+    EXPECT(!Fusion_CanBePassive(ABILITY_WONDER_GUARD));
+    EXPECT(!Fusion_CanBePassive(ABILITY_STANCE_CHANGE));
+    EXPECT(Fusion_CanBePassive(ABILITY_INTIMIDATE));
+
+    MakeParent(&a, SPECIES_WOBBUFFET, 30, 10, NULL);
+    MakeParent(&b, SPECIES_GARDEVOIR, 30, 10, NULL);
+    SetMonData(&b, MON_DATA_ABILITY_NUM, &(u32){1});
+    EXPECT_EQ(GetMonAbility(&b), ABILITY_TRACE);
+    for (u32 seed = 0; seed < SEEDS; seed++)
+    {
+        struct FusionGenetics g;
+        Fusion_GenerateChild(&a, &b, seed, &child);
+        Fusion_GetMonGenetics(&child, &g);
+        for (u32 i = 0; i < FUSION_MAX_PASSIVES; i++)
+            EXPECT_NE(g.passives[i], ABILITY_TRACE);
+    }
 }

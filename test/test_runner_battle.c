@@ -2759,6 +2759,29 @@ void FusionType_(u32 sourceLine, enum Type type)
     Fusion_SetMonGenetics(DATA.currentMon, &genetics);
 }
 
+// Fusion: gives the mon a cross-species main ability.
+void FusionAbility_(u32 sourceLine, enum Ability ability)
+{
+    struct FusionGenetics genetics;
+
+    INVALID_IF(!DATA.currentMon, "FusionAbility outside of PLAYER/OPPONENT");
+    Fusion_GetMonGenetics(DATA.currentMon, &genetics);
+    genetics.mainAbility = ability;
+    Fusion_SetMonGenetics(DATA.currentMon, &genetics);
+}
+
+// Fusion: gives the mon up to FUSION_MAX_PASSIVES passive abilities.
+void Passives_(u32 sourceLine, const enum Ability *passives)
+{
+    struct FusionGenetics genetics;
+
+    INVALID_IF(!DATA.currentMon, "Passives outside of PLAYER/OPPONENT");
+    Fusion_GetMonGenetics(DATA.currentMon, &genetics);
+    for (u32 i = 0; i < FUSION_MAX_PASSIVES; i++)
+        genetics.passives[i] = passives[i];
+    Fusion_SetMonGenetics(DATA.currentMon, &genetics);
+}
+
 void Shadow_(u32 sourceLine, bool32 isShadow)
 {
     INVALID_IF(!DATA.currentMon, "Shadow outside of PLAYER/OPPONENT");

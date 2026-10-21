@@ -2183,6 +2183,12 @@ u32 GetBoxMonData3(struct BoxPokemon *boxMon, s32 field, u8 *data)
         case MON_DATA_FUSION_GENETICS:
             memcpy(data, GetSubstruct2(boxMon)->fusionGenetics, sizeof(GetSubstruct2(boxMon)->fusionGenetics));
             break;
+        case MON_DATA_FUSION_EFFECTIVE_ABILITY:
+            // One decryption instead of three: this is on the AI's hot path.
+            retVal = Fusion_UnpackMainAbility(GetSubstruct2(boxMon)->fusionGenetics);
+            if (retVal == ABILITY_NONE)
+                retVal = GetAbilityBySpecies(GetSubstruct0(boxMon)->species, GetSubstruct3(boxMon)->abilityNum);
+            break;
         case MON_DATA_POKERUS:
             retVal = GetSubstruct3(boxMon)->pokerus;
             break;
@@ -3092,9 +3098,8 @@ enum Ability GetAbilityBySpecies(enum Species species, u8 abilityNum)
 
 enum Ability GetMonAbility(struct Pokemon *mon)
 {
-    enum Species species = GetMonData(mon, MON_DATA_SPECIES);
-    u8 abilityNum = GetMonData(mon, MON_DATA_ABILITY_NUM);
-    return GetAbilityBySpecies(species, abilityNum);
+    // Fusion: honors the cross-species main ability.
+    return GetMonData(mon, MON_DATA_FUSION_EFFECTIVE_ABILITY);
 }
 
 void CreateSecretBaseEnemyParty(struct SecretBase *secretBaseRecord)
@@ -3387,11 +3392,11 @@ void PokemonToBattleMon(struct Pokemon *src, struct BattlePokemon *dst)
     dst->otId = GetMonData(src, MON_DATA_OT_ID);
     dst->types[0] = GetSpeciesType(dst->species, 0);
     dst->types[1] = GetSpeciesType(dst->species, 1);
-    dst->fusionType = Fusion_GetMonBattleThirdType(src);
+    Fusion_GetMonBattleData(src, &dst->fusionType, &dst->fusionAbility, dst->passives);
     dst->types[2] = dst->fusionType;
     dst->isShiny = IsMonShiny(src);
     dst->affectionHearts = GetMonAffectionHearts(src);
-    dst->ability = GetAbilityBySpecies(dst->species, dst->abilityNum);
+    dst->ability = GetBattleMonBaseAbility(dst);
     GetMonData(src, MON_DATA_NICKNAME, nickname);
     StringCopy_Nickname(dst->nickname, nickname);
     GetMonData(src, MON_DATA_OT_NAME, dst->otName);

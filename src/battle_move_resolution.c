@@ -3436,6 +3436,16 @@ static enum MoveEndResult MoveEndAbilities(struct BattleCalcValues *cv)
     return result;
 }
 
+// Fusion: the target's passives, one per call until all were tried.
+static enum MoveEndResult MoveEndAbilitiesPassives(struct BattleCalcValues *cv)
+{
+    if (TryNextPassiveAbilityEffect(FUSION_PASSIVE_CURSOR_MOVE_END, ABILITYEFFECT_MOVE_END, cv->battlerDef, 0, TRUE))
+        return MOVEEND_RESULT_RUN_SCRIPT;
+
+    gBattleScripting.moveendState++;
+    return MOVEEND_RESULT_CONTINUE;
+}
+
 static enum MoveEndResult MoveEndResistBerryMessage(struct BattleCalcValues *cv)
 {
     enum MoveEndResult result = MOVEEND_RESULT_CONTINUE;
@@ -3475,6 +3485,16 @@ static enum MoveEndResult MoveEndAbilitiesAttacker(struct BattleCalcValues *cv)
 
     gBattleScripting.moveendState++;
     return result;
+}
+
+// Fusion: the attacker's passives, one per call until all were tried.
+static enum MoveEndResult MoveEndAbilitiesAttackerPassives(struct BattleCalcValues *cv)
+{
+    if (TryNextPassiveAbilityEffect(FUSION_PASSIVE_CURSOR_MOVE_END_ATTACKER, ABILITYEFFECT_MOVE_END_ATTACKER, cv->battlerAtk, 0, TRUE))
+        return MOVEEND_RESULT_RUN_SCRIPT;
+
+    gBattleScripting.moveendState++;
+    return MOVEEND_RESULT_CONTINUE;
 }
 
 static enum MoveEndResult MoveEndQueueDancer(struct BattleCalcValues *cv)
@@ -4186,7 +4206,7 @@ static enum MoveEndResult MoveEndMoveBlockRecoil(struct BattleCalcValues *cv)
 
 static enum MoveEndResult MoveEndSheerForce(struct BattleCalcValues *cv)
 {
-    if (IsSheerForceAffected(cv->move, cv->abilities[cv->battlerAtk]))
+    if (IsBattlerSheerForceAffected(cv->battlerAtk, cv->move, cv->abilities[cv->battlerAtk]))
         gBattleScripting.moveendState = MOVEEND_ITEMS_EFFECTS_ALL;
     else
         gBattleScripting.moveendState++;
@@ -5314,9 +5334,11 @@ static enum MoveEndResult (*const sMoveEndHandlers[])(struct BattleCalcValues *c
     [MOVEEND_RAGE] = MoveEndRage,
     [MOVEEND_BEAK_BLAST] = MoveEndBeakBlast,
     [MOVEEND_ABILITIES] = MoveEndAbilities,
+    [MOVEEND_ABILITIES_PASSIVES] = MoveEndAbilitiesPassives,
     [MOVEEND_RESIST_BERRY_MESSAGE] = MoveEndResistBerryMessage,
     [MOVEEND_FORM_CHANGE_ON_HIT] = MoveEndFormChangeOnHit,
     [MOVEEND_ABILITIES_ATTACKER] = MoveEndAbilitiesAttacker,
+    [MOVEEND_ABILITIES_ATTACKER_PASSIVES] = MoveEndAbilitiesAttackerPassives,
     [MOVEEND_QUEUE_DANCER] = MoveEndQueueDancer,
     [MOVEEND_STATUS_IMMUNITY_ABILITIES] = MoveEndStatusImmunityAbilities,
     [MOVEEND_ATTACKER_INVISIBLE] = MoveEndAttackerInvisible,

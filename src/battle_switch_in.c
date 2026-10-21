@@ -59,12 +59,34 @@ bool32 DoSwitchInEvents(void)
         gBattleStruct->switchInBattlerCounter = 0;
         gBattleStruct->eventState.switchIn++;
         break;
+    case SWITCH_IN_EVENTS_NEUTRALIZING_GAS_PASSIVES:
+        while (gBattleStruct->switchInBattlerCounter < gBattlersCount)
+        {
+            battler = gBattlersBySpeed[gBattleStruct->switchInBattlerCounter];
+            if (TryNextPassiveAbilityEffect(FUSION_PASSIVE_CURSOR_SWITCH_IN, ABILITYEFFECT_NEUTRALIZINGGAS, battler, MOVE_NONE, gBattleStruct->battlerState[battler].switchIn))
+                return TRUE;
+            gBattleStruct->switchInBattlerCounter++;
+        }
+        gBattleStruct->switchInBattlerCounter = 0;
+        gBattleStruct->eventState.switchIn++;
+        break;
     case SWITCH_IN_EVENTS_UNNERVE:
         while (gBattleStruct->switchInBattlerCounter < gBattlersCount)
         {
             battler = gBattlersBySpeed[gBattleStruct->switchInBattlerCounter++];
             if (AbilityBattleEffects(ABILITYEFFECT_UNNERVE, battler, calcValues.abilities[battler], 0, gBattleStruct->battlerState[battler].switchIn))
                 return TRUE;
+        }
+        gBattleStruct->switchInBattlerCounter = 0;
+        gBattleStruct->eventState.switchIn++;
+        break;
+    case SWITCH_IN_EVENTS_UNNERVE_PASSIVES:
+        while (gBattleStruct->switchInBattlerCounter < gBattlersCount)
+        {
+            battler = gBattlersBySpeed[gBattleStruct->switchInBattlerCounter];
+            if (TryNextPassiveAbilityEffect(FUSION_PASSIVE_CURSOR_SWITCH_IN, ABILITYEFFECT_UNNERVE, battler, MOVE_NONE, gBattleStruct->battlerState[battler].switchIn))
+                return TRUE;
+            gBattleStruct->switchInBattlerCounter++;
         }
         gBattleStruct->switchInBattlerCounter = 0;
         gBattleStruct->eventState.switchIn++;
@@ -279,10 +301,22 @@ static bool32 FirstEventBlockEvents(struct BattleCalcValues *calcValues)
             effect = TRUE;
         gBattleStruct->eventState.battlerSwitchIn++;
         break;
+    case FIRST_EVENT_BLOCK_GENERAL_PASSIVES:
+        if (TryNextPassiveAbilityEffect(FUSION_PASSIVE_CURSOR_SWITCH_IN, ABILITYEFFECT_ON_SWITCHIN, battler, MOVE_NONE, gBattleStruct->battlerState[battler].switchIn))
+            effect = TRUE;
+        else
+            gBattleStruct->eventState.battlerSwitchIn++;
+        break;
     case FIRST_EVENT_BLOCK_IMMUNITY_ABILITIES:
         if (AbilityBattleEffects(ABILITYEFFECT_IMMUNITY, battler, calcValues->abilities[battler], MOVE_NONE, TRUE))
             effect = TRUE;
         gBattleStruct->eventState.battlerSwitchIn++;
+        break;
+    case FIRST_EVENT_BLOCK_IMMUNITY_PASSIVES:
+        if (TryNextPassiveAbilityEffect(FUSION_PASSIVE_CURSOR_SWITCH_IN, ABILITYEFFECT_IMMUNITY, battler, MOVE_NONE, TRUE))
+            effect = TRUE;
+        else
+            gBattleStruct->eventState.battlerSwitchIn++;
         break;
     case FIRST_EVENT_BLOCK_ITEMS:
         if (ItemBattleEffects(battler, 0, calcValues->holdEffects[battler], IsOnSwitchInActivation))
@@ -415,6 +449,27 @@ static bool32 SecondEventBlockEvents(struct BattleCalcValues *calcValues)
             effect = TRUE;
         gBattleStruct->eventState.battlerSwitchIn++;
         break;
+    case SECOND_EVENT_PASSIVES:
+    {
+        // Fusion: the same three events as above, run for each passive in turn.
+        static const enum AbilityEffect sEvents[] = {ABILITYEFFECT_ON_WEATHER, ABILITYEFFECT_ON_TERRAIN, ABILITYEFFECT_DEPENDS_ON_ALLY};
+        bool32 ranScript = FALSE;
+
+        for (u32 i = 0; i < ARRAY_COUNT(sEvents) && !ranScript; i++)
+        {
+            bool32 trigger = sEvents[i] == ABILITYEFFECT_DEPENDS_ON_ALLY ? gBattleStruct->battlerState[battler].switchIn : TRUE;
+            for (u32 slot = 0; slot < FUSION_MAX_PASSIVES && !ranScript; slot++)
+            {
+                enum Ability passive = GetBattlerPassive(battler, slot);
+                if (passive != ABILITY_NONE && AbilityBattleEffects(sEvents[i], battler, passive, MOVE_NONE, trigger))
+                    ranScript = TRUE;
+            }
+        }
+        if (ranScript)
+            effect = TRUE;
+        gBattleStruct->eventState.battlerSwitchIn++;
+        break;
+    }
     case SECOND_EVENT_BOOSTER_ENERGY:
         if (ItemBattleEffects(battler, 0, calcValues->holdEffects[battler], IsBoosterEnergyActivation))
             effect = TRUE;

@@ -1440,7 +1440,7 @@ void SetMoveEffect(struct BattleCalcValues *cv, struct SetEffect *se)
         se->moveEffect = MOVE_EFFECT_NONE;
     else if (!se->primary
           && !se->bypassSheerForce
-          && IsSheerForceAffected(cv->move, cv->abilities[cv->battlerAtk])
+          && IsBattlerSheerForceAffected(cv->battlerAtk, cv->move, cv->abilities[cv->battlerAtk])
           && !(se->moveEffect == MOVE_EFFECT_ORDER_UP && gBattleStruct->battlerState[cv->battlerAtk].commanderSpecies != SPECIES_NONE))
         se->moveEffect = MOVE_EFFECT_NONE;
     else if (!IsBattlerAlive(se->effectBattler) && !IgnoreTargetingForMoveEffect(se->moveEffect))

@@ -2643,8 +2643,19 @@ bool32 IsAnyAbilityPopUpActive(void)
     return activeAbilityPopUps;
 }
 
+// Fusion: when the ability that just activated is one of the battler's passives, show it
+// instead of the main ability.
+static enum Ability GetPopupAbility(enum BattlerId battler, enum Ability ability)
+{
+    if (gLastUsedAbility != ability && gLastUsedAbility != ABILITY_NONE && BattlerHasAbilityRaw(battler, gLastUsedAbility)
+     && gBattleMons[battler].ability != gLastUsedAbility)
+        return gLastUsedAbility;
+    return ability;
+}
+
 void CreateAbilityPopUp(enum BattlerId battler, enum Ability ability, bool32 isDoubleBattle)
 {
+    ability = GetPopupAbility(battler, ability);
     u8 *spriteIds;
     u32 xSlide, tileTag;
     enum BattlerPosition battlerPosition = GetBattlerPosition(battler);
@@ -2710,7 +2721,7 @@ void UpdateAbilityPopup(enum BattlerId battler)
 {
     u8 *spriteIds = gBattleStruct->abilityPopUpSpriteIds[battler];
     enum Ability ability = (gBattleScripting.abilityPopupOverwrite) ? gBattleScripting.abilityPopupOverwrite
-                                                           : gBattleMons[battler].ability;
+                                                           : GetPopupAbility(battler, gBattleMons[battler].ability);
     PrintAbilityOnAbilityPopUp(ability, spriteIds[0], spriteIds[1]);
 }
 

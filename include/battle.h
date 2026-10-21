@@ -585,6 +585,8 @@ struct EventStates
 // Cleared at the beginning of the battle. Fields need to be cleared when needed manually otherwise.
 struct BattleStruct
 {
+    u8 fusionPassiveSlot[FUSION_PASSIVE_CURSOR_COUNT][MAX_BATTLERS_COUNT]; // Fusion: next passive slot per event kind, see TryNextPassiveAbilityEffect.
+    u8 fusionSwitchOutDone; // Fusion: switch-out abilities already applied, see Cmd_switchoutabilities.
     struct BattlerState battlerState[MAX_BATTLERS_COUNT];
     struct PartyState partyState[MAX_BATTLE_TRAINERS][PARTY_SIZE];
     struct EventStates eventState;
@@ -839,6 +841,14 @@ static inline bool32 IsBattleMoveStatus(enum Move move)
     gBattleMons[battler].types[0] = type;            \
     gBattleMons[battler].types[1] = type;            \
     gBattleMons[battler].types[2] = TYPE_MYSTERY;    \
+}
+
+// Fusion: the ability a battler starts with, honoring a cross-species main ability.
+static inline enum Ability GetBattleMonBaseAbility(const struct BattlePokemon *mon)
+{
+    if (mon->fusionAbility != ABILITY_NONE)
+        return mon->fusionAbility;
+    return GetAbilityBySpecies(mon->species, mon->abilityNum);
 }
 
 #define RESTORE_BATTLER_TYPE(battler)                                                \

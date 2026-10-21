@@ -19,7 +19,7 @@ V2.0 范围：4 个同时生效的特性（1 主 + 3 被动）、最多 3 种永
 | 01 | 基础便利功能：IV/EV 精确显示、Box Link、快捷投球、DexNav、捕捉模式 | 低 | **完成** |
 | 02 | Party+Box 统一素材选择器；遗传数据结构；存档容量审计与读写 | 高 | **完成**（见下） |
 | 03 | 基础合宠：物种、IV、性格、招式遗传；炼妖终端道具；确认流程 | 中 | **完成**（见下） |
-| 04 | 多被动战斗系统：跨种族主特性 + 3 个被动，先做 10 个代表性被动，再扩到 20~30 个 | 很高 | 未开始 |
+| 04 | 多被动战斗系统：跨种族主特性 + 3 个被动，先做 10 个代表性被动，再扩到 20~30 个 | 很高 | **4a/4b 完成**，4c 进行中（见下） |
 | 05 | 永久三属性：继承、持久化、伤害/STAB、UI | 高 | **完成**（见下） |
 | 06 | 体验打磨：素材筛选、自动标记、捕捉后鉴定、概率提示、统计 | 中 | 未开始 |
 
@@ -91,6 +91,51 @@ mGBA 实测关键操作；测试存读档、进化、仓库移动。
 
 测试：`test/fusion/genetics.c`，用 200 个种子批量验证分布、取值范围、去重、可复现性、跨种族覆盖、持有物退回、邮件拦截。
 实机脚本：`dev_scripts/fusion_harness/scripts/terminal_fuse.txt`。截图：`docs/fusion/screenshots/phase03_fuse.png`。
+
+## 阶段 04 已完成内容（4a + 4b）
+
+**4a：跨种族主特性**
+- `BattlePokemon.fusionAbility` 在开场、换入、`PokemonToBattleMon` 时生效（`GetBattleMonBaseAbility`）。
+- `GetMonAbility` 也会读取覆盖值。为了不拖慢 AI，读取时只解密一次（`MON_DATA_FUSION_EFFECTIVE_ABILITY`）。
+- 详情页显示的是覆盖后的特性。
+- 洗脑、技能互换等机制只作用于主特性，换下场再上场后恢复。
+- AI 直接知道跨种族特性（因为它是公开显示的）。
+
+**4b：多特性框架**
+- `BattlePokemon.passives[3]` 存放被动特性。
+- 压制按单个特性判断（`ApplyAbilitySuppression`）：
+  - 胃液压制全部特性。
+  - 化学变化气体压制全部特性，但持有者自己的特性不受影响。
+  - 破格逐个判断特性是否可被无视。
+  - 特性护具保护全部特性。
+- 新增接口：`GetBattlerPassive`、`BattlerHasAbility`、`AbilityOrPassiveIs`；`IsAbilityOnSide/Field` 也会检查被动。
+- 事件系统：每个特性事件后面都加了一个"被动"步骤，靠 `fusionPassiveSlot` 游标在多次调用间逐个执行被动，覆盖：
+  - 入场（一般特性、免疫、化学变化气体、紧张感、天气/场地）
+  - 回合末（加速等）
+  - 命中后的目标方、攻击方
+- 判断类和伤害修正类：用 `FOR_EACH_ABILITY_SLOT` 把同一段 `switch` 依次跑主特性和每个被动。重复的特性只算一次（技术高手不会叠成 2.25 倍）。
+- 弹窗：被动发动时显示被动的名字。
+- 离场：自然回复与再生力可以同时生效，分两次更新。
+- 遗传：`Fusion_CanBePassive` 排除 `cantBeCopied` 类特性（复制、描绘、形态类等）以及 Gulp Missile，这些只能作为主特性。
+- 性能：没有被动的宝可梦走原版路径（循环只跑一次），AI 思考时间测试全部通过。
+
+**已验证的被动**
+- 主特性与被动同时发动：威吓、日照、电气制造者。
+- 加速、漂浮（可被破格无视）、破格被动、胃液压制、储水、粗糙皮肤、技术高手（不叠加）、结实、再生力 + 自然回复、强行。
+- 对手的被动同样生效。
+- 测试文件：`test/fusion/battle_passives.c`（14 个）、`battle_main_ability.c`（6 个）。
+- 测试框架新增 `FusionAbility(x)` 和 `Passives(a, b, c)`。
+
+**4c（进行中）**
+- 其余特性仍是直接写 `== ABILITY_X` 判断，作为被动时不一定生效。
+- 接下来按出现频率分批迁移到 `FOR_EACH_ABILITY_SLOT` / `AbilityOrPassiveIs`。
+
+## 招式效果提示
+
+- 战斗中招式名按对当前对手的效果着色：效果拔群为绿色，效果不好为红色，没有效果为灰色。
+- 判断会考虑第三属性、漂浮类被动，以及太晶化。
+- 高亮招式的 PP 栏仍显示原版符号（◎ / △ / ×）。
+- 配置：`B_SHOW_EFFECTIVENESS = SHOW_EFFECTIVENESS_ALWAYS`；颜色定义在 `graphics/battle_interface/text.pal` 的第 5~8 号空闲色。
 
 ## 阶段 05 已完成内容
 

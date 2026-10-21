@@ -1059,6 +1059,8 @@ struct moveWithPP {
 #define GigantamaxFactor(gigantamaxFactor) GigantamaxFactor_(__LINE__, gigantamaxFactor)
 #define TeraType(teraType) TeraType_(__LINE__, teraType)
 #define FusionType(type) FusionType_(__LINE__, type)
+#define FusionAbility(ability) FusionAbility_(__LINE__, ability)
+#define Passives(...) Passives_(__LINE__, (const enum Ability[FUSION_MAX_PASSIVES]) { __VA_ARGS__ })
 #define Shadow(isShadow) Shadow_(__LINE__, isShadow)
 #define Shiny(isShiny) Shiny_(__LINE__, isShiny)
 #define Environment(environment) Environment_(__LINE__, environment)
@@ -1104,6 +1106,8 @@ void DynamaxLevel_(u32 sourceLine, s16 dynamaxLevel);
 void GigantamaxFactor_(u32 sourceLine, bool32 gigantamaxFactor);
 void TeraType_(u32 sourceLine, enum Type teraType);
 void FusionType_(u32 sourceLine, enum Type type);
+void FusionAbility_(u32 sourceLine, enum Ability ability);
+void Passives_(u32 sourceLine, const enum Ability *passives);
 void Shadow_(u32 sourceLine, bool32 isShadow);
 void Shiny_(u32 sourceLine, bool32 isShiny);
 void Environment_(u32 sourceLine, u32 environment);

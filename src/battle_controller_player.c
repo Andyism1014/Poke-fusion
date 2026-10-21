@@ -94,6 +94,7 @@ static void PrintLinkStandbyMsg(void);
 static void ReloadMoveNames(enum BattlerId battler);
 static u32 CheckTypeEffectiveness(enum BattlerId battlerAtk, enum BattlerId battlerDef);
 static u32 CheckTargetTypeEffectiveness(enum BattlerId battler);
+static u8 *BufferMoveNameEffectivenessColor(u8 *dst, enum BattlerId battler, u32 moveSlot);
 static void MoveSelectionDisplayMoveEffectiveness(u32 foeEffectiveness, enum BattlerId battler);
 
 static void (*const sPlayerBufferCommands[CONTROLLER_CMDS_COUNT])(enum BattlerId battler) =
@@ -1660,10 +1661,11 @@ static void MoveSelectionDisplayMoveNames(enum BattlerId battler)
     for (i = 0; i < MAX_MON_MOVES; i++)
     {
         MoveSelectionDestroyCursorAt(i);
+        u8 *name = BufferMoveNameEffectivenessColor(gDisplayedStringBattle, battler, i);
         if (IsGimmickSelected(battler, GIMMICK_DYNAMAX) || GetActiveGimmick(battler) == GIMMICK_DYNAMAX)
-            StringCopy(gDisplayedStringBattle, GetMoveName(GetMaxMove(battler, moveInfo->moves[i])));
+            StringCopy(name, GetMoveName(GetMaxMove(battler, moveInfo->moves[i])));
         else
-            StringCopy(gDisplayedStringBattle, GetMoveName(moveInfo->moves[i]));
+            StringCopy(name, GetMoveName(moveInfo->moves[i]));
         // Prints on windows B_WIN_MOVE_NAME_1, B_WIN_MOVE_NAME_2, B_WIN_MOVE_NAME_3, B_WIN_MOVE_NAME_4
         BattlePutTextOnWindow(gDisplayedStringBattle, i + B_WIN_MOVE_NAME_1);
         if (moveInfo->moves[i] != MOVE_NONE)
@@ -2374,13 +2376,13 @@ static bool32 ShouldShowTypeEffectiveness(u32 targetId)
     return TRUE;
 }
 
-static u32 CheckTypeEffectiveness(enum BattlerId battlerAtk, enum BattlerId battlerDef)
+static u32 CheckMoveSlotTypeEffectiveness(enum BattlerId battlerAtk, enum BattlerId battlerDef, u32 moveSlot)
 {
     struct ChooseMoveStruct *moveInfo = (struct ChooseMoveStruct *)(&gBattleResources->bufferA[battlerAtk][4]);
     struct DamageContext ctx = {0};
     ctx.battlerAtk = battlerAtk;
     ctx.battlerDef = battlerDef;
-    ctx.move = moveInfo->moves[gMoveSelectionCursor[battlerAtk]];
+    ctx.move = moveInfo->moves[moveSlot];
     ctx.moveType = CheckDynamicMoveType(GetBattlerMon(battlerAtk), ctx.move, battlerAtk, MON_IN_BATTLE);
     ctx.updateFlags = FALSE;
     ctx.weather = GetWeather();
@@ -2408,15 +2410,20 @@ static u32 CheckTypeEffectiveness(enum BattlerId battlerAtk, enum BattlerId batt
     return EFFECTIVENESS_NORMAL; // Normal effectiveness
 }
 
-static u32 CheckTargetTypeEffectiveness(enum BattlerId battler)
+static u32 CheckTypeEffectiveness(enum BattlerId battlerAtk, enum BattlerId battlerDef)
+{
+    return CheckMoveSlotTypeEffectiveness(battlerAtk, battlerDef, gMoveSelectionCursor[battlerAtk]);
+}
+
+static u32 CheckTargetMoveSlotEffectiveness(enum BattlerId battler, u32 moveSlot)
 {
     enum BattlerId battlerFoe = GetOppositeBattler(battler);
-    u32 foeEffectiveness = CheckTypeEffectiveness(battler, battlerFoe);
+    u32 foeEffectiveness = CheckMoveSlotTypeEffectiveness(battler, battlerFoe, moveSlot);
 
     if (IsDoubleBattle())
     {
         enum BattlerId partnerFoe = GetPartnerBattler(battlerFoe);
-        u32 partnerFoeEffectiveness = CheckTypeEffectiveness(battler, partnerFoe);
+        u32 partnerFoeEffectiveness = CheckMoveSlotTypeEffectiveness(battler, partnerFoe, moveSlot);
         if (!IsBattlerAlive(battlerFoe))
             return partnerFoeEffectiveness;
         if (IsBattlerAlive(battlerFoe) && IsBattlerAlive(partnerFoe)
@@ -2424,6 +2431,62 @@ static u32 CheckTargetTypeEffectiveness(enum BattlerId battler)
             return partnerFoeEffectiveness;
     }
     return foeEffectiveness; // fallthrough for any other circumstance
+}
+
+static u32 CheckTargetTypeEffectiveness(enum BattlerId battler)
+{
+    return CheckTargetMoveSlotEffectiveness(battler, gMoveSelectionCursor[battler]);
+}
+
+// Fusion: colors a move name by its effectiveness against the foe so every move can be
+// judged at a glance. Uses the spare text palette slots set up in battle_interface/text.pal.
+#define MOVE_NAME_COLOR_SUPER_EFFECTIVE     5
+#define MOVE_NAME_SHADOW_SUPER_EFFECTIVE    6
+#define MOVE_NAME_COLOR_NOT_EFFECTIVE       7
+#define MOVE_NAME_SHADOW_NOT_EFFECTIVE      8
+#define MOVE_NAME_COLOR_NO_EFFECT           11
+#define MOVE_NAME_SHADOW_NO_EFFECT          15
+#define MOVE_NAME_BACKGROUND                14
+
+static u8 *BufferMoveNameEffectivenessColor(u8 *dst, enum BattlerId battler, u32 moveSlot)
+{
+    struct ChooseMoveStruct *moveInfo = (struct ChooseMoveStruct *)(&gBattleResources->bufferA[battler][4]);
+    u32 color, shadow;
+
+    if (!B_SHOW_EFFECTIVENESS || moveInfo->moves[moveSlot] == MOVE_NONE)
+        return dst;
+
+    switch (CheckTargetMoveSlotEffectiveness(battler, moveSlot))
+    {
+    case EFFECTIVENESS_EXTREMELY_EFFECTIVE:
+    case EFFECTIVENESS_SUPER_EFFECTIVE:
+        if (IsBattleMoveStatus(moveInfo->moves[moveSlot]))
+            return dst;
+        color = MOVE_NAME_COLOR_SUPER_EFFECTIVE;
+        shadow = MOVE_NAME_SHADOW_SUPER_EFFECTIVE;
+        break;
+    case EFFECTIVENESS_NOT_VERY_EFFECTIVE:
+    case EFFECTIVENESS_MOSTLY_INEFFECTIVE:
+        if (IsBattleMoveStatus(moveInfo->moves[moveSlot]))
+            return dst;
+        color = MOVE_NAME_COLOR_NOT_EFFECTIVE;
+        shadow = MOVE_NAME_SHADOW_NOT_EFFECTIVE;
+        break;
+    case EFFECTIVENESS_NO_EFFECT:
+        color = MOVE_NAME_COLOR_NO_EFFECT;
+        shadow = MOVE_NAME_SHADOW_NO_EFFECT;
+        break;
+    default:
+        return dst;
+    }
+
+    *dst++ = EXT_CTRL_CODE_BEGIN;
+    *dst++ = EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW;
+    *dst++ = color;
+    *dst++ = MOVE_NAME_BACKGROUND;
+    *dst++ = shadow;
+    *dst = EOS;
+    return dst;
 }
 
 static void MoveSelectionDisplayMoveEffectiveness(u32 foeEffectiveness, enum BattlerId battler)
