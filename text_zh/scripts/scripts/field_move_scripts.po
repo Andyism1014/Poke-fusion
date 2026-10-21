@@ -12,11 +12,14 @@ msgid ""
 "CUT down!\p"
 "Would you like to CUT it?$"
 msgstr ""
+"这棵树好像可以\n"
+"用居合斩砍掉！\p"
+"要使用居合斩吗？$"
 
 #: data/scripts/field_move_scripts.inc:51
 msgctxt "Text_MonUsedFieldMove"
 msgid "{STR_VAR_1} used {STR_VAR_2}!$"
-msgstr ""
+msgstr "{STR_VAR_1}使用了{STR_VAR_2}！$"
 
 #: data/scripts/field_move_scripts.inc:54
 msgctxt "Text_CantCut"
@@ -24,6 +27,8 @@ msgid ""
 "This tree looks like it can be\n"
 "CUT down!$"
 msgstr ""
+"这棵树好像可以\n"
+"用居合斩砍掉！$"
 
 #: data/scripts/field_move_scripts.inc:216
 msgctxt "Text_WantToSmash"
@@ -31,6 +36,8 @@ msgid ""
 "This rock appears to be breakable.\n"
 "Would you like to use ROCK SMASH?$"
 msgstr ""
+"这块岩石好像可以被击碎。\n"
+"要使用碎岩吗？$"
 
 #: data/scripts/field_move_scripts.inc:220
 msgctxt "Text_CantSmash"
@@ -38,6 +45,8 @@ msgid ""
 "It's a rugged rock, but a POKéMON\n"
 "may be able to smash it.$"
 msgstr ""
+"这是一块坚硬的岩石，不过\n"
+"宝可梦或许能把它击碎。$"
 
 #: data/scripts/field_move_scripts.inc:266
 msgctxt "Text_WantToStrength"
@@ -46,6 +55,9 @@ msgid ""
 "may be able to push it aside.\p"
 "Would you like to use STRENGTH?$"
 msgstr ""
+"这是一块大岩石，不过\n"
+"宝可梦或许能把它推开。\p"
+"要使用怪力吗？$"
 
 #: data/scripts/field_move_scripts.inc:271
 msgctxt "Text_MonUsedStrength"
@@ -54,6 +66,9 @@ msgid ""
 "{STR_VAR_1}'s STRENGTH made it\n"
 "possible to move boulders around!$"
 msgstr ""
+"{STR_VAR_1}使用了怪力！\p"
+"{STR_VAR_1}的怪力\n"
+"让大岩石可以被推动了！$"
 
 #: data/scripts/field_move_scripts.inc:276
 msgctxt "Text_CantStrength"
@@ -61,6 +76,8 @@ msgid ""
 "It's a big boulder, but a POKéMON\n"
 "may be able to push it aside.$"
 msgstr ""
+"这是一块大岩石，不过\n"
+"宝可梦或许能把它推开。$"
 
 #: data/scripts/field_move_scripts.inc:280
 msgctxt "Text_StrengthActivated"
@@ -68,6 +85,8 @@ msgid ""
 "STRENGTH made it possible to move\n"
 "boulders around.$"
 msgstr ""
+"怪力让大岩石\n"
+"可以被推动了。$"
 
 #: data/scripts/field_move_scripts.inc:308
 msgctxt "Text_CantWaterfall"
@@ -75,6 +94,8 @@ msgid ""
 "A wall of water is crashing down with\n"
 "a mighty roar.$"
 msgstr ""
+"巨大的水墙\n"
+"轰鸣着倾泻而下。$"
 
 #: data/scripts/field_move_scripts.inc:312
 msgctxt "Text_WantToWaterfall"
@@ -82,11 +103,13 @@ msgid ""
 "It's a large waterfall.\n"
 "Would you like to use WATERFALL?$"
 msgstr ""
+"这是一道巨大的瀑布。\n"
+"要使用攀瀑吗？$"
 
 #: data/scripts/field_move_scripts.inc:316
 msgctxt "Text_MonUsedWaterfall"
 msgid "{STR_VAR_1} used WATERFALL.$"
-msgstr ""
+msgstr "{STR_VAR_1}使用了攀瀑。$"
 
 #: data/scripts/field_move_scripts.inc:402
 msgctxt "Text_CantDive"
@@ -94,6 +117,8 @@ msgid ""
 "The sea is deep here. A POKéMON\n"
 "may be able to go underwater.$"
 msgstr ""
+"这里的海很深。\n"
+"宝可梦或许能潜入水中。$"
 
 #: data/scripts/field_move_scripts.inc:406
 msgctxt "Text_WantToDive"
@@ -101,11 +126,13 @@ msgid ""
 "The sea is deep here.\n"
 "Would you like to use DIVE?$"
 msgstr ""
+"这里的海很深。\n"
+"要使用潜水吗？$"
 
 #: data/scripts/field_move_scripts.inc:410
 msgctxt "Text_MonUsedDive"
 msgid "{STR_VAR_1} used DIVE.$"
-msgstr ""
+msgstr "{STR_VAR_1}使用了潜水。$"
 
 #: data/scripts/field_move_scripts.inc:413
 msgctxt "Text_CantSurface"
@@ -113,6 +140,8 @@ msgid ""
 "Light is filtering down from above.\n"
 "A POKéMON may be able to surface.$"
 msgstr ""
+"光线从上方透了下来。\n"
+"宝可梦或许能浮上水面。$"
 
 #: data/scripts/field_move_scripts.inc:417
 msgctxt "Text_WantToSurface"
@@ -120,11 +149,13 @@ msgid ""
 "Light is filtering down from above.\n"
 "Would you like to use DIVE?$"
 msgstr ""
+"光线从上方透了下来。\n"
+"要使用潜水吗？$"
 
 #: data/scripts/field_move_scripts.inc:425
 msgctxt "Text_FailSweetScent"
 msgid "Looks like there's nothing here…$"
-msgstr ""
+msgstr "这里好像什么都没有……$"
 
 #: data/scripts/field_move_scripts.inc:467
 msgctxt "Text_WantToRockClimb"
@@ -132,11 +163,13 @@ msgid ""
 "The cliff is steep.\n"
 "Would you like to use Rock Climb?$"
 msgstr ""
+"这是一面陡峭的山崖。\n"
+"要使用攀岩吗？$"
 
 #: data/scripts/field_move_scripts.inc:471
 msgctxt "Text_MonUsedRockClimb"
 msgid "{STR_VAR_1} used Rock Climb!$"
-msgstr ""
+msgstr "{STR_VAR_1}使用了攀岩！$"
 
 #: data/scripts/field_move_scripts.inc:474
 msgctxt "Text_CantRockClimb"
@@ -144,3 +177,5 @@ msgid ""
 "The cliff is steep.\n"
 "A Pokémon may be able to climb it.$"
 msgstr ""
+"这是一面陡峭的山崖。\n"
+"宝可梦或许能爬上去。$"

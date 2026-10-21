@@ -11,11 +11,13 @@ msgid ""
 "Welcome!\p"
 "How may I serve you?$"
 msgstr ""
+"欢迎光临！\p"
+"请问需要什么？$"
 
 #: data/scripts/mart_clerk.inc:5
 msgctxt "gText_PleaseComeAgain"
 msgid "Please come again!$"
-msgstr ""
+msgstr "欢迎再次光临！$"
 
 #: data/scripts/mart_clerk.inc:8
 msgctxt "gText_PlayerWhatCanIDoForYou"
@@ -23,3 +25,5 @@ msgid ""
 "{PLAYER}{KUN}, welcome!\p"
 "What can I do for you?$"
 msgstr ""
+"{PLAYER}{KUN}，欢迎光临！\p"
+"有什么可以为你效劳的吗？$"

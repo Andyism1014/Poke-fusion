@@ -14,6 +14,11 @@ msgid ""
 "If you'd like me to raise your POKéMON,\n"
 "have a word with my wife.$"
 msgstr ""
+"我是培育屋的老爷爷。\p"
+"我负责帮训练家们照顾\n"
+"他们珍贵的宝可梦。\p"
+"如果想让我们培育宝可梦，\n"
+"就去和我老伴说吧。$"
 
 #: data/scripts/day_care.inc:275
 msgctxt "Route117_Text_DoYouWantEgg"
@@ -26,6 +31,13 @@ msgid ""
 "but your POKéMON had it.\p"
 "You do want it, yes?$"
 msgstr ""
+"啊，是你啊！\p"
+"我们在培育你的宝可梦时，\n"
+"哎呀，真是吓了一大跳！\p"
+"你的宝可梦带着一颗蛋！\p"
+"我们也不知道它是从哪来的，\n"
+"但它就在你的宝可梦身边。\p"
+"你想要吧？$"
 
 #: data/scripts/day_care.inc:284
 msgctxt "Route117_Text_YourMonIsDoingFine"
@@ -33,6 +45,8 @@ msgid ""
 "Ah, it's you! Good to see you.\n"
 "Your {STR_VAR_1}'s doing fine.$"
 msgstr ""
+"啊，是你啊！真高兴见到你。\n"
+"你的{STR_VAR_1}过得很好。$"
 
 #: data/scripts/day_care.inc:288
 msgctxt "Route117_Text_IllKeepIt"
@@ -40,6 +54,8 @@ msgid ""
 "Well then, I'll keep it.\n"
 "Thanks!$"
 msgstr ""
+"那么，就由我收下了。\n"
+"谢谢！$"
 
 #: data/scripts/day_care.inc:292
 msgctxt "Route117_Text_YouHaveNoRoomForIt"
@@ -47,6 +63,8 @@ msgid ""
 "You have no room for it…\n"
 "Come back when you've made room.$"
 msgstr ""
+"你没有地方带上它……\n"
+"腾出空位后再来吧。$"
 
 #: data/scripts/day_care.inc:296
 msgctxt "Route117_Text_ReceivedEgg"
@@ -54,11 +72,13 @@ msgid ""
 "{PLAYER} received the EGG from\n"
 "the DAY-CARE MAN.$"
 msgstr ""
+"{PLAYER}从培育屋的老爷爷\n"
+"那里得到了蛋。$"
 
 #: data/scripts/day_care.inc:300
 msgctxt "Route117_Text_TakeGoodCareOfIt"
 msgid "Take good care of it.$"
-msgstr ""
+msgstr "要好好照顾它哦。$"
 
 #: data/scripts/day_care.inc:303
 msgctxt "Route117_Text_FriendlyWithOtherTrainersMon"
@@ -69,6 +89,11 @@ msgid ""
 "I may even have seen it receiving\n"
 "a piece of MAIL.$"
 msgstr ""
+"对了，你的{STR_VAR_1}\n"
+"好像和{STR_VAR_2}的\l"
+"{STR_VAR_3}相处得很好。\p"
+"我好像还看到它\n"
+"收到了一封邮件。$"
 
 #: data/scripts/day_care.inc:311
 msgctxt "Route117_Text_SeeWifeIfYouWantToPickUpMon"
@@ -76,6 +101,8 @@ msgid ""
 "If you want to pick up your POKéMON,\n"
 "have a word with my wife.$"
 msgstr ""
+"如果想领回你的宝可梦，\n"
+"就去和我老伴说吧。$"
 
 #: data/scripts/day_care.inc:315
 msgctxt "Route117_Text_YourMonsAreDoingFine"
@@ -83,6 +110,8 @@ msgid ""
 "Ah, it's you! Your {STR_VAR_1} and\n"
 "{STR_VAR_2} are doing fine.$"
 msgstr ""
+"啊，是你啊！你的{STR_VAR_1}和\n"
+"{STR_VAR_2}都过得很好。$"
 
 #: data/scripts/day_care.inc:319
 msgctxt "Route117_Text_IWillKeepDoYouWantIt"
@@ -90,6 +119,8 @@ msgid ""
 "I really will keep it.\n"
 "You do want this, yes?$"
 msgstr ""
+"那我可真的要收下了哦。\n"
+"你是想要的吧？$"
 
 #: data/scripts/day_care.inc:323
 msgctxt "Route117_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon"
@@ -98,6 +129,9 @@ msgid ""
 "We can raise POKéMON for you.\p"
 "Would you like us to raise one?$"
 msgstr ""
+"我是培育屋的老奶奶。\p"
+"我们可以帮你培育宝可梦。\p"
+"要让我们帮你培育一只吗？$"
 
 #: data/scripts/day_care.inc:328
 msgctxt "Route117_PokemonDayCare_Text_WhichMonShouldWeRaise"
@@ -105,6 +139,8 @@ msgid ""
 "Which POKéMON should we raise for\n"
 "you?$"
 msgstr ""
+"要让我们培育\n"
+"哪只宝可梦呢？$"
 
 #: data/scripts/day_care.inc:332
 msgctxt "Route117_PokemonDayCare_Text_WellRaiseYourMon"
@@ -113,6 +149,9 @@ msgid ""
 "for a while.\p"
 "Come back for it later.$"
 msgstr ""
+"好的，我们会帮你培育\n"
+"{STR_VAR_1}一段时间。\p"
+"之后再来领回它吧。$"
 
 #: data/scripts/day_care.inc:337
 msgctxt "Route117_PokemonDayCare_Text_WeCanRaiseOneMore"
@@ -120,11 +159,13 @@ msgid ""
 "We can raise two of your POKéMON.\n"
 "Would you like us to raise one more?$"
 msgstr ""
+"我们可以培育两只宝可梦。\n"
+"要再让我们培育一只吗？$"
 
 #: data/scripts/day_care.inc:341
 msgctxt "Route117_PokemonDayCare_Text_HusbandWasLookingForYou"
 msgid "My husband was looking for you.$"
-msgstr ""
+msgstr "我老伴正在找你呢。$"
 
 #: data/scripts/day_care.inc:344
 msgctxt "Route117_PokemonDayCare_Text_FineThenComeAgain"
@@ -132,11 +173,13 @@ msgid ""
 "Oh, fine, then.\n"
 "Come again.$"
 msgstr ""
+"哦，这样啊。\n"
+"欢迎再来。$"
 
 #: data/scripts/day_care.inc:348
 msgctxt "Route117_PokemonDayCare_Text_NotEnoughMoney"
 msgid "You don't have enough money…$"
-msgstr ""
+msgstr "你的钱不够……$"
 
 #: data/scripts/day_care.inc:351
 msgctxt "Route117_PokemonDayCare_Text_TakeOtherOneBackToo"
@@ -144,6 +187,8 @@ msgid ""
 "Will you take back the other one,\n"
 "too?$"
 msgstr ""
+"另一只也要\n"
+"一起领回吗？$"
 
 #: data/scripts/day_care.inc:355
 msgctxt "Route117_PokemonDayCare_Text_ComeAgain"
@@ -151,6 +196,8 @@ msgid ""
 "Fine.\n"
 "Come again.$"
 msgstr ""
+"好的。\n"
+"欢迎再来。$"
 
 #: data/scripts/day_care.inc:359
 msgctxt "Route117_PokemonDayCare_Text_GoodToSeeYou"
@@ -158,6 +205,8 @@ msgid ""
 "Ah, it's you! Good to see you.\n"
 "Your POKéMON can only be doing good!$"
 msgstr ""
+"啊，是你啊！真高兴见到你。\n"
+"你的宝可梦一定过得很好！$"
 
 #: data/scripts/day_care.inc:363
 msgctxt "Route117_PokemonDayCare_Text_YourMonHasGrownXLevels"
@@ -165,6 +214,8 @@ msgid ""
 "By level, your {STR_VAR_1} has\n"
 "grown by {STR_VAR_2}.$"
 msgstr ""
+"你的{STR_VAR_1}的等级\n"
+"提升了{STR_VAR_2}级。$"
 
 #: data/scripts/day_care.inc:367
 msgctxt "Route117_PokemonDayCare_Text_YourTeamIsFull"
@@ -172,11 +223,13 @@ msgid ""
 "Your POKéMON team is full.\n"
 "Make room, then come see me.$"
 msgstr ""
+"你的队伍已经满了。\n"
+"腾出空位后再来找我吧。$"
 
 #: data/scripts/day_care.inc:372
 msgctxt "Route117_PokemonDayCare_Text_TakeBackWhichMon"
 msgid "Which POKéMON will you take back?$"
-msgstr ""
+msgstr "要领回哪只宝可梦？$"
 
 #: data/scripts/day_care.inc:375
 msgctxt "Route117_PokemonDayCare_Text_ItWillCostX"
@@ -184,6 +237,8 @@ msgid ""
 "If you want your {STR_VAR_1} back,\n"
 "it will cost ¥{STR_VAR_2}.$"
 msgstr ""
+"如果要领回{STR_VAR_1}，\n"
+"需要支付¥{STR_VAR_2}。$"
 
 #: data/scripts/day_care.inc:379
 msgctxt "Route117_PokemonDayCare_Text_HeresYourMon"
@@ -191,6 +246,8 @@ msgid ""
 "Perfect!\n"
 "Here's your POKéMON.$"
 msgstr ""
+"好的！\n"
+"这是你的宝可梦。$"
 
 #: data/scripts/day_care.inc:383
 msgctxt "Route117_PokemonDayCare_Text_TookBackMon"
@@ -198,6 +255,8 @@ msgid ""
 "{PLAYER} took back {STR_VAR_1} from\n"
 "the DAY-CARE LADY.$"
 msgstr ""
+"{PLAYER}从培育屋的老奶奶\n"
+"那里领回了{STR_VAR_1}。$"
 
 #: data/scripts/day_care.inc:387
 msgctxt "Route117_PokemonDayCare_Text_YouHaveJustOneMon"
@@ -206,11 +265,14 @@ msgid ""
 "POKéMON.\p"
 "Come back another time.$"
 msgstr ""
+"哎？可是你\n"
+"只有一只宝可梦啊。\p"
+"下次再来吧。$"
 
 #: data/scripts/day_care.inc:392
 msgctxt "Route117_PokemonDayCare_Text_TakeYourMonBack"
 msgid "Will you take your POKéMON back?$"
-msgstr ""
+msgstr "要领回你的宝可梦吗？$"
 
 #: data/scripts/day_care.inc:395
 msgctxt "Route117_PokemonDayCare_Text_WhatWillYouBattleWith"
@@ -219,11 +281,14 @@ msgid ""
 "what will you battle with?\p"
 "Come back another time.$"
 msgstr ""
+"如果把那只宝可梦留在我这里，\n"
+"你要用什么来对战呢？\p"
+"下次再来吧。$"
 
 #: data/scripts/day_care.inc:400
 msgctxt "Text_EggHatchHuh"
 msgid "Huh?$"
-msgstr ""
+msgstr "咦？$"
 
 #: data/scripts/day_care.inc:403
 msgctxt "Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne"
@@ -235,3 +300,9 @@ msgid ""
 "You will be better off if you catch\n"
 "some more, I dare say.$"
 msgstr ""
+"咦？\n"
+"哎呀呀。\p"
+"如果把那只宝可梦留在我这里，\n"
+"你身边就只剩下一只了。\p"
+"我看你最好\n"
+"再多抓几只宝可梦吧。$"

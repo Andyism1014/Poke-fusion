@@ -11,46 +11,48 @@ msgid ""
 "Hi, I'm the Move Relearner.\n"
 "Would you like to learn new moves?$"
 msgstr ""
+"你好，我是招式回忆师。\n"
+"要学习新的招式吗？$"
 
 #: data/text/move_relearner.inc:5
 msgctxt "MoveRelearner_Text_LevelUpMoves"
 msgid "Level Up Moves$"
-msgstr ""
+msgstr "升级招式$"
 
 #: data/text/move_relearner.inc:8
 msgctxt "MoveRelearner_Text_EggMoves"
 msgid "Egg Moves$"
-msgstr ""
+msgstr "蛋招式$"
 
 #: data/text/move_relearner.inc:11
 msgctxt "MoveRelearner_Text_TMMoves"
 msgid "TM Moves$"
-msgstr ""
+msgstr "学习器招式$"
 
 #: data/text/move_relearner.inc:14
 msgctxt "MoveRelearner_Text_TutormoveMoves"
 msgid "Tutor Moves$"
-msgstr ""
+msgstr "教授招式$"
 
 #: data/text/move_relearner.inc:17
 msgctxt "MoveRelearner_Text_SeeYa"
 msgid "See ya!$"
-msgstr ""
+msgstr "再见！$"
 
 #: data/text/move_relearner.inc:20
 msgctxt "MoveRelearner_Text_AnythingElse"
 msgid "Is there anything else I may do for you?$"
-msgstr ""
+msgstr "还有什么需要我帮忙的吗？$"
 
 #: data/text/move_relearner.inc:23
 msgctxt "MoveRelearner_Text_ChoosePkmn"
 msgid "Please choose your Pokémon.$"
-msgstr ""
+msgstr "请选择你的宝可梦。$"
 
 #: data/text/move_relearner.inc:26
 msgctxt "MoveRelearner_Text_HaveNoPkmn"
 msgid "You have no Pokémon.$"
-msgstr ""
+msgstr "你没有宝可梦。$"
 
 #: data/text/move_relearner.inc:29
 msgctxt "MoveRelearner_Text_CantTeachMoveToEgg"
@@ -58,6 +60,8 @@ msgid ""
 "Sorry…\n"
 "But an Egg can't learn moves.$"
 msgstr ""
+"抱歉……\n"
+"蛋是没法学习招式的。$"
 
 #: data/text/move_relearner.inc:33
 msgctxt "MoveRelearner_Text_CantTeachMoveToPkmn"
@@ -66,36 +70,39 @@ msgid ""
 "It doesn't appear as if I have any move\n"
 "I can teach that Pokémon.$"
 msgstr ""
+"抱歉……\p"
+"我好像没有能教给\n"
+"那只宝可梦的招式。$"
 
 #: data/text/move_relearner.inc:38
 msgctxt "MoveRelearner_Text_LevelUpMoveLWR"
 msgid "level up move$"
-msgstr ""
+msgstr "升级招式$"
 
 #: data/text/move_relearner.inc:41
 msgctxt "MoveRelearner_Text_EggMoveLWR"
 msgid "egg move$"
-msgstr ""
+msgstr "蛋招式$"
 
 #: data/text/move_relearner.inc:44
 msgctxt "MoveRelearner_Text_TMMoveLWR"
 msgid "TM move$"
-msgstr ""
+msgstr "学习器招式$"
 
 #: data/text/move_relearner.inc:47
 msgctxt "MoveRelearner_Text_TutorMoveLWR"
 msgid "tutor move$"
-msgstr ""
+msgstr "教授招式$"
 
 #: data/text/move_relearner.inc:50
 msgctxt "MoveRelearner_Text_MoveLWR"
 msgid "move$"
-msgstr ""
+msgstr "招式$"
 
 #: data/text/move_relearner.inc:53
 msgctxt "MoveRelearner_Text_WhichXmoveShouldTeach"
 msgid "Which {STR_VAR_3} should I teach?$"
-msgstr ""
+msgstr "要教哪个{STR_VAR_3}呢？$"
 
 #: data/text/move_relearner.inc:56
 msgctxt "MoveRelearner_Text_ThankYouComeAgain"
@@ -103,3 +110,5 @@ msgid ""
 "Thank you for using our services.\n"
 "Please come again!$"
 msgstr ""
+"感谢你的光临。\n"
+"欢迎再来！$"

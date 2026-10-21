@@ -11,6 +11,8 @@ msgid ""
 "“Selected items for your convenience!”\n"
 "POKéMON MART$"
 msgstr ""
+"“精选好物，方便你的旅途！”\n"
+"友好商店$"
 
 #: data/event_scripts.s:1366
 msgctxt "gText_PokemonCenterSign"
@@ -18,6 +20,8 @@ msgid ""
 "“Rejuvenate your tired partners!”\n"
 "POKéMON CENTER$"
 msgstr ""
+"“让疲惫的伙伴恢复活力！”\n"
+"宝可梦中心$"
 
 #: data/event_scripts.s:1370
 msgctxt "gText_MomOrDadMightLikeThisProgram"
@@ -26,6 +30,9 @@ msgid ""
 "… … … … … … … … … … … … … … … …\p"
 "Better get going!$"
 msgstr ""
+"{STR_VAR_1}可能会喜欢这个节目。\n"
+"…… …… …… …… …… …… ……\p"
+"该出发了！$"
 
 #: data/event_scripts.s:1375
 msgctxt "gText_WhichFloorWouldYouLike"
@@ -33,6 +40,8 @@ msgid ""
 "Welcome to LILYCOVE DEPARTMENT STORE.\p"
 "Which floor would you like?$"
 msgstr ""
+"欢迎光临水静百货。\p"
+"请问要去几楼？$"
 
 #: data/event_scripts.s:1379
 msgctxt "gText_SandstormIsVicious"
@@ -40,6 +49,8 @@ msgid ""
 "The sandstorm is vicious.\n"
 "It's impossible to keep going.$"
 msgstr ""
+"沙暴太猛烈了。\n"
+"根本无法继续前进。$"
 
 #: data/event_scripts.s:1383
 msgctxt "gText_SelectWithoutRegisteredItem"
@@ -47,6 +58,8 @@ msgid ""
 "An item in the BAG can be\n"
 "registered to SELECT for easy use.$"
 msgstr ""
+"可以把背包里的道具登录到\n"
+"SELECT键，方便使用。$"
 
 #: data/event_scripts.s:1387
 msgctxt "gText_PokemonTrainerSchoolEmail"
@@ -59,16 +72,23 @@ msgid ""
 "move sets chosen for POKéMON.\p"
 "… … … … … …$"
 msgstr ""
+"收到了一封来自\n"
+"宝可梦训练家学校的电子邮件。\p"
+"…… …… ……\p"
+"宝可梦最多可以学会4个招式。\p"
+"为宝可梦选择怎样的招式组合，\n"
+"正考验着训练家的实力。\p"
+"…… …… ……$"
 
 #: data/event_scripts.s:1396
 msgctxt "gText_PlayerHouseBootPC"
 msgid "{PLAYER} booted up the PC.$"
-msgstr ""
+msgstr "{PLAYER}打开了电脑。$"
 
 #: data/event_scripts.s:1399
 msgctxt "gText_PokeblockLinkCanceled"
 msgid "The link was canceled.$"
-msgstr ""
+msgstr "连接已取消。$"
 
 #: data/event_scripts.s:1402
 msgctxt "gText_UnusedNicknameReceivedPokemon"
@@ -76,6 +96,8 @@ msgid ""
 "Want to give a nickname to\n"
 "the {STR_VAR_2} you received?$"
 msgstr ""
+"要给收到的{STR_VAR_2}\n"
+"取个昵称吗？$"
 
 #: data/event_scripts.s:1406
 msgctxt "gText_PlayerWhitedOut"
@@ -84,6 +106,9 @@ msgid ""
 "POKéMON!\p"
 "{PLAYER} whited out!$"
 msgstr ""
+"{PLAYER}已经没有\n"
+"可以战斗的宝可梦了！\p"
+"{PLAYER}眼前变得一片漆黑！$"
 
 #: data/event_scripts.s:1410
 msgctxt "gText_FirstShouldRestoreMonsHealth"
@@ -91,6 +116,8 @@ msgid ""
 "First, you should restore your\n"
 "POKéMON to full health.$"
 msgstr ""
+"首先，应该让你的\n"
+"宝可梦恢复健康。$"
 
 #: data/event_scripts.s:1414
 msgctxt "gText_MonsHealedShouldBuyPotions"
@@ -104,6 +131,14 @@ msgid ""
 "at the POKéMON MART.\p"
 "We hope you excel!$"
 msgstr ""
+"你的宝可梦已经\n"
+"完全恢复健康了。\p"
+"如果宝可梦的体力，也就是HP\n"
+"减少了，就请来找我们。\p"
+"如果你打算去很远的地方，\n"
+"最好先在友好商店\l"
+"买一些伤药。\p"
+"祝你一切顺利！$"
 
 #: data/event_scripts.s:1424
 msgctxt "gText_MonsHealed"
@@ -112,6 +147,9 @@ msgid ""
 "to perfect health.\p"
 "We hope you excel!$"
 msgstr ""
+"你的宝可梦已经\n"
+"完全恢复健康了。\p"
+"祝你一切顺利！$"
 
 #: data/event_scripts.s:1429
 msgctxt "gText_HadQuiteAnExperienceTakeRest"
@@ -123,6 +161,11 @@ msgid ""
 "Maybe you should take a quick\n"
 "rest.$"
 msgstr ""
+"妈妈：{PLAYER}！\n"
+"欢迎回家。\p"
+"看来你经历了不少事呢。\p"
+"要不要稍微\n"
+"休息一下？$"
 
 #: data/event_scripts.s:1437
 msgctxt "gText_MomExplainHPGetPotions"
@@ -141,6 +184,18 @@ msgid ""
 "Make me proud, honey!\p"
 "Take care!$"
 msgstr ""
+"妈妈：哎呀，太好了！你和\n"
+"宝可梦看起来都很精神。\p"
+"我刚听{STR_VAR_1}说了。\p"
+"他说宝可梦的体力\n"
+"是用HP来衡量的。\p"
+"如果宝可梦的HP减少了，\n"
+"可以去任何一家\l"
+"宝可梦中心恢复。\p"
+"如果要出远门，聪明的训练家\n"
+"会先在友好商店备好伤药。\p"
+"要让我为你骄傲哦，宝贝！\p"
+"路上小心！$"
 
 #: data/event_scripts.s:1452
 msgctxt "gText_RegisteredTrainerinPokeNav"
@@ -148,6 +203,8 @@ msgid ""
 "Registered {STR_VAR_1} {STR_VAR_2}\n"
 "in the POKéNAV.$"
 msgstr ""
+"在宝可梦导航中登录了\n"
+"{STR_VAR_1} {STR_VAR_2}。$"
 
 #: data/event_scripts.s:1456
 msgctxt "gText_ComeBackWithSecretPower"
@@ -160,6 +217,13 @@ msgid ""
 "We'll accept you as a member and sell\n"
 "you good stuff in secrecy.$"
 msgstr ""
+"你知道招式学习器“秘密之力”吗？\p"
+"我们这个团体，最喜欢\n"
+"招式学习器“秘密之力”了。\p"
+"我们的一位成员会把它送给你。\n"
+"拿到之后再来给我看看吧。\p"
+"我们会接纳你成为成员，\n"
+"偷偷卖给你好东西。$"
 
 #: data/event_scripts.s:1465
 msgctxt "gText_PokerusExplanation"
@@ -172,6 +236,13 @@ msgid ""
 "While infected, POKéMON are said to\n"
 "grow exceptionally well.$"
 msgstr ""
+"你的宝可梦可能感染了\n"
+"宝可病毒。\p"
+"关于宝可病毒，人们只知道\n"
+"它是一种会附着在宝可梦身上的\l"
+"微小生物。\p"
+"据说宝可梦在感染期间\n"
+"会成长得特别好。$"
 
 #: data/event_scripts.s:1476
 msgctxt "gText_DoorOpenedFarAway"
@@ -179,11 +250,13 @@ msgid ""
 "It sounded as if a door opened\n"
 "somewhere far away.$"
 msgstr ""
+"好像从很远的地方\n"
+"传来了开门的声音。$"
 
 #: data/event_scripts.s:1480
 msgctxt "gText_BigHoleInTheWall"
 msgid "There is a big hole in the wall.$"
-msgstr ""
+msgstr "墙上有一个大洞。$"
 
 #: data/event_scripts.s:1483
 msgctxt "gText_SorryWirelessClubAdjustments"
@@ -192,6 +265,9 @@ msgid ""
 "The POKéMON WIRELESS CLUB is\l"
 "undergoing adjustments now.$"
 msgstr ""
+"非常抱歉。\n"
+"宝可梦无线俱乐部\l"
+"目前正在调整中。$"
 
 #: data/event_scripts.s:1488
 msgctxt "gText_UndergoingAdjustments"
@@ -199,6 +275,8 @@ msgid ""
 "It appears to be undergoing\n"
 "adjustments…$"
 msgstr ""
+"好像正在\n"
+"调整中……$"
 
 #: data/event_scripts.s:1493
 msgctxt "gText_SorryTradeCenterInspections"
@@ -206,6 +284,8 @@ msgid ""
 "I'm terribly sorry. The TRADE CENTER\n"
 "is undergoing inspections.$"
 msgstr ""
+"非常抱歉。\n"
+"交换中心正在检修中。$"
 
 #: data/event_scripts.s:1498
 msgctxt "gText_SorryRecordCornerPreparation"
@@ -213,6 +293,8 @@ msgid ""
 "I'm terribly sorry. The RECORD CORNER\n"
 "is under preparation.$"
 msgstr ""
+"非常抱歉。\n"
+"记录角正在准备中。$"
 
 #: data/event_scripts.s:1502
 msgctxt "gText_PlayerHandedOverTheItem"
@@ -220,6 +302,8 @@ msgid ""
 "{PLAYER} handed over the\n"
 "{STR_VAR_1}.$"
 msgstr ""
+"{PLAYER}交出了\n"
+"{STR_VAR_1}。$"
 
 #: data/event_scripts.s:1506
 msgctxt "gText_ThankYouForAccessingMysteryGift"
@@ -227,6 +311,8 @@ msgid ""
 "Thank you for accessing the\n"
 "MYSTERY GIFT System.$"
 msgstr ""
+"感谢你使用\n"
+"神秘礼物系统。$"
 
 #: data/event_scripts.s:1510
 msgctxt "gText_PlayerFoundOneTMHM"
@@ -234,6 +320,8 @@ msgid ""
 "{PLAYER} found one {STR_VAR_1}\n"
 "{STR_VAR_2}!$"
 msgstr ""
+"{PLAYER}找到了\n"
+"{STR_VAR_1}“{STR_VAR_2}”！$"
 
 #: data/event_scripts.s:1514
 msgctxt "gText_PlayerFoundTMHMs"
@@ -241,6 +329,8 @@ msgid ""
 "{PLAYER} found {STR_VAR_3} {STR_VAR_1}\n"
 "{STR_VAR_2}!$"
 msgstr ""
+"{PLAYER}找到了{STR_VAR_3}个\n"
+"{STR_VAR_1}“{STR_VAR_2}”！$"
 
 #: data/event_scripts.s:1518
 msgctxt "gText_Sudowoodo_Attacked"
@@ -249,23 +339,26 @@ msgid ""
 "WAILMER PAIL!\p"
 "The weird tree attacked!$"
 msgstr ""
+"这棵奇怪的树\n"
+"不喜欢吼吼鲸喷壶！\p"
+"奇怪的树发起了攻击！$"
 
 #: data/event_scripts.s:1523
 msgctxt "gText_LegendaryFlewAway"
 msgid "The {STR_VAR_1} flew away!$"
-msgstr ""
+msgstr "{STR_VAR_1}飞走了！$"
 
 #: data/event_scripts.s:1526
 msgctxt "gText_WantWhichFloor"
 msgid "Which floor do you want?$"
-msgstr ""
+msgstr "请问要去几楼？$"
 
 #: data/event_scripts.s:1653
 msgctxt "Text_MonFlewAway"
 msgid "The {STR_VAR_1} flew away!$"
-msgstr ""
+msgstr "{STR_VAR_1}飞走了！$"
 
 #: data/event_scripts.s:1657
 msgctxt "Text_Gyaoo"
 msgid "Gyaoo!$"
-msgstr ""
+msgstr "嘎哦——！$"

@@ -8,34 +8,34 @@ msgstr ""
 #: data/text/pc.inc:1
 msgctxt "Text_BootUpPC"
 msgid "{PLAYER} booted up the PC.$"
-msgstr ""
+msgstr "{PLAYER}打开了电脑。$"
 
 #: data/text/pc.inc:4
 msgctxt "gText_WhichPCShouldBeAccessed"
 msgid "Which PC should be accessed?$"
-msgstr ""
+msgstr "要连接哪台电脑？$"
 
 #: data/text/pc.inc:7
 msgctxt "gText_AccessedSomeonesPC"
 msgid "Accessed SOMEONE'S PC.$"
-msgstr ""
+msgstr "连接到了某人的电脑。$"
 
 #: data/text/pc.inc:10
 msgctxt "gText_StorageSystemOpened"
 msgid "POKéMON Storage System opened.$"
-msgstr ""
+msgstr "打开了宝可梦寄放系统。$"
 
 #: data/text/pc.inc:13
 msgctxt "gText_AccessedPlayersPC"
 msgid "Accessed {PLAYER}'s PC.$"
-msgstr ""
+msgstr "连接到了{PLAYER}的电脑。$"
 
 #: data/text/pc.inc:16
 msgctxt "gText_AccessedLanettesPC"
 msgid "Accessed LANETTE's PC.$"
-msgstr ""
+msgstr "连接到了真由美的电脑。$"
 
 #: data/text/pc.inc:19
 msgctxt "gText_AccessedBillsPC"
 msgid "Accessed BILL's PC.$"
-msgstr ""
+msgstr "连接到了正辉的电脑。$"

@@ -8,12 +8,12 @@ msgstr ""
 #: data/text/obtain_item.inc:1
 msgctxt "gText_ObtainedTheItem"
 msgid "Obtained the {STR_VAR_2}!$"
-msgstr ""
+msgstr "获得了{STR_VAR_2}！$"
 
 #: data/text/obtain_item.inc:4
 msgctxt "gText_TheBagIsFull"
 msgid "The BAG is full…$"
-msgstr ""
+msgstr "背包已经满了……$"
 
 #: data/text/obtain_item.inc:7
 msgctxt "gText_PutItemInPocket"
@@ -21,11 +21,13 @@ msgid ""
 "{PLAYER} put away the {STR_VAR_2}\n"
 "in the {STR_VAR_3} POCKET.$"
 msgstr ""
+"{PLAYER}把{STR_VAR_2}放进了\n"
+"背包的{STR_VAR_3}口袋。$"
 
 #: data/text/obtain_item.inc:11
 msgctxt "gText_PlayerFoundOneItem"
 msgid "{PLAYER} found one {STR_VAR_2}!$"
-msgstr ""
+msgstr "{PLAYER}找到了{STR_VAR_2}！$"
 
 #: data/text/obtain_item.inc:14
 msgctxt "gText_TooBadBagIsFull"
@@ -33,6 +35,8 @@ msgid ""
 "Too bad!\n"
 "The BAG is full…$"
 msgstr ""
+"真遗憾！\n"
+"背包已经满了……$"
 
 #: data/text/obtain_item.inc:18
 msgctxt "gText_PlayerPutItemInBag"
@@ -40,11 +44,13 @@ msgid ""
 "{PLAYER} put away the {STR_VAR_2}\n"
 "in the BAG.$"
 msgstr ""
+"{PLAYER}把{STR_VAR_2}\n"
+"放进了背包。$"
 
 #: data/text/obtain_item.inc:22
 msgctxt "gText_ObtainedTheDecor"
 msgid "Obtained the {STR_VAR_2}!$"
-msgstr ""
+msgstr "获得了{STR_VAR_2}！$"
 
 #: data/text/obtain_item.inc:25
 msgctxt "gText_NoRoomLeftForAnother"
@@ -52,6 +58,8 @@ msgid ""
 "Too bad! There's no room left for\n"
 "another {STR_VAR_2}…$"
 msgstr ""
+"真遗憾！已经没有地方\n"
+"再放{STR_VAR_2}了……$"
 
 #: data/text/obtain_item.inc:29
 msgctxt "gText_TheDecorWasTransferredToThePC"
@@ -59,16 +67,20 @@ msgid ""
 "The {STR_VAR_2} was transferred\n"
 "to the PC.$"
 msgstr ""
+"{STR_VAR_2}\n"
+"被送到了电脑里。$"
 
 #: data/text/obtain_item.inc:33
 msgctxt "gText_ObtainedTheItems"
 msgid "Obtained {STR_VAR_1} {STR_VAR_2}!$"
-msgstr ""
+msgstr "获得了{STR_VAR_1}个{STR_VAR_2}！$"
 
 #: data/text/obtain_item.inc:36
 msgctxt "gText_PlayerFoundItems"
 msgid "{PLAYER} found {STR_VAR_1} {STR_VAR_2}!$"
 msgstr ""
+"{PLAYER}找到了\n"
+"{STR_VAR_1}个{STR_VAR_2}！$"
 
 #: data/text/obtain_item.inc:39
 msgctxt "gText_PutCoinsAwayInCoinCase"
@@ -76,6 +88,8 @@ msgid ""
 "{PLAYER} put the COINS away in\n"
 "the COIN CASE.$"
 msgstr ""
+"{PLAYER}把代币\n"
+"放进了代币盒。$"
 
 #: data/text/obtain_item.inc:43
 msgctxt "gText_FoundXCoins"
@@ -83,6 +97,8 @@ msgid ""
 "{PLAYER} found\n"
 "{STR_VAR_1} {STR_VAR_2}!$"
 msgstr ""
+"{PLAYER}找到了\n"
+"{STR_VAR_1}枚{STR_VAR_2}！$"
 
 #: data/text/obtain_item.inc:47
 msgctxt "gText_FoundXItems"
@@ -90,6 +106,8 @@ msgid ""
 "{PLAYER} found\n"
 "{STR_VAR_1} {STR_VAR_2}(s)!$"
 msgstr ""
+"{PLAYER}找到了\n"
+"{STR_VAR_1}个{STR_VAR_2}！$"
 
 #: data/text/obtain_item.inc:51
 msgctxt "gText_CoinCaseIsFull"
@@ -97,6 +115,8 @@ msgid ""
 "Too bad!\n"
 "The COIN CASE is full…$"
 msgstr ""
+"真遗憾！\n"
+"代币盒已经满了……$"
 
 #: data/text/obtain_item.inc:55
 msgctxt "gText_NothingToPutThemIn"
@@ -104,3 +124,5 @@ msgid ""
 "Too bad!\n"
 "There's nothing to put them in…$"
 msgstr ""
+"真遗憾！\n"
+"没有可以装它们的东西……$"

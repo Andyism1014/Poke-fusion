@@ -11,11 +11,13 @@ msgid ""
 "The water is dyed a deep blue…\n"
 "Would you like to SURF?$"
 msgstr ""
+"水面一片深蓝……\n"
+"要使用冲浪吗？$"
 
 #: data/text/surf.inc:5
 msgctxt "gText_PlayerUsedSurf"
 msgid "{STR_VAR_1} used SURF!$"
-msgstr ""
+msgstr "{STR_VAR_1}使用了冲浪！$"
 
 #: data/text/surf.inc:8
 msgctxt "Text_CurrentTooFast"
@@ -23,3 +25,5 @@ msgid ""
 "The current is much too fast!\n"
 "SURF can't be used here…$"
 msgstr ""
+"水流太急了！\n"
+"这里无法使用冲浪……$"

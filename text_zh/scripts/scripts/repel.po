@@ -8,7 +8,7 @@ msgstr ""
 #: data/scripts/repel.inc:139
 msgctxt "Text_SprayWoreOff"
 msgid "{STR_VAR_1}'s effect wore off…$"
-msgstr ""
+msgstr "{STR_VAR_1}的效果消失了……$"
 
 #: data/scripts/repel.inc:142
 msgctxt "Text_SprayWoreOffAskUseAnother"
@@ -16,6 +16,8 @@ msgid ""
 "{STR_VAR_1}'s effect wore off!\n"
 "Use another?$"
 msgstr ""
+"{STR_VAR_1}的效果消失了！\n"
+"要再使用一个吗？$"
 
 #: data/scripts/repel.inc:146
 msgctxt "Text_SprayWoreOffAskUseX"
@@ -23,6 +25,8 @@ msgid ""
 "{STR_VAR_1}'s effect wore off…\n"
 "Use a {STR_VAR_2}?$"
 msgstr ""
+"{STR_VAR_1}的效果消失了……\n"
+"要使用{STR_VAR_2}吗？$"
 
 #: data/scripts/repel.inc:150
 msgctxt "Text_SprayWoreOffUseX"
@@ -30,3 +34,5 @@ msgid ""
 "{PLAYER} used the\n"
 "{STR_VAR_2}.$"
 msgstr ""
+"{PLAYER}使用了\n"
+"{STR_VAR_2}。$"

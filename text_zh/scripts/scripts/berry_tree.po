@@ -8,7 +8,7 @@ msgstr ""
 #: data/scripts/berry_tree.inc:257
 msgctxt "BerryTree_Text_ItsSoftLoamySoil"
 msgid "It's soft, loamy soil.$"
-msgstr ""
+msgstr "这里是松软的土壤。$"
 
 #: data/scripts/berry_tree.inc:260
 msgctxt "BerryTree_Text_WantToPlant"
@@ -16,6 +16,8 @@ msgid ""
 "It's soft, loamy soil.\n"
 "Want to plant a BERRY?$"
 msgstr ""
+"这里是松软的土壤。\n"
+"要种下树果吗？$"
 
 #: data/scripts/berry_tree.inc:264
 msgctxt "BerryTree_Text_PlantedOneBerry"
@@ -23,31 +25,33 @@ msgid ""
 "{PLAYER} planted one {STR_VAR_1} in\n"
 "the soft, loamy soil.$"
 msgstr ""
+"{PLAYER}在松软的土壤里\n"
+"种下了一颗{STR_VAR_1}。$"
 
 #: data/scripts/berry_tree.inc:289
 msgctxt "BerryTree_Text_BerryGrowthStageTrunk"
 msgid "The {STR_VAR_1}'s trunk is getting bigger!$"
-msgstr ""
+msgstr "{STR_VAR_1}的树干变粗了！$"
 
 #: data/scripts/berry_tree.inc:292
 msgctxt "BerryTree_Text_BerryGrowthStageBudding"
 msgid "The {STR_VAR_1} tree has buds!$"
-msgstr ""
+msgstr "{STR_VAR_1}的树长出了花苞！$"
 
 #: data/scripts/berry_tree.inc:303
 msgctxt "BerryTree_Text_CareAdverbGreat"
 msgid "very beautifully$"
-msgstr ""
+msgstr "非常美丽$"
 
 #: data/scripts/berry_tree.inc:306
 msgctxt "BerryTree_Text_CareAdverbPoor"
 msgid "cutely$"
-msgstr ""
+msgstr "很可爱$"
 
 #: data/scripts/berry_tree.inc:309
 msgctxt "BerryTree_Text_CareAdverbGood"
 msgid "prettily$"
-msgstr ""
+msgstr "很漂亮$"
 
 #: data/scripts/berry_tree.inc:312
 msgctxt "BerryTree_Text_WantToPick"
@@ -56,11 +60,15 @@ msgid ""
 "Do you want to pick the\n"
 "{STR_VAR_1}?$"
 msgstr ""
+"你找到了{STR_VAR_2}个{STR_VAR_1}！\p"
+"要摘下{STR_VAR_1}吗？$"
 
 #: data/scripts/berry_tree.inc:317
 msgctxt "BerryTree_Text_PickedTheBerry"
 msgid "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}.$"
 msgstr ""
+"{PLAYER}摘下了\n"
+"{STR_VAR_2}个{STR_VAR_1}。$"
 
 #: data/scripts/berry_tree.inc:320
 msgctxt "BerryTree_Text_PutAwayBerry"
@@ -70,6 +78,9 @@ msgid ""
 "The soil returned to its soft and\n"
 "loamy state.$"
 msgstr ""
+"{PLAYER}把{STR_VAR_1}放进了\n"
+"背包的树果口袋。\p"
+"土壤恢复了松软的状态。$"
 
 #: data/scripts/berry_tree.inc:326
 msgctxt "BerryTree_Text_BerryPocketFull"
@@ -77,6 +88,8 @@ msgid ""
 "The BAG's BERRIES POCKET is full.\p"
 "The {STR_VAR_1} couldn't be taken.$"
 msgstr ""
+"背包的树果口袋已经满了。\p"
+"无法拿走{STR_VAR_1}。$"
 
 #: data/scripts/berry_tree.inc:330
 msgctxt "BerryTree_Text_BerryLeftUnpicked"
@@ -84,6 +97,8 @@ msgid ""
 "{PLAYER} left the {STR_VAR_1}\n"
 "unpicked.$"
 msgstr ""
+"{PLAYER}没有摘下\n"
+"{STR_VAR_1}。$"
 
 #: data/scripts/berry_tree.inc:334
 msgctxt "BerryTree_Text_WantToWater"
@@ -91,21 +106,23 @@ msgid ""
 "Want to water the {STR_VAR_1} with the\n"
 "WAILMER PAIL?$"
 msgstr ""
+"要用吼吼鲸喷壶\n"
+"给{STR_VAR_1}浇水吗？$"
 
 #: data/scripts/berry_tree.inc:338
 msgctxt "BerryTree_Text_WateredTheBerry"
 msgid "{PLAYER} watered the {STR_VAR_1}.$"
-msgstr ""
+msgstr "{PLAYER}给{STR_VAR_1}浇了水。$"
 
 #: data/scripts/berry_tree.inc:341
 msgctxt "BerryTree_Text_PlantIsDelighted"
 msgid "The plant seems to be delighted.$"
-msgstr ""
+msgstr "植株看起来很高兴。$"
 
 #: data/scripts/berry_tree.inc:344
 msgctxt "BerryTree_Text_ExclamationPoint"
 msgid "!$"
-msgstr ""
+msgstr "！$"
 
 #: data/scripts/berry_tree.inc:381
 msgctxt "BerryTree_Text_WantToPick_Mutation"
@@ -114,6 +131,9 @@ msgid ""
 "and 1 {STR_VAR_3}!\p"
 "Do you want to pick them?$"
 msgstr ""
+"你找到了{STR_VAR_2}个{STR_VAR_1}\n"
+"和1个{STR_VAR_3}！\p"
+"要摘下它们吗？$"
 
 #: data/scripts/berry_tree.inc:386
 msgctxt "BerryTree_Text_BerryLeftUnpicked_Mutation"
@@ -121,6 +141,8 @@ msgid ""
 "{PLAYER} left the {STR_VAR_1}\n"
 "and the {STR_VAR_3} unpicked.$"
 msgstr ""
+"{PLAYER}没有摘下{STR_VAR_1}\n"
+"和{STR_VAR_3}。$"
 
 #: data/scripts/berry_tree.inc:390
 msgctxt "BerryTree_Text_BerryPocketFull_Mutation"
@@ -129,6 +151,9 @@ msgid ""
 "The {STR_VAR_1} and the\n"
 "{STR_VAR_3} couldn't be taken.$"
 msgstr ""
+"背包的树果口袋已经满了。\p"
+"无法拿走{STR_VAR_1}\n"
+"和{STR_VAR_3}。$"
 
 #: data/scripts/berry_tree.inc:395
 msgctxt "BerryTree_Text_PickedTheBerry_Mutation"
@@ -136,6 +161,8 @@ msgid ""
 "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}\n"
 "and the {STR_VAR_3}.$"
 msgstr ""
+"{PLAYER}摘下了{STR_VAR_2}个\n"
+"{STR_VAR_1}和{STR_VAR_3}。$"
 
 #: data/scripts/berry_tree.inc:399
 msgctxt "BerryTree_Text_PutAwayBerry_Mutation"
@@ -146,6 +173,9 @@ msgid ""
 "The soil returned to its soft and\n"
 "loamy state.$"
 msgstr ""
+"{PLAYER}把{STR_VAR_1}和{STR_VAR_3}\n"
+"放进了背包的树果口袋。\p"
+"土壤恢复了松软的状态。$"
 
 #: data/scripts/berry_tree.inc:415
 msgctxt "BerryTree_Text_WantToMulch"
@@ -153,6 +183,8 @@ msgid ""
 "It's soft, loamy soil.\n"
 "Put down some fertilizer?$"
 msgstr ""
+"这里是松软的土壤。\n"
+"要施肥吗？$"
 
 #: data/scripts/berry_tree.inc:419
 msgctxt "BerryTree_Text_ScatteredMulch"
@@ -160,6 +192,8 @@ msgid ""
 "{PLAYER} scattered the {STR_VAR_1}\n"
 "on the soft, loamy soil.$"
 msgstr ""
+"{PLAYER}在松软的土壤里\n"
+"撒下了{STR_VAR_1}。$"
 
 #: data/scripts/berry_tree.inc:442
 msgctxt "BerryTree_Text_WeedIsGrowing"
@@ -167,13 +201,15 @@ msgid ""
 "A weed is growing here.\n"
 "Do you want to pull it out?$"
 msgstr ""
+"这里长了杂草。\n"
+"要拔掉吗？$"
 
 #: data/scripts/berry_tree.inc:446
 msgctxt "BerryTree_Text_PulledOutTheWeed"
 msgid "{PLAYER} pulled out the weed!$"
-msgstr ""
+msgstr "{PLAYER}拔掉了杂草！$"
 
 #: data/scripts/berry_tree.inc:463
 msgctxt "BerryTree_Text_APokemonAppeared"
 msgid "A Pokémon appeared!$"
-msgstr ""
+msgstr "出现了宝可梦！$"

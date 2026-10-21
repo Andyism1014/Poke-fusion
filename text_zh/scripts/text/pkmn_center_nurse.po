@@ -14,6 +14,11 @@ msgid ""
 "to full health.\p"
 "Would you like to rest your POKéMON?$"
 msgstr ""
+"你好，欢迎来到\n"
+"宝可梦中心。\p"
+"这里可以为你的宝可梦\n"
+"恢复体力。\p"
+"要让你的宝可梦休息吗？$"
 
 #: data/text/pkmn_center_nurse.inc:8
 msgctxt "gText_IllTakeYourPkmn"
@@ -21,6 +26,8 @@ msgid ""
 "Okay, I'll take your POKéMON\n"
 "for a few seconds.$"
 msgstr ""
+"好的，请把你的宝可梦\n"
+"交给我一会儿。$"
 
 #: data/text/pkmn_center_nurse.inc:12
 msgctxt "gText_RestoredPkmnToFullHealth"
@@ -29,11 +36,14 @@ msgid ""
 "We've restored your POKéMON\n"
 "to full health.$"
 msgstr ""
+"让你久等了。\p"
+"你的宝可梦\n"
+"已经恢复健康了。$"
 
 #: data/text/pkmn_center_nurse.inc:17
 msgctxt "gText_WeHopeToSeeYouAgain"
 msgid "We hope to see you again!$"
-msgstr ""
+msgstr "期待你再次光临！$"
 
 #: data/text/pkmn_center_nurse.inc:20
 msgctxt "gText_WelcomeCutShort"
@@ -44,6 +54,11 @@ msgid ""
 "to full health.\p"
 "Would you like to…$"
 msgstr ""
+"你好，欢迎来到\n"
+"宝可梦中心。\p"
+"这里可以为你的宝可梦\n"
+"恢复体力。\p"
+"要让你的宝可梦……$"
 
 #: data/text/pkmn_center_nurse.inc:27
 msgctxt "gText_NoticesGoldCard"
@@ -59,6 +74,15 @@ msgid ""
 "Okay, {PLAYER}, please allow me\n"
 "the honor of resting your POKéMON!$"
 msgstr ""
+"这、这张卡……\n"
+"难道是……金卡？！\p"
+"哇，金色的光芒好耀眼！\n"
+"四颗星星闪闪发光！\p"
+"我见过好几位持有银卡的训练家，\n"
+"但{PLAYER}，你是我见过的\l"
+"第一位持有金卡的训练家！\p"
+"好的，{PLAYER}，请让我荣幸地\n"
+"为你的宝可梦恢复体力吧！$"
 
 #: data/text/pkmn_center_nurse.inc:39
 msgctxt "gText_YouWantTheUsual"
@@ -66,6 +90,8 @@ msgid ""
 "I'm delighted to see you, {PLAYER}!\n"
 "You want the usual, am I right?$"
 msgstr ""
+"{PLAYER}，见到你真高兴！\n"
+"还是老样子，对吧？$"
 
 #: data/text/pkmn_center_nurse.inc:43
 msgctxt "gText_IllTakeYourPkmn2"
@@ -73,13 +99,15 @@ msgid ""
 "Okay, I'll take your POKéMON\n"
 "for a few seconds.$"
 msgstr ""
+"好的，请把你的宝可梦\n"
+"交给我一会儿。$"
 
 #: data/text/pkmn_center_nurse.inc:47
 msgctxt "gText_ThankYouForWaiting"
 msgid "Thank you for waiting.$"
-msgstr ""
+msgstr "让你久等了。$"
 
 #: data/text/pkmn_center_nurse.inc:50
 msgctxt "gText_WeHopeToSeeYouAgain2"
 msgid "We hope to see you again!$"
-msgstr ""
+msgstr "期待你再次光临！$"
