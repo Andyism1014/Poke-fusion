@@ -664,6 +664,13 @@ bool32 IsStringJapanese(u8 *str)
 {
     while (*str != EOS)
     {
+#if FUSION_CHINESE
+        if (IsCJKChar(str))
+        {
+            str += 2;
+            continue;
+        }
+#endif
         if (*str <= JAPANESE_CHAR_END)
             if (*str != CHAR_SPACE)
                 return TRUE;
@@ -807,6 +814,14 @@ u8 *StringCopyUppercase(u8 *dest, const u8 *src)
 {
     while (*src != EOS)
     {
+#if FUSION_CHINESE
+        if (IsCJKChar(src))
+        {
+            *dest++ = *src++;
+            *dest++ = *src++;
+            continue;
+        }
+#endif
         if (*src >= CHAR_a && *src <= CHAR_z)
             *dest = gCaseToggleTable[*src];
         else

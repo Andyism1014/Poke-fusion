@@ -3,6 +3,7 @@
 
 #include "config/text.h"
 #include "constants/characters.h"
+#include "text_cjk.h"
 
 // This is to prevent the user from having a higher text speed modifier than the printing system can handle.
 STATIC_ASSERT(   TEXT_SPEED_SLOW_MODIFIER    <= 31

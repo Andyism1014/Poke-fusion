@@ -85,8 +85,12 @@ int Intl_GetListMenuWidth(const struct ListMenuTemplate *listMenu)
 void CopyMonCategoryText(enum Species species, u8 *dest)
 {
     u8 *str = StringCopy(dest, GetSpeciesCategory(species));
+#if FUSION_CHINESE
+    StringCopy(str, gText_Pokemon); // "种子宝可梦", no space in Chinese
+#else
     *str = CHAR_SPACE;
     StringCopy(str + 1, gText_Pokemon);
+#endif
 }
 
 u8 *GetStringClearToWidth(u8 *dest, int fontId, const u8 *str, int totalStringWidth)

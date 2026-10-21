@@ -1359,6 +1359,16 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             textPrinter->printerTemplate.currentChar++;
         } while (currChar == CHAR_ZWS);
 
+#if FUSION_CHINESE
+        if (!textPrinter->japanese && IsCJKLeadByte(currChar) && IsCJKTrailByte(*textPrinter->printerTemplate.currentChar))
+        {
+            u32 trail = *textPrinter->printerTemplate.currentChar++;
+            DecompressGlyph_CJK(GetCJKGlyphIndex(currChar, trail), textPrinter->fontId);
+            PrintGlyph(textPrinter);
+            return RENDER_PRINT;
+        }
+#endif
+
         switch (currChar)
         {
         case CHAR_NEWLINE:
@@ -1872,6 +1882,14 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
                 bufferPointer = DynamicPlaceholderTextUtil_GetPlaceholderPtr(*++str);
             while (*bufferPointer != EOS)
             {
+#if FUSION_CHINESE
+                if (!isJapanese && IsCJKChar(bufferPointer))
+                {
+                    glyphWidth = GetCJKGlyphWidth(GetCJKGlyphIndex(bufferPointer[0], bufferPointer[1]), fontId);
+                    bufferPointer += 2;
+                }
+                else
+#endif
                 glyphWidth = func(*bufferPointer++, isJapanese);
                 if (minGlyphWidth > 0)
                 {
@@ -1914,6 +1932,9 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
                 func = GetFontWidthFunc(*++str);
                 if (func == NULL)
                     return 0;
+#if FUSION_CHINESE
+                fontId = *str;
+#endif
                 if (letterSpacing == -1)
                     localLetterSpacing = GetFontAttribute(*str, FONTATTR_LETTER_SPACING);
                 break;
@@ -1969,6 +1990,14 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
         case CHAR_PROMPT_CLEAR:
             break;
         default:
+#if FUSION_CHINESE
+            if (!isJapanese && IsCJKChar(str))
+            {
+                glyphWidth = GetCJKGlyphWidth(GetCJKGlyphIndex(str[0], str[1]), fontId);
+                str++;
+            }
+            else
+#endif
             glyphWidth = func(*str, isJapanese);
             if (minGlyphWidth > 0)
             {
