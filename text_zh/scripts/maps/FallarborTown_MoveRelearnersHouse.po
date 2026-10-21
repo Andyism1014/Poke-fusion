@@ -17,6 +17,13 @@ msgid ""
 "I'll do it for a HEART SCALE.\n"
 "I'm collecting those now.$"
 msgstr ""
+"我是招式教学人。\p"
+"宝可梦能学会的招式，我全部——每一个\n"
+"都知道，而且能教宝可梦学会那些招式。\p"
+"如果你愿意的话，\n"
+"我可以教你的宝可梦一个招式。\p"
+"只要给我一枚心之鳞片就行。\n"
+"我现在正在收集它。$"
 
 #: data/maps/FallarborTown_MoveRelearnersHouse/scripts.inc:70
 msgctxt "FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove"
@@ -26,16 +33,18 @@ msgid ""
 "Let me guess, you want me to teach\n"
 "a move?$"
 msgstr ""
+"哦！就是它！这是货真价实的心之鳞片！\p"
+"让我猜猜，你是想让我教招式吧？$"
 
 #: data/maps/FallarborTown_MoveRelearnersHouse/scripts.inc:76
 msgctxt "FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon"
 msgid "Which POKéMON needs tutoring?$"
-msgstr ""
+msgstr "要教哪只宝可梦呢？$"
 
 #: data/maps/FallarborTown_MoveRelearnersHouse/scripts.inc:79
 msgctxt "FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove"
 msgid "Which move should I teach?$"
-msgstr ""
+msgstr "要教哪个招式呢？$"
 
 #: data/maps/FallarborTown_MoveRelearnersHouse/scripts.inc:82
 msgctxt "FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon"
@@ -44,13 +53,15 @@ msgid ""
 "It doesn't appear as if I have any move\n"
 "I can teach that POKéMON.$"
 msgstr ""
+"抱歉……\p"
+"我好像没有能教给那只宝可梦的招式。$"
 
 #: data/maps/FallarborTown_MoveRelearnersHouse/scripts.inc:87
 msgctxt "FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale"
 msgid ""
 "{PLAYER} handed over one HEART SCALE\n"
 "in exchange.$"
-msgstr ""
+msgstr "{PLAYER}交出了1枚心之鳞片作为交换。$"
 
 #: data/maps/FallarborTown_MoveRelearnersHouse/scripts.inc:91
 msgctxt "FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale"
@@ -58,10 +69,12 @@ msgid ""
 "If your POKéMON need to learn a move,\n"
 "come back with a HEART SCALE.$"
 msgstr ""
+"如果你的宝可梦需要学习招式，\n"
+"就带着心之鳞片再来吧。$"
 
 #: data/maps/FallarborTown_MoveRelearnersHouse/scripts.inc:95
 msgctxt "FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg"
 msgid ""
 "Hunh? There isn't a single move that\n"
 "I can teach an EGG.$"
-msgstr ""
+msgstr "嗯？我可没有能教给蛋的招式。$"

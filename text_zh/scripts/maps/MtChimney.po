@@ -16,6 +16,11 @@ msgid ""
 "the crater and…\l"
 "Fufufu…$"
 msgstr ""
+"陨石中蕴含的力量……\p"
+"只要用这台机器放大它的力量，烟囱山的\n"
+"火山活动就会一下子变得剧烈……\p"
+"能量会在火山口深处不断积聚，\n"
+"然后……呼呼呼……$"
 
 #: data/maps/MtChimney/scripts.inc:553
 msgctxt "MtChimney_Text_MaxieIntro"
@@ -47,6 +52,24 @@ msgid ""
 "I'll teach you the consequences of\l"
 "meddling in our grand design!$"
 msgstr ""
+"赤焰松：嗯？你是什么人？\p"
+"…… …… …… …… …… ……\n"
+"…… …… …… …… …… ……\p"
+"我听水梧桐抱怨过，\n"
+"有个小孩一直在插手海洋队的事。\p"
+"他说的一定就是你了。\p"
+"哼！所以你是想来妨碍我们熔岩队吗？\p"
+"你给我听好了。很久以前，\n"
+"生物都是依靠陆地生存和成长的。\p"
+"所以陆地才是最重要的！\n"
+"它是万物的摇篮！\p"
+"所以熔岩队致力于扩大陆地。\p"
+"这是为了让人类和宝可梦进一步发展！\p"
+"为此，我们需要沉睡在\n"
+"这座山中的那个东西的力量……\p"
+"哦！你没必要知道这么多。\p"
+"不过，无所谓了！我会让你知\n"
+"道妨碍我们宏伟计划的下场！$"
 
 #: data/maps/MtChimney/scripts.inc:581
 msgctxt "MtChimney_Text_MaxieDefeat"
@@ -54,6 +77,8 @@ msgid ""
 "What?!\p"
 "I, MAXIE, was caught off guard?!$"
 msgstr ""
+"什么？！\p"
+"我赤焰松，竟然大意了？！$"
 
 #: data/maps/MtChimney/scripts.inc:585
 msgctxt "MtChimney_Text_MaxieYouHaventSeenLastOfMagma"
@@ -66,6 +91,11 @@ msgid ""
 "Even without the METEORITE, if we\n"
 "obtain that ORB… Fufufu…$"
 msgstr ""
+"赤焰松：不过，够了。这次我就先撤退。\p"
+"但别以为你以后就再也见不到熔岩队了。\p"
+"呼呼呼……\p"
+"就算没有陨石，\n"
+"只要得到那颗宝珠……呼呼呼……$"
 
 #: data/maps/MtChimney/scripts.inc:594
 msgctxt "MtChimney_Text_TabithaIntro"
@@ -76,6 +106,10 @@ msgid ""
 "I've already delivered the METEORITE\l"
 "from METEOR FALLS to the BOSS!$"
 msgstr ""
+"嘿嘿嘿！\p"
+"你竟然一路追到这里来了！\p"
+"可惜已经太迟了！\n"
+"我已经把流星瀑布的陨石交给老大了！$"
 
 #: data/maps/MtChimney/scripts.inc:601
 msgctxt "MtChimney_Text_TabithaDefeat"
@@ -84,6 +118,9 @@ msgid ""
 "Even though I've lost, if our leader\n"
 "awakens that thing…$"
 msgstr ""
+"嘿嘿嘿……\p"
+"就算我输了，\n"
+"只要我们首领唤醒那个东西……$"
 
 #: data/maps/MtChimney/scripts.inc:606
 msgctxt "MtChimney_Text_TabithaPostBattle"
@@ -92,6 +129,8 @@ msgid ""
 "Give it the METEORITE's energy!\p"
 "Hehehe…$"
 msgstr ""
+"老大，快！把陨石的能量注入进去！\p"
+"嘿嘿嘿……$"
 
 #: data/maps/MtChimney/scripts.inc:611
 msgctxt "MtChimney_Text_Grunt2Intro"
@@ -102,13 +141,17 @@ msgid ""
 "land, there'd be more places to live.\p"
 "Everyone'd be happy!$"
 msgstr ""
+"我们熔岩队是为了大家而努力的。\p"
+"比如说，如果那个东西的力量能创造出\n"
+"更多的陆地，就会有更多地方可以住。\p"
+"大家都会很幸福！$"
 
 #: data/maps/MtChimney/scripts.inc:618
 msgctxt "MtChimney_Text_Grunt2Defeat"
 msgid ""
 "Hunh?\n"
 "What do you mean I lost?$"
-msgstr ""
+msgstr "嗯？你说我输了是什么意思？$"
 
 #: data/maps/MtChimney/scripts.inc:622
 msgctxt "MtChimney_Text_Grunt2PostBattle"
@@ -118,6 +161,8 @@ msgid ""
 "But why does everyone keep getting\n"
 "in our way?$"
 msgstr ""
+"我们老大说：“这会让大家都幸福。”\p"
+"可是为什么大家总是要妨碍我们呢？$"
 
 #: data/maps/MtChimney/scripts.inc:628
 msgctxt "MtChimney_Text_Grunt1Intro"
@@ -126,11 +171,14 @@ msgid ""
 "to get a big house of my own!\p"
 "I'm going to build it on hardened lava!$"
 msgstr ""
+"如果有更多的陆地，\n"
+"我就能拥有一栋属于自己的大房子了！\p"
+"我要把它建在凝固的熔岩上！$"
 
 #: data/maps/MtChimney/scripts.inc:633
 msgctxt "MtChimney_Text_Grunt1Defeat"
 msgid "My dream of a big house…$"
-msgstr ""
+msgstr "我的大房子梦……$"
 
 #: data/maps/MtChimney/scripts.inc:636
 msgctxt "MtChimney_Text_Grunt1PostBattle"
@@ -138,6 +186,8 @@ msgid ""
 "A kid like you, you ought to be\n"
 "splashing about in the waves!$"
 msgstr ""
+"像你这样的小孩，\n"
+"应该去海浪里玩水才对！$"
 
 #: data/maps/MtChimney/scripts.inc:640
 msgctxt "MtChimney_Text_TeamAquaAlwaysMessingWithPlans"
@@ -145,11 +195,13 @@ msgid ""
 "That annoying TEAM AQUA…\n"
 "They always mess with our plans!$"
 msgstr ""
+"那个烦人的海洋队……\n"
+"总是来破坏我们的计划！$"
 
 #: data/maps/MtChimney/scripts.inc:644
 msgctxt "MtChimney_Text_MeteoritesPackAmazingPower"
 msgid "METEORITES pack amazing power!$"
-msgstr ""
+msgstr "陨石里蕴藏着惊人的力量！$"
 
 #: data/maps/MtChimney/scripts.inc:647
 msgctxt "MtChimney_Text_YouBetterNotMessWithUs"
@@ -158,6 +210,9 @@ msgid ""
 "We're trying to awaken that thing\n"
 "for the benefit of everyone!$"
 msgstr ""
+"你最好别来惹我们！\p"
+"我们是为了大家的\n"
+"利益才要唤醒那个东西的！$"
 
 #: data/maps/MtChimney/scripts.inc:652
 msgctxt "MtChimney_Text_AquasNameSimilar"
@@ -167,23 +222,27 @@ msgid ""
 "It totally annoys me that they'd\n"
 "use a name like ours!$"
 msgstr ""
+"我们是熔岩队！\p"
+"他们是海洋队！\p"
+"他们竟然用和我们这么像的名字，\n"
+"真是气死我了！$"
 
 #: data/maps/MtChimney/scripts.inc:658
 msgctxt "MtChimney_Text_DouseThemInFire"
 msgid ""
 "Yeah!\n"
 "Douse them in fire!$"
-msgstr ""
+msgstr "好！用火把他们烧个精光！$"
 
 #: data/maps/MtChimney/scripts.inc:662
 msgctxt "MtChimney_Text_KeepMakingMoreLand"
 msgid "We're going to keep making more land!$"
-msgstr ""
+msgstr "我们要不断创造更多的陆地！$"
 
 #: data/maps/MtChimney/scripts.inc:665
 msgctxt "MtChimney_Text_Bufoh"
 msgid "Bufoh!$"
-msgstr ""
+msgstr "噗哦！$"
 
 #: data/maps/MtChimney/scripts.inc:668
 msgctxt "MtChimney_Text_ArchieGoStopTeamMagma"
@@ -197,6 +256,12 @@ msgid ""
 "Doing something like that will cause\n"
 "the volcano's eruption!$"
 msgstr ""
+"水梧桐：呜，{PLAYER}！\n"
+"我早该想到你会出现的！\p"
+"你自己看看熔岩队那帮狂热分子在\n"
+"干什么！\p"
+"他们想把偷来的陨石的力量注入火山！\p"
+"做这种事会让火山爆发的！$"
 
 #: data/maps/MtChimney/scripts.inc:678
 msgctxt "MtChimney_Text_ArchieIHaveMyHandsFull"
@@ -207,6 +272,10 @@ msgid ""
 "Not when I have my hands full battling\n"
 "three opponents at once!$"
 msgstr ""
+"水梧桐：呜呜……\p"
+"我想阻止那个赤焰松，可是做不到！\p"
+"我同时要和三个对手战斗，\n"
+"根本腾不出手来！$"
 
 #: data/maps/MtChimney/scripts.inc:685
 msgctxt "MtChimney_Text_ArchieThankYou"
@@ -222,6 +291,13 @@ msgid ""
 "our pursuit of TEAM MAGMA.\p"
 "{PLAYER}, we shall meet again!$"
 msgstr ""
+"水梧桐：{PLAYER}！谢谢你！\p"
+"多亏了你的帮助，\n"
+"我们才挫败了熔岩队的破坏计划！\p"
+"不过……你……到底是站在哪一边的？\p"
+"啊，无所谓了。\p"
+"我们会继续保持警惕，紧追熔岩队不放。\p"
+"{PLAYER}，我们还会再见的！$"
 
 #: data/maps/MtChimney/scripts.inc:697
 msgctxt "MtChimney_Text_MagmaOutnumbersUs"
@@ -229,6 +305,8 @@ msgid ""
 "Darn… TEAM MAGMA outnumbers us!\n"
 "We can't keep up with them!$"
 msgstr ""
+"可恶……熔岩队人比我们多！\n"
+"我们招架不住了！$"
 
 #: data/maps/MtChimney/scripts.inc:701
 msgctxt "MtChimney_Text_LessHabitatForWaterPokemon"
@@ -236,6 +314,8 @@ msgid ""
 "If they expand the land, there'll be\n"
 "less habitats for WATER POKéMON!$"
 msgstr ""
+"要是他们扩大陆地，\n"
+"水属性宝可梦的栖息地就会变少了！$"
 
 #: data/maps/MtChimney/scripts.inc:705
 msgctxt "MtChimney_Text_MagmasNameSimilar"
@@ -245,11 +325,15 @@ msgid ""
 "It burns me up that they'd use such\n"
 "a confusing name!$"
 msgstr ""
+"我们是海洋队！\p"
+"他们是熔岩队！\p"
+"他们竟然用这么容易搞混的名字，\n"
+"真是气死我了！$"
 
 #: data/maps/MtChimney/scripts.inc:711
 msgctxt "MtChimney_Text_Bushaa"
 msgid "Bushaa!$"
-msgstr ""
+msgstr "噗夏——！$"
 
 #: data/maps/MtChimney/scripts.inc:714
 msgctxt "MtChimney_Text_LavaCookiesJust200"
@@ -258,23 +342,25 @@ msgid ""
 "specialty.\p"
 "Try one. It's just ¥200.$"
 msgstr ""
+"釜炎仙贝是烟囱山的特产。\p"
+"尝一个吧。只要200元。$"
 
 #: data/maps/MtChimney/scripts.inc:719
 msgctxt "MtChimney_Text_ThankYouDear"
 msgid "Thank you, dear!$"
-msgstr ""
+msgstr "谢谢你，乖孩子！$"
 
 #: data/maps/MtChimney/scripts.inc:722
 msgctxt "MtChimney_Text_YouveNotGotTheMoney"
 msgid ""
 "Oh, dear. You can't buy a thing if\n"
 "you've not got the money.$"
-msgstr ""
+msgstr "哎呀。没有钱的话可什么都买不了哦。$"
 
 #: data/maps/MtChimney/scripts.inc:726
 msgctxt "MtChimney_Text_OhFineThen"
 msgid "Oh, fine then.$"
-msgstr ""
+msgstr "哦，那好吧。$"
 
 #: data/maps/MtChimney/scripts.inc:729
 msgctxt "MtChimney_Text_MeteoriteFittedOnMachine"
@@ -284,6 +370,8 @@ msgid ""
 "The machine seems to be storing\n"
 "energy in the METEORITE.$"
 msgstr ""
+"一台神秘的机器上装着一块陨石……\p"
+"这台机器似乎在往陨石里储存能量。$"
 
 #: data/maps/MtChimney/scripts.inc:735
 msgctxt "MtChimney_Text_RemoveTheMeteorite"
@@ -292,27 +380,29 @@ msgid ""
 "machine…\p"
 "Do you want to remove the METEORITE?$"
 msgstr ""
+"一台神秘的机器上装着一块陨石……\p"
+"要把陨石取下来吗？$"
 
 #: data/maps/MtChimney/scripts.inc:740
 msgctxt "MtChimney_Text_PlayerRemovedMeteorite"
 msgid ""
 "{PLAYER} removed the METEORITE from\n"
 "the mysterious machine.$"
-msgstr ""
+msgstr "{PLAYER}从神秘的机器上取下了陨石。$"
 
 #: data/maps/MtChimney/scripts.inc:744
 msgctxt "MtChimney_Text_PlayerLeftMeteorite"
 msgid ""
 "{PLAYER} left the METEORITE where\n"
 "it was.$"
-msgstr ""
+msgstr "{PLAYER}把陨石留在了原处。$"
 
 #: data/maps/MtChimney/scripts.inc:748
 msgctxt "MtChimney_Text_MachineMakesNoResponse"
 msgid ""
 "This mysterious machine…\n"
 "It makes no response whatsoever.$"
-msgstr ""
+msgstr "这台神秘的机器……没有任何反应。$"
 
 #: data/maps/MtChimney/scripts.inc:752
 msgctxt "MtChimney_Text_RouteSign"
@@ -320,6 +410,8 @@ msgid ""
 "{DOWN_ARROW} JAGGED PATH\n"
 "LAVARIDGE TOWN AHEAD$"
 msgstr ""
+"{DOWN_ARROW} 凹凸山道\n"
+"前方是釜炎乡$"
 
 #: data/maps/MtChimney/scripts.inc:756
 msgctxt "MtChimney_Text_ShelbyIntro"
@@ -328,13 +420,15 @@ msgid ""
 "refreshed my tired bones.\l"
 "Right now I'm feeling strong!$"
 msgstr ""
+"我刚泡过温泉，消除了一身的疲劳。\n"
+"现在我感觉浑身是劲！$"
 
 #: data/maps/MtChimney/scripts.inc:761
 msgctxt "MtChimney_Text_ShelbyDefeat"
 msgid ""
 "Oh, my goodness.\n"
 "Now, aren't you something!$"
-msgstr ""
+msgstr "哎呀，天哪。你可真了不起！$"
 
 #: data/maps/MtChimney/scripts.inc:765
 msgctxt "MtChimney_Text_ShelbyPostBattle"
@@ -342,6 +436,8 @@ msgid ""
 "Well, well, I've lost. I can't call\n"
 "myself an EXPERT now, can I?$"
 msgstr ""
+"哎呀呀，我输了。\n"
+"这下我可没脸自称达人了吧？$"
 
 #: data/maps/MtChimney/scripts.inc:769
 msgctxt "MtChimney_Text_ShelbyRegister"
@@ -351,6 +447,9 @@ msgid ""
 "Please, come see me again for\n"
 "a rematch.$"
 msgstr ""
+"谢谢你，孩子。真开心，\n"
+"就像在和自己的孙子对战一样。\p"
+"请再来找我比一场吧。$"
 
 #: data/maps/MtChimney/scripts.inc:775
 msgctxt "MtChimney_Text_ShelbyRematchIntro"
@@ -359,13 +458,15 @@ msgid ""
 "of your POKéMON, why, you should be\l"
 "able to achieve great things.$"
 msgstr ""
+"只要你的心能和宝可梦的心相通，\n"
+"哎呀，你一定能成就一番大事。$"
 
 #: data/maps/MtChimney/scripts.inc:780
 msgctxt "MtChimney_Text_ShelbyRematchDefeat"
 msgid ""
 "Oh, my goodness.\n"
 "Now, aren't you something!$"
-msgstr ""
+msgstr "哎呀，天哪。你可真了不起！$"
 
 #: data/maps/MtChimney/scripts.inc:784
 msgctxt "MtChimney_Text_ShelbyPostRematch"
@@ -373,6 +474,8 @@ msgid ""
 "Perhaps your heart has become one\n"
 "with the hearts of your POKéMON.$"
 msgstr ""
+"也许你的心已经和宝可梦的\n"
+"心融为一体了吧。$"
 
 #: data/maps/MtChimney/scripts.inc:788
 msgctxt "MtChimney_Text_MelissaIntro"
@@ -380,11 +483,13 @@ msgid ""
 "I've got the fire in me, baby.\n"
 "I can't stand it! I have to battle!$"
 msgstr ""
+"我心里燃着一团火，宝贝。\n"
+"我受不了了！我要对战！$"
 
 #: data/maps/MtChimney/scripts.inc:792
 msgctxt "MtChimney_Text_MelissaDefeat"
 msgid "Ooh, that was a scorching-hot match!$"
-msgstr ""
+msgstr "哦，真是一场火热的比赛！$"
 
 #: data/maps/MtChimney/scripts.inc:795
 msgctxt "MtChimney_Text_MelissaPostBattle"
@@ -392,6 +497,8 @@ msgid ""
 "The heat of MT. CHIMNEY warms\n"
 "me up, baby!$"
 msgstr ""
+"烟囱山的热度让我全身都\n"
+"暖起来了，宝贝！$"
 
 #: data/maps/MtChimney/scripts.inc:799
 msgctxt "MtChimney_Text_SheilaIntro"
@@ -399,6 +506,8 @@ msgid ""
 "I've finally made it to MT. CHIMNEY.\n"
 "I want to make my POKéMON battle!$"
 msgstr ""
+"我终于来到烟囱山了。\n"
+"我想让我的宝可梦对战！$"
 
 #: data/maps/MtChimney/scripts.inc:803
 msgctxt "MtChimney_Text_SheilaDefeat"
@@ -406,6 +515,8 @@ msgid ""
 "The way you battle…\n"
 "It's like a MT. CHIMNEY eruption!$"
 msgstr ""
+"你的战斗方式……\n"
+"就像烟囱山喷发一样！$"
 
 #: data/maps/MtChimney/scripts.inc:807
 msgctxt "MtChimney_Text_SheilaPostBattle"
@@ -416,6 +527,9 @@ msgid ""
 "I want to get in some battles and buy\n"
 "COOKIES as souvenirs.$"
 msgstr ""
+"就像我说的，我终于来到烟囱山了。\n"
+"要是只是稍微观光一下就太可惜了……\p"
+"我想打几场对战，再买些仙贝当纪念品。$"
 
 #: data/maps/MtChimney/scripts.inc:814
 msgctxt "MtChimney_Text_ShirleyIntro"
@@ -424,13 +538,15 @@ msgid ""
 "I've been feeling great!\l"
 "I'm sure I'm going to win!$"
 msgstr ""
+"泡过温泉以后，我感觉棒极了！\n"
+"我一定会赢的！$"
 
 #: data/maps/MtChimney/scripts.inc:819
 msgctxt "MtChimney_Text_ShirleyDefeat"
 msgid ""
 "Yowch!\n"
 "I'm getting a chill out of the water.$"
-msgstr ""
+msgstr "哎哟！出了温泉，我都觉得冷了。$"
 
 #: data/maps/MtChimney/scripts.inc:823
 msgctxt "MtChimney_Text_ShirleyPostBattle"
@@ -439,18 +555,20 @@ msgid ""
 "hot springs. Want to join me?\p"
 "Just joking!$"
 msgstr ""
+"我得再去泡一次温泉了。要一起去吗？\p"
+"开玩笑的啦！$"
 
 #: data/maps/MtChimney/scripts.inc:828
 msgctxt "MtChimney_Text_SawyerIntro"
 msgid ""
 "This is one fine mountain! Plenty of\n"
 "hot people around for company!$"
-msgstr ""
+msgstr "真是座好山！周围有很多热情的人作伴！$"
 
 #: data/maps/MtChimney/scripts.inc:832
 msgctxt "MtChimney_Text_SawyerDefeat"
 msgid "Oh, you're a real firebrand, too!$"
-msgstr ""
+msgstr "哦，你也是个火爆的家伙啊！$"
 
 #: data/maps/MtChimney/scripts.inc:835
 msgctxt "MtChimney_Text_SawyerPostBattle"
@@ -458,6 +576,8 @@ msgid ""
 "I think I need a dip in LAVARIDGE\n"
 "HOT SPRING with the locals!$"
 msgstr ""
+"我想我得和\n"
+"当地人一起去釜炎乡泡个温泉了！$"
 
 #: data/maps/MtChimney/scripts.inc:839
 msgctxt "MtChimney_Text_SawyerRegister"
@@ -465,6 +585,8 @@ msgid ""
 "I like little fireballs like you.\n"
 "Let me register you in my POKéNAV.$"
 msgstr ""
+"我喜欢你这样的小火球。\n"
+"让我把你登记到我的宝可梦导航里吧。$"
 
 #: data/maps/MtChimney/scripts.inc:843
 msgctxt "MtChimney_Text_SawyerRematchIntro"
@@ -472,17 +594,19 @@ msgid ""
 "I'm happily surrounded by hot people\n"
 "around these parts. I won't lose!$"
 msgstr ""
+"这一带有很多热情的人围绕着我，\n"
+"我很开心。我不会输的！$"
 
 #: data/maps/MtChimney/scripts.inc:847
 msgctxt "MtChimney_Text_SawyerRematchDefeat"
 msgid ""
 "Gosh, you're still the same\n"
 "firebrand as before!$"
-msgstr ""
+msgstr "天哪，你还是和以前一样火爆！$"
 
 #: data/maps/MtChimney/scripts.inc:851
 msgctxt "MtChimney_Text_SawyerPostRematch"
 msgid ""
 "Actually, it really is hot here.\n"
 "I'm overdressed for these parts.$"
-msgstr ""
+msgstr "其实，这里真的很热。我穿得太多了。$"

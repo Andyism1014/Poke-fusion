@@ -13,6 +13,9 @@ msgid ""
 "I've seen shady characters wandering\n"
 "in and out of PROF. COZMO's home…$"
 msgstr ""
+"好像出了什么事，我感觉很不妙！\p"
+"我看到有些可疑的人在\n"
+"宙石博士家进进出出……$"
 
 #: data/maps/FallarborTown/scripts.inc:60
 msgctxt "FallarborTown_Text_RegionKnownForMeteors"
@@ -22,6 +25,9 @@ msgid ""
 "They say METEOR FALLS was gouged out\n"
 "by a falling meteorite long ago.$"
 msgstr ""
+"这一带从很久以前就以流星而闻名。\p"
+"据说流星瀑布就是\n"
+"很久以前坠落的陨石砸出来的。$"
 
 #: data/maps/FallarborTown/scripts.inc:66
 msgctxt "FallarborTown_Text_MyPreciousAzurill"
@@ -30,11 +36,13 @@ msgid ""
 "This is my precious AZURILL!\p"
 "It's slick and smooth and plushy, too!$"
 msgstr ""
+"你看！快看！这是我最宝贝的露力丽！\p"
+"它滑溜溜的，又软乎乎的！$"
 
 #: data/maps/FallarborTown/scripts.inc:71
 msgctxt "FallarborTown_Text_Azurill"
 msgid "AZURILL: Rooreelooo.$"
-msgstr ""
+msgstr "露力丽：噜哩噜——$"
 
 #: data/maps/FallarborTown/scripts.inc:74
 msgctxt "FallarborTown_Text_HaveYouChallengedFlannery"
@@ -48,6 +56,11 @@ msgid ""
 "become a great TRAINER in her own\l"
 "right.$"
 msgstr ""
+"你已经挑战过釜炎道馆的馆主亚莎了吗？\p"
+"那女孩的爷爷可是很有名的。\n"
+"他曾经是宝可梦联盟的四天王之一。\p"
+"就算亚莎凭自己的实力成为了不起的\n"
+"训练家，我也一点都不会惊讶。$"
 
 #: data/maps/FallarborTown/scripts.inc:84
 msgctxt "FallarborTown_Text_BattleTentSign"
@@ -55,6 +68,8 @@ msgid ""
 "BATTLE TENT FALLARBOR SITE\n"
 "“May the Greatest Teams Gather!”$"
 msgstr ""
+"对战帐篷 秋叶会场\n"
+"“最强的队伍，在此集结！”$"
 
 #: data/maps/FallarborTown/scripts.inc:88
 msgctxt "FallarborTown_Text_TownSign"
@@ -62,6 +77,8 @@ msgid ""
 "FALLARBOR TOWN\n"
 "“A farm community with small gardens.”$"
 msgstr ""
+"秋叶镇\n"
+"“拥有小小田园的农村”$"
 
 #: data/maps/FallarborTown/scripts.inc:92
 msgctxt "FallarborTown_Text_MoveTutorSign"
@@ -69,3 +86,5 @@ msgid ""
 "MOVE TUTOR'S HOUSE\n"
 "“New moves taught to POKéMON.”$"
 msgstr ""
+"招式教学人之家\n"
+"“教宝可梦学会新招式。”$"
