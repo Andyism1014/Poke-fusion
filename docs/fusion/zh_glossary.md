@@ -148,3 +148,22 @@
 | Pokémon Fan Club | 宝可梦爱好者俱乐部 |
 | Lilycove Dept. Store | 水静百货商店 |
 | Berry Master | 树果大师 |
+
+## 剧情专有名词（剧本 A 批确定）
+
+| 英文 | 中文 |
+| --- | --- |
+| Mr. Briney / Peeko | 哈奇老人 / 皮可 |
+| Capt. Stern | 楠木船长 |
+| Mr. Stone (Devon President) | 茂木社长 |
+| Devon Goods / Devon Parts | 得文的物品 |
+| S.S. Tidal | 潮汐号 |
+| Shipyard | 造船厂 |
+| Rydel / Rydel's Cycles | 风野 / 风野自行车店 |
+| Mauville Game Corner / Coins | 紫堇游戏城 / 代币 |
+| Trainer Card | 训练家卡片 |
+| Battle Tent | 对战帐篷 |
+| Fossil Regenerator | 化石复原机 |
+| Badges | 原石徽章 / 拳头徽章 / 发电徽章 / 火山徽章 / 平衡徽章 / 羽毛徽章 / 心灵徽章 / 雨滴徽章 |
+| Money | 数字 + "元"（例：1000元） |
+| Speaker prefix | 名字后加全角冒号，例："妈妈：" |
