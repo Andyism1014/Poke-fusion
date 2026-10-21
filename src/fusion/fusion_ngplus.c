@@ -49,6 +49,7 @@ static void ReincarnateMon(struct Pokemon *mon)
     enum Species species = GetMonData(mon, MON_DATA_SPECIES);
     bool32 isShiny = GetMonData(mon, MON_DATA_IS_SHINY);
     u32 exp = gExperienceTables[gSpeciesInfo[species].growthRate][FUSION_REINCARNATION_LEVEL];
+    u32 metLevel = FUSION_REINCARNATION_LEVEL;
     u32 zero = 0;
 
     SetMonData(mon, MON_DATA_EXP, &exp);
@@ -59,6 +60,9 @@ static void ReincarnateMon(struct Pokemon *mon)
     SetMonData(mon, MON_DATA_OT_GENDER, &gSaveBlock2Ptr->playerGender);
     SetBoxMonOtIdReencrypt(&mon->box, READ_OTID_FROM_SAVE);
     SetMonData(mon, MON_DATA_IS_SHINY, &isShiny);
+    // Modern obedience checks the met level of the player's own Pokémon: a reborn Pokémon
+    // must count as met at its new level, or it would ignore a player with no badges.
+    SetMonData(mon, MON_DATA_MET_LEVEL, &metLevel);
     CalculateMonStats(mon);
     HealPokemon(mon);
 }

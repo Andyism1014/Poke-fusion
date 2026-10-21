@@ -237,6 +237,11 @@ void Fusion_GenerateChild(struct Pokemon *parentA, struct Pokemon *parentB, u32 
 
     CreateMon(child, species, level, LocalRandom32(&rng), OTID_STRUCT_PLAYER_ID);
 
+    // Modern obedience checks the met level of the player's own Pokémon, so the child counts
+    // as met at the lower of its parents' met levels: fusing never makes a Pokémon disobey.
+    value = min(GetMonData(parentA, MON_DATA_MET_LEVEL), GetMonData(parentB, MON_DATA_MET_LEVEL));
+    SetMonData(child, MON_DATA_MET_LEVEL, &value);
+
     // Nature
     value = GetMonData(RollPercent(&rng, FUSION_NATURE_FROM_A_CHANCE) ? parentA : parentB, MON_DATA_HIDDEN_NATURE);
     SetMonData(child, MON_DATA_HIDDEN_NATURE, &value);

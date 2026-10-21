@@ -296,3 +296,17 @@ TEST("Fusion genetics: form and copy abilities are never inherited as passives")
             EXPECT_NE(g.passives[i], ABILITY_TRACE);
     }
 }
+
+TEST("Fusion child counts as met at the lower of its parents' met levels")
+{
+    struct Pokemon parentA, parentB, child;
+    u32 metA = 8, metB = 15;
+
+    CreateMon(&parentA, SPECIES_WOBBUFFET, 40, 0, OTID_STRUCT_PLAYER_ID);
+    CreateMon(&parentB, SPECIES_ZIGZAGOON, 45, 0, OTID_STRUCT_PLAYER_ID);
+    SetMonData(&parentA, MON_DATA_MET_LEVEL, &metA);
+    SetMonData(&parentB, MON_DATA_MET_LEVEL, &metB);
+    Fusion_GenerateChild(&parentA, &parentB, 1234, &child);
+    EXPECT_EQ(GetMonData(&child, MON_DATA_LEVEL), 40);
+    EXPECT_EQ(GetMonData(&child, MON_DATA_MET_LEVEL), 8);
+}

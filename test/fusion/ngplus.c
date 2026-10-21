@@ -104,6 +104,7 @@ TEST("Reincarnation carries the saved party into a new game at Lv. 5")
     EXPECT_EQ(GetMonData(&gParties[B_TRAINER_PLAYER][0], MON_DATA_ATK_IV), 31);
     EXPECT_EQ(GetMonData(&gParties[B_TRAINER_PLAYER][0], MON_DATA_ATK_EV), 0);
     EXPECT_EQ(GetMonData(&gParties[B_TRAINER_PLAYER][0], MON_DATA_OT_ID), READ_OTID_FROM_SAVE);
+    EXPECT_EQ(GetMonData(&gParties[B_TRAINER_PLAYER][0], MON_DATA_MET_LEVEL), FUSION_REINCARNATION_LEVEL);
     Fusion_GetMonGenetics(&gParties[B_TRAINER_PLAYER][0], &result);
     EXPECT_EQ(result.passives[0], ABILITY_LEVITATE);
     EXPECT_EQ(result.extraType, TYPE_FIRE);
