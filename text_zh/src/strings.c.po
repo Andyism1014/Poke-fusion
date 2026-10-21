@@ -2449,15 +2449,15 @@ msgstr "混合"
 
 #: src/strings.c:594
 msgid "first"
-msgstr "第一"
+msgstr "一等"
 
 #: src/strings.c:595
 msgid "second"
-msgstr "第二"
+msgstr "二等"
 
 #: src/strings.c:596
 msgid "third"
-msgstr "第三"
+msgstr "三等"
 
 #: src/strings.c:598
 msgid ""
