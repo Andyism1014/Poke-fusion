@@ -7,327 +7,327 @@ msgstr ""
 
 #: src/battle_main.c:262 src/evolution_scene.c:81 src/data/trade.h:611
 msgid "ヌケニン"
-msgstr ""
+msgstr "ヌケニン"
 
 #: src/battle_main.c:301 src/battle_main.c:302 src/battle_main.c:351 src/battle_main.c:366 src/battle_main.c:409
 msgid "{PKMN} TRAINER"
-msgstr ""
+msgstr "宝可梦训练家"
 
 #: src/battle_main.c:303 src/battle_main.c:376
 msgid "HIKER"
-msgstr ""
+msgstr "登山男"
 
 #: src/battle_main.c:304
 msgid "TEAM AQUA"
-msgstr ""
+msgstr "海洋队"
 
 #: src/battle_main.c:305 src/battle_main.c:412
 msgid "{PKMN} BREEDER"
-msgstr ""
+msgstr "宝可梦培育家"
 
 #: src/battle_main.c:306 src/battle_main.c:349 src/battle_main.c:397
 msgid "COOLTRAINER"
-msgstr ""
+msgstr "精英训练家"
 
 #: src/battle_main.c:307 src/battle_main.c:390
 msgid "BIRD KEEPER"
-msgstr ""
+msgstr "养鸟人"
 
 #: src/battle_main.c:308
 msgid "COLLECTOR"
-msgstr ""
+msgstr "收藏家"
 
 #: src/battle_main.c:309 src/battle_main.c:381
 msgid "SWIMMER♂"
-msgstr ""
+msgstr "游泳选手♂"
 
 #: src/battle_main.c:310
 msgid "TEAM MAGMA"
-msgstr ""
+msgstr "熔岩队"
 
 #: src/battle_main.c:311
 msgid "EXPERT"
-msgstr ""
+msgstr "达人"
 
 #: src/battle_main.c:312
 msgid "AQUA ADMIN"
-msgstr ""
+msgstr "海洋队干部"
 
 #: src/battle_main.c:313 src/battle_main.c:391
 msgid "BLACK BELT"
-msgstr ""
+msgstr "空手王"
 
 #: src/battle_main.c:314
 msgid "AQUA LEADER"
-msgstr ""
+msgstr "海洋队首领"
 
 #: src/battle_main.c:315
 msgid "HEX MANIAC"
-msgstr ""
+msgstr "灵异迷"
 
 #: src/battle_main.c:316 src/battle_main.c:414
 msgid "AROMA LADY"
-msgstr ""
+msgstr "芳香小姐"
 
 #: src/battle_main.c:317 src/battle_main.c:415
 msgid "RUIN MANIAC"
-msgstr ""
+msgstr "遗迹迷"
 
 #: src/battle_main.c:318
 msgid "INTERVIEWER"
-msgstr ""
+msgstr "采访者"
 
 #: src/battle_main.c:319 src/battle_main.c:320 src/battle_main.c:411
 msgid "TUBER"
-msgstr ""
+msgstr "泳圈小孩"
 
 #: src/battle_main.c:321 src/battle_main.c:416 src/data/easy_chat/easy_chat_group_people.h:304
 msgid "LADY"
-msgstr ""
+msgstr "大小姐"
 
 #: src/battle_main.c:322 src/battle_main.c:384 src/contest.c:712 src/strings.c:409 src/data/script_menu.h:1311 src/data/easy_chat/easy_chat_group_status.h:76
 msgid "BEAUTY"
-msgstr ""
+msgstr "美丽"
 
 #: src/battle_main.c:323
 msgid "RICH BOY"
-msgstr ""
+msgstr "大少爷"
 
 #: src/battle_main.c:324 src/battle_main.c:374
 msgid "POKéMANIAC"
-msgstr ""
+msgstr "狂热者"
 
 #: src/battle_main.c:325
 msgid "GUITARIST"
-msgstr ""
+msgstr "吉他手"
 
 #: src/battle_main.c:326
 msgid "KINDLER"
-msgstr ""
+msgstr "喷火男"
 
 #: src/battle_main.c:327 src/battle_main.c:372
 msgid "CAMPER"
-msgstr ""
+msgstr "露营男"
 
 #: src/battle_main.c:328 src/battle_main.c:373
 msgid "PICNICKER"
-msgstr ""
+msgstr "野餐女"
 
 #: src/battle_main.c:329
 msgid "BUG MANIAC"
-msgstr ""
+msgstr "昆虫迷"
 
 #: src/battle_main.c:330 src/battle_main.c:386 src/data/easy_chat/easy_chat_group_status.h:88
 msgid "PSYCHIC"
-msgstr ""
+msgstr "超能力"
 
 #: src/battle_main.c:331 src/battle_main.c:399
 msgid "GENTLEMAN"
-msgstr ""
+msgstr "绅士"
 
 #: src/battle_main.c:332 src/battle_main.c:398 src/pokenav_match_call_data.c:493
 msgid "ELITE FOUR"
-msgstr ""
+msgstr "四天王"
 
 #: src/battle_main.c:333 src/battle_main.c:395 src/data/easy_chat/easy_chat_group_battle.h:364
 msgid "LEADER"
-msgstr ""
+msgstr "道馆馆主"
 
 #: src/battle_main.c:334
 msgid "SCHOOL KID"
-msgstr ""
+msgstr "补习班学生"
 
 #: src/battle_main.c:335
 msgid "SR. AND JR."
-msgstr ""
+msgstr "老少组合"
 
 #: src/battle_main.c:336
 msgid "WINSTRATE"
-msgstr ""
+msgstr "连胜家族"
 
 #: src/battle_main.c:337
 msgid "POKéFAN"
-msgstr ""
+msgstr "宝可梦迷"
 
 #: src/battle_main.c:338 src/battle_main.c:368
 msgid "YOUNGSTER"
-msgstr ""
+msgstr "短裤小子"
 
 #: src/battle_main.c:339 src/battle_main.c:401 src/pokenav_match_call_data.c:557
 msgid "CHAMPION"
-msgstr ""
+msgstr "冠军"
 
 #: src/battle_main.c:340 src/battle_main.c:380
 msgid "FISHERMAN"
-msgstr ""
+msgstr "钓鱼人"
 
 #: src/battle_main.c:341
 msgid "TRIATHLETE"
-msgstr ""
+msgstr "铁人三项"
 
 #: src/battle_main.c:342
 msgid "DRAGON TAMER"
-msgstr ""
+msgstr "驯龙师"
 
 #: src/battle_main.c:343
 msgid "NINJA BOY"
-msgstr ""
+msgstr "忍者小子"
 
 #: src/battle_main.c:344
 msgid "BATTLE GIRL"
-msgstr ""
+msgstr "对战女孩"
 
 #: src/battle_main.c:345
 msgid "PARASOL LADY"
-msgstr ""
+msgstr "阳伞姐姐"
 
 #: src/battle_main.c:346 src/battle_main.c:385
 msgid "SWIMMER♀"
-msgstr ""
+msgstr "游泳选手♀"
 
 #: src/battle_main.c:347 src/battle_main.c:403
 msgid "TWINS"
-msgstr ""
+msgstr "双胞胎"
 
 #: src/battle_main.c:348 src/battle_main.c:371
 msgid "SAILOR"
-msgstr ""
+msgstr "船员"
 
 #: src/battle_main.c:350
 msgid "MAGMA ADMIN"
-msgstr ""
+msgstr "熔岩队干部"
 
 #: src/battle_main.c:352 src/battle_main.c:369
 msgid "BUG CATCHER"
-msgstr ""
+msgstr "捕虫少年"
 
 #: src/battle_main.c:353 src/battle_main.c:413
 msgid "{PKMN} RANGER"
-msgstr ""
+msgstr "宝可梦巡护员"
 
 #: src/battle_main.c:354
 msgid "MAGMA LEADER"
-msgstr ""
+msgstr "熔岩队首领"
 
 #: src/battle_main.c:355 src/battle_main.c:370
 msgid "LASS"
-msgstr ""
+msgstr "迷你裙"
 
 #: src/battle_main.c:356 src/battle_main.c:405
 msgid "YOUNG COUPLE"
-msgstr ""
+msgstr "年轻夫妻"
 
 #: src/battle_main.c:357
 msgid "OLD COUPLE"
-msgstr ""
+msgstr "老夫妻"
 
 #: src/battle_main.c:358 src/battle_main.c:407
 msgid "SIS AND BRO"
-msgstr ""
+msgstr "姐弟"
 
 #: src/battle_main.c:359
 msgid "SALON MAIDEN"
-msgstr ""
+msgstr "沙龙少女"
 
 #: src/battle_main.c:360
 msgid "DOME ACE"
-msgstr ""
+msgstr "巨蛋王牌"
 
 #: src/battle_main.c:361
 msgid "PALACE MAVEN"
-msgstr ""
+msgstr "宫殿行家"
 
 #: src/battle_main.c:362
 msgid "ARENA TYCOON"
-msgstr ""
+msgstr "竞技场大亨"
 
 #: src/battle_main.c:363
 msgid "FACTORY HEAD"
-msgstr ""
+msgstr "工厂头领"
 
 #: src/battle_main.c:364
 msgid "PIKE QUEEN"
-msgstr ""
+msgstr "管道女王"
 
 #: src/battle_main.c:365
 msgid "PYRAMID KING"
-msgstr ""
+msgstr "金字塔王"
 
 #: src/battle_main.c:375
 msgid "SUPER NERD"
-msgstr ""
+msgstr "怪人"
 
 #: src/battle_main.c:377
 msgid "BIKER"
-msgstr ""
+msgstr "飙车族"
 
 #: src/battle_main.c:378
 msgid "BURGLAR"
-msgstr ""
+msgstr "小偷"
 
 #: src/battle_main.c:379
 msgid "ENGINEER"
-msgstr ""
+msgstr "工程师"
 
 #: src/battle_main.c:382
 msgid "CUE BALL"
-msgstr ""
+msgstr "光头党"
 
 #: src/battle_main.c:383
 msgid "GAMER"
-msgstr ""
+msgstr "赌徒"
 
 #: src/battle_main.c:387
 msgid "ROCKER"
-msgstr ""
+msgstr "摇滚歌手"
 
 #: src/battle_main.c:388
 msgid "JUGGLER"
-msgstr ""
+msgstr "杂耍艺人"
 
 #: src/battle_main.c:389
 msgid "TAMER"
-msgstr ""
+msgstr "驯兽师"
 
 #: src/battle_main.c:392 src/battle_main.c:400 src/data/easy_chat/easy_chat_group_people.h:400
 msgid "RIVAL"
-msgstr ""
+msgstr "劲敌"
 
 #: src/battle_main.c:393
 msgid "SCIENTIST"
-msgstr ""
+msgstr "研究员"
 
 #: src/battle_main.c:394
 msgid "BOSS"
-msgstr ""
+msgstr "首领"
 
 #: src/battle_main.c:396
 msgid "TEAM ROCKET"
-msgstr ""
+msgstr "火箭队"
 
 #: src/battle_main.c:402
 msgid "CHANNELER"
-msgstr ""
+msgstr "灵媒"
 
 #: src/battle_main.c:404
 msgid "COOL COUPLE"
-msgstr ""
+msgstr "酷酷情侣"
 
 #: src/battle_main.c:406
 msgid "CRUSH KIN"
-msgstr ""
+msgstr "格斗姐弟"
 
 #: src/battle_main.c:408 src/pokenav_match_call_data.c:229
 msgid "{PKMN} PROF."
-msgstr ""
+msgstr "宝可梦博士"
 
 #: src/battle_main.c:410
 msgid "CRUSH GIRL"
-msgstr ""
+msgstr "格斗女孩"
 
 #: src/battle_main.c:417
 msgid "PAINTER"
-msgstr ""
+msgstr "画家"
 
 #: src/battle_main.c:454
 msgid "どく$$$$$"
@@ -356,3 +356,13 @@ msgstr ""
 #: src/battle_main.c:460
 msgid "メロメロ$$$"
 msgstr ""
+
+#: src/battle_main.c:322 src/battle_main.c:384
+msgctxt "src/battle_main.c"
+msgid "BEAUTY"
+msgstr "大姐姐"
+
+#: src/battle_main.c:330 src/battle_main.c:386
+msgctxt "src/battle_main.c"
+msgid "PSYCHIC"
+msgstr "超能力者"

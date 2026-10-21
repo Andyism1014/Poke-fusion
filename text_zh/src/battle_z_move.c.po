@@ -7,36 +7,36 @@ msgstr ""
 
 #: src/battle_z_move.c:97
 msgid "Reset Lowered Stats"
-msgstr ""
+msgstr "能力复原"
 
 #: src/battle_z_move.c:98
 msgid "+ All Stats"
-msgstr ""
+msgstr "+全能力"
 
 #: src/battle_z_move.c:99
 msgid "++ All Stats"
-msgstr ""
+msgstr "++全能力"
 
 #: src/battle_z_move.c:100
 msgid "+ Critical Hit Chance"
-msgstr ""
+msgstr "+要害率"
 
 #: src/battle_z_move.c:101
 msgid "Follow Me"
-msgstr ""
+msgstr "看我嘛"
 
 #: src/battle_z_move.c:102
 msgid "Recover HP"
-msgstr ""
+msgstr "回复HP"
 
 #: src/battle_z_move.c:103
 msgid "Heal Replacement HP"
-msgstr ""
+msgstr "回复接替者"
 
 #: src/battle_z_move.c:104
 msgid "Power: "
-msgstr ""
+msgstr "威力："
 
 #: src/battle_z_move.c:105
 msgid "No Additional Effect"
-msgstr ""
+msgstr "无追加效果"

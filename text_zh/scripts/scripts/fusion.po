@@ -11,6 +11,8 @@ msgid ""
 "{STR_VAR_2} will be consumed.\n"
 "Fuse them?$"
 msgstr ""
+"{STR_VAR_2}将被消耗。\n"
+"确定要炼妖吗？$"
 
 #: data/scripts/fusion.inc:248
 msgctxt "Fusion_Text_FusionComplete"
@@ -18,11 +20,13 @@ msgid ""
 "Fusion complete!\n"
 "{STR_VAR_1} was created.$"
 msgstr ""
+"炼妖完成！\n"
+"诞生了{STR_VAR_1}！$"
 
 #: data/scripts/fusion.inc:252
 msgctxt "Fusion_Text_AppraisalDone"
 msgid "{STR_VAR_1}'s appraisal.$"
-msgstr ""
+msgstr "这是{STR_VAR_1}的鉴定结果。$"
 
 #: data/scripts/fusion.inc:255
 msgctxt "Fusion_Text_NotEnoughMaterials"
@@ -30,6 +34,8 @@ msgid ""
 "You need at least two Pokémon\n"
 "to fuse.$"
 msgstr ""
+"至少需要两只宝可梦\n"
+"才能炼妖。$"
 
 #: data/scripts/fusion.inc:259
 msgctxt "Fusion_Text_NoMaterials"
@@ -37,6 +43,8 @@ msgid ""
 "There are no Pokémon in your party\n"
 "or Boxes.$"
 msgstr ""
+"队伍和盒子里\n"
+"都没有宝可梦。$"
 
 #: data/scripts/fusion.inc:263
 msgctxt "Fusion_Text_SettingsSummary"
@@ -44,6 +52,8 @@ msgid ""
 "Capture: {STR_VAR_1}  Exp. Share: {STR_VAR_2}\n"
 "Wild Pokémon: {STR_VAR_3}$"
 msgstr ""
+"捕获：{STR_VAR_1}　野生：{STR_VAR_3}\n"
+"学习装置：{STR_VAR_2}$"
 
 #: data/scripts/fusion.inc:267
 msgctxt "Fusion_Text_CaptureModeHelp"
@@ -51,6 +61,8 @@ msgid ""
 "Convenient: wild Pokémon are 2x easier.\n"
 "Material: always caught. Not legendaries.$"
 msgstr ""
+"便捷：野生宝可梦的捕获率翻倍。\n"
+"材料：必定捕获，传说宝可梦除外。$"
 
 #: data/scripts/fusion.inc:271
 msgctxt "Fusion_Text_TerminalIntro"
@@ -66,11 +78,21 @@ msgid ""
 "Tip: wild Pokémon sometimes carry\n"
 "passives or a third type. Catch them!$"
 msgstr ""
+"欢迎使用炼妖终端！\p"
+"炼妖：把队伍或任意盒子里的两只\n"
+"宝可梦合成为一只新的宝可梦。\p"
+"子代会从双亲继承招式、个体值、\n"
+"主特性和被动特性。\l"
+"双亲都会被消耗掉。\p"
+"鉴定：查看个体值、被动和属性。\n"
+"设置：捕获模式、学习装置。\p"
+"提示：野生宝可梦有时会带有被动\n"
+"或第三属性。快去捕捉吧！$"
 
 #: data/scripts/fusion.inc:283
 msgctxt "Fusion_Text_Tower"
 msgid "Tower$"
-msgstr ""
+msgstr "炼妖塔$"
 
 #: data/scripts/fusion.inc:286
 msgctxt "Fusion_Text_TowerStatus"
@@ -78,16 +100,18 @@ msgid ""
 "Fusion Tower - next floor {STR_VAR_1}\n"
 "Best: {STR_VAR_2}  Shards: {STR_VAR_3}$"
 msgstr ""
+"炼妖塔　下一层：第{STR_VAR_1}层\n"
+"最高：{STR_VAR_2}层　碎片：{STR_VAR_3}$"
 
 #: data/scripts/fusion.inc:290
 msgctxt "Fusion_Text_ShardShop"
 msgid "Shard Shop$"
-msgstr ""
+msgstr "碎片商店$"
 
 #: data/scripts/fusion.inc:293
 msgctxt "Fusion_Text_Reincarnate"
 msgid "Reincarnate$"
-msgstr ""
+msgstr "转生$"
 
 #: data/scripts/fusion.inc:296
 msgctxt "Fusion_Text_ShopWelcome"
@@ -95,56 +119,58 @@ msgid ""
 "Shard Shop - you have {STR_VAR_3} Shards.\n"
 "What would you like?$"
 msgstr ""
+"碎片商店：你有{STR_VAR_3}个炼妖碎片。\n"
+"想要买点什么？$"
 
 #: data/scripts/fusion.inc:300
 msgctxt "Fusion_Text_ShopPassiveCrystal"
 msgid "Passive Crystal  30$"
-msgstr ""
+msgstr "被动水晶  30$"
 
 #: data/scripts/fusion.inc:303
 msgctxt "Fusion_Text_ShopTypePrism"
 msgid "Type Prism  20$"
-msgstr ""
+msgstr "属性棱镜  20$"
 
 #: data/scripts/fusion.inc:306
 msgctxt "Fusion_Text_ShopRareCandy"
 msgid "Rare Candy  3$"
-msgstr ""
+msgstr "神奇糖果  3$"
 
 #: data/scripts/fusion.inc:309
 msgctxt "Fusion_Text_ShopBottleCap"
 msgid "Bottle Cap  15$"
-msgstr ""
+msgstr "银色王冠  15$"
 
 #: data/scripts/fusion.inc:312
 msgctxt "Fusion_Text_ShopGoldBottleCap"
 msgid "Gold Bottle Cap  40$"
-msgstr ""
+msgstr "金色王冠  40$"
 
 #: data/scripts/fusion.inc:315
 msgctxt "Fusion_Text_ShopLeftovers"
 msgid "Leftovers  25$"
-msgstr ""
+msgstr "吃剩的东西  25$"
 
 #: data/scripts/fusion.inc:318
 msgctxt "Fusion_Text_ShopLifeOrb"
 msgid "Life Orb  25$"
-msgstr ""
+msgstr "生命宝珠  25$"
 
 #: data/scripts/fusion.inc:321
 msgctxt "Fusion_Text_ShopChoiceScarf"
 msgid "Choice Scarf  25$"
-msgstr ""
+msgstr "讲究围巾  25$"
 
 #: data/scripts/fusion.inc:324
 msgctxt "Fusion_Text_ShopFocusSash"
 msgid "Focus Sash  20$"
-msgstr ""
+msgstr "气势披带  20$"
 
 #: data/scripts/fusion.inc:327
 msgctxt "Fusion_Text_ShopMasterBall"
 msgid "Master Ball  100$"
-msgstr ""
+msgstr "大师球  100$"
 
 #: data/scripts/fusion.inc:330
 msgctxt "Fusion_Text_ShopConfirm"
@@ -152,6 +178,8 @@ msgid ""
 "Buy a {STR_VAR_1}\n"
 "for {STR_VAR_2} Shards?$"
 msgstr ""
+"要用{STR_VAR_2}个碎片\n"
+"购买{STR_VAR_1}吗？$"
 
 #: data/scripts/fusion.inc:334
 msgctxt "Fusion_Text_ShopBought"
@@ -159,16 +187,18 @@ msgid ""
 "You got a {STR_VAR_1}!\n"
 "Shards left: {STR_VAR_3}.$"
 msgstr ""
+"得到了{STR_VAR_1}！\n"
+"剩余碎片：{STR_VAR_3}。$"
 
 #: data/scripts/fusion.inc:338
 msgctxt "Fusion_Text_ShopNotEnough"
 msgid "You don't have enough Shards.$"
-msgstr ""
+msgstr "炼妖碎片不够。$"
 
 #: data/scripts/fusion.inc:341
 msgctxt "Fusion_Text_ShopBagFull"
 msgid "There's no room in your Bag.$"
-msgstr ""
+msgstr "背包已经满了。$"
 
 #: data/scripts/fusion.inc:344
 msgctxt "Fusion_Text_ReincarnateInfo"
@@ -180,6 +210,12 @@ msgid ""
 "Shards and your best floor are kept.\n"
 "Trainers get stronger every cycle.$"
 msgstr ""
+"转生后，会在重新随机生成的世界里\n"
+"开始一段新的冒险。\p"
+"你的队伍会以Lv.5一同前往，\n"
+"并保留个体值、招式和基因。\p"
+"炼妖碎片和最高层数都会保留。\n"
+"每转生一次，训练家都会变得更强。$"
 
 #: data/scripts/fusion.inc:352
 msgctxt "Fusion_Text_ReincarnateConfirm"
@@ -187,6 +223,8 @@ msgid ""
 "Prepare reincarnation {STR_VAR_1}?\n"
 "The game will be saved.$"
 msgstr ""
+"要准备第{STR_VAR_1}次转生吗？\n"
+"游戏将会进行记录。$"
 
 #: data/scripts/fusion.inc:356
 msgctxt "Fusion_Text_ReincarnateSaved"
@@ -194,36 +232,38 @@ msgid ""
 "Saved! Choose NEW GAME on the title\n"
 "screen to be reborn with your party.$"
 msgstr ""
+"记录完成！在标题画面选择\n"
+"“新游戏”，就能带着队伍转生。$"
 
 #: data/scripts/fusion.inc:360
 msgctxt "Fusion_Text_ReincarnateResetNow"
 msgid "Return to the title screen now?$"
-msgstr ""
+msgstr "现在要回到标题画面吗？$"
 
 #: data/scripts/fusion.inc:363
 msgctxt "Fusion_Text_ReincarnateCancelConfirm"
 msgid "Reincarnation is ready. Cancel it?$"
-msgstr ""
+msgstr "转生已准备就绪。要取消吗？$"
 
 #: data/scripts/fusion.inc:366
 msgctxt "Fusion_Text_ReincarnateCanceled"
 msgid "Reincarnation canceled. Saved.$"
-msgstr ""
+msgstr "已取消转生，并进行了记录。$"
 
 #: data/scripts/fusion.inc:369
 msgctxt "Fusion_Text_ReincarnateSaveFailed"
 msgid "The game couldn't be saved.$"
-msgstr ""
+msgstr "无法记录游戏。$"
 
 #: data/scripts/fusion.inc:372
 msgctxt "Fusion_Text_TowerChallenge"
 msgid "Challenge$"
-msgstr ""
+msgstr "挑战$"
 
 #: data/scripts/fusion.inc:375
 msgctxt "Fusion_Text_TowerRetire"
 msgid "End run$"
-msgstr ""
+msgstr "结束挑战$"
 
 #: data/scripts/fusion.inc:378
 msgctxt "Fusion_Text_TowerFloorIntro"
@@ -231,6 +271,8 @@ msgid ""
 "Floor {STR_VAR_1}: {STR_VAR_2} appears\n"
 "with {STR_VAR_3} Pokémon!$"
 msgstr ""
+"第{STR_VAR_1}层：{STR_VAR_2}带着\n"
+"{STR_VAR_3}只宝可梦出现了！$"
 
 #: data/scripts/fusion.inc:382
 msgctxt "Fusion_Text_TowerCleared"
@@ -238,6 +280,8 @@ msgid ""
 "Floor cleared!\n"
 "You earned {STR_VAR_1} Fusion Shards.$"
 msgstr ""
+"突破了这一层！\n"
+"获得了{STR_VAR_1}个炼妖碎片。$"
 
 #: data/scripts/fusion.inc:386
 msgctxt "Fusion_Text_TowerChooseReward"
@@ -245,6 +289,8 @@ msgid ""
 "Choose a reward.\n"
 "Your party is not healed between floors.$"
 msgstr ""
+"请选择一项奖励。\n"
+"每层之间队伍不会自动恢复。$"
 
 #: data/scripts/fusion.inc:390
 msgctxt "Fusion_Text_TowerLost"
@@ -252,11 +298,13 @@ msgid ""
 "The run ended on floor {STR_VAR_1}.\n"
 "Your party has been healed.$"
 msgstr ""
+"本轮挑战在第{STR_VAR_1}层结束了。\n"
+"队伍已经恢复了。$"
 
 #: data/scripts/fusion.inc:394
 msgctxt "Fusion_Text_TowerNoFighters"
 msgid "None of your Pokémon can fight.$"
-msgstr ""
+msgstr "你没有能战斗的宝可梦。$"
 
 #: data/scripts/fusion.inc:397
 msgctxt "Fusion_Text_TowerRetireConfirm"
@@ -264,51 +312,53 @@ msgid ""
 "End this run? Your Shards and best\n"
 "floor are kept, and your party healed.$"
 msgstr ""
+"要结束本轮挑战吗？碎片和最高\n"
+"层数会保留，队伍也会恢复。$"
 
 #: data/scripts/fusion.inc:401
 msgctxt "Fusion_Text_TowerRetired"
 msgid "The run is over. See you again!$"
-msgstr ""
+msgstr "本轮挑战结束了。欢迎再来！$"
 
 #: data/scripts/fusion.inc:404
 msgctxt "Fusion_Text_Fuse"
 msgid "Fuse$"
-msgstr ""
+msgstr "炼妖$"
 
 #: data/scripts/fusion.inc:407
 msgctxt "Fusion_Text_Appraise"
 msgid "Appraise$"
-msgstr ""
+msgstr "鉴定$"
 
 #: data/scripts/fusion.inc:410
 msgctxt "Fusion_Text_Storage"
 msgid "Storage$"
-msgstr ""
+msgstr "盒子$"
 
 #: data/scripts/fusion.inc:413
 msgctxt "Fusion_Text_Settings"
 msgid "Settings$"
-msgstr ""
+msgstr "设置$"
 
 #: data/scripts/fusion.inc:416
 msgctxt "Fusion_Text_Exit"
 msgid "Exit$"
-msgstr ""
+msgstr "关闭$"
 
 #: data/scripts/fusion.inc:419
 msgctxt "Fusion_Text_CaptureMode"
 msgid "Capture mode$"
-msgstr ""
+msgstr "捕获模式$"
 
 #: data/scripts/fusion.inc:422
 msgctxt "Fusion_Text_ExpShare"
 msgid "Exp. Share$"
-msgstr ""
+msgstr "学习装置$"
 
 #: data/scripts/fusion.inc:425
 msgctxt "Fusion_Text_WildPokemon"
 msgid "Wild Pokémon$"
-msgstr ""
+msgstr "野生宝可梦$"
 
 #: data/scripts/fusion.inc:428
 msgctxt "Fusion_Text_WildPokemonHelp"
@@ -318,28 +368,32 @@ msgid ""
 "Original: the classic Hoenn Pokémon.\n"
 "Switch to the other one?$"
 msgstr ""
+"全世代：每个区域都有本存档随机\n"
+"分配的第1～9世代宝可梦。\p"
+"原版：原本的丰缘地区宝可梦。\n"
+"要切换到另一种吗？$"
 
 #: data/scripts/fusion.inc:434
 msgctxt "Fusion_Text_Back"
 msgid "Back$"
-msgstr ""
+msgstr "返回$"
 
 #: data/scripts/fusion.inc:437
 msgctxt "Fusion_Text_ModeClassic"
 msgid "Classic$"
-msgstr ""
+msgstr "经典$"
 
 #: data/scripts/fusion.inc:440
 msgctxt "Fusion_Text_ModeConvenient"
 msgid "Convenient$"
-msgstr ""
+msgstr "便捷$"
 
 #: data/scripts/fusion.inc:443
 msgctxt "Fusion_Text_ModeMaterial"
 msgid "Material$"
-msgstr ""
+msgstr "材料$"
 
 #: data/scripts/fusion.inc:460
 msgctxt "Fusion_Text_NoLocalWild"
 msgid "No wild Pokémon live here.$"
-msgstr ""
+msgstr "这里没有野生宝可梦。$"

@@ -7,16 +7,16 @@ msgstr ""
 
 #: src/battle_interface.c:541
 msgid "{COLOR WHITE}{BACKGROUND DARK_GRAY}{ACCENT DARK_GRAY}              "
-msgstr ""
+msgstr "{COLOR WHITE}{BACKGROUND DARK_GRAY}{ACCENT DARK_GRAY}              "
 
 #: src/battle_interface.c:542
 msgid "{COLOR WHITE}{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}              "
-msgstr ""
+msgstr "{COLOR WHITE}{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}              "
 
 #: src/battle_interface.c:2596
 msgid "'"
-msgstr ""
+msgstr "的"
 
 #: src/battle_interface.c:2598 src/battle_message.c:906 src/item.c:173
 msgid "s"
-msgstr ""
+msgstr "{ENG}"

@@ -10,15 +10,21 @@ msgid ""
 "{STR_VAR_1} gained the passive\n"
 "{STR_VAR_2}!{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}获得了被动特性\n"
+"{STR_VAR_2}！{PAUSE_UNTIL_PRESS}"
 
 #: src/fusion/fusion_items.c:12
 msgid ""
 "{STR_VAR_1}'s {STR_VAR_3}\n"
 "became {STR_VAR_2}!{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}的{STR_VAR_3}\n"
+"变成了{STR_VAR_2}！{PAUSE_UNTIL_PRESS}"
 
 #: src/fusion/fusion_items.c:13
 msgid ""
 "{STR_VAR_1}'s third type\n"
 "is now {STR_VAR_2}!{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}的第三属性\n"
+"变成了{STR_VAR_2}！{PAUSE_UNTIL_PRESS}"

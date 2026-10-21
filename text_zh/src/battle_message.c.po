@@ -7,87 +7,87 @@ msgstr ""
 
 #: src/battle_message.c:73
 msgid "{B_ATK_NAME_WITH_PREFIX} surrounds itself with a protective mist!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}被白雾包围了！"
 
 #: src/battle_message.c:74
 msgid "{B_DEF_NAME_WITH_PREFIX} is getting pumped!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}干劲十足！"
 
 #: src/battle_message.c:75
 msgid "{B_BUFF1} is preventing switching out with its {B_LAST_ABILITY} Ability!\p"
-msgstr ""
+msgstr "{B_BUFF1}的{B_LAST_ABILITY}特性使宝可梦无法替换！\p"
 
 #: src/battle_message.c:76
 msgid " sharply"
-msgstr ""
+msgstr "大幅"
 
 #: src/battle_message.c:77
 msgid "rose!"
-msgstr ""
+msgstr "提高了！"
 
 #: src/battle_message.c:78
 msgid "fell!"
-msgstr ""
+msgstr "降低了！"
 
 #: src/battle_message.c:79
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} rose{B_BUFF2}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}{B_BUFF2}提高了！"
 
 #: src/battle_message.c:80
 msgid "{PLAY_SE SE_FLEE}You got away safely!\p"
-msgstr ""
+msgstr "{PLAY_SE SE_FLEE}顺利逃走了！\p"
 
 #: src/battle_message.c:81
 msgid "You defeated {B_LINK_OPPONENT1_NAME}!"
-msgstr ""
+msgstr "你战胜了{B_LINK_OPPONENT1_NAME}！"
 
 #: src/battle_message.c:82
 msgid "You defeated {B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!"
-msgstr ""
+msgstr "你战胜了{B_LINK_OPPONENT1_NAME}和{B_LINK_OPPONENT2_NAME}！"
 
 #: src/battle_message.c:83
 msgid "You lost against {B_LINK_OPPONENT1_NAME}!"
-msgstr ""
+msgstr "你输给了{B_LINK_OPPONENT1_NAME}！"
 
 #: src/battle_message.c:84
 msgid "You lost to {B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!"
-msgstr ""
+msgstr "你输给了{B_LINK_OPPONENT1_NAME}和{B_LINK_OPPONENT2_NAME}！"
 
 #: src/battle_message.c:85
 msgid "You battled to a draw against {B_LINK_OPPONENT1_NAME}!"
-msgstr ""
+msgstr "你和{B_LINK_OPPONENT1_NAME}打成了平手！"
 
 #: src/battle_message.c:86
 msgid "You battled to a draw against {B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!"
-msgstr ""
+msgstr "你和{B_LINK_OPPONENT1_NAME}、{B_LINK_OPPONENT2_NAME}打成了平手！"
 
 #: src/battle_message.c:87
 msgid "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} fled!"
-msgstr ""
+msgstr "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME}逃走了！"
 
 #: src/battle_message.c:88
 msgid "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME} fled!"
-msgstr ""
+msgstr "{PLAY_SE SE_FLEE}{B_LINK_OPPONENT1_NAME}和{B_LINK_OPPONENT2_NAME}逃走了！"
 
 #: src/battle_message.c:89
 msgid "You defeated {B_TRAINER1_NAME_WITH_CLASS}!\p"
-msgstr ""
+msgstr "你战胜了{B_TRAINER1_NAME_WITH_CLASS}！\p"
 
 #: src/battle_message.c:90
 msgid "{B_OPPONENT_MON1_NAME} appeared!\p"
-msgstr ""
+msgstr "{B_OPPONENT_MON1_NAME}出现了！\p"
 
 #: src/battle_message.c:91 src/battle_message.c:92
 msgid "You encountered a wild {B_OPPONENT_MON1_NAME}!\p"
-msgstr ""
+msgstr "野生的{B_OPPONENT_MON1_NAME}出现了！\p"
 
 #: src/battle_message.c:93
 msgid "You encountered a wild {B_OPPONENT_MON1_NAME}!{PAUSE 127}"
-msgstr ""
+msgstr "野生的{B_OPPONENT_MON1_NAME}出现了！{PAUSE 127}"
 
 #: src/battle_message.c:94
 msgid "Oh! A wild {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME} appeared!\p"
-msgstr ""
+msgstr "哦！野生的{B_OPPONENT_MON1_NAME}和{B_OPPONENT_MON2_NAME}出现了！\p"
 
 #: src/battle_message.c:95
 msgid ""
@@ -95,10 +95,13 @@ msgid ""
 "Darn!\n"
 "The GHOST can't be ID'd!\p"
 msgstr ""
+"幽灵出现了！\p"
+"可恶！\n"
+"无法辨认幽灵的真面目！\p"
 
 #: src/battle_message.c:96
 msgid "The GHOST appeared!\p"
-msgstr ""
+msgstr "幽灵出现了！\p"
 
 #: src/battle_message.c:97
 msgid "You are challenged by {B_TRAINER1_NAME_WITH_CLASS}!\p"
@@ -106,3049 +109,3067 @@ msgstr "{B_TRAINER1_NAME_WITH_CLASS}向你发起了对战！\p"
 
 #: src/battle_message.c:98
 msgid "You are challenged by {B_LINK_OPPONENT1_NAME}!"
-msgstr ""
+msgstr "{B_LINK_OPPONENT1_NAME}向你发起了对战！"
 
 #: src/battle_message.c:99
 msgid "You are challenged by {B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!"
-msgstr ""
+msgstr "{B_LINK_OPPONENT1_NAME}和{B_LINK_OPPONENT2_NAME}向你发起了对战！"
 
 #: src/battle_message.c:100
 msgid "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME}!"
-msgstr ""
+msgstr "{B_TRAINER1_NAME_WITH_CLASS}派出了{B_OPPONENT_MON1_NAME}！"
 
 #: src/battle_message.c:101
 msgid "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!"
-msgstr ""
+msgstr "{B_TRAINER1_NAME_WITH_CLASS}派出了{B_OPPONENT_MON1_NAME}和{B_OPPONENT_MON2_NAME}！"
 
 #: src/battle_message.c:102
 msgid "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_BUFF1}!"
-msgstr ""
+msgstr "{B_TRAINER1_NAME_WITH_CLASS}派出了{B_BUFF1}！"
 
 #: src/battle_message.c:103
 msgid "{B_LINK_OPPONENT1_NAME} sent out {B_LINK_OPPONENT_MON1_NAME}!"
-msgstr ""
+msgstr "{B_LINK_OPPONENT1_NAME}派出了{B_LINK_OPPONENT_MON1_NAME}！"
 
 #: src/battle_message.c:104
 msgid "{B_LINK_OPPONENT1_NAME} sent out {B_BUFF1}!"
-msgstr ""
+msgstr "{B_LINK_OPPONENT1_NAME}派出了{B_BUFF1}！"
 
 #: src/battle_message.c:105
 msgid "{B_LINK_OPPONENT2_NAME} sent out {B_BUFF1}!"
-msgstr ""
+msgstr "{B_LINK_OPPONENT2_NAME}派出了{B_BUFF1}！"
 
 #: src/battle_message.c:106
 msgid "{B_LINK_OPPONENT1_NAME} sent out {B_OPPONENT_MON1_NAME} and {B_OPPONENT_MON2_NAME}!"
-msgstr ""
+msgstr "{B_LINK_OPPONENT1_NAME}派出了{B_OPPONENT_MON1_NAME}和{B_OPPONENT_MON2_NAME}！"
 
 #: src/battle_message.c:107
 msgid "{B_LINK_OPPONENT1_NAME} sent out {B_LINK_OPPONENT_MON1_NAME}! {B_LINK_OPPONENT2_NAME} sent out {B_LINK_OPPONENT_MON2_NAME}!"
-msgstr ""
+msgstr "{B_LINK_OPPONENT1_NAME}派出了{B_LINK_OPPONENT_MON1_NAME}！{B_LINK_OPPONENT2_NAME}派出了{B_LINK_OPPONENT_MON2_NAME}！"
 
 #: src/battle_message.c:108
 msgid "{B_LINK_OPPONENT1_NAME} sent out {B_LINK_OPPONENT_MON2_NAME}!"
-msgstr ""
+msgstr "{B_LINK_OPPONENT1_NAME}派出了{B_LINK_OPPONENT_MON2_NAME}！"
 
 #: src/battle_message.c:109
 msgid "{B_LINK_SCR_TRAINER_NAME} sent out {B_BUFF1}!"
-msgstr ""
+msgstr "{B_LINK_SCR_TRAINER_NAME}派出了{B_BUFF1}！"
 
 #: src/battle_message.c:110
 msgid "Go! {B_PLAYER_MON1_NAME}!"
-msgstr ""
+msgstr "去吧！{B_PLAYER_MON1_NAME}！"
 
 #: src/battle_message.c:111
 msgid "Go! {B_PLAYER_MON1_NAME} and {B_PLAYER_MON2_NAME}!"
-msgstr ""
+msgstr "去吧！{B_PLAYER_MON1_NAME}、{B_PLAYER_MON2_NAME}！"
 
 #: src/battle_message.c:112
 msgid "Go! {B_BUFF1}!"
-msgstr ""
+msgstr "去吧！{B_BUFF1}！"
 
 #: src/battle_message.c:113
 msgid "You're in charge, {B_BUFF1}!"
-msgstr ""
+msgstr "拜托你了！{B_BUFF1}！"
 
 #: src/battle_message.c:114
 msgid "Go for it, {B_BUFF1}!"
-msgstr ""
+msgstr "加油！{B_BUFF1}！"
 
 #: src/battle_message.c:115
 msgid "Be careful, {B_PLAYER_MON1_NAME}!"
-msgstr ""
+msgstr "小心点！{B_PLAYER_MON1_NAME}！"
 
 #: src/battle_message.c:116
 msgid "Just a little more! Hang in there, {B_BUFF1}!"
-msgstr ""
+msgstr "再加把劲！坚持住，{B_BUFF1}！"
 
 #: src/battle_message.c:117
 msgid "Your opponent's weak! Get 'em, {B_BUFF1}!"
-msgstr ""
+msgstr "对手已经很虚弱了！上吧，{B_BUFF1}！"
 
 #: src/battle_message.c:118
 msgid "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON1_NAME}! Go, {B_LINK_PLAYER_MON2_NAME}!"
-msgstr ""
+msgstr "{B_LINK_PARTNER_NAME}派出了{B_LINK_PLAYER_MON1_NAME}！去吧，{B_LINK_PLAYER_MON2_NAME}！"
 
 #: src/battle_message.c:119
 msgid "{B_LINK_PARTNER_NAME} sent out {B_LINK_PLAYER_MON2_NAME}! Go, {B_LINK_PLAYER_MON1_NAME}!"
-msgstr ""
+msgstr "{B_LINK_PARTNER_NAME}派出了{B_LINK_PLAYER_MON2_NAME}！去吧，{B_LINK_PLAYER_MON1_NAME}！"
 
 #: src/battle_message.c:120 src/battle_message.c:121
 msgid "{B_LINK_PARTNER_NAME} sent out {B_BUFF1}!"
-msgstr ""
+msgstr "{B_LINK_PARTNER_NAME}派出了{B_BUFF1}！"
 
 #: src/battle_message.c:122
 msgid "{B_LINK_PARTNER_NAME} withdrew {B_LINK_PLAYER_MON1_NAME}!"
-msgstr ""
+msgstr "{B_LINK_PARTNER_NAME}收回了{B_LINK_PLAYER_MON1_NAME}！"
 
 #: src/battle_message.c:123
 msgid "{B_LINK_PARTNER_NAME} withdrew {B_LINK_PLAYER_MON2_NAME}!"
-msgstr ""
+msgstr "{B_LINK_PARTNER_NAME}收回了{B_LINK_PLAYER_MON2_NAME}！"
 
 #: src/battle_message.c:124
 msgid "{B_BUFF1}, switch out! Come back!"
-msgstr ""
+msgstr "{B_BUFF1}，换人！回来吧！"
 
 #: src/battle_message.c:125
 msgid "{B_BUFF1}, that's enough! Come back!"
-msgstr ""
+msgstr "{B_BUFF1}，够了！回来吧！"
 
 #: src/battle_message.c:126
 msgid "{B_BUFF1}, come back!"
-msgstr ""
+msgstr "{B_BUFF1}，回来吧！"
 
 #: src/battle_message.c:127
 msgid "OK, {B_BUFF1}! Come back!"
-msgstr ""
+msgstr "好了，{B_BUFF1}！回来吧！"
 
 #: src/battle_message.c:128
 msgid "Good job, {B_BUFF1}! Come back!"
-msgstr ""
+msgstr "干得好，{B_BUFF1}！回来吧！"
 
 #: src/battle_message.c:129
 msgid "{B_TRAINER1_NAME_WITH_CLASS} withdrew {B_BUFF1}!"
-msgstr ""
+msgstr "{B_TRAINER1_NAME_WITH_CLASS}收回了{B_BUFF1}！"
 
 #: src/battle_message.c:130
 msgid "{B_TRAINER2_NAME_WITH_CLASS} withdrew {B_BUFF1}!"
-msgstr ""
+msgstr "{B_TRAINER2_NAME_WITH_CLASS}收回了{B_BUFF1}！"
 
 #: src/battle_message.c:131
 msgid "{B_LINK_OPPONENT1_NAME} withdrew {B_BUFF1}!"
-msgstr ""
+msgstr "{B_LINK_OPPONENT1_NAME}收回了{B_BUFF1}！"
 
 #: src/battle_message.c:132
 msgid "{B_LINK_OPPONENT2_NAME} withdrew {B_BUFF1}!"
-msgstr ""
+msgstr "{B_LINK_OPPONENT2_NAME}收回了{B_BUFF1}！"
 
 #: src/battle_message.c:133
 msgid "The wild "
-msgstr ""
+msgstr "野生的"
 
 #: src/battle_message.c:134
 msgid "The opposing "
-msgstr ""
+msgstr "对手的"
 
 #: src/battle_message.c:135
 msgid "the wild "
-msgstr ""
+msgstr "野生的"
 
 #: src/battle_message.c:136
 msgid "the opposing "
-msgstr ""
+msgstr "对手的"
 
 #: src/battle_message.c:138 src/battle_message.c:140 src/battle_message.c:142
 msgid "Opposing"
-msgstr ""
+msgstr "对手的"
 
 #: src/battle_message.c:139 src/battle_message.c:141 src/battle_message.c:143
 msgid "Ally"
-msgstr ""
+msgstr "我方的"
 
 #: src/battle_message.c:144
 msgid "{B_ATK_NAME_WITH_PREFIX} used {B_BUFF3}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}使用了{B_BUFF3}！"
 
 #: src/battle_message.c:145 src/battle_message.c:146 src/battle_message.c:147 src/battle_message.c:148 src/battle_message.c:149 src/data/easy_chat/easy_chat_group_voices.h:4
 msgid "!"
-msgstr ""
+msgstr "！"
 
 #: src/battle_message.c:150 src/pokedex_plus_hgss.c:63 src/strings.c:181 src/strings.c:310 src/fusion/fusion_ui.c:636
 msgid "HP"
-msgstr ""
+msgstr "HP"
 
 #: src/battle_message.c:151
 msgid "Attack"
-msgstr ""
+msgstr "攻击"
 
 #: src/battle_message.c:152
 msgid "Defense"
-msgstr ""
+msgstr "防御"
 
 #: src/battle_message.c:153
 msgid "Speed"
-msgstr ""
+msgstr "速度"
 
 #: src/battle_message.c:154
 msgid "Sp. Atk"
-msgstr ""
+msgstr "特攻"
 
 #: src/battle_message.c:155
 msgid "Sp. Def"
-msgstr ""
+msgstr "特防"
 
 #: src/battle_message.c:156
 msgid "accuracy"
-msgstr ""
+msgstr "命中率"
 
 #: src/battle_message.c:157
 msgid "evasiveness"
-msgstr ""
+msgstr "闪避率"
 
 #: src/battle_message.c:172
 msgid "was too spicy!"
-msgstr ""
+msgstr "太辣了！"
 
 #: src/battle_message.c:173
 msgid "was too dry!"
-msgstr ""
+msgstr "太涩了！"
 
 #: src/battle_message.c:174
 msgid "was too sweet!"
-msgstr ""
+msgstr "太甜了！"
 
 #: src/battle_message.c:175
 msgid "was too bitter!"
-msgstr ""
+msgstr "太苦了！"
 
 #: src/battle_message.c:176
 msgid "was too sour!"
-msgstr ""
+msgstr "太酸了！"
 
 #: src/battle_message.c:179
 msgid "someone's"
-msgstr ""
+msgstr "某人的"
 
 #: src/battle_message.c:180
 msgid "LANETTE's"
-msgstr ""
+msgstr "真树的"
 
 #: src/battle_message.c:181
 msgid "BILL's"
-msgstr ""
+msgstr "正辉的"
 
 #: src/battle_message.c:182
 msgid "ENIGMA BERRY"
-msgstr ""
+msgstr "谜芝果"
 
 #: src/battle_message.c:183 src/berry_blender.c:276 src/strings.c:93
 msgid " BERRY"
-msgstr ""
+msgstr "果"
 
 #: src/battle_message.c:186
 msgid "You defeated {B_TRAINER1_NAME_WITH_CLASS} and {B_TRAINER2_NAME_WITH_CLASS}!\p"
-msgstr ""
+msgstr "你战胜了{B_TRAINER1_NAME_WITH_CLASS}和{B_TRAINER2_NAME_WITH_CLASS}！\p"
 
 #: src/battle_message.c:189
 msgid " drastically"
-msgstr ""
+msgstr "巨幅"
 
 #: src/battle_message.c:190
 msgid "severely "
-msgstr ""
+msgstr "巨幅"
 
 #: src/battle_message.c:191
 msgid "The terrain returned to normal!"
-msgstr ""
+msgstr "场地恢复正常了！"
 
 #: src/battle_message.c:195
 msgid "{B_TRAINER1_LOSE_TEXT}"
-msgstr ""
+msgstr "{B_TRAINER1_LOSE_TEXT}"
 
 #: src/battle_message.c:196
 msgid "{B_BUFF1} gained{B_BUFF2} {B_BUFF3} Exp. Points!\p"
-msgstr ""
+msgstr "{B_BUFF1}获得了{B_BUFF2}{B_BUFF3}点经验值！\p"
 
 #: src/battle_message.c:197
 msgid "{B_BUFF1} grew to Lv. {B_BUFF2}!{WAIT_SE}\p"
-msgstr ""
+msgstr "{B_BUFF1}升到了Lv.{B_BUFF2}！{WAIT_SE}\p"
 
 #: src/battle_message.c:198
 msgid "{B_BUFF1} learned {B_BUFF2}!{WAIT_SE}\p"
-msgstr ""
+msgstr "{B_BUFF1}学会了{B_BUFF2}！{WAIT_SE}\p"
 
 #: src/battle_message.c:199
 msgid "{B_BUFF1} wants to learn the move {B_BUFF2}.\p"
-msgstr ""
+msgstr "{B_BUFF1}想要学习新招式{B_BUFF2}。\p"
 
 #: src/battle_message.c:200
 msgid "However, {B_BUFF1} already knows four moves.\p"
-msgstr ""
+msgstr "但是，{B_BUFF1}已经学会了4个招式。\p"
 
 #: src/battle_message.c:201
 msgid "Should another move be forgotten and replaced with {B_BUFF2}?"
-msgstr ""
+msgstr "要忘记一个招式来学习{B_BUFF2}吗？"
 
 #: src/battle_message.c:202
 msgid "{B_BUFF1} forgot {B_BUFF2}…\p"
-msgstr ""
+msgstr "{B_BUFF1}忘记了{B_BUFF2}……\p"
 
 #: src/battle_message.c:203
 msgid "{PAUSE 32}Do you want to give up on having {B_BUFF1} learn {B_BUFF2}?"
-msgstr ""
+msgstr "{PAUSE 32}要放弃让{B_BUFF1}学习{B_BUFF2}吗？"
 
 #: src/battle_message.c:204
 msgid "{B_BUFF1} did not learn {B_BUFF2}.\p"
-msgstr ""
+msgstr "{B_BUFF1}没有学习{B_BUFF2}。\p"
 
 #: src/battle_message.c:205
 msgid "{B_ATK_NAME_WITH_PREFIX} learned {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}学会了{B_BUFF1}！"
 
 #: src/battle_message.c:206
 msgid "{B_SCR_NAME_WITH_PREFIX} protected itself!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}守住了自己！"
 
 #: src/battle_message.c:207
 msgid "It doesn't affect {B_DEF_NAME_WITH_PREFIX2}…"
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}没有效果……"
 
 #: src/battle_message.c:208
 msgid "It doesn't affect {B_SCR_NAME_WITH_PREFIX2}…"
-msgstr ""
+msgstr "对{B_SCR_NAME_WITH_PREFIX2}没有效果……"
 
 #: src/battle_message.c:209
 msgid "{B_SCR_NAME_WITH_PREFIX} fainted!\p"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}倒下了！\p"
 
 #: src/battle_message.c:210
 msgid "You got ¥{B_BUFF1} for winning!\p"
-msgstr ""
+msgstr "获得了{B_BUFF1}元奖金！\p"
 
 #: src/battle_message.c:211
 msgid "You have no more Pokémon that can fight!\p"
-msgstr ""
+msgstr "你已经没有可以战斗的宝可梦了！\p"
 
 #: src/battle_message.c:212
 msgid "You panicked and dropped ¥{B_BUFF1}…"
-msgstr ""
+msgstr "你惊慌失措地弄丢了{B_BUFF1}元……"
 
 #: src/battle_message.c:213
 msgid "You gave ¥{B_BUFF1} to the winner…"
-msgstr ""
+msgstr "你把{B_BUFF1}元交给了获胜者……"
 
 #: src/battle_message.c:214
 msgid "You were overwhelmed by your defeat!"
-msgstr ""
+msgstr "你因为败北而眼前一黑！"
 
 #: src/battle_message.c:215
 msgid "{B_SCR_NAME_WITH_PREFIX} prevents escape with {B_SCR_ABILITY}!\p"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}让对手无法逃走！\p"
 
 #: src/battle_message.c:216
 msgid "The Pokémon was hit {B_BUFF1} time{B_BUFF2}!"
-msgstr ""
+msgstr "宝可梦被击中了{B_BUFF1}次{B_BUFF2}！"
 
 #: src/battle_message.c:217
 msgid "{B_EFF_NAME_WITH_PREFIX} fell asleep!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}睡着了！"
 
 #: src/battle_message.c:218
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} made {B_EFF_NAME_WITH_PREFIX2} sleep!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}使{B_EFF_NAME_WITH_PREFIX2}睡着了！"
 
 #: src/battle_message.c:219
 msgid "{B_SCR_NAME_WITH_PREFIX} is already asleep!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}已经睡着了！"
 
 #: src/battle_message.c:220
 msgid "{B_ATK_NAME_WITH_PREFIX} is already asleep!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}已经睡着了！"
 
 #: src/battle_message.c:221
 msgid "{B_EFF_NAME_WITH_PREFIX} was poisoned!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}中毒了！"
 
 #: src/battle_message.c:222
 msgid "{B_EFF_NAME_WITH_PREFIX} was poisoned by {B_SCR_NAME_WITH_PREFIX2}'s {B_BUFF1}!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}因{B_SCR_NAME_WITH_PREFIX2}的{B_BUFF1}中毒了！"
 
 #: src/battle_message.c:223
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by its poisoning!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了毒的伤害！"
 
 #: src/battle_message.c:224
 msgid "{B_SCR_NAME_WITH_PREFIX} is already poisoned!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}已经中毒了！"
 
 #: src/battle_message.c:225
 msgid "{B_EFF_NAME_WITH_PREFIX} was badly poisoned!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}中了剧毒！"
 
 #: src/battle_message.c:226
 msgid "{B_SCR_NAME_WITH_PREFIX} had its energy drained!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的体力被吸取了！"
 
 #: src/battle_message.c:227
 msgid "{B_EFF_NAME_WITH_PREFIX} was burned!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被灼伤了！"
 
 #: src/battle_message.c:228
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} burned {B_EFF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}使{B_EFF_NAME_WITH_PREFIX2}被灼伤了！"
 
 #: src/battle_message.c:229
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by its burn!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了灼伤的伤害！"
 
 #: src/battle_message.c:230
 msgid "{B_EFF_NAME_WITH_PREFIX} was frozen solid!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被冻住了！"
 
 #: src/battle_message.c:231
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} froze {B_EFF_NAME_WITH_PREFIX2} solid!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}把{B_EFF_NAME_WITH_PREFIX2}冻住了！"
 
 #: src/battle_message.c:232
 msgid "{B_ATK_NAME_WITH_PREFIX} is frozen solid!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因冻住而无法动弹！"
 
 #: src/battle_message.c:233
 msgid "{B_SCR_NAME_WITH_PREFIX} thawed out!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的冰冻状态治愈了！"
 
 #: src/battle_message.c:234
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} melted the ice!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_CURRENT_MOVE}融化了冰！"
 
 #: src/battle_message.c:235
 msgid "{B_EFF_NAME_WITH_PREFIX} is paralyzed, so it may be unable to move!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}麻痹了，很难使出招式！"
 
 #: src/battle_message.c:236
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} paralyzed {B_EFF_NAME_WITH_PREFIX2}, so it may be unable to move!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}使{B_EFF_NAME_WITH_PREFIX2}麻痹了，很难使出招式！"
 
 #: src/battle_message.c:237
 msgid "{B_ATK_NAME_WITH_PREFIX} couldn't move because it's paralyzed!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因身体麻痹而无法动弹！"
 
 #: src/battle_message.c:238
 msgid "{B_SCR_NAME_WITH_PREFIX} is already paralyzed!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}已经麻痹了！"
 
 #: src/battle_message.c:239
 msgid "{B_DEF_NAME_WITH_PREFIX} was cured of paralysis!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的麻痹治愈了！"
 
 #: src/battle_message.c:240
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} won't go any higher!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}已经无法再提高了！"
 
 #: src/battle_message.c:241
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} won't go any lower!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}已经无法再降低了！"
 
 #: src/battle_message.c:242
 msgid "{B_ATK_NAME_WITH_PREFIX} is confused!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}混乱了！"
 
 #: src/battle_message.c:243
 msgid "{B_ATK_NAME_WITH_PREFIX} snapped out of its confusion!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的混乱解除了！"
 
 #: src/battle_message.c:244
 msgid "{B_EFF_NAME_WITH_PREFIX} became confused!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}混乱了！"
 
 #: src/battle_message.c:245
 msgid "{B_DEF_NAME_WITH_PREFIX} is already confused!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}已经混乱了！"
 
 #: src/battle_message.c:246
 msgid "{B_DEF_NAME_WITH_PREFIX} fell in love!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}着迷了！"
 
 #: src/battle_message.c:247
 msgid "{B_ATK_NAME_WITH_PREFIX} is in love with {B_SCR_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}对{B_SCR_NAME_WITH_PREFIX2}着迷了！"
 
 #: src/battle_message.c:248
 msgid "{B_ATK_NAME_WITH_PREFIX} is immobilized by love!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因着迷而无法使出招式！"
 
 #: src/battle_message.c:249
 msgid "{B_ATK_NAME_WITH_PREFIX} transformed into the {B_BUFF1} type!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}变成了{B_BUFF1}属性！"
 
 #: src/battle_message.c:250
 msgid "{B_ATK_NAME_WITH_PREFIX} flinched and couldn't move!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}畏缩了，无法使出招式！"
 
 #: src/battle_message.c:251
 msgid "{B_DEF_NAME_WITH_PREFIX}'s HP was restored."
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的HP回复了。"
 
 #: src/battle_message.c:252
 msgid "{B_DEF_NAME_WITH_PREFIX}'s HP is full!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的HP已经满了！"
 
 #: src/battle_message.c:253
 msgid "Light Screen made {B_ATK_TEAM2} side stronger against special moves!"
-msgstr ""
+msgstr "光墙使{B_ATK_TEAM2}变得能抵御特殊攻击了！"
 
 #: src/battle_message.c:254
 msgid "Reflect made {B_ATK_TEAM2} side stronger against physical moves!"
-msgstr ""
+msgstr "反射壁使{B_ATK_TEAM2}变得能抵御物理攻击了！"
 
 #: src/battle_message.c:255
 msgid "Aurora Veil made {B_ATK_TEAM2} side stronger against physical and special moves!"
-msgstr ""
+msgstr "极光幕使{B_ATK_TEAM2}变得能抵御物理和特殊攻击了！"
 
 #: src/battle_message.c:256
 msgid "{B_ATK_TEAM1} side became cloaked in a mystical veil!"
-msgstr ""
+msgstr "{B_ATK_TEAM1}被神秘的薄纱包围了！"
 
 #: src/battle_message.c:257
 msgid "{B_SCR_NAME_WITH_PREFIX} is protected by Safeguard!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}受到了神秘守护的保护！"
 
 #: src/battle_message.c:258
 msgid "{B_ATK_TEAM1} side is no longer protected by the mystical veil!"
-msgstr ""
+msgstr "{B_ATK_TEAM1}不再受到神秘薄纱的保护了！"
 
 #: src/battle_message.c:259
 msgid "{B_ATK_NAME_WITH_PREFIX} went to sleep!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}睡着了！"
 
 #: src/battle_message.c:260
 msgid "{B_ATK_NAME_WITH_PREFIX} slept and restored its HP!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}睡着并回复了HP！"
 
 #: src/battle_message.c:261
 msgid "{B_ATK_NAME_WITH_PREFIX} whipped up a whirlwind!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的周围刮起了旋风！"
 
 #: src/battle_message.c:262
 msgid "{B_ATK_NAME_WITH_PREFIX} absorbed light!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}吸收了光！"
 
 #: src/battle_message.c:263
 msgid "{B_ATK_NAME_WITH_PREFIX} tucked in its head!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}把头缩了进去！"
 
 #: src/battle_message.c:264
 msgid "{B_ATK_NAME_WITH_PREFIX} flew up high!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}飞向了高空！"
 
 #: src/battle_message.c:265
 msgid "{B_ATK_NAME_WITH_PREFIX} burrowed its way under the ground!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}钻入了地底！"
 
 #: src/battle_message.c:266
 msgid "{B_EFF_NAME_WITH_PREFIX} was squeezed by {B_SCR_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被{B_SCR_NAME_WITH_PREFIX2}勒住了！"
 
 #: src/battle_message.c:267
 msgid "{B_EFF_NAME_WITH_PREFIX} became trapped in the vortex!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被困在了漩涡里！"
 
 #: src/battle_message.c:268
 msgid "{B_EFF_NAME_WITH_PREFIX} was wrapped by {B_SCR_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被{B_SCR_NAME_WITH_PREFIX2}紧紧缠住了！"
 
 #: src/battle_message.c:269
 msgid "{B_SCR_NAME_WITH_PREFIX} clamped down on {B_EFF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}夹住了{B_EFF_NAME_WITH_PREFIX2}！"
 
 #: src/battle_message.c:270 src/battle_message.c:798
 msgid "{B_ATK_NAME_WITH_PREFIX} is hurt by {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了{B_BUFF1}的伤害！"
 
 #: src/battle_message.c:271 src/battle_message.c:332
 msgid "{B_ATK_NAME_WITH_PREFIX} was freed from {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}摆脱了{B_BUFF1}！"
 
 #: src/battle_message.c:272
 msgid "{B_ATK_NAME_WITH_PREFIX} kept going and crashed!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}用力过猛摔倒了！"
 
 #: src/battle_message.c:274
 msgid "{B_SCR_NAME_WITH_PREFIX} is protected by the mist!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}受到了白雾的保护！"
 
 #: src/battle_message.c:276
 msgid "{B_ATK_NAME_WITH_PREFIX} was damaged by the recoil!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了反作用力造成的伤害！"
 
 #: src/battle_message.c:277
 msgid "{B_ATK_NAME_WITH_PREFIX} protected itself!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}守住了自己！"
 
 #: src/battle_message.c:278
 msgid "{B_ATK_NAME_WITH_PREFIX} is buffeted by the sandstorm!"
-msgstr ""
+msgstr "沙暴袭击了{B_ATK_NAME_WITH_PREFIX}！"
 
 #: src/battle_message.c:279
 msgid "{B_ATK_NAME_WITH_PREFIX} is buffeted by the hail!"
-msgstr ""
+msgstr "冰雹袭击了{B_ATK_NAME_WITH_PREFIX}！"
 
 #: src/battle_message.c:280
 msgid "{B_DEF_NAME_WITH_PREFIX} was seeded!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}被种下了种子！"
 
 #: src/battle_message.c:281
 msgid "{B_DEF_NAME_WITH_PREFIX} avoided the attack!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}躲开了攻击！"
 
 #: src/battle_message.c:282
 msgid "{B_SCR_NAME_WITH_PREFIX} avoided the attack!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}躲开了攻击！"
 
 #: src/battle_message.c:283
 msgid "{B_SCR_NAME_WITH_PREFIX}'s health is sapped by Leech Seed!"
-msgstr ""
+msgstr "寄生种子吸取了{B_SCR_NAME_WITH_PREFIX}的体力！"
 
 #: src/battle_message.c:284
 msgid "{B_ATK_NAME_WITH_PREFIX} is fast asleep."
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}正在呼呼大睡。"
 
 #: src/battle_message.c:285
 msgid "{B_ATK_NAME_WITH_PREFIX} woke up!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}醒过来了！"
 
 #: src/battle_message.c:286
 msgid "The uproar woke {B_EFF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "吵闹声吵醒了{B_EFF_NAME_WITH_PREFIX2}！"
 
 #: src/battle_message.c:287
 msgid "{B_EFF_NAME_WITH_PREFIX} caused an uproar!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}吵闹了起来！"
 
 #: src/battle_message.c:288
 msgid "{B_ATK_NAME_WITH_PREFIX} is making an uproar!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}正在吵闹！"
 
 #: src/battle_message.c:289
 msgid "{B_ATK_NAME_WITH_PREFIX} calmed down."
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}安静了下来。"
 
 #: src/battle_message.c:290
 msgid "{B_ATK_NAME_WITH_PREFIX} stockpiled {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}蓄力了{B_BUFF1}次！"
 
 #: src/battle_message.c:291
 msgid "But {B_DEF_NAME_WITH_PREFIX2} can't sleep in an uproar!"
-msgstr ""
+msgstr "但是{B_DEF_NAME_WITH_PREFIX2}在吵闹声中无法入睡！"
 
 #: src/battle_message.c:292
 msgid "But the uproar kept {B_DEF_NAME_WITH_PREFIX2} awake!"
-msgstr ""
+msgstr "但是吵闹声让{B_DEF_NAME_WITH_PREFIX2}无法入睡！"
 
 #: src/battle_message.c:293
 msgid "{B_DEF_NAME_WITH_PREFIX} stayed awake!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}保持着清醒！"
 
 #: src/battle_message.c:294
 msgid "{B_ATK_NAME_WITH_PREFIX} is storing energy!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}正在积蓄力量！"
 
 #: src/battle_message.c:295
 msgid "{B_ATK_NAME_WITH_PREFIX} unleashed its energy!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}释放了积蓄的力量！"
 
 #: src/battle_message.c:296
 msgid "{B_SCR_NAME_WITH_PREFIX} became confused due to fatigue!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}因疲劳而混乱了！"
 
 #: src/battle_message.c:297
 msgid "You picked up ¥{B_BUFF1}!\p"
-msgstr ""
+msgstr "捡到了{B_BUFF1}元！\p"
 
 #: src/battle_message.c:298
 msgid "{B_DEF_NAME_WITH_PREFIX} is unaffected!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}没有受到影响！"
 
 #: src/battle_message.c:299
 msgid "{B_ATK_NAME_WITH_PREFIX} transformed into {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}变身成了{B_BUFF1}！"
 
 #: src/battle_message.c:300
 msgid "{B_ATK_NAME_WITH_PREFIX} put in a substitute!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}放出了替身！"
 
 #: src/battle_message.c:301
 msgid "{B_ATK_NAME_WITH_PREFIX} already has a substitute!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的替身已经出现了！"
 
 #: src/battle_message.c:302
 msgid "The substitute took damage for {B_DEF_NAME_WITH_PREFIX2}!\p"
-msgstr ""
+msgstr "替身代替{B_DEF_NAME_WITH_PREFIX2}承受了攻击！\p"
 
 #: src/battle_message.c:303
 msgid "{B_SCR_NAME_WITH_PREFIX}'s substitute faded!\p"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的替身消失了！\p"
 
 #: src/battle_message.c:304
 msgid "{B_ATK_NAME_WITH_PREFIX} must recharge!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因攻击的反作用力无法动弹！"
 
 #: src/battle_message.c:305
 msgid "{B_DEF_NAME_WITH_PREFIX}'s rage is building!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的怒气正在上升！"
 
 #: src/battle_message.c:306
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} was disabled!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}被封住了！"
 
 #: src/battle_message.c:307
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} is disabled!\p"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的{B_CURRENT_MOVE}被封住了！\p"
 
 #: src/battle_message.c:308
 msgid "{B_SCR_NAME_WITH_PREFIX}'s move is no longer disabled!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的招式不再被封住了！"
 
 #: src/battle_message.c:309
 msgid "{B_DEF_NAME_WITH_PREFIX} must do an encore!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}接受了再来一次！"
 
 #: src/battle_message.c:310
 msgid "{B_SCR_NAME_WITH_PREFIX} can only use {B_CURRENT_MOVE}!\p"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}只能使用{B_CURRENT_MOVE}！\p"
 
 #: src/battle_message.c:311
 msgid "{B_SCR_NAME_WITH_PREFIX} ended its encore!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的再来一次状态解除了！"
 
 #: src/battle_message.c:312
 msgid "{B_ATK_NAME_WITH_PREFIX} took aim at {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}瞄准了{B_DEF_NAME_WITH_PREFIX2}！"
 
 #: src/battle_message.c:313
 msgid "{B_ATK_NAME_WITH_PREFIX} sketched {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}写下了{B_BUFF1}！"
 
 #: src/battle_message.c:314
 msgid "{B_ATK_NAME_WITH_PREFIX} is hoping to take its attacker down with it!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}想要和对手同归于尽！"
 
 #: src/battle_message.c:315
 msgid "{B_DEF_NAME_WITH_PREFIX} took its attacker down with it!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}和对手同归于尽了！"
 
 #: src/battle_message.c:316
 msgid "{B_DEF_NAME_WITH_PREFIX} lost {B_BUFF2} PP from {B_BUFF1}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}的PP减少了{B_BUFF2}点！"
 
 #: src/battle_message.c:317
 msgid "{B_ATK_NAME_WITH_PREFIX} stole {B_BUFF2}'s {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}夺走了{B_BUFF2}的{B_LAST_ITEM}！"
 
 #: src/battle_message.c:318
 msgid "{B_DEF_NAME_WITH_PREFIX} can no longer escape!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}无法逃走了！"
 
 #: src/battle_message.c:319
 msgid "{B_DEF_NAME_WITH_PREFIX} began having a nightmare!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}开始做恶梦了！"
 
 #: src/battle_message.c:320
 msgid "{B_ATK_NAME_WITH_PREFIX} is locked in a nightmare!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}正被恶梦缠身！"
 
 #: src/battle_message.c:321
 msgid "{B_ATK_NAME_WITH_PREFIX} cut its own HP and put a curse on {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}削减了自己的HP，并诅咒了{B_DEF_NAME_WITH_PREFIX2}！"
 
 #: src/battle_message.c:322
 msgid "{B_ATK_NAME_WITH_PREFIX} is afflicted by the curse!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}正受到诅咒！"
 
 #: src/battle_message.c:323
 msgid "Spikes were scattered on the ground all around {B_DEF_TEAM2} side!"
-msgstr ""
+msgstr "{B_DEF_TEAM2}的脚下散落着撒菱！"
 
 #: src/battle_message.c:324
 msgid "{B_SCR_NAME_WITH_PREFIX} was hurt by the spikes!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}受到了撒菱的伤害！"
 
 #: src/battle_message.c:325
 msgid "{B_DEF_NAME_WITH_PREFIX} was identified!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}被识破了！"
 
 #: src/battle_message.c:326
 msgid "{B_ATK_NAME_WITH_PREFIX}'s perish count fell to {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的灭亡计时变成{B_BUFF1}了！"
 
 #: src/battle_message.c:327
 msgid "{B_ATK_NAME_WITH_PREFIX} braced itself!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}摆好了架势！"
 
 #: src/battle_message.c:328
 msgid "{B_DEF_NAME_WITH_PREFIX} endured the hit!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}挺住了攻击！"
 
 #: src/battle_message.c:329
 msgid "Magnitude {B_BUFF1}!"
-msgstr ""
+msgstr "震级{B_BUFF1}！"
 
 #: src/battle_message.c:330
 msgid "{B_ATK_NAME_WITH_PREFIX} cut its own HP and maximized its Attack!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}削减了自己的HP，攻击提升到了最大！"
 
 #: src/battle_message.c:331
 msgid "{B_SCR_NAME_WITH_PREFIX} copied {B_EFF_NAME_WITH_PREFIX2}'s stat changes!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}复制了{B_EFF_NAME_WITH_PREFIX2}的能力变化！"
 
 #: src/battle_message.c:333
 msgid "{B_ATK_NAME_WITH_PREFIX} was freed from Leech Seed!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}摆脱了寄生种子！"
 
 #: src/battle_message.c:334
 msgid "{B_ATK_NAME_WITH_PREFIX} blew away Spikes!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}吹走了撒菱！"
 
 #: src/battle_message.c:335
 msgid "{B_ATK_NAME_WITH_PREFIX} fled from battle!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}从战斗中逃走了！"
 
 #: src/battle_message.c:336
 msgid "{B_ATK_NAME_WITH_PREFIX} foresaw an attack!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}预知了未来的攻击！"
 
 #: src/battle_message.c:337
 msgid "{B_DEF_NAME_WITH_PREFIX} took the {B_BUFF1} attack!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}受到了{B_BUFF1}的攻击！"
 
 #: src/battle_message.c:338
 msgid "{B_BUFF1}'s attack!"
-msgstr ""
+msgstr "{B_BUFF1}的攻击！"
 
 #: src/battle_message.c:339
 msgid "{B_DEF_NAME_WITH_PREFIX} became the center of attention!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}成为了众人的焦点！"
 
 #: src/battle_message.c:340
 msgid "{B_ATK_NAME_WITH_PREFIX} began charging power!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}开始充电了！"
 
 #: src/battle_message.c:341
 msgid "{B_ATK_NAME_WITH_PREFIX}'s Nature Power turned into {B_CURRENT_MOVE}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的自然之力变成了{B_CURRENT_MOVE}！"
 
 #: src/battle_message.c:342
 msgid "{B_ATK_NAME_WITH_PREFIX}'s status returned to normal!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的状态恢复正常了！"
 
 #: src/battle_message.c:343
 msgid "{B_ATK_NAME_WITH_PREFIX} has no moves left that it can use!\p"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}已经没有可以使用的招式了！\p"
 
 #: src/battle_message.c:344
 msgid "{B_DEF_NAME_WITH_PREFIX} was subjected to torment!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}被无理取闹了！"
 
 #: src/battle_message.c:345
 msgid "{B_ATK_NAME_WITH_PREFIX} can't use the same move twice in a row due to the torment!\p"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因无理取闹而无法连续使用相同的招式！\p"
 
 #: src/battle_message.c:346
 msgid "{B_SCR_NAME_WITH_PREFIX} is tightening its focus!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}正在集中精神！"
 
 #: src/battle_message.c:347
 msgid "{B_DEF_NAME_WITH_PREFIX} fell for the taunt!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}中了挑衅！"
 
 #: src/battle_message.c:348
 msgid "{B_ATK_NAME_WITH_PREFIX} can't use {B_CURRENT_MOVE} after the taunt!\p"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因挑衅而无法使用{B_CURRENT_MOVE}！\p"
 
 #: src/battle_message.c:349
 msgid "{B_ATK_NAME_WITH_PREFIX} is ready to help {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}摆出了帮助{B_DEF_NAME_WITH_PREFIX2}的架势！"
 
 #: src/battle_message.c:350
 msgid "{B_ATK_NAME_WITH_PREFIX} switched items with its target!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}和对手交换了道具！"
 
 #: src/battle_message.c:351
 msgid "{B_ATK_NAME_WITH_PREFIX} copied {B_DEF_NAME_WITH_PREFIX2}'s Ability!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}复制了{B_DEF_NAME_WITH_PREFIX2}的特性！"
 
 #: src/battle_message.c:352
 msgid "{B_BUFF1}'s wish came true!"
-msgstr ""
+msgstr "{B_BUFF1}的祈愿实现了！"
 
 #: src/battle_message.c:353
 msgid "{B_ATK_NAME_WITH_PREFIX} planted its roots!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}扎下了根！"
 
 #: src/battle_message.c:354
 msgid "{B_ATK_NAME_WITH_PREFIX} absorbed nutrients with its roots!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}用根吸取了养分！"
 
 #: src/battle_message.c:355
 msgid "{B_EFF_NAME_WITH_PREFIX} is anchored in place with its roots!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}用根牢牢扎在了地上！"
 
 #: src/battle_message.c:356
 msgid "{B_DEF_NAME_WITH_PREFIX} grew drowsy!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}产生了睡意！"
 
 #: src/battle_message.c:357
 msgid "{B_ATK_NAME_WITH_PREFIX} knocked off {B_EFF_NAME_WITH_PREFIX2}'s {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}拍落了{B_EFF_NAME_WITH_PREFIX2}的{B_LAST_ITEM}！"
 
 #: src/battle_message.c:358
 msgid "{B_ATK_NAME_WITH_PREFIX} swapped Abilities with its target!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}和对手交换了特性！"
 
 #: src/battle_message.c:359
 msgid "{B_ATK_NAME_WITH_PREFIX} sealed any moves its target shares with it!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}封印了对手的招式！"
 
 #: src/battle_message.c:360
 msgid "{B_ATK_NAME_WITH_PREFIX} can't use its sealed {B_CURRENT_MOVE}!\p"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}无法使用被封印的{B_CURRENT_MOVE}！\p"
 
 #: src/battle_message.c:361
 msgid "{B_ATK_NAME_WITH_PREFIX} wants its target to bear a grudge!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}想要对手怀有怨念！"
 
 #: src/battle_message.c:362
 msgid "{B_ATK_NAME_WITH_PREFIX} lost all of {B_BUFF1}'s PP due to the grudge!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因怨念而失去了{B_BUFF1}的全部PP！"
 
 #: src/battle_message.c:363
 msgid "{B_ATK_NAME_WITH_PREFIX} shrouded itself with Magic Coat!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}被魔法反射包围了！"
 
 #: src/battle_message.c:364
 msgid "{B_ATK_NAME_WITH_PREFIX} bounced the {B_CURRENT_MOVE} back!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}把{B_CURRENT_MOVE}反弹了回去！"
 
 #: src/battle_message.c:365
 msgid "{B_ATK_NAME_WITH_PREFIX} is waiting for a target to make a move!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}正在等待对手的行动！"
 
 #: src/battle_message.c:366
 msgid "{B_ATK_NAME_WITH_PREFIX} snatched {B_SCR_NAME_WITH_PREFIX2}'s move!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}抢夺了{B_SCR_NAME_WITH_PREFIX2}的招式！"
 
 #: src/battle_message.c:367
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made it rain!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}使天空下起了雨！"
 
 #: src/battle_message.c:368
 msgid "{B_DEF_NAME_WITH_PREFIX} was protected by {B_DEF_ABILITY}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}受到了{B_DEF_ABILITY}的保护！"
 
 #: src/battle_message.c:369
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} prevents {B_ATK_NAME_WITH_PREFIX2} from using {B_CURRENT_MOVE}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}使{B_ATK_NAME_WITH_PREFIX2}无法使用{B_CURRENT_MOVE}！"
 
 #: src/battle_message.c:370
 msgid "{B_SCR_NAME_WITH_PREFIX} had its HP restored."
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的HP回复了。"
 
 #: src/battle_message.c:371
 msgid "{B_EFF_NAME_WITH_PREFIX}'s type changed to {B_BUFF1}!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}变成了{B_BUFF1}属性！"
 
 #: src/battle_message.c:372
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} prevents romance!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}使它不会着迷！"
 
 #: src/battle_message.c:373
 msgid "{B_SCR_NAME_WITH_PREFIX} cannot be confused!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}不会混乱！"
 
 #: src/battle_message.c:374
 msgid "The power of {B_SCR_NAME_WITH_PREFIX}'s Fire-type moves rose!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的火属性招式威力提高了！"
 
 #: src/battle_message.c:375
 msgid "{B_EFF_NAME_WITH_PREFIX} is anchored in place with its suction cups!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}用吸盘牢牢吸在了地上！"
 
 #: src/battle_message.c:376
 msgid "{B_SCR_NAME_WITH_PREFIX}'s stats were not lowered!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的能力没有降低！"
 
 #: src/battle_message.c:377
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by {B_DEF_NAME_WITH_PREFIX2}'s {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了{B_DEF_NAME_WITH_PREFIX2}的{B_BUFF1}的伤害！"
 
 #: src/battle_message.c:378
 msgid "It traced {B_BUFF1}'s {B_BUFF2}!"
-msgstr ""
+msgstr "复制了{B_BUFF1}的{B_BUFF2}！"
 
 #: src/battle_message.c:380
 msgid "harshly "
-msgstr ""
+msgstr "大幅"
 
 #: src/battle_message.c:381
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} rose{B_BUFF2}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}{B_BUFF2}提高了！"
 
 #: src/battle_message.c:382
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} {B_BUFF2}fell!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}{B_BUFF2}降低了！"
 
 #: src/battle_message.c:383
 msgid "A critical hit!"
-msgstr ""
+msgstr "击中了要害！"
 
 #: src/battle_message.c:384
 msgid "It's a one-hit KO!"
-msgstr ""
+msgstr "一击必杀！"
 
 #: src/battle_message.c:385
 msgid "One…{PAUSE 10}two…{PAUSE 10}and…{PAUSE 10}{PAUSE 20}{PLAY_SE SE_BALL_BOUNCE_1}ta-da!\p"
-msgstr ""
+msgstr "一……{PAUSE 10}二……{PAUSE 10}三……{PAUSE 10}{PAUSE 20}{PLAY_SE SE_BALL_BOUNCE_1}嗒哒！\p"
 
 #: src/battle_message.c:386
 msgid "And…\p"
-msgstr ""
+msgstr "然后……\p"
 
 #: src/battle_message.c:387
 msgid "It's not very effective…"
-msgstr ""
+msgstr "效果不好……"
 
 #: src/battle_message.c:388
 msgid "It's super effective!"
-msgstr ""
+msgstr "效果绝佳！"
 
 #: src/battle_message.c:390
 msgid "{PLAY_SE SE_FLEE}The wild {B_BUFF1} fled!"
-msgstr ""
+msgstr "{PLAY_SE SE_FLEE}野生的{B_BUFF1}逃走了！"
 
 #: src/battle_message.c:391
 msgid "No! There's no running from a Trainer battle!\p"
-msgstr ""
+msgstr "不行！不能从训练家对战中逃走！\p"
 
 #: src/battle_message.c:392
 msgid "You can't escape!\p"
-msgstr ""
+msgstr "无法逃走！\p"
 
 #: src/battle_message.c:393
 msgid "PROF. BIRCH: Don't leave me like this!\p"
-msgstr ""
+msgstr "小田卷博士：别丢下我不管啊！\p"
 
 #: src/battle_message.c:394
 msgid "But nothing happened!"
-msgstr ""
+msgstr "但是什么也没有发生！"
 
 #: src/battle_message.c:395
 msgid "But it failed!"
-msgstr ""
+msgstr "但是，招式失败了！"
 
 #: src/battle_message.c:396
 msgid "It hurt itself in its confusion!"
-msgstr ""
+msgstr "不知所以地攻击了自己！"
 
 #: src/battle_message.c:397
 msgid "It started to rain!"
-msgstr ""
+msgstr "开始下雨了！"
 
 #: src/battle_message.c:398
 msgid "A downpour started!"
-msgstr ""
+msgstr "下起了倾盆大雨！"
 
 #: src/battle_message.c:399
 msgid "Rain continues to fall."
-msgstr ""
+msgstr "雨继续下着。"
 
 #: src/battle_message.c:400
 msgid "The downpour continues."
-msgstr ""
+msgstr "倾盆大雨继续下着。"
 
 #: src/battle_message.c:401
 msgid "The rain stopped."
-msgstr ""
+msgstr "雨停了。"
 
 #: src/battle_message.c:402 src/battle_message.c:688
 msgid "A sandstorm kicked up!"
-msgstr ""
+msgstr "开始刮沙暴了！"
 
 #: src/battle_message.c:403
 msgid "The sandstorm is raging."
-msgstr ""
+msgstr "沙暴正在肆虐。"
 
 #: src/battle_message.c:404
 msgid "The sandstorm subsided."
-msgstr ""
+msgstr "沙暴停止了。"
 
 #: src/battle_message.c:405
 msgid "The sunlight turned harsh!"
-msgstr ""
+msgstr "日照变强了！"
 
 #: src/battle_message.c:406
 msgid "The sunlight is strong."
-msgstr ""
+msgstr "日照很强。"
 
 #: src/battle_message.c:407
 msgid "The sunlight faded."
-msgstr ""
+msgstr "日照复原了。"
 
 #: src/battle_message.c:408 src/battle_message.c:597
 msgid "It started to hail!"
-msgstr ""
+msgstr "开始下冰雹了！"
 
 #: src/battle_message.c:409
 msgid "The hail is crashing down."
-msgstr ""
+msgstr "冰雹不停地下着。"
 
 #: src/battle_message.c:410
 msgid "The hail stopped."
-msgstr ""
+msgstr "冰雹停了。"
 
 #: src/battle_message.c:411
 msgid "All stat changes were eliminated!"
-msgstr ""
+msgstr "所有的能力变化都复原了！"
 
 #: src/battle_message.c:412
 msgid "Coins were scattered everywhere!"
-msgstr ""
+msgstr "金币洒得到处都是！"
 
 #: src/battle_message.c:413
 msgid "But it does not have enough HP left to make a substitute!"
-msgstr ""
+msgstr "但是体力不够，无法放出替身！"
 
 #: src/battle_message.c:414
 msgid "The battlers shared their pain!"
-msgstr ""
+msgstr "双方分担了痛楚！"
 
 #: src/battle_message.c:415
 msgid "A bell chimed!"
-msgstr ""
+msgstr "铃声响彻四周！"
 
 #: src/battle_message.c:416
 msgid "All Pokémon that heard the song will faint in three turns!"
-msgstr ""
+msgstr "听到歌声的宝可梦将在3回合后倒下！"
 
 #: src/battle_message.c:417
 msgid "There's no PP left for this move!\p"
-msgstr ""
+msgstr "这个招式的PP已经用完了！\p"
 
 #: src/battle_message.c:418
 msgid "But there was no PP left for the move!"
-msgstr ""
+msgstr "但是招式的PP已经用完了！"
 
 #: src/battle_message.c:419
 msgid "You used {B_LAST_ITEM}!"
-msgstr ""
+msgstr "你使用了{B_LAST_ITEM}！"
 
 #: src/battle_message.c:420
 msgid "The Trainer blocked your Poké Ball!"
-msgstr ""
+msgstr "训练家把球挡开了！"
 
 #: src/battle_message.c:421
 msgid "Don't be a thief!"
-msgstr ""
+msgstr "不要做小偷！"
 
 #: src/battle_message.c:422
 msgid "It dodged your thrown Poké Ball! This Pokémon can't be caught!"
-msgstr ""
+msgstr "宝可梦躲开了投出的精灵球！这只宝可梦无法捕捉！"
 
 #: src/battle_message.c:423
 msgid "Oh no! The Pokémon broke free!"
-msgstr ""
+msgstr "不好！宝可梦挣脱了！"
 
 #: src/battle_message.c:424
 msgid "Aww! It appeared to be caught!"
-msgstr ""
+msgstr "啊！看起来已经抓到了！"
 
 #: src/battle_message.c:425
 msgid "Aargh! Almost had it!"
-msgstr ""
+msgstr "可恶！就差一点了！"
 
 #: src/battle_message.c:426
 msgid "Gah! It was so close, too!"
-msgstr ""
+msgstr "唉！真的只差一点点！"
 
 #: src/battle_message.c:428
 msgid "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p"
-msgstr ""
+msgstr "好耶！捉到了{B_DEF_NAME}！{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p"
 
 #: src/battle_message.c:429
 msgid "Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}"
-msgstr ""
+msgstr "好耶！捉到了{B_DEF_NAME}！{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}"
 
 #: src/battle_message.c:430
 msgid "Would you like to give {B_DEF_NAME} a nickname?"
-msgstr ""
+msgstr "要给{B_DEF_NAME}取昵称吗？"
 
 #: src/battle_message.c:431
 msgid "{B_DEF_NAME}'s data has been added to the Pokédex!\p"
-msgstr ""
+msgstr "{B_DEF_NAME}的数据已登录到宝可梦图鉴中！\p"
 
 #: src/battle_message.c:432
 msgid "It's raining!"
-msgstr ""
+msgstr "正在下雨！"
 
 #: src/battle_message.c:433
 msgid "The sandstorm is raging!"
-msgstr ""
+msgstr "沙暴正在肆虐！"
 
 #: src/battle_message.c:434
 msgid "You couldn't get away!\p"
-msgstr ""
+msgstr "没能逃走！\p"
 
 #: src/battle_message.c:435
 msgid "{B_ATK_NAME_WITH_PREFIX} ignored orders and kept sleeping!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}不听指示，继续睡觉！"
 
 #: src/battle_message.c:436
 msgid "{B_ATK_NAME_WITH_PREFIX} ignored orders!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}不听指示！"
 
 #: src/battle_message.c:437
 msgid "{B_ATK_NAME_WITH_PREFIX} began to nap!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}开始打盹了！"
 
 #: src/battle_message.c:438
 msgid "{B_ATK_NAME_WITH_PREFIX} is loafing around!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}在偷懒！"
 
 #: src/battle_message.c:439
 msgid "{B_ATK_NAME_WITH_PREFIX} won't obey!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}不肯听话！"
 
 #: src/battle_message.c:440
 msgid "{B_ATK_NAME_WITH_PREFIX} turned away!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}把头扭开了！"
 
 #: src/battle_message.c:441
 msgid "{B_ATK_NAME_WITH_PREFIX} pretended not to notice!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}假装没有注意到！"
 
 #: src/battle_message.c:442
 msgid "{B_TRAINER1_NAME_WITH_CLASS} is about to send out {B_BUFF2}. Will you switch your Pokémon?"
-msgstr ""
+msgstr "{B_TRAINER1_NAME_WITH_CLASS}将要派出{B_BUFF2}。要替换宝可梦吗？"
 
 #: src/battle_message.c:443
 msgid "{B_PLAYER_NAME} crept closer to {B_OPPONENT_MON1_NAME}!"
-msgstr ""
+msgstr "{B_PLAYER_NAME}向{B_OPPONENT_MON1_NAME}靠近了一步！"
 
 #: src/battle_message.c:444
 msgid "{B_PLAYER_NAME} can't get any closer!"
-msgstr ""
+msgstr "{B_PLAYER_NAME}无法再靠近了！"
 
 #: src/battle_message.c:445
 msgid "{B_OPPONENT_MON1_NAME} is watching carefully!"
-msgstr ""
+msgstr "{B_OPPONENT_MON1_NAME}正在小心地观察！"
 
 #: src/battle_message.c:446
 msgid "{B_OPPONENT_MON1_NAME} is curious about the {B_BUFF1}!"
-msgstr ""
+msgstr "{B_OPPONENT_MON1_NAME}对{B_BUFF1}很好奇！"
 
 #: src/battle_message.c:447
 msgid "{B_OPPONENT_MON1_NAME} is enthralled by the {B_BUFF1}!"
-msgstr ""
+msgstr "{B_OPPONENT_MON1_NAME}被{B_BUFF1}迷住了！"
 
 #: src/battle_message.c:448
 msgid "{B_OPPONENT_MON1_NAME} completely ignored the {B_BUFF1}!"
-msgstr ""
+msgstr "{B_OPPONENT_MON1_NAME}完全无视了{B_BUFF1}！"
 
 #: src/battle_message.c:449
 msgid "{B_PLAYER_NAME} threw a {POKEBLOCK} at the {B_OPPONENT_MON1_NAME}!"
-msgstr ""
+msgstr "{B_PLAYER_NAME}向{B_OPPONENT_MON1_NAME}扔出了{POKEBLOCK}！"
 
 #: src/battle_message.c:450
 msgid "{PLAY_SE SE_DING_DONG}ANNOUNCER: You're out of Safari Balls! Game over!\p"
-msgstr ""
+msgstr "{PLAY_SE SE_DING_DONG}广播：狩猎球已经用完了！游戏结束！\p"
 
 #: src/battle_message.c:451
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} cured its paralysis!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_LAST_ITEM}治愈了麻痹！"
 
 #: src/battle_message.c:452
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} cured its poison!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_LAST_ITEM}治愈了中毒！"
 
 #: src/battle_message.c:453
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} cured its burn!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_LAST_ITEM}治愈了灼伤！"
 
 #: src/battle_message.c:454
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} defrosted it!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_LAST_ITEM}治愈了冰冻！"
 
 #: src/battle_message.c:455
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} woke it up!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_LAST_ITEM}让它醒过来了！"
 
 #: src/battle_message.c:456
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} snapped it out of its confusion!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_LAST_ITEM}解除了混乱！"
 
 #: src/battle_message.c:457
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} cured its {B_BUFF1} problem!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_LAST_ITEM}治愈了{B_BUFF1}状态！"
 
 #: src/battle_message.c:458
 msgid "{B_SCR_NAME_WITH_PREFIX} restored its health using its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}用{B_LAST_ITEM}回复了体力！"
 
 #: src/battle_message.c:459
 msgid "{B_SCR_NAME_WITH_PREFIX} restored PP to its move {B_BUFF1} using its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}用{B_LAST_ITEM}回复了招式{B_BUFF1}的PP！"
 
 #: src/battle_message.c:460
 msgid "{B_SCR_NAME_WITH_PREFIX} returned its stats to normal using its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}用{B_LAST_ITEM}使能力复原了！"
 
 #: src/battle_message.c:461
 msgid "{B_SCR_NAME_WITH_PREFIX} restored a little HP using its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}用{B_LAST_ITEM}回复了少许HP！"
 
 #: src/battle_message.c:462
 msgid "{B_LAST_ITEM} only allows the use of {B_CURRENT_MOVE}!\p"
-msgstr ""
+msgstr "{B_LAST_ITEM}使它只能使用{B_CURRENT_MOVE}！\p"
 
 #: src/battle_message.c:463
 msgid "{B_DEF_NAME_WITH_PREFIX} hung on using its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}用{B_LAST_ITEM}撑住了！"
 
 #: src/battle_message.c:465
 msgid "{B_ATK_NAME_WITH_PREFIX} had its HP restored."
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的HP回复了。"
 
 #: src/battle_message.c:466
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} whipped up a sandstorm!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}刮起了沙暴！"
 
 #: src/battle_message.c:467
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} was not lowered!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}没有降低！"
 
 #: src/battle_message.c:468
 msgid "{B_ATK_NAME_WITH_PREFIX} fell in love!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}着迷了！"
 
 #: src/battle_message.c:469
 msgid "{B_SCR_NAME_WITH_PREFIX}'s item cannot be removed!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的道具无法被夺走！"
 
 #: src/battle_message.c:470
 msgid "{B_EFF_NAME_WITH_PREFIX} sucked up the liquid ooze!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}吸到了污泥浆！"
 
 #: src/battle_message.c:471
 msgid "{B_SCR_NAME_WITH_PREFIX} transformed!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}变身了！"
 
 #: src/battle_message.c:472
 msgid "Electricity's power was weakened!"
-msgstr ""
+msgstr "电气的威力减弱了！"
 
 #: src/battle_message.c:473
 msgid "Fire's power was weakened!"
-msgstr ""
+msgstr "火焰的威力减弱了！"
 
 #: src/battle_message.c:474
 msgid "{B_ATK_NAME_WITH_PREFIX} hid underwater!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}潜入了水中！"
 
 #: src/battle_message.c:475
 msgid "{B_ATK_NAME_WITH_PREFIX} sprang up!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}跳了起来！"
 
 #: src/battle_message.c:476
 msgid "HM moves can't be forgotten now.\p"
-msgstr ""
+msgstr "现在不能忘记秘传招式。\p"
 
 #: src/battle_message.c:477
 msgid "{B_ATK_NAME_WITH_PREFIX} found one {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}捡到了一个{B_LAST_ITEM}！"
 
 #: src/battle_message.c:479
 msgid "A soothing aroma wafted through the area!"
-msgstr ""
+msgstr "怡人的香气扩散开来！"
 
 #: src/battle_message.c:480
 msgid "Items can't be used now.{PAUSE 64}"
-msgstr ""
+msgstr "现在不能使用道具。{PAUSE 64}"
 
 #: src/battle_message.c:481
 msgid "The {B_LAST_ITEM}{B_BUFF2} boosted {B_SCR_NAME_WITH_PREFIX2}'s {B_BUFF1}!"
-msgstr ""
+msgstr "{B_LAST_ITEM}使{B_SCR_NAME_WITH_PREFIX2}的{B_BUFF1}{B_BUFF2}提高了！"
 
 #: src/battle_message.c:482
 msgid "The {B_LAST_ITEM}{B_BUFF2} lowered {B_SCR_NAME_WITH_PREFIX2}'s {B_BUFF1}!"
-msgstr ""
+msgstr "{B_LAST_ITEM}使{B_SCR_NAME_WITH_PREFIX2}的{B_BUFF1}{B_BUFF2}降低了！"
 
 #: src/battle_message.c:483
 msgid "{B_SCR_NAME_WITH_PREFIX} used the {B_LAST_ITEM} to get pumped!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}使用{B_LAST_ITEM}后干劲十足！"
 
 #: src/battle_message.c:484
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} made {B_CURRENT_MOVE} useless!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}使{B_CURRENT_MOVE}失效了！"
 
 #: src/battle_message.c:485
 msgid "{B_EFF_NAME_WITH_PREFIX} became trapped by the quicksand!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被困在了流沙里！"
 
 #: src/battle_message.c:487
 msgid " a boosted"
-msgstr ""
+msgstr "加成后的"
 
 #: src/battle_message.c:488
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} intensified the sun's rays!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}使日照变强了！"
 
 #: src/battle_message.c:489
 msgid "You throw a Ball now, right? I… I'll do my best!"
-msgstr ""
+msgstr "你现在要扔球了吧？我……我会努力的！"
 
 #: src/battle_message.c:490
 msgid "{B_DEF_NAME_WITH_PREFIX} took the attack!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}承受了攻击！"
 
 #: src/battle_message.c:491
 msgid "{B_ATK_NAME_WITH_PREFIX} chose Doom Desire as its destiny!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}将破灭之愿托付给了未来！"
 
 #: src/battle_message.c:492
 msgid "{B_ATK_NAME_WITH_PREFIX} lost its focus and couldn't move!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}失去了集中力，无法使出招式！"
 
 #: src/battle_message.c:493
 msgid "Use next Pokémon?"
-msgstr ""
+msgstr "要派出下一只宝可梦吗？"
 
 #: src/battle_message.c:494
 msgid "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled using its {B_LAST_ITEM}!\p"
-msgstr ""
+msgstr "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX}使用{B_LAST_ITEM}逃走了！\p"
 
 #: src/battle_message.c:495
 msgid "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX} fled using {B_ATK_ABILITY}!\p"
-msgstr ""
+msgstr "{PLAY_SE SE_FLEE}{B_ATK_NAME_WITH_PREFIX}凭借{B_ATK_ABILITY}逃走了！\p"
 
 #: src/battle_message.c:496
 msgid "{B_DEF_NAME_WITH_PREFIX} was dragged out!\p"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}被拖进了战斗！\p"
 
 #: src/battle_message.c:497
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} normalized its status!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_LAST_ITEM}使状态恢复正常了！"
 
 #: src/battle_message.c:498
 msgid "{B_ATK_TRAINER_NAME_WITH_CLASS} used {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_ATK_TRAINER_NAME_WITH_CLASS}使用了{B_LAST_ITEM}！"
 
 #: src/battle_message.c:499
 msgid "The Box is full! You can't catch any more!\p"
-msgstr ""
+msgstr "盒子已经满了！无法再捕捉宝可梦了！\p"
 
 #: src/battle_message.c:500
 msgid "{B_SCR_NAME_WITH_PREFIX} made it ineffective!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}使招式失效了！"
 
 #: src/battle_message.c:501
 msgid "{B_EFF_NAME_WITH_PREFIX}'s {B_EFF_ABILITY} prevents flinching!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}的{B_EFF_ABILITY}使它不会畏缩！"
 
 #: src/battle_message.c:502
 msgid "{B_DEF_NAME_WITH_PREFIX} is already burned!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}已经被灼伤了！"
 
 #: src/battle_message.c:503
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} blocks {B_CURRENT_MOVE}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}挡住了{B_CURRENT_MOVE}！"
 
 #: src/battle_message.c:504
 msgid "{B_ATK_TEAM1} side's {B_BUFF1} wore off!"
-msgstr ""
+msgstr "{B_ATK_TEAM1}的{B_BUFF1}效果消失了！"
 
 #: src/battle_message.c:505
 msgid "The wall shattered!"
-msgstr ""
+msgstr "墙壁被打破了！"
 
 #: src/battle_message.c:506
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} cured its {B_BUFF1} problem!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}治愈了{B_BUFF1}状态！"
 
 #: src/battle_message.c:507
 msgid "{B_ATK_NAME_WITH_PREFIX} can't escape!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}无法逃走！"
 
 #: src/battle_message.c:508
 msgid "{B_ATK_NAME_WITH_PREFIX} obtained {B_BUFF1}."
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}得到了{B_BUFF1}。"
 
 #: src/battle_message.c:509
 msgid "{B_DEF_NAME_WITH_PREFIX} obtained {B_BUFF2}."
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}得到了{B_BUFF2}。"
 
 #: src/battle_message.c:510
 msgid ""
 "{B_ATK_NAME_WITH_PREFIX} obtained {B_BUFF1}.\p"
 "{B_DEF_NAME_WITH_PREFIX} obtained {B_BUFF2}."
 msgstr ""
+"{B_ATK_NAME_WITH_PREFIX}得到了{B_BUFF1}。\p"
+"{B_DEF_NAME_WITH_PREFIX}得到了{B_BUFF2}。"
 
 #: src/battle_message.c:511
 msgid "But it had no effect!"
-msgstr ""
+msgstr "但是没有效果！"
 
 #: src/battle_message.c:513
 msgid "{B_TRAINER2_LOSE_TEXT}"
-msgstr ""
+msgstr "{B_TRAINER2_LOSE_TEXT}"
 
 #: src/battle_message.c:514
 msgid "{B_ATK_NAME_WITH_PREFIX} appears incapable of using its power!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}似乎无法发挥出力量！"
 
 #: src/battle_message.c:515
 msgid "A glint appears in {B_SCR_NAME_WITH_PREFIX2}'s eyes!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX2}的眼睛闪闪发光！"
 
 #: src/battle_message.c:516
 msgid "{B_SCR_NAME_WITH_PREFIX} is getting into position!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}正在摆好架势！"
 
 #: src/battle_message.c:517
 msgid "{B_SCR_NAME_WITH_PREFIX} began growling deeply!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}发出了低沉的吼声！"
 
 #: src/battle_message.c:518
 msgid "{B_SCR_NAME_WITH_PREFIX} is eager for more!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}跃跃欲试！"
 
 #: src/battle_message.c:519
 msgid "{B_PLAYER_MON1_NAME} defeated the opponent {B_OPPONENT_MON1_NAME} in a REFEREE's decision!"
-msgstr ""
+msgstr "根据裁判的判定，{B_PLAYER_MON1_NAME}战胜了对手的{B_OPPONENT_MON1_NAME}！"
 
 #: src/battle_message.c:520
 msgid "{B_PLAYER_MON1_NAME} lost to the opponent {B_OPPONENT_MON1_NAME} in a REFEREE's decision!"
-msgstr ""
+msgstr "根据裁判的判定，{B_PLAYER_MON1_NAME}输给了对手的{B_OPPONENT_MON1_NAME}！"
 
 #: src/battle_message.c:521
 msgid "{B_PLAYER_MON1_NAME} tied the opponent {B_OPPONENT_MON1_NAME} in a REFEREE's decision!"
-msgstr ""
+msgstr "根据裁判的判定，{B_PLAYER_MON1_NAME}和对手的{B_OPPONENT_MON1_NAME}打成了平手！"
 
 #: src/battle_message.c:522
 msgid "Would you like to forfeit the match and quit now?"
-msgstr ""
+msgstr "要放弃比赛并退出吗？"
 
 #: src/battle_message.c:523
 msgid "The match was forfeited."
-msgstr ""
+msgstr "比赛已被放弃。"
 
 #: src/battle_message.c:528
 msgid "{B_TRAINER1_WIN_TEXT}"
-msgstr ""
+msgstr "{B_TRAINER1_WIN_TEXT}"
 
 #: src/battle_message.c:529
 msgid "{B_TRAINER2_WIN_TEXT}"
-msgstr ""
+msgstr "{B_TRAINER2_WIN_TEXT}"
 
 #: src/battle_message.c:530
 msgid "{B_DEF_NAME_WITH_PREFIX} endured the hit using {B_DEF_ABILITY}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}凭借{B_DEF_ABILITY}撑住了攻击！"
 
 #: src/battle_message.c:531
 msgid "{B_ATK_NAME_WITH_PREFIX} became fully charged due to its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因{B_LAST_ITEM}而充满了力量！"
 
 #: src/battle_message.c:532
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by the {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了{B_LAST_ITEM}的伤害！"
 
 #: src/battle_message.c:533
 msgid "Gravity intensified!"
-msgstr ""
+msgstr "重力变强了！"
 
 #: src/battle_message.c:534
 msgid "{B_EFF_NAME_WITH_PREFIX} woke up!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}醒过来了！"
 
 #: src/battle_message.c:535
 msgid "A tailwind started blowing on {B_ATK_TEAM2} side!"
-msgstr ""
+msgstr "{B_ATK_TEAM2}的身后吹起了顺风！"
 
 #: src/battle_message.c:536
 msgid "{B_ATK_NAME_WITH_PREFIX} went back to {B_ATK_TRAINER_NAME}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}回到了{B_ATK_TRAINER_NAME}的身边！"
 
 #: src/battle_message.c:537
 msgid "{B_DEF_NAME_WITH_PREFIX} can't use items anymore!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}无法再使用道具了！"
 
 #: src/battle_message.c:538
 msgid "{B_EFF_NAME_WITH_PREFIX} flung its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}投掷了{B_LAST_ITEM}！"
 
 #: src/battle_message.c:539
 msgid "{B_DEF_NAME_WITH_PREFIX} was prevented from healing!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}无法回复体力了！"
 
 #: src/battle_message.c:540
 msgid "{B_ATK_NAME_WITH_PREFIX} switched its Attack and Defense!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}互换了攻击和防御！"
 
 #: src/battle_message.c:541
 msgid "{B_DEF_NAME_WITH_PREFIX}'s Ability was suppressed!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的特性失效了！"
 
 #: src/battle_message.c:542
 msgid "Lucky Chant shielded {B_ATK_TEAM2} side from critical hits!"
-msgstr ""
+msgstr "幸运咒语使{B_ATK_TEAM2}不会被击中要害！"
 
 #: src/battle_message.c:543
 msgid "{B_DEF_NAME_WITH_PREFIX} acquired {B_DEF_ABILITY}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的特性变成了{B_DEF_ABILITY}！"
 
 #: src/battle_message.c:544
 msgid "Toxic spikes were scattered on the ground all around {B_DEF_TEAM2} side!"
-msgstr ""
+msgstr "{B_DEF_TEAM2}的脚下散落着毒菱！"
 
 #: src/battle_message.c:545
 msgid "{B_ATK_NAME_WITH_PREFIX} switched stat changes with its target!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}和对手互换了能力变化！"
 
 #: src/battle_message.c:546
 msgid "{B_ATK_NAME_WITH_PREFIX} surrounded itself with a veil of water!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}被水流环包围了！"
 
 #: src/battle_message.c:547
 msgid "{B_ATK_NAME_WITH_PREFIX} levitated with electromagnetism!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}利用电磁力浮了起来！"
 
 #: src/battle_message.c:548
 msgid "{B_ATK_NAME_WITH_PREFIX} twisted the dimensions!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}扭曲了时空！"
 
 #: src/battle_message.c:549
 msgid "Pointed stones float in the air on {B_DEF_TEAM2} side!"
-msgstr ""
+msgstr "{B_DEF_TEAM2}的周围浮起了尖锐的岩石！"
 
 #: src/battle_message.c:550
 msgid "{B_EFF_NAME_WITH_PREFIX} became trapped by swirling magma!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被困在了熔岩风暴里！"
 
 #: src/battle_message.c:551
 msgid "{B_ATK_NAME_WITH_PREFIX} vanished instantly!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}瞬间消失了！"
 
 #: src/battle_message.c:552
 msgid "{B_CURRENT_MOVE} now protects {B_ATK_TEAM2} side!"
-msgstr ""
+msgstr "{B_CURRENT_MOVE}守护着{B_ATK_TEAM2}！"
 
 #: src/battle_message.c:553
 msgid "{B_ATK_NAME_WITH_PREFIX} shared its guard with the target!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}与对手分享了防守！"
 
 #: src/battle_message.c:554
 msgid "{B_ATK_NAME_WITH_PREFIX} shared its power with the target!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}与对手分享了力量！"
 
 #: src/battle_message.c:555
 msgid "It created a bizarre area in which Defense and Sp. Def stats are swapped!"
-msgstr ""
+msgstr "制造出了交换防御与特防的奇妙空间！"
 
 #: src/battle_message.c:556
 msgid "{B_EFF_NAME_WITH_PREFIX} became nimble!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}变得身轻如燕了！"
 
 #: src/battle_message.c:557
 msgid "{B_DEF_NAME_WITH_PREFIX} was hurled into the air!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}被抛到了空中！"
 
 #: src/battle_message.c:558
 msgid "It created a bizarre area in which Pokémon's held items lose their effects!"
-msgstr ""
+msgstr "制造出了携带道具失去效果的奇妙空间！"
 
 #: src/battle_message.c:559
 msgid "{B_EFF_NAME_WITH_PREFIX} fell straight down!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被击落到了地面！"
 
 #: src/battle_message.c:560
 msgid "{B_DEF_NAME_WITH_PREFIX} transformed into the {B_BUFF1} type!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}变成了{B_BUFF1}属性！"
 
 #: src/battle_message.c:561
 msgid "{B_DEF_NAME_WITH_PREFIX} took the kind offer!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}接受了对方的好意！"
 
 #: src/battle_message.c:562 src/battle_message.c:692
 msgid "{B_EFF_NAME_WITH_PREFIX}'s stat changes were removed!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}的能力变化消失了！"
 
 #: src/battle_message.c:563
 msgid "{B_ATK_NAME_WITH_PREFIX} and {B_SCR_NAME_WITH_PREFIX2} switched places!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}和{B_SCR_NAME_WITH_PREFIX2}交换了位置！"
 
 #: src/battle_message.c:564
 msgid "{B_ATK_NAME_WITH_PREFIX} became the same type as {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}变成了和{B_DEF_NAME_WITH_PREFIX2}相同的属性！"
 
 #: src/battle_message.c:565
 msgid "{B_ATK_NAME_WITH_PREFIX} can use items again!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}又可以使用道具了！"
 
 #: src/battle_message.c:566
 msgid "electromagnetism"
-msgstr ""
+msgstr "电磁飘浮"
 
 #: src/battle_message.c:567
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} wore off!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}效果消失了！"
 
 #: src/battle_message.c:568
 msgid "{B_ATK_NAME_WITH_PREFIX} was freed from the telekinesis!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}从意念移物中解放了！"
 
 #: src/battle_message.c:569
 msgid "{B_ATK_TEAM1} side's tailwind petered out!"
-msgstr ""
+msgstr "{B_ATK_TEAM1}的顺风停止了！"
 
 #: src/battle_message.c:570
 msgid "{B_ATK_TEAM1} side's Lucky Chant wore off!"
-msgstr ""
+msgstr "{B_ATK_TEAM1}的幸运咒语效果消失了！"
 
 #: src/battle_message.c:571
 msgid "The twisted dimensions returned to normal!"
-msgstr ""
+msgstr "扭曲的时空复原了！"
 
 #: src/battle_message.c:572
 msgid "Wonder Room wore off, and Defense and Sp. Def stats returned to normal!"
-msgstr ""
+msgstr "奇妙空间消失了，防御和特防恢复原状了！"
 
 #: src/battle_message.c:573
 msgid "Magic Room wore off, and held items' effects returned to normal!"
-msgstr ""
+msgstr "魔法空间消失了，携带道具的效果恢复原状了！"
 
 #: src/battle_message.c:574
 msgid "The effects of Mud Sport have faded."
-msgstr ""
+msgstr "玩泥巴的效果消失了。"
 
 #: src/battle_message.c:575
 msgid "The effects of Water Sport have faded."
-msgstr ""
+msgstr "玩水的效果消失了。"
 
 #: src/battle_message.c:576
 msgid "Gravity returned to normal!"
-msgstr ""
+msgstr "重力复原了！"
 
 #: src/battle_message.c:577
 msgid "A veil of water restored {B_ATK_NAME_WITH_PREFIX2}'s HP!"
-msgstr ""
+msgstr "水流环回复了{B_ATK_NAME_WITH_PREFIX2}的HP！"
 
 #: src/battle_message.c:578
 msgid "The electricity disappeared from the battlefield."
-msgstr ""
+msgstr "脚下的电流消失了。"
 
 #: src/battle_message.c:579
 msgid "The mist disappeared from the battlefield."
-msgstr ""
+msgstr "脚下的雾气消失了。"
 
 #: src/battle_message.c:580
 msgid "The weirdness disappeared from the battlefield!"
-msgstr ""
+msgstr "脚下的奇妙感觉消失了！"
 
 #: src/battle_message.c:581
 msgid "The grass disappeared from the battlefield."
-msgstr ""
+msgstr "脚下的青草消失了。"
 
 #: src/battle_message.c:582
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} {B_BUFF2}raised its {B_BUFF1}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}使它的{B_BUFF1}{B_BUFF2}提高了！"
 
 #: src/battle_message.c:583
 msgid "{B_SCR_NAME_WITH_PREFIX} maxed its {B_BUFF1}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}提升到了最大！"
 
 #: src/battle_message.c:584
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} {B_BUFF2}raised its {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的{B_ATK_ABILITY}使它的{B_BUFF1}{B_BUFF2}提高了！"
 
 #: src/battle_message.c:585
 msgid "The poisoning healed {B_ATK_NAME_WITH_PREFIX2} a little bit!"
-msgstr ""
+msgstr "毒素让{B_ATK_NAME_WITH_PREFIX2}回复了少许体力！"
 
 #: src/battle_message.c:586
 msgid "{B_DEF_NAME_WITH_PREFIX} is tormented!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}被无理取闹了！"
 
 #: src/battle_message.c:587
 msgid "{B_SCR_NAME_WITH_PREFIX} breaks the mold!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}打破了常规！"
 
 #: src/battle_message.c:588
 msgid "{B_SCR_NAME_WITH_PREFIX} is radiating a bursting aura!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}散发着迸裂的气场！"
 
 #: src/battle_message.c:589
 msgid "{B_SCR_NAME_WITH_PREFIX} is radiating a blazing aura!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}散发着炽热的气场！"
 
 #: src/battle_message.c:590
 msgid "{B_SCR_NAME_WITH_PREFIX} is slow to get going!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}无法拿出平时的水平！"
 
 #: src/battle_message.c:591
 msgid "{B_ATK_NAME_WITH_PREFIX} finally got its act together!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}终于恢复了平时的水平！"
 
 #: src/battle_message.c:592
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} takes its toll!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的{B_ATK_ABILITY}减少了它的HP！"
 
 #: src/battle_message.c:593
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了伤害！"
 
 #: src/battle_message.c:594
 msgid "{B_SCR_NAME_WITH_PREFIX} shuddered!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}感到了一阵寒意！"
 
 #: src/battle_message.c:595
 msgid "{B_SCR_ABILITY} alerted {B_SCR_NAME_WITH_PREFIX2} to {B_EFF_NAME_WITH_PREFIX2}'s {B_BUFF1}!"
-msgstr ""
+msgstr "{B_SCR_ABILITY}让{B_SCR_NAME_WITH_PREFIX2}察觉到了{B_EFF_NAME_WITH_PREFIX2}的{B_BUFF1}！"
 
 #: src/battle_message.c:596
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} healed it a little bit!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的{B_ATK_ABILITY}使它回复了少许体力！"
 
 #: src/battle_message.c:598
 msgid "{B_SCR_NAME_WITH_PREFIX} was frisked, revealing its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "察觉到了{B_SCR_NAME_WITH_PREFIX}携带的{B_LAST_ITEM}！"
 
 #: src/battle_message.c:599
 msgid "{B_EFF_TEAM1} side is too nervous to eat Berries!"
-msgstr ""
+msgstr "{B_EFF_TEAM1}的宝可梦紧张得无法食用树果！"
 
 #: src/battle_message.c:600
 msgid "{B_ATK_NAME_WITH_PREFIX} harvested its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}收获了{B_LAST_ITEM}！"
 
 #: src/battle_message.c:601
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_ATK_ABILITY} transformed it into the {B_BUFF1} type!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的{B_ATK_ABILITY}使它变成了{B_BUFF1}属性！"
 
 #: src/battle_message.c:602
 msgid "{B_SCR_NAME_WITH_PREFIX} shared its {B_LAST_ITEM} with {B_EFF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}和{B_EFF_NAME_WITH_PREFIX2}分享了{B_LAST_ITEM}！"
 
 #: src/battle_message.c:603
 msgid "Pointed stones dug into {B_SCR_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "尖锐的岩石扎进了{B_SCR_NAME_WITH_PREFIX2}的身体！"
 
 #: src/battle_message.c:604
 msgid "The toxic spikes disappeared from the ground around {B_EFF_TEAM2} side!"
-msgstr ""
+msgstr "{B_EFF_TEAM2}脚下的毒菱消失了！"
 
 #: src/battle_message.c:605
 msgid "{B_SCR_NAME_WITH_PREFIX} was poisoned!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}中毒了！"
 
 #: src/battle_message.c:606
 msgid "{B_SCR_NAME_WITH_PREFIX} was badly poisoned!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}中了剧毒！"
 
 #: src/battle_message.c:607
 msgid "{B_EFF_NAME_WITH_PREFIX} was caught in a sticky web!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被黏黏网粘住了！"
 
 #: src/battle_message.c:608
 msgid "The healing wish came true for {B_SCR_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "治愈之愿在{B_SCR_NAME_WITH_PREFIX2}身上实现了！"
 
 #: src/battle_message.c:609
 msgid "{B_SCR_NAME_WITH_PREFIX} regained health!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}恢复了元气！"
 
 #: src/battle_message.c:610
 msgid "{B_SCR_NAME_WITH_PREFIX} became cloaked in mystical moonlight!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}被神秘的月光包围了！"
 
 #: src/battle_message.c:611
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_BUFF1} was disabled!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的{B_BUFF1}被封住了！"
 
 #: src/battle_message.c:612
 msgid "{B_ATK_NAME_WITH_PREFIX} acquired {B_ATK_ABILITY}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的特性变成了{B_ATK_ABILITY}！"
 
 #: src/battle_message.c:613
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_DEF_ABILITY} {B_BUFF2}lowered its {B_BUFF1}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的{B_DEF_ABILITY}使它的{B_BUFF1}{B_BUFF2}降低了！"
 
 #: src/battle_message.c:614
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_BUFF1} won't go any higher!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的{B_BUFF1}已经无法再提高了！"
 
 #: src/battle_message.c:615
 msgid "{B_DEF_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} was bounced back!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的{B_CURRENT_MOVE}被反弹了回去！"
 
 #: src/battle_message.c:616
 msgid "{B_ATK_NAME_WITH_PREFIX} transformed into {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}变身成了{B_DEF_NAME_WITH_PREFIX2}！"
 
 #: src/battle_message.c:617
 msgid "The effects of the {B_LAST_ITEM} prevent status moves from being used!\p"
-msgstr ""
+msgstr "{B_LAST_ITEM}的效果使它无法使用变化招式！\p"
 
 #: src/battle_message.c:618
 msgid "{B_ATK_NAME_WITH_PREFIX} can't use {B_CURRENT_MOVE} because of gravity!\p"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因重力而无法使用{B_CURRENT_MOVE}！\p"
 
 #: src/battle_message.c:619
 msgid "{B_ATK_NAME_WITH_PREFIX} was prevented from healing!\p"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}无法回复体力！\p"
 
 #: src/battle_message.c:620
 msgid "This move effect is not done yet!\p"
-msgstr ""
+msgstr "这个招式的效果尚未实现！\p"
 
 #: src/battle_message.c:621
 msgid "A sticky web has been laid out on the ground on {B_DEF_TEAM2} side!"
-msgstr ""
+msgstr "{B_DEF_TEAM2}的脚下布满了黏黏网！"
 
 #: src/battle_message.c:622
 msgid "{B_DEF_NAME_WITH_PREFIX}'s move was postponed!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的招式被推迟了！"
 
 #: src/battle_message.c:623
 msgid "{B_ATK_NAME_WITH_PREFIX} blew away Toxic Spikes!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}吹走了毒菱！"
 
 #: src/battle_message.c:624
 msgid "{B_ATK_NAME_WITH_PREFIX} blew away Sticky Web!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}吹走了黏黏网！"
 
 #: src/battle_message.c:625
 msgid "{B_ATK_NAME_WITH_PREFIX} blew away Stealth Rock!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}吹走了隐形岩！"
 
 #: src/battle_message.c:626
 msgid "A deluge of ions showers the battlefield!"
-msgstr ""
+msgstr "等离子洒满了整个场地！"
 
 #: src/battle_message.c:627
 msgid "All stat changes on {B_DEF_NAME_WITH_PREFIX2} were inverted!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX2}的能力变化颠倒过来了！"
 
 #: src/battle_message.c:628
 msgid "Mist swirled around the battlefield!"
-msgstr ""
+msgstr "脚下雾气缭绕！"
 
 #: src/battle_message.c:629
 msgid "Grass grew to cover the battlefield!"
-msgstr ""
+msgstr "脚下青草如茵！"
 
 #: src/battle_message.c:630
 msgid "An electric current ran across the battlefield!"
-msgstr ""
+msgstr "脚下电光飞溅！"
 
 #: src/battle_message.c:631
 msgid "The battlefield got weird!"
-msgstr ""
+msgstr "脚下传来了奇妙的感觉！"
 
 #: src/battle_message.c:632
 msgid "{B_DEF_NAME_WITH_PREFIX}'s moves have been electrified!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的招式带上了电！"
 
 #: src/battle_message.c:633
 msgid "{B_ATK_NAME_WITH_PREFIX}'s {B_LAST_ITEM} is reacting to {B_ATK_TRAINER_NAME}'s Mega Ring!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的{B_LAST_ITEM}和{B_ATK_TRAINER_NAME}的超级环产生了反应！"
 
 #: src/battle_message.c:634
 msgid "{B_ATK_NAME_WITH_PREFIX} has Mega Evolved into Mega {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}超级进化成了超级{B_BUFF1}！"
 
 #: src/battle_message.c:637
 msgid "{B_EFF_NAME_WITH_PREFIX} has been afflicted with an infestation by {B_SCR_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被{B_SCR_NAME_WITH_PREFIX2}纠缠住了！"
 
 #: src/battle_message.c:638
 msgid "It won't have any effect on {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}似乎没有效果！"
 
 #: src/battle_message.c:639
 msgid "The bursting flames hit {B_EFF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "迸裂的火焰击中了{B_EFF_NAME_WITH_PREFIX2}！"
 
 #: src/battle_message.c:640
 msgid "{B_DEF_NAME_WITH_PREFIX} received {B_LAST_ITEM} from {B_ATK_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}从{B_ATK_NAME_WITH_PREFIX2}那里收到了{B_LAST_ITEM}！"
 
 #: src/battle_message.c:641
 msgid "{B_BUFF1} type was added to {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX2}追加了{B_BUFF1}属性！"
 
 #: src/battle_message.c:642
 msgid "{B_EFF_NAME_WITH_PREFIX} fell for the feint!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}中了佯攻！"
 
 #: src/battle_message.c:643
 msgid "{B_ATK_NAME_WITH_PREFIX} cannot use {B_CURRENT_MOVE}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}无法使用{B_CURRENT_MOVE}！"
 
 #: src/battle_message.c:644
 msgid "{B_DEF_NAME_WITH_PREFIX} is covered in powder!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}被粉尘包围了！"
 
 #: src/battle_message.c:645
 msgid "When the flame touched the powder on the Pokémon, it exploded!"
-msgstr ""
+msgstr "火焰碰到了宝可梦身上的粉尘，引起了爆炸！"
 
 #: src/battle_message.c:646 src/battle_message.c:908
 msgid "{B_ATK_NAME_WITH_PREFIX} hasn't eaten any held Berries, so it can't possibly belch!\p"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}没有吃过携带的树果，所以打不出嗝来！\p"
 
 #: src/battle_message.c:647
 msgid "{B_ATK_NAME_WITH_PREFIX} stole the target's boosted stats!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}夺取了对手提升的能力！"
 
 #: src/battle_message.c:648
 msgid "{B_DEF_NAME_WITH_PREFIX} fell from the sky due to the gravity!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}因重力而从空中掉了下来！"
 
 #: src/battle_message.c:649
 msgid "{B_DEF_NAME_WITH_PREFIX} surrounds itself with a protective mist!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}被薄雾包围了！"
 
 #: src/battle_message.c:650
 msgid "{B_ATK_NAME_WITH_PREFIX} is healed by the grassy terrain!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因青草场地回复了体力！"
 
 #: src/battle_message.c:651
 msgid "{B_DEF_NAME_WITH_PREFIX} surrounds itself with electrified terrain!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}被电气场地包围了！"
 
 #: src/battle_message.c:652
 msgid "{B_SCR_NAME_WITH_PREFIX} is protected by the Psychic Terrain!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}受到了精神场地的保护！"
 
 #: src/battle_message.c:653
 msgid "{B_SCR_NAME_WITH_PREFIX} is not affected thanks to its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}因{B_LAST_ITEM}而没有受到影响！"
 
 #: src/battle_message.c:654
 msgid "{B_SCR_NAME_WITH_PREFIX} surrounded itself with a veil of petals!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}被花幕包围了！"
 
 #: src/battle_message.c:655
 msgid "{B_DEF_NAME_WITH_PREFIX} surrounded itself with a veil of petals!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}被花幕包围了！"
 
 #: src/battle_message.c:656
 msgid "{B_DEF_NAME_WITH_PREFIX} is protected by an aromatic veil!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}受到了芳香幕的保护！"
 
 #: src/battle_message.c:657
 msgid "Congratulations, {B_PLAYER_NAME}!"
-msgstr ""
+msgstr "恭喜你，{B_PLAYER_NAME}！"
 
 #: src/battle_message.c:658
 msgid "{B_DEF_NAME_WITH_PREFIX} followed {B_ATK_NAME_WITH_PREFIX2}'s instructions!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}按照{B_ATK_NAME_WITH_PREFIX2}的指示行动了！"
 
 #: src/battle_message.c:659
 msgid "{B_ATK_NAME_WITH_PREFIX} can use sound-based moves again!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}又可以使用声音招式了！"
 
 #: src/battle_message.c:660
 msgid "The effects of Throat Chop prevent {B_ATK_NAME_WITH_PREFIX2} from using certain moves!\p"
-msgstr ""
+msgstr "地狱突刺的效果使{B_ATK_NAME_WITH_PREFIX2}无法使用某些招式！\p"
 
 #: src/battle_message.c:661
 msgid "{B_ATK_NAME_WITH_PREFIX} concentrated intensely!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}集中了精神！"
 
 #: src/battle_message.c:662
 msgid "The {B_LAST_ITEM} strengthened {B_ATK_NAME_WITH_PREFIX2}'s power!"
-msgstr ""
+msgstr "{B_LAST_ITEM}提升了{B_ATK_NAME_WITH_PREFIX2}的威力！"
 
 #: src/battle_message.c:663
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} lessened the damage it took!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_LAST_ITEM}减轻了受到的伤害！"
 
 #: src/battle_message.c:664
 msgid "{B_SCR_NAME_WITH_PREFIX} floats in the air with its Air Balloon!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}借助气球浮在了空中！"
 
 #: src/battle_message.c:665
 msgid "{B_DEF_NAME_WITH_PREFIX}'s Air Balloon popped!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的气球破了！"
 
 #: src/battle_message.c:666
 msgid "{B_EFF_NAME_WITH_PREFIX}'s {B_LAST_ITEM} was burnt up!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}的{B_LAST_ITEM}被烧掉了！"
 
 #: src/battle_message.c:667
 msgid "{B_ATK_NAME_WITH_PREFIX} stole and ate its target's {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}夺取并吃掉了对手的{B_LAST_ITEM}！"
 
 #: src/battle_message.c:668
 msgid "{B_SCR_NAME_WITH_PREFIX}'s illusion wore off!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的幻觉解除了！"
 
 #: src/battle_message.c:669
 msgid "{B_ATK_NAME_WITH_PREFIX} cured {B_DEF_NAME_WITH_PREFIX2}'s problem!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}治愈了{B_DEF_NAME_WITH_PREFIX2}的异常状态！"
 
 #: src/battle_message.c:670
 msgid "{B_EFF_NAME_WITH_PREFIX} burned itself out!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}的火焰燃尽了！"
 
 #: src/battle_message.c:671
 msgid "{B_ATK_NAME_WITH_PREFIX} was cured of {B_SCR_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}摆脱了{B_SCR_NAME_WITH_PREFIX2}的影响！"
 
 #: src/battle_message.c:672
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} {B_BUFF2}raised its {B_BUFF1}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}使它的{B_BUFF1}{B_BUFF2}提高了！"
 
 #: src/battle_message.c:673
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} was taken over!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}被夺走了！"
 
 #: src/battle_message.c:674
 msgid "{B_ATK_NAME_WITH_PREFIX} is absorbing power!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}正在吸收力量！"
 
 #: src/battle_message.c:675
 msgid "No one will be able to leave the battlefield during the next turn!"
-msgstr ""
+msgstr "下一回合所有宝可梦都无法逃离战场！"
 
 #: src/battle_message.c:676
 msgid "{B_DEF_NAME_WITH_PREFIX} fell in love because of the {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}因{B_LAST_ITEM}而着迷了！"
 
 #: src/battle_message.c:677
 msgid "{B_ATK_NAME_WITH_PREFIX} became cloaked in a freezing light!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}被冰冷的光芒包围了！"
 
 #: src/battle_message.c:678
 msgid "The effects of the {B_LAST_ITEM} held by {B_SCR_NAME_WITH_PREFIX2} prevents its stats from being lowered!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX2}携带的{B_LAST_ITEM}的效果使它的能力不会降低！"
 
 #: src/battle_message.c:679
 msgid "{B_ATK_TRAINER_NAME}'s fervent wish has reached {B_ATK_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_ATK_TRAINER_NAME}的强烈愿望传达给了{B_ATK_NAME_WITH_PREFIX2}！"
 
 #: src/battle_message.c:680
 msgid "The effects of the weather disappeared."
-msgstr ""
+msgstr "天气的影响消失了。"
 
 #: src/battle_message.c:681
 msgid "{B_SCR_NAME_WITH_PREFIX} is exerting its pressure!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}正在释放压迫感！"
 
 #: src/battle_message.c:682
 msgid "{B_SCR_NAME_WITH_PREFIX} is radiating a dark aura!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}散发着暗黑气场！"
 
 #: src/battle_message.c:683
 msgid "{B_SCR_NAME_WITH_PREFIX} is radiating a fairy aura!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}散发着妖精气场！"
 
 #: src/battle_message.c:684
 msgid "{B_SCR_NAME_WITH_PREFIX} reversed all other Pokémon's auras!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}压制了所有宝可梦的气场！"
 
 #: src/battle_message.c:685
 msgid "{B_SCR_NAME_WITH_PREFIX} is drowsing!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}在打瞌睡！"
 
 #: src/battle_message.c:686
 msgid "All screens on the field were cleansed!"
-msgstr ""
+msgstr "场上所有的壁都被消除了！"
 
 #: src/battle_message.c:687
 msgid "{B_SCR_NAME_WITH_PREFIX} found a {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}发现了{B_LAST_ITEM}！"
 
 #: src/battle_message.c:689
 msgid "Both Pokémon will faint in three turns!"
-msgstr ""
+msgstr "双方宝可梦将在3回合后倒下！"
 
 #: src/battle_message.c:690
 msgid "{B_ATK_NAME_WITH_PREFIX}'s aura flared to life!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的气场开始沸腾！"
 
 #: src/battle_message.c:691
 msgid "{B_SCR_NAME_WITH_PREFIX} has two Abilities!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}拥有两种特性！"
 
 #: src/battle_message.c:693
 msgid "{B_ATK_NAME_WITH_PREFIX} can act faster than normal, thanks to its {B_BUFF1}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因{B_BUFF1}而能比平时更快行动！"
 
 #: src/battle_message.c:694
 msgid "{B_SCR_NAME_WITH_PREFIX} boosted the accuracy of its next move using {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}使用{B_LAST_ITEM}提高了下一个招式的命中率！"
 
 #: src/battle_message.c:695
 msgid "{B_SCR_NAME_WITH_PREFIX} shook off the taunt!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}摆脱了挑衅！"
 
 #: src/battle_message.c:696
 msgid "{B_SCR_NAME_WITH_PREFIX} got over its infatuation!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}不再着迷了！"
 
 #: src/battle_message.c:697
 msgid "{B_ATK_NAME_WITH_PREFIX}'s item cannot be removed!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的道具无法被夺走！"
 
 #: src/battle_message.c:698
 msgid "The {B_LAST_ITEM} attached itself to {B_ATK_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_LAST_ITEM}粘到了{B_ATK_NAME_WITH_PREFIX2}的身上！"
 
 #: src/battle_message.c:699
 msgid "{B_DEF_NAME_WITH_PREFIX}'s burn was cured!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的灼伤治愈了！"
 
 #: src/battle_message.c:700
 msgid "{B_SCR_NAME_WITH_PREFIX} held up its Red Card against {B_ATK_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}向{B_ATK_NAME_WITH_PREFIX2}出示了红牌！"
 
 #: src/battle_message.c:701
 msgid "{B_SCR_NAME_WITH_PREFIX} is switched out with the {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}因{B_LAST_ITEM}被替换下场了！"
 
 #: src/battle_message.c:702
 msgid "{B_SCR_NAME_WITH_PREFIX} cured its infatuation status using its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}用{B_LAST_ITEM}解除了着迷状态！"
 
 #: src/battle_message.c:703
 msgid "{B_SCR_NAME_WITH_PREFIX} is no longer tormented!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的无理取闹状态解除了！"
 
 #: src/battle_message.c:704
 msgid "{B_SCR_NAME_WITH_PREFIX} is no longer prevented from healing!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}又可以回复体力了！"
 
 #: src/battle_message.c:705
 msgid "{B_ATK_NAME_WITH_PREFIX} became fully charged due to its bond with its trainer!\p"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}与训练家的羁绊让它充满了力量！\p"
 
 #: src/battle_message.c:706
 msgid "{B_ATK_NAME_WITH_PREFIX} became Ash-Greninja!\p"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}变成了小智版甲贺忍蛙！\p"
 
 #: src/battle_message.c:707
 msgid "The sunlight turned extremely harsh!"
-msgstr ""
+msgstr "日照变得非常强了！"
 
 #: src/battle_message.c:708
 msgid "The extremely harsh sunlight faded!"
-msgstr ""
+msgstr "非常强的日照复原了！"
 
 #: src/battle_message.c:709
 msgid "The Water-type attack evaporated in the extremely harsh sunlight!"
-msgstr ""
+msgstr "在非常强的日照下，水属性的攻击蒸发了！"
 
 #: src/battle_message.c:710
 msgid "The extremely harsh sunlight was not lessened at all!"
-msgstr ""
+msgstr "非常强的日照完全没有减弱！"
 
 #: src/battle_message.c:711
 msgid "A heavy rain began to fall!"
-msgstr ""
+msgstr "开始下起大雨了！"
 
 #: src/battle_message.c:712
 msgid "The heavy rain has lifted!"
-msgstr ""
+msgstr "大雨停了！"
 
 #: src/battle_message.c:713
 msgid "The Fire-type attack fizzled out in the heavy rain!"
-msgstr ""
+msgstr "在大雨的影响下，火属性的攻击熄灭了！"
 
 #: src/battle_message.c:714
 msgid "There is no relief from this heavy rain!"
-msgstr ""
+msgstr "大雨完全没有停下来的迹象！"
 
 #: src/battle_message.c:715
 msgid "Mysterious strong winds are protecting Flying-type Pokémon!"
-msgstr ""
+msgstr "神秘的乱流保护着飞行属性的宝可梦！"
 
 #: src/battle_message.c:716
 msgid "The mysterious strong winds have dissipated!"
-msgstr ""
+msgstr "神秘的乱流停止了！"
 
 #: src/battle_message.c:717
 msgid "The mysterious strong winds blow on regardless!"
-msgstr ""
+msgstr "神秘的乱流仍在不停地吹着！"
 
 #: src/battle_message.c:718
 msgid "The mysterious strong winds weakened the attack!"
-msgstr ""
+msgstr "神秘的乱流减弱了攻击！"
 
 #: src/battle_message.c:719
 msgid "It can't use the move because it doesn't have a Berry!\p"
-msgstr ""
+msgstr "因为没有树果，所以无法使用这个招式！\p"
 
 #: src/battle_message.c:720
 msgid "{B_SCR_NAME_WITH_PREFIX}'s Primal Reversion! It reverted to its primal state!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的原始回归！恢复了原始的样子！"
 
 #: src/battle_message.c:721
 msgid "But {B_ATK_NAME_WITH_PREFIX2} can't use the move!"
-msgstr ""
+msgstr "但是{B_ATK_NAME_WITH_PREFIX2}无法使用这个招式！"
 
 #: src/battle_message.c:722
 msgid "But {B_ATK_NAME_WITH_PREFIX2} can't use it the way it is now!"
-msgstr ""
+msgstr "但是{B_ATK_NAME_WITH_PREFIX2}现在的样子无法使用这个招式！"
 
 #: src/battle_message.c:723
 msgid "It broke through {B_EFF_NAME_WITH_PREFIX2}'s protection!"
-msgstr ""
+msgstr "突破了{B_EFF_NAME_WITH_PREFIX2}的守护！"
 
 #: src/battle_message.c:724
 msgid "{B_ATK_ABILITY} only allows the use of {B_CURRENT_MOVE}!\p"
-msgstr ""
+msgstr "{B_ATK_ABILITY}使它只能使用{B_CURRENT_MOVE}！\p"
 
 #: src/battle_message.c:725
 msgid "{B_DEF_NAME_WITH_PREFIX} swapped Abilities with its target!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}和对手交换了特性！"
 
 #: src/battle_message.c:726
 msgid "{B_DEF_NAME_WITH_PREFIX} was cured of its poisoning!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}的中毒治愈了！"
 
 #: src/battle_message.c:727
 msgid "{B_SCR_NAME_WITH_PREFIX}'s type changed to {B_BUFF1}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}变成了{B_BUFF1}属性！"
 
 #: src/battle_message.c:728
 msgid "Neither Pokémon can run away!"
-msgstr ""
+msgstr "双方宝可梦都无法逃走了！"
 
 #: src/battle_message.c:729
 msgid "{B_ATK_NAME_WITH_PREFIX} can no longer escape because it used No Retreat!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}因背水一战而无法逃走了！"
 
 #: src/battle_message.c:730
 msgid "{B_DEF_NAME_WITH_PREFIX} became weaker to fire!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}变得怕火了！"
 
 #: src/battle_message.c:731
 msgid "{B_EFF_NAME_WITH_PREFIX} is about to be attacked by its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}即将受到{B_LAST_ITEM}的攻击！"
 
 #: src/battle_message.c:732
 msgid "{B_DEF_NAME_WITH_PREFIX} can no longer escape because of Octolock!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}因蛸固而无法逃走了！"
 
 #: src/battle_message.c:733
 msgid "Neutralizing gas filled the area!"
-msgstr ""
+msgstr "周围充满了化学变化气体！"
 
 #: src/battle_message.c:734
 msgid "The effects of the neutralizing gas wore off!"
-msgstr ""
+msgstr "化学变化气体的效果消失了！"
 
 #: src/battle_message.c:735
 msgid "{B_DEF_NAME_WITH_PREFIX} is too heavy to be lifted!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}太重了，无法被举起来！"
 
 #: src/battle_message.c:736
 msgid "{B_ATK_NAME_WITH_PREFIX} took {B_DEF_NAME_WITH_PREFIX2} into the sky!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}把{B_DEF_NAME_WITH_PREFIX2}带上了高空！"
 
 #: src/battle_message.c:737
 msgid "{B_EFF_NAME_WITH_PREFIX} got trapped by a snap trap!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}被捕兽夹夹住了！"
 
 #: src/battle_message.c:738
 msgid "{B_ATK_NAME_WITH_PREFIX} is overflowing with space power!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}充满了宇宙之力！"
 
 #: src/battle_message.c:739
 msgid "{B_SCR_NAME_WITH_PREFIX} started heating up its beak!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}开始给鸟嘴加热了！"
 
 #: src/battle_message.c:740
 msgid "{B_ATK_NAME_WITH_PREFIX} swapped the battle effects affecting each side of the field!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}交换了双方场地上的效果！"
 
 #: src/battle_message.c:741
 msgid "{B_ATK_NAME_WITH_PREFIX} surrounded itself with its Z-Power!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}被Z力量包围了！"
 
 #: src/battle_message.c:742
 msgid "{B_ATK_NAME_WITH_PREFIX} unleashes its full-force Z-Move!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}全力释放了Z招式！"
 
 #: src/battle_message.c:743
 msgid "{B_SCR_NAME_WITH_PREFIX} returned its decreased stats to normal using its Z-Power!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}借助Z力量使降低的能力复原了！"
 
 #: src/battle_message.c:744 src/battle_message.c:747
 msgid "{B_SCR_NAME_WITH_PREFIX} boosted its stats using its Z-Power!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}借助Z力量提高了能力！"
 
 #: src/battle_message.c:745
 msgid "{B_SCR_NAME_WITH_PREFIX} boosted its critical-hit ratio using its Z-Power!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}借助Z力量提高了击中要害的几率！"
 
 #: src/battle_message.c:746
 msgid "{B_SCR_NAME_WITH_PREFIX} restored its HP using its Z-Power!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}借助Z力量回复了HP！"
 
 #: src/battle_message.c:748
 msgid "{B_SCR_NAME_WITH_PREFIX}'s HP was restored by the Z-Power!"
-msgstr ""
+msgstr "Z力量回复了{B_SCR_NAME_WITH_PREFIX}的HP！"
 
 #: src/battle_message.c:749
 msgid "{B_ATK_NAME_WITH_PREFIX} managed to expel the poison so you wouldn't worry!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}为了不让你担心，把毒排出来了！"
 
 #: src/battle_message.c:750
 msgid "{B_ATK_NAME_WITH_PREFIX} shook itself awake so you wouldn't worry!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}为了不让你担心，努力醒过来了！"
 
 #: src/battle_message.c:751
 msgid "{B_ATK_NAME_WITH_PREFIX} gathered all its energy to break through its paralysis so you wouldn't worry!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}为了不让你担心，用尽全力摆脱了麻痹！"
 
 #: src/battle_message.c:752
 msgid "{B_ATK_NAME_WITH_PREFIX} cured its burn through sheer determination so you wouldn't worry!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}为了不让你担心，凭毅力治好了灼伤！"
 
 #: src/battle_message.c:753
 msgid "{B_ATK_NAME_WITH_PREFIX} melted the ice with its fiery determination so you wouldn't worry!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}为了不让你担心，用火热的斗志融化了冰！"
 
 #: src/battle_message.c:754
 msgid "{B_DEF_NAME_WITH_PREFIX} toughed it out so you wouldn't feel sad!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}为了不让你伤心，硬是撑住了！"
 
 #: src/battle_message.c:755
 msgid "{B_EFF_NAME_WITH_PREFIX} used up all its electricity!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}用光了所有的电力！"
 
 #: src/battle_message.c:756
 msgid "{B_ATK_NAME_WITH_PREFIX} switched {B_BUFF1} with its target!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}和对手交换了{B_BUFF1}！"
 
 #: src/battle_message.c:757
 msgid "Being hit by {B_CURRENT_MOVE} charged {B_EFF_NAME_WITH_PREFIX2} with power!"
-msgstr ""
+msgstr "受到{B_CURRENT_MOVE}的攻击后，{B_EFF_NAME_WITH_PREFIX2}充满了力量！"
 
 #: src/battle_message.c:758
 msgid "The harsh sunlight activated {B_SCR_NAME_WITH_PREFIX2}'s Protosynthesis!"
-msgstr ""
+msgstr "强烈的日照启动了{B_SCR_NAME_WITH_PREFIX2}的古代活性！"
 
 #: src/battle_message.c:759
 msgid "{B_SCR_NAME_WITH_PREFIX} turned the sunlight harsh, sending its ancient pulse into a frenzy!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}让日照变强，古代的脉动因此变得更加强烈！"
 
 #: src/battle_message.c:760
 msgid "{B_SCR_NAME_WITH_PREFIX} basked in the sunlight, sending its ancient pulse into a frenzy!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}沐浴着日照，古代的脉动因此变得更加强烈！"
 
 #: src/battle_message.c:761
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_BUFF1} was heightened!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_BUFF1}提高了！"
 
 #: src/battle_message.c:762
 msgid "The Electric Terrain activated {B_SCR_NAME_WITH_PREFIX2}'s Quark Drive!"
-msgstr ""
+msgstr "电气场地启动了{B_SCR_NAME_WITH_PREFIX2}的夸克充能！"
 
 #: src/battle_message.c:763
 msgid "{B_SCR_NAME_WITH_PREFIX} turned the ground into Electric Terrain, energizing its futuristic engine!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}布下了电气场地，未来的引擎因此全速运转！"
 
 #: src/battle_message.c:764
 msgid "{B_SCR_NAME_WITH_PREFIX} used the Electric Terrain to energize its futuristic engine!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}利用电气场地，让未来的引擎全速运转！"
 
 #: src/battle_message.c:765
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} weakened the {B_BUFF1} of all surrounding Pokémon!\p"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}使周围所有宝可梦的{B_BUFF1}降低了！\p"
 
 #: src/battle_message.c:766
 msgid "{B_SCR_NAME_WITH_PREFIX} gained strength from the fallen!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}从倒下的同伴那里获得了力量！"
 
 #: src/battle_message.c:767
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_SCR_ABILITY} prevents {B_DEF_NAME_WITH_PREFIX2}'s {B_DEF_ABILITY} from working!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_SCR_ABILITY}使{B_DEF_NAME_WITH_PREFIX2}的{B_DEF_ABILITY}无法发挥作用！"
 
 #: src/battle_message.c:768
 msgid "{B_SCR_NAME_WITH_PREFIX} set a shell trap!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}设置了陷阱甲壳！"
 
 #: src/battle_message.c:769
 msgid "{B_ATK_NAME_WITH_PREFIX}'s shell trap didn't work!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的陷阱甲壳没有生效！"
 
 #: src/battle_message.c:770
 msgid "The spikes disappeared from the ground around {B_ATK_TEAM2} side!"
-msgstr ""
+msgstr "{B_ATK_TEAM2}脚下的撒菱消失了！"
 
 #: src/battle_message.c:771
 msgid "The toxic spikes disappeared from the ground around {B_ATK_TEAM2} side!"
-msgstr ""
+msgstr "{B_ATK_TEAM2}脚下的毒菱消失了！"
 
 #: src/battle_message.c:772
 msgid "The sticky web has disappeared from the ground on {B_ATK_TEAM2} side!"
-msgstr ""
+msgstr "{B_ATK_TEAM2}脚下的黏黏网消失了！"
 
 #: src/battle_message.c:773
 msgid "The pointed stones disappeared from {B_ATK_TEAM2} side!"
-msgstr ""
+msgstr "{B_ATK_TEAM2}周围的尖锐岩石消失了！"
 
 #: src/battle_message.c:774
 msgid "{B_DEF_NAME_WITH_PREFIX} couldn't fully protect itself and got hurt!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}没能完全防住，受到了伤害！"
 
 #: src/battle_message.c:775
 msgid "{B_ATK_NAME_WITH_PREFIX}'s stockpiled effect wore off!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的蓄力效果消失了！"
 
 #: src/battle_message.c:776
 msgid "{B_BUFF1} was revived and is ready to fight again!"
-msgstr ""
+msgstr "{B_BUFF1}复活了，可以再次战斗了！"
 
 #: src/battle_message.c:777
 msgid "{B_BUFF1} had its HP restored."
-msgstr ""
+msgstr "{B_BUFF1}的HP回复了。"
 
 #: src/battle_message.c:778
 msgid "{B_BUFF1} had its status healed!"
-msgstr ""
+msgstr "{B_BUFF1}的异常状态治愈了！"
 
 #: src/battle_message.c:779
 msgid "The PP of {B_BUFF1}'s {B_BUFF2} was restored!"
-msgstr ""
+msgstr "{B_BUFF1}的{B_BUFF2}的PP回复了！"
 
 #: src/battle_message.c:780
 msgid "{B_SCR_NAME_WITH_PREFIX} trapped {B_EFF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}困住了{B_EFF_NAME_WITH_PREFIX2}！"
 
 #: src/battle_message.c:781
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by its frostbite!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了冻伤的伤害！"
 
 #: src/battle_message.c:782
 msgid "{B_EFF_NAME_WITH_PREFIX} got frostbite!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}冻伤了！"
 
 #: src/battle_message.c:783
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_LAST_ITEM} cured its frostbite!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_LAST_ITEM}治愈了冻伤！"
 
 #: src/battle_message.c:784
 msgid "{B_ATK_NAME_WITH_PREFIX} cured its frostbite through sheer determination so you wouldn't worry!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}为了不让你担心，凭毅力治好了冻伤！"
 
 #: src/battle_message.c:785
 msgid "{B_SCR_NAME_WITH_PREFIX}'s frostbite was cured!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的冻伤治愈了！"
 
 #: src/battle_message.c:786
 msgid "{B_SCR_NAME_WITH_PREFIX}'s {B_CURRENT_MOVE} cured its frostbite!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的{B_CURRENT_MOVE}治愈了冻伤！"
 
 #: src/battle_message.c:787
 msgid "{B_SCR_NAME_WITH_PREFIX} used its Mirror Herb to mirror its opponent's stat changes!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}使用模仿香草复制了对手的能力变化！"
 
 #: src/battle_message.c:788 src/battle_message.c:791
 msgid "It started to snow!"
-msgstr ""
+msgstr "开始下雪了！"
 
 #: src/battle_message.c:789
 msgid "Snow continues to fall."
-msgstr ""
+msgstr "雪继续下着。"
 
 #: src/battle_message.c:790
 msgid "The snow stopped."
-msgstr ""
+msgstr "雪停了。"
 
 #: src/battle_message.c:792
 msgid "{B_ATK_NAME_WITH_PREFIX} corroded {B_DEF_NAME_WITH_PREFIX2}'s {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}腐蚀了{B_DEF_NAME_WITH_PREFIX2}的{B_LAST_ITEM}！"
 
 #: src/battle_message.c:793
 msgid "Bright light is about to burst out of {B_ATK_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "耀眼的光芒即将从{B_ATK_NAME_WITH_PREFIX2}身上迸发而出！"
 
 #: src/battle_message.c:794
 msgid "{B_ATK_NAME_WITH_PREFIX} regained its true power through Ultra Burst!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}通过究极爆发取回了真正的力量！"
 
 #: src/battle_message.c:795
 msgid "The rest of your team gained Exp. Points thanks to the Exp. Share!\p"
-msgstr ""
+msgstr "其余的队伍成员通过学习装置获得了经验值！\p"
 
 #: src/battle_message.c:796
 msgid "{B_BUFF1} cannot be used!\p"
-msgstr ""
+msgstr "无法使用{B_BUFF1}！\p"
 
 #: src/battle_message.c:797
 msgid "{B_EFF_NAME_WITH_PREFIX} is being salt cured!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}陷入了盐腌状态！"
 
 #: src/battle_message.c:799
 msgid "{B_EFF_NAME_WITH_PREFIX} got covered in sticky candy syrup!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}全身沾满了黏糊糊的糖浆！"
 
 #: src/battle_message.c:800
 msgid "Sharp-pointed pieces of steel started floating around {B_DEF_TEAM2} Pokémon!"
-msgstr ""
+msgstr "{B_DEF_TEAM2}的宝可梦周围浮起了尖锐的钢铁碎片！"
 
 #: src/battle_message.c:801
 msgid "The sharp steel bit into {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "尖锐的钢铁咬住了{B_DEF_NAME_WITH_PREFIX2}！"
 
 #: src/battle_message.c:802
 msgid "{B_ATK_NAME_WITH_PREFIX} blew away sharp steel!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}吹走了尖锐的钢铁！"
 
 #: src/battle_message.c:803
 msgid "The pieces of steel surrounding {B_ATK_TEAM2} Pokémon disappeared!"
-msgstr ""
+msgstr "{B_ATK_TEAM2}的宝可梦周围的钢铁碎片消失了！"
 
 #: src/battle_message.c:804
 msgid "{B_EFF_TEAM1} Pokémon got trapped with vines!"
-msgstr ""
+msgstr "{B_EFF_TEAM1}的宝可梦被藤蔓缠住了！"
 
 #: src/battle_message.c:805
 msgid "{B_ATK_NAME_WITH_PREFIX} is hurt by G-Max Vine Lash's ferocious beating!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了超极巨灰飞鞭灭的猛烈鞭打！"
 
 #: src/battle_message.c:806
 msgid "{B_EFF_TEAM1} Pokémon got caught in a vortex of water!"
-msgstr ""
+msgstr "{B_EFF_TEAM1}的宝可梦被卷入了水流漩涡！"
 
 #: src/battle_message.c:807
 msgid "{B_ATK_NAME_WITH_PREFIX} is hurt by G-Max Cannonade's vortex!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了超极巨水炮轰灭的漩涡的伤害！"
 
 #: src/battle_message.c:808
 msgid "{B_EFF_TEAM1} Pokémon were surrounded by fire!"
-msgstr ""
+msgstr "{B_EFF_TEAM1}的宝可梦被火焰包围了！"
 
 #: src/battle_message.c:809
 msgid "{B_ATK_NAME_WITH_PREFIX} is burning up within G-Max Wildfire's flames!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了超极巨地狱灭焰的火焰灼烧！"
 
 #: src/battle_message.c:810
 msgid "{B_EFF_TEAM1} Pokémon became surrounded by rocks!"
-msgstr ""
+msgstr "{B_EFF_TEAM1}的宝可梦被岩石包围了！"
 
 #: src/battle_message.c:811
 msgid "{B_ATK_NAME_WITH_PREFIX} is hurt by rocks thrown out by G-Max Volcalith!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了超极巨炎石喷发的岩石的伤害！"
 
 #: src/battle_message.c:812
 msgid "The move was blocked by the power of Dynamax!"
-msgstr ""
+msgstr "招式被极巨化的力量挡住了！"
 
 #: src/battle_message.c:813
 msgid "{B_SCR_NAME_WITH_PREFIX} underwent a heroic transformation!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}完成了英雄般的变身！"
 
 #: src/battle_message.c:814
 msgid "The two moves have become one! It's a combined move!{PAUSE 16}"
-msgstr ""
+msgstr "两个招式合二为一了！这是合体招式！{PAUSE 16}"
 
 #: src/battle_message.c:815
 msgid "A rainbow appeared in the sky on {B_EFF_TEAM2} side!"
-msgstr ""
+msgstr "{B_EFF_TEAM2}的天空中出现了彩虹！"
 
 #: src/battle_message.c:816
 msgid "The rainbow on {B_ATK_TEAM2} side disappeared!"
-msgstr ""
+msgstr "{B_ATK_TEAM2}的彩虹消失了！"
 
 #: src/battle_message.c:817
 msgid "{B_ATK_NAME_WITH_PREFIX} is waiting for {B_ATK_PARTNER_NAME}'s move…{PAUSE 16}"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}正在等待{B_ATK_PARTNER_NAME}的招式……{PAUSE 16}"
 
 #: src/battle_message.c:818
 msgid "A sea of fire enveloped {B_EFF_TEAM2} side!"
-msgstr ""
+msgstr "火海包围了{B_EFF_TEAM2}！"
 
 #: src/battle_message.c:819
 msgid "{B_ATK_NAME_WITH_PREFIX} was hurt by the sea of fire!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}受到了火海的伤害！"
 
 #: src/battle_message.c:820
 msgid "The sea of fire around {B_ATK_TEAM2} side disappeared!"
-msgstr ""
+msgstr "{B_ATK_TEAM2}周围的火海消失了！"
 
 #: src/battle_message.c:821
 msgid "A swamp enveloped {B_EFF_TEAM2} side!"
-msgstr ""
+msgstr "湿地包围了{B_EFF_TEAM2}！"
 
 #: src/battle_message.c:822
 msgid "The swamp around {B_ATK_TEAM2} side disappeared!"
-msgstr ""
+msgstr "{B_ATK_TEAM2}周围的湿地消失了！"
 
 #: src/battle_message.c:823
 msgid "{B_ATK_NAME_WITH_PREFIX} is preparing to tell a chillingly bad joke!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}准备讲一个冷得要命的笑话！"
 
 #: src/battle_message.c:824
 msgid "{B_EFF_NAME_WITH_PREFIX} drank down all the matcha that {B_SCR_NAME_WITH_PREFIX2} made!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}把{B_SCR_NAME_WITH_PREFIX2}泡的抹茶一饮而尽！"
 
 #: src/battle_message.c:825
 msgid "{B_ATK_NAME_WITH_PREFIX} absorbed electricity!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}吸收了电力！"
 
 #: src/battle_message.c:826
 msgid "The {B_LAST_ITEM} was used up…"
-msgstr ""
+msgstr "{B_LAST_ITEM}被用掉了……"
 
 #: src/battle_message.c:827
 msgid "{B_EFF_NAME_WITH_PREFIX} lost its {B_BUFF1} type!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX}失去了{B_BUFF1}属性！"
 
 #: src/battle_message.c:828
 msgid "{B_ATK_NAME_WITH_PREFIX} shed its tail to create a decoy!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}断掉尾巴制造了替身！"
 
 #: src/battle_message.c:829
 msgid "{B_ATK_NAME_WITH_PREFIX} became cloaked in a harsh light!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}被强烈的光芒包围了！"
 
 #: src/battle_message.c:830
 msgid "A supersweet aroma is wafting from the syrup covering {B_EFF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "{B_EFF_NAME_WITH_PREFIX2}身上的糖浆散发出了甜甜的香气！"
 
 #: src/battle_message.c:831
 msgid "The dimensions were twisted!"
-msgstr ""
+msgstr "时空扭曲了！"
 
 #: src/battle_message.c:832
 msgid "A bizarre area was created in which Pokémon's held items lose their effects!"
-msgstr ""
+msgstr "制造出了携带道具失去效果的奇妙空间！"
 
 #: src/battle_message.c:833
 msgid "A bizarre area was created in which Defense and Sp. Def stats are swapped!"
-msgstr ""
+msgstr "制造出了交换防御与特防的奇妙空间！"
 
 #: src/battle_message.c:834
 msgid "Tidying up complete!"
-msgstr ""
+msgstr "打扫干净了！"
 
 #: src/battle_message.c:835
 msgid "{B_ATK_NAME_WITH_PREFIX} terastallized into the {B_BUFF1} type!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}太晶化成了{B_BUFF1}属性！"
 
 #: src/battle_message.c:836
 msgid "{B_SCR_NAME_WITH_PREFIX} used its {B_LAST_ITEM} to activate {B_SCR_ABILITY}!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}使用{B_LAST_ITEM}发动了{B_SCR_ABILITY}！"
 
 #: src/battle_message.c:837
 msgid "Fog crept up as thick as soup!"
-msgstr ""
+msgstr "浓雾像汤一样涌了上来！"
 
 #: src/battle_message.c:838
 msgid "The fog is deep…"
-msgstr ""
+msgstr "雾很浓……"
 
 #: src/battle_message.c:839
 msgid "The fog lifted."
-msgstr ""
+msgstr "雾散了。"
 
 #: src/battle_message.c:840
 msgid "{B_DEF_NAME_WITH_PREFIX} made its shell gleam! It's distorting type matchups!"
-msgstr ""
+msgstr "{B_DEF_NAME_WITH_PREFIX}让甲壳闪闪发光！扭曲了属性相克关系！"
 
 #: src/battle_message.c:841
 msgid "{B_ATK_NAME_WITH_PREFIX} is going all out for this attack!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}为了这次攻击使出了全力！"
 
 #: src/battle_message.c:842
 msgid "{B_SCR_NAME_WITH_PREFIX} was swallowed by {B_BUFF1} and became {B_BUFF1}'s commander!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}被{B_BUFF1}吞了下去，成为了{B_BUFF1}的指挥官！"
 
 #: src/battle_message.c:843
 msgid ""
 "{B_PLAYER_NAME} played the {B_LAST_ITEM}.\p"
 "Now, that's a catchy tune!"
 msgstr ""
+"{B_PLAYER_NAME}吹响了{B_LAST_ITEM}。\p"
+"真是动听的旋律！"
 
 #: src/battle_message.c:844
 msgid "{B_PLAYER_NAME} played the {B_LAST_ITEM}."
-msgstr ""
+msgstr "{B_PLAYER_NAME}吹响了{B_LAST_ITEM}。"
 
 #: src/battle_message.c:845
 msgid "The Pokémon hearing the flute awoke!"
-msgstr ""
+msgstr "听到笛声的宝可梦醒过来了！"
 
 #: src/battle_message.c:846
 msgid "The sunlight is harsh!"
-msgstr ""
+msgstr "日照很强！"
 
 #: src/battle_message.c:847
 msgid "It's hailing!"
-msgstr ""
+msgstr "正在下冰雹！"
 
 #: src/battle_message.c:848
 msgid "It's snowing!"
-msgstr ""
+msgstr "正在下雪！"
 
 #: src/battle_message.c:849
 msgid "The battlefield is covered with grass!"
-msgstr ""
+msgstr "脚下青草如茵！"
 
 #: src/battle_message.c:850
 msgid "Mist swirls around the battlefield!"
-msgstr ""
+msgstr "脚下雾气缭绕！"
 
 #: src/battle_message.c:851
 msgid "An electric current is running across the battlefield!"
-msgstr ""
+msgstr "脚下电光飞溅！"
 
 #: src/battle_message.c:852
 msgid "The battlefield seems weird!"
-msgstr ""
+msgstr "脚下传来了奇妙的感觉！"
 
 #: src/battle_message.c:853
 msgid "Waggling a finger let it use {B_CURRENT_MOVE}!"
-msgstr ""
+msgstr "挥动手指后使出了{B_CURRENT_MOVE}！"
 
 #: src/battle_message.c:854
 msgid "Sleep Clause kept {B_DEF_NAME_WITH_PREFIX2} awake!"
-msgstr ""
+msgstr "睡眠条款使{B_DEF_NAME_WITH_PREFIX2}保持清醒！"
 
 #: src/battle_message.c:855
 msgid "It's super effective on {B_DEF_NAME_WITH_PREFIX2} and {B_DEF_PARTNER_NAME}!"
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}和{B_DEF_PARTNER_NAME}效果绝佳！"
 
 #: src/battle_message.c:856
 msgid "It's not very effective on {B_DEF_NAME_WITH_PREFIX2} and {B_DEF_PARTNER_NAME}."
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}和{B_DEF_PARTNER_NAME}效果不好……"
 
 #: src/battle_message.c:857
 msgid "It doesn't affect {B_DEF_NAME_WITH_PREFIX2} and {B_DEF_PARTNER_NAME}…"
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}和{B_DEF_PARTNER_NAME}没有效果……"
 
 #: src/battle_message.c:858
 msgid "Add {B_DEF_NAME} to your party?"
-msgstr ""
+msgstr "要让{B_DEF_NAME}加入队伍吗？"
 
 #: src/battle_message.c:860
 msgid "{B_ATK_NAME_WITH_PREFIX} grew huge into its Dynamax form!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}变成了巨大的极巨化形态！"
 
 #: src/battle_message.c:861
 msgid "{B_ATK_NAME_WITH_PREFIX} grew huge into its Gigantamax form!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}变成了巨大的超极巨化形态！"
 
 #: src/battle_message.c:862
 msgid "Time to Dynamax!"
-msgstr ""
+msgstr "极巨化吧！"
 
 #: src/battle_message.c:863
 msgid "Time to Gigantamax!"
-msgstr ""
+msgstr "超极巨化吧！"
 
 #: src/battle_message.c:864
 msgid "Would you like to give up on this battle and quit now? Quitting the battle is the same as losing the battle."
-msgstr ""
+msgstr "要放弃这场对战并退出吗？退出对战将被视为落败。"
 
 #: src/battle_message.c:865
 msgid "You sense the presence of many!"
-msgstr ""
+msgstr "感觉到了许多宝可梦的气息！"
 
 #: src/battle_message.c:866
 msgid "{B_ATK_NAME_WITH_PREFIX} transformed into its Complete Forme!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}变成了完全形态！"
 
 #: src/battle_message.c:867
 msgid "{B_ATK_NAME_WITH_PREFIX}'s Ability is protected by the effects of its {B_LAST_ITEM}!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}的特性受到了{B_LAST_ITEM}效果的保护！"
 
 #: src/battle_message.c:868
 msgid "{B_ATK_NAME_WITH_PREFIX} is too scared to move!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}吓得动弹不得！"
 
 #: src/battle_message.c:869
 msgid "GHOST: Get out…… Get out……"
-msgstr ""
+msgstr "幽灵：出去……出去……"
 
 #: src/battle_message.c:870
 msgid ""
 "SILPH SCOPE unveiled the GHOST's\n"
 "identity!"
 msgstr ""
+"西尔佛检视镜识破了\n"
+"幽灵的真面目！"
 
 #: src/battle_message.c:871
 msgid "The GHOST was MAROWAK!\p"
-msgstr ""
+msgstr "幽灵的真面目是嘎啦嘎啦！\p"
 
 #: src/battle_message.c:872
 msgid "{B_TRAINER1_NAME}: {B_OPPONENT_MON1_NAME}, come back!"
-msgstr ""
+msgstr "{B_TRAINER1_NAME}：{B_OPPONENT_MON1_NAME}，回来吧！"
 
 #: src/battle_message.c:873
 msgid ""
 "{B_PLAYER_NAME} threw a ROCK\n"
 "at the {B_OPPONENT_MON1_NAME}!"
 msgstr ""
+"{B_PLAYER_NAME}向{B_OPPONENT_MON1_NAME}\n"
+"扔出了石头！"
 
 #: src/battle_message.c:874
 msgid ""
 "{B_PLAYER_NAME} threw some BAIT\n"
 "at the {B_OPPONENT_MON1_NAME}!"
 msgstr ""
+"{B_PLAYER_NAME}向{B_OPPONENT_MON1_NAME}\n"
+"扔出了诱饵！"
 
 #: src/battle_message.c:875
 msgid "{B_OPPONENT_MON1_NAME} is angry!"
-msgstr ""
+msgstr "{B_OPPONENT_MON1_NAME}生气了！"
 
 #: src/battle_message.c:876
 msgid "{B_OPPONENT_MON1_NAME} is eating!"
-msgstr ""
+msgstr "{B_OPPONENT_MON1_NAME}正在吃东西！"
 
 #: src/battle_message.c:877
 msgid "{B_SCR_NAME_WITH_PREFIX}'s disguise was busted!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的画皮被识破了！"
 
 #: src/battle_message.c:878
 msgid "{B_SCR_ABILITY} triggered!"
-msgstr ""
+msgstr "{B_SCR_ABILITY}发动了！"
 
 #: src/battle_message.c:879
 msgid "{B_SCR_ABILITY} ended!"
-msgstr ""
+msgstr "{B_SCR_ABILITY}结束了！"
 
 #: src/battle_message.c:880
 msgid "{B_SCR_NAME_WITH_PREFIX} was cured of paralysis!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的麻痹治愈了！"
 
 #: src/battle_message.c:881
 msgid "{B_SCR_NAME_WITH_PREFIX} was cured of its poisoning!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的中毒治愈了！"
 
 #: src/battle_message.c:882
 msgid "{B_SCR_NAME_WITH_PREFIX}'s burn was cured!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的灼伤治愈了！"
 
 #: src/battle_message.c:883
 msgid "{B_SCR_NAME_WITH_PREFIX} woke up!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}醒过来了！"
 
 #: src/battle_message.c:884
 msgid "{B_SCR_NAME_WITH_PREFIX} snapped out of its confusion!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的混乱解除了！"
 
 #: src/battle_message.c:885
 msgid "{B_BUFF1} was cured of paralysis!"
-msgstr ""
+msgstr "{B_BUFF1}的麻痹治愈了！"
 
 #: src/battle_message.c:886
 msgid "{B_BUFF1} was cured of its poisoning!"
-msgstr ""
+msgstr "{B_BUFF1}的中毒治愈了！"
 
 #: src/battle_message.c:887
 msgid "{B_BUFF1}'s burn was cured!"
-msgstr ""
+msgstr "{B_BUFF1}的灼伤治愈了！"
 
 #: src/battle_message.c:888
 msgid "{B_BUFF1} woke up!"
-msgstr ""
+msgstr "{B_BUFF1}醒过来了！"
 
 #: src/battle_message.c:889
 msgid "{B_BUFF1} thawed out!"
-msgstr ""
+msgstr "{B_BUFF1}的冰冻状态治愈了！"
 
 #: src/battle_message.c:890
 msgid "{B_BUFF1}'s frostbite was cured!"
-msgstr ""
+msgstr "{B_BUFF1}的冻伤治愈了！"
 
 #: src/battle_message.c:891
 msgid "{B_SCR_NAME_WITH_PREFIX}'s Attack was not lowered!"
-msgstr ""
+msgstr "{B_SCR_NAME_WITH_PREFIX}的攻击没有降低！"
 
 #: src/battle_message.c:892
 msgid ""
 "{B_DEF_NAME} is weak!\n"
 "Throw a Poké Ball now!"
 msgstr ""
+"{B_DEF_NAME}很虚弱！\n"
+"快扔出精灵球！"
 
 #: src/battle_message.c:893
 msgid "This move can't be used!\p"
-msgstr ""
+msgstr "无法使用这个招式！\p"
 
 #: src/battle_message.c:894
 msgid "{B_DEF_TEAM1} side's Reflect wore off!"
-msgstr ""
+msgstr "{B_DEF_TEAM1}的反射壁效果消失了！"
 
 #: src/battle_message.c:895
 msgid "{B_DEF_TEAM1} side's Light Screen wore off!"
-msgstr ""
+msgstr "{B_DEF_TEAM1}的光墙效果消失了！"
 
 #: src/battle_message.c:896
 msgid "{B_DEF_TEAM1} side's Aurora Veil wore off!"
-msgstr ""
+msgstr "{B_DEF_TEAM1}的极光幕效果消失了！"
 
 #: src/battle_message.c:897
 msgid "It's mostly ineffective…"
-msgstr ""
+msgstr "效果极差……"
 
 #: src/battle_message.c:898
 msgid "It's extremely effective!"
-msgstr ""
+msgstr "效果极佳！"
 
 #: src/battle_message.c:899
 msgid "It's not very effective on {B_DEF_NAME_WITH_PREFIX2}."
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}效果不好……"
 
 #: src/battle_message.c:900
 msgid "It's super effective on {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}效果绝佳！"
 
 #: src/battle_message.c:901
 msgid "It's mostly ineffective on {B_DEF_NAME_WITH_PREFIX2}."
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}效果极差……"
 
 #: src/battle_message.c:902
 msgid "It's extremely effective on {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}效果极佳！"
 
 #: src/battle_message.c:903
 msgid "It's extremely effective on {B_DEF_NAME_WITH_PREFIX2} and {B_DEF_PARTNER_NAME}!"
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}和{B_DEF_PARTNER_NAME}效果极佳！"
 
 #: src/battle_message.c:904
 msgid "It's mostly ineffective on {B_DEF_NAME_WITH_PREFIX2} and {B_DEF_PARTNER_NAME}."
-msgstr ""
+msgstr "对{B_DEF_NAME_WITH_PREFIX2}和{B_DEF_PARTNER_NAME}效果极差……"
 
 #: src/battle_message.c:905
 msgid "A critical hit on {B_DEF_NAME_WITH_PREFIX2}!"
-msgstr ""
+msgstr "击中了{B_DEF_NAME_WITH_PREFIX2}的要害！"
 
 #: src/battle_message.c:907
 msgid "{B_ATK_NAME_WITH_PREFIX} lost some of its HP!"
-msgstr ""
+msgstr "{B_ATK_NAME_WITH_PREFIX}失去了一些HP！"
 
 #: src/battle_message.c:1469
 msgid ""
 "What?\n"
 "{STR_VAR_1} is evolving!"
 msgstr ""
+"咦？\n"
+"{STR_VAR_1}的样子……！"
 
 #: src/battle_message.c:1470
 msgid ""
 "Congratulations! Your {STR_VAR_1}\n"
 "evolved into {STR_VAR_2}!{WAIT_SE}\p"
 msgstr ""
+"恭喜！你的{STR_VAR_1}\n"
+"进化成了{STR_VAR_2}！{WAIT_SE}\p"
 
 #: src/battle_message.c:1471
 msgid ""
 "Huh? {STR_VAR_1}\n"
 "stopped evolving!\p"
 msgstr ""
+"咦？{STR_VAR_1}\n"
+"停止了进化！\p"
 
 #: src/battle_message.c:1472
 msgid "……?\p"
-msgstr ""
+msgstr "……？\p"
 
 #: src/battle_message.c:1473
 msgid ""
@@ -3171,365 +3192,389 @@ msgid ""
 "What will\n"
 "WALLY do?"
 msgstr ""
+"满充要\n"
+"做什么？"
 
 #: src/battle_message.c:1476
 msgid "{PAUSE 16}Link standby…"
-msgstr ""
+msgstr "{PAUSE 16}正在等待连接……"
 
 #: src/battle_message.c:1477
 msgid ""
 "Battle{CLEAR_TO 56}Bag\n"
 "Pokémon{CLEAR_TO 56}Run"
 msgstr ""
+"战斗{CLEAR_TO 56}背包\n"
+"宝可梦{CLEAR_TO 56}逃走"
 
 #: src/battle_message.c:1478
 msgid ""
 "Ball{CLEAR_TO 56}{POKEBLOCK}\n"
 "Go Near{CLEAR_TO 56}Run"
 msgstr ""
+"精灵球{CLEAR_TO 56}{POKEBLOCK}\n"
+"靠近{CLEAR_TO 56}逃走"
 
 #: src/battle_message.c:1479
 msgid ""
 "{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}BALL{CLEAR_TO 56}BAIT\n"
 "ROCK{CLEAR_TO 56}RUN"
 msgstr ""
+"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW 13 14 15}精灵球{CLEAR_TO 56}诱饵\n"
+"石头{CLEAR_TO 56}逃走"
 
 #: src/battle_message.c:1480
 msgid "PP "
-msgstr ""
+msgstr "PP "
 
 #: src/battle_message.c:1481 src/strings.c:314 src/strings.c:1069
 msgid "TYPE/"
-msgstr ""
+msgstr "属性/"
 
 #: src/battle_message.c:1482
 msgid ""
 "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}PP\n"
 "TYPE/"
 msgstr ""
+"{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}PP\n"
+"属性/"
 
 #: src/battle_message.c:1483 src/battle_message.c:1488
 msgid "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}"
-msgstr ""
+msgstr "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}"
 
 #: src/battle_message.c:1484
 msgid ""
 "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}Which move should\n"
 "be forgotten?"
 msgstr ""
+"{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}要忘记\n"
+"哪个招式？"
 
 #: src/battle_message.c:1485
 msgid ""
 "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}Catch\n"
 "Don't catch"
 msgstr ""
+"{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}捕捉\n"
+"不捕捉"
 
 #: src/battle_message.c:1486
 msgid ""
 "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}Yes\n"
 "No"
 msgstr ""
+"{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}是\n"
+"否"
 
 #: src/battle_message.c:1487
 msgid ""
 "{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}Switch\n"
 "which?"
 msgstr ""
+"{PALETTE 5}{BACKGROUND DYNAMIC_COLOR5}{TEXT_COLORS DYNAMIC_COLOR4 DYNAMIC_COLOR6 DYNAMIC_COLOR5}要替换\n"
+"哪一只？"
 
 #: src/battle_message.c:1489 src/dexnav.c:200
 msgid "{UP_ARROW}"
-msgstr ""
+msgstr "{UP_ARROW}"
 
 #: src/battle_message.c:1490
 msgid "{ESCAPE 4}"
-msgstr ""
+msgstr "{ESCAPE 4}"
 
 #: src/battle_message.c:1491 src/pokedex_plus_hgss.c:108 src/strings.c:78 src/strings.c:924 src/data/moves_info.h:27 src/data/easy_chat/easy_chat_group_voices.h:46 src/fusion/fusion_ui.c:124
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: src/battle_message.c:1492
 msgid "Safari Balls"
-msgstr ""
+msgstr "狩猎球"
 
 #: src/battle_message.c:1493
 msgid "Left: $"
-msgstr ""
+msgstr "剩余$"
 
 #: src/battle_message.c:1494
 msgid "sleep"
-msgstr ""
+msgstr "睡眠"
 
 #: src/battle_message.c:1495
 msgid "poison"
-msgstr ""
+msgstr "中毒"
 
 #: src/battle_message.c:1496
 msgid "burn"
-msgstr ""
+msgstr "灼伤"
 
 #: src/battle_message.c:1497
 msgid "paralysis"
-msgstr ""
+msgstr "麻痹"
 
 #: src/battle_message.c:1498
 msgid "ice"
-msgstr ""
+msgstr "冰冻"
 
 #: src/battle_message.c:1499
 msgid "confusion"
-msgstr ""
+msgstr "混乱"
 
 #: src/battle_message.c:1500
 msgid "love"
-msgstr ""
+msgstr "着迷"
 
 #: src/battle_message.c:1501
 msgid " and "
-msgstr ""
+msgstr "和"
 
 #: src/battle_message.c:1502 src/pokedex_plus_hgss.c:3693 src/pokedex_plus_hgss.c:3924 src/fusion/fusion_ui.c:126
 msgid ", "
-msgstr ""
+msgstr "、"
 
 #: src/battle_message.c:1503 src/pokedex_plus_hgss.c:3874 src/pokedex_plus_hgss.c:3884 src/pokedex_plus_hgss.c:3913 src/strings.c:51 src/strings.c:87 src/strings.c:653
 msgid " "
-msgstr ""
+msgstr " "
 
 #: src/battle_message.c:1504
 msgid "\l"
-msgstr ""
+msgstr "\l"
 
 #: src/battle_message.c:1505 src/berry_blender.c:283 src/strings.c:1045 src/data/trade.h:37
 msgid "\n"
-msgstr ""
+msgstr "\n"
 
 #: src/battle_message.c:1506 src/battle_message.c:1507
 msgid "are"
-msgstr ""
+msgstr "是"
 
 #: src/battle_message.c:1508
 msgid "Bad Egg"
-msgstr ""
+msgstr "坏掉的蛋"
 
 #: src/battle_message.c:1509 src/battle_message.c:3561 src/data/trainers.h:25758 src/data/trainers.h:32977 src/data/trainers.h:33013 src/data/trainers.h:33134 src/data/trainers.h:33255 src/data/trainers.h:33376
 msgid "WALLY"
-msgstr ""
+msgstr "满充"
 
 #: src/battle_message.c:1510
 msgid "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}Win"
-msgstr ""
+msgstr "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}胜"
 
 #: src/battle_message.c:1511
 msgid "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}Loss"
-msgstr ""
+msgstr "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}负"
 
 #: src/battle_message.c:1512
 msgid "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}Draw"
-msgstr ""
+msgstr "{BACKGROUND TRANSPARENT}{ACCENT TRANSPARENT}平"
 
 #: src/battle_message.c:1513
 msgid " is"
-msgstr ""
+msgstr "是"
 
 #: src/battle_message.c:1514
 msgid "'s"
-msgstr ""
+msgstr "的"
 
 #: src/battle_message.c:1515
 msgid "BATTLE TOURNEY"
-msgstr ""
+msgstr "对战淘汰赛"
 
 #: src/battle_message.c:1519
 msgid "Round 1"
-msgstr ""
+msgstr "第1轮"
 
 #: src/battle_message.c:1520
 msgid "Round 2"
-msgstr ""
+msgstr "第2轮"
 
 #: src/battle_message.c:1521
 msgid "Semifinal"
-msgstr ""
+msgstr "半决赛"
 
 #: src/battle_message.c:1522
 msgid "Final"
-msgstr ""
+msgstr "决赛"
 
 #: src/battle_message.c:1525
 msgid "The great new hope!\p"
-msgstr ""
+msgstr "备受期待的新人！\p"
 
 #: src/battle_message.c:1526
 msgid "Will the championship dream come true?!\p"
-msgstr ""
+msgstr "冠军之梦能否实现？！\p"
 
 #: src/battle_message.c:1527
 msgid "A former champion!\p"
-msgstr ""
+msgstr "前任冠军！\p"
 
 #: src/battle_message.c:1528
 msgid "The previous champion!\p"
-msgstr ""
+msgstr "上届冠军！\p"
 
 #: src/battle_message.c:1529
 msgid "The unbeaten champion!\p"
-msgstr ""
+msgstr "不败的冠军！\p"
 
 #: src/battle_message.c:1530
 msgid "{B_PLAYER_MON1_NAME}"
-msgstr ""
+msgstr "{B_PLAYER_MON1_NAME}"
 
 #: src/battle_message.c:1531
 msgid "VS"
-msgstr ""
+msgstr "VS"
 
 #: src/battle_message.c:1532
 msgid "{B_OPPONENT_MON1_NAME}"
-msgstr ""
+msgstr "{B_OPPONENT_MON1_NAME}"
 
 #: src/battle_message.c:1533
 msgid "Mind"
-msgstr ""
+msgstr "精神"
 
 #: src/battle_message.c:1534
 msgid "Skill"
-msgstr ""
+msgstr "技巧"
 
 #: src/battle_message.c:1535
 msgid "Body"
-msgstr ""
+msgstr "体力"
 
 #: src/battle_message.c:1536
 msgid "{B_BUFF1}{CLEAR 13}Judgment{CLEAR 13}{B_BUFF2}"
-msgstr ""
+msgstr "{B_BUFF1}{CLEAR 13}判定{CLEAR 13}{B_BUFF2}"
 
 #: src/battle_message.c:1537
 msgid ""
 "{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME}!\p"
 "{B_TRAINER2_NAME_WITH_CLASS} sent out {B_OPPONENT_MON2_NAME}!"
 msgstr ""
+"{B_TRAINER1_NAME_WITH_CLASS}派出了{B_OPPONENT_MON1_NAME}！\p"
+"{B_TRAINER2_NAME_WITH_CLASS}派出了{B_OPPONENT_MON2_NAME}！"
 
 #: src/battle_message.c:1538
 msgid "{B_TRAINER2_NAME_WITH_CLASS} sent out {B_BUFF1}!"
-msgstr ""
+msgstr "{B_TRAINER2_NAME_WITH_CLASS}派出了{B_BUFF1}！"
 
 #: src/battle_message.c:1539
 msgid "You are challenged by {B_TRAINER1_NAME_WITH_CLASS} and {B_TRAINER2_NAME_WITH_CLASS}!\p"
-msgstr ""
+msgstr "{B_TRAINER1_NAME_WITH_CLASS}和{B_TRAINER2_NAME_WITH_CLASS}向你发起了对战！\p"
 
 #: src/battle_message.c:1540
 msgid "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON2_NAME}! Go, {B_PLAYER_MON1_NAME}!"
-msgstr ""
+msgstr "{B_PARTNER_NAME_WITH_CLASS}派出了{B_PLAYER_MON2_NAME}！去吧，{B_PLAYER_MON1_NAME}！"
 
 #: src/battle_message.c:1541
 msgid "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON1_NAME}! Go, {B_PLAYER_MON2_NAME}!"
-msgstr ""
+msgstr "{B_PARTNER_NAME_WITH_CLASS}派出了{B_PLAYER_MON1_NAME}！去吧，{B_PLAYER_MON2_NAME}！"
 
 #: src/battle_message.c:1542
 msgid "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON1_NAME}!"
-msgstr ""
+msgstr "{B_PARTNER_NAME_WITH_CLASS}派出了{B_PLAYER_MON1_NAME}！"
 
 #: src/battle_message.c:1543
 msgid "{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON2_NAME}!"
-msgstr ""
+msgstr "{B_PARTNER_NAME_WITH_CLASS}派出了{B_PLAYER_MON2_NAME}！"
 
 #: src/battle_message.c:1544
 msgid "{B_PARTNER_NAME_WITH_CLASS} withdrew {B_PLAYER_MON1_NAME}!"
-msgstr ""
+msgstr "{B_PARTNER_NAME_WITH_CLASS}收回了{B_PLAYER_MON1_NAME}！"
 
 #: src/battle_message.c:1545
 msgid "{B_PARTNER_NAME_WITH_CLASS} withdrew {B_PLAYER_MON2_NAME}!"
-msgstr ""
+msgstr "{B_PARTNER_NAME_WITH_CLASS}收回了{B_PLAYER_MON2_NAME}！"
 
 #: src/battle_message.c:1557
 msgid "REFEREE: If nothing is decided in 3 turns, we will go to judging!"
-msgstr ""
+msgstr "裁判：如果3回合内未分出胜负，将进入判定！"
 
 #: src/battle_message.c:1558
 msgid "REFEREE: That's it! We will now go to judging to determine the winner!"
-msgstr ""
+msgstr "裁判：时间到！现在进入判定来决定胜者！"
 
 #: src/battle_message.c:1559
 msgid "REFEREE: Judging category 1, Mind! The POKéMON showing the most guts!\p"
-msgstr ""
+msgstr "裁判：判定项目1，精神！看哪只宝可梦最有斗志！\p"
 
 #: src/battle_message.c:1560
 msgid "REFEREE: Judging category 2, Skill! The POKéMON using moves the best!\p"
-msgstr ""
+msgstr "裁判：判定项目2，技巧！看哪只宝可梦最善用招式！\p"
 
 #: src/battle_message.c:1561
 msgid "REFEREE: Judging category 3, Body! The POKéMON with the most vitality!\p"
-msgstr ""
+msgstr "裁判：判定项目3，体力！看哪只宝可梦最有活力！\p"
 
 #: src/battle_message.c:1562
 msgid "REFEREE: Judgment: {B_BUFF1} to {B_BUFF2}! The winner is {B_PLAYER_NAME}'s {B_PLAYER_MON1_NAME}!\p"
-msgstr ""
+msgstr "裁判：判定结果{B_BUFF1}比{B_BUFF2}！获胜的是{B_PLAYER_NAME}的{B_PLAYER_MON1_NAME}！\p"
 
 #: src/battle_message.c:1563
 msgid "REFEREE: Judgment: {B_BUFF1} to {B_BUFF2}! The winner is {B_TRAINER1_NAME}'s {B_OPPONENT_MON1_NAME}!\p"
-msgstr ""
+msgstr "裁判：判定结果{B_BUFF1}比{B_BUFF2}！获胜的是{B_TRAINER1_NAME}的{B_OPPONENT_MON1_NAME}！\p"
 
 #: src/battle_message.c:1564
 msgid "REFEREE: Judgment: 3 to 3! We have a draw!\p"
-msgstr ""
+msgstr "裁判：判定结果3比3！平局！\p"
 
 #: src/battle_message.c:1565
 msgid "REFEREE: {B_PLAYER_MON1_NAME} VS {B_OPPONENT_MON1_NAME}! Commence battling!"
-msgstr ""
+msgstr "裁判：{B_PLAYER_MON1_NAME}对{B_OPPONENT_MON1_NAME}！比赛开始！"
 
 #: src/battle_message.c:1568
 msgid "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS} fled!"
-msgstr ""
+msgstr "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS}逃走了！"
 
 #: src/battle_message.c:1569
 msgid "You lost to {B_TRAINER1_NAME_WITH_CLASS}!"
-msgstr ""
+msgstr "你输给了{B_TRAINER1_NAME_WITH_CLASS}！"
 
 #: src/battle_message.c:1570
 msgid "You battled to a draw against {B_TRAINER1_NAME_WITH_CLASS}!"
-msgstr ""
+msgstr "你和{B_TRAINER1_NAME_WITH_CLASS}打成了平手！"
 
 #: src/battle_message.c:1571
 msgid ""
 "Would you like to record your battle\n"
 "on your Frontier Pass?"
 msgstr ""
+"要把对战结果记录到\n"
+"开拓区通行证上吗？"
 
 #: src/battle_message.c:1572
 msgid ""
 "{B_PLAYER_NAME}'s battle result was recorded\n"
 "on the Frontier Pass."
 msgstr ""
+"{B_PLAYER_NAME}的对战结果\n"
+"已记录到开拓区通行证上。"
 
 #: src/battle_message.c:1573
 msgid "You are challenged by {B_LINK_OPPONENT1_NAME}!\p"
-msgstr ""
+msgstr "{B_LINK_OPPONENT1_NAME}向你发起了对战！\p"
 
 #: src/battle_message.c:1574
 msgid "You are challenged by {B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}!\p"
-msgstr ""
+msgstr "{B_LINK_OPPONENT1_NAME}和{B_LINK_OPPONENT2_NAME}向你发起了对战！\p"
 
 #: src/battle_message.c:1575
 msgid "Your"
-msgstr ""
+msgstr "我方"
 
 #: src/battle_message.c:1576
 msgid "The opposing"
-msgstr ""
+msgstr "对手"
 
 #: src/battle_message.c:1577
 msgid "your"
-msgstr ""
+msgstr "我方"
 
 #: src/battle_message.c:1578
 msgid "the opposing"
-msgstr ""
+msgstr "对手"
 
 #: src/battle_message.c:1579
 msgid "$$$$$$$"
-msgstr ""
+msgstr "$$$$$$$"
 
 #: src/battle_message.c:3559
 msgid "The old man"
-msgstr ""
+msgstr "老爷爷"

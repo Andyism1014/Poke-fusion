@@ -7,172 +7,186 @@ msgstr ""
 
 #: src/fusion/fusion_ui.c:119
 msgid "Party"
-msgstr ""
+msgstr "队伍"
 
 #: src/fusion/fusion_ui.c:120
 msgid "Lv"
-msgstr ""
+msgstr "Lv"
 
 #: src/fusion/fusion_ui.c:121
 msgid "IV"
-msgstr ""
+msgstr "IV"
 
 #: src/fusion/fusion_ui.c:122
 msgid "P"
-msgstr ""
+msgstr "被"
 
 #: src/fusion/fusion_ui.c:123
 msgid "+T"
-msgstr ""
+msgstr "+属"
 
 #: src/fusion/fusion_ui.c:125
 msgid " / "
-msgstr ""
+msgstr "/"
 
 #: src/fusion/fusion_ui.c:127
 msgid " or "
-msgstr ""
+msgstr "或"
 
 #: src/fusion/fusion_ability_panel.c:17 src/fusion/fusion_ui.c:128
 msgid "Ability: "
-msgstr ""
+msgstr "特性："
 
 #: src/fusion/fusion_ui.c:130
 msgid "Passives: "
-msgstr ""
+msgstr "被动："
 
 #: src/fusion/fusion_ui.c:131
 msgid "none"
-msgstr ""
+msgstr "无"
 
 #: src/fusion/fusion_ui.c:132
 msgid "{A_BUTTON} Open  {B_BUTTON} Back"
-msgstr ""
+msgstr "{A_BUTTON}打开  {B_BUTTON}返回"
 
 #: src/fusion/fusion_ui.c:133
 msgid "{A_BUTTON} Pick  {L_BUTTON}{R_BUTTON} Box  {SELECT_BUTTON} Sort"
-msgstr ""
+msgstr "{A_BUTTON}选择  {L_BUTTON}{R_BUTTON}切换盒子  {SELECT_BUTTON}排序"
 
 #: src/fusion/fusion_ui.c:597
 msgid "{STR_VAR_1}  Lv{STR_VAR_2}"
-msgstr ""
+msgstr "{STR_VAR_1}  Lv{STR_VAR_2}"
 
 #: src/fusion/fusion_ui.c:598
 msgid "Fusion gen {STR_VAR_1}"
-msgstr ""
+msgstr "炼妖{STR_VAR_1}代"
 
 #: src/fusion/fusion_ui.c:602
 msgid "Types: "
-msgstr ""
+msgstr "属性："
 
 #: src/fusion/fusion_ui.c:855
 msgid "Choose a Pokémon to appraise."
-msgstr ""
+msgstr "请选择要鉴定的宝可梦。"
 
 #: src/fusion/fusion_ui.c:856
 msgid "Parent 1: keeps its slot."
-msgstr ""
+msgstr "亲代1：保留在原位置。"
 
 #: src/fusion/fusion_ui.c:857
 msgid "Parent 2: will be consumed."
-msgstr ""
+msgstr "亲代2：将被消耗。"
 
 #: src/fusion/fusion_ui.c:858
 msgid "{STR_VAR_1} + {STR_VAR_2}"
-msgstr ""
+msgstr "{STR_VAR_1} + {STR_VAR_2}"
 
 #: src/fusion/fusion_ui.c:859
 msgid "Child: Lv{STR_VAR_3}, species of either parent"
-msgstr ""
+msgstr "子代：Lv{STR_VAR_3}，种类随机取自一方亲代"
 
 #: src/fusion/fusion_ui.c:860
 msgid "IVs, nature: from either parent, IVs may rise"
-msgstr ""
+msgstr "个体值/性格取自一方，个体值可能提升"
 
 #: src/fusion/fusion_ui.c:861
 msgid "Passive pool: {STR_VAR_1} ({STR_VAR_3}% each, up to 3)"
-msgstr ""
+msgstr "被动池：{STR_VAR_1}个（各{STR_VAR_3}%，最多3个）"
 
 #: src/fusion/fusion_ui.c:862
 msgid "Move pool: {STR_VAR_1} ({STR_VAR_3}% each, up to 4)"
-msgstr ""
+msgstr "招式池：{STR_VAR_1}个（各{STR_VAR_3}%，最多4个）"
 
 #: src/fusion/fusion_ui.c:863
 msgid "Third type: {STR_VAR_1}% chance"
-msgstr ""
+msgstr "第三属性：{STR_VAR_1}%几率"
 
 #: src/fusion/fusion_ui.c:864
 msgid "Third type: not possible"
-msgstr ""
+msgstr "第三属性：无法获得"
 
 #: src/fusion/fusion_ui.c:865
 msgid "These Pokémon can't be fused."
-msgstr ""
+msgstr "这两只宝可梦无法炼妖。"
 
 #: src/fusion/fusion_ui.c:866
 msgid ""
 "You can't fuse away the last\n"
 "Pokémon in your party."
 msgstr ""
+"不能把队伍里最后一只\n"
+"宝可梦用作炼妖材料。"
 
 #: src/fusion/fusion_ui.c:867
 msgid "Please remove the Mail first."
-msgstr ""
+msgstr "请先取下邮件。"
 
 #: src/fusion/fusion_ui.c:868
 msgid ""
 "There's no room in the Bag for\n"
 "the item Parent 2 is holding."
 msgstr ""
+"背包已满，放不下亲代2\n"
+"携带的道具。"
 
 #: src/fusion/fusion_ui.c:1011
 msgid "Classic"
-msgstr ""
+msgstr "经典"
 
 #: src/fusion/fusion_ui.c:1012
 msgid "Convenient"
-msgstr ""
+msgstr "便捷"
 
 #: src/fusion/fusion_ui.c:1013
 msgid "Material"
-msgstr ""
+msgstr "材料"
 
 #: src/fusion/fusion_ui.c:1014
 msgid "All gens"
-msgstr ""
+msgstr "全世代"
 
 #: src/fusion/fusion_ui.c:1015
 msgid "Original"
-msgstr ""
+msgstr "原版"
 
 #: src/fusion/fusion_ui.c:599
 msgid "{STR_VAR_1} nature"
-msgstr ""
+msgstr "性格：{STR_VAR_1}"
 
 #: src/fusion/fusion_ui.c:600
 msgid "{STR_VAR_1}V"
-msgstr ""
+msgstr "{STR_VAR_1}V"
 
 #: src/fusion/fusion_ui.c:601
 msgid "{STR_VAR_1}/186"
-msgstr ""
+msgstr "{STR_VAR_1}/186"
 
 #: src/fusion/fusion_ui.c:637
 msgid "Atk"
-msgstr ""
+msgstr "攻"
 
 #: src/fusion/fusion_ui.c:638
 msgid "Def"
-msgstr ""
+msgstr "防"
 
 #: src/fusion/fusion_ui.c:639
 msgid "Spe"
-msgstr ""
+msgstr "速"
 
 #: src/fusion/fusion_ui.c:640
 msgid "SpA"
-msgstr ""
+msgstr "特攻"
 
 #: src/fusion/fusion_ui.c:641
 msgid "SpD"
-msgstr ""
+msgstr "特防"
+
+#: src/fusion/fusion_ui.c:1016
+msgctxt "src/fusion/fusion_ui.c"
+msgid "ON"
+msgstr "开"
+
+#: src/fusion/fusion_ui.c:1017
+msgctxt "src/fusion/fusion_ui.c"
+msgid "OFF"
+msgstr "关"

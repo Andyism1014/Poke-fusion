@@ -7,8 +7,8 @@ msgstr ""
 
 #: src/fusion/fusion_ability_panel.c:78
 msgid "{LEFT_ARROW}{STR_VAR_1}{RIGHT_ARROW}"
-msgstr ""
+msgstr "{LEFT_ARROW}{STR_VAR_1}{RIGHT_ARROW}"
 
 #: src/fusion/fusion_ability_panel.c:79
 msgid "Foe {STR_VAR_2}"
-msgstr ""
+msgstr "对手的{STR_VAR_2}"

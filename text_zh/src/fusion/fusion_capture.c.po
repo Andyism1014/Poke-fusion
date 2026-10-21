@@ -7,16 +7,16 @@ msgstr ""
 
 #: src/fusion/fusion_capture.c:139
 msgid "IVs {STR_VAR_1}/186"
-msgstr ""
+msgstr "个体值 {STR_VAR_1}/186"
 
 #: src/fusion/fusion_capture.c:140
 msgid "  A rare find!"
-msgstr ""
+msgstr "  稀有发现！"
 
 #: src/fusion/fusion_capture.c:141 src/fusion/fusion_ui.c:129
 msgid "Passive: "
-msgstr ""
+msgstr "被动："
 
 #: src/fusion/fusion_capture.c:142
 msgid "Third type: "
-msgstr ""
+msgstr "第三属性："

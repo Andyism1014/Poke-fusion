@@ -7,12 +7,12 @@ msgstr ""
 
 #: src/fusion/fusion_debug.c:18
 msgid "CLASSIC"
-msgstr ""
+msgstr "经典"
 
 #: src/fusion/fusion_debug.c:19
 msgid "CONVENIENT"
-msgstr ""
+msgstr "便捷"
 
 #: src/fusion/fusion_debug.c:20
 msgid "MATERIAL"
-msgstr ""
+msgstr "材料"

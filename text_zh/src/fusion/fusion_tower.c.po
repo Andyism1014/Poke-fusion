@@ -7,48 +7,48 @@ msgstr ""
 
 #: src/fusion/fusion_tower.c:38
 msgid "Kai"
-msgstr ""
+msgstr "阿凯"
 
 #: src/fusion/fusion_tower.c:39
 msgid "Mira"
-msgstr ""
+msgstr "米菈"
 
 #: src/fusion/fusion_tower.c:40
 msgid "Tobias"
-msgstr ""
+msgstr "托比亚斯"
 
 #: src/fusion/fusion_tower.c:41
 msgid "Sena"
-msgstr ""
+msgstr "濑名"
 
 #: src/fusion/fusion_tower.c:42
 msgid "Ryuu"
-msgstr ""
+msgstr "阿龙"
 
 #: src/fusion/fusion_tower.c:47
 msgid "Alchemist"
-msgstr ""
+msgstr "炼妖师"
 
 #: src/fusion/fusion_tower.c:300
 msgid "Heal party"
-msgstr ""
+msgstr "恢复队伍"
 
 #: src/fusion/fusion_tower.c:301
 msgid "Rare Candy x2"
-msgstr ""
+msgstr "神奇糖果×2"
 
 #: src/fusion/fusion_tower.c:302
 msgid "+10 Shards"
-msgstr ""
+msgstr "碎片+10"
 
 #: src/fusion/fusion_tower.c:303
 msgid "Max Elixir"
-msgstr ""
+msgstr "PP多项全补剂"
 
 #: src/fusion/fusion_tower.c:304
 msgid "Bottle Cap"
-msgstr ""
+msgstr "银色王冠"
 
 #: src/fusion/fusion_tower.c:305
 msgid "Random held item"
-msgstr ""
+msgstr "随机携带道具"
