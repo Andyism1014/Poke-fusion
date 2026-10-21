@@ -7,326 +7,432 @@ msgstr ""
 
 #: src/data/contest_moves.h:6
 msgid "Quite the appealing move."
-msgstr ""
+msgstr "非常吸引人的表演。"
 
 #: src/data/contest_moves.h:8
 msgid "A highly appealing move."
-msgstr ""
+msgstr "非常吸引人的表演。"
 
 #: src/data/contest_moves.h:17
 msgid ""
 "After this move, the user is\n"
 "more easily startled."
 msgstr ""
+"使用后，自己会\n"
+"更容易受到惊吓。"
 
 #: src/data/contest_moves.h:25
 msgid ""
 "Makes a great appeal, but\n"
 "allows no more to the end."
 msgstr ""
+"能进行很棒的表演，\n"
+"但之后无法再表演。"
 
 #: src/data/contest_moves.h:33
 msgid ""
 "Can be repeatedly used\n"
 "without boring the JUDGE."
 msgstr ""
+"即使连续使用，\n"
+"评审也不会感到厌烦。"
 
 #: src/data/contest_moves.h:41
 msgid ""
 "Can avoid being startled\n"
 "by others once."
 msgstr ""
+"能避免1次\n"
+"被其他宝可梦惊吓。"
 
 #: src/data/contest_moves.h:49
 msgid ""
 "Can avoid being startled\n"
 "by others."
 msgstr ""
+"能避免被其他\n"
+"宝可梦惊吓。"
 
 #: src/data/contest_moves.h:57
 msgid ""
 "Can avoid being startled\n"
 "by others a little."
 msgstr ""
+"能稍微避免\n"
+"被其他宝可梦惊吓。"
 
 #: src/data/contest_moves.h:65
 msgid ""
 "After this move, the user is\n"
 "less likely to be startled."
 msgstr ""
+"使用后，自己会\n"
+"更不容易受到惊吓。"
 
 #: src/data/contest_moves.h:73
 msgid ""
 "Slightly startles the\n"
 "POKéMON in front."
 msgstr ""
+"稍微惊吓\n"
+"前面1只宝可梦。"
 
 #: src/data/contest_moves.h:81
 msgid ""
 "Slightly startles those\n"
 "that have made appeals."
 msgstr ""
+"稍微惊吓\n"
+"已经表演过的宝可梦。"
 
 #: src/data/contest_moves.h:90
 msgid ""
 "Startles the last Pokémon\n"
 "to act before the user."
 msgstr ""
+"惊吓在自己之前\n"
+"最后表演的宝可梦。"
 
 #: src/data/contest_moves.h:92 src/data/contest_moves.h:129
 msgid ""
 "Startles the POKéMON that\n"
 "appealed before the user."
 msgstr ""
+"惊吓在自己之前\n"
+"表演的宝可梦。"
 
 #: src/data/contest_moves.h:102
 msgid ""
 "Startles all of the Pokémon\n"
 "to act before the user."
 msgstr ""
+"惊吓在自己之前\n"
+"表演的所有宝可梦。"
 
 #: src/data/contest_moves.h:104 src/data/contest_moves.h:137
 msgid ""
 "Startles all POKéMON that\n"
 "have done their appeals."
 msgstr ""
+"惊吓已经表演过的\n"
+"所有宝可梦。"
 
 #: src/data/contest_moves.h:113
 msgid ""
 "Badly startles the\n"
 "POKéMON in front."
 msgstr ""
+"狠狠惊吓\n"
+"前面1只宝可梦。"
 
 #: src/data/contest_moves.h:121
 msgid ""
 "Badly startles those that\n"
 "have made appeals."
 msgstr ""
+"狠狠惊吓\n"
+"已经表演过的宝可梦。"
 
 #: src/data/contest_moves.h:146
 msgid ""
 "Makes audience expect\n"
 "little of other contestants."
 msgstr ""
+"让观众对其他参赛者\n"
+"不抱期待。"
 
 #: src/data/contest_moves.h:148
 msgid ""
 "Shifts the JUDGE's\n"
 "attention from others."
 msgstr ""
+"转移评审对\n"
+"其他宝可梦的注意。"
 
 #: src/data/contest_moves.h:157
 msgid ""
 "Startles the POKéMON that\n"
 "has the JUDGE's attention."
 msgstr ""
+"惊吓受到评审\n"
+"关注的宝可梦。"
 
 #: src/data/contest_moves.h:165
 msgid ""
 "Jams the others, and misses\n"
 "one turn of appeals."
 msgstr ""
+"妨碍其他宝可梦，\n"
+"但下回合无法表演。"
 
 #: src/data/contest_moves.h:173
 msgid ""
 "Startles POKéMON that\n"
 "made a same-type appeal."
 msgstr ""
+"惊吓进行了\n"
+"同类表演的宝可梦。"
 
 #: src/data/contest_moves.h:181
 msgid ""
 "Badly startles POKéMON\n"
 "that made COOL appeals."
 msgstr ""
+"狠狠惊吓进行了\n"
+"帅气表演的宝可梦。"
 
 #: src/data/contest_moves.h:189
 msgid ""
 "Badly startles POKéMON\n"
 "that made BEAUTY appeals."
 msgstr ""
+"狠狠惊吓进行了\n"
+"美丽表演的宝可梦。"
 
 #: src/data/contest_moves.h:197
 msgid ""
 "Badly startles POKéMON\n"
 "that made CUTE appeals."
 msgstr ""
+"狠狠惊吓进行了\n"
+"可爱表演的宝可梦。"
 
 #: src/data/contest_moves.h:205
 msgid ""
 "Badly startles POKéMON\n"
 "that made SMART appeals."
 msgstr ""
+"狠狠惊吓进行了\n"
+"聪明表演的宝可梦。"
 
 #: src/data/contest_moves.h:213
 msgid ""
 "Badly startles POKéMON\n"
 "that made TOUGH appeals."
 msgstr ""
+"狠狠惊吓进行了\n"
+"强壮表演的宝可梦。"
 
 #: src/data/contest_moves.h:221
 msgid ""
 "Makes one POKéMON after\n"
 "the user nervous."
 msgstr ""
+"让自己之后的\n"
+"1只宝可梦紧张。"
 
 #: src/data/contest_moves.h:230
 msgid ""
 "Makes the remaining\n"
 "Pokémon nervous."
 msgstr ""
+"让剩下的宝可梦\n"
+"变得紧张。"
 
 #: src/data/contest_moves.h:232
 msgid ""
 "Makes all POKéMON after\n"
 "the user nervous."
 msgstr ""
+"让自己之后的\n"
+"所有宝可梦紧张。"
 
 #: src/data/contest_moves.h:241
 msgid ""
 "Worsens the condition of\n"
 "those that made appeals."
 msgstr ""
+"让已经表演过的\n"
+"宝可梦状态变差。"
 
 #: src/data/contest_moves.h:249
 msgid ""
 "Badly startles POKéMON in\n"
 "good condition."
 msgstr ""
+"狠狠惊吓\n"
+"状态良好的宝可梦。"
 
 #: src/data/contest_moves.h:257
 msgid ""
 "The appeal works great if\n"
 "performed first."
 msgstr ""
+"第1个表演时\n"
+"效果非常好。"
 
 #: src/data/contest_moves.h:265
 msgid ""
 "The appeal works great if\n"
 "performed last."
 msgstr ""
+"最后表演时\n"
+"效果非常好。"
 
 #: src/data/contest_moves.h:273
 msgid ""
 "Makes the appeal as good\n"
 "as those before it."
 msgstr ""
+"表演效果和之前的\n"
+"表演一样好。"
 
 #: src/data/contest_moves.h:281
 msgid ""
 "Makes the appeal as good\n"
 "as the one before it."
 msgstr ""
+"表演效果和前1个\n"
+"表演一样好。"
 
 #: src/data/contest_moves.h:289
 msgid ""
 "The appeal works better\n"
 "the later it is performed."
 msgstr ""
+"越晚表演，\n"
+"效果越好。"
 
 #: src/data/contest_moves.h:298
 msgid ""
 "Effectiveness varies\n"
 "depending on when it is used."
 msgstr ""
+"效果会随\n"
+"使用时机而改变。"
 
 #: src/data/contest_moves.h:300
 msgid ""
 "The appeal's quality varies\n"
 "depending on its timing."
 msgstr ""
+"表演的好坏会随\n"
+"时机而改变。"
 
 #: src/data/contest_moves.h:309
 msgid ""
 "Works well if it's the same\n"
 "type as the one before."
 msgstr ""
+"和前1个表演属性相同\n"
+"时效果很好。"
 
 #: src/data/contest_moves.h:317
 msgid ""
 "Works well if different in\n"
 "type than the one before."
 msgstr ""
+"和前1个表演属性不同\n"
+"时效果很好。"
 
 #: src/data/contest_moves.h:326
 msgid ""
 "Affected by how well the\n"
 "previous Pokémon's move went."
 msgstr ""
+"受到前1只宝可梦\n"
+"表演好坏的影响。"
 
 #: src/data/contest_moves.h:328
 msgid ""
 "Affected by how well the\n"
 "appeal in front goes."
 msgstr ""
+"受到前面表演\n"
+"好坏的影响。"
 
 #: src/data/contest_moves.h:337
 msgid ""
 "Ups the user's condition.\n"
 "Helps prevent nervousness."
 msgstr ""
+"提高自己的状态，\n"
+"不容易紧张。"
 
 #: src/data/contest_moves.h:345
 msgid ""
 "The appeal works well if the\n"
 "user's condition is good."
 msgstr ""
+"自己状态良好时，\n"
+"表演效果很好。"
 
 #: src/data/contest_moves.h:354
 msgid ""
 "Causes the user to move\n"
 "earlier on the next turn."
 msgstr ""
+"下回合能\n"
+"更早表演。"
 
 #: src/data/contest_moves.h:356
 msgid ""
 "The next appeal can be\n"
 "made earlier next turn."
 msgstr ""
+"下回合能\n"
+"更早进行表演。"
 
 #: src/data/contest_moves.h:366
 msgid ""
 "Causes the user to move\n"
 "later on the next turn."
 msgstr ""
+"下回合会\n"
+"更晚表演。"
 
 #: src/data/contest_moves.h:368
 msgid ""
 "The next appeal can be\n"
 "made later next turn."
 msgstr ""
+"下回合会\n"
+"更晚进行表演。"
 
 #: src/data/contest_moves.h:377
 msgid ""
 "Makes the next turn's order\n"
 "more easily scrambled."
 msgstr ""
+"下回合的表演顺序\n"
+"更容易被打乱。"
 
 #: src/data/contest_moves.h:385
 msgid ""
 "Scrambles the order of\n"
 "appeals on the next turn."
 msgstr ""
+"打乱下回合的\n"
+"表演顺序。"
 
 #: src/data/contest_moves.h:393
 msgid ""
 "An appeal that excites the\n"
 "audience in any CONTEST."
 msgstr ""
+"在任何华丽大赛中\n"
+"都能让观众热烈起来。"
 
 #: src/data/contest_moves.h:401
 msgid ""
 "Badly startles all POKéMON\n"
 "that made good appeals."
 msgstr ""
+"狠狠惊吓表演效果\n"
+"很好的所有宝可梦。"
 
 #: src/data/contest_moves.h:409
 msgid ""
 "The appeal works best the\n"
 "more the crowd is excited."
 msgstr ""
+"观众越热烈，\n"
+"表演效果越好。"
 
 #: src/data/contest_moves.h:417
 msgid ""
 "Temporarily stops the\n"
 "crowd from growing excited."
 msgstr ""
+"暂时让观众\n"
+"无法热烈起来。"
