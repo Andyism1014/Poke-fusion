@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/pokenav_match_call_list.c:39
 msgid "A call can't be made from here."
-msgstr ""
+msgstr "这里无法拨打电话。"

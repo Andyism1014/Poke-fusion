@@ -7,128 +7,128 @@ msgstr ""
 
 #: src/pokenav_match_call_data.c:184
 msgid "DEVON PRES"
-msgstr ""
+msgstr "得文社长"
 
 #: src/pokenav_match_call_data.c:185
 msgid "MR. STONE"
-msgstr ""
+msgstr "茂木社长"
 
 #: src/pokenav_match_call_data.c:208
 msgid "RELIABLE ONE"
-msgstr ""
+msgstr "可靠的人"
 
 #: src/pokenav_match_call_data.c:209 src/strings.c:395
 msgid "DAD"
-msgstr ""
+msgstr "爸爸"
 
 #: src/pokenav_match_call_data.c:245
 msgid "CALM & KIND"
-msgstr ""
+msgstr "温柔娴静"
 
 #: src/pokenav_match_call_data.c:246 src/strings.c:396 src/data/speaker_names.h:3
 msgid "MOM"
-msgstr ""
+msgstr "妈妈"
 
 #: src/pokenav_match_call_data.c:260
 msgid "HARD AS ROCK"
-msgstr ""
+msgstr "坚如磐石"
 
 #: src/pokenav_match_call_data.c:274
 msgid "RAD NEIGHBOR"
-msgstr ""
+msgstr "酷酷的邻居"
 
 #: src/pokenav_match_call_data.c:336
 msgid "{PKMN} LOVER"
-msgstr ""
+msgstr "宝可梦爱好者"
 
 #: src/pokenav_match_call_data.c:360
 msgid "ELUSIVE EYES"
-msgstr ""
+msgstr "神出鬼没"
 
 #: src/pokenav_match_call_data.c:361
 msgid "SCOTT"
-msgstr ""
+msgstr "亚希达"
 
 #: src/pokenav_match_call_data.c:380
 msgid "ROCKIN' WHIZ"
-msgstr ""
+msgstr "岩石才女"
 
 #: src/pokenav_match_call_data.c:397
 msgid "THE BIG HIT"
-msgstr ""
+msgstr "惊涛重拳"
 
 #: src/pokenav_match_call_data.c:414
 msgid "SWELL SHOCK"
-msgstr ""
+msgstr "电力十足"
 
 #: src/pokenav_match_call_data.c:431
 msgid "PASSION BURN"
-msgstr ""
+msgstr "热情似火"
 
 #: src/pokenav_match_call_data.c:448
 msgid "SKY TAMER"
-msgstr ""
+msgstr "驭空之人"
 
 #: src/pokenav_match_call_data.c:465
 msgid "MYSTIC DUO"
-msgstr ""
+msgstr "神秘双子"
 
 #: src/pokenav_match_call_data.c:482
 msgid "DANDY CHARM"
-msgstr ""
+msgstr "风度翩翩"
 
 #: src/pokenav_match_call_data.c:645
 msgid "Attack the weak points!"
-msgstr ""
+msgstr "攻击对手的弱点！"
 
 #: src/pokenav_match_call_data.c:646
 msgid "Ultimate STEEL POKéMON."
-msgstr ""
+msgstr "终极的钢属性宝可梦。"
 
 #: src/pokenav_match_call_data.c:648
 msgid "Battle with knowledge!"
-msgstr ""
+msgstr "用知识来战斗！"
 
 #: src/pokenav_match_call_data.c:649
 msgid "I will use various POKéMON."
-msgstr ""
+msgstr "我会用各种宝可梦。"
 
 #: src/pokenav_match_call_data.c:650
 msgid "I'll be a better POKéMON"
-msgstr ""
+msgstr "我要成为比爸爸"
 
 #: src/pokenav_match_call_data.c:651
 msgid "prof than my father is!"
-msgstr ""
+msgstr "更出色的宝可梦博士！"
 
 #: src/pokenav_match_call_data.c:653
 msgid "I'm not so good at battles."
-msgstr ""
+msgstr "我不太擅长对战。"
 
 #: src/pokenav_match_call_data.c:654
 msgid "I'll use any POKéMON!"
-msgstr ""
+msgstr "什么宝可梦我都会用！"
 
 #: src/pokenav_match_call_data.c:655
 msgid "My POKéMON and I help"
-msgstr ""
+msgstr "我和我的宝可梦"
 
 #: src/pokenav_match_call_data.c:656
 msgid "my father's research."
-msgstr ""
+msgstr "一起帮爸爸做研究。"
 
 #: src/pokenav_match_call_data.c:666
 msgid "I'd climb even waterfalls"
-msgstr ""
+msgstr "为了找到稀有的石头，"
 
 #: src/pokenav_match_call_data.c:667
 msgid "to find a rare stone!"
-msgstr ""
+msgstr "连瀑布我都愿意爬！"
 
 #: src/pokenav_match_call_data.c:677
 msgid "I'm the strongest and most"
-msgstr ""
+msgstr "毕竟我可是最强、"
 
 #: src/pokenav_match_call_data.c:678
 msgid "energetic after all!"
-msgstr ""
+msgstr "也最有活力的！"

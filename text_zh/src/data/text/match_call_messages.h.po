@@ -7,1240 +7,1240 @@ msgstr ""
 
 #: src/data/text/match_call_messages.h:1
 msgid "Becalm fighting emotions."
-msgstr ""
+msgstr "平息战斗的情绪。"
 
 #: src/data/text/match_call_messages.h:2
 msgid "Fragrant GRASS POKéMON."
-msgstr ""
+msgstr "芬芳的草属性宝可梦。"
 
 #: src/data/text/match_call_messages.h:3
 msgid "Soothing aromas make the"
-msgstr ""
+msgstr "舒缓的香气能让"
 
 #: src/data/text/match_call_messages.h:4
 msgid "body and mind healthy."
-msgstr ""
+msgstr "身心都变得健康。"
 
 #: src/data/text/match_call_messages.h:6
 msgid "I'm not very good at this."
-msgstr ""
+msgstr "我不太擅长这个。"
 
 #: src/data/text/match_call_messages.h:7
 msgid "Ruin-exploration partners."
-msgstr ""
+msgstr "探索遗迹的伙伴。"
 
 #: src/data/text/match_call_messages.h:8
 msgid "I am searching for undersea"
-msgstr ""
+msgstr "我在寻找海底的"
 
 #: src/data/text/match_call_messages.h:9
 msgid "ruins and relics."
-msgstr ""
+msgstr "遗迹和古物。"
 
 #: src/data/text/match_call_messages.h:11
 msgid "Overwhelm with power!"
-msgstr ""
+msgstr "用力量压倒对手！"
 
 #: src/data/text/match_call_messages.h:12
 msgid "Craggy ROCK POKéMON."
-msgstr ""
+msgstr "嶙峋的岩石属性宝可梦。"
 
 #: src/data/text/match_call_messages.h:13
 msgid "In search of ancient lore,"
-msgstr ""
+msgstr "为了探寻古代的传说，"
 
 #: src/data/text/match_call_messages.h:14
 msgid "I travel the world."
-msgstr ""
+msgstr "我周游世界。"
 
 #: src/data/text/match_call_messages.h:16
 msgid "I'm going to try hard!"
-msgstr ""
+msgstr "我会努力的！"
 
 #: src/data/text/match_call_messages.h:17
 msgid "Good swimmer POKéMON."
-msgstr ""
+msgstr "擅长游泳的宝可梦。"
 
 #: src/data/text/match_call_messages.h:18
 msgid "I wish I could swim without"
-msgstr ""
+msgstr "真希望能不用泳圈"
 
 #: src/data/text/match_call_messages.h:19
 msgid "using an inner tube."
-msgstr ""
+msgstr "也会游泳。"
 
 #: src/data/text/match_call_messages.h:21
 msgid "I don't know. I'll try hard."
-msgstr ""
+msgstr "不知道。我会努力的。"
 
 #: src/data/text/match_call_messages.h:22
 msgid "WATER POKéMON are buddies."
-msgstr ""
+msgstr "水属性宝可梦是好朋友。"
 
 #: src/data/text/match_call_messages.h:23
 msgid "It's not like I can't swim."
-msgstr ""
+msgstr "我不是不会游泳，"
 
 #: src/data/text/match_call_messages.h:24
 msgid "I just like my inner tube."
-msgstr ""
+msgstr "只是喜欢泳圈而已。"
 
 #: src/data/text/match_call_messages.h:26
 msgid "We split our duties."
-msgstr ""
+msgstr "我们分工合作。"
 
 #: src/data/text/match_call_messages.h:27
 msgid "We like friendly POKéMON."
-msgstr ""
+msgstr "我们喜欢友善的宝可梦。"
 
 #: src/data/text/match_call_messages.h:28
 msgid "We enjoy POKéMON together"
-msgstr ""
+msgstr "我们姐弟俩一起"
 
 #: src/data/text/match_call_messages.h:29
 msgid "as sister and brother."
-msgstr ""
+msgstr "享受宝可梦的乐趣。"
 
 #: src/data/text/match_call_messages.h:31
 msgid "I finish with power moves!"
-msgstr ""
+msgstr "用强力招式收尾！"
 
 #: src/data/text/match_call_messages.h:32
 msgid "A mix of different types."
-msgstr ""
+msgstr "各种属性都有。"
 
 #: src/data/text/match_call_messages.h:33
 msgid "I aim to become the ultimate"
-msgstr ""
+msgstr "我的目标是成为"
 
 #: src/data/text/match_call_messages.h:34
 msgid "TRAINER!"
-msgstr ""
+msgstr "最强的训练家！"
 
 #: src/data/text/match_call_messages.h:36
 msgid "Exploit the foe's weakness."
-msgstr ""
+msgstr "攻击对手的弱点。"
 
 #: src/data/text/match_call_messages.h:37
 msgid "Balance is crucial."
-msgstr ""
+msgstr "平衡最重要。"
 
 #: src/data/text/match_call_messages.h:38
 msgid "My goal is to become the"
-msgstr ""
+msgstr "我的目标是成为"
 
 #: src/data/text/match_call_messages.h:39
 msgid "POKéMON CHAMPION."
-msgstr ""
+msgstr "宝可梦冠军。"
 
 #: src/data/text/match_call_messages.h:41
 msgid "Upset the opponent."
-msgstr ""
+msgstr "打乱对手的阵脚。"
 
 #: src/data/text/match_call_messages.h:42
 msgid "Type doesn't matter."
-msgstr ""
+msgstr "属性无所谓。"
 
 #: src/data/text/match_call_messages.h:43
 msgid "I'm a top student at the"
-msgstr ""
+msgstr "我是训练家学校的"
 
 #: src/data/text/match_call_messages.h:44
 msgid "TRAINER'S SCHOOL."
-msgstr ""
+msgstr "尖子生。"
 
 #: src/data/text/match_call_messages.h:46
 msgid "Slow, steady suffering."
-msgstr ""
+msgstr "慢慢地折磨对手。"
 
 #: src/data/text/match_call_messages.h:47
 msgid "Scary to meet at night."
-msgstr ""
+msgstr "晚上遇到会很可怕。"
 
 #: src/data/text/match_call_messages.h:48
 msgid "I see things that others"
-msgstr ""
+msgstr "我能看见别人"
 
 #: src/data/text/match_call_messages.h:49
 msgid "can't see..."
-msgstr ""
+msgstr "看不见的东西……"
 
 #: src/data/text/match_call_messages.h:51
 msgid "Anything to win."
-msgstr ""
+msgstr "不择手段也要赢。"
 
 #: src/data/text/match_call_messages.h:52
 msgid "Gorgeous type!"
-msgstr ""
+msgstr "华丽的类型！"
 
 #: src/data/text/match_call_messages.h:53
 msgid "I have a pool specially for"
-msgstr ""
+msgstr "我家里有一个"
 
 #: src/data/text/match_call_messages.h:54
 msgid "my POKéMON at home."
-msgstr ""
+msgstr "宝可梦专用的泳池。"
 
 #: src/data/text/match_call_messages.h:56
 msgid "You'll fall under my spell!"
-msgstr ""
+msgstr "你会被我迷住的！"
 
 #: src/data/text/match_call_messages.h:57
 msgid "Mature WATER type."
-msgstr ""
+msgstr "成熟的水属性。"
 
 #: src/data/text/match_call_messages.h:58
 msgid "I dream of cruising around"
-msgstr ""
+msgstr "我梦想着乘坐豪华"
 
 #: src/data/text/match_call_messages.h:59
 msgid "the world on a luxury liner."
-msgstr ""
+msgstr "邮轮环游世界。"
 
 #: src/data/text/match_call_messages.h:61
 msgid "I'll lead you astray."
-msgstr ""
+msgstr "我会把你引入歧途。"
 
 #: src/data/text/match_call_messages.h:62
 msgid "Cute, of course."
-msgstr ""
+msgstr "当然是可爱的。"
 
 #: src/data/text/match_call_messages.h:63
 msgid "I love the SAFARI ZONE."
-msgstr ""
+msgstr "我最爱狩猎地带。"
 
 #: src/data/text/match_call_messages.h:64
 msgid "I seem to end up there."
-msgstr ""
+msgstr "总是不知不觉就去了。"
 
 #: src/data/text/match_call_messages.h:66
 msgid "Strategy? Who needs it?"
-msgstr ""
+msgstr "战术？谁需要啊？"
 
 #: src/data/text/match_call_messages.h:67
 msgid "I spent big money on it!"
-msgstr ""
+msgstr "我可是花了大钱的！"
 
 #: src/data/text/match_call_messages.h:68
 msgid "I, being rich, sleep in a"
-msgstr ""
+msgstr "我是有钱人，睡的是"
 
 #: src/data/text/match_call_messages.h:69
 msgid "custom POKéMON bed."
-msgstr ""
+msgstr "定制的宝可梦床。"
 
 #: src/data/text/match_call_messages.h:71
 msgid "Wrestle down with power."
-msgstr ""
+msgstr "用力量把对手摔倒。"
 
 #: src/data/text/match_call_messages.h:72
 msgid "Took all night to catch."
-msgstr ""
+msgstr "花了一整晚才抓到。"
 
 #: src/data/text/match_call_messages.h:73
 msgid "Big, burly, and buff"
-msgstr ""
+msgstr "又大又壮又结实的"
 
 #: src/data/text/match_call_messages.h:74
 msgid "POKéMON are the best..."
-msgstr ""
+msgstr "宝可梦最棒了……"
 
 #: src/data/text/match_call_messages.h:76
 msgid "Ram at full speed!"
-msgstr ""
+msgstr "全速冲撞！"
 
 #: src/data/text/match_call_messages.h:77
 msgid "Funky WATER type!"
-msgstr ""
+msgstr "时髦的水属性！"
 
 #: src/data/text/match_call_messages.h:78
 msgid "If I can't be out swimming,"
-msgstr ""
+msgstr "不能出去游泳的时候，"
 
 #: src/data/text/match_call_messages.h:79
 msgid "I'll be pumping weights."
-msgstr ""
+msgstr "我就去练举重。"
 
 #: src/data/text/match_call_messages.h:81
 msgid "Grand slam pummeling!"
-msgstr ""
+msgstr "一顿猛烈的痛击！"
 
 #: src/data/text/match_call_messages.h:82
 msgid "FIGHTING type."
-msgstr ""
+msgstr "格斗属性。"
 
 #: src/data/text/match_call_messages.h:83
 msgid "Not to brag, but I can bust"
-msgstr ""
+msgstr "不是我吹牛，我能"
 
 #: src/data/text/match_call_messages.h:84
 msgid "ten roof tiles!"
-msgstr ""
+msgstr "劈开十块瓦片！"
 
 #: src/data/text/match_call_messages.h:86
 msgid "Witness karate power!"
-msgstr ""
+msgstr "见识空手道的力量吧！"
 
 #: src/data/text/match_call_messages.h:87
 msgid "My partners in training!"
-msgstr ""
+msgstr "我的修行伙伴！"
 
 #: src/data/text/match_call_messages.h:88
 msgid "Let us discuss matters of"
-msgstr ""
+msgstr "让我们用拳头"
 
 #: src/data/text/match_call_messages.h:89
 msgid "the world with bare fists!"
-msgstr ""
+msgstr "来谈论世事吧！"
 
 #: src/data/text/match_call_messages.h:91
 msgid "Rock to stunning sounds!"
-msgstr ""
+msgstr "伴着惊人的音乐摇滚！"
 
 #: src/data/text/match_call_messages.h:92
 msgid "Electric-and-sound combo!"
-msgstr ""
+msgstr "电与声的组合！"
 
 #: src/data/text/match_call_messages.h:93
 msgid "My compositions will shock"
-msgstr ""
+msgstr "我的作品会让你"
 
 #: src/data/text/match_call_messages.h:94
 msgid "you and stun you!"
-msgstr ""
+msgstr "震撼到触电！"
 
 #: src/data/text/match_call_messages.h:96
 msgid "I'll electrify you!"
-msgstr ""
+msgstr "我会让你触电的！"
 
 #: src/data/text/match_call_messages.h:97
 msgid "They're ELECTRIC!"
-msgstr ""
+msgstr "它们是电属性！"
 
 #: src/data/text/match_call_messages.h:98
 msgid "I want to make people cry"
-msgstr ""
+msgstr "我想用发自内心的"
 
 #: src/data/text/match_call_messages.h:99
 msgid "with songs from my heart."
-msgstr ""
+msgstr "歌声让人落泪。"
 
 #: src/data/text/match_call_messages.h:101
 msgid "Burn it all down!"
-msgstr ""
+msgstr "统统烧光！"
 
 #: src/data/text/match_call_messages.h:102
 msgid "Burn-inducing POKéMON."
-msgstr ""
+msgstr "会让对手灼伤的宝可梦。"
 
 #: src/data/text/match_call_messages.h:103
 msgid "When you light a campfire,"
-msgstr ""
+msgstr "点篝火的时候，"
 
 #: src/data/text/match_call_messages.h:104
 msgid "be sure there's some water."
-msgstr ""
+msgstr "一定要在身边备好水。"
 
 #: src/data/text/match_call_messages.h:106
 msgid "Hang in and be tenacious!"
-msgstr ""
+msgstr "坚持住，不要放弃！"
 
 #: src/data/text/match_call_messages.h:107
 msgid "I'll raise any POKéMON."
-msgstr ""
+msgstr "什么宝可梦我都培育。"
 
 #: src/data/text/match_call_messages.h:108
 msgid "POKéMON raised in the wild"
-msgstr ""
+msgstr "在野外长大的宝可梦"
 
 #: src/data/text/match_call_messages.h:109
 msgid "grow strong!"
-msgstr ""
+msgstr "会变得很强！"
 
 #: src/data/text/match_call_messages.h:111
 msgid "Our love lets us prevail."
-msgstr ""
+msgstr "我们的爱让我们获胜。"
 
 #: src/data/text/match_call_messages.h:112
 msgid "We've had them for years."
-msgstr ""
+msgstr "我们养了它们很多年。"
 
 #: src/data/text/match_call_messages.h:113
 msgid "Married 50 years, we've"
-msgstr ""
+msgstr "结婚50年来，我们"
 
 #: src/data/text/match_call_messages.h:114
 msgid "devotedly raised POKéMON."
-msgstr ""
+msgstr "一直悉心培育宝可梦。"
 
 #: src/data/text/match_call_messages.h:116 src/data/text/match_call_messages.h:291
 msgid "Attack in waves!"
-msgstr ""
+msgstr "一波接一波地进攻！"
 
 #: src/data/text/match_call_messages.h:117
 msgid "BUG POKéMON are cool."
-msgstr ""
+msgstr "虫属性宝可梦很酷。"
 
 #: src/data/text/match_call_messages.h:118
 msgid "I go into the forest every"
-msgstr ""
+msgstr "我每天都去森林里"
 
 #: src/data/text/match_call_messages.h:119
 msgid "day to catch BUG POKéMON."
-msgstr ""
+msgstr "捉虫属性宝可梦。"
 
 #: src/data/text/match_call_messages.h:121
 msgid "Daze and confuse!"
-msgstr ""
+msgstr "让对手晕头转向！"
 
 #: src/data/text/match_call_messages.h:122
 msgid "Ones with weird powers."
-msgstr ""
+msgstr "拥有奇异力量的家伙。"
 
 #: src/data/text/match_call_messages.h:123
 msgid "I can see through exactly"
-msgstr ""
+msgstr "我能把你在想什么"
 
 #: src/data/text/match_call_messages.h:124
 msgid "what you're thinking!"
-msgstr ""
+msgstr "看得一清二楚！"
 
 #: src/data/text/match_call_messages.h:126
 msgid "Battle at full power."
-msgstr ""
+msgstr "全力以赴地战斗。"
 
 #: src/data/text/match_call_messages.h:127
 msgid "POKéMON of many mysteries."
-msgstr ""
+msgstr "充满谜团的宝可梦。"
 
 #: src/data/text/match_call_messages.h:128
 msgid "When we spoke, I was really"
-msgstr ""
+msgstr "我们说话的时候，"
 
 #: src/data/text/match_call_messages.h:129
 msgid "using telepathy."
-msgstr ""
+msgstr "我其实用的是心灵感应。"
 
 #: src/data/text/match_call_messages.h:131
 msgid "Calm and collected."
-msgstr ""
+msgstr "沉着冷静。"
 
 #: src/data/text/match_call_messages.h:132
 msgid "POKéMON of distinction."
-msgstr ""
+msgstr "高贵的宝可梦。"
 
 #: src/data/text/match_call_messages.h:133
 msgid "We enjoy a spot of tea"
-msgstr ""
+msgstr "我们每天都会喝茶。"
 
 #: src/data/text/match_call_messages.h:134
 msgid "every day. It's imported."
-msgstr ""
+msgstr "是进口的哦。"
 
 #: src/data/text/match_call_messages.h:136
 msgid "I use my head to battle."
-msgstr ""
+msgstr "我用头脑来战斗。"
 
 #: src/data/text/match_call_messages.h:137
 msgid "I love any kind of POKéMON!"
-msgstr ""
+msgstr "什么宝可梦我都喜欢！"
 
 #: src/data/text/match_call_messages.h:138
 msgid "My daddy gives me spending"
-msgstr ""
+msgstr "考试考得好，"
 
 #: src/data/text/match_call_messages.h:139
 msgid "money if I ace a test."
-msgstr ""
+msgstr "爸爸就会给我零花钱。"
 
 #: src/data/text/match_call_messages.h:141
 msgid "My knowledge rules!"
-msgstr ""
+msgstr "我的知识天下第一！"
 
 #: src/data/text/match_call_messages.h:142
 msgid "Any smart POKéMON!"
-msgstr ""
+msgstr "只要是聪明的宝可梦！"
 
 #: src/data/text/match_call_messages.h:143
 msgid "I want to be a POKéMON"
-msgstr ""
+msgstr "我将来想当"
 
 #: src/data/text/match_call_messages.h:144
 msgid "researcher in the future."
-msgstr ""
+msgstr "宝可梦研究员。"
 
 #: src/data/text/match_call_messages.h:146
 msgid "We talk it over first."
-msgstr ""
+msgstr "我们先商量好再说。"
 
 #: src/data/text/match_call_messages.h:147
 msgid "POKéMON that we both like."
-msgstr ""
+msgstr "我们俩都喜欢的宝可梦。"
 
 #: src/data/text/match_call_messages.h:148
 msgid "We're senior and junior"
-msgstr ""
+msgstr "我们是热爱宝可梦的"
 
 #: src/data/text/match_call_messages.h:149
 msgid "students into POKéMON!"
-msgstr ""
+msgstr "学姐和学妹！"
 
 #: src/data/text/match_call_messages.h:151
 msgid "Go for it, my dears!"
-msgstr ""
+msgstr "加油吧，宝贝们！"
 
 #: src/data/text/match_call_messages.h:152
 msgid "I have no likes or dislikes."
-msgstr ""
+msgstr "我没有特别的好恶。"
 
 #: src/data/text/match_call_messages.h:153
 msgid "While out shopping for"
-msgstr ""
+msgstr "出门买晚饭的材料时，"
 
 #: src/data/text/match_call_messages.h:154
 msgid "supper, I battle too."
-msgstr ""
+msgstr "我也会顺便对战。"
 
 #: src/data/text/match_call_messages.h:156
 msgid "I battle with love!"
-msgstr ""
+msgstr "我用爱来战斗！"
 
 #: src/data/text/match_call_messages.h:157
 msgid "A POKéMON raised with love!"
-msgstr ""
+msgstr "用爱培育的宝可梦！"
 
 #: src/data/text/match_call_messages.h:158
 msgid "It's important to build"
-msgstr ""
+msgstr "和宝可梦建立信任"
 
 #: src/data/text/match_call_messages.h:159
 msgid "trust with your POKéMON."
-msgstr ""
+msgstr "是很重要的。"
 
 #: src/data/text/match_call_messages.h:161
 msgid "I see through your moves!"
-msgstr ""
+msgstr "你的招式我都看穿了！"
 
 #: src/data/text/match_call_messages.h:162
 msgid "The essence of FIGHTING."
-msgstr ""
+msgstr "格斗的精髓。"
 
 #: src/data/text/match_call_messages.h:163
 msgid "I'm not ready to give way"
-msgstr ""
+msgstr "我还不打算"
 
 #: src/data/text/match_call_messages.h:164
 msgid "to the young yet!"
-msgstr ""
+msgstr "给年轻人让路呢！"
 
 #: src/data/text/match_call_messages.h:166
 msgid "Attack while defending."
-msgstr ""
+msgstr "攻守兼备。"
 
 #: src/data/text/match_call_messages.h:167
 msgid "The FIGHTING type."
-msgstr ""
+msgstr "格斗属性。"
 
 #: src/data/text/match_call_messages.h:168
 msgid "Being old, I have my own"
-msgstr ""
+msgstr "我年纪大了，"
 
 #: src/data/text/match_call_messages.h:169
 msgid "style of battling."
-msgstr ""
+msgstr "有自己的战斗方式。"
 
 #: src/data/text/match_call_messages.h:171
 msgid "I do what I can."
-msgstr ""
+msgstr "尽我所能。"
 
 #: src/data/text/match_call_messages.h:172 src/data/text/match_call_messages.h:292
 msgid "I use different types."
-msgstr ""
+msgstr "我会用各种属性。"
 
 #: src/data/text/match_call_messages.h:173
 msgid "I'm going to keep working"
-msgstr ""
+msgstr "我会一直努力，"
 
 #: src/data/text/match_call_messages.h:174
 msgid "until I beat a GYM LEADER."
-msgstr ""
+msgstr "直到打败道馆馆主。"
 
 #: src/data/text/match_call_messages.h:176
 msgid "I battle patiently."
-msgstr ""
+msgstr "我会耐心地战斗。"
 
 #: src/data/text/match_call_messages.h:177
 msgid "WATER POKéMON to battle!"
-msgstr ""
+msgstr "用水属性宝可梦战斗！"
 
 #: src/data/text/match_call_messages.h:178
 msgid "I'm the world's only guy to"
-msgstr ""
+msgstr "我是世界上唯一一个"
 
 #: src/data/text/match_call_messages.h:179
 msgid "catch a huge POKéMON!"
-msgstr ""
+msgstr "钓到巨大宝可梦的人！"
 
 #: src/data/text/match_call_messages.h:181
 msgid "Exploit the environment!"
-msgstr ""
+msgstr "善用环境！"
 
 #: src/data/text/match_call_messages.h:182
 msgid "All hail the WATER type!"
-msgstr ""
+msgstr "水属性万岁！"
 
 #: src/data/text/match_call_messages.h:183
 msgid "I won't be beaten by some"
-msgstr ""
+msgstr "我才不会输给"
 
 #: src/data/text/match_call_messages.h:184
 msgid "beach bum SWIMMER!"
-msgstr ""
+msgstr "海滩上的游泳小子！"
 
 #: src/data/text/match_call_messages.h:186
 msgid "Speed above all!"
-msgstr ""
+msgstr "速度至上！"
 
 #: src/data/text/match_call_messages.h:187
 msgid "I use a speedy POKéMON."
-msgstr ""
+msgstr "我用速度快的宝可梦。"
 
 #: src/data/text/match_call_messages.h:188
 msgid "A marathon is a challenge"
-msgstr ""
+msgstr "马拉松是一场"
 
 #: src/data/text/match_call_messages.h:189
 msgid "against your own self."
-msgstr ""
+msgstr "和自己的较量。"
 
 #: src/data/text/match_call_messages.h:191
 msgid "Defense is crucial."
-msgstr ""
+msgstr "防守最关键。"
 
 #: src/data/text/match_call_messages.h:192
 msgid "My POKéMON is solid."
-msgstr ""
+msgstr "我的宝可梦很结实。"
 
 #: src/data/text/match_call_messages.h:193
 msgid "I started this for dieting,"
-msgstr ""
+msgstr "我本来是为了减肥，"
 
 #: src/data/text/match_call_messages.h:194
 msgid "but I got right into it."
-msgstr ""
+msgstr "结果却迷上了。"
 
 #: src/data/text/match_call_messages.h:196
 msgid "Strike before stricken!"
-msgstr ""
+msgstr "先下手为强！"
 
 #: src/data/text/match_call_messages.h:197
 msgid "A fast-running POKéMON!"
-msgstr ""
+msgstr "跑得飞快的宝可梦！"
 
 #: src/data/text/match_call_messages.h:198
 msgid "If you ran and ran, you'd"
-msgstr ""
+msgstr "一直跑下去的话，"
 
 #: src/data/text/match_call_messages.h:199
 msgid "become one with the wind."
-msgstr ""
+msgstr "就能与风融为一体。"
 
 #: src/data/text/match_call_messages.h:201
 msgid "All-out offensive!"
-msgstr ""
+msgstr "全力进攻！"
 
 #: src/data/text/match_call_messages.h:202
 msgid "WATER POKéMON rule!"
-msgstr ""
+msgstr "水属性宝可梦最棒！"
 
 #: src/data/text/match_call_messages.h:203
 msgid "I must swim over 6 miles"
-msgstr ""
+msgstr "我每天都要"
 
 #: src/data/text/match_call_messages.h:204
 msgid "every day."
-msgstr ""
+msgstr "游10公里以上。"
 
 #: src/data/text/match_call_messages.h:206
 msgid "Push and push again!"
-msgstr ""
+msgstr "不停地进攻！"
 
 #: src/data/text/match_call_messages.h:207
 msgid "The strength of STEEL."
-msgstr ""
+msgstr "钢铁的力量。"
 
 #: src/data/text/match_call_messages.h:208
 msgid "If you're sweating, get"
-msgstr ""
+msgstr "出汗的时候，"
 
 #: src/data/text/match_call_messages.h:209
 msgid "fluids into you regularly."
-msgstr ""
+msgstr "要记得定时补水。"
 
 #: src/data/text/match_call_messages.h:211
 msgid "Draw the power of WATER."
-msgstr ""
+msgstr "引出水的力量。"
 
 #: src/data/text/match_call_messages.h:212
 msgid "Toughened WATER POKéMON."
-msgstr ""
+msgstr "千锤百炼的水宝可梦。"
 
 #: src/data/text/match_call_messages.h:213
 msgid "Training POKéMON is good,"
-msgstr ""
+msgstr "训练宝可梦固然好，"
 
 #: src/data/text/match_call_messages.h:214
 msgid "but don't neglect yourself."
-msgstr ""
+msgstr "但也别忽视了自己。"
 
 #: src/data/text/match_call_messages.h:216
 msgid "It's about POKéMON power!"
-msgstr ""
+msgstr "靠的是宝可梦的力量！"
 
 #: src/data/text/match_call_messages.h:217
 msgid "See the power of DRAGONS!"
-msgstr ""
+msgstr "见识龙的力量吧！"
 
 #: src/data/text/match_call_messages.h:218
 msgid "I'll become legendary as the"
-msgstr ""
+msgstr "总有一天，我会成为"
 
 #: src/data/text/match_call_messages.h:219
 msgid "strongest one day!"
-msgstr ""
+msgstr "传说中的最强者！"
 
 #: src/data/text/match_call_messages.h:221
 msgid "I'll show you my technique!"
-msgstr ""
+msgstr "让你见识我的技巧！"
 
 #: src/data/text/match_call_messages.h:222
 msgid "Elegantly wheeling BIRDS."
-msgstr ""
+msgstr "优雅盘旋的鸟儿。"
 
 #: src/data/text/match_call_messages.h:223
 msgid "My BIRD POKéMON, deliver my"
-msgstr ""
+msgstr "我的鸟宝可梦啊，"
 
 #: src/data/text/match_call_messages.h:224
 msgid "love to that girl!"
-msgstr ""
+msgstr "把我的爱带给那个女孩！"
 
 #: src/data/text/match_call_messages.h:226
 msgid "You'll suffer from poison!"
-msgstr ""
+msgstr "让你尝尝中毒的滋味！"
 
 #: src/data/text/match_call_messages.h:227
 msgid "Poisonous POKéMON."
-msgstr ""
+msgstr "有毒的宝可梦。"
 
 #: src/data/text/match_call_messages.h:228
 msgid "I undertake training so"
-msgstr ""
+msgstr "我正在修行，"
 
 #: src/data/text/match_call_messages.h:229
 msgid "that I may become a ninja."
-msgstr ""
+msgstr "为了成为一名忍者。"
 
 #: src/data/text/match_call_messages.h:231
 msgid "The first strike wins!"
-msgstr ""
+msgstr "先发制人！"
 
 #: src/data/text/match_call_messages.h:232
 msgid "Speedy FIGHTING type."
-msgstr ""
+msgstr "敏捷的格斗属性。"
 
 #: src/data/text/match_call_messages.h:233
 msgid "If my POKéMON lose,"
-msgstr ""
+msgstr "就算我的宝可梦输了，"
 
 #: src/data/text/match_call_messages.h:234
 msgid "I'll carry on the fight!"
-msgstr ""
+msgstr "我也会继续战斗！"
 
 #: src/data/text/match_call_messages.h:236
 msgid "Go, go, my POKéMON!"
-msgstr ""
+msgstr "上吧，我的宝可梦！"
 
 #: src/data/text/match_call_messages.h:237
 msgid "I'll raise anything."
-msgstr ""
+msgstr "什么都培育。"
 
 #: src/data/text/match_call_messages.h:238
 msgid "UV rays are your skin's"
-msgstr ""
+msgstr "紫外线是皮肤的敌人。"
 
 #: src/data/text/match_call_messages.h:239
 msgid "enemy. Get protected."
-msgstr ""
+msgstr "要做好防晒。"
 
 #: src/data/text/match_call_messages.h:241
 msgid "No mercy!"
-msgstr ""
+msgstr "毫不留情！"
 
 #: src/data/text/match_call_messages.h:242
 msgid "Cute WATER POKéMON."
-msgstr ""
+msgstr "可爱的水属性宝可梦。"
 
 #: src/data/text/match_call_messages.h:243
 msgid "I have too many fans."
-msgstr ""
+msgstr "我的粉丝太多了。"
 
 #: src/data/text/match_call_messages.h:244
 msgid "I was interviewed on TV."
-msgstr ""
+msgstr "我上过电视采访呢。"
 
 #: src/data/text/match_call_messages.h:246
 msgid "I think about this & that."
-msgstr ""
+msgstr "我会考虑各种事情。"
 
 #: src/data/text/match_call_messages.h:247
 msgid "I like all POKéMON."
-msgstr ""
+msgstr "我喜欢所有的宝可梦。"
 
 #: src/data/text/match_call_messages.h:248
 msgid "What lies beyond that"
-msgstr ""
+msgstr "那座山丘的后面"
 
 #: src/data/text/match_call_messages.h:249
 msgid "yonder hill?"
-msgstr ""
+msgstr "会有什么呢？"
 
 #: src/data/text/match_call_messages.h:251
 msgid "We battle together!"
-msgstr ""
+msgstr "我们一起战斗！"
 
 #: src/data/text/match_call_messages.h:252
 msgid "We train together!"
-msgstr ""
+msgstr "我们一起训练！"
 
 #: src/data/text/match_call_messages.h:253
 msgid "We like the same POKéMON,"
-msgstr ""
+msgstr "我们喜欢同样的宝可梦，"
 
 #: src/data/text/match_call_messages.h:254
 msgid "but different desserts."
-msgstr ""
+msgstr "但喜欢的甜点不一样。"
 
 #: src/data/text/match_call_messages.h:256
 msgid "I force things with power!"
-msgstr ""
+msgstr "我用力量硬推！"
 
 #: src/data/text/match_call_messages.h:257
 msgid "WATER and FIGHTING types."
-msgstr ""
+msgstr "水属性和格斗属性。"
 
 #: src/data/text/match_call_messages.h:258
 msgid "Seamen are rough spirits!"
-msgstr ""
+msgstr "船员都是粗犷的汉子！"
 
 #: src/data/text/match_call_messages.h:259
 msgid "Any complaints?"
-msgstr ""
+msgstr "有意见吗？"
 
 #: src/data/text/match_call_messages.h:261
 msgid "Up for a fight anytime!"
-msgstr ""
+msgstr "随时奉陪！"
 
 #: src/data/text/match_call_messages.h:262
 msgid "WATER POKéMON are my faves!"
-msgstr ""
+msgstr "我最爱水属性宝可梦！"
 
 #: src/data/text/match_call_messages.h:263
 msgid "If you want to shout loud,"
-msgstr ""
+msgstr "想要大声喊叫的话，"
 
 #: src/data/text/match_call_messages.h:264
 msgid "suck in air with your belly!"
-msgstr ""
+msgstr "就用肚子吸气！"
 
 #: src/data/text/match_call_messages.h:266
 msgid "Protect POKéMON from harm."
-msgstr ""
+msgstr "保护宝可梦不受伤害。"
 
 #: src/data/text/match_call_messages.h:267
 msgid "I love rare POKéMON."
-msgstr ""
+msgstr "我爱稀有的宝可梦。"
 
 #: src/data/text/match_call_messages.h:268
 msgid "I want to collect all the"
-msgstr ""
+msgstr "我想收集全世界的"
 
 #: src/data/text/match_call_messages.h:269
 msgid "world's rare POKéMON."
-msgstr ""
+msgstr "稀有宝可梦。"
 
 #: src/data/text/match_call_messages.h:271
 msgid "I count on power."
-msgstr ""
+msgstr "我靠的是力量。"
 
 #: src/data/text/match_call_messages.h:272
 msgid "POKéMON are my children."
-msgstr ""
+msgstr "宝可梦就是我的孩子。"
 
 #: src/data/text/match_call_messages.h:273
 msgid "It takes knowledge and"
-msgstr ""
+msgstr "培育宝可梦需要"
 
 #: src/data/text/match_call_messages.h:274
 msgid "love to raise POKéMON."
-msgstr ""
+msgstr "知识和爱心。"
 
 #: src/data/text/match_call_messages.h:276
 msgid "Full-on attack!"
-msgstr ""
+msgstr "全力攻击！"
 
 #: src/data/text/match_call_messages.h:277
 msgid "Anything. I'll raise it."
-msgstr ""
+msgstr "什么都行，我都培育。"
 
 #: src/data/text/match_call_messages.h:278
 msgid "I give them {POKEBLOCK}S for"
-msgstr ""
+msgstr "我给它们吃宝可方块，"
 
 #: src/data/text/match_call_messages.h:279
 msgid "going after CONTEST titles."
-msgstr ""
+msgstr "好去争夺华丽大赛冠军。"
 
 #: src/data/text/match_call_messages.h:281
 msgid "I raise POKéMON with care."
-msgstr ""
+msgstr "我用心培育宝可梦。"
 
 #: src/data/text/match_call_messages.h:282
 msgid "Fun-to-raise POKéMON."
-msgstr ""
+msgstr "养起来很有趣的宝可梦。"
 
 #: src/data/text/match_call_messages.h:283
 msgid "Treat every POKéMON you"
-msgstr ""
+msgstr "要尊重你遇到的"
 
 #: src/data/text/match_call_messages.h:284
 msgid "meet with respect."
-msgstr ""
+msgstr "每一只宝可梦。"
 
 #: src/data/text/match_call_messages.h:286
 msgid "I believe in my POKéMON."
-msgstr ""
+msgstr "我相信我的宝可梦。"
 
 #: src/data/text/match_call_messages.h:287
 msgid "I like strong POKéMON."
-msgstr ""
+msgstr "我喜欢强大的宝可梦。"
 
 #: src/data/text/match_call_messages.h:288
 msgid "I'm training for rescue"
-msgstr ""
+msgstr "我正和宝可梦一起"
 
 #: src/data/text/match_call_messages.h:289
 msgid "work with my POKéMON."
-msgstr ""
+msgstr "进行救援训练。"
 
 #: src/data/text/match_call_messages.h:293
 msgid "Those who destroy nature"
-msgstr ""
+msgstr "破坏自然的人"
 
 #: src/data/text/match_call_messages.h:294
 msgid "must never be forgiven!"
-msgstr ""
+msgstr "绝对不可原谅！"
 
 #: src/data/text/match_call_messages.h:296
 msgid "I'll show you some guts!"
-msgstr ""
+msgstr "让你看看我的毅力！"
 
 #: src/data/text/match_call_messages.h:297
 msgid "Cute POKéMON are my faves!"
-msgstr ""
+msgstr "我最爱可爱的宝可梦！"
 
 #: src/data/text/match_call_messages.h:298
 msgid "After a battle, I always"
-msgstr ""
+msgstr "对战结束后，我总是"
 
 #: src/data/text/match_call_messages.h:299
 msgid "bathe with my POKéMON."
-msgstr ""
+msgstr "和宝可梦一起洗澡。"
 
 #: src/data/text/match_call_messages.h:301
 msgid "Lightning-fast attack!"
-msgstr ""
+msgstr "闪电般的攻击！"
 
 #: src/data/text/match_call_messages.h:302
 msgid "BUG POKéMON are number 1!"
-msgstr ""
+msgstr "虫属性宝可梦第一！"
 
 #: src/data/text/match_call_messages.h:303
 msgid "If you want to catch BUG"
-msgstr ""
+msgstr "想捉虫属性宝可梦的话，"
 
 #: src/data/text/match_call_messages.h:304
 msgid "POKéMON, wake up early."
-msgstr ""
+msgstr "就要早起。"
 
 #: src/data/text/match_call_messages.h:306
 msgid "I battle with power."
-msgstr ""
+msgstr "我用力量战斗。"
 
 #: src/data/text/match_call_messages.h:307
 msgid "Hard-bodied POKéMON."
-msgstr ""
+msgstr "身体坚硬的宝可梦。"
 
 #: src/data/text/match_call_messages.h:308
 msgid "I've been planning a month"
-msgstr ""
+msgstr "为了今天的登山，"
 
 #: src/data/text/match_call_messages.h:309
 msgid "for today's hike."
-msgstr ""
+msgstr "我计划了一个月。"
 
 #: src/data/text/match_call_messages.h:311
 msgid "I like it hot!"
-msgstr ""
+msgstr "我喜欢热的！"
 
 #: src/data/text/match_call_messages.h:312
 msgid "Hot POKéMON!"
-msgstr ""
+msgstr "火热的宝可梦！"
 
 #: src/data/text/match_call_messages.h:313
 msgid "As much as I love POKéMON,"
-msgstr ""
+msgstr "我虽然很爱宝可梦，"
 
 #: src/data/text/match_call_messages.h:314
 msgid "I surely like hiking!"
-msgstr ""
+msgstr "但我也超爱登山！"
 
 #: src/data/text/match_call_messages.h:316
 msgid "Lovey-dovey strategy!"
-msgstr ""
+msgstr "甜甜蜜蜜的战术！"
 
 #: src/data/text/match_call_messages.h:317
 msgid "Lovey-dovey POKéMON!"
-msgstr ""
+msgstr "甜甜蜜蜜的宝可梦！"
 
 #: src/data/text/match_call_messages.h:318
 msgid "We're lovey-dovey!"
-msgstr ""
+msgstr "我们甜甜蜜蜜！"
 
 #: src/data/text/match_call_messages.h:319
 msgid "Forever lovey-dovey!"
-msgstr ""
+msgstr "永远甜甜蜜蜜！"
 
 #: src/data/text/match_call_messages.h:321
 msgid "We let it all hang out."
-msgstr ""
+msgstr "我们放开手脚去打。"
 
 #: src/data/text/match_call_messages.h:322
 msgid "The 1st POKéMON I caught."
-msgstr ""
+msgstr "我抓到的第一只宝可梦。"
 
 #: src/data/text/match_call_messages.h:323
 msgid "POKéMON and I have grown"
-msgstr ""
+msgstr "我和宝可梦一起"
 
 #: src/data/text/match_call_messages.h:324
 msgid "stronger together."
-msgstr ""
+msgstr "变得更强了。"
 
 #: src/data/text/match_call_messages.h:326
 msgid "ROCK-type power attack."
-msgstr ""
+msgstr "岩石属性的强力攻击。"
 
 #: src/data/text/match_call_messages.h:327
 msgid "I prefer rock-hard POKéMON."
-msgstr ""
+msgstr "偏爱坚如岩石的宝可梦。"
 
 #: src/data/text/match_call_messages.h:328
 msgid "A LEADER of a big GYM bears"
-msgstr ""
+msgstr "大道馆的馆主"
 
 #: src/data/text/match_call_messages.h:329
 msgid "a lot of responsibility."
-msgstr ""
+msgstr "肩负着重大的责任。"
 
 #: src/data/text/match_call_messages.h:331
 msgid "Direct physical action!"
-msgstr ""
+msgstr "直接用身体行动！"
 
 #: src/data/text/match_call_messages.h:332
 msgid "FIGHTING POKéMON rule!"
-msgstr ""
+msgstr "格斗宝可梦最棒！"
 
 #: src/data/text/match_call_messages.h:333
 msgid "The world awaits me as the"
-msgstr ""
+msgstr "世界正等待着我"
 
 #: src/data/text/match_call_messages.h:334
 msgid "next big wave!"
-msgstr ""
+msgstr "掀起下一道大浪！"
 
 #: src/data/text/match_call_messages.h:336
 msgid "I choose to electrify."
-msgstr ""
+msgstr "我选择用电。"
 
 #: src/data/text/match_call_messages.h:337
 msgid "Get shocked by electricity!"
-msgstr ""
+msgstr "尝尝电击的滋味吧！"
 
 #: src/data/text/match_call_messages.h:338
 msgid "One must never throw a"
-msgstr ""
+msgstr "比赛绝不能放水。"
 
 #: src/data/text/match_call_messages.h:339
 msgid "match. Even I must not."
-msgstr ""
+msgstr "就算是我也不行。"
 
 #: src/data/text/match_call_messages.h:341
 msgid "Battle aggressively."
-msgstr ""
+msgstr "积极进攻。"
 
 #: src/data/text/match_call_messages.h:342
 msgid "Burn with passion!"
-msgstr ""
+msgstr "燃烧热情吧！"
 
 #: src/data/text/match_call_messages.h:343
 msgid "Completely wash away daily"
-msgstr ""
+msgstr "用温泉把每天的疲劳"
 
 #: src/data/text/match_call_messages.h:344
 msgid "fatigue in hot springs!"
-msgstr ""
+msgstr "统统洗掉吧！"
 
 #: src/data/text/match_call_messages.h:346
 msgid "I flexibly adapt my style."
-msgstr ""
+msgstr "我会灵活调整战法。"
 
 #: src/data/text/match_call_messages.h:347
 msgid "Grown in a balanced manner."
-msgstr ""
+msgstr "均衡成长的宝可梦。"
 
 #: src/data/text/match_call_messages.h:348
 msgid "I walk the 30 minutes from"
-msgstr ""
+msgstr "我每天都要从家里"
 
 #: src/data/text/match_call_messages.h:349
 msgid "home to here every day."
-msgstr ""
+msgstr "走30分钟到这里。"
 
 #: src/data/text/match_call_messages.h:351
 msgid "I take advantage of speed."
-msgstr ""
+msgstr "我善用速度。"
 
 #: src/data/text/match_call_messages.h:352
 msgid "Graceful sky dancers."
-msgstr ""
+msgstr "优雅的空中舞者。"
 
 #: src/data/text/match_call_messages.h:353
 msgid "The ultimate would be to"
-msgstr ""
+msgstr "最理想的就是"
 
 #: src/data/text/match_call_messages.h:354
 msgid "live as one with nature."
-msgstr ""
+msgstr "与大自然融为一体。"
 
 #: src/data/text/match_call_messages.h:356
 msgid "We battle in cooperation."
-msgstr ""
+msgstr "我们合作战斗。"
 
 #: src/data/text/match_call_messages.h:357
 msgid "Always friendly POKéMON."
-msgstr ""
+msgstr "一直很友善的宝可梦。"
 
 #: src/data/text/match_call_messages.h:358
 msgid "Papa has trouble telling"
-msgstr ""
+msgstr "爸爸总是分不清"
 
 #: src/data/text/match_call_messages.h:359
 msgid "the two of us apart!"
-msgstr ""
+msgstr "我们俩谁是谁！"
 
 #: src/data/text/match_call_messages.h:361
 msgid "I use splendid waterpower."
-msgstr ""
+msgstr "我使用华丽的水之力。"
 
 #: src/data/text/match_call_messages.h:362
 msgid "POKéMON of elegance!"
-msgstr ""
+msgstr "优雅的宝可梦！"
 
 #: src/data/text/match_call_messages.h:363
 msgid "The adulation of beautiful"
-msgstr ""
+msgstr "美丽女士们的仰慕"
 
 #: src/data/text/match_call_messages.h:364
 msgid "ladies fills me with energy!"
-msgstr ""
+msgstr "让我充满了活力！"
 
 #: src/data/text/match_call_messages.h:366
 msgid "Offense over defense!"
-msgstr ""
+msgstr "进攻胜于防守！"
 
 #: src/data/text/match_call_messages.h:367
 msgid "The DARK side's beauties."
-msgstr ""
+msgstr "恶属性的美丽宝可梦。"
 
 #: src/data/text/match_call_messages.h:368
 msgid "They said I was a punk, but"
-msgstr ""
+msgstr "大家都说我是小混混，"
 
 #: src/data/text/match_call_messages.h:369
 msgid "I'm one of the ELITE FOUR!"
-msgstr ""
+msgstr "但我可是四天王之一！"
 
 #: src/data/text/match_call_messages.h:371
 msgid "Confuse and confound."
-msgstr ""
+msgstr "迷惑和扰乱对手。"
 
 #: src/data/text/match_call_messages.h:372
 msgid "There's nothing definite."
-msgstr ""
+msgstr "没有固定的。"
 
 #: src/data/text/match_call_messages.h:373
 msgid "I wonder how my grandma at"
-msgstr ""
+msgstr "不知道送神山的"
 
 #: src/data/text/match_call_messages.h:374
 msgid "MT. PYRE is doing?"
-msgstr ""
+msgstr "奶奶过得好不好？"
 
 #: src/data/text/match_call_messages.h:376
 msgid "I use items for help."
-msgstr ""
+msgstr "我会借助道具。"
 
 #: src/data/text/match_call_messages.h:377
 msgid "Flaming passion in icy cold!"
-msgstr ""
+msgstr "冰冷中燃烧的热情！"
 
 #: src/data/text/match_call_messages.h:378
 msgid "The ICE type can be better"
-msgstr ""
+msgstr "在这片炎热的土地上，"
 
 #: src/data/text/match_call_messages.h:379
 msgid "trained in this hot land."
-msgstr ""
+msgstr "冰属性能锻炼得更好。"
 
 #: src/data/text/match_call_messages.h:381
 msgid "Harness strong abilities."
-msgstr ""
+msgstr "发挥强大的特性。"
 
 #: src/data/text/match_call_messages.h:382
 msgid "The raw power of DRAGONS!"
-msgstr ""
+msgstr "龙原始的力量！"
 
 #: src/data/text/match_call_messages.h:383
 msgid "I dedicate myself to the"
-msgstr ""
+msgstr "我把自己奉献给"
 
 #: src/data/text/match_call_messages.h:384
 msgid "POKéMON that saved me."
-msgstr ""
+msgstr "救了我的宝可梦。"
 
 #: src/data/text/match_call_messages.h:386
 msgid "Dignity and respect."
-msgstr ""
+msgstr "尊严与敬意。"
 
 #: src/data/text/match_call_messages.h:387
 msgid "I prefer POKéMON of grace."
-msgstr ""
+msgstr "我偏爱优雅的宝可梦。"
 
 #: src/data/text/match_call_messages.h:388
 msgid "I represent beauty as"
-msgstr ""
+msgstr "我既代表美丽，"
 
 #: src/data/text/match_call_messages.h:389
 msgid "well as intelligence."
-msgstr ""
+msgstr "也代表智慧。"

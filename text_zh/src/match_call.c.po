@@ -7,28 +7,28 @@ msgstr ""
 
 #: src/match_call.c:1205
 msgid "………………\p"
-msgstr ""
+msgstr "………………\p"
 
 #: src/match_call.c:1707
 msgid "KIRA"
-msgstr ""
+msgstr "绮拉"
 
 #: src/match_call.c:1708
 msgid "AMY"
-msgstr ""
+msgstr "艾米"
 
 #: src/match_call.c:1709 src/data/battle_frontier/battle_frontier_trainers.h:213
 msgid "JOHN"
-msgstr ""
+msgstr "约翰"
 
 #: src/match_call.c:1710
 msgid "ROY"
-msgstr ""
+msgstr "罗伊"
 
 #: src/match_call.c:1711
 msgid "GABBY"
-msgstr ""
+msgstr "嘉碧"
 
 #: src/match_call.c:1712
 msgid "ANNA"
-msgstr ""
+msgstr "安娜"

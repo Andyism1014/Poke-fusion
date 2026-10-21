@@ -7,26 +7,28 @@ msgstr ""
 
 #: src/pokenav_match_call_gfx.c:127
 msgid "No. registered"
-msgstr ""
+msgstr "登录人数"
 
 #: src/pokenav_match_call_gfx.c:128
 msgid "No. of battles"
-msgstr ""
+msgstr "对战次数"
 
 #: src/pokenav_match_call_gfx.c:129
 msgid ""
 "That TRAINER is close by.\n"
 "Talk to the TRAINER in person!"
 msgstr ""
+"那位训练家就在附近。\n"
+"直接去和那位训练家说话吧！"
 
 #: src/pokenav_match_call_gfx.c:130
 msgid "UNKNOWN"
-msgstr ""
+msgstr "不明"
 
 #: src/pokenav_match_call_gfx.c:207
 msgid "CALL"
-msgstr ""
+msgstr "呼叫"
 
 #: src/pokenav_match_call_gfx.c:213
 msgid "·{PAUSE 4}·{PAUSE 4}·{PAUSE 4}·{PAUSE 4}·\p"
-msgstr ""
+msgstr "·{PAUSE 4}·{PAUSE 4}·{PAUSE 4}·{PAUSE 4}·\p"
