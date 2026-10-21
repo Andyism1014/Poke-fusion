@@ -14,11 +14,15 @@ msgid ""
 "my only amusement is watching young\l"
 "TRAINERS battle.$"
 msgstr ""
+"我年轻的时候，\n"
+"作为宝可梦训练家周游过世界。\p"
+"现在我已经老了，唯一的乐趣\n"
+"就是看年轻的训练家们对战。$"
 
 #: data/maps/MossdeepCity_GameCorner_1F/scripts.inc:48
 msgctxt "RS_MysteryEventsHouse_Text_DoorIsLocked"
 msgid "The door appears to be locked.$"
-msgstr ""
+msgstr "门好像锁上了。$"
 
 #: data/maps/MossdeepCity_GameCorner_1F/scripts.inc:51
 msgctxt "RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer"
@@ -28,6 +32,10 @@ msgid ""
 "Would you like to challenge\n"
 "{STR_VAR_1}?$"
 msgstr ""
+"一位叫{STR_VAR_1}的训练家\n"
+"正在我家做客。\p"
+"你要向{STR_VAR_1}\n"
+"发起挑战吗？$"
 
 #: data/maps/MossdeepCity_GameCorner_1F/scripts.inc:57
 msgctxt "RS_MysteryEventsHouse_Text_YouWontBattle"
@@ -35,6 +43,8 @@ msgid ""
 "You won't battle? I'm disappointed\n"
 "that I can't see you battle…$"
 msgstr ""
+"你不对战吗？\n"
+"看不到你对战，真是遗憾……$"
 
 #: data/maps/MossdeepCity_GameCorner_1F/scripts.inc:61
 msgctxt "RS_MysteryEventsHouse_Text_KeepItToA3On3"
@@ -44,6 +54,10 @@ msgid ""
 "Could I ask you to keep it down to\n"
 "a 3-on-3 match?$"
 msgstr ""
+"哦，好，好！\p"
+"不过我的房子不太结实。\p"
+"能请你们只进行\n"
+"3对3的对战吗？$"
 
 #: data/maps/MossdeepCity_GameCorner_1F/scripts.inc:67
 msgctxt "RS_MysteryEventsHouse_Text_SaveYourProgress"
@@ -51,11 +65,13 @@ msgid ""
 "Before you two battle, you should\n"
 "save your progress.$"
 msgstr ""
+"在你们两个对战之前，\n"
+"最好先记录一下进度。$"
 
 #: data/maps/MossdeepCity_GameCorner_1F/scripts.inc:71
 msgctxt "RS_MysteryEventsHouse_Text_HopeToSeeAGoodMatch"
 msgid "I hope to see a good match!$"
-msgstr ""
+msgstr "希望能看到一场精彩的对战！$"
 
 #: data/maps/MossdeepCity_GameCorner_1F/scripts.inc:74
 msgctxt "RS_MysteryEventsHouse_Text_BattleTie"
@@ -64,6 +80,9 @@ msgid ""
 "It was a brilliant match in which\n"
 "neither side conceded a step!$"
 msgstr ""
+"结果是平手啊。\p"
+"真是一场双方\n"
+"寸步不让的精彩对战！$"
 
 #: data/maps/MossdeepCity_GameCorner_1F/scripts.inc:79
 msgctxt "RS_MysteryEventsHouse_Text_BattleWon"
@@ -72,6 +91,9 @@ msgid ""
 "Why, it was like seeing myself in\n"
 "my youth again!$"
 msgstr ""
+"太精彩了！\p"
+"哎呀，就像又看到了\n"
+"年轻时的自己一样！$"
 
 #: data/maps/MossdeepCity_GameCorner_1F/scripts.inc:84
 msgctxt "RS_MysteryEventsHouse_Text_BattleLost"
@@ -80,3 +102,6 @@ msgid ""
 "But it was a good match.\n"
 "I hope you can win next time.$"
 msgstr ""
+"啊，真可惜！\p"
+"不过这是一场精彩的对战。\n"
+"希望你下次能赢。$"

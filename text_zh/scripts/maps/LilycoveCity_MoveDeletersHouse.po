@@ -13,16 +13,20 @@ msgid ""
 "I can make POKéMON forget their moves.\p"
 "Would you like me to do that?$"
 msgstr ""
+"呃……\n"
+"哦，对，我就是招式遗忘师。\p"
+"我可以让宝可梦忘记招式。\p"
+"要我帮你这么做吗？$"
 
 #: data/maps/LilycoveCity_MoveDeletersHouse/scripts.inc:75
 msgctxt "LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget"
 msgid "Which POKéMON should forget a move?$"
-msgstr ""
+msgstr "要让哪只宝可梦忘记招式？$"
 
 #: data/maps/LilycoveCity_MoveDeletersHouse/scripts.inc:78
 msgctxt "LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten"
 msgid "Which move should be forgotten?$"
-msgstr ""
+msgstr "要忘记哪个招式？$"
 
 #: data/maps/LilycoveCity_MoveDeletersHouse/scripts.inc:81
 msgctxt "LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove"
@@ -30,6 +34,8 @@ msgid ""
 "{STR_VAR_1} knows only one move\n"
 "so it can't be forgotten…$"
 msgstr ""
+"{STR_VAR_1}只会一个招式，\n"
+"所以不能忘记……$"
 
 #: data/maps/LilycoveCity_MoveDeletersHouse/scripts.inc:85
 msgctxt "LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten"
@@ -37,6 +43,8 @@ msgid ""
 "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
 "That move should be forgotten?$"
 msgstr ""
+"嗯！{STR_VAR_1}的{STR_VAR_2}？\n"
+"要忘记这个招式吗？$"
 
 #: data/maps/LilycoveCity_MoveDeletersHouse/scripts.inc:89
 msgctxt "LilycoveCity_MoveDeletersHouse_Text_MonHasForgottenMove"
@@ -45,6 +53,9 @@ msgid ""
 "{STR_VAR_1} has forgotten\n"
 "{STR_VAR_2} completely.$"
 msgstr ""
+"非常成功！\p"
+"{STR_VAR_1}完全忘记了\n"
+"{STR_VAR_2}。$"
 
 #: data/maps/LilycoveCity_MoveDeletersHouse/scripts.inc:94
 msgctxt "LilycoveCity_MoveDeletersHouse_Text_ComeAgain"
@@ -52,6 +63,8 @@ msgid ""
 "Come again if there are moves that\n"
 "need to be forgotten.$"
 msgstr ""
+"如果有需要忘记的招式，\n"
+"欢迎再来。$"
 
 #: data/maps/LilycoveCity_MoveDeletersHouse/scripts.inc:98
 msgctxt "LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves"
@@ -59,6 +72,8 @@ msgid ""
 "What?\n"
 "No EGG should know any moves.$"
 msgstr ""
+"什么？\n"
+"蛋是不会任何招式的。$"
 
 #: data/maps/LilycoveCity_MoveDeletersHouse/scripts.inc:102
 msgctxt "LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf"
@@ -67,3 +82,6 @@ msgid ""
 "Your {STR_VAR_1} doesn't seem willing\n"
 "to forget SURF.$"
 msgstr ""
+"嗯！\p"
+"你的{STR_VAR_1}好像\n"
+"不愿意忘记冲浪。$"

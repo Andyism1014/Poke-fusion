@@ -12,6 +12,9 @@ msgid ""
 "at the bottom of the sea.\p"
 "Somebody said that, but I don't know…$"
 msgstr ""
+"这个星球最大的谜团\n"
+"就在海底。\p"
+"有人这么说过，不过我也不知道……$"
 
 #: data/maps/LilycoveCity_House4/scripts.inc:17
 msgctxt "LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis"

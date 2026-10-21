@@ -11,6 +11,8 @@ msgid ""
 "Learn to use items properly.\n"
 "That's basic, really.$"
 msgstr ""
+"要学会正确地使用道具。\n"
+"这真的是基本中的基本。$"
 
 #: data/maps/LilycoveCity_DepartmentStore_2F/scripts.inc:69
 msgctxt "LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband"
@@ -18,6 +20,8 @@ msgid ""
 "My husband is waiting at home.\n"
 "What would make a good gift for him?$"
 msgstr ""
+"我丈夫在家里等着我。\n"
+"送他什么礼物好呢？$"
 
 #: data/maps/LilycoveCity_DepartmentStore_2F/scripts.inc:73
 msgctxt "LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems"
@@ -25,3 +29,5 @@ msgid ""
 "I'm leaving on a long journey soon.\n"
 "I need to stock up on items.$"
 msgstr ""
+"我马上就要踏上漫长的旅程了。\n"
+"得多准备些道具才行。$"

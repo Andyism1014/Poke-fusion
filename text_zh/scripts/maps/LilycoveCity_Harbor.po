@@ -13,6 +13,10 @@ msgid ""
 "I'm sorry, the ferry service isn't\n"
 "available at present…$"
 msgstr ""
+"请问有什么事吗？\n"
+"您是在找船吗？\p"
+"非常抱歉，渡轮目前\n"
+"暂停服务……$"
 
 #: data/maps/LilycoveCity_Harbor/scripts.inc:543
 msgctxt "LilycoveCity_Harbor_Text_MayISeeYourTicket"
@@ -20,6 +24,8 @@ msgid ""
 "Hello, are you here for the ferry?\n"
 "May I see your TICKET?$"
 msgstr ""
+"您好，您是来乘坐渡轮的吗？\n"
+"请出示您的船票。$"
 
 #: data/maps/LilycoveCity_Harbor/scripts.inc:547
 msgctxt "LilycoveCity_Harbor_Text_NoTicket"
@@ -29,6 +35,10 @@ msgid ""
 "You must have a TICKET to board\n"
 "the ferry.$"
 msgstr ""
+"{PLAYER}没有船票……\p"
+"非常抱歉。\p"
+"必须持有船票\n"
+"才能乘坐渡轮。$"
 
 #: data/maps/LilycoveCity_Harbor/scripts.inc:553
 msgctxt "LilycoveCity_Harbor_Text_FlashTicketWhereTo"
@@ -37,21 +47,24 @@ msgid ""
 "Perfect! That's all you need!\p"
 "And where would you like to go?$"
 msgstr ""
+"{PLAYER}出示了船票。\p"
+"没问题！这样就可以了！\p"
+"请问您要去哪里呢？$"
 
 #: data/maps/LilycoveCity_Harbor/scripts.inc:558
 msgctxt "LilycoveCity_Harbor_Text_SailAnotherTime"
 msgid "Please sail with us another time!$"
-msgstr ""
+msgstr "欢迎下次再来乘坐！$"
 
 #: data/maps/LilycoveCity_Harbor/scripts.inc:561
 msgctxt "LilycoveCity_Harbor_Text_SlateportItIs"
 msgid "SLATEPORT CITY it is, then!$"
-msgstr ""
+msgstr "那么，前往凯那市！$"
 
 #: data/maps/LilycoveCity_Harbor/scripts.inc:564
 msgctxt "LilycoveCity_Harbor_Text_BattleFrontierItIs"
 msgid "BATTLE FRONTIER it is, then!$"
-msgstr ""
+msgstr "那么，前往对战开拓区！$"
 
 #: data/maps/LilycoveCity_Harbor/scripts.inc:567
 msgctxt "LilycoveCity_Harbor_Text_PleaseBoard"
@@ -59,11 +72,13 @@ msgid ""
 "Please board the ferry and wait for\n"
 "departure.$"
 msgstr ""
+"请登上渡轮，\n"
+"等待出发。$"
 
 #: data/maps/LilycoveCity_Harbor/scripts.inc:571
 msgctxt "LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo"
 msgid "Then, where would you like to go?$"
-msgstr ""
+msgstr "那么，您要去哪里呢？$"
 
 #: data/maps/LilycoveCity_Harbor/scripts.inc:574
 msgctxt "LilycoveCity_Harbor_Text_SailorFerryUnavailable"
@@ -73,6 +88,10 @@ msgid ""
 "I wish they'd get a move on, the folks\n"
 "at the SHIPYARD in SLATEPORT.$"
 msgstr ""
+"在渡轮造好之前，\n"
+"我们船员都没事可做……\p"
+"真希望凯那市造船厂的人\n"
+"能快点啊。$"
 
 #: data/maps/LilycoveCity_Harbor/scripts.inc:580
 msgctxt "LilycoveCity_Harbor_Text_SailorFerryAvailable"
@@ -83,3 +102,8 @@ msgid ""
 "must've worked extra hard.\p"
 "Well, it's my turn to get busy now!$"
 msgstr ""
+"渡轮潮汐号终于\n"
+"开始运营了。\p"
+"凯那市造船厂的人们\n"
+"一定加班加点地努力了吧。\p"
+"好了，现在轮到我忙起来了！$"

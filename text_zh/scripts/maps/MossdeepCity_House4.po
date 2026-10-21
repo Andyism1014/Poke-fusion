@@ -11,6 +11,8 @@ msgid ""
 "My little brother says he likes to go\n"
 "find people's SECRET BASES.$"
 msgstr ""
+"我弟弟说他喜欢去找\n"
+"别人的秘密基地。$"
 
 #: data/maps/MossdeepCity_House4/scripts.inc:46
 msgctxt "MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle"
@@ -19,6 +21,8 @@ msgid ""
 "visit people's SECRET BASES and have\l"
 "POKéMON battles.$"
 msgstr ""
+"我弟弟说他喜欢去别人的\n"
+"秘密基地进行宝可梦对战。$"
 
 #: data/maps/MossdeepCity_House4/scripts.inc:51
 msgctxt "MossdeepCity_House4_Text_YouMadeSecretBaseNearX"
@@ -26,6 +30,8 @@ msgid ""
 "Was it you who made a SECRET BASE\n"
 "near {STR_VAR_1}?$"
 msgstr ""
+"是你在{STR_VAR_1}附近\n"
+"建了秘密基地吗？$"
 
 #: data/maps/MossdeepCity_House4/scripts.inc:55
 msgctxt "MossdeepCity_House4_Text_MakeSecretBase"
@@ -33,8 +39,10 @@ msgid ""
 "You should make a SECRET BASE\n"
 "somewhere. I'll go find it!$"
 msgstr ""
+"你应该在什么地方建一个\n"
+"秘密基地。我会去找的！$"
 
 #: data/maps/MossdeepCity_House4/scripts.inc:59
 msgctxt "MossdeepCity_House4_Text_Skitty"
 msgid "SKITTY: Miyaan?$"
-msgstr ""
+msgstr "向尾喵：喵呀？$"

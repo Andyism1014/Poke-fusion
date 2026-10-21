@@ -8,7 +8,7 @@ msgstr ""
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:141
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore"
 msgid "Welcome to LILYCOVE DEPARTMENT STORE.$"
-msgstr ""
+msgstr "欢迎光临水静百货公司。$"
 
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:144
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings"
@@ -17,6 +17,9 @@ msgid ""
 "STORE, I always end up buying all sorts\l"
 "of things because it's so fun.$"
 msgstr ""
+"每次来百货公司，\n"
+"因为太好玩了，\l"
+"结果总会买一大堆东西。$"
 
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:149
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture"
@@ -24,6 +27,8 @@ msgid ""
 "Today, my mom is going to buy me some\n"
 "nice furniture.$"
 msgstr ""
+"今天，妈妈要给我买\n"
+"漂亮的家具。$"
 
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:153
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill"
@@ -31,11 +36,13 @@ msgid ""
 "I'm buying something for my AZUMARILL\n"
 "as a reward for winning a CONTEST.$"
 msgstr ""
+"我的玛力露丽赢了华丽大赛，\n"
+"我要买点东西奖励它。$"
 
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:157
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_Azumarill"
 msgid "AZUMARILL: Maririroo!$"
-msgstr ""
+msgstr "玛力露丽：玛丽丽噜！$"
 
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:160
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign"
@@ -48,6 +55,13 @@ msgid ""
 "5F: POKé DOLL FLOOR\p"
 "ROOFTOP: ROOFTOP PLAZA$"
 msgstr ""
+"1F：服务柜台\n"
+"    抽奖处\p"
+"2F：训练家专区\p"
+"3F：对战用品区\p"
+"4F：招式学习器专区\p"
+"5F：宝可梦玩偶楼层\p"
+"屋顶：屋顶广场$"
 
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:170
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun"
@@ -60,6 +74,12 @@ msgid ""
 "with people you couldn't before.\p"
 "I think it's going to be exciting!$"
 msgstr ""
+"无线通信很好玩吧？\p"
+"我觉得它能让你做到\n"
+"以前做不到的事情。\p"
+"比如说，现在可以和以前\n"
+"没法交换的人交换了。\p"
+"我觉得一定会很有趣的！$"
 
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:180
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_SpreadWordAboutWirelessComm"
@@ -67,3 +87,5 @@ msgid ""
 "I want to spread the word about how\n"
 "fun Wireless Communication can be.$"
 msgstr ""
+"我想让大家都知道\n"
+"无线通信有多好玩。$"

@@ -13,6 +13,10 @@ msgid ""
 "I watch TV, but they never show any\n"
 "commercials.$"
 msgstr ""
+"清仓大甩卖没有\n"
+"固定的日子吗？\p"
+"我一直在看电视，\n"
+"可是从来没见过广告。$"
 
 #: data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.inc:193
 msgctxt "LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale"
@@ -22,11 +26,15 @@ msgid ""
 "They have items that you can only get\n"
 "here. I'm going to load up, that I am!$"
 msgstr ""
+"太好了！我等这次\n"
+"清仓大甩卖等了好久。\p"
+"这里有只能在这里买到的商品。\n"
+"我要大买特买，没错！$"
 
 #: data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.inc:199
 msgctxt "LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty"
 msgid "Ohh… I'm bone-dry thirsty!$"
-msgstr ""
+msgstr "哦……我渴得要命！$"
 
 #: data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.inc:202
 msgctxt "LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike"
@@ -34,6 +42,8 @@ msgid ""
 "It's a VENDING MACHINE.\n"
 "Which drink would you like?$"
 msgstr ""
+"这是自动售货机。\n"
+"要买哪种饮料呢？$"
 
 #: data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.inc:206
 msgctxt "LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown"
@@ -41,6 +51,8 @@ msgid ""
 "Clang!\p"
 "A can of {STR_VAR_1} dropped down.$"
 msgstr ""
+"哐当！\p"
+"掉出了一罐{STR_VAR_1}。$"
 
 #: data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.inc:210
 msgctxt "LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown"
@@ -49,13 +61,16 @@ msgid ""
 "Score! An extra can of {STR_VAR_1}\n"
 "dropped down!$"
 msgstr ""
+"哐当！\p"
+"中奖了！又多掉出了一罐\n"
+"{STR_VAR_1}！$"
 
 #: data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.inc:215
 msgctxt "LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney"
 msgid "Not enough money…$"
-msgstr ""
+msgstr "钱不够……$"
 
 #: data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.inc:218
 msgctxt "LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink"
 msgid "Decided against buying a drink.$"
-msgstr ""
+msgstr "还是不买饮料了。$"
