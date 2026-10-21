@@ -7,36 +7,36 @@ msgstr ""
 
 #: src/tv.c:177
 msgid "Good"
-msgstr ""
+msgstr "不错"
 
 #: src/tv.c:178
 msgid "Very good"
-msgstr ""
+msgstr "很棒"
 
 #: src/tv.c:179 src/data/script_menu.h:293
 msgid "Excellent"
-msgstr ""
+msgstr "好极了"
 
 #: src/tv.c:180
 msgid "So-so"
-msgstr ""
+msgstr "一般般"
 
 #: src/tv.c:181
 msgid "Bad"
-msgstr ""
+msgstr "很差"
 
 #: src/tv.c:182
 msgid "The worst"
-msgstr ""
+msgstr "糟透了"
 
 #: src/tv.c:184
 msgid "SLOTS"
-msgstr ""
+msgstr "老虎机"
 
 #: src/tv.c:185
 msgid "ROULETTE"
-msgstr ""
+msgstr "轮盘"
 
 #: src/tv.c:186
 msgid "jackpot"
-msgstr ""
+msgstr "特等"
