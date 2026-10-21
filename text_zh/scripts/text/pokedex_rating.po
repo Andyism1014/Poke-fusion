@@ -12,6 +12,9 @@ msgid ""
 "Are you curious about how your\n"
 "POKéDEX is coming along?$"
 msgstr ""
+"小田卷博士：啊，{PLAYER}{KUN}！\p"
+"你想知道你的宝可梦图鉴\n"
+"完成得怎么样了吗？$"
 
 #: data/text/pokedex_rating.inc:6
 msgctxt "gBirchDexRatingText_Cancel"
@@ -19,6 +22,8 @@ msgid ""
 "Hm? Oh, you haven't caught enough\n"
 "POKéMON to make it worthwhile.$"
 msgstr ""
+"嗯？哦，你捉到的宝可梦\n"
+"还不够多，不值得评价。$"
 
 #: data/text/pokedex_rating.inc:10
 msgctxt "gBirchDexRatingText_SoYouveSeenAndCaught"
@@ -27,6 +32,9 @@ msgid ""
 "So, you've seen {STR_VAR_1} POKéMON,\n"
 "and you've caught {STR_VAR_2} POKéMON…$"
 msgstr ""
+"嗯嗯……\p"
+"你已经见过{STR_VAR_1}种宝可梦，\n"
+"捉到了{STR_VAR_2}种宝可梦……$"
 
 #: data/text/pokedex_rating.inc:15
 msgctxt "gBirchDexRatingText_LessThan10"
@@ -34,6 +42,8 @@ msgid ""
 "Go into grassy areas more and look\n"
 "for POKéMON more carefully.$"
 msgstr ""
+"多去草丛里走走，\n"
+"更仔细地寻找宝可梦吧。$"
 
 #: data/text/pokedex_rating.inc:19
 msgctxt "gBirchDexRatingText_LessThan20"
@@ -41,6 +51,8 @@ msgid ""
 "I guess you're getting the hang\n"
 "of it. But, it gets harder from here.$"
 msgstr ""
+"看来你渐渐掌握诀窍了。\n"
+"不过，接下来会越来越难哦。$"
 
 #: data/text/pokedex_rating.inc:23
 msgctxt "gBirchDexRatingText_LessThan30"
@@ -49,6 +61,9 @@ msgid ""
 "certain areas.\l"
 "You must be persistent.$"
 msgstr ""
+"有些宝可梦\n"
+"只会在特定的地方出现。\l"
+"一定要坚持不懈。$"
 
 #: data/text/pokedex_rating.inc:28
 msgctxt "gBirchDexRatingText_LessThan40"
@@ -57,6 +72,9 @@ msgid ""
 "but this is looking more like\l"
 "a POKéDEX now.$"
 msgstr ""
+"嗯，数量还可以再多一些，\n"
+"不过现在越来越\l"
+"像一本宝可梦图鉴了。$"
 
 #: data/text/pokedex_rating.inc:33
 msgctxt "gBirchDexRatingText_LessThan50"
@@ -64,6 +82,8 @@ msgid ""
 "This is coming along pretty good.\n"
 "Keep up the effort.$"
 msgstr ""
+"进展得相当不错。\n"
+"继续努力吧。$"
 
 #: data/text/pokedex_rating.inc:37
 msgctxt "gBirchDexRatingText_LessThan60"
@@ -71,6 +91,8 @@ msgid ""
 "Are you using any RODS?\n"
 "There are many POKéMON in the sea.$"
 msgstr ""
+"你在用钓竿吗？\n"
+"海里有很多宝可梦哦。$"
 
 #: data/text/pokedex_rating.inc:41
 msgctxt "gBirchDexRatingText_LessThan70"
@@ -78,6 +100,8 @@ msgid ""
 "Instead of just catching POKéMON,\n"
 "how about making them evolve, too?$"
 msgstr ""
+"不要光是捕捉宝可梦，\n"
+"也试着让它们进化吧？$"
 
 #: data/text/pokedex_rating.inc:45
 msgctxt "gBirchDexRatingText_LessThan80"
@@ -86,6 +110,9 @@ msgid ""
 "POKéDEX.\l"
 "That's the feeling I'm getting.$"
 msgstr ""
+"这将会是一本很棒的\n"
+"宝可梦图鉴。\l"
+"我有这种感觉。$"
 
 #: data/text/pokedex_rating.inc:50
 msgctxt "gBirchDexRatingText_LessThan90"
@@ -93,6 +120,8 @@ msgid ""
 "You've collected this many…\n"
 "Your talent is remarkable!$"
 msgstr ""
+"你已经收集了这么多……\n"
+"你的才能真是了不起！$"
 
 #: data/text/pokedex_rating.inc:54
 msgctxt "gBirchDexRatingText_LessThan100"
@@ -101,6 +130,9 @@ msgid ""
 "I hear there are some POKéMON that\n"
 "can only be caught there.$"
 msgstr ""
+"你去过狩猎地带了吗？\p"
+"听说有些宝可梦\n"
+"只能在那里捉到。$"
 
 #: data/text/pokedex_rating.inc:59
 msgctxt "gBirchDexRatingText_LessThan110"
@@ -109,6 +141,9 @@ msgid ""
 "the 100-kind mark.\p"
 "This is an impressive POKéDEX!$"
 msgstr ""
+"你终于达到\n"
+"100种的大关了。\p"
+"这真是一本了不起的图鉴！$"
 
 #: data/text/pokedex_rating.inc:64
 msgctxt "gBirchDexRatingText_LessThan120"
@@ -116,6 +151,8 @@ msgid ""
 "There might be POKéMON that can be\n"
 "found using ROCK SMASH.$"
 msgstr ""
+"说不定有些宝可梦\n"
+"可以通过碎岩找到。$"
 
 #: data/text/pokedex_rating.inc:68
 msgctxt "gBirchDexRatingText_LessThan130"
@@ -123,6 +160,8 @@ msgid ""
 "You should get some more POKéMON\n"
 "by trading with others.$"
 msgstr ""
+"你应该和别人交换，\n"
+"获得更多宝可梦。$"
 
 #: data/text/pokedex_rating.inc:72
 msgctxt "gBirchDexRatingText_LessThan140"
@@ -131,6 +170,9 @@ msgid ""
 "when they come to fully love their\l"
 "TRAINERS.$"
 msgstr ""
+"我听说有些宝可梦\n"
+"在完全喜欢上训练家时\l"
+"就会进化。$"
 
 #: data/text/pokedex_rating.inc:77
 msgctxt "gBirchDexRatingText_LessThan150"
@@ -139,6 +181,8 @@ msgid ""
 "many POKéMON species in the HOENN\l"
 "region.$"
 msgstr ""
+"我都不知道丰缘地区\n"
+"竟然有这么多种宝可梦。$"
 
 #: data/text/pokedex_rating.inc:82
 msgctxt "gBirchDexRatingText_LessThan160"
@@ -148,6 +192,9 @@ msgid ""
 "Don't miss opportunities like\n"
 "those.$"
 msgstr ""
+"有时候，某些宝可梦会\n"
+"像爆发一样大量出现。\p"
+"可不要错过这样的机会哦。$"
 
 #: data/text/pokedex_rating.inc:88
 msgctxt "gBirchDexRatingText_LessThan170"
@@ -156,6 +203,9 @@ msgid ""
 "the POKéMON of the HOENN region\l"
 "by looking through your POKéDEX.$"
 msgstr ""
+"只要翻翻你的图鉴，\n"
+"就能对丰缘地区的宝可梦\l"
+"了解得非常清楚。$"
 
 #: data/text/pokedex_rating.inc:93
 msgctxt "gBirchDexRatingText_LessThan180"
@@ -164,6 +214,9 @@ msgid ""
 "a POKéMON PROFESSOR, and a good\l"
 "one, too!$"
 msgstr ""
+"我觉得你已经有资格\n"
+"成为宝可梦博士了，\l"
+"而且是很优秀的那种！$"
 
 #: data/text/pokedex_rating.inc:98
 msgctxt "gBirchDexRatingText_LessThan190"
@@ -171,6 +224,8 @@ msgid ""
 "With a POKéDEX this complete,\n"
 "you're a real professional at this!$"
 msgstr ""
+"图鉴这么完整，\n"
+"你真是这方面的专家了！$"
 
 #: data/text/pokedex_rating.inc:102
 msgctxt "gBirchDexRatingText_LessThan200"
@@ -179,6 +234,9 @@ msgid ""
 "this POKéDEX.\l"
 "I can feel it in my bones!$"
 msgstr ""
+"你离完成这本图鉴\n"
+"只差一点点了。\l"
+"我能感觉到！$"
 
 #: data/text/pokedex_rating.inc:107
 msgctxt "gBirchDexRatingText_DexCompleted"
@@ -186,6 +244,8 @@ msgid ""
 "Congratulations!\n"
 "Your POKéDEX is complete!$"
 msgstr ""
+"恭喜你！\n"
+"你的宝可梦图鉴完成了！$"
 
 #: data/text/pokedex_rating.inc:111
 msgctxt "gBirchDexRatingText_OnANationwideBasis"
@@ -195,6 +255,10 @@ msgid ""
 "You've seen {STR_VAR_1} POKéMON,\n"
 "and you've caught {STR_VAR_2} POKéMON…$"
 msgstr ""
+"嗯嗯……\n"
+"在全国范围内……\p"
+"你已经见过{STR_VAR_1}种宝可梦，\n"
+"捉到了{STR_VAR_2}种宝可梦……$"
 
 #: data/text/pokedex_rating.inc:119
 msgctxt "PokedexRating_Text_HowIsPokedexComingAlong"
@@ -203,6 +267,9 @@ msgid ""
 "How is your POKéDEX coming along?\p"
 "Here, let me take a look.$"
 msgstr ""
+"大木：很高兴见到你！\n"
+"你的宝可梦图鉴进展如何？\p"
+"来，让我看看。$"
 
 #: data/text/pokedex_rating.inc:124
 msgctxt "PokedexRating_Text_SeenXOwnedY"
@@ -213,6 +280,11 @@ msgid ""
 "{STR_VAR_2} POKéMON owned.\p"
 "{FONT_NORMAL}PROF. OAK's rating:$"
 msgstr ""
+"你的宝可梦图鉴\n"
+"目前的进度是：\p"
+"见过的宝可梦{STR_VAR_1}种，\n"
+"捕捉到的宝可梦{STR_VAR_2}种。\p"
+"{FONT_NORMAL}大木博士的评价：$"
 
 #: data/text/pokedex_rating.inc:131
 msgctxt "PokedexRating_Text_LessThan10"
@@ -221,6 +293,9 @@ msgid ""
 "Go into every patch of grass you\n"
 "see and look for POKéMON!$"
 msgstr ""
+"你还有很多事情要做。\p"
+"见到草丛就进去走走，\n"
+"寻找宝可梦吧！$"
 
 #: data/text/pokedex_rating.inc:136
 msgctxt "PokedexRating_Text_LessThan20"
@@ -230,6 +305,10 @@ msgid ""
 "I've given one of my AIDES a FLASH\n"
 "HM. Make sure you go get it!$"
 msgstr ""
+"看来你已经走上正轨了！\p"
+"我把秘传学习器“闪光”\n"
+"交给了我的一位助手。\l"
+"一定要去拿哦！$"
 
 #: data/text/pokedex_rating.inc:142
 msgctxt "PokedexRating_Text_LessThan30"
@@ -239,6 +318,10 @@ msgid ""
 "Try to catch other species of\n"
 "POKéMON!$"
 msgstr ""
+"你的图鉴内容\n"
+"还可以再丰富一些！\p"
+"试着去捕捉\n"
+"其他种类的宝可梦吧！$"
 
 #: data/text/pokedex_rating.inc:148
 msgctxt "PokedexRating_Text_LessThan40"
@@ -248,6 +331,10 @@ msgid ""
 "I've given one of my AIDES an\n"
 "ITEMFINDER. Be sure to collect it!$"
 msgstr ""
+"很好，看得出你很努力！\p"
+"我把探宝器\n"
+"交给了我的一位助手。\l"
+"一定要去拿哦！$"
 
 #: data/text/pokedex_rating.inc:154
 msgctxt "PokedexRating_Text_LessThan50"
@@ -257,6 +344,10 @@ msgid ""
 "I've given one of my AIDES an\n"
 "AMULET COIN. Be sure to get it!$"
 msgstr ""
+"你的图鉴进展得相当顺利！\p"
+"我把护符金币\n"
+"交给了我的一位助手。\l"
+"一定要去拿哦！$"
 
 #: data/text/pokedex_rating.inc:160
 msgctxt "PokedexRating_Text_LessThan60"
@@ -266,6 +357,10 @@ msgid ""
 "I've given one of my AIDES an EXP.\n"
 "SHARE. Be sure to go get it!$"
 msgstr ""
+"啊，你终于超过50种了！\p"
+"我把学习装置\n"
+"交给了我的一位助手。\l"
+"一定要去拿哦！$"
 
 #: data/text/pokedex_rating.inc:166
 msgctxt "PokedexRating_Text_LessThan70"
@@ -273,6 +368,8 @@ msgid ""
 "Hoho! This is turning into quite the\n"
 "respectable POKéDEX!$"
 msgstr ""
+"呵呵！这本图鉴\n"
+"已经相当像样了！$"
 
 #: data/text/pokedex_rating.inc:170
 msgctxt "PokedexRating_Text_LessThan80"
@@ -281,6 +378,9 @@ msgid ""
 "I think you'll collect even more\n"
 "POKéMON by going fishing!$"
 msgstr ""
+"非常好！\p"
+"我想去钓鱼的话，\n"
+"你能收集到更多宝可梦！$"
 
 #: data/text/pokedex_rating.inc:175
 msgctxt "PokedexRating_Text_LessThan90"
@@ -288,6 +388,8 @@ msgid ""
 "Wonderful! Let me guess… You\n"
 "like to collect things, don't you?$"
 msgstr ""
+"太棒了！让我猜猜……\n"
+"你很喜欢收集东西吧？$"
 
 #: data/text/pokedex_rating.inc:179
 msgctxt "PokedexRating_Text_LessThan100"
@@ -295,6 +397,8 @@ msgid ""
 "I'm impressed!\n"
 "It must have been difficult to do!$"
 msgstr ""
+"真让我佩服！\n"
+"这一定很不容易吧！$"
 
 #: data/text/pokedex_rating.inc:183
 msgctxt "PokedexRating_Text_LessThan110"
@@ -302,6 +406,8 @@ msgid ""
 "You've finally hit 100 species!\n"
 "I can't believe how good you are!$"
 msgstr ""
+"你终于达到100种了！\n"
+"真不敢相信你这么厉害！$"
 
 #: data/text/pokedex_rating.inc:187
 msgctxt "PokedexRating_Text_LessThan120"
@@ -309,6 +415,8 @@ msgid ""
 "You even have the evolved forms\n"
 "of POKéMON! Super!$"
 msgstr ""
+"你连进化后的宝可梦\n"
+"都有了！太棒了！$"
 
 #: data/text/pokedex_rating.inc:191
 msgctxt "PokedexRating_Text_LessThan130"
@@ -316,6 +424,8 @@ msgid ""
 "Excellent! Trade with friends to\n"
 "get some more!$"
 msgstr ""
+"太出色了！和朋友交换，\n"
+"收集更多宝可梦吧！$"
 
 #: data/text/pokedex_rating.inc:195
 msgctxt "PokedexRating_Text_LessThan140"
@@ -323,6 +433,8 @@ msgid ""
 "Outstanding!\n"
 "You've become a real pro at this!$"
 msgstr ""
+"了不起！\n"
+"你已经是这方面的专家了！$"
 
 #: data/text/pokedex_rating.inc:199
 msgctxt "PokedexRating_Text_LessThan150"
@@ -330,6 +442,8 @@ msgid ""
 "I have nothing left to say!\n"
 "You're the POKéMON PROFESSOR now!$"
 msgstr ""
+"我已经无话可说了！\n"
+"你现在就是宝可梦博士了！$"
 
 #: data/text/pokedex_rating.inc:203
 msgctxt "PokedexRating_Text_Complete"
@@ -337,6 +451,8 @@ msgid ""
 "Your POKéDEX is entirely complete!\n"
 "Congratulations!!$"
 msgstr ""
+"你的宝可梦图鉴已经完全完成了！\n"
+"恭喜你！！$"
 
 #: data/text/pokedex_rating.inc:207
 msgctxt "PokedexRating_Text_NationalDexSeenXOwnedY"
@@ -345,6 +461,9 @@ msgid ""
 "{STR_VAR_1} POKéMON seen and\n"
 "{STR_VAR_2} POKéMON owned.$"
 msgstr ""
+"而你的全国图鉴是：\p"
+"见过的宝可梦{STR_VAR_1}种，\n"
+"捕捉到的宝可梦{STR_VAR_2}种。$"
 
 #: data/text/pokedex_rating.inc:212
 msgctxt "PokedexRating_Text_LookForwardToFilledNationalDex"
@@ -352,6 +471,8 @@ msgid ""
 "I'll be looking forward to seeing\n"
 "you fill the NATIONAL POKéDEX!$"
 msgstr ""
+"我很期待看到你\n"
+"完成全国图鉴！$"
 
 #: data/text/pokedex_rating.inc:216
 msgctxt "PokedexRating_Text_YouveCompletedDex"
@@ -362,11 +483,16 @@ msgid ""
 "It's magnificent!\n"
 "Truly, this is a fantastic feat!$"
 msgstr ""
+"终于……\p"
+"你终于完成了\n"
+"宝可梦图鉴！\p"
+"太了不起了！\n"
+"这真是一项伟大的成就！$"
 
 #: data/text/pokedex_rating.inc:223
 msgctxt "PokedexRating_Text_Wroooaaarrr"
 msgid "Wroooooooaaaaaarrrr!$"
-msgstr ""
+msgstr "呜哦哦哦哦哦啊啊啊啊——！$"
 
 #: data/text/pokedex_rating.inc:226
 msgctxt "PokedexRating_Text_ThankYouMadeDreamReality"
@@ -375,6 +501,9 @@ msgid ""
 "Sincerely, thank you!\l"
 "You've made my dream a reality!$"
 msgstr ""
+"谢谢你，{PLAYER}！\n"
+"真心地感谢你！\l"
+"你让我的梦想成真了！$"
 
 #: data/text/pokedex_rating.inc:231
 msgctxt "PokedexRating_Text_LoveSeeingYourPokedex"
@@ -387,3 +516,10 @@ msgid ""
 "love seeing it anyway!\p"
 "Let's see…$"
 msgstr ""
+"大木：啊，欢迎！\p"
+"告诉我，你的宝可梦图鉴\n"
+"进展如何了？\p"
+"哇哈哈！\p"
+"其实我知道进展如何，\n"
+"但我还是很喜欢看！\p"
+"让我看看……$"

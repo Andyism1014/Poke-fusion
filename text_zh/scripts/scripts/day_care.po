@@ -238,7 +238,7 @@ msgid ""
 "it will cost ¥{STR_VAR_2}.$"
 msgstr ""
 "如果要领回{STR_VAR_1}，\n"
-"需要支付¥{STR_VAR_2}。$"
+"需要支付{STR_VAR_2}元。$"
 
 #: data/scripts/day_care.inc:379
 msgctxt "Route117_PokemonDayCare_Text_HeresYourMon"

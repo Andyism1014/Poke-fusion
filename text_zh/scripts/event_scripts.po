@@ -40,7 +40,7 @@ msgid ""
 "Welcome to LILYCOVE DEPARTMENT STORE.\p"
 "Which floor would you like?$"
 msgstr ""
-"欢迎光临水静百货。\p"
+"欢迎光临水静百货商店。\p"
 "请问要去几楼？$"
 
 #: data/event_scripts.s:1379

@@ -121,7 +121,7 @@ msgid ""
 "Would you like to play a SAFARI Game?$"
 msgstr ""
 "欢迎来到狩猎地带！\p"
-"只要¥500，就能尽情捕捉！\n"
+"只要500元，就能尽情捕捉！\n"
 "要玩狩猎游戏吗？$"
 
 #: data/scripts/safari_zone.inc:147
@@ -145,7 +145,7 @@ msgstr ""
 #: data/scripts/safari_zone.inc:155
 msgctxt "Route121_SafariZoneEntrance_Text_ThatWillBe500Please"
 msgid "That will be ¥500, please.$"
-msgstr "请支付¥500。$"
+msgstr "请支付500元。$"
 
 #: data/scripts/safari_zone.inc:158
 msgctxt "Route121_SafariZoneEntrance_Text_HereAreYourSafariBalls"

@@ -13,13 +13,15 @@ msgid ""
 "Which of our services do you wish\n"
 "to use?$"
 msgstr ""
+"欢迎来到宝可梦连接俱乐部。\p"
+"请问要使用哪项服务呢？$"
 
 #: data/text/cable_club.inc:7
 msgctxt "CableClub_Text_WhichService"
 msgid ""
 "Which of our services do you wish\n"
 "to use?$"
-msgstr ""
+msgstr "请问要使用哪项服务呢？$"
 
 #: data/text/cable_club.inc:11
 msgctxt "CableClub_Text_TradeUsingLinkCable"
@@ -27,6 +29,8 @@ msgid ""
 "Trade POKéMON with another player\n"
 "using a GBA Game Link cable.$"
 msgstr ""
+"使用GBA连接线\n"
+"和其他玩家交换宝可梦。$"
 
 #: data/text/cable_club.inc:15
 msgctxt "CableClub_Text_BattleUsingLinkCable"
@@ -34,6 +38,8 @@ msgid ""
 "You may battle another TRAINER\n"
 "using a GBA Game Link cable.$"
 msgstr ""
+"可以使用GBA连接线\n"
+"和其他训练家对战。$"
 
 #: data/text/cable_club.inc:19
 msgctxt "CableClub_Text_RecordCornerUsingLinkCable"
@@ -41,11 +47,13 @@ msgid ""
 "You can use the RECORD CORNER with\n"
 "others using a GBA Game Link cable.$"
 msgstr ""
+"可以使用GBA连接线\n"
+"和其他人一起使用记录角。$"
 
 #: data/text/cable_club.inc:24
 msgctxt "CableClub_Text_CloseThisMenu"
 msgid "Close this menu.$"
-msgstr ""
+msgstr "关闭这个菜单。$"
 
 #: data/text/cable_club.inc:27
 msgctxt "CableClub_Text_NeedTwoMonsForDoubleBattle"
@@ -53,6 +61,8 @@ msgid ""
 "For a DOUBLE BATTLE, you must\n"
 "have at least two POKéMON.$"
 msgstr ""
+"进行双打对战时，\n"
+"至少需要带2只宝可梦。$"
 
 #: data/text/cable_club.inc:31
 msgctxt "CableClub_Text_NeedTwoMonsToTrade"
@@ -60,6 +70,8 @@ msgid ""
 "For trading, you must have at\n"
 "least two POKéMON with you.$"
 msgstr ""
+"进行交换时，\n"
+"身上至少需要带2只宝可梦。$"
 
 #: data/text/cable_club.inc:35
 msgctxt "CableClub_Text_CantTradeEnigmaBerry"
@@ -67,6 +79,8 @@ msgid ""
 "A POKéMON holding the {STR_VAR_1}\n"
 "BERRY can't be traded.$"
 msgstr ""
+"携带着{STR_VAR_1}树果的宝可梦\n"
+"不能交换。$"
 
 #: data/text/cable_club.inc:39
 msgctxt "gText_PleaseWaitForLink"
@@ -74,6 +88,8 @@ msgid ""
 "Please wait.\n"
 "… … B Button: Cancel$"
 msgstr ""
+"请稍候。\n"
+"…… ……B键：取消$"
 
 #: data/text/cable_club.inc:43
 msgctxt "gText_ConfirmLinkWhenPlayersReady"
@@ -82,6 +98,9 @@ msgid ""
 "A Button: Confirm\l"
 "B Button: Cancel$"
 msgstr ""
+"所有玩家都准备好后……\n"
+"A键：确定\l"
+"B键：取消$"
 
 #: data/text/cable_club.inc:48
 msgctxt "gText_ConfirmStartLinkWithXPlayers"
@@ -90,6 +109,9 @@ msgid ""
 "A Button: Confirm\l"
 "B Button: Cancel$"
 msgstr ""
+"开始{STR_VAR_1}人连接。\n"
+"A键：确定\l"
+"B键：取消$"
 
 #: data/text/cable_club.inc:53
 msgctxt "gText_AwaitingLinkup"
@@ -97,6 +119,8 @@ msgid ""
 "Awaiting linkup…\n"
 "… … B Button: Cancel$"
 msgstr ""
+"正在等待连接……\n"
+"…… ……B键：取消$"
 
 #: data/text/cable_club.inc:58
 msgctxt "CableClub_Text_OkayToSaveProgress"
@@ -104,16 +128,18 @@ msgid ""
 "Your progress must be saved before\n"
 "linking. Is it okay to save?$"
 msgstr ""
+"连接前必须记录游戏进度。\n"
+"可以记录吗？$"
 
 #: data/text/cable_club.inc:62
 msgctxt "CableClub_Text_PleaseEnter"
 msgid "Please enter.$"
-msgstr ""
+msgstr "请进。$"
 
 #: data/text/cable_club.inc:65
 msgctxt "CableClub_Text_DirectYouToYourRoom"
 msgid "I'll direct you to your room now.$"
-msgstr ""
+msgstr "现在我带你去你的房间。$"
 
 #: data/text/cable_club.inc:68
 msgctxt "Text_SomeoneIsNotReadyToLink"
@@ -122,6 +148,9 @@ msgid ""
 "Please come back after everyone\n"
 "has made preparations.$"
 msgstr ""
+"有人还没有做好连接的准备。\p"
+"请等大家都准备好之后\n"
+"再来吧。$"
 
 #: data/text/cable_club.inc:73
 msgctxt "Text_LinkErrorPleaseReset"
@@ -129,6 +158,8 @@ msgid ""
 "Sorry, we have a link error…\n"
 "Please reset and try again.$"
 msgstr ""
+"抱歉，发生了连接错误……\n"
+"请重新启动后再试一次。$"
 
 #: data/text/cable_club.inc:77
 msgctxt "Text_PlayersMadeDifferentSelections"
@@ -136,18 +167,20 @@ msgid ""
 "The link partners appear to have\n"
 "made different selections.$"
 msgstr ""
+"连接的对象\n"
+"好像做出了不同的选择。$"
 
 #: data/text/cable_club.inc:81
 msgctxt "CableClub_Text_PleaseVisitAgain"
 msgid "Please do visit again.$"
-msgstr ""
+msgstr "欢迎再次光临。$"
 
 #: data/text/cable_club.inc:84
 msgctxt "CableClub_Text_IncorrectNumberOfParticipants"
 msgid ""
 "The number of participants is\n"
 "incorrect.$"
-msgstr ""
+msgstr "参加的人数不对。$"
 
 #: data/text/cable_club.inc:88
 msgctxt "CableClub_Text_CantSingleBattleWithXPlayers"
@@ -155,6 +188,8 @@ msgid ""
 "The SINGLE BATTLE Mode can't be\n"
 "played by {STR_VAR_1} players.$"
 msgstr ""
+"单打对战模式\n"
+"不能由{STR_VAR_1}人进行。$"
 
 #: data/text/cable_club.inc:92
 msgctxt "CableClub_Text_CantDoubleBattleWithXPlayers"
@@ -162,6 +197,8 @@ msgid ""
 "The DOUBLE BATTLE Mode can't be\n"
 "played by {STR_VAR_1} players.$"
 msgstr ""
+"双打对战模式\n"
+"不能由{STR_VAR_1}人进行。$"
 
 #: data/text/cable_club.inc:96
 msgctxt "CableClub_Text_NeedFourPlayers"
@@ -169,6 +206,8 @@ msgid ""
 "There must be four players to play\n"
 "this Battle Mode.$"
 msgstr ""
+"这个对战模式\n"
+"必须由4名玩家进行。$"
 
 #: data/text/cable_club.inc:100
 msgctxt "CableClub_Text_PleaseConfirmNumberAndRestart"
@@ -176,6 +215,8 @@ msgid ""
 "Please confirm the number of\n"
 "players and start again.$"
 msgstr ""
+"请确认玩家人数后\n"
+"重新开始。$"
 
 #: data/text/cable_club.inc:104
 msgctxt "Text_TerminateLinkConfirmation"
@@ -183,6 +224,8 @@ msgid ""
 "The link will be terminated if you\n"
 "leave the room. Is that okay?$"
 msgstr ""
+"如果离开房间，连接就会中断。\n"
+"可以吗？$"
 
 #: data/text/cable_club.inc:108
 msgctxt "Text_TerminateLinkPleaseWait"
@@ -191,6 +234,9 @@ msgid ""
 "You will be escorted out of\l"
 "the room. Please wait.$"
 msgstr ""
+"正在中断连接……\n"
+"我们会带你离开房间。\l"
+"请稍候。$"
 
 #: data/text/cable_club.inc:113
 msgctxt "CableClub_Text_TooBusyToNotice"
@@ -198,6 +244,8 @@ msgid ""
 "This TRAINER is too busy to\n"
 "notice…$"
 msgstr ""
+"这位训练家太忙了，\n"
+"根本没注意到你……$"
 
 #: data/text/cable_club.inc:117
 msgctxt "CableClub_Text_GotToLookAtTrainerCard"
@@ -205,6 +253,8 @@ msgid ""
 "Score! Got to look at {STR_VAR_1}'s\n"
 "TRAINER CARD!$"
 msgstr ""
+"太好了！看到了{STR_VAR_1}的\n"
+"训练家卡片！$"
 
 #: data/text/cable_club.inc:121
 msgctxt "CableClub_Text_GotToLookAtColoredTrainerCard"
@@ -213,6 +263,9 @@ msgid ""
 "TRAINER CARD!\p"
 "It's a {STR_VAR_2} card!$"
 msgstr ""
+"太好了！看到了{STR_VAR_1}的\n"
+"训练家卡片！\p"
+"是一张{STR_VAR_2}卡片！$"
 
 #: data/text/cable_club.inc:126
 msgctxt "BattleColosseum_2P_Text_TakePlaceStartBattle"
@@ -220,6 +273,8 @@ msgid ""
 "Please take your place and start\n"
 "your battle.$"
 msgstr ""
+"请就位，\n"
+"开始对战吧。$"
 
 #: data/text/cable_club.inc:130
 msgctxt "TradeCenter_Text_TakeSeatStartTrade"
@@ -227,11 +282,13 @@ msgid ""
 "Please take your seat and start\n"
 "your trade.$"
 msgstr ""
+"请就座，\n"
+"开始交换吧。$"
 
 #: data/text/cable_club.inc:134
 msgctxt "RecordCorner_Text_ThanksForComing"
 msgid "Thanks for coming.$"
-msgstr ""
+msgstr "感谢你的光临。$"
 
 #: data/text/cable_club.inc:137
 msgctxt "CableClub_Text_TrainerCardDataOverwritten"
@@ -239,11 +296,13 @@ msgid ""
 "The TRAINER CARD data will\n"
 "be overwritten.$"
 msgstr ""
+"训练家卡片的数据\n"
+"将被覆盖。$"
 
 #: data/text/cable_club.inc:141
 msgctxt "CableClub_Text_HopeToSeeYouAgain"
 msgid "I hope to see you again!$"
-msgstr ""
+msgstr "期待你再次光临！$"
 
 #: data/text/cable_club.inc:144
 msgctxt "CableClub_Text_NotSetUpForFarAwayRegion"
@@ -253,11 +312,15 @@ msgid ""
 "with TRAINERS far away in another\l"
 "region yet…$"
 msgstr ""
+"非常抱歉。\p"
+"我们目前还无法和\n"
+"遥远的其他地区的训练家\l"
+"进行交换……$"
 
 #: data/text/cable_club.inc:150
 msgctxt "CableClub_Text_OtherTrainerNotReady"
 msgid "The other TRAINER is not ready.$"
-msgstr ""
+msgstr "对方训练家还没有准备好。$"
 
 #: data/text/cable_club.inc:153
 msgctxt "CableClub_Text_YouHaveAMonThatCantBeTaken"
@@ -265,11 +328,13 @@ msgid ""
 "You have at least one POKéMON\n"
 "that can't be taken.$"
 msgstr ""
+"你至少有1只宝可梦\n"
+"是不能带进去的。$"
 
 #: data/text/cable_club.inc:157
 msgctxt "RecordCorner_Text_TakeSeatAndWait"
 msgid "Please take your seat and wait.$"
-msgstr ""
+msgstr "请就座并稍候。$"
 
 #: data/text/cable_club.inc:160
 msgctxt "RecordCorner_Text_PlayerSentOverOneX"
@@ -277,6 +342,8 @@ msgid ""
 "{STR_VAR_1} sent over one\n"
 "{STR_VAR_2}.$"
 msgstr ""
+"{STR_VAR_1}送来了\n"
+"{STR_VAR_2}。$"
 
 #: data/text/cable_club.inc:164
 msgctxt "CableClub_Text_CantMixWithJapaneseGame"
@@ -288,6 +355,12 @@ msgid ""
 "Japanese Emerald and overseas Ruby\l"
 "or Sapphire games at the same time.$"
 msgstr ""
+"抱歉，发生了传输错误。\p"
+"不能和日版《红宝石》或\n"
+"《蓝宝石》混合记录。\p"
+"另外，也不能同时和日版《绿宝石》\n"
+"及海外版《红宝石》或\l"
+"《蓝宝石》混合记录。$"
 
 #: data/text/cable_club.inc:172
 msgctxt "CableClub_Text_AdapterNotConnected"
@@ -295,6 +368,8 @@ msgid ""
 "The Wireless Adapter is not\n"
 "connected properly.$"
 msgstr ""
+"无线适配器\n"
+"没有正确连接。$"
 
 #: data/text/cable_club.inc:176
 msgctxt "CableClub_Text_ParticipantsStepUpToCounter"
@@ -302,16 +377,18 @@ msgid ""
 "Participants are asked to step up\n"
 "to the reception counter.$"
 msgstr ""
+"请参加者\n"
+"到接待处来。$"
 
 #: data/text/cable_club.inc:181
 msgctxt "CableClub_Text_Hello"
 msgid "Hello!$"
-msgstr ""
+msgstr "你好！$"
 
 #: data/text/cable_club.inc:185
 msgctxt "CableClub_Text_PleaseWait"
 msgid "Please wait.$"
-msgstr ""
+msgstr "请稍候。$"
 
 #: data/text/cable_club.inc:188
 msgctxt "CableClub_Text_YouMayTradeHere"
@@ -319,6 +396,8 @@ msgid ""
 "You may trade your POKéMON here\n"
 "with another TRAINER.$"
 msgstr ""
+"在这里可以和其他训练家\n"
+"交换宝可梦。$"
 
 #: data/text/cable_club.inc:192
 msgctxt "CableClub_Text_YouMayBattleHere"
@@ -326,6 +405,8 @@ msgid ""
 "You may battle with your friends\n"
 "here.$"
 msgstr ""
+"在这里可以和朋友们\n"
+"进行对战。$"
 
 #: data/text/cable_club.inc:196
 msgctxt "CableClub_Text_CanMakeBerryPowder"
@@ -333,6 +414,8 @@ msgid ""
 "Two to five TRAINERS can make\n"
 "BERRY POWDER together.$"
 msgstr ""
+"2～5名训练家可以\n"
+"一起制作树果粉。$"
 
 #: data/text/cable_club.inc:200
 msgctxt "CableClub_Text_CanMixRecords"
@@ -340,6 +423,8 @@ msgid ""
 "The records of two to four players\n"
 "can be mixed together.$"
 msgstr ""
+"可以把2～4名玩家的记录\n"
+"混合在一起。$"
 
 #: data/text/cable_club.inc:205
 msgctxt "CableClub_Text_GuideToVariousServices"
@@ -347,21 +432,23 @@ msgid ""
 "A guide to the WIRELESS CLUB's\n"
 "various services.$"
 msgstr ""
+"无线俱乐部\n"
+"各项服务的介绍。$"
 
 #: data/text/cable_club.inc:209
 msgctxt "CableClub_Text_CancelSelectedItem"
 msgid "Cancels the selected MENU item.$"
-msgstr ""
+msgstr "取消选择的菜单项目。$"
 
 #: data/text/cable_club.inc:213
 msgctxt "CableClub_Text_WhichBattleMode"
 msgid "Which battle mode would you like?$"
-msgstr ""
+msgstr "要进行哪种对战模式呢？$"
 
 #: data/text/cable_club.inc:217
 msgctxt "CableClub_Text_ReturnsToPreviousStep"
 msgid "Returns to the previous step.$"
-msgstr ""
+msgstr "返回上一步。$"
 
 #: data/text/cable_club.inc:220
 msgctxt "CableClub_Text_NeedBerryForBerryCrush"
@@ -369,6 +456,8 @@ msgid ""
 "To use the BERRY CRUSH service,\n"
 "you must have at least one BERRY.$"
 msgstr ""
+"要使用树果粉碎机，\n"
+"至少需要有1颗树果。$"
 
 #: data/text/cable_club.inc:224
 msgctxt "CableClub_Text_NeedTwoMonsForUnionRoom"
@@ -376,6 +465,8 @@ msgid ""
 "To enter the UNION ROOM, you must\n"
 "have at least two POKéMON.$"
 msgstr ""
+"要进入联合房间，\n"
+"至少需要带2只宝可梦。$"
 
 #: data/text/cable_club.inc:228
 msgctxt "CableClub_Text_NoEnigmaBerryInUnionRoom"
@@ -383,6 +474,8 @@ msgid ""
 "No POKéMON holding the {STR_VAR_1}\n"
 "BERRY may enter the UNION ROOM.$"
 msgstr ""
+"携带着{STR_VAR_1}树果的宝可梦\n"
+"不能进入联合房间。$"
 
 #: data/text/cable_club.inc:232
 msgctxt "CableClub_Text_UnionRoomAdapterNotConnected"
@@ -393,6 +486,11 @@ msgid ""
 "Adapter is not connected properly.\p"
 "Please do come again.$"
 msgstr ""
+"这里是宝可梦无线俱乐部的\n"
+"联合房间。\p"
+"很遗憾，你的无线适配器\n"
+"没有正确连接。\p"
+"欢迎下次再来。$"
 
 #: data/text/cable_club.inc:240
 msgctxt "CableClub_Text_OhExcuseMe"
@@ -400,6 +498,8 @@ msgid ""
 "Oh…\n"
 "Excuse me!$"
 msgstr ""
+"哦……\n"
+"不好意思！$"
 
 #: data/text/cable_club.inc:244
 msgctxt "CableClub_Text_PlayerIsWaiting"
@@ -408,6 +508,9 @@ msgid ""
 "right now.\l"
 "Go for it!$"
 msgstr ""
+"{STR_VAR_1}好像\n"
+"正在玩呢。\l"
+"加油吧！$"
 
 #: data/text/cable_club.inc:249
 msgctxt "MossdeepCity_GameCorner_1F_Text_DescribeWhichGame"
@@ -416,6 +519,9 @@ msgid ""
 "if you'd like.\p"
 "Which game should I describe?$"
 msgstr ""
+"如果你愿意，\n"
+"我可以给你讲解游戏规则。\p"
+"要讲解哪个游戏呢？$"
 
 #: data/text/cable_club.inc:254
 msgctxt "MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo"
@@ -432,6 +538,17 @@ msgid ""
 "Good things happen if everyone\n"
 "jumps in time.$"
 msgstr ""
+"“宝可梦跳跳”\p"
+"按A键，让你的宝可梦\n"
+"跳过藤鞭做成的绳子。\p"
+"只有身高约70厘米以下的\n"
+"小型宝可梦才能参加。\p"
+"只会游泳、挖洞或飞行的宝可梦\n"
+"不擅长跳跃。\p"
+"所以，那些宝可梦\n"
+"不能参加。\p"
+"如果大家都跳得整齐，\n"
+"就会有好事发生哦。$"
 
 #: data/text/cable_club.inc:267
 msgctxt "MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo"
@@ -444,6 +561,13 @@ msgid ""
 "To play this game, you must have\n"
 "a DODRIO.$"
 msgstr ""
+"“嘟嘟利摘树果”\p"
+"指挥嘟嘟利的三个头\n"
+"接住掉下来的树果。\p"
+"按{PLUS}字键的右、上、左\n"
+"来移动它的头。\p"
+"要玩这个游戏，\n"
+"必须带着嘟嘟利。$"
 
 #: data/text/cable_club.inc:276
 msgctxt "MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay"
@@ -451,6 +575,8 @@ msgid ""
 "If you want to play a game,\n"
 "please tell the old man beside me.$"
 msgstr ""
+"如果想玩游戏，\n"
+"请跟我旁边的老爷爷说。$"
 
 #: data/text/cable_club.inc:280
 msgctxt "MossdeepCity_GameCorner_1F_Text_WelcomeCanYouWait"
@@ -460,11 +586,15 @@ msgid ""
 "Wireless Communication?\p"
 "Can you wait just a little bit?$"
 msgstr ""
+"你好，欢迎！\n"
+"你是来用无线通信\l"
+"玩游戏的吗？\p"
+"能稍等一下吗？$"
 
 #: data/text/cable_club.inc:286
 msgctxt "MossdeepCity_GameCorner_1F_Text_ComeAgain"
 msgid "All right, come again!$"
-msgstr ""
+msgstr "好的，欢迎再来！$"
 
 #: data/text/cable_club.inc:289
 msgctxt "MossdeepCity_GameCorner_1F_Text_AdapterNotConnected"
@@ -472,6 +602,8 @@ msgid ""
 "The Wireless Adapter isn't connected.\n"
 "Come back when it's hooked up!$"
 msgstr ""
+"无线适配器没有连接。\n"
+"连接好之后再来吧！$"
 
 #: data/text/cable_club.inc:293
 msgctxt "MossdeepCity_GameCorner_1F_Text_PlayWhichGame"
@@ -479,13 +611,15 @@ msgid ""
 "All right, which game did you want\n"
 "to play?$"
 msgstr ""
+"好的，你想玩\n"
+"哪个游戏呢？$"
 
 #: data/text/cable_club.inc:297
 msgctxt "MossdeepCity_GameCorner_1F_Text_EnterWhichPokemon"
 msgid ""
 "Which POKéMON would you like to\n"
 "enter?$"
-msgstr ""
+msgstr "要让哪只宝可梦参加呢？$"
 
 #: data/text/cable_club.inc:301
 msgctxt "MossdeepCity_GameCorner_1F_Text_AllGoodToGo"
@@ -493,6 +627,8 @@ msgid ""
 "Okay, you're all good to go.\n"
 "Don't let the others beat you!$"
 msgstr ""
+"好的，一切准备就绪。\n"
+"别输给其他人哦！$"
 
 #: data/text/cable_club.inc:306
 msgctxt "MossdeepCity_GameCorner_1F_Text_LeavingDoComeAgain"
@@ -500,6 +636,8 @@ msgid ""
 "Are you leaving now?\n"
 "Do come again!$"
 msgstr ""
+"你要走了吗？\n"
+"欢迎再来！$"
 
 #: data/text/cable_club.inc:310
 msgctxt "MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon"
@@ -509,6 +647,10 @@ msgid ""
 "Would you like me to explain what\n"
 "kinds of POKéMON can enter?$"
 msgstr ""
+"你好像没有\n"
+"可以参加的宝可梦……\p"
+"要我给你讲解一下\n"
+"什么样的宝可梦可以参加吗？$"
 
 #: data/text/cable_club.inc:316
 msgctxt "MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed"
@@ -521,6 +663,13 @@ msgid ""
 "swim, burrow, or fly.\p"
 "That's all you need to know.$"
 msgstr ""
+"“宝可梦跳跳”只有身高\n"
+"约70厘米以下的宝可梦能参加。\p"
+"不能参加的是\n"
+"那些不会跳的宝可梦。\p"
+"比如说，只会游泳、\n"
+"挖洞或飞行的宝可梦。\p"
+"你只要知道这些就够了。$"
 
 #: data/text/cable_club.inc:325
 msgctxt "MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed"
@@ -528,6 +677,8 @@ msgid ""
 "DODRIO BERRY-PICKING is a game that \n"
 "only DODRIO may enter.$"
 msgstr ""
+"“嘟嘟利摘树果”是\n"
+"只有嘟嘟利才能参加的游戏。$"
 
 #: data/text/cable_club.inc:330
 msgctxt "MossdeepCity_GameCorner_1F_Text_RetryPlease"
@@ -535,6 +686,8 @@ msgid ""
 "Could you retry this from the start\n"
 "again, please?$"
 msgstr ""
+"能请你从头\n"
+"再试一次吗？$"
 
 #: data/text/cable_club.inc:334
 msgctxt "CableClub_Text_WelcomeWhichDirectCornerRoom"
@@ -546,32 +699,37 @@ msgid ""
 "Which room would you like to\n"
 "enter?$"
 msgstr ""
+"欢迎来到宝可梦无线俱乐部的\n"
+"直连角。\p"
+"在这里可以和朋友们\n"
+"直接互动。\p"
+"要进入哪个房间呢？$"
 
 #: data/text/cable_club.inc:342
 msgctxt "CableClub_Text_TradePokemon"
 msgid "Would you like to trade POKéMON?$"
-msgstr ""
+msgstr "要交换宝可梦吗？$"
 
 #: data/text/cable_club.inc:345
 msgctxt "CableClub_Text_PlayWhichBattleMode"
 msgid ""
 "Which Battle Mode would you like\n"
 "to play?$"
-msgstr ""
+msgstr "要进行哪种对战模式呢？$"
 
 #: data/text/cable_club.inc:349
 msgctxt "CableClub_Text_AccessRecordCorner"
 msgid ""
 "Would you like to access\n"
 "the RECORD CORNER?$"
-msgstr ""
+msgstr "要使用记录角吗？$"
 
 #: data/text/cable_club.inc:353
 msgctxt "CableClub_Text_UseBerryCrush"
 msgid ""
 "Would you like to use the\n"
 "BERRY CRUSH System?$"
-msgstr ""
+msgstr "要使用树果粉碎机吗？$"
 
 #: data/text/cable_club.inc:357
 msgctxt "CableClub_Text_ExplainBattleModes"
@@ -590,6 +748,19 @@ msgid ""
 "Each TRAINER can have one POKéMON\n"
 "in battle at a time.$"
 msgstr ""
+"对战模式有三种。\p"
+"单打对战由2名训练家进行，\n"
+"每人带1只以上的宝可梦。\p"
+"每名训练家每次\n"
+"派出1只宝可梦出场。\p"
+"双打对战由2名训练家进行，\n"
+"每人带2只以上的宝可梦。\p"
+"每名训练家每次\n"
+"派出2只宝可梦出场。\p"
+"多人对战由4名训练家进行，\n"
+"每人带1只以上的宝可梦。\p"
+"每名训练家每次\n"
+"派出1只宝可梦出场。$"
 
 #: data/text/cable_club.inc:372
 msgctxt "CableClub_Text_ChooseGroupLeaderOfTwo"
@@ -599,6 +770,10 @@ msgid ""
 "The other player must then choose\n"
 "“JOIN GROUP.”$"
 msgstr ""
+"请决定你们两人中\n"
+"由谁来担任组长。\p"
+"另一名玩家请选择\n"
+"“加入小组”。$"
 
 #: data/text/cable_club.inc:378
 msgctxt "CableClub_Text_ChooseGroupLeaderOfFour"
@@ -608,6 +783,10 @@ msgid ""
 "The other players must then choose\n"
 "“JOIN GROUP.”$"
 msgstr ""
+"请决定你们四人中\n"
+"由谁来担任组长。\p"
+"其他玩家请选择\n"
+"“加入小组”。$"
 
 #: data/text/cable_club.inc:384
 msgctxt "CableClub_Text_ChooseGroupLeader"
@@ -617,6 +796,9 @@ msgid ""
 "The other players must then choose\n"
 "“JOIN GROUP.”$"
 msgstr ""
+"请决定由谁来担任组长。\p"
+"其他玩家请选择\n"
+"“加入小组”。$"
 
 #: data/text/cable_club.inc:390
 msgctxt "CableClub_Text_WelcomeUnionRoomEnter"
@@ -628,6 +810,12 @@ msgid ""
 "whom you may not even know.\p"
 "Would you like to enter the ROOM?$"
 msgstr ""
+"欢迎来到宝可梦无线俱乐部的\n"
+"联合房间。\p"
+"在这里可以和其他训练家\n"
+"直接互动，\l"
+"其中也许还有你不认识的人。\p"
+"要进入房间吗？$"
 
 #: data/text/cable_club.inc:398
 msgctxt "CableClub_Text_UnionRoomInfo"
@@ -645,6 +833,16 @@ msgid ""
 "trade.\p"
 "Would you like to enter the ROOM?$"
 msgstr ""
+"联合房间里的训练家，\n"
+"是你附近同样\l"
+"进入了房间的玩家。\p"
+"在这里可以做各种事情，\n"
+"比如互相打招呼。\p"
+"可以派出2只Lv.30以下的\n"
+"宝可梦进行一对一的对战。\p"
+"可以和2～5个人一起聊天。\p"
+"还可以登录要交换的宝可梦。\p"
+"要进入房间吗？$"
 
 #: data/text/cable_club.inc:412
 msgctxt "CableClub_Text_EnjoyUnionRoom"
@@ -652,6 +850,8 @@ msgid ""
 "I hope you enjoy your time in\n"
 "the UNION ROOM.$"
 msgstr ""
+"希望你在联合房间里\n"
+"玩得开心。$"
 
 #: data/text/cable_club.inc:416
 msgctxt "CableClub_Text_FirstTimeRightThisWay"
@@ -666,6 +866,15 @@ msgid ""
 "floor of our POKéMON CENTER.\p"
 "Right this way, please.$"
 msgstr ""
+"你好！\n"
+"我叫小佳。\p"
+"你应该是第一次\n"
+"来这里吧。\p"
+"我来给你介绍一下\n"
+"无线通信系统是怎么用的。\p"
+"首先，我要带你看看\n"
+"宝可梦中心的这一层。\p"
+"请往这边走。$"
 
 #: data/text/cable_club.inc:427
 msgctxt "CableClub_Text_ExplainWirelessClubFirstTime"
@@ -691,6 +900,23 @@ msgid ""
 "I hope you enjoy the Wireless \n"
 "Communication System.$"
 msgstr ""
+"最上层有两个房间。\p"
+"首先是左边的房间。\n"
+"那是联合房间。\p"
+"你可以和附近同样进入了\n"
+"联合房间的训练家连接。\p"
+"可以和他们聊天、\n"
+"对战、交换等等。\p"
+"其次，右边的房间是\n"
+"直连角。\p"
+"在这个房间里，可以和朋友\n"
+"交换宝可梦或进行对战。\p"
+"如果没有连接无线适配器，\n"
+"也可以用GBA连接线来连接。\p"
+"这种情况下，\n"
+"必须要去直连角。\p"
+"希望你能享受\n"
+"无线通信系统。$"
 
 #: data/text/cable_club.inc:449
 msgctxt "CableClub_Text_AskAboutLinking"
@@ -701,6 +927,11 @@ msgid ""
 "Is there something you needed to\n"
 "ask me about linking?$"
 msgstr ""
+"你好，{PLAYER}！\p"
+"是我，宝可梦中心2楼的\n"
+"接待员小佳。\p"
+"关于连接，\n"
+"你有什么想问我的吗？$"
 
 #: data/text/cable_club.inc:456
 msgctxt "CableClub_Text_ExplainWirelessClub"
@@ -733,6 +964,30 @@ msgid ""
 "I hope you enjoy the Wireless \n"
 "Communication System.$"
 msgstr ""
+"我来给你介绍一下\n"
+"宝可梦无线俱乐部是怎么用的。\p"
+"在这里，也就是最上层，\n"
+"有两个房间。\p"
+"首先是左边的房间。\n"
+"那是联合房间。\p"
+"你可以和附近同样进入了\n"
+"联合房间的训练家连接。\p"
+"可以和他们聊天、\n"
+"对战、交换等等。\p"
+"其次，右边的房间是\n"
+"直连角。\p"
+"在这个房间里，可以和朋友\n"
+"交换宝可梦或进行对战。\p"
+"有时候，你可能在联合房间\n"
+"或直连角里找不到朋友。\p"
+"这种情况下，\n"
+"请走近你的朋友。\p"
+"如果没有连接无线适配器，\n"
+"也可以用GBA连接线来连接。\p"
+"这种情况下，\n"
+"必须要去直连角。\p"
+"希望你能享受\n"
+"无线通信系统。$"
 
 #: data/text/cable_club.inc:485
 msgctxt "CableClub_Text_HopeYouEnjoyWirelessSystem"
@@ -740,3 +995,5 @@ msgid ""
 "I hope you enjoy the Wireless\n"
 "Communication System.$"
 msgstr ""
+"希望你能享受\n"
+"无线通信系统。$"
