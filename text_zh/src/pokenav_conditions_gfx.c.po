@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/pokenav_conditions_gfx.c:33 src/strings.c:58
 msgid "No. "
-msgstr ""
+msgstr "No."

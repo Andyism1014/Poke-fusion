@@ -7,84 +7,84 @@ msgstr ""
 
 #: src/option_menu.c:76
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}SLOW"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}慢"
 
 #: src/option_menu.c:77
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}MID"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}中"
 
 #: src/option_menu.c:78
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}FAST"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}快"
 
 #: src/option_menu.c:79
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}ON"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}开"
 
 #: src/option_menu.c:80
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}OFF"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}关"
 
 #: src/option_menu.c:81
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}SHIFT"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}替换"
 
 #: src/option_menu.c:82
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}SET"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}固定"
 
 #: src/option_menu.c:83
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}MONO"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}单声道"
 
 #: src/option_menu.c:84
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}STEREO"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}立体声"
 
 #: src/option_menu.c:85
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}TYPE"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}类型"
 
 #: src/option_menu.c:86
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
 
 #: src/option_menu.c:87
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}NORMAL"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}标准"
 
 #: src/option_menu.c:88
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}LR"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}LR"
 
 #: src/option_menu.c:89
 msgid "{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A"
-msgstr ""
+msgstr "{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A"
 
 #: src/option_menu.c:97
 msgid "TEXT SPEED"
-msgstr ""
+msgstr "文字速度"
 
 #: src/option_menu.c:98
 msgid "BATTLE SCENE"
-msgstr ""
+msgstr "战斗动画"
 
 #: src/option_menu.c:99
 msgid "BATTLE STYLE"
-msgstr ""
+msgstr "对战方式"
 
 #: src/option_menu.c:100
 msgid "SOUND"
-msgstr ""
+msgstr "声音"
 
 #: src/option_menu.c:101
 msgid "BUTTON MODE"
-msgstr ""
+msgstr "按键模式"
 
 #: src/option_menu.c:102
 msgid "FRAME"
-msgstr ""
+msgstr "边框"
 
 #: src/option_menu.c:103 src/pokemon_storage_system.c:8070 src/pokenav_match_call_gfx.c:209 src/strings.c:72 src/strings.c:73 src/strings.c:725 src/strings.c:949 src/strings.c:1079 (+3 more)
 msgid "CANCEL"
-msgstr ""
+msgstr "取消"

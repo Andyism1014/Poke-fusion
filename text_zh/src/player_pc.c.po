@@ -7,37 +7,43 @@ msgstr ""
 
 #: src/player_pc.c:171
 msgid "WITHDRAW ITEM"
-msgstr ""
+msgstr "取出道具"
 
 #: src/player_pc.c:172
 msgid "DEPOSIT ITEM"
-msgstr ""
+msgstr "存放道具"
 
 #: src/player_pc.c:173
 msgid "TOSS ITEM"
-msgstr ""
+msgstr "丢弃道具"
 
 #: src/player_pc.c:174
 msgid "MAILBOX"
-msgstr ""
+msgstr "信箱"
 
 #: src/player_pc.c:176
 msgid ""
 "Withdraw how many\n"
 "{STR_VAR_1}?"
 msgstr ""
+"要取出多少个\n"
+"{STR_VAR_1}？"
 
 #: src/player_pc.c:177
 msgid ""
 "Withdrew {STR_VAR_2}\n"
 "{STR_VAR_1}."
 msgstr ""
+"取出了{STR_VAR_2}个\n"
+"{STR_VAR_1}。"
 
 #: src/player_pc.c:178
 msgid ""
 "There is no more\n"
 "room in the BAG."
 msgstr ""
+"背包里已经\n"
+"没有空间了。"
 
 #: src/player_pc.c:179
 msgid ""
@@ -45,39 +51,41 @@ msgid ""
 "important to toss\n"
 "out!"
 msgstr ""
+"这个太重要了，\n"
+"不能丢掉！"
 
 #: src/player_pc.c:183
 msgid "Take out items from the PC."
-msgstr ""
+msgstr "从电脑里取出道具。"
 
 #: src/player_pc.c:184
 msgid "Store items in the PC."
-msgstr ""
+msgstr "把道具存放到电脑里。"
 
 #: src/player_pc.c:185
 msgid "Throw away items stored in the PC."
-msgstr ""
+msgstr "丢弃存放在电脑里的道具。"
 
 #: src/player_pc.c:191
 msgid "ITEM STORAGE"
-msgstr ""
+msgstr "道具存储"
 
 #: src/player_pc.c:193 src/data/script_menu.h:36
 msgid "DECORATION"
-msgstr ""
+msgstr "装饰"
 
 #: src/player_pc.c:194
 msgid "TURN OFF"
-msgstr ""
+msgstr "关机"
 
 #: src/player_pc.c:230 src/data/party_menu.h:805
 msgid "READ"
-msgstr ""
+msgstr "阅读"
 
 #: src/player_pc.c:231
 msgid "MOVE TO BAG"
-msgstr ""
+msgstr "放进背包"
 
 #: src/player_pc.c:232 src/pokemon_storage_system.c:8066 src/strings.c:70 src/strings.c:91 src/data/easy_chat/easy_chat_group_actions.h:16
 msgid "GIVE"
-msgstr ""
+msgstr "交给"

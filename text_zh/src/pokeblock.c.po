@@ -7,96 +7,100 @@ msgstr ""
 
 #: src/pokeblock.c:133
 msgid "Stow CASE."
-msgstr ""
+msgstr "收起盒子。"
 
 #: src/pokeblock.c:134
 msgid "{LV}{STR_VAR_1}"
-msgstr ""
+msgstr "{LV}{STR_VAR_1}"
 
 #: src/pokeblock.c:135 src/strings.c:239
 msgid ""
 "Throw away this\n"
 "{STR_VAR_1}?"
 msgstr ""
+"要扔掉这个\n"
+"{STR_VAR_1}吗？"
 
 #: src/pokeblock.c:136
 msgid ""
 "The {STR_VAR_1}\n"
 "was thrown away."
 msgstr ""
+"{STR_VAR_1}\n"
+"被扔掉了。"
 
 #: src/pokeblock.c:205
 msgid "RED {POKEBLOCK}"
-msgstr ""
+msgstr "红色{POKEBLOCK}"
 
 #: src/pokeblock.c:206
 msgid "BLUE {POKEBLOCK}"
-msgstr ""
+msgstr "蓝色{POKEBLOCK}"
 
 #: src/pokeblock.c:207
 msgid "PINK {POKEBLOCK}"
-msgstr ""
+msgstr "粉红{POKEBLOCK}"
 
 #: src/pokeblock.c:208
 msgid "GREEN {POKEBLOCK}"
-msgstr ""
+msgstr "绿色{POKEBLOCK}"
 
 #: src/pokeblock.c:209
 msgid "YELLOW {POKEBLOCK}"
-msgstr ""
+msgstr "黄色{POKEBLOCK}"
 
 #: src/pokeblock.c:210
 msgid "PURPLE {POKEBLOCK}"
-msgstr ""
+msgstr "紫色{POKEBLOCK}"
 
 #: src/pokeblock.c:211
 msgid "INDIGO {POKEBLOCK}"
-msgstr ""
+msgstr "靛蓝{POKEBLOCK}"
 
 #: src/pokeblock.c:212
 msgid "BROWN {POKEBLOCK}"
-msgstr ""
+msgstr "褐色{POKEBLOCK}"
 
 #: src/pokeblock.c:213
 msgid "LITEBLUE {POKEBLOCK}"
-msgstr ""
+msgstr "浅蓝{POKEBLOCK}"
 
 #: src/pokeblock.c:214
 msgid "OLIVE {POKEBLOCK}"
-msgstr ""
+msgstr "橄榄{POKEBLOCK}"
 
 #: src/pokeblock.c:215
 msgid "GRAY {POKEBLOCK}"
-msgstr ""
+msgstr "灰色{POKEBLOCK}"
 
 #: src/pokeblock.c:216
 msgid "BLACK {POKEBLOCK}"
-msgstr ""
+msgstr "黑色{POKEBLOCK}"
 
 #: src/pokeblock.c:217
 msgid "WHITE {POKEBLOCK}"
-msgstr ""
+msgstr "白色{POKEBLOCK}"
 
 #: src/pokeblock.c:218
 msgid "GOLD {POKEBLOCK}"
-msgstr ""
+msgstr "金色{POKEBLOCK}"
 
 #: src/pokeblock.c:707
 msgid "SPICY"
-msgstr ""
+msgstr "辣"
 
 #: src/pokeblock.c:708
 msgid "DRY"
-msgstr ""
+msgstr "涩"
 
 #: src/pokeblock.c:709
 msgid "SWEET"
-msgstr ""
+msgstr "甜"
 
 #: src/pokeblock.c:710
 msgid "BITTER"
-msgstr ""
+msgstr "苦"
 
 #: src/pokeblock.c:711
 msgid "SOUR"
-msgstr ""
+msgstr "酸"

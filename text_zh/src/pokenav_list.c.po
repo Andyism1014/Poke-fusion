@@ -7,12 +7,12 @@ msgstr ""
 
 #: src/pokenav_list.c:96 src/data/easy_chat/easy_chat_group_battle.h:136
 msgid "STRATEGY"
-msgstr ""
+msgstr "战术"
 
 #: src/pokenav_list.c:97
 msgid "TRAINER'S POKéMON"
-msgstr ""
+msgstr "训练家的宝可梦"
 
 #: src/pokenav_list.c:98
 msgid "SELF-INTRODUCTION"
-msgstr ""
+msgstr "自我介绍"

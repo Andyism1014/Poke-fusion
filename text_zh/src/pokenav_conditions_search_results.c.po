@@ -7,16 +7,16 @@ msgstr ""
 
 #: src/pokenav_conditions_search_results.c:25
 msgid "No. {DYNAMIC 0}"
-msgstr ""
+msgstr "No. {DYNAMIC 0}"
 
 #: src/pokenav_conditions_search_results.c:130 src/pokenav_ribbons_list.c:123 src/pokenav_ribbons_summary.c:874
 msgid "{TEXT_COLORS LIGHT_RED GREEN WHITE}{BACKGROUND WHITE}♂{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}{BACKGROUND WHITE}"
-msgstr ""
+msgstr "{TEXT_COLORS LIGHT_RED GREEN WHITE}{BACKGROUND WHITE}♂{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}{BACKGROUND WHITE}"
 
 #: src/pokenav_conditions_search_results.c:131 src/pokenav_ribbons_list.c:124 src/pokenav_ribbons_summary.c:875
 msgid "{TEXT_COLORS LIGHT_GREEN BLUE WHITE}{BACKGROUND WHITE}♀{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}{BACKGROUND WHITE}"
-msgstr ""
+msgstr "{TEXT_COLORS LIGHT_GREEN BLUE WHITE}{BACKGROUND WHITE}♀{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}{BACKGROUND WHITE}"
 
 #: src/pokenav_conditions_search_results.c:132 src/pokenav_ribbons_list.c:125 src/pokenav_ribbons_summary.c:876
 msgid "{UNK_SPACER}"
-msgstr ""
+msgstr "{UNK_SPACER}"

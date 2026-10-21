@@ -10,707 +10,885 @@ msgid ""
 "{STR_VAR_1} began poking you in the\n"
 "stomach."
 msgstr ""
+"{STR_VAR_1}开始戳你的\n"
+"肚子。"
 
 #: src/data/text/follower_messages.h:23
 msgid "{STR_VAR_1} is happy but shy."
 msgstr ""
+"{STR_VAR_1}很开心，\n"
+"但有点害羞。"
 
 #: src/data/text/follower_messages.h:24
 msgid "{STR_VAR_1} is coming along happily."
-msgstr ""
+msgstr "{STR_VAR_1}开心地跟着你。"
 
 #: src/data/text/follower_messages.h:25
 msgid "{STR_VAR_1} is composed."
-msgstr ""
+msgstr "{STR_VAR_1}很镇定。"
 
 #: src/data/text/follower_messages.h:26
 msgid ""
 "{STR_VAR_1} seems to be feeling\n"
 "great about walking with you!"
 msgstr ""
+"{STR_VAR_1}跟你一起散步，\n"
+"似乎心情很好！"
 
 #: src/data/text/follower_messages.h:27
 msgid "{STR_VAR_1} is glowing with health."
-msgstr ""
+msgstr "{STR_VAR_1}容光焕发。"
 
 #: src/data/text/follower_messages.h:28
 msgid "{STR_VAR_1} looks very happy."
-msgstr ""
+msgstr "{STR_VAR_1}看起来非常开心。"
 
 #: src/data/text/follower_messages.h:29
 msgid "{STR_VAR_1} put in extra effort."
-msgstr ""
+msgstr "{STR_VAR_1}格外卖力。"
 
 #: src/data/text/follower_messages.h:30
 msgid ""
 "{STR_VAR_1} is smelling the scents\n"
 "of the surrounding air."
 msgstr ""
+"{STR_VAR_1}正在闻\n"
+"周围空气的味道。"
 
 #: src/data/text/follower_messages.h:31
 msgid "{STR_VAR_1} is jumping for joy!"
-msgstr ""
+msgstr "{STR_VAR_1}高兴得跳了起来！"
 
 #: src/data/text/follower_messages.h:32
 msgid "{STR_VAR_1} is still feeling great!"
-msgstr ""
+msgstr "{STR_VAR_1}依旧精神饱满！"
 
 #: src/data/text/follower_messages.h:33
 msgid ""
 "Your POKéMON has caught the scent of\n"
 "smoke."
 msgstr ""
+"你的宝可梦闻到了\n"
+"烟的味道。"
 
 #: src/data/text/follower_messages.h:34
 msgid "{STR_VAR_1} is poking at your belly."
-msgstr ""
+msgstr "{STR_VAR_1}正在戳你的肚子。"
 
 #: src/data/text/follower_messages.h:35
 msgid ""
 "Your POKéMON stretched out its body\n"
 "and is relaxing."
 msgstr ""
+"你的宝可梦伸展身体，\n"
+"正在放松。"
 
 #: src/data/text/follower_messages.h:36
 msgid ""
 "{STR_VAR_1} looks like it wants to\n"
 "lead!"
 msgstr ""
+"{STR_VAR_1}好像\n"
+"想走在前面带路！"
 
 #: src/data/text/follower_messages.h:37
 msgid ""
 "{STR_VAR_1} is doing its best to\n"
 "keep up with you."
 msgstr ""
+"{STR_VAR_1}正在努力地\n"
+"跟上你。"
 
 #: src/data/text/follower_messages.h:38
 msgid ""
 "{STR_VAR_1} is happily cuddling up\n"
 "to you!"
 msgstr ""
+"{STR_VAR_1}开心地\n"
+"依偎着你！"
 
 #: src/data/text/follower_messages.h:39
 msgid "{STR_VAR_1} is full of life!"
-msgstr ""
+msgstr "{STR_VAR_1}充满了活力！"
 
 #: src/data/text/follower_messages.h:40
 msgid "{STR_VAR_1} seems to be very happy!"
-msgstr ""
+msgstr "{STR_VAR_1}看起来非常开心！"
 
 #: src/data/text/follower_messages.h:41
 msgid ""
 "{STR_VAR_1} is so happy that it\n"
 "can't stand still!"
 msgstr ""
+"{STR_VAR_1}开心得\n"
+"停不下来！"
 
 #: src/data/text/follower_messages.h:42
 msgid "{STR_VAR_1} nodded slowly."
-msgstr ""
+msgstr "{STR_VAR_1}慢慢地点了点头。"
 
 #: src/data/text/follower_messages.h:43
 msgid "{STR_VAR_1} is very eager!"
-msgstr ""
+msgstr "{STR_VAR_1}干劲十足！"
 
 #: src/data/text/follower_messages.h:44
 msgid ""
 "{STR_VAR_1} is wandering around and\n"
 "listening to the different sounds."
 msgstr ""
+"{STR_VAR_1}一边四处走动，\n"
+"一边聆听各种声音。"
 
 #: src/data/text/follower_messages.h:45
 msgid "{STR_VAR_1} looks very interested."
-msgstr ""
+msgstr "{STR_VAR_1}看起来非常感兴趣。"
 
 #: src/data/text/follower_messages.h:46
 msgid ""
 "{STR_VAR_1} is somehow forcing\n"
 "itself to keep going."
 msgstr ""
+"{STR_VAR_1}正在勉强\n"
+"坚持着往前走。"
 
 #: src/data/text/follower_messages.h:47
 msgid "{STR_VAR_1} gave you a sunny look!"
 msgstr ""
+"{STR_VAR_1}向你露出了\n"
+"灿烂的表情！"
 
 #: src/data/text/follower_messages.h:48
 msgid ""
 "{STR_VAR_1} gives you a happy look\n"
 "and a smile."
 msgstr ""
+"{STR_VAR_1}开心地看着你，\n"
+"露出了笑容。"
 
 #: src/data/text/follower_messages.h:49
 msgid ""
 "Your POKéMON is smelling the scent\n"
 "of flowers."
 msgstr ""
+"你的宝可梦正在闻\n"
+"花的香味。"
 
 #: src/data/text/follower_messages.h:50
 msgid ""
 "{STR_VAR_1} seems very happy to see\n"
 "you!"
 msgstr ""
+"{STR_VAR_1}见到你\n"
+"似乎非常开心！"
 
 #: src/data/text/follower_messages.h:51
 msgid ""
 "{STR_VAR_1} faced this way and\n"
 "grinned."
 msgstr ""
+"{STR_VAR_1}朝这边\n"
+"咧嘴笑了。"
 
 #: src/data/text/follower_messages.h:52
 msgid ""
 "{STR_VAR_1} happily cuddled up to\n"
 "you!"
 msgstr ""
+"{STR_VAR_1}开心地\n"
+"依偎着你！"
 
 #: src/data/text/follower_messages.h:54
 msgid ""
 "Your POKéMON seems happy about the\n"
 "great weather."
 msgstr ""
+"天气这么好，\n"
+"你的宝可梦似乎很开心。"
 
 #: src/data/text/follower_messages.h:55
 msgid ""
 "{STR_VAR_1} is very composed and\n"
 "sure of itself!"
 msgstr ""
+"{STR_VAR_1}非常镇定，\n"
+"充满自信！"
 
 #: src/data/text/follower_messages.h:75
 msgid ""
 "{STR_VAR_1} is steadily poking at\n"
 "the ground."
 msgstr ""
+"{STR_VAR_1}正在不停地\n"
+"戳着地面。"
 
 #: src/data/text/follower_messages.h:76
 msgid "{STR_VAR_1} is standing guard."
-msgstr ""
+msgstr "{STR_VAR_1}正在站岗放哨。"
 
 #: src/data/text/follower_messages.h:77
 msgid ""
 "{STR_VAR_1} is staring patiently at\n"
 "nothing at all."
 msgstr ""
+"{STR_VAR_1}正耐心地\n"
+"盯着空无一物的地方。"
 
 #: src/data/text/follower_messages.h:78
 msgid "{STR_VAR_1} is wandering around."
-msgstr ""
+msgstr "{STR_VAR_1}正在四处走动。"
 
 #: src/data/text/follower_messages.h:79
 msgid "Your POKéMON yawned loudly!"
-msgstr ""
+msgstr "你的宝可梦打了个大哈欠！"
 
 #: src/data/text/follower_messages.h:80
 msgid ""
 "Your POKéMON is looking around\n"
 "restlessly."
 msgstr ""
+"你的宝可梦正坐立不安地\n"
+"四处张望。"
 
 #: src/data/text/follower_messages.h:81
 msgid ""
 "{STR_VAR_1} is looking this way and\n"
 "smiling."
 msgstr ""
+"{STR_VAR_1}正看着这边\n"
+"微笑。"
 
 #: src/data/text/follower_messages.h:82
 msgid ""
 "{STR_VAR_1} is gazing around\n"
 "restlessly."
 msgstr ""
+"{STR_VAR_1}正坐立不安地\n"
+"四处张望。"
 
 #: src/data/text/follower_messages.h:83
 msgid "{STR_VAR_1} let out a battle cry."
-msgstr ""
+msgstr "{STR_VAR_1}发出了战斗的吼声。"
 
 #: src/data/text/follower_messages.h:84
 msgid ""
 "{STR_VAR_1} danced a wonderful\n"
 "dance!"
 msgstr ""
+"{STR_VAR_1}跳了一支\n"
+"精彩的舞蹈！"
 
 #: src/data/text/follower_messages.h:85
 msgid "{STR_VAR_1} is very eager."
-msgstr ""
+msgstr "{STR_VAR_1}干劲十足。"
 
 #: src/data/text/follower_messages.h:86
 msgid ""
 "{STR_VAR_1} is staring intently into\n"
 "the distance."
 msgstr ""
+"{STR_VAR_1}正专注地\n"
+"望着远方。"
 
 #: src/data/text/follower_messages.h:87
 msgid "{STR_VAR_1} is on the lookout!"
-msgstr ""
+msgstr "{STR_VAR_1}正在警戒！"
 
 #: src/data/text/follower_messages.h:88
 msgid ""
 "{STR_VAR_1} looked off into the\n"
 "distance and barked!"
 msgstr ""
+"{STR_VAR_1}望着远方\n"
+"叫了起来！"
 
 #: src/data/text/follower_messages.h:106
 msgid "{STR_VAR_1} is dizzy."
-msgstr ""
+msgstr "{STR_VAR_1}头晕目眩。"
 
 #: src/data/text/follower_messages.h:107
 msgid ""
 "{STR_VAR_1} is stepping on your\n"
 "feet!"
 msgstr ""
+"{STR_VAR_1}踩到了\n"
+"你的脚！"
 
 #: src/data/text/follower_messages.h:108
 msgid "{STR_VAR_1} seems a little tired."
-msgstr ""
+msgstr "{STR_VAR_1}好像有点累了。"
 
 #: src/data/text/follower_messages.h:110
 msgid "{STR_VAR_1} is not happy."
-msgstr ""
+msgstr "{STR_VAR_1}不太开心。"
 
 #: src/data/text/follower_messages.h:111
 msgid "{STR_VAR_1} is going to fall down!\n"
-msgstr ""
+msgstr "{STR_VAR_1}快要倒下了！\n"
 
 #: src/data/text/follower_messages.h:112
 msgid ""
 "{STR_VAR_1} seems to be about to\n"
 "fall over!"
 msgstr ""
+"{STR_VAR_1}好像\n"
+"快要倒下了！"
 
 #: src/data/text/follower_messages.h:113
 msgid ""
 "{STR_VAR_1} is trying very hard to\n"
 "keep up with you…"
 msgstr ""
+"{STR_VAR_1}正拼命地\n"
+"跟着你……"
 
 #: src/data/text/follower_messages.h:114
 msgid "{STR_VAR_1} is nervous."
-msgstr ""
+msgstr "{STR_VAR_1}很紧张。"
 
 #: src/data/text/follower_messages.h:123
 msgid "{STR_VAR_1} seems unhappy somehow…"
-msgstr ""
+msgstr "{STR_VAR_1}好像有些不开心……"
 
 #: src/data/text/follower_messages.h:124
 msgid ""
 "{STR_VAR_1} is making an unhappy\n"
 "face."
 msgstr ""
+"{STR_VAR_1}露出了\n"
+"不开心的表情。"
 
 #: src/data/text/follower_messages.h:125
 msgid ""
 "…Your POKéMON seems a little\n"
 "cold."
 msgstr ""
+"……你的宝可梦\n"
+"好像有点冷。"
 
 #: src/data/text/follower_messages.h:136
 msgid "{STR_VAR_1} let out a roar!"
-msgstr ""
+msgstr "{STR_VAR_1}发出了咆哮！"
 
 #: src/data/text/follower_messages.h:137
 msgid ""
 "{STR_VAR_1} is making a face like\n"
 "it's angry!"
 msgstr ""
+"{STR_VAR_1}露出了\n"
+"生气的表情！"
 
 #: src/data/text/follower_messages.h:138
 msgid ""
 "{STR_VAR_1} seems to be angry for\n"
 "some reason."
 msgstr ""
+"{STR_VAR_1}不知为何\n"
+"好像在生气。"
 
 #: src/data/text/follower_messages.h:139
 msgid ""
 "Your POKéMON turned to face the\n"
 "other way, showing a defiant face."
 msgstr ""
+"你的宝可梦转过脸去，\n"
+"露出了不服气的表情。"
 
 #: src/data/text/follower_messages.h:140
 msgid "{STR_VAR_1} cried out."
-msgstr ""
+msgstr "{STR_VAR_1}叫了一声。"
 
 #: src/data/text/follower_messages.h:149
 msgid ""
 "{STR_VAR_1} is looking down\n"
 "steadily."
 msgstr ""
+"{STR_VAR_1}正一直\n"
+"低头看着下面。"
 
 #: src/data/text/follower_messages.h:150
 msgid "{STR_VAR_1} is surveying the area."
-msgstr ""
+msgstr "{STR_VAR_1}正在观察四周。"
 
 #: src/data/text/follower_messages.h:151 src/data/text/follower_messages.h:211
 msgid "{STR_VAR_1} is peering down."
-msgstr ""
+msgstr "{STR_VAR_1}正在往下看。"
 
 #: src/data/text/follower_messages.h:152
 msgid ""
 "{STR_VAR_1} is somehow fighting off\n"
 "sleep…"
 msgstr ""
+"{STR_VAR_1}正在\n"
+"努力抵抗睡意……"
 
 #: src/data/text/follower_messages.h:153
 msgid ""
 "{STR_VAR_1} seems to be wandering\n"
 "around."
 msgstr ""
+"{STR_VAR_1}好像在\n"
+"四处闲逛。"
 
 #: src/data/text/follower_messages.h:154
 msgid ""
 "{STR_VAR_1} is looking around\n"
 "absentmindedly."
 msgstr ""
+"{STR_VAR_1}正心不在焉地\n"
+"四处张望。"
 
 #: src/data/text/follower_messages.h:155
 msgid "{STR_VAR_1} yawned very loudly!"
-msgstr ""
+msgstr "{STR_VAR_1}打了个大大的哈欠！"
 
 #: src/data/text/follower_messages.h:156
 msgid "{STR_VAR_1} is relaxing comfortably."
-msgstr ""
+msgstr "{STR_VAR_1}正舒服地放松着。"
 
 #: src/data/text/follower_messages.h:157
 msgid ""
 "{STR_VAR_1} is staring steadfastly\n"
 "at your face."
 msgstr ""
+"{STR_VAR_1}正目不转睛地\n"
+"盯着你的脸。"
 
 #: src/data/text/follower_messages.h:158
 msgid ""
 "{STR_VAR_1} is staring intently at\n"
 "your face."
 msgstr ""
+"{STR_VAR_1}正专注地\n"
+"盯着你的脸。"
 
 #: src/data/text/follower_messages.h:159
 msgid ""
 "{STR_VAR_1} is focusing its\n"
 "attention on you."
 msgstr ""
+"{STR_VAR_1}正把注意力\n"
+"集中在你身上。"
 
 #: src/data/text/follower_messages.h:160
 msgid ""
 "{STR_VAR_1} is staring into the\n"
 "depths."
 msgstr ""
+"{STR_VAR_1}正盯着\n"
+"深处看。"
 
 #: src/data/text/follower_messages.h:161
 msgid ""
 "{STR_VAR_1} is sniffing at the\n"
 "ground."
 msgstr ""
+"{STR_VAR_1}正在\n"
+"闻地面的味道。"
 
 #: src/data/text/follower_messages.h:162
 msgid ""
 "Your POKéMON is staring intently at\n"
 "nothing."
 msgstr ""
+"你的宝可梦正专注地\n"
+"盯着空无一物的地方。"
 
 #: src/data/text/follower_messages.h:164
 msgid "{STR_VAR_1} is concentrating."
-msgstr ""
+msgstr "{STR_VAR_1}正在集中精神。"
 
 #: src/data/text/follower_messages.h:165
 msgid ""
 "{STR_VAR_1} faced this way and\n"
 "nodded."
 msgstr ""
+"{STR_VAR_1}朝这边\n"
+"点了点头。"
 
 #: src/data/text/follower_messages.h:166
 msgid "{STR_VAR_1} seems a bit nervous…"
-msgstr ""
+msgstr "{STR_VAR_1}好像有点紧张……"
 
 #: src/data/text/follower_messages.h:167
 msgid ""
 "{STR_VAR_1} is looking at your\n"
 "footprints."
 msgstr ""
+"{STR_VAR_1}正在看\n"
+"你的脚印。"
 
 #: src/data/text/follower_messages.h:168
 msgid ""
 "{STR_VAR_1} is staring straight into\n"
 "your eyes."
 msgstr ""
+"{STR_VAR_1}正直直地\n"
+"盯着你的眼睛。"
 
 #: src/data/text/follower_messages.h:183
 msgid ""
 "{STR_VAR_1} suddenly started walking\n"
 "closer!"
 msgstr ""
+"{STR_VAR_1}突然\n"
+"走近了你！"
 
 #: src/data/text/follower_messages.h:184
 msgid ""
 "{STR_VAR_1} cheeks are becoming\n"
 "rosy!"
 msgstr ""
+"{STR_VAR_1}的脸颊\n"
+"变得红扑扑的！"
 
 #: src/data/text/follower_messages.h:185
 msgid ""
 "Woah! {STR_VAR_1} suddenly hugged\n"
 "you!"
 msgstr ""
+"哇！{STR_VAR_1}突然\n"
+"抱住了你！"
 
 #: src/data/text/follower_messages.h:186
 msgid ""
 "Woah! {STR_VAR_1} is suddenly\n"
 "playful!"
 msgstr ""
+"哇！{STR_VAR_1}突然\n"
+"调皮了起来！"
 
 #: src/data/text/follower_messages.h:187
 msgid ""
 "{STR_VAR_1} is rubbing against your\n"
 "legs!"
 msgstr ""
+"{STR_VAR_1}正在蹭\n"
+"你的腿！"
 
 #: src/data/text/follower_messages.h:188
 msgid "{STR_VAR_1} blushes."
-msgstr ""
+msgstr "{STR_VAR_1}脸红了。"
 
 #: src/data/text/follower_messages.h:189
 msgid "Ah! {STR_VAR_1} cuddles you!"
-msgstr ""
+msgstr "啊！{STR_VAR_1}依偎着你！"
 
 #: src/data/text/follower_messages.h:190
 msgid ""
 "{STR_VAR_1} is regarding you with\n"
 "adoration!"
 msgstr ""
+"{STR_VAR_1}正用爱慕的眼神\n"
+"看着你！"
 
 #: src/data/text/follower_messages.h:191
 msgid "{STR_VAR_1} got closer to you."
-msgstr ""
+msgstr "{STR_VAR_1}靠近了你。"
 
 #: src/data/text/follower_messages.h:192
 msgid ""
 "{STR_VAR_1} is keeping close to your\n"
 "feet."
 msgstr ""
+"{STR_VAR_1}正紧紧地\n"
+"跟在你脚边。"
 
 #: src/data/text/follower_messages.h:208
 msgid ""
 "{STR_VAR_1} is in danger of falling\n"
 "over!"
 msgstr ""
+"{STR_VAR_1}差点\n"
+"摔倒了！"
 
 #: src/data/text/follower_messages.h:209
 msgid "{STR_VAR_1} bumped into you!"
-msgstr ""
+msgstr "{STR_VAR_1}撞到了你！"
 
 #: src/data/text/follower_messages.h:210
 msgid ""
 "{STR_VAR_1} doesn't seem to be used\n"
 "to its own name yet."
 msgstr ""
+"{STR_VAR_1}好像还不太习惯\n"
+"自己的名字。"
 
 #: src/data/text/follower_messages.h:212
 msgid ""
 "Your POKéMON stumbled and nearly\n"
 "fell!"
 msgstr ""
+"你的宝可梦绊了一下，\n"
+"差点摔倒！"
 
 #: src/data/text/follower_messages.h:213
 msgid ""
 "{STR_VAR_1} feels something and is\n"
 "howling!"
 msgstr ""
+"{STR_VAR_1}感觉到了什么，\n"
+"正在嚎叫！"
 
 #: src/data/text/follower_messages.h:214
 msgid "{STR_VAR_1} seems refreshed!"
-msgstr ""
+msgstr "{STR_VAR_1}好像神清气爽！"
 
 #: src/data/text/follower_messages.h:215
 msgid ""
 "{STR_VAR_1} suddenly turned around\n"
 "and started barking!"
 msgstr ""
+"{STR_VAR_1}突然转过身，\n"
+"叫了起来！"
 
 #: src/data/text/follower_messages.h:216
 msgid "{STR_VAR_1} suddenly turned around!"
-msgstr ""
+msgstr "{STR_VAR_1}突然转过身来！"
 
 #: src/data/text/follower_messages.h:217
 msgid ""
 "Your POKéMON was surprised that you\n"
 "suddenly spoke to it!"
 msgstr ""
+"你突然跟它说话，\n"
+"你的宝可梦吓了一跳！"
 
 #: src/data/text/follower_messages.h:218
 msgid ""
 "Sniff sniff, something smells really\n"
 "good!"
 msgstr ""
+"嗅嗅，有非常好闻的\n"
+"味道！"
 
 #: src/data/text/follower_messages.h:219
 msgid "{STR_VAR_1} feels refreshed."
-msgstr ""
+msgstr "{STR_VAR_1}觉得神清气爽。"
 
 #: src/data/text/follower_messages.h:220
 msgid ""
 "{STR_VAR_1} is wobbling and seems\n"
 "about to fall over."
 msgstr ""
+"{STR_VAR_1}摇摇晃晃的，\n"
+"好像快要倒下了。"
 
 #: src/data/text/follower_messages.h:221
 msgid ""
 "{STR_VAR_1} is in danger of falling\n"
 "over."
 msgstr ""
+"{STR_VAR_1}快要\n"
+"摔倒了。"
 
 #: src/data/text/follower_messages.h:222
 msgid ""
 "{STR_VAR_1} is walking along\n"
 "cautiously."
 msgstr ""
+"{STR_VAR_1}正小心翼翼地\n"
+"走着。"
 
 #: src/data/text/follower_messages.h:223 src/data/text/follower_messages.h:227
 msgid ""
 "{STR_VAR_1} is getting tense with\n"
 "nervous energy."
 msgstr ""
+"{STR_VAR_1}紧张得\n"
+"绷紧了身体。"
 
 #: src/data/text/follower_messages.h:224
 msgid ""
 "{STR_VAR_1} sensed something strange\n"
 "and was surprised!"
 msgstr ""
+"{STR_VAR_1}感觉到了奇怪的\n"
+"东西，吓了一跳！"
 
 #: src/data/text/follower_messages.h:225
 msgid ""
 "{STR_VAR_1} is scared and snuggled\n"
 "up to you!"
 msgstr ""
+"{STR_VAR_1}害怕得\n"
+"紧紧依偎着你！"
 
 #: src/data/text/follower_messages.h:226
 msgid ""
 "{STR_VAR_1} is feeling an unusual\n"
 "presence…"
 msgstr ""
+"{STR_VAR_1}感觉到了\n"
+"不寻常的气息……"
 
 #: src/data/text/follower_messages.h:229
 msgid ""
 "{STR_VAR_1} seems to be very\n"
 "surprised that it is raining!"
 msgstr ""
+"{STR_VAR_1}好像对下雨\n"
+"感到非常惊讶！"
 
 #: src/data/text/follower_messages.h:247
 msgid ""
 "Your POKéMON is looking around\n"
 "restlessly for something."
 msgstr ""
+"你的宝可梦正坐立不安地\n"
+"四处寻找着什么。"
 
 #: src/data/text/follower_messages.h:248
 msgid ""
 "Your POKéMON wasn't watching where\n"
 "it was going and ran into you!"
 msgstr ""
+"你的宝可梦没注意看路，\n"
+"撞到了你！"
 
 #: src/data/text/follower_messages.h:249
 msgid ""
 "Sniff, sniff! Is there something\n"
 "nearby?"
 msgstr ""
+"嗅嗅！附近\n"
+"有什么东西吗？"
 
 #: src/data/text/follower_messages.h:250
 msgid ""
 "{STR_VAR_1} is rolling a pebble\n"
 "around playfully."
 msgstr ""
+"{STR_VAR_1}正调皮地\n"
+"滚着小石子。"
 
 #: src/data/text/follower_messages.h:251
 msgid ""
 "{STR_VAR_1} is wandering around and\n"
 "searching for something."
 msgstr ""
+"{STR_VAR_1}正四处走动，\n"
+"寻找着什么。"
 
 #: src/data/text/follower_messages.h:252
 msgid "{STR_VAR_1} is sniffing at you."
-msgstr ""
+msgstr "{STR_VAR_1}正在闻你的味道。"
 
 #: src/data/text/follower_messages.h:253
 msgid ""
 "{STR_VAR_1} seems to be a little\n"
 "hesitant…"
 msgstr ""
+"{STR_VAR_1}好像\n"
+"有点犹豫……"
 
 #: src/data/text/follower_messages.h:264
 msgid ""
 "{STR_VAR_1} is showing off its\n"
 "agility!"
 msgstr ""
+"{STR_VAR_1}正在炫耀\n"
+"自己的敏捷！"
 
 #: src/data/text/follower_messages.h:265
 msgid ""
 "{STR_VAR_1} is moving around\n"
 "happily!"
 msgstr ""
+"{STR_VAR_1}正开心地\n"
+"走来走去！"
 
 #: src/data/text/follower_messages.h:266
 msgid ""
 "Woah! {STR_VAR_1} suddenly started\n"
 "dancing in happiness!"
 msgstr ""
+"哇！{STR_VAR_1}突然\n"
+"高兴得跳起舞来！"
 
 #: src/data/text/follower_messages.h:267
 msgid ""
 "{STR_VAR_1} is steadily keeping up\n"
 "with you!"
 msgstr ""
+"{STR_VAR_1}正稳稳地\n"
+"跟着你！"
 
 #: src/data/text/follower_messages.h:268
 msgid ""
 "{STR_VAR_1} seems to want to play\n"
 "with you."
 msgstr ""
+"{STR_VAR_1}好像\n"
+"想跟你一起玩。"
 
 #: src/data/text/follower_messages.h:269
 msgid "{STR_VAR_1} is happy skipping about."
-msgstr ""
+msgstr "{STR_VAR_1}开心地蹦蹦跳跳。"
 
 #: src/data/text/follower_messages.h:270
 msgid "{STR_VAR_1} is singing and humming."
-msgstr ""
+msgstr "{STR_VAR_1}正在哼着歌。"
 
 #: src/data/text/follower_messages.h:271
 msgid "{STR_VAR_1} is nipping at your feet!"
-msgstr ""
+msgstr "{STR_VAR_1}正在轻咬你的脚！"
 
 #: src/data/text/follower_messages.h:272
 msgid ""
 "{STR_VAR_1} turns around and looks\n"
 "at you."
 msgstr ""
+"{STR_VAR_1}转过身来\n"
+"看着你。"
 
 #: src/data/text/follower_messages.h:273
 msgid ""
 "{STR_VAR_1} is working hard to show\n"
 "off its mighty power!"
 msgstr ""
+"{STR_VAR_1}正努力展示\n"
+"自己强大的力量！"
 
 #: src/data/text/follower_messages.h:274
 msgid ""
 "Whoa! {STR_VAR_1} suddenly danced in\n"
 "happiness!"
 msgstr ""
+"哇！{STR_VAR_1}突然\n"
+"高兴得跳起舞来！"
 
 #: src/data/text/follower_messages.h:275
 msgid "{STR_VAR_1} is cheerful!"
-msgstr ""
+msgstr "{STR_VAR_1}很快活！"
 
 #: src/data/text/follower_messages.h:276
 msgid ""
 "{STR_VAR_1} is jumping around in a\n"
 "carefree way!"
 msgstr ""
+"{STR_VAR_1}正无忧无虑地\n"
+"跳来跳去！"
 
 #: src/data/text/follower_messages.h:277
 msgid ""
 "Your POKéMON seems to be smelling a\n"
 "nostalgically familiar scent…"
 msgstr ""
+"你的宝可梦好像闻到了\n"
+"令人怀念的熟悉味道……"
 
 #: src/data/text/follower_messages.h:279
 msgid ""
 "{STR_VAR_1} is very happy about the\n"
 "rain."
 msgstr ""
+"{STR_VAR_1}因为下雨\n"
+"非常开心。"
 
 #: src/data/text/follower_messages.h:297
 msgid ""
 "{STR_VAR_1} is shivering with the\n"
 "effects of being poisoned."
 msgstr ""
+"{STR_VAR_1}受到中毒的影响，\n"
+"正在发抖。"

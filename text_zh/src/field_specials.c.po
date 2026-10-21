@@ -7,384 +7,384 @@ msgstr ""
 
 #: src/field_specials.c:175
 msgid "Big guy"
-msgstr ""
+msgstr "小伙子"
 
 #: src/field_specials.c:176
 msgid "Big girl"
-msgstr ""
+msgstr "小姑娘"
 
 #: src/field_specials.c:177
 msgid "son"
-msgstr ""
+msgstr "儿子"
 
 #: src/field_specials.c:178
 msgid "daughter"
-msgstr ""
+msgstr "女儿"
 
 #: src/field_specials.c:179
 msgid "99 times +"
-msgstr ""
+msgstr "99次以上"
 
 #: src/field_specials.c:180
 msgid "1 minute +"
-msgstr ""
+msgstr "1分钟以上"
 
 #: src/field_specials.c:181
 msgid " seconds"
-msgstr ""
+msgstr "秒"
 
 #: src/field_specials.c:182 src/strings.c:701 src/strings.c:777
 msgid " time(s)"
-msgstr ""
+msgstr "次"
 
 #: src/field_specials.c:184 src/data/trainers.h:16880
 msgid "WALLACE"
-msgstr ""
+msgstr "米可利"
 
 #: src/field_specials.c:185 src/pokenav_match_call_data.c:261 src/data/battle_partners.h:31 src/data/trainers.h:43075
 msgid "STEVEN"
-msgstr ""
+msgstr "大吾"
 
 #: src/field_specials.c:186 src/data/trainers.h:13049 src/data/trainers.h:39311 src/data/trainers.h:39417 src/data/trainers.h:39523 src/data/trainers.h:39648
 msgid "BRAWLY"
-msgstr ""
+msgstr "藤树"
 
 #: src/field_specials.c:187 src/data/trainers.h:13446 src/data/trainers.h:41319 src/data/trainers.h:41444 src/data/trainers.h:41588 src/data/trainers.h:41732
 msgid "WINONA"
-msgstr ""
+msgstr "娜琪"
 
 #: src/field_specials.c:188 src/data/trainers.h:12589
 msgid "PHOEBE"
-msgstr ""
+msgstr "芙蓉"
 
 #: src/field_specials.c:189 src/data/trainers.h:12714
 msgid "GLACIA"
-msgstr ""
+msgstr "波妮"
 
 #: src/field_specials.c:2514 src/data/script_menu.h:256
 msgid "BLUE FLUTE"
-msgstr ""
+msgstr "蓝色玻璃哨"
 
 #: src/field_specials.c:2515 src/data/script_menu.h:257
 msgid "YELLOW FLUTE"
-msgstr ""
+msgstr "黄色玻璃哨"
 
 #: src/field_specials.c:2516 src/data/script_menu.h:258
 msgid "RED FLUTE"
-msgstr ""
+msgstr "红色玻璃哨"
 
 #: src/field_specials.c:2517 src/data/script_menu.h:259
 msgid "WHITE FLUTE"
-msgstr ""
+msgstr "白色玻璃哨"
 
 #: src/field_specials.c:2518 src/data/script_menu.h:260
 msgid "BLACK FLUTE"
-msgstr ""
+msgstr "黑色玻璃哨"
 
 #: src/field_specials.c:2519 src/data/decoration/header.h:210
 msgid "PRETTY CHAIR"
-msgstr ""
+msgstr "漂亮椅子"
 
 #: src/field_specials.c:2520 src/data/decoration/header.h:100
 msgid "PRETTY DESK"
-msgstr ""
+msgstr "漂亮桌子"
 
 #: src/field_specials.c:2525
 msgid "0 pts"
-msgstr ""
+msgstr "0分"
 
 #: src/field_specials.c:2526
 msgid "10 pts"
-msgstr ""
+msgstr "10分"
 
 #: src/field_specials.c:2527
 msgid "20 pts"
-msgstr ""
+msgstr "20分"
 
 #: src/field_specials.c:2528
 msgid "30 pts"
-msgstr ""
+msgstr "30分"
 
 #: src/field_specials.c:2529
 msgid "40 pts"
-msgstr ""
+msgstr "40分"
 
 #: src/field_specials.c:2530
 msgid "50 pts"
-msgstr ""
+msgstr "50分"
 
 #: src/field_specials.c:2531
 msgid "60 pts"
-msgstr ""
+msgstr "60分"
 
 #: src/field_specials.c:2532
 msgid "70 pts"
-msgstr ""
+msgstr "70分"
 
 #: src/field_specials.c:2533
 msgid "80 pts"
-msgstr ""
+msgstr "80分"
 
 #: src/field_specials.c:2534
 msgid "90 pts"
-msgstr ""
+msgstr "90分"
 
 #: src/field_specials.c:2535
 msgid "100 pts"
-msgstr ""
+msgstr "100分"
 
 #: src/field_specials.c:2536 src/data/easy_chat/easy_chat_group_voices.h:22
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: src/field_specials.c:2540
 msgid "KISS POSTER{CLEAR_TO 94}16BP"
-msgstr ""
+msgstr "亲亲海报{CLEAR_TO 94}16BP"
 
 #: src/field_specials.c:2541
 msgid "KISS CUSHION{CLEAR_TO 94}32BP"
-msgstr ""
+msgstr "亲亲坐垫{CLEAR_TO 94}32BP"
 
 #: src/field_specials.c:2542
 msgid "SMOOCHUM DOLL{CLEAR_TO 94}32BP"
-msgstr ""
+msgstr "迷唇娃玩偶{CLEAR_TO 94}32BP"
 
 #: src/field_specials.c:2543
 msgid "TOGEPI DOLL{CLEAR_TO 94}48BP"
-msgstr ""
+msgstr "波克比玩偶{CLEAR_TO 94}48BP"
 
 #: src/field_specials.c:2544
 msgid "MEOWTH DOLL{CLEAR_TO 94}48BP"
-msgstr ""
+msgstr "喵喵玩偶{CLEAR_TO 94}48BP"
 
 #: src/field_specials.c:2545
 msgid "CLEFAIRY DOLL{CLEAR_TO 94}48BP"
-msgstr ""
+msgstr "皮皮玩偶{CLEAR_TO 94}48BP"
 
 #: src/field_specials.c:2546
 msgid "DITTO DOLL{CLEAR_TO 94}48BP"
-msgstr ""
+msgstr "百变怪玩偶{CLEAR_TO 94}48BP"
 
 #: src/field_specials.c:2547
 msgid "CYNDAQUIL DOLL{CLEAR_TO 94}80BP"
-msgstr ""
+msgstr "火球鼠玩偶{CLEAR_TO 94}80BP"
 
 #: src/field_specials.c:2548
 msgid "CHIKORITA DOLL{CLEAR_TO 94}80BP"
-msgstr ""
+msgstr "菊草叶玩偶{CLEAR_TO 94}80BP"
 
 #: src/field_specials.c:2549
 msgid "TOTODILE DOLL{CLEAR_TO 94}80BP"
-msgstr ""
+msgstr "小锯鳄玩偶{CLEAR_TO 94}80BP"
 
 #: src/field_specials.c:2554
 msgid "LAPRAS DOLL{CLEAR_TO 88}128BP"
-msgstr ""
+msgstr "拉普拉斯玩偶{CLEAR_TO 88}128BP"
 
 #: src/field_specials.c:2555
 msgid "SNORLAX DOLL{CLEAR_TO 88}128BP"
-msgstr ""
+msgstr "卡比兽玩偶{CLEAR_TO 88}128BP"
 
 #: src/field_specials.c:2556
 msgid "VENUSAUR DOLL{CLEAR_TO 88}256BP"
-msgstr ""
+msgstr "妙蛙花玩偶{CLEAR_TO 88}256BP"
 
 #: src/field_specials.c:2557
 msgid "CHARIZARD DOLL{CLEAR_TO 88}256BP"
-msgstr ""
+msgstr "喷火龙玩偶{CLEAR_TO 88}256BP"
 
 #: src/field_specials.c:2558
 msgid "BLASTOISE DOLL{CLEAR_TO 88}256BP"
-msgstr ""
+msgstr "水箭龟玩偶{CLEAR_TO 88}256BP"
 
 #: src/field_specials.c:2563
 msgid "PROTEIN{CLEAR_TO 100}1BP"
-msgstr ""
+msgstr "攻击增强剂{CLEAR_TO 100}1BP"
 
 #: src/field_specials.c:2564
 msgid "CALCIUM{CLEAR_TO 100}1BP"
-msgstr ""
+msgstr "特攻增强剂{CLEAR_TO 100}1BP"
 
 #: src/field_specials.c:2565
 msgid "IRON{CLEAR_TO 100}1BP"
-msgstr ""
+msgstr "防御增强剂{CLEAR_TO 100}1BP"
 
 #: src/field_specials.c:2566
 msgid "ZINC{CLEAR_TO 100}1BP"
-msgstr ""
+msgstr "特防增强剂{CLEAR_TO 100}1BP"
 
 #: src/field_specials.c:2567
 msgid "CARBOS{CLEAR_TO 100}1BP"
-msgstr ""
+msgstr "速度增强剂{CLEAR_TO 100}1BP"
 
 #: src/field_specials.c:2568
 msgid "HP UP{CLEAR_TO 100}1BP"
-msgstr ""
+msgstr "HP增强剂{CLEAR_TO 100}1BP"
 
 #: src/field_specials.c:2573
 msgid "LEFTOVERS{CLEAR_TO 94}48BP"
-msgstr ""
+msgstr "吃剩的东西{CLEAR_TO 94}48BP"
 
 #: src/field_specials.c:2574
 msgid "WHITE HERB{CLEAR_TO 94}48BP"
-msgstr ""
+msgstr "白色香草{CLEAR_TO 94}48BP"
 
 #: src/field_specials.c:2575
 msgid "QUICK CLAW{CLEAR_TO 94}48BP"
-msgstr ""
+msgstr "先制之爪{CLEAR_TO 94}48BP"
 
 #: src/field_specials.c:2576
 msgid "MENTAL HERB{CLEAR_TO 94}48BP"
-msgstr ""
+msgstr "心灵香草{CLEAR_TO 94}48BP"
 
 #: src/field_specials.c:2577
 msgid "BRIGHTPOWDER{CLEAR_TO 94}64BP"
-msgstr ""
+msgstr "光粉{CLEAR_TO 94}64BP"
 
 #: src/field_specials.c:2578
 msgid "CHOICE BAND{CLEAR_TO 94}64BP"
-msgstr ""
+msgstr "讲究头带{CLEAR_TO 94}64BP"
 
 #: src/field_specials.c:2579
 msgid "KING'S ROCK{CLEAR_TO 94}64BP"
-msgstr ""
+msgstr "王者之证{CLEAR_TO 94}64BP"
 
 #: src/field_specials.c:2580
 msgid "FOCUS BAND{CLEAR_TO 94}64BP"
-msgstr ""
+msgstr "气势头带{CLEAR_TO 94}64BP"
 
 #: src/field_specials.c:2581
 msgid "SCOPE LENS{CLEAR_TO 94}64BP"
-msgstr ""
+msgstr "焦点镜{CLEAR_TO 94}64BP"
 
 #: src/field_specials.c:2586
 msgid "ENERGYPOWDER{CLEAR_TO 114}{FONT_SMALL}50"
-msgstr ""
+msgstr "元气粉{CLEAR_TO 114}{FONT_SMALL}50"
 
 #: src/field_specials.c:2587
 msgid "ENERGY ROOT{CLEAR_TO 114}{FONT_SMALL}80"
-msgstr ""
+msgstr "元气根{CLEAR_TO 114}{FONT_SMALL}80"
 
 #: src/field_specials.c:2588
 msgid "HEAL POWDER{CLEAR_TO 114}{FONT_SMALL}50"
-msgstr ""
+msgstr "万能粉{CLEAR_TO 114}{FONT_SMALL}50"
 
 #: src/field_specials.c:2589
 msgid "REVIVAL HERB{CLEAR_TO 108}{FONT_SMALL}300"
-msgstr ""
+msgstr "复活草{CLEAR_TO 108}{FONT_SMALL}300"
 
 #: src/field_specials.c:2590
 msgid "PROTEIN{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr ""
+msgstr "攻击增强剂{CLEAR_TO 99}{FONT_SMALL}1,000"
 
 #: src/field_specials.c:2591
 msgid "IRON{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr ""
+msgstr "防御增强剂{CLEAR_TO 99}{FONT_SMALL}1,000"
 
 #: src/field_specials.c:2592
 msgid "CARBOS{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr ""
+msgstr "速度增强剂{CLEAR_TO 99}{FONT_SMALL}1,000"
 
 #: src/field_specials.c:2593
 msgid "CALCIUM{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr ""
+msgstr "特攻增强剂{CLEAR_TO 99}{FONT_SMALL}1,000"
 
 #: src/field_specials.c:2594
 msgid "ZINC{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr ""
+msgstr "特防增强剂{CLEAR_TO 99}{FONT_SMALL}1,000"
 
 #: src/field_specials.c:2595
 msgid "HP UP{CLEAR_TO 99}{FONT_SMALL}1,000"
-msgstr ""
+msgstr "HP增强剂{CLEAR_TO 99}{FONT_SMALL}1,000"
 
 #: src/field_specials.c:2596
 msgid "PP UP{CLEAR_TO 99}{FONT_SMALL}3,000"
-msgstr ""
+msgstr "PP提升剂{CLEAR_TO 99}{FONT_SMALL}3,000"
 
 #: src/field_specials.c:2614
 msgid "SOFTBOILED{CLEAR_TO 78}16BP"
-msgstr ""
+msgstr "生蛋{CLEAR_TO 78}16BP"
 
 #: src/field_specials.c:2615
 msgid "SEISMIC TOSS{CLEAR_TO 78}24BP"
-msgstr ""
+msgstr "地球上投{CLEAR_TO 78}24BP"
 
 #: src/field_specials.c:2616
 msgid "DREAM EATER{CLEAR_TO 78}24BP"
-msgstr ""
+msgstr "食梦{CLEAR_TO 78}24BP"
 
 #: src/field_specials.c:2617
 msgid "MEGA PUNCH{CLEAR_TO 78}24BP"
-msgstr ""
+msgstr "百万吨重拳{CLEAR_TO 78}24BP"
 
 #: src/field_specials.c:2618
 msgid "MEGA KICK{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "百万吨重踢{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:2619
 msgid "BODY SLAM{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "泰山压顶{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:2620
 msgid "ROCK SLIDE{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "岩崩{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:2621
 msgid "COUNTER{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "双倍奉还{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:2622
 msgid "THUNDER WAVE{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "电磁波{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:2623
 msgid "SWORDS DANCE{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "剑舞{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:2628
 msgid "DEFENSE CURL{CLEAR_TO 78}16BP"
-msgstr ""
+msgstr "变圆{CLEAR_TO 78}16BP"
 
 #: src/field_specials.c:2629
 msgid "SNORE{CLEAR_TO 78}24BP"
-msgstr ""
+msgstr "打鼾{CLEAR_TO 78}24BP"
 
 #: src/field_specials.c:2630
 msgid "MUD-SLAP{CLEAR_TO 78}24BP"
-msgstr ""
+msgstr "掷泥{CLEAR_TO 78}24BP"
 
 #: src/field_specials.c:2631
 msgid "SWIFT{CLEAR_TO 78}24BP"
-msgstr ""
+msgstr "高速星星{CLEAR_TO 78}24BP"
 
 #: src/field_specials.c:2632
 msgid "ICY WIND{CLEAR_TO 78}24BP"
-msgstr ""
+msgstr "冰冻之风{CLEAR_TO 78}24BP"
 
 #: src/field_specials.c:2633
 msgid "ENDURE{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "挺住{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:2634
 msgid "PSYCH UP{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "自我暗示{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:2635
 msgid "ICE PUNCH{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "冰冻拳{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:2636
 msgid "THUNDERPUNCH{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "雷电拳{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:2637
 msgid "FIRE PUNCH{CLEAR_TO 78}48BP"
-msgstr ""
+msgstr "火焰拳{CLEAR_TO 78}48BP"
 
 #: src/field_specials.c:4577
 msgid "SampleCode"
-msgstr ""
+msgstr "SampleCode"
 
 #: src/field_specials.c:5326 src/strings.c:465
 msgid "Now on:"
-msgstr ""
+msgstr "当前："

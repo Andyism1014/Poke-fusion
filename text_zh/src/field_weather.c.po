@@ -7,80 +7,80 @@ msgstr ""
 
 #: src/field_weather.c:1202 src/pokedex.c:706 src/strings.c:75 src/data/easy_chat/easy_chat_group_conditions.h:286
 msgid "NONE"
-msgstr ""
+msgstr "无"
 
 #: src/field_weather.c:1203
 msgid "SUNNY CLOUDS"
-msgstr ""
+msgstr "晴天多云"
 
 #: src/field_weather.c:1204 src/strings.c:1084
 msgid "SUNNY"
-msgstr ""
+msgstr "晴天"
 
 #: src/field_weather.c:1205 src/strings.c:1086
 msgid "RAIN"
-msgstr ""
+msgstr "雨"
 
 #: src/field_weather.c:1206 src/pokemon_storage_system.c:8099 src/strings.c:1087
 msgid "SNOW"
-msgstr ""
+msgstr "雪"
 
 #: src/field_weather.c:1207
 msgid "RAIN THUNDERSTORM"
-msgstr ""
+msgstr "雷雨"
 
 #: src/field_weather.c:1208
 msgid "FOG HORIZONTAL"
-msgstr ""
+msgstr "横向雾"
 
 #: src/field_weather.c:1209
 msgid "VOLCANIC ASH"
-msgstr ""
+msgstr "火山灰"
 
 #: src/field_weather.c:1210 src/strings.c:1091
 msgid "SANDSTORM"
-msgstr ""
+msgstr "沙暴"
 
 #: src/field_weather.c:1211
 msgid "FOG DIAGONAL"
-msgstr ""
+msgstr "斜向雾"
 
 #: src/field_weather.c:1212 src/data/region_map/region_map_entries.h:364 src/data/region_map/region_map_entries.h:371 src/data/region_map/region_map_entries.h:378 src/data/region_map/region_map_entries.h:385 src/data/region_map/region_map_entries.h:392 src/data/region_map/region_map_entries.h:497 src/data/region_map/region_map_entries.h:567 (+4 more)
 msgid "UNDERWATER"
-msgstr ""
+msgstr "海底"
 
 #: src/field_weather.c:1213
 msgid "SHADE"
-msgstr ""
+msgstr "阴天"
 
 #: src/field_weather.c:1214 src/data/easy_chat/easy_chat_group_status.h:460
 msgid "DROUGHT"
-msgstr ""
+msgstr "日照"
 
 #: src/field_weather.c:1215
 msgid "DOWNPOUR"
-msgstr ""
+msgstr "暴雨"
 
 #: src/field_weather.c:1216
 msgid "UNDERWATER BUBBLES"
-msgstr ""
+msgstr "水中气泡"
 
 #: src/field_weather.c:1217
 msgid "ABNORMAL(NOT WORKING)"
-msgstr ""
+msgstr "异常（无效）"
 
 #: src/field_weather.c:1218
 msgid "ROUTE119 CYCLE"
-msgstr ""
+msgstr "119号道路循环"
 
 #: src/field_weather.c:1219
 msgid "ROUTE123 CYCLE"
-msgstr ""
+msgstr "123号道路循环"
 
 #: src/field_weather.c:1220 src/strings.c:1089
 msgid "FOG"
-msgstr ""
+msgstr "雾"
 
 #: src/field_weather.c:1223
 msgid "NOT DEFINED!!!"
-msgstr ""
+msgstr "未定义！！！"

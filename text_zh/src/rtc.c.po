@@ -7,8 +7,8 @@ msgstr ""
 
 #: src/rtc.c:22 src/data/easy_chat/easy_chat_group_misc.h:148
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: src/rtc.c:23
 msgid "PM"
-msgstr ""
+msgstr "PM"

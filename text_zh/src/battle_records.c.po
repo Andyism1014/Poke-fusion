@@ -7,8 +7,8 @@ msgstr ""
 
 #: src/battle_records.c:89 src/data/abilities.h:5 src/data/abilities.h:2526 src/data/abilities.h:2544
 msgid "-------"
-msgstr ""
+msgstr "-------"
 
 #: src/battle_records.c:90
 msgid "----"
-msgstr ""
+msgstr "----"

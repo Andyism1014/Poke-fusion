@@ -7,176 +7,176 @@ msgstr ""
 
 #: src/data/text/gift_ribbon_descriptions.h:1
 msgid "2003 REGIONAL TOURNEY"
-msgstr ""
+msgstr "2003地区大赛"
 
 #: src/data/text/gift_ribbon_descriptions.h:2
 msgid "CHAMPION RIBBON"
-msgstr ""
+msgstr "冠军奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:3
 msgid "2003 NATIONAL TOURNEY"
-msgstr ""
+msgstr "2003全国大赛"
 
 #: src/data/text/gift_ribbon_descriptions.h:4
 msgid "2003 GLOBAL CUP"
-msgstr ""
+msgstr "2003全球杯"
 
 #: src/data/text/gift_ribbon_descriptions.h:5
 msgid "Runner-up RIBBON"
-msgstr ""
+msgstr "亚军奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:6
 msgid "Semifinalist RIBBON"
-msgstr ""
+msgstr "四强奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:7
 msgid "2004 REGIONAL TOURNEY"
-msgstr ""
+msgstr "2004地区大赛"
 
 #: src/data/text/gift_ribbon_descriptions.h:8
 msgid "2004 NATIONAL TOURNEY"
-msgstr ""
+msgstr "2004全国大赛"
 
 #: src/data/text/gift_ribbon_descriptions.h:9
 msgid "2004 GLOBAL CUP"
-msgstr ""
+msgstr "2004全球杯"
 
 #: src/data/text/gift_ribbon_descriptions.h:10
 msgid "2005 REGIONAL TOURNEY"
-msgstr ""
+msgstr "2005地区大赛"
 
 #: src/data/text/gift_ribbon_descriptions.h:11
 msgid "2005 NATIONAL TOURNEY"
-msgstr ""
+msgstr "2005全国大赛"
 
 #: src/data/text/gift_ribbon_descriptions.h:12
 msgid "2005 GLOBAL CUP"
-msgstr ""
+msgstr "2005全球杯"
 
 #: src/data/text/gift_ribbon_descriptions.h:13
 msgid "POKéMON BATTLE CUP"
-msgstr ""
+msgstr "宝可梦对战杯"
 
 #: src/data/text/gift_ribbon_descriptions.h:14 src/data/text/gift_ribbon_descriptions.h:18
 msgid "Participation RIBBON"
-msgstr ""
+msgstr "参赛奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:16
 msgid "ADVANCE CUP"
-msgstr ""
+msgstr "进阶杯"
 
 #: src/data/text/gift_ribbon_descriptions.h:17
 msgid "POKéMON Tournament"
-msgstr ""
+msgstr "宝可梦锦标赛"
 
 #: src/data/text/gift_ribbon_descriptions.h:19
 msgid "POKéMON Event"
-msgstr ""
+msgstr "宝可梦活动"
 
 #: src/data/text/gift_ribbon_descriptions.h:20
 msgid "POKéMON Festival"
-msgstr ""
+msgstr "宝可梦庆典"
 
 #: src/data/text/gift_ribbon_descriptions.h:21
 msgid "Difficulty-clearing"
-msgstr ""
+msgstr "通关高难度"
 
 #: src/data/text/gift_ribbon_descriptions.h:22
 msgid "Commemorative RIBBON"
-msgstr ""
+msgstr "纪念奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:23 src/data/text/ribbon_descriptions.h:18
 msgid "RIBBON awarded for"
-msgstr ""
+msgstr "这枚奖章授予"
 
 #: src/data/text/gift_ribbon_descriptions.h:24
 msgid "clearing all challenges."
-msgstr ""
+msgstr "通过所有挑战者。"
 
 #: src/data/text/gift_ribbon_descriptions.h:25
 msgid "100-straight Win"
-msgstr ""
+msgstr "100连胜"
 
 #: src/data/text/gift_ribbon_descriptions.h:26
 msgid "DARKNESS TOWER Clear"
-msgstr ""
+msgstr "通关黑暗之塔"
 
 #: src/data/text/gift_ribbon_descriptions.h:27
 msgid "RED TOWER Clear"
-msgstr ""
+msgstr "通关红之塔"
 
 #: src/data/text/gift_ribbon_descriptions.h:28
 msgid "BLACKIRON TOWER Clear"
-msgstr ""
+msgstr "通关黑铁之塔"
 
 #: src/data/text/gift_ribbon_descriptions.h:29
 msgid "FINAL TOWER Clear"
-msgstr ""
+msgstr "通关最终之塔"
 
 #: src/data/text/gift_ribbon_descriptions.h:30
 msgid "Legend-making"
-msgstr ""
+msgstr "创造传说"
 
 #: src/data/text/gift_ribbon_descriptions.h:31
 msgid "POKéMON CENTER TOKYO"
-msgstr ""
+msgstr "宝可梦中心东京"
 
 #: src/data/text/gift_ribbon_descriptions.h:32
 msgid "POKéMON CENTER OSAKA"
-msgstr ""
+msgstr "宝可梦中心大阪"
 
 #: src/data/text/gift_ribbon_descriptions.h:33
 msgid "POKéMON CENTER NAGOYA"
-msgstr ""
+msgstr "宝可梦中心名古屋"
 
 #: src/data/text/gift_ribbon_descriptions.h:34
 msgid "POKéMON CENTER NY"
-msgstr ""
+msgstr "宝可梦中心纽约"
 
 #: src/data/text/gift_ribbon_descriptions.h:35
 msgid "Summer Holidays RIBBON"
-msgstr ""
+msgstr "暑假奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:37
 msgid "Winter Holidays RIBBON"
-msgstr ""
+msgstr "寒假奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:38
 msgid "Spring Holidays RIBBON"
-msgstr ""
+msgstr "春假奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:39
 msgid "Evergreen RIBBON"
-msgstr ""
+msgstr "常青奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:40
 msgid "Special Holiday RIBBON"
-msgstr ""
+msgstr "特别假日奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:41
 msgid "Hard Worker RIBBON"
-msgstr ""
+msgstr "勤奋奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:42
 msgid "Lots of Friends RIBBON"
-msgstr ""
+msgstr "好朋友奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:43
 msgid "Full of Energy RIBBON"
-msgstr ""
+msgstr "元气满满奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:44
 msgid "A commemorative RIBBON"
-msgstr ""
+msgstr "为深受喜爱的"
 
 #: src/data/text/gift_ribbon_descriptions.h:45
 msgid "for a loved POKéMON."
-msgstr ""
+msgstr "宝可梦颁发的纪念奖章"
 
 #: src/data/text/gift_ribbon_descriptions.h:46
 msgid "RIBBON that shows"
-msgstr ""
+msgstr "表达对宝可梦"
 
 #: src/data/text/gift_ribbon_descriptions.h:47
 msgid "love for POKéMON."
-msgstr ""
+msgstr "之爱的奖章。"

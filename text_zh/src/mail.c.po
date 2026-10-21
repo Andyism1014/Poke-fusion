@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/mail.c:89
 msgid "From "
-msgstr ""
+msgstr "寄件人："

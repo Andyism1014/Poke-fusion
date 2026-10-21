@@ -7,17 +7,19 @@ msgstr ""
 
 #: src/data/decoration/header.h:6 src/data/decoration/header.h:21
 msgid "SMALL DESK"
-msgstr ""
+msgstr "小桌子"
 
 #: src/data/decoration/header.h:11 src/data/decoration/header.h:26
 msgid ""
 "A small desk built\n"
 "for one."
 msgstr ""
+"供一个人使用的\n"
+"小桌子。"
 
 #: src/data/decoration/header.h:36
 msgid "POKéMON DESK"
-msgstr ""
+msgstr "宝可梦桌子"
 
 #: src/data/decoration/header.h:41
 msgid ""
@@ -25,10 +27,12 @@ msgid ""
 "the shape of a POKé\n"
 "BALL."
 msgstr ""
+"做成精灵球形状的\n"
+"小桌子。"
 
 #: src/data/decoration/header.h:52
 msgid "HEAVY DESK"
-msgstr ""
+msgstr "沉重桌子"
 
 #: src/data/decoration/header.h:57
 msgid ""
@@ -36,10 +40,13 @@ msgid ""
 "of steel. Put some\n"
 "decorations on it."
 msgstr ""
+"钢铁做的大桌子。\n"
+"可以在上面摆放\n"
+"装饰品。"
 
 #: src/data/decoration/header.h:68
 msgid "RAGGED DESK"
-msgstr ""
+msgstr "粗糙桌子"
 
 #: src/data/decoration/header.h:73
 msgid ""
@@ -47,10 +54,13 @@ msgid ""
 "of wood. Put some\n"
 "decorations on it."
 msgstr ""
+"木头做的大桌子。\n"
+"可以在上面摆放\n"
+"装饰品。"
 
 #: src/data/decoration/header.h:84
 msgid "COMFORT DESK"
-msgstr ""
+msgstr "舒适桌子"
 
 #: src/data/decoration/header.h:89
 msgid ""
@@ -58,6 +68,9 @@ msgid ""
 "of leaves. Put some\n"
 "decorations on it."
 msgstr ""
+"树叶做的大桌子。\n"
+"可以在上面摆放\n"
+"装饰品。"
 
 #: src/data/decoration/header.h:105
 msgid ""
@@ -65,10 +78,13 @@ msgid ""
 "of glass. Holds lots\n"
 "of decorations."
 msgstr ""
+"用玻璃做的\n"
+"巨大桌子。可以\n"
+"摆放很多装饰品。"
 
 #: src/data/decoration/header.h:116
 msgid "BRICK DESK"
-msgstr ""
+msgstr "砖块桌子"
 
 #: src/data/decoration/header.h:121
 msgid ""
@@ -76,10 +92,13 @@ msgid ""
 "of brick. Holds lots\n"
 "of decorations."
 msgstr ""
+"用砖块做的\n"
+"巨大桌子。可以\n"
+"摆放很多装饰品。"
 
 #: src/data/decoration/header.h:132
 msgid "CAMP DESK"
-msgstr ""
+msgstr "露营桌子"
 
 #: src/data/decoration/header.h:137
 msgid ""
@@ -87,10 +106,13 @@ msgid ""
 "of logs. Put lots of\n"
 "decorations on it."
 msgstr ""
+"用原木做的\n"
+"巨大桌子。可以\n"
+"摆放很多装饰品。"
 
 #: src/data/decoration/header.h:148
 msgid "HARD DESK"
-msgstr ""
+msgstr "坚硬桌子"
 
 #: src/data/decoration/header.h:153
 msgid ""
@@ -98,20 +120,25 @@ msgid ""
 "of rocks. Holds\n"
 "many decorations."
 msgstr ""
+"用岩石做的\n"
+"巨大桌子。可以\n"
+"摆放很多装饰品。"
 
 #: src/data/decoration/header.h:164
 msgid "SMALL CHAIR"
-msgstr ""
+msgstr "小椅子"
 
 #: src/data/decoration/header.h:169
 msgid ""
 "A small chair made\n"
 "for one."
 msgstr ""
+"供一个人使用的\n"
+"小椅子。"
 
 #: src/data/decoration/header.h:179
 msgid "POKéMON CHAIR"
-msgstr ""
+msgstr "宝可梦椅子"
 
 #: src/data/decoration/header.h:184
 msgid ""
@@ -119,106 +146,124 @@ msgid ""
 "in the shape of a\n"
 "POKé BALL."
 msgstr ""
+"做成精灵球形状的\n"
+"小椅子。"
 
 #: src/data/decoration/header.h:195
 msgid "HEAVY CHAIR"
-msgstr ""
+msgstr "沉重椅子"
 
 #: src/data/decoration/header.h:200
 msgid ""
 "A small chair made\n"
 "of steel."
 msgstr ""
+"钢铁做的\n"
+"小椅子。"
 
 #: src/data/decoration/header.h:215
 msgid ""
 "A small chair made\n"
 "of glass."
 msgstr ""
+"玻璃做的\n"
+"小椅子。"
 
 #: src/data/decoration/header.h:225
 msgid "COMFORT CHAIR"
-msgstr ""
+msgstr "舒适椅子"
 
 #: src/data/decoration/header.h:230
 msgid ""
 "A small chair made\n"
 "of leaves."
 msgstr ""
+"树叶做的\n"
+"小椅子。"
 
 #: src/data/decoration/header.h:240
 msgid "RAGGED CHAIR"
-msgstr ""
+msgstr "粗糙椅子"
 
 #: src/data/decoration/header.h:245
 msgid ""
 "A small chair made\n"
 "of wood."
 msgstr ""
+"木头做的\n"
+"小椅子。"
 
 #: src/data/decoration/header.h:255
 msgid "BRICK CHAIR"
-msgstr ""
+msgstr "砖块椅子"
 
 #: src/data/decoration/header.h:260
 msgid ""
 "A small chair made\n"
 "of brick."
 msgstr ""
+"砖块做的\n"
+"小椅子。"
 
 #: src/data/decoration/header.h:270
 msgid "CAMP CHAIR"
-msgstr ""
+msgstr "露营椅子"
 
 #: src/data/decoration/header.h:275
 msgid ""
 "A small chair made\n"
 "of logs."
 msgstr ""
+"原木做的\n"
+"小椅子。"
 
 #: src/data/decoration/header.h:285
 msgid "HARD CHAIR"
-msgstr ""
+msgstr "坚硬椅子"
 
 #: src/data/decoration/header.h:290
 msgid ""
 "A small chair made\n"
 "of rock."
 msgstr ""
+"岩石做的\n"
+"小椅子。"
 
 #: src/data/decoration/header.h:300
 msgid "RED PLANT"
-msgstr ""
+msgstr "红色盆栽"
 
 #: src/data/decoration/header.h:305
 msgid ""
 "A vivid red potted\n"
 "plant."
-msgstr ""
+msgstr "鲜红色的盆栽。"
 
 #: src/data/decoration/header.h:315
 msgid "TROPICAL PLANT"
-msgstr ""
+msgstr "热带盆栽"
 
 #: src/data/decoration/header.h:320
 msgid ""
 "A flowering tropical\n"
 "plant in a pot."
 msgstr ""
+"会开花的\n"
+"热带盆栽。"
 
 #: src/data/decoration/header.h:330
 msgid "PRETTY FLOWERS"
-msgstr ""
+msgstr "漂亮花朵"
 
 #: src/data/decoration/header.h:335
 msgid ""
 "A pot of cute\n"
 "flowers."
-msgstr ""
+msgstr "一盆可爱的花。"
 
 #: src/data/decoration/header.h:345
 msgid "COLORFUL PLANT"
-msgstr ""
+msgstr "缤纷盆栽"
 
 #: src/data/decoration/header.h:350
 msgid ""
@@ -226,10 +271,12 @@ msgid ""
 "many colorful\n"
 "flowers."
 msgstr ""
+"开着许多缤纷\n"
+"花朵的大花盆。"
 
 #: src/data/decoration/header.h:361
 msgid "BIG PLANT"
-msgstr ""
+msgstr "大型盆栽"
 
 #: src/data/decoration/header.h:366
 msgid ""
@@ -237,20 +284,24 @@ msgid ""
 "shaped plant in a\n"
 "big pot."
 msgstr ""
+"大花盆里种着\n"
+"伞状的植物。"
 
 #: src/data/decoration/header.h:377
 msgid "GORGEOUS PLANT"
-msgstr ""
+msgstr "华丽盆栽"
 
 #: src/data/decoration/header.h:382
 msgid ""
 "A large, impressive\n"
 "plant in a big pot."
 msgstr ""
+"大花盆里种着\n"
+"壮观的植物。"
 
 #: src/data/decoration/header.h:392
 msgid "RED BRICK"
-msgstr ""
+msgstr "红色砖块"
 
 #: src/data/decoration/header.h:397
 msgid ""
@@ -258,10 +309,13 @@ msgid ""
 "Decorations can be\n"
 "placed on top."
 msgstr ""
+"红色的砖块。\n"
+"可以在上面摆放\n"
+"装饰品。"
 
 #: src/data/decoration/header.h:408
 msgid "YELLOW BRICK"
-msgstr ""
+msgstr "黄色砖块"
 
 #: src/data/decoration/header.h:413
 msgid ""
@@ -269,10 +323,13 @@ msgid ""
 "brick. Put some\n"
 "decorations on top."
 msgstr ""
+"黄色的砖块。\n"
+"可以在上面摆放\n"
+"装饰品。"
 
 #: src/data/decoration/header.h:424
 msgid "BLUE BRICK"
-msgstr ""
+msgstr "蓝色砖块"
 
 #: src/data/decoration/header.h:429
 msgid ""
@@ -280,10 +337,13 @@ msgid ""
 "brick. Put some\n"
 "decorations on top."
 msgstr ""
+"蓝色的砖块。\n"
+"可以在上面摆放\n"
+"装饰品。"
 
 #: src/data/decoration/header.h:440
 msgid "RED BALLOON"
-msgstr ""
+msgstr "红色气球"
 
 #: src/data/decoration/header.h:445
 msgid ""
@@ -291,10 +351,13 @@ msgid ""
 "with water. Bursts\n"
 "if stepped on."
 msgstr ""
+"装满水的\n"
+"红色气球。\n"
+"踩上去就会破。"
 
 #: src/data/decoration/header.h:456
 msgid "BLUE BALLOON"
-msgstr ""
+msgstr "蓝色气球"
 
 #: src/data/decoration/header.h:461
 msgid ""
@@ -302,10 +365,13 @@ msgid ""
 "with water. Bursts\n"
 "if stepped on."
 msgstr ""
+"装满水的\n"
+"蓝色气球。\n"
+"踩上去就会破。"
 
 #: src/data/decoration/header.h:472
 msgid "YELLOW BALLOON"
-msgstr ""
+msgstr "黄色气球"
 
 #: src/data/decoration/header.h:477
 msgid ""
@@ -313,6 +379,9 @@ msgid ""
 "filled with water.\n"
 "Pops if stepped on."
 msgstr ""
+"装满水的\n"
+"黄色气球。\n"
+"踩上去就会破。"
 
 #: src/data/decoration/header.h:493
 msgid ""
@@ -320,6 +389,8 @@ msgid ""
 "You can hide inside\n"
 "it."
 msgstr ""
+"红色的大帐篷。\n"
+"可以躲在里面。"
 
 #: src/data/decoration/header.h:509
 msgid ""
@@ -327,10 +398,12 @@ msgid ""
 "You can hide inside\n"
 "it."
 msgstr ""
+"蓝色的大帐篷。\n"
+"可以躲在里面。"
 
 #: src/data/decoration/header.h:520
 msgid "SOLID BOARD"
-msgstr ""
+msgstr "坚固木板"
 
 #: src/data/decoration/header.h:525
 msgid ""
@@ -338,34 +411,40 @@ msgid ""
 "cross to the other\n"
 "side."
 msgstr ""
+"盖在洞上，\n"
+"就能走到对面。"
 
 #: src/data/decoration/header.h:536 src/data/easy_chat/easy_chat_group_actions.h:244
 msgid "SLIDE"
-msgstr ""
+msgstr "滑梯"
 
 #: src/data/decoration/header.h:541
 msgid ""
 "Use to slide down\n"
 "from the platform."
 msgstr ""
+"用来从台子上\n"
+"滑下来。"
 
 #: src/data/decoration/header.h:551
 msgid "FENCE LENGTH"
-msgstr ""
+msgstr "竖栅栏"
 
 #: src/data/decoration/header.h:556 src/data/decoration/header.h:571
 msgid ""
 "A small fence that\n"
 "blocks passage."
 msgstr ""
+"挡住去路的\n"
+"小栅栏。"
 
 #: src/data/decoration/header.h:566
 msgid "FENCE WIDTH"
-msgstr ""
+msgstr "横栅栏"
 
 #: src/data/decoration/header.h:581
 msgid "TIRE"
-msgstr ""
+msgstr "轮胎"
 
 #: src/data/decoration/header.h:586
 msgid ""
@@ -373,20 +452,25 @@ msgid ""
 "Decorations can be\n"
 "placed on top."
 msgstr ""
+"旧的大轮胎。\n"
+"可以在上面摆放\n"
+"装饰品。"
 
 #: src/data/decoration/header.h:597
 msgid "STAND"
-msgstr ""
+msgstr "台座"
 
 #: src/data/decoration/header.h:602
 msgid ""
 "A large pedestal\n"
 "with steps."
 msgstr ""
+"带台阶的\n"
+"大台座。"
 
 #: src/data/decoration/header.h:612
 msgid "MUD BALL"
-msgstr ""
+msgstr "泥球"
 
 #: src/data/decoration/header.h:617
 msgid ""
@@ -394,10 +478,12 @@ msgid ""
 "Crumbles if stepped\n"
 "on."
 msgstr ""
+"大大的泥球。\n"
+"踩上去就会碎。"
 
 #: src/data/decoration/header.h:628
 msgid "BREAKABLE DOOR"
-msgstr ""
+msgstr "易碎门"
 
 #: src/data/decoration/header.h:633
 msgid ""
@@ -405,10 +491,12 @@ msgid ""
 "people can walk\n"
 "right through."
 msgstr ""
+"人可以直接穿过的\n"
+"奇怪的门。"
 
 #: src/data/decoration/header.h:644
 msgid "SAND ORNAMENT"
-msgstr ""
+msgstr "沙雕"
 
 #: src/data/decoration/header.h:649
 msgid ""
@@ -416,10 +504,13 @@ msgid ""
 "of sand. Crumbles if\n"
 "touched."
 msgstr ""
+"用沙子做的\n"
+"装饰品。\n"
+"一碰就会碎。"
 
 #: src/data/decoration/header.h:660
 msgid "SILVER SHIELD"
-msgstr ""
+msgstr "银盾"
 
 #: src/data/decoration/header.h:665
 msgid ""
@@ -427,10 +518,12 @@ msgid ""
 "straight wins at\n"
 "the BATTLE TOWER."
 msgstr ""
+"在对战塔取得\n"
+"50连胜的奖励。"
 
 #: src/data/decoration/header.h:676
 msgid "GOLD SHIELD"
-msgstr ""
+msgstr "金盾"
 
 #: src/data/decoration/header.h:681
 msgid ""
@@ -438,10 +531,12 @@ msgid ""
 "straight wins at\n"
 "the BATTLE TOWER."
 msgstr ""
+"在对战塔取得\n"
+"100连胜的奖励。"
 
 #: src/data/decoration/header.h:692
 msgid "GLASS ORNAMENT"
-msgstr ""
+msgstr "玻璃雕塑"
 
 #: src/data/decoration/header.h:697
 msgid ""
@@ -449,20 +544,24 @@ msgid ""
 "a famous sculpture\n"
 "at the ART MUSEUM."
 msgstr ""
+"美术馆著名雕塑\n"
+"的玻璃复制品。"
 
 #: src/data/decoration/header.h:708
 msgid "TV"
-msgstr ""
+msgstr "电视"
 
 #: src/data/decoration/header.h:713
 msgid ""
 "A small, gray-\n"
 "colored toy TV."
 msgstr ""
+"灰色的\n"
+"玩具小电视。"
 
 #: src/data/decoration/header.h:723
 msgid "ROUND TV"
-msgstr ""
+msgstr "圆形电视"
 
 #: src/data/decoration/header.h:728
 msgid ""
@@ -470,10 +569,12 @@ msgid ""
 "in the image of a\n"
 "SEEDOT."
 msgstr ""
+"仿照橡实果的\n"
+"玩具电视。"
 
 #: src/data/decoration/header.h:739
 msgid "CUTE TV"
-msgstr ""
+msgstr "可爱电视"
 
 #: src/data/decoration/header.h:744
 msgid ""
@@ -481,10 +582,12 @@ msgid ""
 "in the image of a\n"
 "SKITTY."
 msgstr ""
+"仿照向尾喵的\n"
+"玩具电视。"
 
 #: src/data/decoration/header.h:755
 msgid "GLITTER MAT"
-msgstr ""
+msgstr "闪亮垫子"
 
 #: src/data/decoration/header.h:760
 msgid ""
@@ -492,10 +595,12 @@ msgid ""
 "glitters if stepped\n"
 "on."
 msgstr ""
+"踩上去会闪闪\n"
+"发光的奇特垫子。"
 
 #: src/data/decoration/header.h:771
 msgid "JUMP MAT"
-msgstr ""
+msgstr "跳跳垫子"
 
 #: src/data/decoration/header.h:776
 msgid ""
@@ -503,10 +608,12 @@ msgid ""
 "jumps when it is\n"
 "stepped on."
 msgstr ""
+"踩上去会跳起来的\n"
+"机关垫子。"
 
 #: src/data/decoration/header.h:787
 msgid "SPIN MAT"
-msgstr ""
+msgstr "旋转垫子"
 
 #: src/data/decoration/header.h:792
 msgid ""
@@ -514,10 +621,12 @@ msgid ""
 "spins around when\n"
 "stepped on."
 msgstr ""
+"踩上去会转圈的\n"
+"机关垫子。"
 
 #: src/data/decoration/header.h:803
 msgid "C Low NOTE MAT"
-msgstr ""
+msgstr "低音C音符垫"
 
 #: src/data/decoration/header.h:808
 msgid ""
@@ -525,10 +634,12 @@ msgid ""
 "a low C note when\n"
 "stepped on."
 msgstr ""
+"踩上去会发出\n"
+"低音C的垫子。"
 
 #: src/data/decoration/header.h:819
 msgid "D NOTE MAT"
-msgstr ""
+msgstr "D音符垫"
 
 #: src/data/decoration/header.h:824
 msgid ""
@@ -536,10 +647,12 @@ msgid ""
 "a D note when\n"
 "stepped on."
 msgstr ""
+"踩上去会发出\n"
+"D音的垫子。"
 
 #: src/data/decoration/header.h:835
 msgid "E NOTE MAT"
-msgstr ""
+msgstr "E音符垫"
 
 #: src/data/decoration/header.h:840
 msgid ""
@@ -547,10 +660,12 @@ msgid ""
 "an E note when\n"
 "stepped on."
 msgstr ""
+"踩上去会发出\n"
+"E音的垫子。"
 
 #: src/data/decoration/header.h:851
 msgid "F NOTE MAT"
-msgstr ""
+msgstr "F音符垫"
 
 #: src/data/decoration/header.h:856
 msgid ""
@@ -558,10 +673,12 @@ msgid ""
 "an F note when\n"
 "stepped on."
 msgstr ""
+"踩上去会发出\n"
+"F音的垫子。"
 
 #: src/data/decoration/header.h:867
 msgid "G NOTE MAT"
-msgstr ""
+msgstr "G音符垫"
 
 #: src/data/decoration/header.h:872
 msgid ""
@@ -569,10 +686,12 @@ msgid ""
 "a G note when\n"
 "stepped on."
 msgstr ""
+"踩上去会发出\n"
+"G音的垫子。"
 
 #: src/data/decoration/header.h:883
 msgid "A NOTE MAT"
-msgstr ""
+msgstr "A音符垫"
 
 #: src/data/decoration/header.h:888
 msgid ""
@@ -580,10 +699,12 @@ msgid ""
 "an A note when\n"
 "stepped on."
 msgstr ""
+"踩上去会发出\n"
+"A音的垫子。"
 
 #: src/data/decoration/header.h:899
 msgid "B NOTE MAT"
-msgstr ""
+msgstr "B音符垫"
 
 #: src/data/decoration/header.h:904
 msgid ""
@@ -591,10 +712,12 @@ msgid ""
 "a B note when\n"
 "stepped on."
 msgstr ""
+"踩上去会发出\n"
+"B音的垫子。"
 
 #: src/data/decoration/header.h:915
 msgid "C High NOTE MAT"
-msgstr ""
+msgstr "高音C音符垫"
 
 #: src/data/decoration/header.h:920
 msgid ""
@@ -602,10 +725,12 @@ msgid ""
 "a high C note when\n"
 "stepped on."
 msgstr ""
+"踩上去会发出\n"
+"高音C的垫子。"
 
 #: src/data/decoration/header.h:931
 msgid "SURF MAT"
-msgstr ""
+msgstr "冲浪垫子"
 
 #: src/data/decoration/header.h:936
 msgid ""
@@ -613,10 +738,13 @@ msgid ""
 "a SURF image.\n"
 "Put items on top."
 msgstr ""
+"印有冲浪图案的\n"
+"垫子。可以在上面\n"
+"摆放东西。"
 
 #: src/data/decoration/header.h:947
 msgid "THUNDER MAT"
-msgstr ""
+msgstr "打雷垫子"
 
 #: src/data/decoration/header.h:952
 msgid ""
@@ -624,10 +752,13 @@ msgid ""
 "a THUNDER image.\n"
 "Put items on top."
 msgstr ""
+"印有打雷图案的\n"
+"垫子。可以在上面\n"
+"摆放东西。"
 
 #: src/data/decoration/header.h:963
 msgid "FIRE BLAST MAT"
-msgstr ""
+msgstr "大字爆炎垫子"
 
 #: src/data/decoration/header.h:968
 msgid ""
@@ -635,10 +766,13 @@ msgid ""
 "a FIRE BLAST image.\n"
 "Put items on top."
 msgstr ""
+"印有大字爆炎图案\n"
+"的垫子。可以在\n"
+"上面摆放东西。"
 
 #: src/data/decoration/header.h:979
 msgid "POWDER SNOW MAT"
-msgstr ""
+msgstr "细雪垫子"
 
 #: src/data/decoration/header.h:984
 msgid ""
@@ -646,10 +780,13 @@ msgid ""
 "SNOW image design.\n"
 "Put items on top."
 msgstr ""
+"印有细雪图案的\n"
+"垫子。可以在上面\n"
+"摆放东西。"
 
 #: src/data/decoration/header.h:995
 msgid "ATTRACT MAT"
-msgstr ""
+msgstr "迷人垫子"
 
 #: src/data/decoration/header.h:1000
 msgid ""
@@ -657,10 +794,13 @@ msgid ""
 "an ATTRACT image.\n"
 "Put items on top."
 msgstr ""
+"印有迷人图案的\n"
+"垫子。可以在上面\n"
+"摆放东西。"
 
 #: src/data/decoration/header.h:1011
 msgid "FISSURE MAT"
-msgstr ""
+msgstr "地裂垫子"
 
 #: src/data/decoration/header.h:1016
 msgid ""
@@ -668,10 +808,13 @@ msgid ""
 "a FISSURE image.\n"
 "Put items on top."
 msgstr ""
+"印有地裂图案的\n"
+"垫子。可以在上面\n"
+"摆放东西。"
 
 #: src/data/decoration/header.h:1027
 msgid "SPIKES MAT"
-msgstr ""
+msgstr "撒菱垫子"
 
 #: src/data/decoration/header.h:1032
 msgid ""
@@ -679,10 +822,13 @@ msgid ""
 "a SPIKES image.\n"
 "Put items on top."
 msgstr ""
+"印有撒菱图案的\n"
+"垫子。可以在上面\n"
+"摆放东西。"
 
 #: src/data/decoration/header.h:1043
 msgid "BALL POSTER"
-msgstr ""
+msgstr "精灵球海报"
 
 #: src/data/decoration/header.h:1048
 msgid ""
@@ -690,50 +836,60 @@ msgid ""
 "printed with POKé\n"
 "BALLS."
 msgstr ""
+"印有精灵球的\n"
+"小海报。"
 
 #: src/data/decoration/header.h:1059
 msgid "GREEN POSTER"
-msgstr ""
+msgstr "绿色海报"
 
 #: src/data/decoration/header.h:1064
 msgid ""
 "A small poster with\n"
 "a TREECKO print."
 msgstr ""
+"印有木守宫的\n"
+"小海报。"
 
 #: src/data/decoration/header.h:1074
 msgid "RED POSTER"
-msgstr ""
+msgstr "红色海报"
 
 #: src/data/decoration/header.h:1079
 msgid ""
 "A small poster with\n"
 "a TORCHIC print."
 msgstr ""
+"印有火稚鸡的\n"
+"小海报。"
 
 #: src/data/decoration/header.h:1089
 msgid "BLUE POSTER"
-msgstr ""
+msgstr "蓝色海报"
 
 #: src/data/decoration/header.h:1094
 msgid ""
 "A small poster with\n"
 "a MUDKIP print."
 msgstr ""
+"印有水跃鱼的\n"
+"小海报。"
 
 #: src/data/decoration/header.h:1104
 msgid "CUTE POSTER"
-msgstr ""
+msgstr "可爱海报"
 
 #: src/data/decoration/header.h:1109
 msgid ""
 "A small poster with\n"
 "an AZURILL print."
 msgstr ""
+"印有露力丽的\n"
+"小海报。"
 
 #: src/data/decoration/header.h:1119
 msgid "PIKA POSTER"
-msgstr ""
+msgstr "皮卡海报"
 
 #: src/data/decoration/header.h:1124
 msgid ""
@@ -741,50 +897,60 @@ msgid ""
 "a PIKACHU and\n"
 "PICHU print."
 msgstr ""
+"印有皮卡丘和\n"
+"皮丘的大海报。"
 
 #: src/data/decoration/header.h:1135
 msgid "LONG POSTER"
-msgstr ""
+msgstr "长海报"
 
 #: src/data/decoration/header.h:1140
 msgid ""
 "A large poster with\n"
 "a SEVIPER print."
 msgstr ""
+"印有饭匙蛇的\n"
+"大海报。"
 
 #: src/data/decoration/header.h:1150
 msgid "SEA POSTER"
-msgstr ""
+msgstr "大海海报"
 
 #: src/data/decoration/header.h:1155
 msgid ""
 "A large poster with\n"
 "a RELICANTH print."
 msgstr ""
+"印有古空棘鱼的\n"
+"大海报。"
 
 #: src/data/decoration/header.h:1165
 msgid "SKY POSTER"
-msgstr ""
+msgstr "天空海报"
 
 #: src/data/decoration/header.h:1170
 msgid ""
 "A large poster with\n"
 "a WINGULL print."
 msgstr ""
+"印有长翅鸥的\n"
+"大海报。"
 
 #: src/data/decoration/header.h:1180
 msgid "KISS POSTER"
-msgstr ""
+msgstr "亲亲海报"
 
 #: src/data/decoration/header.h:1185
 msgid ""
 "A large poster with\n"
 "a SMOOCHUM print."
 msgstr ""
+"印有迷唇娃的\n"
+"大海报。"
 
 #: src/data/decoration/header.h:1195
 msgid "PICHU DOLL"
-msgstr ""
+msgstr "皮丘玩偶"
 
 #: src/data/decoration/header.h:1200
 msgid ""
@@ -792,10 +958,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"皮丘玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1211
 msgid "PIKACHU DOLL"
-msgstr ""
+msgstr "皮卡丘玩偶"
 
 #: src/data/decoration/header.h:1216
 msgid ""
@@ -803,10 +972,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"皮卡丘玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1227
 msgid "MARILL DOLL"
-msgstr ""
+msgstr "玛力露玩偶"
 
 #: src/data/decoration/header.h:1232
 msgid ""
@@ -814,10 +986,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"玛力露玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1243
 msgid "TOGEPI DOLL"
-msgstr ""
+msgstr "波克比玩偶"
 
 #: src/data/decoration/header.h:1248
 msgid ""
@@ -825,10 +1000,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"波克比玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1259
 msgid "CYNDAQUIL DOLL"
-msgstr ""
+msgstr "火球鼠玩偶"
 
 #: src/data/decoration/header.h:1264
 msgid ""
@@ -836,10 +1014,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"火球鼠玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1275
 msgid "CHIKORITA DOLL"
-msgstr ""
+msgstr "菊草叶玩偶"
 
 #: src/data/decoration/header.h:1280
 msgid ""
@@ -847,10 +1028,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"菊草叶玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1291
 msgid "TOTODILE DOLL"
-msgstr ""
+msgstr "小锯鳄玩偶"
 
 #: src/data/decoration/header.h:1296
 msgid ""
@@ -858,10 +1042,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"小锯鳄玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1307
 msgid "JIGGLYPUFF DOLL"
-msgstr ""
+msgstr "胖丁玩偶"
 
 #: src/data/decoration/header.h:1312
 msgid ""
@@ -869,10 +1056,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"胖丁玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1323
 msgid "MEOWTH DOLL"
-msgstr ""
+msgstr "喵喵玩偶"
 
 #: src/data/decoration/header.h:1328
 msgid ""
@@ -880,10 +1070,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"喵喵玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1339
 msgid "CLEFAIRY DOLL"
-msgstr ""
+msgstr "皮皮玩偶"
 
 #: src/data/decoration/header.h:1344
 msgid ""
@@ -891,10 +1084,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"皮皮玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1355
 msgid "DITTO DOLL"
-msgstr ""
+msgstr "百变怪玩偶"
 
 #: src/data/decoration/header.h:1360
 msgid ""
@@ -902,10 +1098,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"百变怪玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1371
 msgid "SMOOCHUM DOLL"
-msgstr ""
+msgstr "迷唇娃玩偶"
 
 #: src/data/decoration/header.h:1376
 msgid ""
@@ -913,10 +1112,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"迷唇娃玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1387
 msgid "TREECKO DOLL"
-msgstr ""
+msgstr "木守宫玩偶"
 
 #: src/data/decoration/header.h:1392
 msgid ""
@@ -924,10 +1126,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"木守宫玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1403
 msgid "TORCHIC DOLL"
-msgstr ""
+msgstr "火稚鸡玩偶"
 
 #: src/data/decoration/header.h:1408
 msgid ""
@@ -935,10 +1140,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"火稚鸡玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1419
 msgid "MUDKIP DOLL"
-msgstr ""
+msgstr "水跃鱼玩偶"
 
 #: src/data/decoration/header.h:1424
 msgid ""
@@ -946,10 +1154,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"水跃鱼玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1435
 msgid "DUSKULL DOLL"
-msgstr ""
+msgstr "夜巡灵玩偶"
 
 #: src/data/decoration/header.h:1440
 msgid ""
@@ -957,10 +1168,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"夜巡灵玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1451
 msgid "WYNAUT DOLL"
-msgstr ""
+msgstr "小果然玩偶"
 
 #: src/data/decoration/header.h:1456
 msgid ""
@@ -968,10 +1182,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"小果然玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1467
 msgid "BALTOY DOLL"
-msgstr ""
+msgstr "天秤偶玩偶"
 
 #: src/data/decoration/header.h:1472
 msgid ""
@@ -979,10 +1196,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"天秤偶玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1483
 msgid "KECLEON DOLL"
-msgstr ""
+msgstr "变隐龙玩偶"
 
 #: src/data/decoration/header.h:1488
 msgid ""
@@ -990,10 +1210,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"变隐龙玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1499
 msgid "AZURILL DOLL"
-msgstr ""
+msgstr "露力丽玩偶"
 
 #: src/data/decoration/header.h:1504
 msgid ""
@@ -1001,10 +1224,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"露力丽玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1515
 msgid "SKITTY DOLL"
-msgstr ""
+msgstr "向尾喵玩偶"
 
 #: src/data/decoration/header.h:1520
 msgid ""
@@ -1012,10 +1238,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"向尾喵玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1531
 msgid "SWABLU DOLL"
-msgstr ""
+msgstr "青绵鸟玩偶"
 
 #: src/data/decoration/header.h:1536
 msgid ""
@@ -1023,10 +1252,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"青绵鸟玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1547
 msgid "GULPIN DOLL"
-msgstr ""
+msgstr "溶食兽玩偶"
 
 #: src/data/decoration/header.h:1552
 msgid ""
@@ -1034,10 +1266,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"溶食兽玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1563
 msgid "LOTAD DOLL"
-msgstr ""
+msgstr "莲叶童子玩偶"
 
 #: src/data/decoration/header.h:1568
 msgid ""
@@ -1045,10 +1280,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"莲叶童子玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1579
 msgid "SEEDOT DOLL"
-msgstr ""
+msgstr "橡实果玩偶"
 
 #: src/data/decoration/header.h:1584
 msgid ""
@@ -1056,10 +1294,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"橡实果玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1595
 msgid "PIKA CUSHION"
-msgstr ""
+msgstr "皮卡坐垫"
 
 #: src/data/decoration/header.h:1600
 msgid ""
@@ -1067,10 +1308,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"皮卡丘坐垫。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1611
 msgid "ROUND CUSHION"
-msgstr ""
+msgstr "圆圆坐垫"
 
 #: src/data/decoration/header.h:1616
 msgid ""
@@ -1078,10 +1322,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"玛力露坐垫。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1627
 msgid "KISS CUSHION"
-msgstr ""
+msgstr "亲亲坐垫"
 
 #: src/data/decoration/header.h:1632
 msgid ""
@@ -1089,10 +1336,13 @@ msgid ""
 "cushion. Place it on\n"
 "a mat or a desk."
 msgstr ""
+"迷唇娃坐垫。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1643
 msgid "ZIGZAG CUSHION"
-msgstr ""
+msgstr "之字坐垫"
 
 #: src/data/decoration/header.h:1648
 msgid ""
@@ -1100,10 +1350,13 @@ msgid ""
 "cushion. Place it on\n"
 "a mat or a desk."
 msgstr ""
+"蛇纹熊坐垫。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1659
 msgid "SPIN CUSHION"
-msgstr ""
+msgstr "旋转坐垫"
 
 #: src/data/decoration/header.h:1664
 msgid ""
@@ -1111,10 +1364,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"晃晃斑坐垫。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1675
 msgid "DIAMOND CUSHION"
-msgstr ""
+msgstr "钻石坐垫"
 
 #: src/data/decoration/header.h:1680
 msgid ""
@@ -1122,10 +1378,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"勾魂眼坐垫。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1691
 msgid "BALL CUSHION"
-msgstr ""
+msgstr "精灵球坐垫"
 
 #: src/data/decoration/header.h:1696
 msgid ""
@@ -1133,10 +1392,13 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"精灵球坐垫。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1707
 msgid "GRASS CUSHION"
-msgstr ""
+msgstr "草之坐垫"
 
 #: src/data/decoration/header.h:1712
 msgid ""
@@ -1144,10 +1406,13 @@ msgid ""
 "cushion. Place it on\n"
 "a mat or a desk."
 msgstr ""
+"有草标志的坐垫。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1723
 msgid "FIRE CUSHION"
-msgstr ""
+msgstr "火之坐垫"
 
 #: src/data/decoration/header.h:1728
 msgid ""
@@ -1155,10 +1420,13 @@ msgid ""
 "cushion. Place it on\n"
 "a mat or a desk."
 msgstr ""
+"有火标志的坐垫。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1739
 msgid "WATER CUSHION"
-msgstr ""
+msgstr "水之坐垫"
 
 #: src/data/decoration/header.h:1744
 msgid ""
@@ -1166,10 +1434,13 @@ msgid ""
 "cushion. Place it on\n"
 "a mat or a desk."
 msgstr ""
+"有水标志的坐垫。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1755
 msgid "SNORLAX DOLL"
-msgstr ""
+msgstr "卡比兽玩偶"
 
 #: src/data/decoration/header.h:1760 src/data/decoration/header.h:1776 src/data/decoration/header.h:1792 src/data/decoration/header.h:1808 src/data/decoration/header.h:1824 src/data/decoration/header.h:1840 src/data/decoration/header.h:1856 src/data/decoration/header.h:1872 (+2 more)
 msgid ""
@@ -1177,39 +1448,42 @@ msgid ""
 "Place it on a mat\n"
 "or a desk."
 msgstr ""
+"大型玩偶。\n"
+"可以放在垫子或\n"
+"桌子上。"
 
 #: src/data/decoration/header.h:1771
 msgid "RHYDON DOLL"
-msgstr ""
+msgstr "钻角犀兽玩偶"
 
 #: src/data/decoration/header.h:1787
 msgid "LAPRAS DOLL"
-msgstr ""
+msgstr "拉普拉斯玩偶"
 
 #: src/data/decoration/header.h:1803
 msgid "VENUSAUR DOLL"
-msgstr ""
+msgstr "妙蛙花玩偶"
 
 #: src/data/decoration/header.h:1819
 msgid "CHARIZARD DOLL"
-msgstr ""
+msgstr "喷火龙玩偶"
 
 #: src/data/decoration/header.h:1835
 msgid "BLASTOISE DOLL"
-msgstr ""
+msgstr "水箭龟玩偶"
 
 #: src/data/decoration/header.h:1851
 msgid "WAILMER DOLL"
-msgstr ""
+msgstr "吼吼鲸玩偶"
 
 #: src/data/decoration/header.h:1867
 msgid "REGIROCK DOLL"
-msgstr ""
+msgstr "雷吉洛克玩偶"
 
 #: src/data/decoration/header.h:1883
 msgid "REGICE DOLL"
-msgstr ""
+msgstr "雷吉艾斯玩偶"
 
 #: src/data/decoration/header.h:1899
 msgid "REGISTEEL DOLL"
-msgstr ""
+msgstr "雷吉斯奇鲁玩偶"

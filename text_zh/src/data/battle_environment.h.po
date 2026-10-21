@@ -7,140 +7,140 @@ msgstr ""
 
 #: src/data/battle_environment.h:72
 msgid "Grass"
-msgstr ""
+msgstr "草地"
 
 #: src/data/battle_environment.h:92
 msgid "Long Grass"
-msgstr ""
+msgstr "高草丛"
 
 #: src/data/battle_environment.h:112
 msgid "Sand"
-msgstr ""
+msgstr "沙地"
 
 #: src/data/battle_environment.h:126
 msgid "Underwater"
-msgstr ""
+msgstr "水中"
 
 #: src/data/battle_environment.h:140
 msgid "Water"
-msgstr ""
+msgstr "水面"
 
 #: src/data/battle_environment.h:154
 msgid "Pond"
-msgstr ""
+msgstr "池塘"
 
 #: src/data/battle_environment.h:168
 msgid "Mountain"
-msgstr ""
+msgstr "山地"
 
 #: src/data/battle_environment.h:194
 msgid "Cave"
-msgstr ""
+msgstr "洞窟"
 
 #: src/data/battle_environment.h:208
 msgid "Building"
-msgstr ""
+msgstr "建筑物"
 
 #: src/data/battle_environment.h:222
 msgid "Plain"
-msgstr ""
+msgstr "平地"
 
 #: src/data/battle_environment.h:236
 msgid "Frontier"
-msgstr ""
+msgstr "对战开拓区"
 
 #: src/data/battle_environment.h:249
 msgid "Gym"
-msgstr ""
+msgstr "道馆"
 
 #: src/data/battle_environment.h:262
 msgid "Leader"
-msgstr ""
+msgstr "馆主"
 
 #: src/data/battle_environment.h:275
 msgid "Magma"
-msgstr ""
+msgstr "熔岩队"
 
 #: src/data/battle_environment.h:288
 msgid "Aqua"
-msgstr ""
+msgstr "海洋队"
 
 #: src/data/battle_environment.h:301
 msgid "Sidney"
-msgstr ""
+msgstr "花月"
 
 #: src/data/battle_environment.h:314
 msgid "Phoebe"
-msgstr ""
+msgstr "芙蓉"
 
 #: src/data/battle_environment.h:327
 msgid "Glacia"
-msgstr ""
+msgstr "波妮"
 
 #: src/data/battle_environment.h:340
 msgid "Drake"
-msgstr ""
+msgstr "源治"
 
 #: src/data/battle_environment.h:353
 msgid "Champion"
-msgstr ""
+msgstr "冠军"
 
 #: src/data/battle_environment.h:366
 msgid "Groudon"
-msgstr ""
+msgstr "固拉多"
 
 #: src/data/battle_environment.h:380
 msgid "Kyogre"
-msgstr ""
+msgstr "盖欧卡"
 
 #: src/data/battle_environment.h:394
 msgid "Rayquaza"
-msgstr ""
+msgstr "烈空坐"
 
 #: src/data/battle_environment.h:408
 msgid "Soaring"
-msgstr ""
+msgstr "翱翔"
 
 #: src/data/battle_environment.h:418
 msgid "Sky Pillar"
-msgstr ""
+msgstr "天空柱"
 
 #: src/data/battle_environment.h:428
 msgid "Burial Ground"
-msgstr ""
+msgstr "墓地"
 
 #: src/data/battle_environment.h:438
 msgid "Puddle"
-msgstr ""
+msgstr "水洼"
 
 #: src/data/battle_environment.h:448
 msgid "Marsh"
-msgstr ""
+msgstr "湿地"
 
 #: src/data/battle_environment.h:458
 msgid "Swamp"
-msgstr ""
+msgstr "沼泽"
 
 #: src/data/battle_environment.h:468
 msgid "Snow"
-msgstr ""
+msgstr "雪地"
 
 #: src/data/battle_environment.h:484
 msgid "Ice"
-msgstr ""
+msgstr "冰面"
 
 #: src/data/battle_environment.h:494
 msgid "Volcano"
-msgstr ""
+msgstr "火山"
 
 #: src/data/battle_environment.h:504
 msgid "Distortion World"
-msgstr ""
+msgstr "毁坏的世界"
 
 #: src/data/battle_environment.h:514
 msgid "Space"
-msgstr ""
+msgstr "太空"
 
 #: src/data/battle_environment.h:524
 msgid "Ultra Space"
-msgstr ""
+msgstr "究极空间"

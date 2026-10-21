@@ -7,56 +7,56 @@ msgstr ""
 
 #: src/data/party_menu.h:758
 msgid "You have no POKéMON."
-msgstr ""
+msgstr "你没有宝可梦。"
 
 #: src/data/party_menu.h:799 src/data/easy_chat/easy_chat_group_lifestyle.h:178
 msgid "ITEM"
-msgstr ""
+msgstr "道具"
 
 #: src/data/party_menu.h:803 src/data/easy_chat/easy_chat_group_lifestyle.h:220
 msgid "MAIL"
-msgstr ""
+msgstr "邮件"
 
 #: src/data/party_menu.h:808
 msgid "SEND OUT"
-msgstr ""
+msgstr "派出"
 
 #: src/data/party_menu.h:809 src/data/script_menu.h:13
 msgid "ENTER"
-msgstr ""
+msgstr "参加"
 
 #: src/data/party_menu.h:810
 msgid "NO ENTRY"
-msgstr ""
+msgstr "不参加"
 
 #: src/data/party_menu.h:816
 msgid "Light bulb"
-msgstr ""
+msgstr "电灯泡"
 
 #: src/data/party_menu.h:817
 msgid "Microwave oven"
-msgstr ""
+msgstr "微波炉"
 
 #: src/data/party_menu.h:818
 msgid "Washing machine"
-msgstr ""
+msgstr "洗衣机"
 
 #: src/data/party_menu.h:819
 msgid "Refrigerator"
-msgstr ""
+msgstr "冰箱"
 
 #: src/data/party_menu.h:820
 msgid "Electric fan"
-msgstr ""
+msgstr "电风扇"
 
 #: src/data/party_menu.h:821
 msgid "Lawn mower"
-msgstr ""
+msgstr "割草机"
 
 #: src/data/party_menu.h:822
 msgid "Change form"
-msgstr ""
+msgstr "改变形态"
 
 #: src/data/party_menu.h:823
 msgid "Change Ability"
-msgstr ""
+msgstr "改变特性"

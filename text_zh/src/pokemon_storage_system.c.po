@@ -7,233 +7,239 @@ msgstr ""
 
 #: src/pokemon_storage_system.c:861
 msgid "There is just one POKéMON with you."
-msgstr ""
+msgstr "你身边只有一只宝可梦。"
 
 #: src/pokemon_storage_system.c:862
 msgid "Your party is full!"
-msgstr ""
+msgstr "同行的宝可梦已经满了！"
 
 #: src/pokemon_storage_system.c:863
 msgid "BOX"
-msgstr ""
+msgstr "盒子"
 
 #: src/pokemon_storage_system.c:870
 msgid "WITHDRAW POKéMON"
-msgstr ""
+msgstr "带走宝可梦"
 
 #: src/pokemon_storage_system.c:870
 msgid ""
 "Move POKéMON stored in BOXES to\n"
 "your party."
 msgstr ""
+"把盒子里的宝可梦\n"
+"带到同行队伍中。"
 
 #: src/pokemon_storage_system.c:871
 msgid "DEPOSIT POKéMON"
-msgstr ""
+msgstr "寄放宝可梦"
 
 #: src/pokemon_storage_system.c:871
 msgid "Store POKéMON in your party in BOXES."
-msgstr ""
+msgstr "把同行的宝可梦寄放到盒子里。"
 
 #: src/pokemon_storage_system.c:872
 msgid "MOVE POKéMON"
-msgstr ""
+msgstr "整理宝可梦"
 
 #: src/pokemon_storage_system.c:872
 msgid ""
 "Organize the POKéMON in BOXES and\n"
 "in your party."
 msgstr ""
+"整理盒子里和\n"
+"同行队伍中的宝可梦。"
 
 #: src/pokemon_storage_system.c:873
 msgid "MOVE ITEMS"
-msgstr ""
+msgstr "整理道具"
 
 #: src/pokemon_storage_system.c:873
 msgid ""
 "Move items held by any POKéMON\n"
 "in a BOX or your party."
 msgstr ""
+"整理盒子里或同行队伍中\n"
+"宝可梦携带的道具。"
 
 #: src/pokemon_storage_system.c:874
 msgid "SEE YA!"
-msgstr ""
+msgstr "再见！"
 
 #: src/pokemon_storage_system.c:874
 msgid "Return to the previous menu."
-msgstr ""
+msgstr "返回上一个菜单。"
 
 #: src/pokemon_storage_system.c:933
 msgid "/30"
-msgstr ""
+msgstr "/30"
 
 #: src/pokemon_storage_system.c:1047
 msgid "{DYNAMIC 0} is selected."
-msgstr ""
+msgstr "选择了{DYNAMIC 0}。"
 
 #: src/pokemon_storage_system.c:1051
 msgid "Exit from the BOX?"
-msgstr ""
+msgstr "要离开盒子吗？"
 
 #: src/pokemon_storage_system.c:1052
 msgid "What do you want to do?"
-msgstr ""
+msgstr "要做什么？"
 
 #: src/pokemon_storage_system.c:1053
 msgid "Please pick a theme."
-msgstr ""
+msgstr "请选择主题。"
 
 #: src/pokemon_storage_system.c:1054
 msgid "Pick the wallpaper."
-msgstr ""
+msgstr "请选择壁纸。"
 
 #: src/pokemon_storage_system.c:1056
 msgid "Jump to which BOX?"
-msgstr ""
+msgstr "要跳到哪个盒子？"
 
 #: src/pokemon_storage_system.c:1057
 msgid "Deposit in which BOX?"
-msgstr ""
+msgstr "要寄放到哪个盒子？"
 
 #: src/pokemon_storage_system.c:1058
 msgid "{DYNAMIC 0} was deposited."
-msgstr ""
+msgstr "{DYNAMIC 0}寄放好了。"
 
 #: src/pokemon_storage_system.c:1059
 msgid "The BOX is full."
-msgstr ""
+msgstr "盒子已经满了。"
 
 #: src/pokemon_storage_system.c:1060
 msgid "Release this POKéMON?"
-msgstr ""
+msgstr "要放生这只宝可梦吗？"
 
 #: src/pokemon_storage_system.c:1061
 msgid "{DYNAMIC 0} was released."
-msgstr ""
+msgstr "{DYNAMIC 0}被放生了。"
 
 #: src/pokemon_storage_system.c:1062
 msgid "Bye-bye, {DYNAMIC 0}!"
-msgstr ""
+msgstr "再见了，{DYNAMIC 0}！"
 
 #: src/pokemon_storage_system.c:1063
 msgid "Mark your POKéMON."
-msgstr ""
+msgstr "请给宝可梦做标记。"
 
 #: src/pokemon_storage_system.c:1064
 msgid "That's your last POKéMON!"
-msgstr ""
+msgstr "这是你最后一只宝可梦！"
 
 #: src/pokemon_storage_system.c:1066
 msgid "You're holding a POKéMON!"
-msgstr ""
+msgstr "你正拿着宝可梦！"
 
 #: src/pokemon_storage_system.c:1067
 msgid "Which one will you take?"
-msgstr ""
+msgstr "要拿哪一只？"
 
 #: src/pokemon_storage_system.c:1068
 msgid "You can't release an EGG."
-msgstr ""
+msgstr "不能放生蛋。"
 
 #: src/pokemon_storage_system.c:1069
 msgid "Continue BOX operations?"
-msgstr ""
+msgstr "要继续整理盒子吗？"
 
 #: src/pokemon_storage_system.c:1070
 msgid "{DYNAMIC 0} came back!"
-msgstr ""
+msgstr "{DYNAMIC 0}回来了！"
 
 #: src/pokemon_storage_system.c:1071
 msgid "Was it worried about you?"
-msgstr ""
+msgstr "它是在担心你吗？"
 
 #: src/pokemon_storage_system.c:1072
 msgid "… … … … !"
-msgstr ""
+msgstr "…………！"
 
 #: src/pokemon_storage_system.c:1073
 msgid "Please remove the MAIL."
-msgstr ""
+msgstr "请先取下邮件。"
 
 #: src/pokemon_storage_system.c:1075
 msgid "GIVE to a POKéMON?"
-msgstr ""
+msgstr "要让宝可梦携带吗？"
 
 #: src/pokemon_storage_system.c:1076
 msgid "Placed item in the BAG."
-msgstr ""
+msgstr "把道具放进了背包。"
 
 #: src/pokemon_storage_system.c:1077
 msgid "The BAG is full."
-msgstr ""
+msgstr "背包已经满了。"
 
 #: src/pokemon_storage_system.c:1078
 msgid "Put this item in the BAG?"
-msgstr ""
+msgstr "要把道具放进背包吗？"
 
 #: src/pokemon_storage_system.c:1079
 msgid "{DYNAMIC 0} is now held."
-msgstr ""
+msgstr "携带了{DYNAMIC 0}。"
 
 #: src/pokemon_storage_system.c:1080
 msgid "Changed to {DYNAMIC 0}."
-msgstr ""
+msgstr "换成了{DYNAMIC 0}。"
 
 #: src/pokemon_storage_system.c:1081
 msgid "MAIL can't be stored!"
-msgstr ""
+msgstr "邮件无法存放！"
 
 #: src/pokemon_storage_system.c:8071 src/data/party_menu.h:811 src/data/easy_chat/easy_chat_group_lifestyle.h:70
 msgid "STORE"
-msgstr ""
+msgstr "寄放"
 
 #: src/pokemon_storage_system.c:8072
 msgid "WITHDRAW"
-msgstr ""
+msgstr "带走"
 
 #: src/pokemon_storage_system.c:8073 src/data/party_menu.h:802 src/data/easy_chat/easy_chat_group_battle.h:376
 msgid "MOVE"
-msgstr ""
+msgstr "移动"
 
 #: src/pokemon_storage_system.c:8074 src/data/party_menu.h:807
 msgid "SHIFT"
-msgstr ""
+msgstr "替换"
 
 #: src/pokemon_storage_system.c:8075 src/data/easy_chat/easy_chat_group_people.h:166
 msgid "PLACE"
-msgstr ""
+msgstr "放下"
 
 #: src/pokemon_storage_system.c:8076 src/strings.c:932 src/strings.c:943 src/data/party_menu.h:796 src/data/trade.h:46 src/data/trade.h:50
 msgid "SUMMARY"
-msgstr ""
+msgstr "查看能力"
 
 #: src/pokemon_storage_system.c:8077 src/data/easy_chat/easy_chat_group_actions.h:322
 msgid "RELEASE"
-msgstr ""
+msgstr "放生"
 
 #: src/pokemon_storage_system.c:8078 src/data/trainers.h:7071
 msgid "MARK"
-msgstr ""
+msgstr "标记"
 
 #: src/pokemon_storage_system.c:8079 src/data/script_menu.h:237
 msgid "JUMP"
-msgstr ""
+msgstr "跳转"
 
 #: src/pokemon_storage_system.c:8080
 msgid "WALLPAPER"
-msgstr ""
+msgstr "壁纸"
 
 #: src/pokemon_storage_system.c:8081 src/strings.c:61 src/data/easy_chat/easy_chat_group_lifestyle.h:184
 msgid "NAME"
-msgstr ""
+msgstr "名字"
 
 #: src/pokemon_storage_system.c:8082 src/data/party_menu.h:801 src/data/party_menu.h:804 src/data/easy_chat/easy_chat_group_actions.h:430
 msgid "TAKE"
-msgstr ""
+msgstr "拿走"
 
 #: src/pokemon_storage_system.c:8085 src/strings.c:325 src/data/party_menu.h:797
 msgid "SWITCH"
-msgstr ""
+msgstr "交换"
 
 #: src/pokemon_storage_system.c:8086 src/strings.c:429 src/strings.c:876 src/data/easy_chat/easy_chat_group_trainer.h:130
 msgid "BAG"
@@ -241,84 +247,90 @@ msgstr "背包"
 
 #: src/pokemon_storage_system.c:8087 src/strings.c:330 src/data/script_menu.h:9 src/data/script_menu.h:101 src/data/union_room.h:543
 msgid "INFO"
-msgstr ""
+msgstr "说明"
 
 #: src/pokemon_storage_system.c:8088
 msgid "SCENERY 1"
-msgstr ""
+msgstr "风景1"
 
 #: src/pokemon_storage_system.c:8089
 msgid "SCENERY 2"
-msgstr ""
+msgstr "风景2"
 
 #: src/pokemon_storage_system.c:8090
 msgid "SCENERY 3"
-msgstr ""
+msgstr "风景3"
 
 #: src/pokemon_storage_system.c:8091
 msgid "ETCETERA"
-msgstr ""
+msgstr "其他"
 
 #: src/pokemon_storage_system.c:8092
 msgid "FRIENDS"
-msgstr ""
+msgstr "朋友"
 
 #: src/pokemon_storage_system.c:8093
 msgid "FOREST"
-msgstr ""
+msgstr "森林"
 
 #: src/pokemon_storage_system.c:8094
 msgid "CITY"
-msgstr ""
+msgstr "城市"
 
 #: src/pokemon_storage_system.c:8096
 msgid "SAVANNA"
-msgstr ""
+msgstr "草原"
 
 #: src/pokemon_storage_system.c:8097
 msgid "CRAG"
-msgstr ""
+msgstr "岩山"
 
 #: src/pokemon_storage_system.c:8098
 msgid "VOLCANO"
-msgstr ""
+msgstr "火山"
 
 #: src/pokemon_storage_system.c:8100
 msgid "CAVE"
-msgstr ""
+msgstr "洞窟"
 
 #: src/pokemon_storage_system.c:8101
 msgid "BEACH"
-msgstr ""
+msgstr "海滩"
 
 #: src/pokemon_storage_system.c:8102 src/strings.c:1093
 msgid "SEAFLOOR"
-msgstr ""
+msgstr "海底"
 
 #: src/pokemon_storage_system.c:8103
 msgid "RIVER"
-msgstr ""
+msgstr "河流"
 
 #: src/pokemon_storage_system.c:8104
 msgid "SKY"
-msgstr ""
+msgstr "天空"
 
 #: src/pokemon_storage_system.c:8105
 msgid "POLKA-DOT"
-msgstr ""
+msgstr "圆点"
 
 #: src/pokemon_storage_system.c:8106
 msgid "POKéCENTER"
-msgstr ""
+msgstr "宝可梦中心"
 
 #: src/pokemon_storage_system.c:8107 src/data/easy_chat/easy_chat_group_lifestyle.h:214
 msgid "MACHINE"
-msgstr ""
+msgstr "机械"
 
 #: src/pokemon_storage_system.c:8108 src/data/easy_chat/easy_chat_group_conditions.h:400
 msgid "SIMPLE"
-msgstr ""
+msgstr "简约"
 
 #: src/pokemon_storage_system.c:8109 src/strings.c:34
 msgid "SELECT"
-msgstr ""
+msgstr "选择"
+
+# A trainer named Mark (not the box command).
+#: src/data/trainers.h:7071
+msgctxt "src/data/trainers.h"
+msgid "MARK"
+msgstr "马克"

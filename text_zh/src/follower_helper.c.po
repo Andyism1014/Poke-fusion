@@ -7,260 +7,330 @@ msgstr ""
 
 #: src/follower_helper.c:18
 msgid "{STR_VAR_1} danced happily."
-msgstr ""
+msgstr "{STR_VAR_1}开心地跳起了舞。"
 
 #: src/follower_helper.c:19
 msgid "{STR_VAR_1} danced beautifully."
-msgstr ""
+msgstr "{STR_VAR_1}跳起了优美的舞蹈。"
 
 #: src/follower_helper.c:21
 msgid "{STR_VAR_1} emitted fire and shouted."
-msgstr ""
+msgstr "{STR_VAR_1}一边喷火一边大叫。"
 
 #: src/follower_helper.c:22
 msgid ""
 "{STR_VAR_1} is vigorously producing\n"
 "fire!"
 msgstr ""
+"{STR_VAR_1}正在猛烈地\n"
+"喷着火焰！"
 
 #: src/follower_helper.c:23
 msgid "{STR_VAR_1} spat fire!"
-msgstr ""
+msgstr "{STR_VAR_1}吐出了火焰！"
 
 #: src/follower_helper.c:24
 msgid ""
 "{STR_VAR_1} is vigorously breathing\n"
 "fire!"
 msgstr ""
+"{STR_VAR_1}正在猛烈地\n"
+"吐着火焰！"
 
 #: src/follower_helper.c:26
 msgid ""
 "{STR_VAR_1} is staring straight at\n"
 "the POKéMON LEAGUE."
 msgstr ""
+"{STR_VAR_1}正目不转睛地\n"
+"望着宝可梦联盟。"
 
 #: src/follower_helper.c:27
 msgid ""
 "Your POKéMON is staring intently at\n"
 "the mountain peak."
 msgstr ""
+"你的宝可梦正专注地\n"
+"望着山顶。"
 
 #: src/follower_helper.c:28
 msgid "Sniff sniff, something smells good!"
-msgstr ""
+msgstr "嗅嗅，有好香的味道！"
 
 #: src/follower_helper.c:29
 msgid ""
 "Your POKéMON is surveying the\n"
 "shelves restlessly."
 msgstr ""
+"你的宝可梦正坐立不安地\n"
+"打量着货架。"
 
 #: src/follower_helper.c:30
 msgid ""
 "{STR_VAR_1} is staring intently at\n"
 "the shelves."
 msgstr ""
+"{STR_VAR_1}正专注地\n"
+"盯着货架。"
 
 #: src/follower_helper.c:32 src/data/text/follower_messages.h:163
 msgid ""
 "{STR_VAR_1} focused with a sharp\n"
 "gaze!"
 msgstr ""
+"{STR_VAR_1}目光锐利，\n"
+"集中起了精神！"
 
 #: src/follower_helper.c:33
 msgid ""
 "{STR_VAR_1} seems very interested in\n"
 "the bicycles."
 msgstr ""
+"{STR_VAR_1}似乎对\n"
+"自行车很感兴趣。"
 
 #: src/follower_helper.c:34
 msgid ""
 "{STR_VAR_1} seems to want to touch\n"
 "the machines!"
 msgstr ""
+"{STR_VAR_1}好像很想\n"
+"摸摸那些机器！"
 
 #: src/follower_helper.c:35
 msgid ""
 "{STR_VAR_1} is swaying with the\n"
 "boat!"
 msgstr ""
+"{STR_VAR_1}正随着船\n"
+"摇来摇去！"
 
 #: src/follower_helper.c:36
 msgid ""
 "{STR_VAR_1} is dancing along with\n"
 "the rolling of the ship."
 msgstr ""
+"{STR_VAR_1}正随着船的摇晃\n"
+"跳起舞来。"
 
 #: src/follower_helper.c:37
 msgid ""
 "{STR_VAR_1} doesn't want to get off\n"
 "the boat yet!"
 msgstr ""
+"{STR_VAR_1}好像还不想\n"
+"下船！"
 
 #: src/follower_helper.c:39
 msgid ""
 "{STR_VAR_1} is listening to the\n"
 "sound of the machines."
 msgstr ""
+"{STR_VAR_1}正在聆听\n"
+"机器的声音。"
 
 #: src/follower_helper.c:41
 msgid ""
 "Waah! Your POKéMON suddenly splashed\n"
 "water!"
 msgstr ""
+"哇！你的宝可梦突然\n"
+"溅起了水花！"
 
 #: src/follower_helper.c:42
 msgid ""
 "Your POKéMON is blowing sand in the\n"
 "air!"
 msgstr ""
+"你的宝可梦正把沙子\n"
+"扬到空中！"
 
 #: src/follower_helper.c:43
 msgid ""
 "{STR_VAR_1} is playing around,\n"
 "plucking bits of grass."
 msgstr ""
+"{STR_VAR_1}正在玩耍，\n"
+"一点点地拔着草。"
 
 #: src/follower_helper.c:44
 msgid ""
 "Your POKéMON is happily looking at\n"
 "your footprints!"
 msgstr ""
+"你的宝可梦正开心地\n"
+"看着你的脚印！"
 
 #: src/follower_helper.c:45
 msgid ""
 "{STR_VAR_1} is feeling nervous and a\n"
 "touch claustrophobic."
 msgstr ""
+"{STR_VAR_1}有点紧张，\n"
+"觉得有些憋闷。"
 
 #: src/follower_helper.c:46
 msgid ""
 "{STR_VAR_1} is cautious about the\n"
 "confined area!"
 msgstr ""
+"{STR_VAR_1}对这狭窄的地方\n"
+"很警惕！"
 
 #: src/follower_helper.c:48
 msgid "A cold wind suddenly blew by!"
-msgstr ""
+msgstr "突然吹来一阵冷风！"
 
 #: src/follower_helper.c:49
 msgid ""
 "Your POKéMON almost slipped and fell\n"
 "over!"
 msgstr ""
+"你的宝可梦差点\n"
+"滑倒了！"
 
 #: src/follower_helper.c:50
 msgid ""
 "Your POKéMON seems surprised to\n"
 "touch ice."
 msgstr ""
+"你的宝可梦碰到冰，\n"
+"似乎吓了一跳。"
 
 #: src/follower_helper.c:52
 msgid ""
 "Your POKéMON has a flower petal on\n"
 "its face!"
 msgstr ""
+"你的宝可梦脸上\n"
+"沾了一片花瓣！"
 
 #: src/follower_helper.c:53
 msgid "{STR_VAR_1} is growling softly."
-msgstr ""
+msgstr "{STR_VAR_1}正在低声吼叫。"
 
 #: src/follower_helper.c:54
 msgid "{STR_VAR_1} is trembling with fear."
-msgstr ""
+msgstr "{STR_VAR_1}害怕得发抖。"
 
 #: src/follower_helper.c:55
 msgid "{STR_VAR_1} seems somehow sad…"
-msgstr ""
+msgstr "{STR_VAR_1}好像有点难过……"
 
 #: src/follower_helper.c:57 src/data/text/follower_messages.h:127
 msgid ""
 "{STR_VAR_1} is taking shelter in the\n"
 "grass from the rain."
 msgstr ""
+"{STR_VAR_1}正躲在草丛里\n"
+"避雨。"
 
 #: src/follower_helper.c:58
 msgid "{STR_VAR_1} seems very cold."
-msgstr ""
+msgstr "{STR_VAR_1}好像很冷。"
 
 #: src/follower_helper.c:59
 msgid "{STR_VAR_1} is staring at the sea."
-msgstr ""
+msgstr "{STR_VAR_1}正望着大海。"
 
 #: src/follower_helper.c:60
 msgid ""
 "Your POKéMON is staring intently at\n"
 "the sea!"
 msgstr ""
+"你的宝可梦正专注地\n"
+"望着大海！"
 
 #: src/follower_helper.c:61
 msgid ""
 "{STR_VAR_1} is looking at the\n"
 "surging sea."
 msgstr ""
+"{STR_VAR_1}正望着\n"
+"汹涌的大海。"
 
 #: src/follower_helper.c:63
 msgid ""
 "{STR_VAR_1} is listening to the\n"
 "sound of the waterfall."
 msgstr ""
+"{STR_VAR_1}正在聆听\n"
+"瀑布的声音。"
 
 #: src/follower_helper.c:64
 msgid ""
 "{STR_VAR_1} seems to be happy about\n"
 "the rain!"
 msgstr ""
+"{STR_VAR_1}好像\n"
+"因为下雨而很开心！"
 
 #: src/follower_helper.c:65
 msgid ""
 "{STR_VAR_1} is staring at its\n"
 "reflection in the water."
 msgstr ""
+"{STR_VAR_1}正盯着\n"
+"水中自己的倒影。"
 
 #: src/follower_helper.c:66
 msgid ""
 "{STR_VAR_1} seems to relax as it\n"
 "hears the sound of rustling leaves…"
 msgstr ""
+"{STR_VAR_1}听着树叶沙沙作响，\n"
+"似乎很放松……"
 
 #: src/follower_helper.c:67
 msgid "{STR_VAR_1} is gnawing at the ice."
-msgstr ""
+msgstr "{STR_VAR_1}正在啃冰块。"
 
 #: src/follower_helper.c:68
 msgid "{STR_VAR_1} is touching the ice."
-msgstr ""
+msgstr "{STR_VAR_1}正在摸冰块。"
 
 #: src/follower_helper.c:70
 msgid "{STR_VAR_1}'s burn looks painful!"
 msgstr ""
+"{STR_VAR_1}的灼伤\n"
+"看起来很疼！"
 
 #: src/follower_helper.c:71
 msgid ""
 "{STR_VAR_1} is happy to see what's\n"
 "outdoors!"
 msgstr ""
+"{STR_VAR_1}很开心\n"
+"能看到外面的世界！"
 
 #: src/follower_helper.c:72
 msgid ""
 "{STR_VAR_1} is looking up at the\n"
 "sky."
 msgstr ""
+"{STR_VAR_1}正在\n"
+"仰望天空。"
 
 #: src/follower_helper.c:74
 msgid ""
 "Your POKéMON is staring spellbound\n"
 "at the night sky!"
 msgstr ""
+"你的宝可梦正着迷地\n"
+"凝望着夜空！"
 
 #: src/follower_helper.c:75
 msgid ""
 "Your POKéMON is happily gazing at\n"
 "the beautiful, starry sky!"
 msgstr ""
+"你的宝可梦正开心地\n"
+"凝望着美丽的星空！"
 
 #: src/follower_helper.c:77
 msgid ""
 "{STR_VAR_1} is disturbed by the\n"
 "abnormal weather!"
 msgstr ""
+"{STR_VAR_1}被异常的天气\n"
+"弄得心神不宁！"

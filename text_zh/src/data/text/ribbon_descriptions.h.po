@@ -7,48 +7,48 @@ msgstr ""
 
 #: src/data/text/ribbon_descriptions.h:1
 msgid "CHAMPION-beating, HALL"
-msgstr ""
+msgstr "打败冠军、入选殿堂"
 
 #: src/data/text/ribbon_descriptions.h:2
 msgid "OF FAME Member RIBBON"
-msgstr ""
+msgstr "的成员获得的奖章"
 
 #: src/data/text/ribbon_descriptions.h:8
 msgid "Normal Rank winner!"
-msgstr ""
+msgstr "普通级优胜！"
 
 #: src/data/text/ribbon_descriptions.h:9
 msgid "Super Rank winner!"
-msgstr ""
+msgstr "超级优胜！"
 
 #: src/data/text/ribbon_descriptions.h:10
 msgid "Hyper Rank winner!"
-msgstr ""
+msgstr "高级优胜！"
 
 #: src/data/text/ribbon_descriptions.h:11
 msgid "Master Rank winner!"
-msgstr ""
+msgstr "大师级优胜！"
 
 #: src/data/text/ribbon_descriptions.h:12
 msgid "For clearing LV50"
-msgstr ""
+msgstr "通关了LV50级别"
 
 #: src/data/text/ribbon_descriptions.h:13 src/data/text/ribbon_descriptions.h:15
 msgid "at the BATTLE TOWER."
-msgstr ""
+msgstr "的对战塔挑战。"
 
 #: src/data/text/ribbon_descriptions.h:14
 msgid "For clearing Open Level"
-msgstr ""
+msgstr "通关了自由级别"
 
 #: src/data/text/ribbon_descriptions.h:16
 msgid "RIBBON for being chosen"
-msgstr ""
+msgstr "被选为超级素描模特"
 
 #: src/data/text/ribbon_descriptions.h:17
 msgid "as a super sketch model."
-msgstr ""
+msgstr "所获得的奖章。"
 
 #: src/data/text/ribbon_descriptions.h:19
 msgid "being a hard worker."
-msgstr ""
+msgstr "努力的勤奋者。"

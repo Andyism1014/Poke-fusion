@@ -7,60 +7,60 @@ msgstr ""
 
 #: src/dexnav.c:184
 msgid "--------"
-msgstr ""
+msgstr "--------"
 
 #: src/dexnav.c:185
 msgid "Capture first!"
-msgstr ""
+msgstr "请先捕获！"
 
 #: src/dexnav.c:186
 msgid "R TO REGISTER!"
-msgstr ""
+msgstr "按R键登记！"
 
 #: src/dexnav.c:187
 msgid "Search {STR_VAR_1}"
-msgstr ""
+msgstr "搜索{STR_VAR_1}"
 
 #: src/dexnav.c:188
 msgid "This Pokémon cannot be found here!"
-msgstr ""
+msgstr "这里找不到这只宝可梦！"
 
 #: src/dexnav.c:190
 msgid "SEARCH {LV}. {STR_VAR_1}"
-msgstr ""
+msgstr "搜索{LV}. {STR_VAR_1}"
 
 #: src/dexnav.c:191
 msgid "{LV}. {STR_VAR_1}"
-msgstr ""
+msgstr "{LV}. {STR_VAR_1}"
 
 #: src/dexnav.c:192
 msgid "MOVE: {STR_VAR_1}"
-msgstr ""
+msgstr "招式：{STR_VAR_1}"
 
 #: src/dexnav.c:193 src/strings.c:641 src/strings.c:707
 msgid "{STR_VAR_1}"
-msgstr ""
+msgstr "{STR_VAR_1}"
 
 #: src/dexnav.c:194
 msgid "{START_BUTTON} EXIT"
-msgstr ""
+msgstr "{START_BUTTON} 退出"
 
 #: src/dexnav.c:195
 msgid "{NO} {STR_VAR_1}"
-msgstr ""
+msgstr "{NO} {STR_VAR_1}"
 
 #: src/dexnav.c:196
 msgid "{NO}{STR_VAR_1}"
-msgstr ""
+msgstr "{NO}{STR_VAR_1}"
 
 #: src/dexnav.c:198
 msgid "{LEFT_ARROW}"
-msgstr ""
+msgstr "{LEFT_ARROW}"
 
 #: src/dexnav.c:199 src/strings.c:85
 msgid "{RIGHT_ARROW}"
-msgstr ""
+msgstr "{RIGHT_ARROW}"
 
 #: src/dexnav.c:201
 msgid "{DOWN_ARROW}"
-msgstr ""
+msgstr "{DOWN_ARROW}"

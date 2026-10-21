@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/start_menu.c:190
 msgid "DEBUG"
-msgstr ""
+msgstr "调试"

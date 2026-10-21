@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/pokenav_ribbons_summary.c:43
 msgid "RIBBONS {DYNAMIC 0}"
-msgstr ""
+msgstr "奖章 {DYNAMIC 0}"

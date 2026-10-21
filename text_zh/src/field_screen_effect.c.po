@@ -11,6 +11,9 @@ msgid ""
 "protecting the exhausted and fainted\n"
 "POKéMON from further harm…\p"
 msgstr ""
+"{PLAYER}急忙赶往宝可梦中心，\n"
+"保护疲惫不堪、失去战斗能力的\n"
+"宝可梦不再受到伤害……\p"
 
 #: src/field_screen_effect.c:65
 msgid ""
@@ -18,6 +21,9 @@ msgid ""
 "the exhausted and fainted POKéMON from\n"
 "further harm…\p"
 msgstr ""
+"{PLAYER}急忙赶回家中，\n"
+"保护疲惫不堪、失去战斗能力的\n"
+"宝可梦不再受到伤害……\p"
 
 #: src/field_screen_effect.c:66
 msgid ""
@@ -25,17 +31,23 @@ msgid ""
 "to regroup and reconsider the battle\n"
 "strategy…\p"
 msgstr ""
+"{PLAYER}急忙赶往宝可梦中心，\n"
+"重整旗鼓，\n"
+"重新思考对战策略……\p"
 
 #: src/field_screen_effect.c:67
 msgid ""
 "{PLAYER} scurried back home, to regroup\n"
 "and reconsider the battle strategy…\p"
 msgstr ""
+"{PLAYER}急忙赶回家中，\n"
+"重整旗鼓，\n"
+"重新思考对战策略……\p"
 
 #: src/field_screen_effect.c:1469
 msgid "PROF. OAK"
-msgstr ""
+msgstr "大木博士"
 
 #: src/field_screen_effect.c:1471 src/pokenav_match_call_data.c:230
 msgid "PROF. BIRCH"
-msgstr ""
+msgstr "小田卷博士"

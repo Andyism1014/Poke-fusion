@@ -7,156 +7,164 @@ msgstr ""
 
 #: src/data/trade.h:32
 msgid "{BACKGROUND TRANSPARENT}{TEXT_COLORS WHITE DARK_GRAY TRANSPARENT}"
-msgstr ""
+msgstr "{BACKGROUND TRANSPARENT}{TEXT_COLORS WHITE DARK_GRAY TRANSPARENT}"
 
 #: src/data/trade.h:36
 msgid " MOVE"
-msgstr ""
+msgstr " 招式"
 
 #: src/data/trade.h:41
 msgid "????"
-msgstr ""
+msgstr "????"
 
 #: src/data/trade.h:43
 msgid "Is this trade okay?"
-msgstr ""
+msgstr "确定要交换吗？"
 
 #: src/data/trade.h:48
 msgid "Cancel trade?"
-msgstr ""
+msgstr "要取消交换吗？"
 
 #: src/data/trade.h:49
 msgid "Bボタン　で　もどります"
-msgstr ""
+msgstr "按B键返回"
 
 #: src/data/trade.h:52
 msgid ""
 "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Communication standby…\n"
 "Please wait."
 msgstr ""
+"{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}正在通信……\n"
+"请稍候。"
 
 #: src/data/trade.h:53
 msgid ""
 "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}The trade has\n"
 "been canceled."
 msgstr ""
+"{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}交换\n"
+"已取消。"
 
 #: src/data/trade.h:55
 msgid ""
 "{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Waiting for your friend\n"
 "to finish…"
 msgstr ""
+"{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}正在等待对方\n"
+"完成操作……"
 
 #: src/data/trade.h:56
 msgid ""
 "Your friend wants\n"
 "to trade POKéMON."
 msgstr ""
+"对方想要\n"
+"交换宝可梦。"
 
 #: src/data/trade.h:982
 msgid "KOBE"
-msgstr ""
+msgstr "科比"
 
 #: src/data/trade.h:989
 msgid "PLUSES"
-msgstr ""
+msgstr "正正"
 
 #: src/data/trade.h:998
 msgid "ROMAN"
-msgstr ""
+msgstr "罗曼"
 
 #: src/data/trade.h:1005
 msgid "SEASOR"
-msgstr ""
+msgstr "海马仔"
 
 #: src/data/trade.h:1014
 msgid "SKYLAR"
-msgstr ""
+msgstr "斯凯拉"
 
 #: src/data/trade.h:1021
 msgid "MEOWOW"
-msgstr ""
+msgstr "喵喵喵"
 
 #: src/data/trade.h:1030
 msgid "ISIS"
-msgstr ""
+msgstr "艾西斯"
 
 #: src/data/trade.h:1037
 msgid "MIMIEN"
-msgstr ""
+msgstr "魔墙仔"
 
 #: src/data/trade.h:1046
 msgid "REYLEY"
-msgstr ""
+msgstr "雷利"
 
 #: src/data/trade.h:1053
 msgid "ZYNX"
-msgstr ""
+msgstr "迷唇唇"
 
 #: src/data/trade.h:1062
 msgid "DONTAE"
-msgstr ""
+msgstr "唐泰"
 
 #: src/data/trade.h:1070
 msgid "MS. NIDO"
-msgstr ""
+msgstr "尼多小姐"
 
 #: src/data/trade.h:1079 src/data/trade.h:1093
 msgid "SAIGE"
-msgstr ""
+msgstr "赛吉"
 
 #: src/data/trade.h:1084
 msgid "MR. NIDO"
-msgstr ""
+msgstr "尼多先生"
 
 #: src/data/trade.h:1101
 msgid "CH'DING"
-msgstr ""
+msgstr "大葱仔"
 
 #: src/data/trade.h:1110
 msgid "ELYSSA"
-msgstr ""
+msgstr "艾丽莎"
 
 #: src/data/trade.h:1118
 msgid "NINA"
-msgstr ""
+msgstr "妮娜"
 
 #: src/data/trade.h:1127 src/data/trade.h:1141
 msgid "TURNER"
-msgstr ""
+msgstr "特纳"
 
 #: src/data/trade.h:1132
 msgid "NINO"
-msgstr ""
+msgstr "尼诺"
 
 #: src/data/trade.h:1149 src/data/trainers.h:28851
 msgid "MARC"
-msgstr ""
+msgstr "马克"
 
 #: src/data/trade.h:1158
 msgid "HADEN"
-msgstr ""
+msgstr "海登"
 
 #: src/data/trade.h:1169
 msgid "ESPHERE"
-msgstr ""
+msgstr "球球"
 
 #: src/data/trade.h:1178
 msgid "CLIFTON"
-msgstr ""
+msgstr "克里夫"
 
 #: src/data/trade.h:1185
 msgid "TANGENY"
-msgstr ""
+msgstr "蔓藤藤"
 
 #: src/data/trade.h:1194
 msgid "NORMA"
-msgstr ""
+msgstr "诺玛"
 
 #: src/data/trade.h:1201
 msgid "SEELOR"
-msgstr ""
+msgstr "海狮仔"
 
 #: src/data/trade.h:1210 src/data/battle_frontier/battle_frontier_trainers.h:1552
 msgid "GARETT"
-msgstr ""
+msgstr "加勒特"

@@ -7,23 +7,23 @@ msgstr ""
 
 #: src/pokemon_summary_screen.c:778
 msgid "{START_BUTTON} RELEARN"
-msgstr ""
+msgstr "{START_BUTTON}回忆招式"
 
 #: src/pokemon_summary_screen.c:780
 msgid "{COLOR LIGHT_RED}{SHADOW GREEN}"
-msgstr ""
+msgstr "{COLOR LIGHT_RED}{SHADOW GREEN}"
 
 #: src/pokemon_summary_screen.c:781
 msgid "{COLOR WHITE}{SHADOW DARK_GRAY}"
-msgstr ""
+msgstr "{COLOR WHITE}{SHADOW DARK_GRAY}"
 
 #: src/pokemon_summary_screen.c:782
 msgid "{SELECT_BUTTON}+{STR_VAR_1}"
-msgstr ""
+msgstr "{SELECT_BUTTON}+{STR_VAR_1}"
 
 #: src/fusion/fusion_ability_panel.c:18
 msgid "Passive {STR_VAR_1}: "
-msgstr ""
+msgstr "被动{STR_VAR_1}："
 
 #: src/pokemon_summary_screen.c:784
 msgid ""
@@ -31,6 +31,9 @@ msgid ""
 "{DYNAMIC 2}\n"
 "{DYNAMIC 3}"
 msgstr ""
+"{DYNAMIC 0}/{DYNAMIC 1}\n"
+"{DYNAMIC 2}\n"
+"{DYNAMIC 3}"
 
 #: src/pokemon_summary_screen.c:785 src/pokemon_summary_screen.c:786
 msgid ""
@@ -38,63 +41,66 @@ msgid ""
 "{DYNAMIC 1}\n"
 "{DYNAMIC 2}"
 msgstr ""
+"{DYNAMIC 0}\n"
+"{DYNAMIC 1}\n"
+"{DYNAMIC 2}"
 
 #: src/pokemon_summary_screen.c:787
 msgid "{PP}{DYNAMIC 0}/{DYNAMIC 1}"
-msgstr ""
+msgstr "{PP}{DYNAMIC 0}/{DYNAMIC 1}"
 
 #: src/pokemon_summary_screen.c:3927
 msgid "{COLOR}{08}"
-msgstr ""
+msgstr "{COLOR}{08}"
 
 #: src/pokemon_summary_screen.c:3928
 msgid "{COLOR}{05}"
-msgstr ""
+msgstr "{COLOR}{05}"
 
 #: src/pokemon_summary_screen.c:3929
 msgid "{COLOR}{01}"
-msgstr ""
+msgstr "{COLOR}{01}"
 
 #: src/pokemon_summary_screen.c:3952
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: src/pokemon_summary_screen.c:3953
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: src/pokemon_summary_screen.c:3954
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: src/pokemon_summary_screen.c:3955
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: src/pokemon_summary_screen.c:3956 src/data/easy_chat/easy_chat_group_endings.h:196
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: src/pokemon_summary_screen.c:3957
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: src/pokemon_summary_screen.c:4877
 msgid "IVs"
-msgstr ""
+msgstr "个体值"
 
 #: src/pokemon_summary_screen.c:4878
 msgid "EVs"
-msgstr ""
+msgstr "努力值"
 
 #: src/pokemon_summary_screen.c:4879
 msgid "STATS"
-msgstr ""
+msgstr "能力值"
 
 #: src/pokemon_summary_screen.c:4880
 msgid "RENAME"
-msgstr ""
+msgstr "改名"
 
 #: src/pokemon_summary_screen.c:783
 msgid "Abilities"
-msgstr ""
+msgstr "特性"

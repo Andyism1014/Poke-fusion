@@ -7,52 +7,52 @@ msgstr ""
 
 #: src/pokenav_main_menu.c:90
 msgid "{CLEAR 0x80}"
-msgstr ""
+msgstr "{CLEAR 0x80}"
 
 #: src/pokenav_main_menu.c:91
 msgid "{A_BUTTON}ZOOM {B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{A_BUTTON}放大 {B_BUTTON}取消"
 
 #: src/pokenav_main_menu.c:92
 msgid "{A_BUTTON}FULL {B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{A_BUTTON}全图 {B_BUTTON}取消"
 
 #: src/pokenav_main_menu.c:93
 msgid "{A_BUTTON}ZOOM {B_BUTTON}CANCEL {R_BUTTON}FLY"
-msgstr ""
+msgstr "{A_BUTTON}放大 {B_BUTTON}取消 {R_BUTTON}飞翔"
 
 #: src/pokenav_main_menu.c:94
 msgid "{A_BUTTON}FULL {B_BUTTON}CANCEL {R_BUTTON}FLY"
-msgstr ""
+msgstr "{A_BUTTON}全图 {B_BUTTON}取消 {R_BUTTON}飞翔"
 
 #: src/pokenav_main_menu.c:95
 msgid "{A_BUTTON}CONDITION {B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{A_BUTTON}状态 {B_BUTTON}取消"
 
 #: src/pokenav_main_menu.c:96
 msgid "{A_BUTTON}MARKINGS {B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{A_BUTTON}标记 {B_BUTTON}取消"
 
 #: src/pokenav_main_menu.c:97
 msgid "{A_BUTTON}SELECT MARK {B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{A_BUTTON}选择标记 {B_BUTTON}取消"
 
 #: src/pokenav_main_menu.c:98
 msgid "{A_BUTTON}MENU {B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{A_BUTTON}菜单 {B_BUTTON}取消"
 
 #: src/pokenav_main_menu.c:99
 msgid "{A_BUTTON}OK {B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{A_BUTTON}确定 {B_BUTTON}取消"
 
 #: src/pokenav_main_menu.c:100 src/pokenav_main_menu.c:103 src/data/union_room.h:88
 msgid "{B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{B_BUTTON}取消"
 
 #: src/pokenav_main_menu.c:101
 msgid "{A_BUTTON}RIBBONS {B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{A_BUTTON}奖章 {B_BUTTON}取消"
 
 #: src/pokenav_main_menu.c:102
 msgid "{A_BUTTON}CHECK {B_BUTTON}CANCEL"
-msgstr ""
+msgstr "{A_BUTTON}查看 {B_BUTTON}取消"

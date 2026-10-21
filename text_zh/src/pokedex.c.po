@@ -7,250 +7,302 @@ msgstr ""
 
 #: src/pokedex.c:680
 msgid "{NO}0000"
-msgstr ""
+msgstr "{NO}0000"
 
 #: src/pokedex.c:681
 msgid "{NO}000"
-msgstr ""
+msgstr "{NO}000"
 
 #: src/pokedex.c:683 src/pokedex.c:844 src/pokedex_plus_hgss.c:58
 msgid "----------"
-msgstr ""
+msgstr "----------"
 
 #: src/pokedex.c:685
 msgid "{CLEAR_TO 12}??'??”"
-msgstr ""
+msgstr "{CLEAR_TO 12}??'??{0xB2}"
 
 #: src/pokedex.c:686
 msgid "???.? m"
-msgstr ""
+msgstr "???.? m"
 
 #: src/pokedex.c:687
 msgid "????.? lbs."
-msgstr ""
+msgstr "????.? lbs."
 
 #: src/pokedex.c:688
 msgid "???.? kg."
-msgstr ""
+msgstr "???.? kg."
 
 #: src/pokedex.c:689
 msgid "POKéDEX registration completed."
-msgstr ""
+msgstr "图鉴登录完成。"
 
 #: src/pokedex.c:690
 msgid "HT"
-msgstr ""
+msgstr "身高"
 
 #: src/pokedex.c:691
 msgid "WT"
-msgstr ""
+msgstr "体重"
 
 #: src/pokedex.c:692
 msgid ""
 "Searching…\n"
 "Please wait."
 msgstr ""
+"正在搜索……\n"
+"请稍候。"
 
 #: src/pokedex.c:693
 msgid "Search completed."
-msgstr ""
+msgstr "搜索完成。"
 
 #: src/pokedex.c:694
 msgid "No matching POKéMON were found."
-msgstr ""
+msgstr "没有找到符合条件的宝可梦。"
 
 #: src/pokedex.c:695
 msgid ""
 "Search for POKéMON based on\n"
 "selected parameters."
 msgstr ""
+"按照选择的条件\n"
+"搜索宝可梦。"
 
 #: src/pokedex.c:696
 msgid "Switch POKéDEX listings."
-msgstr ""
+msgstr "切换图鉴的排列方式。"
 
 #: src/pokedex.c:697
 msgid "Return to the POKéDEX."
-msgstr ""
+msgstr "返回图鉴。"
 
 #: src/pokedex.c:698
 msgid "Select the POKéDEX mode."
-msgstr ""
+msgstr "选择图鉴的模式。"
 
 #: src/pokedex.c:699
 msgid "Select the POKéDEX listing mode."
-msgstr ""
+msgstr "选择图鉴的排列方式。"
 
 #: src/pokedex.c:700
 msgid ""
 "List by the first letter in the name.\n"
 "Spotted POKéMON only."
 msgstr ""
+"按名字的首字母搜索。\n"
+"仅限见过的宝可梦。"
 
 #: src/pokedex.c:701
 msgid ""
 "List by body color.\n"
 "Spotted POKéMON only."
 msgstr ""
+"按身体的颜色搜索。\n"
+"仅限见过的宝可梦。"
 
 #: src/pokedex.c:702
 msgid ""
 "List by type.\n"
 "Owned POKéMON only."
 msgstr ""
+"按属性搜索。\n"
+"仅限捕获的宝可梦。"
 
 #: src/pokedex.c:703
 msgid "Execute search/switch."
-msgstr ""
+msgstr "执行搜索／切换。"
 
 #: src/pokedex.c:705
 msgid "DON'T SPECIFY."
-msgstr ""
+msgstr "不指定"
 
 #: src/pokedex.c:1184
 msgid "HOENN region's POKéDEX"
-msgstr ""
+msgstr "丰缘地区的图鉴"
 
 #: src/pokedex.c:1184
 msgid "HOENN DEX"
-msgstr ""
+msgstr "丰缘图鉴"
 
 #: src/pokedex.c:1185
 msgid "National edition POKéDEX"
-msgstr ""
+msgstr "全国版图鉴"
 
 #: src/pokedex.c:1185
 msgid "NATIONAL DEX"
-msgstr ""
+msgstr "全国图鉴"
 
 #: src/pokedex.c:1191
 msgid ""
 "POKéMON are listed according to their\n"
 "number."
-msgstr ""
+msgstr "按编号顺序排列宝可梦。"
 
 #: src/pokedex.c:1191
 msgid "NUMERICAL MODE"
-msgstr ""
+msgstr "编号顺序"
 
 #: src/pokedex.c:1192
 msgid ""
 "Spotted and owned POKéMON are listed\n"
 "alphabetically."
 msgstr ""
+"按名字顺序排列\n"
+"见过和捕获的宝可梦。"
 
 #: src/pokedex.c:1192
 msgid "A TO Z MODE"
-msgstr ""
+msgstr "字母顺序"
 
 #: src/pokedex.c:1193
 msgid ""
 "Owned POKéMON are listed from the\n"
 "heaviest to the lightest."
 msgstr ""
+"按从重到轻的顺序\n"
+"排列捕获的宝可梦。"
 
 #: src/pokedex.c:1193
 msgid "HEAVIEST MODE"
-msgstr ""
+msgstr "由重到轻"
 
 #: src/pokedex.c:1194
 msgid ""
 "Owned POKéMON are listed from the\n"
 "lightest to the heaviest."
 msgstr ""
+"按从轻到重的顺序\n"
+"排列捕获的宝可梦。"
 
 #: src/pokedex.c:1194
 msgid "LIGHTEST MODE"
-msgstr ""
+msgstr "由轻到重"
 
 #: src/pokedex.c:1195
 msgid ""
 "Owned POKéMON are listed from the\n"
 "tallest to the smallest."
 msgstr ""
+"按从高到矮的顺序\n"
+"排列捕获的宝可梦。"
 
 #: src/pokedex.c:1195
 msgid "TALLEST MODE"
-msgstr ""
+msgstr "由高到矮"
 
 #: src/pokedex.c:1196
 msgid ""
 "Owned POKéMON are listed from the\n"
 "smallest to the tallest."
 msgstr ""
+"按从矮到高的顺序\n"
+"排列捕获的宝可梦。"
 
 #: src/pokedex.c:1196
 msgid "SMALLEST MODE"
-msgstr ""
+msgstr "由矮到高"
 
 #: src/pokedex.c:1203
 msgid "ABC"
-msgstr ""
+msgstr "ABC"
 
 #: src/pokedex.c:1204 src/pokedex_plus_hgss.c:65
 msgid "DEF"
-msgstr ""
+msgstr "DEF"
 
 #: src/pokedex.c:1205
 msgid "GHI"
-msgstr ""
+msgstr "GHI"
 
 #: src/pokedex.c:1206
 msgid "JKL"
-msgstr ""
+msgstr "JKL"
 
 #: src/pokedex.c:1207
 msgid "MNO"
-msgstr ""
+msgstr "MNO"
 
 #: src/pokedex.c:1208
 msgid "PQR"
-msgstr ""
+msgstr "PQR"
 
 #: src/pokedex.c:1210
 msgid "VWX"
-msgstr ""
+msgstr "VWX"
 
 #: src/pokedex.c:1211
 msgid "YZ"
-msgstr ""
+msgstr "YZ"
 
 #: src/pokedex.c:1218 src/quickstart.c:78 src/strings.c:21 src/data/script_menu.h:763 src/data/trainers.h:45823 src/data/easy_chat/easy_chat_group_trainer.h:118
 msgid "RED"
-msgstr ""
+msgstr "红色"
 
 #: src/pokedex.c:1219 src/quickstart.c:80 src/data/script_menu.h:764
 msgid "BLUE"
-msgstr ""
+msgstr "蓝色"
 
 #: src/pokedex.c:1220
 msgid "YELLOW"
-msgstr ""
+msgstr "黄色"
 
 #: src/pokedex.c:1221 src/strings.c:22 src/data/easy_chat/easy_chat_group_trainer.h:124
 msgid "GREEN"
-msgstr ""
+msgstr "绿色"
 
 #: src/pokedex.c:1222 src/data/script_menu.h:1077
 msgid "BLACK"
-msgstr ""
+msgstr "黑色"
 
 #: src/pokedex.c:1223
 msgid "BROWN"
-msgstr ""
+msgstr "褐色"
 
 #: src/pokedex.c:1224
 msgid "PURPLE"
-msgstr ""
+msgstr "紫色"
 
 #: src/pokedex.c:1225
 msgid "GRAY"
-msgstr ""
+msgstr "灰色"
 
 #: src/pokedex.c:1226
 msgid "WHITE"
-msgstr ""
+msgstr "白色"
 
 #: src/pokedex.c:1227 src/data/script_menu.h:1078
 msgid "PINK"
-msgstr ""
+msgstr "粉红色"
+
+# The trainer Red (not the colour).
+#: src/strings.c:21
+msgctxt "src/strings.c"
+msgid "RED"
+msgstr "赤红"
+
+#: src/quickstart.c:78
+msgctxt "src/quickstart.c"
+msgid "RED"
+msgstr "赤红"
+
+#: src/data/trainers.h:45823
+msgctxt "src/data/trainers.h"
+msgid "RED"
+msgstr "赤红"
+
+#: src/data/easy_chat/easy_chat_group_trainer.h:118
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "RED"
+msgstr "赤红"
+
+# The trainer Green / Blue (not the colour).
+#: src/strings.c:22
+msgctxt "src/strings.c"
+msgid "GREEN"
+msgstr "青绿"
+
+#: src/data/easy_chat/easy_chat_group_trainer.h:124
+msgctxt "src/data/easy_chat/easy_chat_group_trainer.h"
+msgid "GREEN"
+msgstr "青绿"

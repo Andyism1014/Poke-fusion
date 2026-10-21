@@ -10,24 +10,32 @@ msgid ""
 "The {STR_VAR_1} can't be held\n"
 "here."
 msgstr ""
+"{STR_VAR_1}\n"
+"无法在这里携带。"
 
 #: src/item_menu.c:220
 msgid ""
 "Deposit how many\n"
 "{STR_VAR_1}?"
 msgstr ""
+"要存放多少个\n"
+"{STR_VAR_1}？"
 
 #: src/item_menu.c:221
 msgid ""
 "Deposited {STR_VAR_2}\n"
 "{STR_VAR_1}."
 msgstr ""
+"存放了{STR_VAR_2}个\n"
+"{STR_VAR_1}。"
 
 #: src/item_menu.c:222
 msgid ""
 "There's no room to\n"
 "store items."
 msgstr ""
+"已经没有空间\n"
+"存放道具了。"
 
 #: src/item_menu.c:223
 msgid ""
@@ -35,67 +43,70 @@ msgid ""
 "can't be stored in\n"
 "the PC!"
 msgstr ""
+"重要物品\n"
+"不能存放在\n"
+"电脑里！"
 
 #: src/item_menu.c:291 src/item_menu.c:1300
 msgid "There's nothing to sort!"
-msgstr ""
+msgstr "没有可以整理的东西！"
 
 #: src/item_menu.c:299 src/pokenav_match_call_gfx.c:208
 msgid "CHECK"
-msgstr ""
+msgstr "查看"
 
 #: src/item_menu.c:300 src/data/easy_chat/easy_chat_group_hobbies.h:124
 msgid "WALK"
-msgstr ""
+msgstr "步行"
 
 #: src/item_menu.c:301 src/strings.c:934
 msgid "DESELECT"
-msgstr ""
+msgstr "取消登记"
 
 #: src/item_menu.c:302
 msgid "CHECK TAG"
-msgstr ""
+msgstr "查看标签"
 
 #: src/item_menu.c:304 src/data/easy_chat/easy_chat_group_actions.h:400
 msgid "SHOW"
-msgstr ""
+msgstr "出示"
 
 #: src/item_menu.c:307
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: src/item_menu.c:308
 msgid "Type"
-msgstr ""
+msgstr "种类"
 
 #: src/item_menu.c:309
 msgid "Amount"
-msgstr ""
+msgstr "数量"
 
 #: src/item_menu.c:310
 msgid "Index"
-msgstr ""
+msgstr "编号"
 
 #: src/item_menu.c:2741
 msgid "Sort items how?"
-msgstr ""
+msgstr "要怎样整理道具？"
 
 #: src/item_menu.c:2742
 msgid "Items sorted by {STR_VAR_1}!"
-msgstr ""
+msgstr "道具已按{STR_VAR_1}整理好了！"
 
 #: src/item_menu.c:2745
 msgid "name"
-msgstr ""
+msgstr "名称"
 
 #: src/item_menu.c:2746
 msgid "type"
-msgstr ""
+msgstr "种类"
 
 #: src/item_menu.c:2747
 msgid "amount"
-msgstr ""
+msgstr "数量"
 
 #: src/item_menu.c:2748
 msgid "index"
-msgstr ""
+msgstr "编号"

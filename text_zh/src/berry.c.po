@@ -7,800 +7,800 @@ msgstr ""
 
 #: src/berry.c:63 src/strings.c:76 src/data/items.h:28 src/data/items.h:13058 src/data/items.h:13069 src/data/items.h:13080 src/data/items.h:13091 src/data/items.h:13102 (+48 more)
 msgid "?????"
-msgstr ""
+msgstr "?????"
 
 #: src/berry.c:64 src/berry.c:65 src/data/items.h:20
 msgid "????????"
-msgstr ""
+msgstr "????????"
 
 #: src/berry.c:75
 msgid "Cheri"
-msgstr ""
+msgstr "樱子"
 
 #: src/berry.c:81
 msgid "Blooms with delicate pretty flowers."
-msgstr ""
+msgstr "会开出娇嫩美丽的花朵。"
 
 #: src/berry.c:82
 msgid "The bright red Berry is very spicy."
-msgstr ""
+msgstr "鲜红色的树果，非常辣。"
 
 #: src/berry.c:108
 msgid "Chesto"
-msgstr ""
+msgstr "零余"
 
 #: src/berry.c:114
 msgid "The Berry's thick skin and fruit are"
-msgstr ""
+msgstr "这种树果的厚皮和果肉"
 
 #: src/berry.c:115
 msgid "very tough. It is dry-tasting all over."
-msgstr ""
+msgstr "都非常坚硬，整体味道很涩。"
 
 #: src/berry.c:141
 msgid "Pecha"
-msgstr ""
+msgstr "桃桃"
 
 #: src/berry.c:147
 msgid "Very sweet and delicious."
-msgstr ""
+msgstr "非常甜，非常美味。"
 
 #: src/berry.c:148
 msgid "Also very tender - handle with care."
-msgstr ""
+msgstr "而且非常柔软，请小心拿取。"
 
 #: src/berry.c:174
 msgid "Rawst"
-msgstr ""
+msgstr "莓莓"
 
 #: src/berry.c:180
 msgid "If the leaves grow long and curly,"
-msgstr ""
+msgstr "叶子长得又长又卷时，"
 
 #: src/berry.c:181
 msgid "the Berry seems to grow very bitter."
-msgstr ""
+msgstr "树果似乎会变得非常苦。"
 
 #: src/berry.c:207
 msgid "Aspear"
-msgstr ""
+msgstr "利木"
 
 #: src/berry.c:213
 msgid "The hard Berry is dense with a rich"
-msgstr ""
+msgstr "坚硬的树果里充满了"
 
 #: src/berry.c:214
 msgid "juice. It is quite sour."
-msgstr ""
+msgstr "浓郁的果汁，相当酸。"
 
 #: src/berry.c:240
 msgid "Leppa"
-msgstr ""
+msgstr "苹野"
 
 #: src/berry.c:246
 msgid "Grows slower than Cheri and others."
-msgstr ""
+msgstr "比樱子果等长得慢。"
 
 #: src/berry.c:247
 msgid "The smaller the Berry, the tastier."
-msgstr ""
+msgstr "树果越小，味道越好。"
 
 #: src/berry.c:273
 msgid "Oran"
-msgstr ""
+msgstr "橙橙"
 
 #: src/berry.c:279
 msgid "A peculiar Berry with a mix of flavors."
-msgstr ""
+msgstr "混合了多种味道的奇特树果。"
 
 #: src/berry.c:280
 msgid "Berries grow in half a day."
-msgstr ""
+msgstr "半天就能结出树果。"
 
 #: src/berry.c:306
 msgid "Persim"
-msgstr ""
+msgstr "柿仔"
 
 #: src/berry.c:312
 msgid "Loves sunlight. The Berry's color"
-msgstr ""
+msgstr "喜欢阳光。照到阳光时，"
 
 #: src/berry.c:313
 msgid "grows vivid when exposed to the sun."
-msgstr ""
+msgstr "树果的颜色会变得鲜艳。"
 
 #: src/berry.c:339
 msgid "Lum"
-msgstr ""
+msgstr "木子"
 
 #: src/berry.c:345
 msgid "Slow to grow. If raised with loving"
-msgstr ""
+msgstr "生长缓慢。如果用心栽培，"
 
 #: src/berry.c:346
 msgid "care, it may grow two Berries."
-msgstr ""
+msgstr "也许能结出两个树果。"
 
 #: src/berry.c:372
 msgid "Sitrus"
-msgstr ""
+msgstr "文柚"
 
 #: src/berry.c:378
 msgid "Closely related to Oran. The large"
-msgstr ""
+msgstr "与橙橙果是近亲。大颗的"
 
 #: src/berry.c:379
 msgid "Berry has a well-rounded flavor."
-msgstr ""
+msgstr "树果味道十分均衡。"
 
 #: src/berry.c:405
 msgid "Figy"
-msgstr ""
+msgstr "勿花"
 
 #: src/berry.c:411
 msgid "The Berry, which looks chewed up,"
-msgstr ""
+msgstr "这种树果看起来像被嚼过，"
 
 #: src/berry.c:412
 msgid "brims with spicy substances."
-msgstr ""
+msgstr "里面满是辣味成分。"
 
 #: src/berry.c:438
 msgid "Wiki"
-msgstr ""
+msgstr "异奇"
 
 #: src/berry.c:444
 msgid "The Berry is said to have grown lumpy"
-msgstr ""
+msgstr "据说树果长得凹凸不平，"
 
 #: src/berry.c:445
 msgid "to help Pokémon grip it."
-msgstr ""
+msgstr "是为了让宝可梦方便抓握。"
 
 #: src/berry.c:471
 msgid "Mago"
-msgstr ""
+msgstr "芒芒"
 
 #: src/berry.c:477
 msgid "The Berry turns curvy as it grows."
-msgstr ""
+msgstr "树果会越长越弯。"
 
 #: src/berry.c:478
 msgid "The curvier, the sweeter and tastier."
-msgstr ""
+msgstr "越弯就越甜、越好吃。"
 
 #: src/berry.c:504
 msgid "Aguav"
-msgstr ""
+msgstr "乐芭"
 
 #: src/berry.c:510
 msgid "The flower is dainty. It is rare in its"
-msgstr ""
+msgstr "花朵小巧精致。少见的是，"
 
 #: src/berry.c:511
 msgid "ability to grow without light."
-msgstr ""
+msgstr "它在没有光的地方也能生长。"
 
 #: src/berry.c:537
 msgid "Iapapa"
-msgstr ""
+msgstr "芭亚"
 
 #: src/berry.c:543
 msgid "The Berry is very big and sour."
-msgstr ""
+msgstr "树果又大又酸。"
 
 #: src/berry.c:544
 msgid "It takes at least a day to grow."
-msgstr ""
+msgstr "至少需要一天才能长成。"
 
 #: src/berry.c:570
 msgid "Razz"
-msgstr ""
+msgstr "蔓莓"
 
 #: src/berry.c:576
 msgid "The red Berry tastes slightly spicy."
-msgstr ""
+msgstr "红色的树果，味道微辣。"
 
 #: src/berry.c:577
 msgid "It grows quickly in just four hours."
-msgstr ""
+msgstr "长得很快，只需四个小时。"
 
 #: src/berry.c:603
 msgid "Bluk"
-msgstr ""
+msgstr "墨莓"
 
 #: src/berry.c:609
 msgid "The Berry is blue on the outside, but"
-msgstr ""
+msgstr "树果外表是蓝色的，"
 
 #: src/berry.c:610
 msgid "it blackens the mouth when eaten."
-msgstr ""
+msgstr "但吃了会把嘴染黑。"
 
 #: src/berry.c:636
 msgid "Nanab"
-msgstr ""
+msgstr "蕉香"
 
 #: src/berry.c:642
 msgid "This Berry was the seventh"
-msgstr ""
+msgstr "世界上第七种被发现的"
 
 #: src/berry.c:643
 msgid "discovered in the world. It is sweet."
-msgstr ""
+msgstr "树果。味道很甜。"
 
 #: src/berry.c:669
 msgid "Wepear"
-msgstr ""
+msgstr "西梨"
 
 #: src/berry.c:675
 msgid "The flower is small and white. It has a"
-msgstr ""
+msgstr "花朵小小的、白白的。"
 
 #: src/berry.c:676
 msgid "delicate balance of bitter and sour."
-msgstr ""
+msgstr "苦味和酸味微妙地平衡。"
 
 #: src/berry.c:702
 msgid "Pinap"
-msgstr ""
+msgstr "凰梨"
 
 #: src/berry.c:708
 msgid "Weak against wind and cold."
-msgstr ""
+msgstr "不耐风吹和寒冷。"
 
 #: src/berry.c:709
 msgid "The fruit is spicy and the skin, sour."
-msgstr ""
+msgstr "果肉辣，果皮酸。"
 
 #: src/berry.c:735
 msgid "Pomeg"
-msgstr ""
+msgstr "榴石"
 
 #: src/berry.c:741
 msgid "However much it is watered,"
-msgstr ""
+msgstr "无论浇多少水，"
 
 #: src/berry.c:742
 msgid "it only grows up to six Berries."
-msgstr ""
+msgstr "最多也只能结出六个树果。"
 
 #: src/berry.c:768
 msgid "Kelpsy"
-msgstr ""
+msgstr "藻根"
 
 #: src/berry.c:774
 msgid "A rare variety shaped like a root."
-msgstr ""
+msgstr "形状像树根的稀有品种。"
 
 #: src/berry.c:775
 msgid "Grows a very large flower."
-msgstr ""
+msgstr "会开出非常大的花朵。"
 
 #: src/berry.c:801
 msgid "Qualot"
-msgstr ""
+msgstr "比巴"
 
 #: src/berry.c:807
 msgid "Loves water. Grows strong even in"
-msgstr ""
+msgstr "喜欢水。即使在常年"
 
 #: src/berry.c:808
 msgid "locations with constant rainfall."
-msgstr ""
+msgstr "下雨的地方也能茁壮成长。"
 
 #: src/berry.c:834
 msgid "Hondew"
-msgstr ""
+msgstr "哈密"
 
 #: src/berry.c:840
 msgid "A Berry that is very valuable and"
-msgstr ""
+msgstr "非常珍贵、难得一见的"
 
 #: src/berry.c:841
 msgid "rarely seen. It is very delicious."
-msgstr ""
+msgstr "树果。味道非常好。"
 
 #: src/berry.c:867
 msgid "Grepa"
-msgstr ""
+msgstr "萄葡"
 
 #: src/berry.c:873
 msgid "Despite its tenderness and round"
-msgstr ""
+msgstr "虽然柔软又圆滚滚的，"
 
 #: src/berry.c:874
 msgid "shape, the Berry is unimaginably sour."
-msgstr ""
+msgstr "树果却酸得超乎想象。"
 
 #: src/berry.c:900
 msgid "Tamato"
-msgstr ""
+msgstr "茄番"
 
 #: src/berry.c:906
 msgid "The Berry is lip-bendingly spicy."
-msgstr ""
+msgstr "辣得让人嘴唇都歪了。"
 
 #: src/berry.c:907
 msgid "It takes time to grow."
-msgstr ""
+msgstr "需要花些时间才能长成。"
 
 #: src/berry.c:933
 msgid "Cornn"
-msgstr ""
+msgstr "玉黍"
 
 #: src/berry.c:939
 msgid "A Berry from an ancient era. May not"
-msgstr ""
+msgstr "来自古代的树果。如果不"
 
 #: src/berry.c:940
 msgid "grow unless planted in quantity."
-msgstr ""
+msgstr "大量种植，可能不会生长。"
 
 #: src/berry.c:966
 msgid "Magost"
-msgstr ""
+msgstr "岳竹"
 
 #: src/berry.c:972
 msgid "A Berry that is widely said to have"
-msgstr ""
+msgstr "这种树果被普遍认为"
 
 #: src/berry.c:973
 msgid "a finely balanced flavor."
-msgstr ""
+msgstr "味道非常均衡。"
 
 #: src/berry.c:999
 msgid "Rabuta"
-msgstr ""
+msgstr "茸丹"
 
 #: src/berry.c:1005
 msgid "A rare variety that is overgrown with"
-msgstr ""
+msgstr "长满了毛的稀有品种。"
 
 #: src/berry.c:1006
 msgid "hair. It is quite bitter."
-msgstr ""
+msgstr "味道相当苦。"
 
 #: src/berry.c:1032
 msgid "Nomel"
-msgstr ""
+msgstr "檬柠"
 
 #: src/berry.c:1038
 msgid "Quite sour. Just one bite makes it"
-msgstr ""
+msgstr "相当酸。只要咬上一口，"
 
 #: src/berry.c:1039
 msgid "impossible to taste for three days."
-msgstr ""
+msgstr "三天都尝不出味道。"
 
 #: src/berry.c:1065
 msgid "Spelon"
-msgstr ""
+msgstr "刺角"
 
 #: src/berry.c:1071
 msgid "The vividly red Berry is very spicy."
-msgstr ""
+msgstr "鲜红色的树果，非常辣。"
 
 #: src/berry.c:1072
 msgid "Its warts secrete a spicy substance."
-msgstr ""
+msgstr "表面的疙瘩会分泌辣味成分。"
 
 #: src/berry.c:1098
 msgid "Pamtre"
-msgstr ""
+msgstr "椰木"
 
 #: src/berry.c:1104
 msgid "Drifts on the sea from somewhere."
-msgstr ""
+msgstr "不知从何处漂流而来。"
 
 #: src/berry.c:1105
 msgid "It is thought to grow elsewhere."
-msgstr ""
+msgstr "据说生长在别的地方。"
 
 #: src/berry.c:1131
 msgid "Watmel"
-msgstr ""
+msgstr "瓜西"
 
 #: src/berry.c:1137
 msgid "A huge Berry, with some over 20"
-msgstr ""
+msgstr "巨大的树果，曾发现过"
 
 #: src/berry.c:1138
 msgid "inches discovered. Exceedingly sweet."
-msgstr ""
+msgstr "超过50厘米的。非常甜。"
 
 #: src/berry.c:1164
 msgid "Durin"
-msgstr ""
+msgstr "金枕"
 
 #: src/berry.c:1170
 msgid "Bitter to even look at. It is so"
-msgstr ""
+msgstr "光是看着就觉得苦。苦到"
 
 #: src/berry.c:1171
 msgid "bitter, no one has ever eaten it as is."
-msgstr ""
+msgstr "从来没有人直接吃过它。"
 
 #: src/berry.c:1197
 msgid "Belue"
-msgstr ""
+msgstr "靛莓"
 
 #: src/berry.c:1203
 msgid "It is glossy and looks delicious, but"
-msgstr ""
+msgstr "富有光泽，看起来很好吃，"
 
 #: src/berry.c:1204
 msgid "it is awfully sour. Takes time to grow."
-msgstr ""
+msgstr "但非常酸。需要时间生长。"
 
 #: src/berry.c:1230
 msgid "Occa"
-msgstr ""
+msgstr "巧可"
 
 #: src/berry.c:1236
 msgid "Said to grow in the tropics once,"
-msgstr ""
+msgstr "据说曾经生长在热带，"
 
 #: src/berry.c:1237
 msgid "it boasts an intensely hot spiciness."
-msgstr ""
+msgstr "有着火辣辣的强烈辣味。"
 
 #: src/berry.c:1263
 msgid "Passho"
-msgstr ""
+msgstr "千香"
 
 #: src/berry.c:1269
 msgid "Its flesh is dotted with many tiny"
-msgstr ""
+msgstr "果肉里有许多细小的气泡，"
 
 #: src/berry.c:1270
 msgid "bubbles that keep it afloat in water."
-msgstr ""
+msgstr "所以能浮在水面上。"
 
 #: src/berry.c:1296
 msgid "Wacan"
-msgstr ""
+msgstr "烛木"
 
 #: src/berry.c:1302
 msgid "Energy drawn from lightning strikes"
-msgstr ""
+msgstr "吸收了雷击的能量，"
 
 #: src/berry.c:1303
 msgid "makes this Berry grow big and rich."
-msgstr ""
+msgstr "这种树果长得又大又饱满。"
 
 #: src/berry.c:1329
 msgid "Rindo"
-msgstr ""
+msgstr "罗子"
 
 #: src/berry.c:1335
 msgid "This berry has a vegetable-like flavor,"
-msgstr ""
+msgstr "这种树果有蔬菜般的味道，"
 
 #: src/berry.c:1336
 msgid "but is rich in health-promoting fiber."
-msgstr ""
+msgstr "富含有益健康的膳食纤维。"
 
 #: src/berry.c:1362
 msgid "Yache"
-msgstr ""
+msgstr "番荔"
 
 #: src/berry.c:1368
 msgid "This Berry has a refreshing dry and"
-msgstr ""
+msgstr "这种树果有清爽的涩味和"
 
 #: src/berry.c:1369
 msgid "sour flavor. Tastes better chilled."
-msgstr ""
+msgstr "酸味。冰镇后更好吃。"
 
 #: src/berry.c:1395
 msgid "Chople"
-msgstr ""
+msgstr "莲蒲"
 
 #: src/berry.c:1401
 msgid "Contains a substance that generates"
-msgstr ""
+msgstr "含有能产生热量的成分，"
 
 #: src/berry.c:1402
 msgid "heat. Can even fire up a chilly heart."
-msgstr ""
+msgstr "甚至能温暖冰冷的心。"
 
 #: src/berry.c:1428
 msgid "Kebia"
-msgstr ""
+msgstr "通通"
 
 #: src/berry.c:1434
 msgid "Brilliant green on the outside, inside"
-msgstr ""
+msgstr "外表是鲜艳的绿色，"
 
 #: src/berry.c:1435
 msgid "it is packed with black-colored flesh."
-msgstr ""
+msgstr "里面却塞满了黑色的果肉。"
 
 #: src/berry.c:1461
 msgid "Shuca"
-msgstr ""
+msgstr "腰木"
 
 #: src/berry.c:1467
 msgid "The sweet pulp has just the hint of a"
-msgstr ""
+msgstr "甜美的果肉中，带有一丝"
 
 #: src/berry.c:1468
 msgid "a hard-edged and fragrant bite to it."
-msgstr ""
+msgstr "强烈而芬芳的口感。"
 
 #: src/berry.c:1494
 msgid "Coba"
-msgstr ""
+msgstr "棱瓜"
 
 #: src/berry.c:1500
 msgid "This Berry is said to be a cross of"
-msgstr ""
+msgstr "据说这种树果是从远方飘来的"
 
 #: src/berry.c:1501
 msgid "two Berries blown in from far away."
-msgstr ""
+msgstr "两种树果杂交而成的。"
 
 #: src/berry.c:1527
 msgid "Payapa"
-msgstr ""
+msgstr "福禄"
 
 #: src/berry.c:1533
 msgid "Said to sense human emotions, it swells"
-msgstr ""
+msgstr "据说能感知人的情绪，"
 
 #: src/berry.c:1534
 msgid "roundly when a person approaches."
-msgstr ""
+msgstr "有人靠近时会胀得圆圆的。"
 
 #: src/berry.c:1560
 msgid "Tanga"
-msgstr ""
+msgstr "扁樱"
 
 #: src/berry.c:1566
 msgid "It grows a flower at the tip that lures"
-msgstr ""
+msgstr "尖端开出的花用丝状花瓣"
 
 #: src/berry.c:1567
 msgid "Bug Pokémon with its stringy petals."
-msgstr ""
+msgstr "吸引虫属性宝可梦。"
 
 #: src/berry.c:1593
 msgid "Charti"
-msgstr ""
+msgstr "草蚕"
 
 #: src/berry.c:1599
 msgid "Often used for pickles because of its"
-msgstr ""
+msgstr "因为味道涩，常用来腌渍。"
 
 #: src/berry.c:1600
 msgid "dry flavor. Sometimes eaten raw."
-msgstr ""
+msgstr "有时也会生吃。"
 
 #: src/berry.c:1626
 msgid "Kasib"
-msgstr ""
+msgstr "佛柑"
 
 #: src/berry.c:1632
 msgid "Old superstitions say it has an odd"
-msgstr ""
+msgstr "古老的迷信说它有奇特的"
 
 #: src/berry.c:1633
 msgid "power. A popular good-luck charm."
-msgstr ""
+msgstr "力量，是很受欢迎的护身符。"
 
 #: src/berry.c:1659
 msgid "Haban"
-msgstr ""
+msgstr "莓榴"
 
 #: src/berry.c:1665
 msgid "Less bitter if enough of this Berry"
-msgstr ""
+msgstr "熬煮足够的量就不那么苦了。"
 
 #: src/berry.c:1666
 msgid "is boiled down. Makes a good jam."
-msgstr ""
+msgstr "可以做成好吃的果酱。"
 
 #: src/berry.c:1692
 msgid "Colbur"
-msgstr ""
+msgstr "刺耳"
 
 #: src/berry.c:1698
 msgid "Tiny hooks on the surface latch onto"
-msgstr ""
+msgstr "表面的小钩子会挂在宝可梦"
 
 #: src/berry.c:1699
 msgid "Pokémon to reach far-off places."
-msgstr ""
+msgstr "身上，以便被带到远方。"
 
 #: src/berry.c:1725
 msgid "Babiri"
-msgstr ""
+msgstr "霹霹"
 
 #: src/berry.c:1731
 msgid "Very tough with a strong flavor. It"
-msgstr ""
+msgstr "非常坚硬，味道浓烈。"
 
 #: src/berry.c:1732
 msgid "was used to make medicine in the past."
-msgstr ""
+msgstr "过去曾被用来制作药物。"
 
 #: src/berry.c:1758
 msgid "Chilan"
-msgstr ""
+msgstr "灯浆"
 
 #: src/berry.c:1764
 msgid "It can be made into a whistle that"
-msgstr ""
+msgstr "可以做成哨子，"
 
 #: src/berry.c:1765
 msgid "produces an indescribable sound."
-msgstr ""
+msgstr "吹出难以形容的声音。"
 
 #: src/berry.c:1791
 msgid "Liechi"
-msgstr ""
+msgstr "枝荔"
 
 #: src/berry.c:1797 src/berry.c:1830 src/berry.c:1863 src/berry.c:1896
 msgid "A mysterious Berry. It is rumored to"
-msgstr ""
+msgstr "神秘的树果。据说蕴含着"
 
 #: src/berry.c:1798
 msgid "contain the power of the sea."
-msgstr ""
+msgstr "大海的力量。"
 
 #: src/berry.c:1824
 msgid "Ganlon"
-msgstr ""
+msgstr "龙睛"
 
 #: src/berry.c:1831
 msgid "contain the power of the land."
-msgstr ""
+msgstr "大地的力量。"
 
 #: src/berry.c:1857
 msgid "Salac"
-msgstr ""
+msgstr "沙鳞"
 
 #: src/berry.c:1864
 msgid "contain the power of the sky."
-msgstr ""
+msgstr "天空的力量。"
 
 #: src/berry.c:1890
 msgid "Petaya"
-msgstr ""
+msgstr "龙火"
 
 #: src/berry.c:1897
 msgid "contain the power of all living things."
-msgstr ""
+msgstr "所有生物的力量。"
 
 #: src/berry.c:1923
 msgid "Apicot"
-msgstr ""
+msgstr "杏仔"
 
 #: src/berry.c:1929
 msgid "A very mystifying Berry. No telling"
-msgstr ""
+msgstr "非常不可思议的树果。不知道"
 
 #: src/berry.c:1930
 msgid "what may happen or how it can be used."
-msgstr ""
+msgstr "会发生什么，也不知道怎么用。"
 
 #: src/berry.c:1956
 msgid "Lansat"
-msgstr ""
+msgstr "兰萨"
 
 #: src/berry.c:1962
 msgid "Said to be a legendary Berry."
-msgstr ""
+msgstr "据说是传说中的树果。"
 
 #: src/berry.c:1963
 msgid "Holding it supposedly brings joy."
-msgstr ""
+msgstr "据说带在身上会带来幸福。"
 
 #: src/berry.c:1989
 msgid "Starf"
-msgstr ""
+msgstr "星桃"
 
 #: src/berry.c:1995
 msgid "So strong, it was abandoned at the"
-msgstr ""
+msgstr "因为太过强大而被遗弃在"
 
 #: src/berry.c:1996
 msgid "world's edge. Considered a mirage."
-msgstr ""
+msgstr "世界尽头，被视为幻影。"
 
 #: src/berry.c:2022 src/berry.c:2286
 msgid "Enigma"
-msgstr ""
+msgstr "谜芝"
 
 #: src/berry.c:2028 src/berry.c:2292
 msgid "A completely enigmatic Berry."
-msgstr ""
+msgstr "完全是个谜的树果。"
 
 #: src/berry.c:2029 src/berry.c:2293
 msgid "Appears to have the power of stars."
-msgstr ""
+msgstr "似乎蕴含着星星的力量。"
 
 #: src/berry.c:2055
 msgid "Micle"
-msgstr ""
+msgstr "奇秘"
 
 #: src/berry.c:2061
 msgid "It makes other food eaten at the"
-msgstr ""
+msgstr "能让同时吃下的"
 
 #: src/berry.c:2062
 msgid "same time taste sweet."
-msgstr ""
+msgstr "其他食物变甜。"
 
 #: src/berry.c:2088
 msgid "Custap"
-msgstr ""
+msgstr "释陀"
 
 #: src/berry.c:2094
 msgid "The flesh underneath the Custap"
-msgstr ""
+msgstr "释陀果果皮下的果肉"
 
 #: src/berry.c:2095
 msgid "Berry's skin is sweet and creamy soft."
-msgstr ""
+msgstr "甜美而柔软，像奶油一样。"
 
 #: src/berry.c:2121
 msgid "Jaboca"
-msgstr ""
+msgstr "嘉珍"
 
 #: src/berry.c:2127
 msgid "The drupelets that make up this berry"
-msgstr ""
+msgstr "构成这种树果的小核果"
 
 #: src/berry.c:2128
 msgid "pop rythmically if handled roughly."
-msgstr ""
+msgstr "被粗暴对待时会有节奏地爆开。"
 
 #: src/berry.c:2154
 msgid "Rowap"
-msgstr ""
+msgstr "雾莲"
 
 #: src/berry.c:2160
 msgid "People once worked top-shaped pieces"
-msgstr ""
+msgstr "以前人们会把这种树果"
 
 #: src/berry.c:2161
 msgid "of this berry free to use as toys."
-msgstr ""
+msgstr "削成陀螺形状当玩具玩。"
 
 #: src/berry.c:2187
 msgid "Roseli"
-msgstr ""
+msgstr "洛玫"
 
 #: src/berry.c:2193
 msgid "In nature, they grow in wide rings"
-msgstr ""
+msgstr "在自然中会长成大大的圆环，"
 
 #: src/berry.c:2194
 msgid "for reasons that are still unknown."
-msgstr ""
+msgstr "原因至今仍不清楚。"
 
 #: src/berry.c:2220
 msgid "Kee"
-msgstr ""
+msgstr "亚开"
 
 #: src/berry.c:2226
 msgid "A berry that is incredibly spicy at"
-msgstr ""
+msgstr "这种树果一开始极辣，"
 
 #: src/berry.c:2227
 msgid "first, then extremely bitter."
-msgstr ""
+msgstr "然后变得极苦。"
 
 #: src/berry.c:2253
 msgid "Marnga"
-msgstr ""
+msgstr "香罗"
 
 #: src/berry.c:2259
 msgid "Its outside is very bitter, but its"
-msgstr ""
+msgstr "外面非常苦，但里面"
 
 #: src/berry.c:2260
 msgid "inside tastes like a sweet drink."
-msgstr ""
+msgstr "尝起来像甜甜的饮料。"

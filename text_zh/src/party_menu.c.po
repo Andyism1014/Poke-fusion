@@ -10,45 +10,61 @@ msgid ""
 "Would you like to change {STR_VAR_1}'s\n"
 "ability to {STR_VAR_2}?"
 msgstr ""
+"要将{STR_VAR_1}的特性\n"
+"改为{STR_VAR_2}吗？"
 
 #: src/party_menu.c:510
 msgid ""
 "{STR_VAR_1}'s ability became\n"
 "{STR_VAR_2}!{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}的特性\n"
+"变成了{STR_VAR_2}！{PAUSE_UNTIL_PRESS}"
 
 #: src/party_menu.c:511
 msgid ""
 "{STR_VAR_1}'s base points\n"
 "were all reset to zero!{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}的努力值\n"
+"全部归零了！{PAUSE_UNTIL_PRESS}"
 
 #: src/party_menu.c:512
 msgid ""
 "Cannot send that mon to the box,\n"
 "because it knows a HM move.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"它学会了秘传招式，\n"
+"无法送进盒子。{PAUSE_UNTIL_PRESS}"
 
 #: src/party_menu.c:513
 msgid ""
 "Cannot send a mon that doesn't\n"
 "belong to you to the box.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"不属于你的宝可梦\n"
+"无法送进盒子。{PAUSE_UNTIL_PRESS}"
 
 #: src/party_menu.c:5146
 msgid ""
 "It might affect {STR_VAR_1}'s stats.\n"
 "Are you sure you want to use it?"
 msgstr ""
+"可能会影响{STR_VAR_1}的能力。\n"
+"确定要使用吗？"
 
 #: src/party_menu.c:5147
 msgid ""
 "{STR_VAR_1}'s stats may have changed due\n"
 "to the effects of the {STR_VAR_2}!{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_2}的效果\n"
+"可能改变了{STR_VAR_1}的能力！{PAUSE_UNTIL_PRESS}"
 
 #: src/party_menu.c:6130
 msgid ""
 "{STR_VAR_1}'s Dynamax Level\n"
 "increased by 1!{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}的极巨等级\n"
+"提升了1级！{PAUSE_UNTIL_PRESS}"

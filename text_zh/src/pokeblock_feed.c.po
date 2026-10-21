@@ -10,15 +10,21 @@ msgid ""
 "{STR_VAR_1} ate the\n"
 "{STR_VAR_2}.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}吃了\n"
+"{STR_VAR_2}。{PAUSE_UNTIL_PRESS}"
 
 #: src/pokeblock_feed.c:100
 msgid ""
 "{STR_VAR_1} happily ate the\n"
 "{STR_VAR_2}.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}开心地吃了\n"
+"{STR_VAR_2}。{PAUSE_UNTIL_PRESS}"
 
 #: src/pokeblock_feed.c:101
 msgid ""
 "{STR_VAR_1} disdainfully ate the\n"
 "{STR_VAR_2}.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{STR_VAR_1}不屑地吃了\n"
+"{STR_VAR_2}。{PAUSE_UNTIL_PRESS}"

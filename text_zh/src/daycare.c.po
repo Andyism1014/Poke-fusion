@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/daycare.c:110
 msgid "タマゴ"
-msgstr ""
+msgstr "{0x60}{0x6F}{0x8B}"

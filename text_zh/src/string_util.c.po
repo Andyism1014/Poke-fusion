@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/string_util.c:13
 msgid "0123456789ABCDEF"
-msgstr ""
+msgstr "0123456789ABCDEF"

@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/script_menu.c:1224 src/data/easy_chat/easy_chat_group_endings.h:88
 msgid "OTHER"
-msgstr ""
+msgstr "其他"

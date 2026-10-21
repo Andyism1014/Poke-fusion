@@ -7,44 +7,44 @@ msgstr ""
 
 #: src/berry_tag_screen.c:147 src/berry_tag_screen.c:182 src/contest.c:788 src/dexnav.c:189 src/pokedex_plus_hgss.c:126 src/pokedex_plus_hgss.c:3828 src/strings.c:916
 msgid "???"
-msgstr ""
+msgstr "???"
 
 #: src/berry_tag_screen.c:148
 msgid "Very soft"
-msgstr ""
+msgstr "非常柔软"
 
 #: src/berry_tag_screen.c:149
 msgid "Soft"
-msgstr ""
+msgstr "柔软"
 
 #: src/berry_tag_screen.c:150
 msgid "Hard"
-msgstr ""
+msgstr "坚硬"
 
 #: src/berry_tag_screen.c:151
 msgid "Very hard"
-msgstr ""
+msgstr "非常坚硬"
 
 #: src/berry_tag_screen.c:152
 msgid "Super hard"
-msgstr ""
+msgstr "超级坚硬"
 
 #: src/berry_tag_screen.c:177
 msgid "SIZE /"
-msgstr ""
+msgstr "大小／"
 
 #: src/berry_tag_screen.c:178
 msgid "FIRM /"
-msgstr ""
+msgstr "硬度／"
 
 #: src/berry_tag_screen.c:179
 msgid "{STR_VAR_1}.{STR_VAR_2}”"
-msgstr ""
+msgstr "{STR_VAR_1}.{STR_VAR_2}英寸"
 
 #: src/berry_tag_screen.c:180
 msgid "{NO}{STR_VAR_1} {STR_VAR_2}"
-msgstr ""
+msgstr "{NO}{STR_VAR_1} {STR_VAR_2}"
 
 #: src/berry_tag_screen.c:181
 msgid "BERRY TAG"
-msgstr ""
+msgstr "树果标签"

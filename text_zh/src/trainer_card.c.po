@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/trainer_card.c:1196
 msgid "{STR_VAR_1}:{STR_VAR_2}:{STR_VAR_3}"
-msgstr ""
+msgstr "{STR_VAR_1}:{STR_VAR_2}:{STR_VAR_3}"

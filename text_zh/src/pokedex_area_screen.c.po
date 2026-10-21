@@ -7,20 +7,20 @@ msgstr ""
 
 #: src/pokedex_area_screen.c:638
 msgid "{DPAD_UPDOWN} MORNING"
-msgstr ""
+msgstr "{DPAD_UPDOWN} 早晨"
 
 #: src/pokedex_area_screen.c:639
 msgid "{DPAD_UPDOWN} DAY"
-msgstr ""
+msgstr "{DPAD_UPDOWN} 白天"
 
 #: src/pokedex_area_screen.c:640
 msgid "{DPAD_UPDOWN} EVENING"
-msgstr ""
+msgstr "{DPAD_UPDOWN} 傍晚"
 
 #: src/pokedex_area_screen.c:641
 msgid "{DPAD_UPDOWN} NIGHT"
-msgstr ""
+msgstr "{DPAD_UPDOWN} 夜晚"
 
 #: src/pokedex_area_screen.c:681
 msgid "AREA UNKNOWN"
-msgstr ""
+msgstr "栖息地不明"

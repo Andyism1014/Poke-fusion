@@ -7,4 +7,4 @@ msgstr ""
 
 #: src/field_region_map.c:233
 msgid "{R_BUTTON} FLY"
-msgstr ""
+msgstr "{R_BUTTON} 飞翔"

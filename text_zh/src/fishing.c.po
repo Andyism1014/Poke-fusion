@@ -7,20 +7,20 @@ msgstr ""
 
 #: src/fishing.c:64
 msgid "Oh! A bite!"
-msgstr ""
+msgstr "哦！上钩了！"
 
 #: src/fishing.c:65
 msgid "A POKéMON's on the hook!{PAUSE_UNTIL_PRESS}"
-msgstr ""
+msgstr "宝可梦上钩了！{PAUSE_UNTIL_PRESS}"
 
 #: src/fishing.c:66
 msgid "Not even a nibble…{PAUSE_UNTIL_PRESS}"
-msgstr ""
+msgstr "什么都没钓到……{PAUSE_UNTIL_PRESS}"
 
 #: src/fishing.c:67
 msgid "It got away…{PAUSE_UNTIL_PRESS}"
-msgstr ""
+msgstr "被它逃走了……{PAUSE_UNTIL_PRESS}"
 
 #: src/fishing.c:219
 msgid "·"
-msgstr ""
+msgstr "·"

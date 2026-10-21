@@ -7,584 +7,584 @@ msgstr ""
 
 #: src/data/region_map/region_map_entries.h:14
 msgid "LITTLEROOT TOWN"
-msgstr ""
+msgstr "未白镇"
 
 #: src/data/region_map/region_map_entries.h:21
 msgid "OLDALE TOWN"
-msgstr ""
+msgstr "古辰镇"
 
 #: src/data/region_map/region_map_entries.h:28
 msgid "DEWFORD TOWN"
-msgstr ""
+msgstr "武斗镇"
 
 #: src/data/region_map/region_map_entries.h:35
 msgid "LAVARIDGE TOWN"
-msgstr ""
+msgstr "釜炎乡"
 
 #: src/data/region_map/region_map_entries.h:42
 msgid "FALLARBOR TOWN"
-msgstr ""
+msgstr "秋叶镇"
 
 #: src/data/region_map/region_map_entries.h:49
 msgid "VERDANTURF TOWN"
-msgstr ""
+msgstr "绿荫镇"
 
 #: src/data/region_map/region_map_entries.h:56
 msgid "PACIFIDLOG TOWN"
-msgstr ""
+msgstr "暮水镇"
 
 #: src/data/region_map/region_map_entries.h:63
 msgid "PETALBURG CITY"
-msgstr ""
+msgstr "橙华市"
 
 #: src/data/region_map/region_map_entries.h:77
 msgid "MAUVILLE CITY"
-msgstr ""
+msgstr "紫堇市"
 
 #: src/data/region_map/region_map_entries.h:84
 msgid "RUSTBORO CITY"
-msgstr ""
+msgstr "卡那兹市"
 
 #: src/data/region_map/region_map_entries.h:91
 msgid "FORTREE CITY"
-msgstr ""
+msgstr "茵郁市"
 
 #: src/data/region_map/region_map_entries.h:105
 msgid "MOSSDEEP CITY"
-msgstr ""
+msgstr "绿岭市"
 
 #: src/data/region_map/region_map_entries.h:112
 msgid "SOOTOPOLIS CITY"
-msgstr ""
+msgstr "琉璃市"
 
 #: src/data/region_map/region_map_entries.h:119
 msgid "EVER GRANDE CITY"
-msgstr ""
+msgstr "彩幽市"
 
 #: src/data/region_map/region_map_entries.h:126
 msgid "ROUTE 101"
-msgstr ""
+msgstr "101号道路"
 
 #: src/data/region_map/region_map_entries.h:133
 msgid "ROUTE 102"
-msgstr ""
+msgstr "102号道路"
 
 #: src/data/region_map/region_map_entries.h:140
 msgid "ROUTE 103"
-msgstr ""
+msgstr "103号道路"
 
 #: src/data/region_map/region_map_entries.h:147
 msgid "ROUTE 104"
-msgstr ""
+msgstr "104号道路"
 
 #: src/data/region_map/region_map_entries.h:154
 msgid "ROUTE 105"
-msgstr ""
+msgstr "105号道路"
 
 #: src/data/region_map/region_map_entries.h:161
 msgid "ROUTE 106"
-msgstr ""
+msgstr "106号道路"
 
 #: src/data/region_map/region_map_entries.h:168
 msgid "ROUTE 107"
-msgstr ""
+msgstr "107号道路"
 
 #: src/data/region_map/region_map_entries.h:175
 msgid "ROUTE 108"
-msgstr ""
+msgstr "108号道路"
 
 #: src/data/region_map/region_map_entries.h:182
 msgid "ROUTE 109"
-msgstr ""
+msgstr "109号道路"
 
 #: src/data/region_map/region_map_entries.h:189
 msgid "ROUTE 110"
-msgstr ""
+msgstr "110号道路"
 
 #: src/data/region_map/region_map_entries.h:196
 msgid "ROUTE 111"
-msgstr ""
+msgstr "111号道路"
 
 #: src/data/region_map/region_map_entries.h:203
 msgid "ROUTE 112"
-msgstr ""
+msgstr "112号道路"
 
 #: src/data/region_map/region_map_entries.h:210
 msgid "ROUTE 113"
-msgstr ""
+msgstr "113号道路"
 
 #: src/data/region_map/region_map_entries.h:217
 msgid "ROUTE 114"
-msgstr ""
+msgstr "114号道路"
 
 #: src/data/region_map/region_map_entries.h:224
 msgid "ROUTE 115"
-msgstr ""
+msgstr "115号道路"
 
 #: src/data/region_map/region_map_entries.h:231
 msgid "ROUTE 116"
-msgstr ""
+msgstr "116号道路"
 
 #: src/data/region_map/region_map_entries.h:238
 msgid "ROUTE 117"
-msgstr ""
+msgstr "117号道路"
 
 #: src/data/region_map/region_map_entries.h:245
 msgid "ROUTE 118"
-msgstr ""
+msgstr "118号道路"
 
 #: src/data/region_map/region_map_entries.h:252
 msgid "ROUTE 119"
-msgstr ""
+msgstr "119号道路"
 
 #: src/data/region_map/region_map_entries.h:259
 msgid "ROUTE 120"
-msgstr ""
+msgstr "120号道路"
 
 #: src/data/region_map/region_map_entries.h:266
 msgid "ROUTE 121"
-msgstr ""
+msgstr "121号道路"
 
 #: src/data/region_map/region_map_entries.h:273
 msgid "ROUTE 122"
-msgstr ""
+msgstr "122号道路"
 
 #: src/data/region_map/region_map_entries.h:280
 msgid "ROUTE 123"
-msgstr ""
+msgstr "123号道路"
 
 #: src/data/region_map/region_map_entries.h:287
 msgid "ROUTE 124"
-msgstr ""
+msgstr "124号道路"
 
 #: src/data/region_map/region_map_entries.h:294
 msgid "ROUTE 125"
-msgstr ""
+msgstr "125号道路"
 
 #: src/data/region_map/region_map_entries.h:301
 msgid "ROUTE 126"
-msgstr ""
+msgstr "126号道路"
 
 #: src/data/region_map/region_map_entries.h:308
 msgid "ROUTE 127"
-msgstr ""
+msgstr "127号道路"
 
 #: src/data/region_map/region_map_entries.h:315
 msgid "ROUTE 128"
-msgstr ""
+msgstr "128号道路"
 
 #: src/data/region_map/region_map_entries.h:322
 msgid "ROUTE 129"
-msgstr ""
+msgstr "129号道路"
 
 #: src/data/region_map/region_map_entries.h:329
 msgid "ROUTE 130"
-msgstr ""
+msgstr "130号道路"
 
 #: src/data/region_map/region_map_entries.h:336
 msgid "ROUTE 131"
-msgstr ""
+msgstr "131号道路"
 
 #: src/data/region_map/region_map_entries.h:343
 msgid "ROUTE 132"
-msgstr ""
+msgstr "132号道路"
 
 #: src/data/region_map/region_map_entries.h:350
 msgid "ROUTE 133"
-msgstr ""
+msgstr "133号道路"
 
 #: src/data/region_map/region_map_entries.h:357
 msgid "ROUTE 134"
-msgstr ""
+msgstr "134号道路"
 
 #: src/data/region_map/region_map_entries.h:406
 msgid "MT. CHIMNEY"
-msgstr ""
+msgstr "烟囱山"
 
 #: src/data/region_map/region_map_entries.h:413 src/data/region_map/region_map_entries.h:966
 msgid "SAFARI ZONE"
-msgstr ""
+msgstr "狩猎地带"
 
 #: src/data/region_map/region_map_entries.h:476
 msgid "{AQUA} HIDEOUT"
-msgstr ""
+msgstr "{AQUA}基地"
 
 #: src/data/region_map/region_map_entries.h:504 src/data/region_map/region_map_entries.h:938
 msgid "VICTORY ROAD"
-msgstr ""
+msgstr "冠军之路"
 
 #: src/data/region_map/region_map_entries.h:511
 msgid "MIRAGE ISLAND"
-msgstr ""
+msgstr "幻岛"
 
 #: src/data/region_map/region_map_entries.h:602
 msgid "INSIDE OF TRUCK"
-msgstr ""
+msgstr "卡车里"
 
 #: src/data/region_map/region_map_entries.h:630
 msgid "PALLET TOWN"
-msgstr ""
+msgstr "真新镇"
 
 #: src/data/region_map/region_map_entries.h:637
 msgid "VIRIDIAN CITY"
-msgstr ""
+msgstr "常青市"
 
 #: src/data/region_map/region_map_entries.h:644
 msgid "PEWTER CITY"
-msgstr ""
+msgstr "深灰市"
 
 #: src/data/region_map/region_map_entries.h:651
 msgid "CERULEAN CITY"
-msgstr ""
+msgstr "华蓝市"
 
 #: src/data/region_map/region_map_entries.h:658
 msgid "LAVENDER TOWN"
-msgstr ""
+msgstr "紫苑镇"
 
 #: src/data/region_map/region_map_entries.h:665
 msgid "VERMILION CITY"
-msgstr ""
+msgstr "枯叶市"
 
 #: src/data/region_map/region_map_entries.h:672
 msgid "CELADON CITY"
-msgstr ""
+msgstr "玉虹市"
 
 #: src/data/region_map/region_map_entries.h:679
 msgid "FUCHSIA CITY"
-msgstr ""
+msgstr "浅红市"
 
 #: src/data/region_map/region_map_entries.h:686
 msgid "CINNABAR ISLAND"
-msgstr ""
+msgstr "红莲岛"
 
 #: src/data/region_map/region_map_entries.h:693
 msgid "INDIGO PLATEAU"
-msgstr ""
+msgstr "石英高原"
 
 #: src/data/region_map/region_map_entries.h:700
 msgid "SAFFRON CITY"
-msgstr ""
+msgstr "金黄市"
 
 #: src/data/region_map/region_map_entries.h:707 src/data/region_map/region_map_entries.h:742
 msgid "ROUTE 4"
-msgstr ""
+msgstr "4号道路"
 
 #: src/data/region_map/region_map_entries.h:714 src/data/region_map/region_map_entries.h:784
 msgid "ROUTE 10"
-msgstr ""
+msgstr "10号道路"
 
 #: src/data/region_map/region_map_entries.h:721
 msgid "ROUTE 1"
-msgstr ""
+msgstr "1号道路"
 
 #: src/data/region_map/region_map_entries.h:728
 msgid "ROUTE 2"
-msgstr ""
+msgstr "2号道路"
 
 #: src/data/region_map/region_map_entries.h:735
 msgid "ROUTE 3"
-msgstr ""
+msgstr "3号道路"
 
 #: src/data/region_map/region_map_entries.h:749
 msgid "ROUTE 5"
-msgstr ""
+msgstr "5号道路"
 
 #: src/data/region_map/region_map_entries.h:756
 msgid "ROUTE 6"
-msgstr ""
+msgstr "6号道路"
 
 #: src/data/region_map/region_map_entries.h:763
 msgid "ROUTE 7"
-msgstr ""
+msgstr "7号道路"
 
 #: src/data/region_map/region_map_entries.h:770
 msgid "ROUTE 8"
-msgstr ""
+msgstr "8号道路"
 
 #: src/data/region_map/region_map_entries.h:777
 msgid "ROUTE 9"
-msgstr ""
+msgstr "9号道路"
 
 #: src/data/region_map/region_map_entries.h:791
 msgid "ROUTE 11"
-msgstr ""
+msgstr "11号道路"
 
 #: src/data/region_map/region_map_entries.h:798
 msgid "ROUTE 12"
-msgstr ""
+msgstr "12号道路"
 
 #: src/data/region_map/region_map_entries.h:805
 msgid "ROUTE 13"
-msgstr ""
+msgstr "13号道路"
 
 #: src/data/region_map/region_map_entries.h:812
 msgid "ROUTE 14"
-msgstr ""
+msgstr "14号道路"
 
 #: src/data/region_map/region_map_entries.h:819
 msgid "ROUTE 15"
-msgstr ""
+msgstr "15号道路"
 
 #: src/data/region_map/region_map_entries.h:826
 msgid "ROUTE 16"
-msgstr ""
+msgstr "16号道路"
 
 #: src/data/region_map/region_map_entries.h:833
 msgid "ROUTE 17"
-msgstr ""
+msgstr "17号道路"
 
 #: src/data/region_map/region_map_entries.h:840
 msgid "ROUTE 18"
-msgstr ""
+msgstr "18号道路"
 
 #: src/data/region_map/region_map_entries.h:847
 msgid "ROUTE 19"
-msgstr ""
+msgstr "19号道路"
 
 #: src/data/region_map/region_map_entries.h:854
 msgid "ROUTE 20"
-msgstr ""
+msgstr "20号道路"
 
 #: src/data/region_map/region_map_entries.h:861
 msgid "ROUTE 21"
-msgstr ""
+msgstr "21号道路"
 
 #: src/data/region_map/region_map_entries.h:868
 msgid "ROUTE 22"
-msgstr ""
+msgstr "22号道路"
 
 #: src/data/region_map/region_map_entries.h:875
 msgid "ROUTE 23"
-msgstr ""
+msgstr "23号道路"
 
 #: src/data/region_map/region_map_entries.h:882
 msgid "ROUTE 24"
-msgstr ""
+msgstr "24号道路"
 
 #: src/data/region_map/region_map_entries.h:889
 msgid "ROUTE 25"
-msgstr ""
+msgstr "25号道路"
 
 #: src/data/region_map/region_map_entries.h:896
 msgid "VIRIDIAN FOREST"
-msgstr ""
+msgstr "常青森林"
 
 #: src/data/region_map/region_map_entries.h:903
 msgid "MT. MOON"
-msgstr ""
+msgstr "月见山"
 
 #: src/data/region_map/region_map_entries.h:910
 msgid "S.S. ANNE"
-msgstr ""
+msgstr "圣特安努号"
 
 #: src/data/region_map/region_map_entries.h:917 src/data/region_map/region_map_entries.h:924
 msgid "UNDERGROUND PATH"
-msgstr ""
+msgstr "地下通道"
 
 #: src/data/region_map/region_map_entries.h:931
 msgid "DIGLETT'S CAVE"
-msgstr ""
+msgstr "地鼠洞穴"
 
 #: src/data/region_map/region_map_entries.h:945
 msgid "ROCKET HIDEOUT"
-msgstr ""
+msgstr "火箭队基地"
 
 #: src/data/region_map/region_map_entries.h:952
 msgid "SILPH CO."
-msgstr ""
+msgstr "西尔佛公司"
 
 #: src/data/region_map/region_map_entries.h:959
 msgid "POKéMON MANSION"
-msgstr ""
+msgstr "宝可梦屋"
 
 #: src/data/region_map/region_map_entries.h:980
 msgid "ROCK TUNNEL"
-msgstr ""
+msgstr "岩山隧道"
 
 #: src/data/region_map/region_map_entries.h:987
 msgid "SEAFOAM ISLANDS"
-msgstr ""
+msgstr "双子岛"
 
 #: src/data/region_map/region_map_entries.h:994
 msgid "POKéMON TOWER"
-msgstr ""
+msgstr "宝可梦塔"
 
 #: src/data/region_map/region_map_entries.h:1001
 msgid "CERULEAN CAVE"
-msgstr ""
+msgstr "华蓝洞窟"
 
 #: src/data/region_map/region_map_entries.h:1008
 msgid "POWER PLANT"
-msgstr ""
+msgstr "无人发电厂"
 
 #: src/data/region_map/region_map_entries.h:1064
 msgid "KINDLE ROAD"
-msgstr ""
+msgstr "灯火山道"
 
 #: src/data/region_map/region_map_entries.h:1071
 msgid "TREASURE BEACH"
-msgstr ""
+msgstr "宝物海滩"
 
 #: src/data/region_map/region_map_entries.h:1078
 msgid "CAPE BRINK"
-msgstr ""
+msgstr "尽头岬"
 
 #: src/data/region_map/region_map_entries.h:1085
 msgid "BOND BRIDGE"
-msgstr ""
+msgstr "羁绊之桥"
 
 #: src/data/region_map/region_map_entries.h:1092
 msgid "THREE ISLE PORT"
-msgstr ""
+msgstr "三之岛港口"
 
 #: src/data/region_map/region_map_entries.h:1099
 msgid "RESORT GORGEOUS"
-msgstr ""
+msgstr "豪华度假区"
 
 #: src/data/region_map/region_map_entries.h:1106
 msgid "WATER LABYRINTH"
-msgstr ""
+msgstr "水之迷宫"
 
 #: src/data/region_map/region_map_entries.h:1113
 msgid "FIVE ISLE MEADOW"
-msgstr ""
+msgstr "五之岛草原"
 
 #: src/data/region_map/region_map_entries.h:1120
 msgid "MEMORIAL PILLAR"
-msgstr ""
+msgstr "回忆之塔"
 
 #: src/data/region_map/region_map_entries.h:1127
 msgid "OUTCAST ISLAND"
-msgstr ""
+msgstr "偏远岛"
 
 #: src/data/region_map/region_map_entries.h:1134
 msgid "GREEN PATH"
-msgstr ""
+msgstr "绿之散步道"
 
 #: src/data/region_map/region_map_entries.h:1141
 msgid "WATER PATH"
-msgstr ""
+msgstr "水之散步道"
 
 #: src/data/region_map/region_map_entries.h:1148
 msgid "RUIN VALLEY"
-msgstr ""
+msgstr "遗迹之谷"
 
 #: src/data/region_map/region_map_entries.h:1155 src/data/region_map/region_map_entries.h:1239
 msgid "TRAINER TOWER"
-msgstr ""
+msgstr "训练家之塔"
 
 #: src/data/region_map/region_map_entries.h:1162
 msgid "CANYON ENTRANCE"
-msgstr ""
+msgstr "溪谷入口"
 
 #: src/data/region_map/region_map_entries.h:1169
 msgid "SEVAULT CANYON"
-msgstr ""
+msgstr "七宝溪谷"
 
 #: src/data/region_map/region_map_entries.h:1176
 msgid "TANOBY RUINS"
-msgstr ""
+msgstr "阿斯卡纳遗迹"
 
 #: src/data/region_map/region_map_entries.h:1183
 msgid "SEVII ISLE 22"
-msgstr ""
+msgstr "七岛22"
 
 #: src/data/region_map/region_map_entries.h:1190
 msgid "SEVII ISLE 23"
-msgstr ""
+msgstr "七岛23"
 
 #: src/data/region_map/region_map_entries.h:1197
 msgid "SEVII ISLE 24"
-msgstr ""
+msgstr "七岛24"
 
 #: src/data/region_map/region_map_entries.h:1211
 msgid "MT. EMBER"
-msgstr ""
+msgstr "灯火山"
 
 #: src/data/region_map/region_map_entries.h:1218
 msgid "BERRY FOREST"
-msgstr ""
+msgstr "树果森林"
 
 #: src/data/region_map/region_map_entries.h:1225
 msgid "ICEFALL CAVE"
-msgstr ""
+msgstr "冰瀑洞窟"
 
 #: src/data/region_map/region_map_entries.h:1232
 msgid "ROCKET WAREHOUSE"
-msgstr ""
+msgstr "火箭队仓库"
 
 #: src/data/region_map/region_map_entries.h:1246
 msgid "DOTTED HOLE"
-msgstr ""
+msgstr "点点洞穴"
 
 #: src/data/region_map/region_map_entries.h:1253
 msgid "LOST CAVE"
-msgstr ""
+msgstr "迷失洞窟"
 
 #: src/data/region_map/region_map_entries.h:1260
 msgid "PATTERN BUSH"
-msgstr ""
+msgstr "花纹草丛"
 
 #: src/data/region_map/region_map_entries.h:1274
 msgid "TANOBY CHAMBERS"
-msgstr ""
+msgstr "阿斯卡纳石室"
 
 #: src/data/region_map/region_map_entries.h:1281
 msgid "THREE ISLE PATH"
-msgstr ""
+msgstr "三之岛小径"
 
 #: src/data/region_map/region_map_entries.h:1288
 msgid "TANOBY KEY"
-msgstr ""
+msgstr "阿斯卡纳之钥"
 
 #: src/data/region_map/region_map_entries.h:1302
 msgid "MONEAN CHAMBER"
-msgstr ""
+msgstr "莫内亚石室"
 
 #: src/data/region_map/region_map_entries.h:1309
 msgid "LIPTOO CHAMBER"
-msgstr ""
+msgstr "利普图石室"
 
 #: src/data/region_map/region_map_entries.h:1316
 msgid "WEEPTH CHAMBER"
-msgstr ""
+msgstr "威普斯石室"
 
 #: src/data/region_map/region_map_entries.h:1323
 msgid "DILFORD CHAMBER"
-msgstr ""
+msgstr "迪尔福石室"
 
 #: src/data/region_map/region_map_entries.h:1330
 msgid "SCUFIB CHAMBER"
-msgstr ""
+msgstr "斯库菲石室"
 
 #: src/data/region_map/region_map_entries.h:1337
 msgid "RIXY CHAMBER"
-msgstr ""
+msgstr "里克西石室"
 
 #: src/data/region_map/region_map_entries.h:1344
 msgid "VIAPOIS CHAMBER"
-msgstr ""
+msgstr "维亚波石室"
 
 #: src/data/region_map/region_map_entries.h:1351
 msgid "EMBER SPA"
-msgstr ""
+msgstr "灯火温泉"
 
 #: src/data/region_map/region_map_entries.h:1358
 msgid "SPECIAL AREA"
-msgstr ""
+msgstr "特别区域"
 
 #: src/data/region_map/region_map_entries.h:1365
 msgid "AQUA HIDEOUT"
-msgstr ""
+msgstr "海洋队基地"
 
 #: src/data/region_map/region_map_entries.h:1400
 msgid "ARTISAN CAVE"
-msgstr ""
+msgstr "工匠洞窟"
 
 #: src/data/region_map/region_map_entries.h:1407
 msgid "MARINE CAVE"
-msgstr ""
+msgstr "海之洞窟"
 
 #: src/data/region_map/region_map_entries.h:1421
 msgid "TERRA CAVE"
-msgstr ""
+msgstr "大地洞窟"

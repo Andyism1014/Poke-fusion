@@ -7,634 +7,636 @@ msgstr ""
 
 #: src/pokedex_plus_hgss.c:61
 msgid "{A_BUTTON}TOGGLE   {DPAD_UPDOWN}MOVES"
-msgstr ""
+msgstr "{A_BUTTON}切换   {DPAD_UPDOWN}招式"
 
 #: src/pokedex_plus_hgss.c:62
 msgid "{A_BUTTON}Toggle   {DPAD_UPDOWN}Moves"
-msgstr ""
+msgstr "{A_BUTTON}切换   {DPAD_UPDOWN}招式"
 
 #: src/pokedex_plus_hgss.c:64
 msgid "ATK"
-msgstr ""
+msgstr "攻击"
 
 #: src/pokedex_plus_hgss.c:66
 msgid "SPE"
-msgstr ""
+msgstr "速度"
 
 #: src/pokedex_plus_hgss.c:67
 msgid "SP.A"
-msgstr ""
+msgstr "特攻"
 
 #: src/pokedex_plus_hgss.c:68
 msgid "SP.D"
-msgstr ""
+msgstr "特防"
 
 #: src/pokedex_plus_hgss.c:69
 msgid "{UP_ARROW_2}"
-msgstr ""
+msgstr "{UP_ARROW_2}"
 
 #: src/pokedex_plus_hgss.c:70
 msgid "{UP_ARROW_2}{UP_ARROW_2}"
-msgstr ""
+msgstr "{UP_ARROW_2}{UP_ARROW_2}"
 
 #: src/pokedex_plus_hgss.c:71
 msgid "{UP_ARROW_2}{UP_ARROW_2}{UP_ARROW_2}"
-msgstr ""
+msgstr "{UP_ARROW_2}{UP_ARROW_2}{UP_ARROW_2}"
 
 #: src/pokedex_plus_hgss.c:72
 msgid "{STR_VAR_1}{STR_VAR_2}"
-msgstr ""
+msgstr "{STR_VAR_1}{STR_VAR_2}"
 
 #: src/pokedex_plus_hgss.c:73
 msgid "{STR_VAR_1} / {STR_VAR_2}"
-msgstr ""
+msgstr "{STR_VAR_1} / {STR_VAR_2}"
 
 #: src/pokedex_plus_hgss.c:74
 msgid "LVL"
-msgstr ""
+msgstr "等级"
 
 #: src/pokedex_plus_hgss.c:75 src/strings.c:81 src/data/trade.h:33
 msgid "♂"
-msgstr ""
+msgstr "♂"
 
 #: src/pokedex_plus_hgss.c:76
 msgid "♀ 1/7 ♂"
-msgstr ""
+msgstr "♀ 1/7 ♂"
 
 #: src/pokedex_plus_hgss.c:77
 msgid "♀ 1/3 ♂"
-msgstr ""
+msgstr "♀ 1/3 ♂"
 
 #: src/pokedex_plus_hgss.c:78
 msgid "♀ 1/1 ♂"
-msgstr ""
+msgstr "♀ 1/1 ♂"
 
 #: src/pokedex_plus_hgss.c:79
 msgid "♀ 3/1 ♂"
-msgstr ""
+msgstr "♀ 3/1 ♂"
 
 #: src/pokedex_plus_hgss.c:80
 msgid "♀ 7/1 ♂"
-msgstr ""
+msgstr "♀ 7/1 ♂"
 
 #: src/pokedex_plus_hgss.c:81 src/strings.c:82 src/data/trade.h:34
 msgid "♀"
-msgstr ""
+msgstr "♀"
 
 #: src/pokedex_plus_hgss.c:82
 msgid "CATCH{0x5B}: "
-msgstr ""
+msgstr "捕获率："
 
 #: src/pokedex_plus_hgss.c:83
 msgid "LEGENDARY"
-msgstr ""
+msgstr "传说"
 
 #: src/pokedex_plus_hgss.c:84
 msgid "VERY HARD"
-msgstr ""
+msgstr "非常难"
 
 #: src/pokedex_plus_hgss.c:85
 msgid "DIFFICULT"
-msgstr ""
+msgstr "困难"
 
 #: src/pokedex_plus_hgss.c:86
 msgid "MEDIUM"
-msgstr ""
+msgstr "一般"
 
 #: src/pokedex_plus_hgss.c:87
 msgid "RELAXED"
-msgstr ""
+msgstr "容易"
 
 #: src/pokedex_plus_hgss.c:88 src/data/easy_chat/easy_chat_group_battle.h:340
 msgid "EASY"
-msgstr ""
+msgstr "简单"
 
 #: src/pokedex_plus_hgss.c:89
 msgid "EXP YIELD: "
-msgstr ""
+msgstr "经验值："
 
 #: src/pokedex_plus_hgss.c:90
 msgid "HATCH STEPS:"
-msgstr ""
+msgstr "孵化步数："
 
 #: src/pokedex_plus_hgss.c:91
 msgid "{EMOJI_BOLT}{EMOJI_DIZZYEGG}"
-msgstr ""
+msgstr "{EMOJI_BOLT}{EMOJI_DIZZYEGG}"
 
 #: src/pokedex_plus_hgss.c:92
 msgid "{EMOJI_DIZZYEGG}"
-msgstr ""
+msgstr "{EMOJI_DIZZYEGG}"
 
 #: src/pokedex_plus_hgss.c:93
 msgid "{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}"
-msgstr ""
+msgstr "{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}"
 
 #: src/pokedex_plus_hgss.c:94
 msgid "{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}"
-msgstr ""
+msgstr "{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}{EMOJI_DIZZYEGG}"
 
 #: src/pokedex_plus_hgss.c:95
 msgid "GROW: "
-msgstr ""
+msgstr "成长："
 
 #: src/pokedex_plus_hgss.c:96
 msgid "FRIENDSHIP:"
-msgstr ""
+msgstr "亲密度："
 
 #: src/pokedex_plus_hgss.c:97
 msgid "{EMOJI_BIGANGER}"
-msgstr ""
+msgstr "{EMOJI_BIGANGER}"
 
 #: src/pokedex_plus_hgss.c:98
 msgid "{EMOJI_NEUTRAL}"
-msgstr ""
+msgstr "{EMOJI_NEUTRAL}"
 
 #: src/pokedex_plus_hgss.c:99
 msgid "{EMOJI_HAPPY}"
-msgstr ""
+msgstr "{EMOJI_HAPPY}"
 
 #: src/pokedex_plus_hgss.c:100
 msgid "{EMOJI_BIGSMILE}"
-msgstr ""
+msgstr "{EMOJI_BIGSMILE}"
 
 #: src/pokedex_plus_hgss.c:101
 msgid "MED. FAST"
-msgstr ""
+msgstr "中快"
 
 #: src/pokedex_plus_hgss.c:102
 msgid "ERRATIC"
-msgstr ""
+msgstr "最快"
 
 #: src/pokedex_plus_hgss.c:103
 msgid "FLUCTUATING"
-msgstr ""
+msgstr "最慢"
 
 #: src/pokedex_plus_hgss.c:104
 msgid "MED. SLOW"
-msgstr ""
+msgstr "中慢"
 
 #: src/pokedex_plus_hgss.c:105 src/data/easy_chat/easy_chat_group_conditions.h:316
 msgid "FAST"
-msgstr ""
+msgstr "快"
 
 #: src/pokedex_plus_hgss.c:106
 msgid "SLOW"
-msgstr ""
+msgstr "慢"
 
 #: src/pokedex_plus_hgss.c:107
 msgid "H"
-msgstr ""
+msgstr "H"
 
 #: src/pokedex_plus_hgss.c:109
 msgid "EGG G1:"
-msgstr ""
+msgstr "蛋群："
 
 #: src/pokedex_plus_hgss.c:110
 msgid "{STR_VAR_1}/{STR_VAR_2}"
-msgstr ""
+msgstr "{STR_VAR_1}/{STR_VAR_2}"
 
 #: src/pokedex_plus_hgss.c:111
 msgid "MONSTER"
-msgstr ""
+msgstr "怪兽"
 
 #: src/pokedex_plus_hgss.c:112
 msgid "WATER {CIRCLE_1}"
-msgstr ""
+msgstr "水中{CIRCLE_1}"
 
 #: src/pokedex_plus_hgss.c:113 src/data/easy_chat/easy_chat_group_status.h:586
 msgid "BUG"
-msgstr ""
+msgstr "虫"
 
 #: src/pokedex_plus_hgss.c:114 src/data/easy_chat/easy_chat_group_status.h:454
 msgid "FLYING"
-msgstr ""
+msgstr "飞行"
 
 #: src/pokedex_plus_hgss.c:115
 msgid "FIELD"
-msgstr ""
+msgstr "陆上"
 
 #: src/pokedex_plus_hgss.c:116
 msgid "FAIRY"
-msgstr ""
+msgstr "妖精"
 
 #: src/pokedex_plus_hgss.c:117 src/data/easy_chat/easy_chat_group_status.h:172
 msgid "GRASS"
-msgstr ""
+msgstr "草"
 
 #: src/pokedex_plus_hgss.c:118
 msgid "HUMANE"
-msgstr ""
+msgstr "人型"
 
 #: src/pokedex_plus_hgss.c:119
 msgid "WATER {CIRCLE_3}"
-msgstr ""
+msgstr "水中{CIRCLE_3}"
 
 #: src/pokedex_plus_hgss.c:120
 msgid "MINERAL"
-msgstr ""
+msgstr "矿物"
 
 #: src/pokedex_plus_hgss.c:121
 msgid "AMORPHOUS"
-msgstr ""
+msgstr "不定形"
 
 #: src/pokedex_plus_hgss.c:122
 msgid "WATER {CIRCLE_2}"
-msgstr ""
+msgstr "水中{CIRCLE_2}"
 
 #: src/pokedex_plus_hgss.c:123
 msgid "DITTO"
-msgstr ""
+msgstr "百变怪"
 
 #: src/pokedex_plus_hgss.c:124 src/data/easy_chat/easy_chat_group_status.h:376
 msgid "DRAGON"
-msgstr ""
+msgstr "龙"
 
 #: src/pokedex_plus_hgss.c:125 src/strings.c:80 src/data/moves_info.h:21536 src/data/moves_info.h:21565 src/data/moves_info.h:21594 src/data/moves_info.h:21623 src/data/moves_info.h:21652 src/data/trade.h:40
 msgid "---"
-msgstr ""
+msgstr "---"
 
 #: src/pokedex_plus_hgss.c:127
 msgid "SEEN"
-msgstr ""
+msgstr "见过"
 
 #: src/pokedex_plus_hgss.c:128 src/data/easy_chat/easy_chat_group_actions.h:424
 msgid "OWN"
-msgstr ""
+msgstr "拥有"
 
 #: src/pokedex_plus_hgss.c:130
 msgid "{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK"
-msgstr ""
+msgstr "{DPAD_UPDOWN}进化  {A_BUTTON}查看"
 
 #: src/pokedex_plus_hgss.c:131
 msgid "{DPAD_UPDOWN}Evos  {A_BUTTON}Check"
-msgstr ""
+msgstr "{DPAD_UPDOWN}进化  {A_BUTTON}查看"
 
 #: src/pokedex_plus_hgss.c:132
 msgid "{DPAD_UPDOWN}EVOs  {A_BUTTON}CHECK  {START_BUTTON}FORMs"
-msgstr ""
+msgstr "{DPAD_UPDOWN}进化  {A_BUTTON}查看  {START_BUTTON}形态"
 
 #: src/pokedex_plus_hgss.c:133
 msgid "{DPAD_UPDOWN}Evos  {A_BUTTON}Check  {START_BUTTON}Forms"
-msgstr ""
+msgstr "{DPAD_UPDOWN}进化  {A_BUTTON}查看  {START_BUTTON}形态"
 
 #: src/pokedex_plus_hgss.c:134
 msgid "{STR_VAR_3}:"
-msgstr ""
+msgstr "{STR_VAR_3}："
 
 #: src/pokedex_plus_hgss.c:135
 msgid "{STR_VAR_1} evolves from {STR_VAR_2}"
-msgstr ""
+msgstr "{STR_VAR_1}由{STR_VAR_2}进化而来"
 
 #: src/pokedex_plus_hgss.c:136
 msgid "{STR_VAR_1} Mega Evolves with {STR_VAR_2}"
-msgstr ""
+msgstr "{STR_VAR_1}使用{STR_VAR_2}超级进化"
 
 #: src/pokedex_plus_hgss.c:137
 msgid "{LV}{UP_ARROW} to {STR_VAR_2}, Silcoon persona"
-msgstr ""
+msgstr "{LV}{UP_ARROW}进化为{STR_VAR_2}，甲壳茧个性"
 
 #: src/pokedex_plus_hgss.c:138
 msgid "{LV}{UP_ARROW} to {STR_VAR_2}, Cascoon persona"
-msgstr ""
+msgstr "{LV}{UP_ARROW}进化为{STR_VAR_2}，盾甲茧个性"
 
 #: src/pokedex_plus_hgss.c:139
 msgid "{LV}{UP_ARROW}, knows {STR_VAR_2}"
-msgstr ""
+msgstr "{LV}{UP_ARROW}，学会{STR_VAR_2}"
 
 #: src/pokedex_plus_hgss.c:140
 msgid "{LV}{UP_ARROW} to {STR_VAR_2} while raining"
-msgstr ""
+msgstr "下雨时{LV}{UP_ARROW}进化为{STR_VAR_2}"
 
 #: src/pokedex_plus_hgss.c:141
 msgid "Traded for {STR_VAR_2}"
-msgstr ""
+msgstr "交换{STR_VAR_2}"
 
 #: src/pokedex_plus_hgss.c:142
 msgid ""
 "Land {STR_VAR_2} critical hits in\n"
 "single battle"
 msgstr ""
+"在单打对战中\n"
+"击中要害{STR_VAR_2}次"
 
 #: src/pokedex_plus_hgss.c:143
 msgid "Takes at least {STR_VAR_2} HP in damage"
-msgstr ""
+msgstr "受到至少{STR_VAR_2}HP伤害"
 
 #: src/pokedex_plus_hgss.c:144
 msgid "ScrllOfDrknss is used"
-msgstr ""
+msgstr "使用恶之挂轴"
 
 #: src/pokedex_plus_hgss.c:145
 msgid "ScrollOfWatrs is used"
-msgstr ""
+msgstr "使用水之挂轴"
 
 #: src/pokedex_plus_hgss.c:146
 msgid "{LV}{UP_ARROW} after 20x {STR_VAR_2}"
-msgstr ""
+msgstr "使用20次{STR_VAR_2}后{LV}{UP_ARROW}"
 
 #: src/pokedex_plus_hgss.c:147
 msgid "{LV}{UP_ARROW} with {STR_VAR_2} recoil, male"
-msgstr ""
+msgstr "受到{STR_VAR_2}反作用伤害后{LV}{UP_ARROW}，雄性"
 
 #: src/pokedex_plus_hgss.c:148
 msgid "{LV}{UP_ARROW} with {STR_VAR_2} recoil, female"
-msgstr ""
+msgstr "受到{STR_VAR_2}反作用伤害后{LV}{UP_ARROW}，雌性"
 
 #: src/pokedex_plus_hgss.c:149
 msgid "{LV}{UP_ARROW} defeating 3 {STR_VAR_3} holding {STR_VAR_2}"
-msgstr ""
+msgstr "打倒3只携带{STR_VAR_2}的{STR_VAR_3}后{LV}{UP_ARROW}"
 
 #: src/pokedex_plus_hgss.c:150
 msgid "{STR_VAR_1} has no evolution."
-msgstr ""
+msgstr "{STR_VAR_1}不会进化。"
 
 #: src/pokedex_plus_hgss.c:152
 msgid "{A_BUTTON}FORM MODE  {START_BUTTON}EVOs"
-msgstr ""
+msgstr "{A_BUTTON}形态模式  {START_BUTTON}进化"
 
 #: src/pokedex_plus_hgss.c:153
 msgid "{A_BUTTON}Form Mode  {START_BUTTON}Evos"
-msgstr ""
+msgstr "{A_BUTTON}形态模式  {START_BUTTON}进化"
 
 #: src/pokedex_plus_hgss.c:154
 msgid "{DPAD_NONE}FORMs {A_BUTTON}CHECK {START_BUTTON}EVOs"
-msgstr ""
+msgstr "{DPAD_NONE}形态 {A_BUTTON}查看 {START_BUTTON}进化"
 
 #: src/pokedex_plus_hgss.c:155
 msgid "{DPAD_NONE}Forms {A_BUTTON}Check {START_BUTTON}Evos"
-msgstr ""
+msgstr "{DPAD_NONE}形态 {A_BUTTON}查看 {START_BUTTON}进化"
 
 #: src/pokedex_plus_hgss.c:156
 msgid "{STR_VAR_1} has no alternate forms."
-msgstr ""
+msgstr "{STR_VAR_1}没有其他形态。"
 
 #: src/pokedex_plus_hgss.c:157
 msgid "+"
-msgstr ""
+msgstr "+"
 
 #: src/pokedex_plus_hgss.c:3638 src/pokedex_plus_hgss.c:3646 src/data/pokemon/species_info.h:105
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: src/pokedex_plus_hgss.c:3650
 msgid "{LV}{UP_ARROW}"
-msgstr ""
+msgstr "{LV}{UP_ARROW}"
 
 #: src/pokedex_plus_hgss.c:3657
 msgid ", in battle"
-msgstr ""
+msgstr "，对战中"
 
 #: src/pokedex_plus_hgss.c:3660
 msgid "Trading"
-msgstr ""
+msgstr "通信交换"
 
 #: src/pokedex_plus_hgss.c:3664
 msgid "{STR_VAR_2} is used"
-msgstr ""
+msgstr "使用{STR_VAR_2}"
 
 #: src/pokedex_plus_hgss.c:3667
 msgid "Splits from "
-msgstr ""
+msgstr "分歧自"
 
 #: src/pokedex_plus_hgss.c:3671
 msgid "End battle"
-msgstr ""
+msgstr "战斗结束"
 
 #: src/pokedex_plus_hgss.c:3674
 msgid "Spin "
-msgstr ""
+msgstr "旋转"
 
 #: src/pokedex_plus_hgss.c:3676
 msgid "CW <5s"
-msgstr ""
+msgstr "顺时针<5秒"
 
 #: src/pokedex_plus_hgss.c:3678
 msgid "CW >5s"
-msgstr ""
+msgstr "顺时针>5秒"
 
 #: src/pokedex_plus_hgss.c:3680
 msgid "CCW <5s"
-msgstr ""
+msgstr "逆时针<5秒"
 
 #: src/pokedex_plus_hgss.c:3682
 msgid "CCW >5s"
-msgstr ""
+msgstr "逆时针>5秒"
 
 #: src/pokedex_plus_hgss.c:3684
 msgid "CW/CCW >10s"
-msgstr ""
+msgstr "顺/逆时针>10秒"
 
 #: src/pokedex_plus_hgss.c:3703 src/data/script_menu.h:177
 msgid "Male"
-msgstr ""
+msgstr "雄性"
 
 #: src/pokedex_plus_hgss.c:3704 src/data/script_menu.h:178
 msgid "Female"
-msgstr ""
+msgstr "雌性"
 
 #: src/pokedex_plus_hgss.c:3708
 msgid "{UP_ARROW_2}friendship"
-msgstr ""
+msgstr "{UP_ARROW_2}亲密度"
 
 #: src/pokedex_plus_hgss.c:3711
 msgid "Atk > Def"
-msgstr ""
+msgstr "攻击>防御"
 
 #: src/pokedex_plus_hgss.c:3714
 msgid "Atk = Def"
-msgstr ""
+msgstr "攻击=防御"
 
 #: src/pokedex_plus_hgss.c:3717
 msgid "Atk < Def"
-msgstr ""
+msgstr "攻击<防御"
 
 #: src/pokedex_plus_hgss.c:3722
 msgid "Morning"
-msgstr ""
+msgstr "早晨"
 
 #: src/pokedex_plus_hgss.c:3723 src/pokedex_plus_hgss.c:3734
 msgid "Day"
-msgstr ""
+msgstr "白天"
 
 #: src/pokedex_plus_hgss.c:3724
 msgid "Evening"
-msgstr ""
+msgstr "傍晚"
 
 #: src/pokedex_plus_hgss.c:3725
 msgid "Night"
-msgstr ""
+msgstr "夜晚"
 
 #: src/pokedex_plus_hgss.c:3731
 msgid "NOT Morning"
-msgstr ""
+msgstr "非早晨"
 
 #: src/pokedex_plus_hgss.c:3732
 msgid "NOT Day"
-msgstr ""
+msgstr "非白天"
 
 #: src/pokedex_plus_hgss.c:3733
 msgid "NOT Evening"
-msgstr ""
+msgstr "非傍晚"
 
 #: src/pokedex_plus_hgss.c:3738
 msgid "holds "
-msgstr ""
+msgstr "携带"
 
 #: src/pokedex_plus_hgss.c:3741
 msgid "Sweet"
-msgstr ""
+msgstr "甜点"
 
 #: src/pokedex_plus_hgss.c:3761
 msgid "random %"
-msgstr ""
+msgstr "随机%"
 
 #: src/pokedex_plus_hgss.c:3765
 msgid "{UP_ARROW_2}beauty"
-msgstr ""
+msgstr "{UP_ARROW_2}美丽"
 
 #: src/pokedex_plus_hgss.c:3768
 msgid "{UP_ARROW_2}coolness"
-msgstr ""
+msgstr "{UP_ARROW_2}帅气"
 
 #: src/pokedex_plus_hgss.c:3771
 msgid "{UP_ARROW_2}smartness"
-msgstr ""
+msgstr "{UP_ARROW_2}聪明"
 
 #: src/pokedex_plus_hgss.c:3774
 msgid "{UP_ARROW_2}toughness"
-msgstr ""
+msgstr "{UP_ARROW_2}强壮"
 
 #: src/pokedex_plus_hgss.c:3777
 msgid "{UP_ARROW_2}cuteness"
-msgstr ""
+msgstr "{UP_ARROW_2}可爱"
 
 #: src/pokedex_plus_hgss.c:3782
 msgid " in party"
-msgstr ""
+msgstr "在队伍中"
 
 #: src/pokedex_plus_hgss.c:3785 src/pokedex_plus_hgss.c:3790 src/pokedex_plus_hgss.c:3820
 msgid "in "
-msgstr ""
+msgstr "在"
 
 #: src/pokedex_plus_hgss.c:3795
 msgid "knows "
-msgstr ""
+msgstr "学会"
 
 #: src/pokedex_plus_hgss.c:3800
 msgid "traded with "
-msgstr ""
+msgstr "与之交换："
 
 #: src/pokedex_plus_hgss.c:3806
 msgid "-type in party"
-msgstr ""
+msgstr "属性在队伍中"
 
 #: src/pokedex_plus_hgss.c:3809
 msgid "weather "
-msgstr ""
+msgstr "天气："
 
 #: src/pokedex_plus_hgss.c:3814
 msgid " move"
-msgstr ""
+msgstr "属性招式"
 
 #: src/pokedex_plus_hgss.c:3822
 msgid "out of "
-msgstr ""
+msgstr "不在"
 
 #: src/pokedex_plus_hgss.c:3830
 msgid "Kanto"
-msgstr ""
+msgstr "关都"
 
 #: src/pokedex_plus_hgss.c:3831
 msgid "Johto"
-msgstr ""
+msgstr "城都"
 
 #: src/pokedex_plus_hgss.c:3832
 msgid "Hoenn"
-msgstr ""
+msgstr "丰缘"
 
 #: src/pokedex_plus_hgss.c:3833
 msgid "Sinnoh"
-msgstr ""
+msgstr "神奥"
 
 #: src/pokedex_plus_hgss.c:3834
 msgid "Unova"
-msgstr ""
+msgstr "合众"
 
 #: src/pokedex_plus_hgss.c:3835
 msgid "Kalos"
-msgstr ""
+msgstr "卡洛斯"
 
 #: src/pokedex_plus_hgss.c:3836
 msgid "Alola"
-msgstr ""
+msgstr "阿罗拉"
 
 #: src/pokedex_plus_hgss.c:3837
 msgid "Galar"
-msgstr ""
+msgstr "伽勒尔"
 
 #: src/pokedex_plus_hgss.c:3838
 msgid "Hisui"
-msgstr ""
+msgstr "洗翠"
 
 #: src/pokedex_plus_hgss.c:3839
 msgid "Paldea"
-msgstr ""
+msgstr "帕底亚"
 
 #: src/pokedex_plus_hgss.c:3847
 msgid " nature"
-msgstr ""
+msgstr "性格"
 
 #: src/pokedex_plus_hgss.c:3850
 msgid "amped natures"
-msgstr ""
+msgstr "高调性格"
 
 #: src/pokedex_plus_hgss.c:3853
 msgid "low-Key natures"
-msgstr ""
+msgstr "低调性格"
 
 #: src/pokedex_plus_hgss.c:3856
 msgid "takes >= "
-msgstr ""
+msgstr "受到至少"
 
 #: src/pokedex_plus_hgss.c:3859
 msgid " recoil dmg"
-msgstr ""
+msgstr "反作用伤害"
 
 #: src/pokedex_plus_hgss.c:3864
 msgid " current dmg"
-msgstr ""
+msgstr "当前伤害"
 
 #: src/pokedex_plus_hgss.c:3869
 msgid " critical hits"
-msgstr ""
+msgstr "次击中要害"
 
 #: src/pokedex_plus_hgss.c:3872
 msgid "use move "
-msgstr ""
+msgstr "使用招式"
 
 #: src/pokedex_plus_hgss.c:3877
 msgid " times"
-msgstr ""
+msgstr "次"
 
 #: src/pokedex_plus_hgss.c:3881
 msgid "defeat "
-msgstr ""
+msgstr "打倒"
 
 #: src/pokedex_plus_hgss.c:3886
 msgid " that hold "
-msgstr ""
+msgstr "携带"
 
 #: src/pokedex_plus_hgss.c:3901
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: src/pokedex_plus_hgss.c:3905
 msgid "after "
-msgstr ""
+msgstr "走"
 
 #: src/pokedex_plus_hgss.c:3908
 msgid " steps"
-msgstr ""
+msgstr "步后"
 
 #: src/pokedex_plus_hgss.c:3916
 msgid " in bag"
-msgstr ""
+msgstr "在背包中"

@@ -10,16 +10,20 @@ msgid ""
 "The save file is corrupted. The\n"
 "previous save file will be loaded."
 msgstr ""
+"记录文件已损坏。\n"
+"将读取上一次的记录。"
 
 #: src/main_menu.c:260
 msgid ""
 "The save file has been erased\n"
 "due to corruption or damage."
 msgstr ""
+"记录文件已损坏，\n"
+"已被删除。"
 
 #: src/main_menu.c:261
 msgid "1Mサブきばんが ささっていません！"
-msgstr ""
+msgstr "1M副电路板未插好！"
 
 #: src/main_menu.c:262
 msgid ""
@@ -28,6 +32,10 @@ msgid ""
 "However, clock-based events will\n"
 "no longer occur."
 msgstr ""
+"内置电池已经没电了。\n"
+"游戏可以继续进行。\p"
+"但是，与时间有关的事件\n"
+"将不会再发生。"
 
 #: src/main_menu.c:264
 msgid "NEW GAME"
@@ -53,19 +61,23 @@ msgstr "神秘事件"
 msgid ""
 "The Wireless Adapter is not\n"
 "connected."
-msgstr ""
+msgstr "没有连接无线适配器。"
 
 #: src/main_menu.c:271
 msgid ""
 "MYSTERY GIFT can't be used while\n"
 "the Wireless Adapter is attached."
 msgstr ""
+"连接着无线适配器时\n"
+"无法使用神秘礼物。"
 
 #: src/main_menu.c:272
 msgid ""
 "MYSTERY EVENTS can't be used while\n"
 "the Wireless Adapter is attached."
 msgstr ""
+"连接着无线适配器时\n"
+"无法使用神秘事件。"
 
 #: src/main_menu.c:274 src/strings.c:25 src/strings.c:956
 msgid "PLAYER"
@@ -85,160 +97,160 @@ msgstr "徽章"
 
 #: src/main_menu.c:481 src/pokedex.c:1209
 msgid "STU"
-msgstr ""
+msgstr "STU"
 
 #: src/main_menu.c:482
 msgid "MILTON"
-msgstr ""
+msgstr "MILTON"
 
 #: src/main_menu.c:483
 msgid "TOM"
-msgstr ""
+msgstr "TOM"
 
 #: src/main_menu.c:484
 msgid "KENNY"
-msgstr ""
+msgstr "KENNY"
 
 #: src/main_menu.c:485
 msgid "REID"
-msgstr ""
+msgstr "REID"
 
 #: src/main_menu.c:486
 msgid "JUDE"
-msgstr ""
+msgstr "JUDE"
 
 #: src/main_menu.c:487
 msgid "JAXSON"
-msgstr ""
+msgstr "JAXSON"
 
 #: src/main_menu.c:488
 msgid "EASTON"
-msgstr ""
+msgstr "EASTON"
 
 #: src/main_menu.c:489
 msgid "WALKER"
-msgstr ""
+msgstr "WALKER"
 
 #: src/main_menu.c:490
 msgid "TERU"
-msgstr ""
+msgstr "TERU"
 
 #: src/main_menu.c:491
 msgid "JOHNNY"
-msgstr ""
+msgstr "JOHNNY"
 
 #: src/main_menu.c:492
 msgid "BRETT"
-msgstr ""
+msgstr "BRETT"
 
 #: src/main_menu.c:493
 msgid "SETH"
-msgstr ""
+msgstr "SETH"
 
 #: src/main_menu.c:494 src/data/trainers.h:29248
 msgid "TERRY"
-msgstr ""
+msgstr "TERRY"
 
 #: src/main_menu.c:495
 msgid "CASEY"
-msgstr ""
+msgstr "CASEY"
 
 #: src/main_menu.c:496
 msgid "DARREN"
-msgstr ""
+msgstr "DARREN"
 
 #: src/main_menu.c:497
 msgid "LANDON"
-msgstr ""
+msgstr "LANDON"
 
 #: src/main_menu.c:498
 msgid "COLLIN"
-msgstr ""
+msgstr "COLLIN"
 
 #: src/main_menu.c:499
 msgid "STANLEY"
-msgstr ""
+msgstr "STANLEY"
 
 #: src/main_menu.c:500 src/data/trainers.h:16332
 msgid "QUINCY"
-msgstr ""
+msgstr "QUINCY"
 
 #: src/main_menu.c:504
 msgid "KIMMY"
-msgstr ""
+msgstr "KIMMY"
 
 #: src/main_menu.c:505
 msgid "TIARA"
-msgstr ""
+msgstr "TIARA"
 
 #: src/main_menu.c:506
 msgid "BELLA"
-msgstr ""
+msgstr "BELLA"
 
 #: src/main_menu.c:507
 msgid "JAYLA"
-msgstr ""
+msgstr "JAYLA"
 
 #: src/main_menu.c:508
 msgid "ALLIE"
-msgstr ""
+msgstr "ALLIE"
 
 #: src/main_menu.c:509
 msgid "LIANNA"
-msgstr ""
+msgstr "LIANNA"
 
 #: src/main_menu.c:510
 msgid "SARA"
-msgstr ""
+msgstr "SARA"
 
 #: src/main_menu.c:511
 msgid "MONICA"
-msgstr ""
+msgstr "MONICA"
 
 #: src/main_menu.c:512
 msgid "CAMILA"
-msgstr ""
+msgstr "CAMILA"
 
 #: src/main_menu.c:513
 msgid "AUBREE"
-msgstr ""
+msgstr "AUBREE"
 
 #: src/main_menu.c:514
 msgid "RUTHIE"
-msgstr ""
+msgstr "RUTHIE"
 
 #: src/main_menu.c:515
 msgid "HAZEL"
-msgstr ""
+msgstr "HAZEL"
 
 #: src/main_menu.c:516
 msgid "NADINE"
-msgstr ""
+msgstr "NADINE"
 
 #: src/main_menu.c:517
 msgid "TANJA"
-msgstr ""
+msgstr "TANJA"
 
 #: src/main_menu.c:518
 msgid "YASMIN"
-msgstr ""
+msgstr "YASMIN"
 
 #: src/main_menu.c:519
 msgid "NICOLA"
-msgstr ""
+msgstr "NICOLA"
 
 #: src/main_menu.c:520
 msgid "LILLIE"
-msgstr ""
+msgstr "LILLIE"
 
 #: src/main_menu.c:521
 msgid "TERRA"
-msgstr ""
+msgstr "TERRA"
 
 #: src/main_menu.c:522 src/data/trainers.h:43397
 msgid "LUCY"
-msgstr ""
+msgstr "LUCY"
 
 #: src/main_menu.c:523
 msgid "HALIE"
-msgstr ""
+msgstr "HALIE"

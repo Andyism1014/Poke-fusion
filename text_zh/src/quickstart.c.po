@@ -7,12 +7,12 @@ msgstr ""
 
 #: src/quickstart.c:79 src/data/trainers.h:45857 src/data/easy_chat/easy_chat_group_trainer.h:148
 msgid "LEAF"
-msgstr ""
+msgstr "小叶"
 
 #: src/quickstart.c:82 src/strings.c:19 src/data/trainers.h:25879 src/data/trainers.h:25915 src/data/trainers.h:25975 src/data/trainers.h:26035 src/data/trainers.h:26071 src/data/trainers.h:26131 (+10 more)
 msgid "BRENDAN"
-msgstr ""
+msgstr "小悠"
 
 #: src/quickstart.c:83 src/strings.c:20 src/data/trainers.h:26347 src/data/trainers.h:26383 src/data/trainers.h:26443 src/data/trainers.h:26503 src/data/trainers.h:26539 src/data/trainers.h:26599 (+10 more)
 msgid "MAY"
-msgstr ""
+msgstr "小遥"

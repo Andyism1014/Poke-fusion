@@ -7,80 +7,80 @@ msgstr ""
 
 #: src/naming_screen.c:203
 msgid "RIVAL's NAME?"
-msgstr ""
+msgstr "劲敌的名字是？"
 
 #: src/naming_screen.c:204
 msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!"
-msgstr ""
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!"
 
 #: src/naming_screen.c:288
 msgid "abcdef ."
-msgstr ""
+msgstr "abcdef ."
 
 #: src/naming_screen.c:289
 msgid "ghijkl ,"
-msgstr ""
+msgstr "ghijkl ,"
 
 #: src/naming_screen.c:290
 msgid "mnopqrs "
-msgstr ""
+msgstr "mnopqrs"
 
 #: src/naming_screen.c:291
 msgid "tuvwxyz "
-msgstr ""
+msgstr "tuvwxyz"
 
 #: src/naming_screen.c:294
 msgid "ABCDEF ."
-msgstr ""
+msgstr "ABCDEF ."
 
 #: src/naming_screen.c:295
 msgid "GHIJKL ,"
-msgstr ""
+msgstr "GHIJKL ,"
 
 #: src/naming_screen.c:296
 msgid "MNOPQRS "
-msgstr ""
+msgstr "MNOPQRS"
 
 #: src/naming_screen.c:297
 msgid "TUVWXYZ "
-msgstr ""
+msgstr "TUVWXYZ"
 
 #: src/naming_screen.c:300
 msgid "01234   "
-msgstr ""
+msgstr "01234"
 
 #: src/naming_screen.c:301
 msgid "56789   "
-msgstr ""
+msgstr "56789"
 
 #: src/naming_screen.c:302
 msgid "!?♂♀/-  "
-msgstr ""
+msgstr "!?♂♀/-"
 
 #: src/naming_screen.c:303
 msgid "…“”‘'   "
-msgstr ""
+msgstr "{0xB0}{0xB1}{0xB2}{0xB3}'"
 
 #: src/naming_screen.c:401
 msgid "{DPAD_NONE}MOVE  {A_BUTTON}OK  {B_BUTTON}BACK"
-msgstr ""
+msgstr "{DPAD_NONE}移动  {A_BUTTON}确定  {B_BUTTON}返回"
 
 #: src/naming_screen.c:2158
 msgid "YOUR NAME?"
-msgstr ""
+msgstr "你的名字是？"
 
 #: src/naming_screen.c:2169
 msgid "BOX NAME?"
-msgstr ""
+msgstr "盒子的名字是？"
 
 #: src/naming_screen.c:2180
 msgid "{STR_VAR_1}'s nickname?"
-msgstr ""
+msgstr "{STR_VAR_1}的昵称是？"
 
 #: src/naming_screen.c:2191
 msgid "Tell him the words."
-msgstr ""
+msgstr "告诉他那句话吧。"
 
 #: src/naming_screen.c:2202
 msgid "Enter code:"
-msgstr ""
+msgstr "输入密码："

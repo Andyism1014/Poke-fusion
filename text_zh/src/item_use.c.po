@@ -7,7 +7,7 @@ msgstr ""
 
 #: src/item_use.c:86
 msgid "You can't dismount your BIKE here.{PAUSE_UNTIL_PRESS}"
-msgstr ""
+msgstr "这里不能下自行车。{PAUSE_UNTIL_PRESS}"
 
 #: src/item_use.c:87
 msgid ""
@@ -15,36 +15,45 @@ msgid ""
 "The ITEMFINDER's responding!\p"
 "There's an item buried around here!{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"咦？\n"
+"探宝器有反应！\p"
+"这附近埋着道具！{PAUSE_UNTIL_PRESS}"
 
 #: src/item_use.c:88
 msgid ""
 "Oh!\n"
 "The ITEMFINDER's shaking wildly!{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"哦！\n"
+"探宝器剧烈地晃动着！{PAUSE_UNTIL_PRESS}"
 
 #: src/item_use.c:89
 msgid ""
 "… … … …Nope!\n"
 "There's no response.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"…………没有！\n"
+"没有任何反应。{PAUSE_UNTIL_PRESS}"
 
 #: src/item_use.c:90
 msgid ""
 "Your COINS:\n"
 "{STR_VAR_1}{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"你的代币：\n"
+"{STR_VAR_1}{PAUSE_UNTIL_PRESS}"
 
 #: src/item_use.c:91
 msgid "POWDER QTY: {STR_VAR_1}{PAUSE_UNTIL_PRESS}"
-msgstr ""
+msgstr "粉末数量：{STR_VAR_1}{PAUSE_UNTIL_PRESS}"
 
 #: src/item_use.c:92
 msgid "Booted up a TM."
-msgstr ""
+msgstr "启动了招式学习器。"
 
 #: src/item_use.c:93
 msgid "Booted up an HM."
-msgstr ""
+msgstr "启动了秘传学习器。"
 
 #: src/item_use.c:94
 msgid ""
@@ -53,6 +62,10 @@ msgid ""
 "Teach {STR_VAR_1}\n"
 "to a POKéMON?"
 msgstr ""
+"里面记录着\n"
+"{STR_VAR_1}。\p"
+"要让宝可梦学习\n"
+"{STR_VAR_1}吗？"
 
 #: src/item_use.c:95
 msgid ""
@@ -60,6 +73,9 @@ msgid ""
 "{STR_VAR_2}.\p"
 "Wild POKéMON will be lured.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{PLAYER}使用了\n"
+"{STR_VAR_2}。\p"
+"会更容易吸引野生宝可梦。{PAUSE_UNTIL_PRESS}"
 
 #: src/item_use.c:96
 msgid ""
@@ -67,37 +83,48 @@ msgid ""
 "{STR_VAR_2}.\p"
 "Wild POKéMON will be repelled.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"{PLAYER}使用了\n"
+"{STR_VAR_2}。\p"
+"野生宝可梦将不会靠近。{PAUSE_UNTIL_PRESS}"
 
 #: src/item_use.c:97
 msgid ""
 "Played the POKé FLUTE.\p"
 "Now, that's a catchy tune!{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"吹响了宝可梦之笛。\p"
+"真是首动听的曲子！{PAUSE_UNTIL_PRESS}"
 
 #: src/item_use.c:98
 msgid "Played the POKé FLUTE."
-msgstr ""
+msgstr "吹响了宝可梦之笛。"
 
 #: src/item_use.c:99
 msgid ""
 "The POKé FLUTE awakened sleeping\n"
 "POKéMON.{PAUSE_UNTIL_PRESS}"
 msgstr ""
+"宝可梦之笛唤醒了\n"
+"睡着的宝可梦。{PAUSE_UNTIL_PRESS}"
 
 #: src/item_use.c:1161
 msgid ""
 "Cannot throw a ball!\n"
 "There are two Pokémon out there!\p"
 msgstr ""
+"无法投掷精灵球！\n"
+"对手有两只宝可梦！\p"
 
 #: src/item_use.c:1162
 msgid ""
 "Cannot throw a ball!\n"
 "There's no Pokémon in sight!\p"
 msgstr ""
+"无法投掷精灵球！\n"
+"看不到目标宝可梦！\p"
 
 #: src/item_use.c:1163
 msgid ""
 "POKé BALLS cannot be used\n"
 "right now!\p"
-msgstr ""
+msgstr "现在不能使用精灵球！\p"

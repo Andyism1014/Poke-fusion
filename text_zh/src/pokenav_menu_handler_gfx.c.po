@@ -7,60 +7,60 @@ msgstr ""
 
 #: src/pokenav_menu_handler_gfx.c:111
 msgid "There are no RIBBON winners."
-msgstr ""
+msgstr "没有获得奖章的宝可梦。"
 
 #: src/pokenav_menu_handler_gfx.c:272
 msgid "Check the map of the HOENN region"
-msgstr ""
+msgstr "查看丰缘地区的地图。"
 
 #: src/pokenav_menu_handler_gfx.c:273
 msgid "Check POKéMON in detail."
-msgstr ""
+msgstr "查看宝可梦的详细信息。"
 
 #: src/pokenav_menu_handler_gfx.c:274
 msgid "Call a registered TRAINER."
-msgstr ""
+msgstr "呼叫已登记的训练家。"
 
 #: src/pokenav_menu_handler_gfx.c:275
 msgid "Check obtained RIBBONS."
-msgstr ""
+msgstr "查看已获得的奖章。"
 
 #: src/pokenav_menu_handler_gfx.c:276
 msgid "Put away the POKéNAV."
-msgstr ""
+msgstr "收起宝可梦导航。"
 
 #: src/pokenav_menu_handler_gfx.c:277
 msgid "Check party POKéMON in detail."
-msgstr ""
+msgstr "查看同行宝可梦的详细信息。"
 
 #: src/pokenav_menu_handler_gfx.c:278
 msgid "Check all POKéMON in detail."
-msgstr ""
+msgstr "查看所有宝可梦的详细信息。"
 
 #: src/pokenav_menu_handler_gfx.c:279
 msgid "Return to the POKéNAV menu."
-msgstr ""
+msgstr "返回宝可梦导航菜单。"
 
 #: src/pokenav_menu_handler_gfx.c:280
 msgid "Find cool POKéMON."
-msgstr ""
+msgstr "寻找帅气的宝可梦。"
 
 #: src/pokenav_menu_handler_gfx.c:281
 msgid "Find beautiful POKéMON."
-msgstr ""
+msgstr "寻找美丽的宝可梦。"
 
 #: src/pokenav_menu_handler_gfx.c:282
 msgid "Find cute POKéMON."
-msgstr ""
+msgstr "寻找可爱的宝可梦。"
 
 #: src/pokenav_menu_handler_gfx.c:283
 msgid "Find smart POKéMON."
-msgstr ""
+msgstr "寻找聪明的宝可梦。"
 
 #: src/pokenav_menu_handler_gfx.c:284
 msgid "Find tough POKéMON."
-msgstr ""
+msgstr "寻找强壮的宝可梦。"
 
 #: src/pokenav_menu_handler_gfx.c:285
 msgid "Return to the CONDITION menu."
-msgstr ""
+msgstr "返回状态菜单。"
