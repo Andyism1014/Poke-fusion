@@ -129,3 +129,22 @@
 | Reincarnation / Reincarnate | 转生 |
 | Passive Crystal | 被动水晶 |
 | Type Prism | 属性棱镜 |
+
+## 训练家相关（翻译中确定的用法）
+
+| 英文 | 中文 |
+| --- | --- |
+| Team Aqua / Team Magma（训练家类别） | 海洋队 / 熔岩队（手下的名字是"手下"，屏幕上显示"海洋队 手下"） |
+| Aqua Admin / Magma Admin | 海洋队干部 / 熔岩队干部 |
+| Shelly / Matt / Tabitha | 阿泉 / 阿潮 / 火村 |
+| Match Call | 对战呼叫 |
+| Pokémon Ranger | 宝可梦巡护员 |
+| Bug Maniac | 昆虫迷 |
+| Bird Keeper | 养鸟人 |
+| Black Belt | 空手王 |
+| VS Seeker | 对战搜寻器 |
+| Running Shoes | 跑步鞋 |
+| Trainer's School | 训练家学校 |
+| Pokémon Fan Club | 宝可梦爱好者俱乐部 |
+| Lilycove Dept. Store | 水静百货商店 |
+| Berry Master | 树果大师 |
