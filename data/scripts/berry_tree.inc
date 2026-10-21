@@ -265,25 +265,40 @@ BerryTree_Text_PlantedOneBerry:
 	.string "{PLAYER} planted one {STR_VAR_1} in\n"
 	.string "the soft, loamy soil.$"
 
-BerryTree_Text_BerryGrowthStage1:
-.if OW_BERRY_SIX_STAGES == TRUE
+BerryTree_Text_BerryGrowthStage1SixStages:
 	.string "This is where you planted the\n{STR_VAR_1}!$"
-.else
+
+BerryTree_Text_BerryGrowthStage1FourStages:
 	.string "One {STR_VAR_1} was planted here.$"
+
+.if OW_BERRY_SIX_STAGES == TRUE
+	.set BerryTree_Text_BerryGrowthStage1, BerryTree_Text_BerryGrowthStage1SixStages
+.else
+	.set BerryTree_Text_BerryGrowthStage1, BerryTree_Text_BerryGrowthStage1FourStages
 .endif
 
-BerryTree_Text_BerryGrowthStage2:
-.if OW_BERRY_SIX_STAGES == TRUE
+BerryTree_Text_BerryGrowthStage2SixStages:
 	.string "The {STR_VAR_1} is sprouting!$"
-.else
+
+BerryTree_Text_BerryGrowthStage2FourStages:
 	.string "{STR_VAR_1} has sprouted.$"
+
+.if OW_BERRY_SIX_STAGES == TRUE
+	.set BerryTree_Text_BerryGrowthStage2, BerryTree_Text_BerryGrowthStage2SixStages
+.else
+	.set BerryTree_Text_BerryGrowthStage2, BerryTree_Text_BerryGrowthStage2FourStages
 .endif
 
-BerryTree_Text_BerryGrowthStage3:
-.if OW_BERRY_SIX_STAGES == TRUE
+BerryTree_Text_BerryGrowthStage3SixStages:
 	.string "The {STR_VAR_1}'s seedling is growing well!$"
-.else
+
+BerryTree_Text_BerryGrowthStage3FourStages:
 	.string "This {STR_VAR_1} plant is growing taller.$"
+
+.if OW_BERRY_SIX_STAGES == TRUE
+	.set BerryTree_Text_BerryGrowthStage3, BerryTree_Text_BerryGrowthStage3SixStages
+.else
+	.set BerryTree_Text_BerryGrowthStage3, BerryTree_Text_BerryGrowthStage3FourStages
 .endif
 
 BerryTree_Text_BerryGrowthStageTrunk:
@@ -292,12 +307,17 @@ BerryTree_Text_BerryGrowthStageTrunk:
 BerryTree_Text_BerryGrowthStageBudding:
 	.string "The {STR_VAR_1} tree has buds!$"
 
-BerryTree_Text_BerryGrowthStage4:
-.if OW_BERRY_SIX_STAGES == TRUE
+BerryTree_Text_BerryGrowthStage4SixStages:
 	.string "The {STR_VAR_1} tree is in bloom!$"
-.else
+
+BerryTree_Text_BerryGrowthStage4FourStages:
 	.string "These {STR_VAR_1} flowers are blooming\n"
 	.string "{STR_VAR_2}.$"
+
+.if OW_BERRY_SIX_STAGES == TRUE
+	.set BerryTree_Text_BerryGrowthStage4, BerryTree_Text_BerryGrowthStage4SixStages
+.else
+	.set BerryTree_Text_BerryGrowthStage4, BerryTree_Text_BerryGrowthStage4FourStages
 .endif
 
 BerryTree_Text_CareAdverbGreat:

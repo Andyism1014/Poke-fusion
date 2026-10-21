@@ -18,12 +18,20 @@ msgstr ""
 "被放进了\n"
 "盒子“{STR_VAR_1}”里。$"
 
-#: data/text/pc_transfer.inc:7
+#: data/text/pc_transfer.inc:14
 msgctxt "gText_PkmnTransferredLanettesPC"
-msgid "{STR_VAR_2} was transferred to\n"
-msgstr "{STR_VAR_2}被送到了\n"
+msgid ""
+"{STR_VAR_2} was transferred to\n"
+"LANETTE'S PC.\p"
+"It was placed in \n"
+"BOX “{STR_VAR_1}.”$"
+msgstr ""
+"{STR_VAR_2}被送到了\n"
+"真由美的电脑。\p"
+"被放进了\n"
+"盒子“{STR_VAR_1}”里。$"
 
-#: data/text/pc_transfer.inc:17
+#: data/text/pc_transfer.inc:21
 msgctxt "gText_PkmnTransferredSomeonesPCBoxFull"
 msgid ""
 "BOX “{STR_VAR_3}” on\n"
@@ -36,12 +44,20 @@ msgstr ""
 "{STR_VAR_2}被送到了\n"
 "盒子“{STR_VAR_1}”里。$"
 
-#: data/text/pc_transfer.inc:23
+#: data/text/pc_transfer.inc:34
 msgctxt "gText_PkmnTransferredLanettesPCBoxFull"
-msgid "BOX “{STR_VAR_3}” on\n"
-msgstr "盒子“{STR_VAR_3}”\n"
+msgid ""
+"BOX “{STR_VAR_3}” on\n"
+"LANETTE'S PC was full.\p"
+"{STR_VAR_2} was transferred to\n"
+"BOX “{STR_VAR_1}.”$"
+msgstr ""
+"真由美的电脑中的\n"
+"盒子“{STR_VAR_3}”已经满了。\p"
+"{STR_VAR_2}被送到了\n"
+"盒子“{STR_VAR_1}”里。$"
 
-#: data/text/pc_transfer.inc:33
+#: data/text/pc_transfer.inc:41
 msgctxt "gText_PkmnSentToPCAfterCatch"
 msgid ""
 "{STR_VAR_2} was sent to\n"
@@ -54,7 +70,7 @@ msgstr ""
 "被放进了\n"
 "盒子“{STR_VAR_1}”里。$"
 
-#: data/text/pc_transfer.inc:39
+#: data/text/pc_transfer.inc:47
 msgctxt "gText_PlayerObtainedTheMon"
 msgid ""
 "{PLAYER} obtained\n"
@@ -63,7 +79,7 @@ msgstr ""
 "{PLAYER}得到了\n"
 "{STR_VAR_1}！$"
 
-#: data/text/pc_transfer.inc:43
+#: data/text/pc_transfer.inc:51
 msgctxt "gText_NoMoreRoomForPokemon"
 msgid ""
 "There's no more room for POKéMON!\p"
@@ -74,7 +90,7 @@ msgstr ""
 "宝可梦的盒子已经满了，\n"
 "无法再放入更多宝可梦！$"
 
-#: data/text/pc_transfer.inc:48
+#: data/text/pc_transfer.inc:56
 msgctxt "gText_NicknameThisPokemon"
 msgid ""
 "Do you want to give a nickname to\n"
