@@ -12,11 +12,13 @@ msgid ""
 "always bring our POKéMON.\l"
 "How about a quick battle?$"
 msgstr ""
+"我们水手出海的时候，总是会带着\n"
+"宝可梦。来速战速决一场怎么样？$"
 
 #: data/maps/AbandonedShip_Corridors_B1F/scripts.inc:61
 msgctxt "AbandonedShip_Corridors_B1F_Text_DuncanDefeat"
 msgid "Whoops, I'm sunk!$"
-msgstr ""
+msgstr "哎呀，我沉没了！$"
 
 #: data/maps/AbandonedShip_Corridors_B1F/scripts.inc:64
 msgctxt "AbandonedShip_Corridors_B1F_Text_DuncanPostBattle"
@@ -26,13 +28,16 @@ msgid ""
 "If a POKéMON knew how to go underwater,\n"
 "we might make some progress…$"
 msgstr ""
+"船底已经沉到深处了。\p"
+"要是有宝可梦会潜到水下，\n"
+"说不定就能有所进展……$"
 
 #: data/maps/AbandonedShip_Corridors_B1F/scripts.inc:70
 msgctxt "AbandonedShip_Corridors_B1F_Text_YayItsAShip"
 msgid ""
 "Yay!\n"
 "It's a ship!$"
-msgstr ""
+msgstr "耶！是船！$"
 
 #: data/maps/AbandonedShip_Corridors_B1F/scripts.inc:74
 msgctxt "AbandonedShip_Corridors_B1F_Text_DoorIsLocked"
@@ -40,6 +45,8 @@ msgid ""
 "The door is locked.\p"
 "“STORAGE” is painted on the door.$"
 msgstr ""
+"门锁着。\p"
+"门上写着“仓库”。$"
 
 #: data/maps/AbandonedShip_Corridors_B1F/scripts.inc:78
 msgctxt "AbandonedShip_Corridors_B1F_Text_InsertedStorageKey"
@@ -49,8 +56,11 @@ msgid ""
 "The inserted KEY stuck fast,\n"
 "but the door opened.$"
 msgstr ""
+"{PLAYER}插入仓库钥匙，转了一下。\p"
+"插进去的钥匙卡住拔不出来了，\n"
+"不过门打开了。$"
 
 #: data/maps/AbandonedShip_Corridors_B1F/scripts.inc:84
 msgctxt "AbandonedShip_Text_TheDoorIsOpen"
 msgid "The door is open.$"
-msgstr ""
+msgstr "门是开着的。$"

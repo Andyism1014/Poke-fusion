@@ -13,6 +13,8 @@ msgid ""
 "Hmhm…\n"
 "There appear to be other cabins…$"
 msgstr ""
+"这种船很少见，所以我四处看看。\p"
+"嗯嗯……好像还有其他客舱……$"
 
 #: data/maps/AbandonedShip_Rooms_1F/scripts.inc:40
 msgctxt "AbandonedShip_Rooms_1F_Text_ThaliaIntro"
@@ -20,11 +22,13 @@ msgid ""
 "What on earth would compel you to\n"
 "come here? You must be curious!$"
 msgstr ""
+"到底是什么让你来到这种地方？\n"
+"你一定是好奇心很强吧！$"
 
 #: data/maps/AbandonedShip_Rooms_1F/scripts.inc:44
 msgctxt "AbandonedShip_Rooms_1F_Text_ThaliaDefeat"
 msgid "Not just curious, but also strong…$"
-msgstr ""
+msgstr "不光好奇心强，实力也很强……$"
 
 #: data/maps/AbandonedShip_Rooms_1F/scripts.inc:47
 msgctxt "AbandonedShip_Rooms_1F_Text_ThaliaPostBattle"
@@ -33,6 +37,9 @@ msgid ""
 "He says he's just sightseeing,\n"
 "but I don't know about that.$"
 msgstr ""
+"隔壁的那个男人……\p"
+"他说他只是来观光的，\n"
+"但我可不这么认为。$"
 
 #: data/maps/AbandonedShip_Rooms_1F/scripts.inc:52
 msgctxt "AbandonedShip_Rooms_1F_Text_ThaliaRegister"
@@ -40,6 +47,8 @@ msgid ""
 "You're such a tough TRAINER!\n"
 "Let me register you as a memento!$"
 msgstr ""
+"你真是个厉害的训练家！\n"
+"让我把你登记下来作个纪念吧！$"
 
 #: data/maps/AbandonedShip_Rooms_1F/scripts.inc:56
 msgctxt "AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro"
@@ -47,11 +56,13 @@ msgid ""
 "What on earth would compel you to\n"
 "come back? You must really be curious!$"
 msgstr ""
+"到底是什么让你又回到这里？\n"
+"你的好奇心一定很强吧！$"
 
 #: data/maps/AbandonedShip_Rooms_1F/scripts.inc:60
 msgctxt "AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat"
 msgid "Aren't you too strong?$"
-msgstr ""
+msgstr "你是不是太强了？$"
 
 #: data/maps/AbandonedShip_Rooms_1F/scripts.inc:63
 msgctxt "AbandonedShip_Rooms_1F_Text_ThaliaPostRematch"
@@ -59,18 +70,20 @@ msgid ""
 "I'm sure that man's up to something!\n"
 "He just acts so suspiciously!$"
 msgstr ""
+"那个男人一定在打什么主意！\n"
+"他的举动太可疑了！$"
 
 #: data/maps/AbandonedShip_Rooms_1F/scripts.inc:67
 msgctxt "AbandonedShip_Rooms_1F_Text_DemetriusIntro"
 msgid ""
 "Waaah!\n"
 "I've been found! …Huh?$"
-msgstr ""
+msgstr "哇啊！被找到了！……咦？$"
 
 #: data/maps/AbandonedShip_Rooms_1F/scripts.inc:71
 msgctxt "AbandonedShip_Rooms_1F_Text_DemetriusDefeat"
 msgid "Oh, you're not my mom.$"
-msgstr ""
+msgstr "哦，你不是我妈妈啊。$"
 
 #: data/maps/AbandonedShip_Rooms_1F/scripts.inc:74
 msgctxt "AbandonedShip_Rooms_1F_Text_DemetriusPostBattle"
@@ -78,3 +91,5 @@ msgid ""
 "I'm in trouble with my mom, so I ran.\n"
 "Keep it a secret where I am!$"
 msgstr ""
+"我惹妈妈生气了，所以就跑出来了。\n"
+"别告诉别人我在这里哦！$"

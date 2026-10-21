@@ -11,6 +11,8 @@ msgid ""
 "The door is locked.\p"
 "“RM. 1” is painted on the door.$"
 msgstr ""
+"门锁着。\p"
+"门上写着“1号房”。$"
 
 #: data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc:138
 msgctxt "AbandonedShip_HiddenFloorCorridors_Text_Rm2DoorIsLocked"
@@ -18,6 +20,8 @@ msgid ""
 "The door is locked.\p"
 "“RM. 2” is painted on the door.$"
 msgstr ""
+"门锁着。\p"
+"门上写着“2号房”。$"
 
 #: data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc:142
 msgctxt "AbandonedShip_HiddenFloorCorridors_Text_Rm4DoorIsLocked"
@@ -25,6 +29,8 @@ msgid ""
 "The door is locked.\p"
 "“RM. 4” is painted on the door.$"
 msgstr ""
+"门锁着。\p"
+"门上写着“4号房”。$"
 
 #: data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc:146
 msgctxt "AbandonedShip_HiddenFloorCorridors_Text_Rm6DoorIsLocked"
@@ -32,6 +38,8 @@ msgid ""
 "The door is locked.\p"
 "“RM. 6” is painted on the door.$"
 msgstr ""
+"门锁着。\p"
+"门上写着“6号房”。$"
 
 #: data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc:150
 msgctxt "AbandonedShip_HiddenFloorCorridors_Text_InsertedKey"
@@ -41,3 +49,6 @@ msgid ""
 "The inserted KEY stuck fast,\n"
 "but the door opened.$"
 msgstr ""
+"{PLAYER}插入钥匙，转了一下。\p"
+"插进去的钥匙卡住拔不出来了，\n"
+"不过门打开了。$"

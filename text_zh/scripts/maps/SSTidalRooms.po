@@ -10,7 +10,7 @@ msgctxt "SSTidalRooms_Text_TakeRestOnBed"
 msgid ""
 "There's a bed…\n"
 "Let's take a rest.$"
-msgstr ""
+msgstr "这里有张床……休息一下吧。$"
 
 #: data/maps/SSTidalRooms/scripts.inc:69
 msgctxt "SSTidalRooms_Text_ColtonIntro"
@@ -19,11 +19,13 @@ msgid ""
 "I enjoy attending CONTESTS,\n"
 "you see.$"
 msgstr ""
+"我经常坐船去水静市。\p"
+"因为我喜欢去看华丽大赛。$"
 
 #: data/maps/SSTidalRooms/scripts.inc:74
 msgctxt "SSTidalRooms_Text_ColtonDefeat"
 msgid "That was an enjoyable match!$"
-msgstr ""
+msgstr "真是一场愉快的比赛！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:77
 msgctxt "SSTidalRooms_Text_ColtonPostBattle"
@@ -32,16 +34,19 @@ msgid ""
 "of POKéMON I'll get to see in the next\l"
 "CONTEST. The anticipation of it thrills!$"
 msgstr ""
+"一想到下次华丽大赛能看到什么样的\n"
+"宝可梦，我就兴奋得不得了。\l"
+"这种期待真让人激动！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:82
 msgctxt "SSTidalRooms_Text_MicahIntro"
 msgid "Are your friends strong?$"
-msgstr ""
+msgstr "你的朋友们强吗？$"
 
 #: data/maps/SSTidalRooms/scripts.inc:85
 msgctxt "SSTidalRooms_Text_MicahDefeat"
 msgid "Your friends are, indeed, strong.$"
-msgstr ""
+msgstr "你的朋友们确实很强。$"
 
 #: data/maps/SSTidalRooms/scripts.inc:88
 msgctxt "SSTidalRooms_Text_MicahPostBattle"
@@ -49,20 +54,22 @@ msgid ""
 "Friends need not be human.\n"
 "For me, POKéMON are treasured friends!$"
 msgstr ""
+"朋友不一定非得是人。对我来说，\n"
+"宝可梦就是宝贵的朋友！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:92
 msgctxt "SSTidalRooms_Text_ThomasIntro"
 msgid ""
 "Child…\n"
 "Did you knock on the door?$"
-msgstr ""
+msgstr "孩子……你敲过门了吗？$"
 
 #: data/maps/SSTidalRooms/scripts.inc:96
 msgctxt "SSTidalRooms_Text_ThomasDefeat"
 msgid ""
 "A loss is to be accepted without haste\n"
 "or panic.$"
-msgstr ""
+msgstr "面对失败，应当不慌不忙地接受。$"
 
 #: data/maps/SSTidalRooms/scripts.inc:100
 msgctxt "SSTidalRooms_Text_ThomasPostBattle"
@@ -70,6 +77,8 @@ msgid ""
 "To be never ruffled in any situation is\n"
 "the GENTLEMAN's code of conduct.$"
 msgstr ""
+"无论在什么情况下都处变不惊，\n"
+"这才是绅士的行为准则。$"
 
 #: data/maps/SSTidalRooms/scripts.inc:104
 msgctxt "SSTidalRooms_Text_JedIntro"
@@ -77,11 +86,13 @@ msgid ""
 "JED: I feel a little shy about this, but…\n"
 "We'll show you our lovey-dovey power!$"
 msgstr ""
+"杰德：虽然有点不好意思，不过……\n"
+"让你见识一下我们的甜蜜力量吧！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:108
 msgctxt "SSTidalRooms_Text_JedDefeat"
 msgid "JED: Sigh…$"
-msgstr ""
+msgstr "杰德：唉……$"
 
 #: data/maps/SSTidalRooms/scripts.inc:111
 msgctxt "SSTidalRooms_Text_JedPostBattle"
@@ -90,6 +101,8 @@ msgid ""
 "dovey power couldn't prevail!\l"
 "You must be an awesome TRAINER!$"
 msgstr ""
+"杰德：这还是我们的甜蜜力量第一次没\n"
+"能获胜！你一定是个超厉害的训练家！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:116
 msgctxt "SSTidalRooms_Text_JedNotEnoughMons"
@@ -97,6 +110,8 @@ msgid ""
 "JED: You only have one POKéMON?\n"
 "Isn't that just too lonesome?$"
 msgstr ""
+"杰德：你只有一只宝可梦吗？\n"
+"那不是太孤单了吗？$"
 
 #: data/maps/SSTidalRooms/scripts.inc:120
 msgctxt "SSTidalRooms_Text_LeaIntro"
@@ -104,11 +119,13 @@ msgid ""
 "LEA: I feel a little silly, but…\n"
 "We'll show you our lovey-dovey power!$"
 msgstr ""
+"莉娅：虽然感觉有点傻，不过……\n"
+"让你见识一下我们的甜蜜力量吧！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:124
 msgctxt "SSTidalRooms_Text_LeaDefeat"
 msgid "LEA: Oh, boo!$"
-msgstr ""
+msgstr "莉娅：哎呀，讨厌！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:127
 msgctxt "SSTidalRooms_Text_LeaPostBattle"
@@ -117,6 +134,8 @@ msgid ""
 "Our lovey-dovey power failed…\l"
 "You must be an awesome TRAINER!$"
 msgstr ""
+"莉娅：真不敢相信！我们的甜蜜力量竟然\n"
+"失败了……你一定是个超厉害的训练家！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:132
 msgctxt "SSTidalRooms_Text_LeaNotEnoughMons"
@@ -124,6 +143,8 @@ msgid ""
 "LEA: I wanted to battle…\n"
 "But you don't even have two POKéMON…$"
 msgstr ""
+"莉娅：我很想对战……\n"
+"可是你连两只宝可梦都没有……$"
 
 #: data/maps/SSTidalRooms/scripts.inc:136
 msgctxt "SSTidalRooms_Text_GarretIntro"
@@ -132,11 +153,13 @@ msgid ""
 "I'm bored, you see.\n"
 "You may entertain me.$"
 msgstr ""
+"啊，你来得正好。\p"
+"我正觉得无聊呢。你来陪我解解闷吧。$"
 
 #: data/maps/SSTidalRooms/scripts.inc:141
 msgctxt "SSTidalRooms_Text_GarretDefeat"
 msgid "…That will do.$"
-msgstr ""
+msgstr "……这样就行了。$"
 
 #: data/maps/SSTidalRooms/scripts.inc:144
 msgctxt "SSTidalRooms_Text_GarretPostBattle"
@@ -145,6 +168,8 @@ msgid ""
 "a yacht for me.\l"
 "A yacht for me and POKéMON!$"
 msgstr ""
+"也许我该让父亲给我买一艘游艇。\n"
+"一艘属于我和宝可梦的游艇！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:149
 msgctxt "SSTidalRooms_Text_NaomiIntro"
@@ -153,13 +178,15 @@ msgid ""
 "Would you like to have tea?\l"
 "Or would you rather battle?$"
 msgstr ""
+"哎呀，好可爱的训练家。要不要一\n"
+"起喝杯茶？还是说你更想对战？$"
 
 #: data/maps/SSTidalRooms/scripts.inc:154
 msgctxt "SSTidalRooms_Text_NaomiDefeat"
 msgid ""
 "I see.\n"
 "You're the active sort.$"
-msgstr ""
+msgstr "原来如此。你是活泼好动的类型呢。$"
 
 #: data/maps/SSTidalRooms/scripts.inc:158
 msgctxt "SSTidalRooms_Text_NaomiPostBattle"
@@ -169,6 +196,9 @@ msgid ""
 "But, I will admit there is an appealing\n"
 "side to touring HOENN by ferry.$"
 msgstr ""
+"乘坐豪华客轮环游世界确实很有魅力……\p"
+"不过，我也承认，乘坐渡轮游\n"
+"览丰缘地区也别有一番风味。$"
 
 #: data/maps/SSTidalRooms/scripts.inc:164
 msgctxt "SSTidalRooms_Text_NotSuspiciousTakeThis"
@@ -179,6 +209,11 @@ msgid ""
 "someone! I'd never do such a thing!\l"
 "It's clean! You can use it!$"
 msgstr ""
+"呃……你好！我……我可不是什么可疑的\n"
+"人！呃……这个给你！免费的！\p"
+"这个……说真的，我可不是从别人那\n"
+"里抢夺来的！我绝对不会做那种事！\l"
+"它是干净的！你可以放心用！$"
 
 #: data/maps/SSTidalRooms/scripts.inc:171
 msgctxt "SSTidalRooms_Text_ExplainSnatch"
@@ -187,3 +222,5 @@ msgid ""
 "of certain moves before they can be\l"
 "used by a foe or ally.$"
 msgstr ""
+"抢夺能在对手或同伴使用某些招式之前，\n"
+"抢走那些招式带来的好处。$"

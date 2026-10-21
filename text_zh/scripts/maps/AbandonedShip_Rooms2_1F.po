@@ -11,13 +11,15 @@ msgid ""
 "DAN: While searching for treasures,\n"
 "we discovered a TRAINER!$"
 msgstr ""
+"阿丹：我们在寻宝的时候，\n"
+"发现了一个训练家！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:56
 msgctxt "AbandonedShip_Rooms2_1F_Text_DanDefeat"
 msgid ""
 "DAN: We couldn't win even though\n"
 "we worked together…$"
-msgstr ""
+msgstr "阿丹：我们齐心协力也没能赢……$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:60
 msgctxt "AbandonedShip_Rooms2_1F_Text_DanPostBattle"
@@ -25,6 +27,8 @@ msgid ""
 "DAN: We can't find any treasures…\n"
 "I wonder if someone got them already?$"
 msgstr ""
+"阿丹：我们什么宝物都找不到……\n"
+"是不是已经被别人拿走了？$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:64
 msgctxt "AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons"
@@ -32,6 +36,8 @@ msgid ""
 "DAN: You don't even have two POKéMON.\n"
 "You can't expect to beat us like that.$"
 msgstr ""
+"阿丹：你连两只宝可梦都没有。\n"
+"这样可别想打败我们。$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:68
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraIntro"
@@ -40,11 +46,13 @@ msgid ""
 "We were searching for treasures.\l"
 "But we discovered a TRAINER instead!$"
 msgstr ""
+"琪拉：哎呀？我们本来在寻宝的。\n"
+"结果却发现了一个训练家！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:73
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraDefeat"
 msgid "KIRA: Ooh, so strong!$"
-msgstr ""
+msgstr "琪拉：哦，好强！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:76
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraPostBattle"
@@ -53,6 +61,8 @@ msgid ""
 "I've already decided what I'm buying\n"
 "when we find the treasures!$"
 msgstr ""
+"琪拉：宝物会在哪里呢？\p"
+"我已经想好找到宝物以后要买什么了！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:81
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons"
@@ -60,6 +70,8 @@ msgid ""
 "KIRA: Oh, you don't have two POKéMON?\n"
 "We'll have to battle some other time!$"
 msgstr ""
+"琪拉：哎呀，你没有两只宝可梦吗？\n"
+"那我们只好下次再对战了！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:85
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraRegister"
@@ -67,6 +79,8 @@ msgid ""
 "KIRA: Oh, you make me so angry!\n"
 "I'm going to register you for that!$"
 msgstr ""
+"琪拉：哎呀，真让人生气！\n"
+"我要把你登记下来！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:89
 msgctxt "AbandonedShip_Rooms2_1F_Text_DanRematchIntro"
@@ -76,11 +90,14 @@ msgid ""
 "Our POKéMON have grown stronger, too.\n"
 "Let us show you, okay?$"
 msgstr ""
+"阿丹：我们一直都在寻宝。\p"
+"我们的宝可梦也变强了。\n"
+"让你见识一下吧？$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:95
 msgctxt "AbandonedShip_Rooms2_1F_Text_DanRematchDefeat"
 msgid "DAN: You're strong, as usual!$"
-msgstr ""
+msgstr "阿丹：你还是那么强！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:98
 msgctxt "AbandonedShip_Rooms2_1F_Text_DanPostRematch"
@@ -90,6 +107,10 @@ msgid ""
 "I want to go home… But if I say that,\n"
 "she gets all angry with me…$"
 msgstr ""
+"阿丹：宝物找不到，\n"
+"宝可梦对战也输了……\p"
+"我想回家了……可是我一这么说，\n"
+"她就会对我发脾气……$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:104
 msgctxt "AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons"
@@ -97,6 +118,8 @@ msgid ""
 "DAN: You don't even have two POKéMON.\n"
 "You can't expect to beat us like that.$"
 msgstr ""
+"阿丹：你连两只宝可梦都没有。\n"
+"这样可别想打败我们。$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:108
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraRematchIntro"
@@ -107,11 +130,15 @@ msgid ""
 "Want to make it so the loser has\n"
 "to give up searching?$"
 msgstr ""
+"琪拉：哎呀？我们又见面了！\p"
+"你和我们一样，还没有放弃寻宝吧？\p"
+"要不要定个规矩，\n"
+"输的一方就得放弃寻宝？$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:115
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat"
 msgid "KIRA: Oh, we lost again…$"
-msgstr ""
+msgstr "琪拉：哎呀，我们又输了……$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:118
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraPostRematch"
@@ -120,6 +147,8 @@ msgid ""
 "our POKéMON some more and we find\l"
 "the treasures here!$"
 msgstr ""
+"琪拉：在把宝可梦培养得更强、找到这\n"
+"里的宝物之前，我们是不会离开的！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:123
 msgctxt "AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons"
@@ -127,20 +156,22 @@ msgid ""
 "KIRA: Oh, you don't have two POKéMON?\n"
 "We'll have to battle some other time!$"
 msgstr ""
+"琪拉：哎呀，你没有两只宝可梦吗？\n"
+"那我们只好下次再对战了！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:127
 msgctxt "AbandonedShip_Rooms2_1F_Text_JaniIntro"
 msgid ""
 "I'm not good at swimming,\n"
 "but I am good at battles!$"
-msgstr ""
+msgstr "我不擅长游泳，但我很擅长对战！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:131
 msgctxt "AbandonedShip_Rooms2_1F_Text_JaniDefeat"
 msgid ""
 "Oops.\n"
 "That didn't go very well.$"
-msgstr ""
+msgstr "哎呀。不太顺利呢。$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:135
 msgctxt "AbandonedShip_Rooms2_1F_Text_JaniPostBattle"
@@ -148,20 +179,22 @@ msgid ""
 "Walking around barefoot in this ship\n"
 "is kind of gross.$"
 msgstr ""
+"光着脚在这艘船里走来走去，\n"
+"感觉有点恶心。$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:139
 msgctxt "AbandonedShip_Rooms2_1F_Text_GarrisonIntro"
 msgid ""
 "Strength and compassion…\n"
 "Those are a TRAINER's treasures!$"
-msgstr ""
+msgstr "力量与慈爱……这些才是训练家的宝物！$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:143
 msgctxt "AbandonedShip_Rooms2_1F_Text_GarrisonDefeat"
 msgid ""
 "Ah, there is something about you\n"
 "that sparkles.$"
-msgstr ""
+msgstr "啊，你身上有种闪闪发光的东西。$"
 
 #: data/maps/AbandonedShip_Rooms2_1F/scripts.inc:147
 msgctxt "AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle"
@@ -169,3 +202,5 @@ msgid ""
 "In a cabin somewhere on board,\n"
 "I saw something sparkle.$"
 msgstr ""
+"我在船上某个客舱里，\n"
+"看到有东西在闪闪发光。$"

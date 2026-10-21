@@ -27,6 +27,19 @@ msgid ""
 "Okay, {PLAYER}{KUN}, I'll be waiting for you\n"
 "at the BATTLE FRONTIER!$"
 msgstr ""
+"亚希达：哎呀，嗨嗨！\n"
+"{PLAYER}{KUN}，{PLAYER}{KUN}！\p"
+"我有点事要下船了，\n"
+"不过能见到你真是太好了！\p"
+"恭喜你成为联盟冠军！\p"
+"有个地方，我很想邀请像你这样的人去。\p"
+"那就是……对战开拓区！\p"
+"那是个什么样的地方？你看了就知道了！\p"
+"我已经和这艘船的船长说好了。\p"
+"下次你乘坐渡轮的时候，\n"
+"应该就能去对战开拓区了。\p"
+"好了，{PLAYER}{KUN}，\n"
+"我会在对战开拓区等你的！$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:272
 msgctxt "SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage"
@@ -36,27 +49,31 @@ msgid ""
 "We hope you enjoy your voyage with us.\n"
 "Feel free to explore the ship.$"
 msgstr ""
+"这艘渡轮是为了能在湍急的\n"
+"海流中破浪前进而建造的。\p"
+"希望您享受这次航行。\n"
+"请随意在船上参观。$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:278
 msgctxt "SSTidal_Text_HopeYouEnjoyVoyage"
 msgid ""
 "We hope you enjoy your voyage on\n"
 "our ferry.$"
-msgstr ""
+msgstr "希望您享受乘坐本渡轮的航行。$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:282
 msgctxt "SSTidal_Text_MadeLandInSlateport"
 msgid ""
 "We have made land in SLATEPORT CITY.\n"
 "Thank you for sailing with us.$"
-msgstr ""
+msgstr "本船已抵达凯那市。感谢您的搭乘。$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:286
 msgctxt "SSTidal_Text_MadeLandInLilycove"
 msgid ""
 "We have made land in LILYCOVE CITY.\n"
 "Thank you for sailing with us.$"
-msgstr ""
+msgstr "本船已抵达水静市。感谢您的搭乘。$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:290
 msgctxt "SSTidalCorridor_Text_CanRestInCabin2"
@@ -68,11 +85,16 @@ msgid ""
 "The bed in there is soft and plushy.\n"
 "I can attest to how comfy it is!$"
 msgstr ""
+"我想离靠岸还要一段时间。\p"
+"如果你愿意的话，可以在你的\n"
+"客舱里休息。你的客舱是2号。\p"
+"那里的床又软又蓬松。\n"
+"我可以保证它非常舒服！$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:298
 msgctxt "SSTidalCorridor_Text_WeveArrived"
 msgid "We've arrived!$"
-msgstr ""
+msgstr "我们到了！$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:301
 msgctxt "SSTidalCorridor_Text_VisitOtherCabins"
@@ -81,18 +103,20 @@ msgid ""
 "TRAINERS bored of the boat trip will\l"
 "be itching to battle.$"
 msgstr ""
+"去其他客舱看看吧。\n"
+"坐船坐腻了的训练家们正想对战呢。$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:306
 msgctxt "SSTidalCorridor_Text_EnjoyYourCruise"
 msgid "Enjoy your cruise!$"
-msgstr ""
+msgstr "祝您航行愉快！$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:309
 msgctxt "SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole"
 msgid ""
 "The horizon spreads beyond\n"
 "the porthole.$"
-msgstr ""
+msgstr "舷窗外是一望无际的地平线。$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:313
 msgctxt "SSTidalCorridor_Text_BrineyWelcomeAboard"
@@ -106,28 +130,35 @@ msgid ""
 "Let me just say, it stirred my sleeping\n"
 "soul as a sailor!$"
 msgstr ""
+"哈奇老人：欢迎上船，{PLAYER}{KUN}！\p"
+"他们让我当了潮汐号的名誉船长！\p"
+"现在你可以叫我哈奇船长了！\p"
+"你知道吗，我本来已经退休了，\n"
+"可是看到这艘雄伟的船……\p"
+"怎么说呢，\n"
+"它唤醒了我沉睡已久的水手之魂！$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:323
 msgctxt "SSTidalCorridor_Text_Peeko"
 msgid "PEEKO: Pihyo pihyohyo…$"
-msgstr ""
+msgstr "皮可：咻哟咻哟哟……$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:326
 msgctxt "SSTidalCorridor_Text_Cabin1"
 msgid "Cabin 1$"
-msgstr ""
+msgstr "1号客舱$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:329
 msgctxt "SSTidalCorridor_Text_Cabin2"
 msgid "Cabin 2$"
-msgstr ""
+msgstr "2号客舱$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:332
 msgctxt "SSTidalCorridor_Text_Cabin3"
 msgid "Cabin 3$"
-msgstr ""
+msgstr "3号客舱$"
 
 #: data/maps/SSTidalCorridor/scripts.inc:335
 msgctxt "SSTidalCorridor_Text_Cabin4"
 msgid "Cabin 4$"
-msgstr ""
+msgstr "4号客舱$"
