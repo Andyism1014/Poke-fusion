@@ -14,18 +14,22 @@ msgid ""
 "Oh, no!\n"
 "I blabbed about GROUDON!$"
 msgstr ""
+"我也想看看固拉多，\n"
+"可是他们连它的尾巴都不让我看……\p"
+"真让人郁闷。\p"
+"糟糕！我把固拉多的事说漏嘴了！$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:134
 msgctxt "MagmaHideout_4F_Text_Grunt11Defeat"
 msgid ""
 "I guess it's impossible to win if one\n"
 "doesn't have a calm mind…$"
-msgstr ""
+msgstr "看来心不静的话，是不可能赢的……$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:138
 msgctxt "MagmaHideout_4F_Text_Grunt11PostBattle"
 msgid "I wonder if GROUDON even has a tail?$"
-msgstr ""
+msgstr "固拉多到底有没有尾巴呢？$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:141
 msgctxt "MagmaHideout_4F_Text_Grunt12Intro"
@@ -34,6 +38,8 @@ msgid ""
 "Soon! Very soon!\l"
 "Our grand objective will be achieved!$"
 msgstr ""
+"呼哈哈哈！快了！马上就要！\n"
+"我们伟大的目标就要实现了！$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:146
 msgctxt "MagmaHideout_4F_Text_Grunt12Defeat"
@@ -41,30 +47,32 @@ msgid ""
 "Grrr…\n"
 "I've come so far, but now this?$"
 msgstr ""
+"呜呜……我都走到这一步了，\n"
+"现在竟然这样？$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:150
 msgctxt "MagmaHideout_4F_Text_Grunt12PostBattle"
 msgid ""
 "MAXIE, sir!\n"
 "An intruder is headed your way!$"
-msgstr ""
+msgstr "赤焰松大人！有入侵者朝您那边去了！$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:154
 msgctxt "MagmaHideout_4F_Text_Grunt13Intro"
 msgid ""
 "You're not finished yet!\n"
 "You're not getting by me easily!$"
-msgstr ""
+msgstr "你还没完呢！可别想轻易从我这里过去！$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:158
 msgctxt "MagmaHideout_4F_Text_Grunt13Defeat"
 msgid "Was I that easy to knock down?$"
-msgstr ""
+msgstr "我就这么容易被打倒吗？$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:161
 msgctxt "MagmaHideout_4F_Text_Grunt13PostBattle"
 msgid "C-come on, one more match…$"
-msgstr ""
+msgstr "再、再来一场嘛……$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:164
 msgctxt "MagmaHideout_4F_Text_TabithaIntro"
@@ -78,13 +86,18 @@ msgid ""
 "It's going to awaken real soon!\n"
 "Hehe! Hehehe!$"
 msgstr ""
+"嘿嘿嘿！你都走到这里了，\n"
+"我就告诉你吧！\p"
+"没错！前面沉睡着固拉多！\p"
+"赤焰松刚刚去了固拉多那里！\p"
+"它马上就要苏醒了！嘿嘿！嘿嘿嘿！$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:174
 msgctxt "MagmaHideout_4F_Text_TabithaDefeat"
 msgid ""
 "Taken down again…\n"
 "Hehe…$"
-msgstr ""
+msgstr "又被打倒了……嘿嘿……$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:178
 msgctxt "MagmaHideout_4F_Text_TabithaPostBattle"
@@ -92,6 +105,8 @@ msgid ""
 "…And while you wasted time with me,\n"
 "MAXIE should have awakened GROUDON…$"
 msgstr ""
+"……就在你和我浪费时间的时候，\n"
+"赤焰松应该已经唤醒固拉多了……$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:182
 msgctxt "MagmaHideout_4F_Text_MaxieAwakenGroudon"
@@ -106,6 +121,15 @@ msgid ""
 "And show me…\n"
 "Show me the full extent of your power!$"
 msgstr ""
+"赤焰松：固拉多……\p"
+"沐浴在岩浆中沉睡的你，\n"
+"什么都无法唤醒……\p"
+"这颗靛蓝色宝珠才是\n"
+"你追求的东西。对吧？\p"
+"我把靛蓝色宝珠带来了。\n"
+"让它的光芒唤醒你吧！\p"
+"然后让我看看……\n"
+"让我看看你全部的力量吧！$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:193
 msgctxt "MagmaHideout_4F_Text_MaxieGroudonWhatsWrong"
@@ -116,6 +140,9 @@ msgid ""
 "GROUDON!\n"
 "Where have you gone…$"
 msgstr ""
+"赤焰松：固拉多！怎么了？\p"
+"靛蓝色宝珠不是关键吗？\p"
+"固拉多！你去哪里了……$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:200
 msgctxt "MagmaHideout_4F_Text_MaxieOhItWasYou"
@@ -126,13 +153,17 @@ msgid ""
 "I get it now!\n"
 "You must have pulled a cheap stunt!$"
 msgstr ""
+"赤焰松：哦，原来是你？\p"
+"我看到过你不请自来，到处打探……\p"
+"我明白了！\n"
+"一定是你耍了什么卑鄙的手段！$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:207
 msgctxt "MagmaHideout_4F_Text_MaxieDefeat"
 msgid ""
 "What makes you so adept at handling\n"
 "POKéMON?$"
-msgstr ""
+msgstr "你为什么这么擅长驾驭宝可梦？$"
 
 #: data/maps/MagmaHideout_4F/scripts.inc:211
 msgctxt "MagmaHideout_4F_Text_MaxieImGoingAfterGroudon"
@@ -150,3 +181,11 @@ msgid ""
 "I am going after GROUDON, so this\n"
 "is where we part!$"
 msgstr ""
+"赤焰松：固拉多逃走一定是有原因的……\p"
+"你想说的就是这个，对吧？\p"
+"…… …… …… …… …… ……\n"
+"…… …… …… …… …… ……\p"
+"哼……你以为我不知道吗？\p"
+"固拉多已经离开，\n"
+"这座可恶的火山也就没有用处了。\p"
+"我要去追固拉多，我们就在这里分别吧！$"

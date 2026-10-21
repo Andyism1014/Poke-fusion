@@ -12,11 +12,13 @@ msgid ""
 "posting?\p"
 "My left ear is burning up!$"
 msgstr ""
+"我做了什么，要被派到这里看守啊？\p"
+"我的左耳朵都快烧起来了！$"
 
 #: data/maps/MagmaHideout_3F_1R/scripts.inc:19
 msgctxt "MagmaHideout_3F_1R_Text_Grunt9Defeat"
 msgid "I'm getting heat exhaustion…$"
-msgstr ""
+msgstr "我快中暑了……$"
 
 #: data/maps/MagmaHideout_3F_1R/scripts.inc:22
 msgctxt "MagmaHideout_3F_1R_Text_Grunt9PostBattle"
@@ -24,6 +26,8 @@ msgid ""
 "Do you think it's odd that we're wearing\n"
 "hoods in this magma-filled volcano?$"
 msgstr ""
+"在这座充满岩浆的火山里还戴着兜帽，\n"
+"你觉得奇怪吗？$"
 
 #: data/maps/MagmaHideout_3F_1R/scripts.inc:26
 msgctxt "MagmaHideout_3F_1R_Text_Grunt16Intro"
@@ -35,13 +39,18 @@ msgid ""
 "No one interferes with us and gets\n"
 "away with it!$"
 msgstr ""
+"我们加入熔岩队，\n"
+"是为了帮助首领实现他伟大的理想。\p"
+"不管你是海洋队的人，\n"
+"还是路过的小孩，我都不在乎。\p"
+"谁敢妨碍我们，都别想全身而退！$"
 
 #: data/maps/MagmaHideout_3F_1R/scripts.inc:34
 msgctxt "MagmaHideout_3F_1R_Text_Grunt16Defeat"
 msgid ""
 "Oh, no!\n"
 "You're not to be trusted at all!$"
-msgstr ""
+msgstr "糟糕！你根本就不能信任！$"
 
 #: data/maps/MagmaHideout_3F_1R/scripts.inc:38
 msgctxt "MagmaHideout_3F_1R_Text_Grunt16PostBattle"
@@ -51,3 +60,5 @@ msgid ""
 "Don't listen to TEAM AQUA.\n"
 "Don't believe their lies!$"
 msgstr ""
+"听我说。熔岩队才是对的！\p"
+"别听海洋队的话。别相信他们的谎言！$"

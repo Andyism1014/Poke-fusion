@@ -16,6 +16,10 @@ msgid ""
 "You rouse my suspicion!\n"
 "Battle with me!$"
 msgstr ""
+"什么什么什么？\p"
+"这里只有熔岩队的成员才能进来！\p"
+"可是你没有穿熔岩队的制服……\p"
+"你很可疑！和我对战！$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:33
 msgctxt "MagmaHideout_2F_1R_Text_Grunt14Defeat"
@@ -23,13 +27,15 @@ msgid ""
 "Aiyiyi…\n"
 "My pride as a TEAM MAGMA member…$"
 msgstr ""
+"哎呀呀……\n"
+"我身为熔岩队成员的尊严……$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:37
 msgctxt "MagmaHideout_2F_1R_Text_Grunt14PostBattle"
 msgid ""
 "If you suffer from chills, you should\n"
 "join TEAM MAGMA.$"
-msgstr ""
+msgstr "如果你怕冷的话，就该加入熔岩队。$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:41
 msgctxt "MagmaHideout_2F_1R_Text_Grunt3Intro"
@@ -38,32 +44,35 @@ msgid ""
 "You don't really expect me to keep\n"
 "my trap shut and let you waltz by me?$"
 msgstr ""
+"站住！\p"
+"你不会真的以为我会闭上嘴，\n"
+"让你大摇大摆地走过去吧？$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:46
 msgctxt "MagmaHideout_2F_1R_Text_Grunt3Defeat"
 msgid ""
 "Ooh wow!\n"
 "I concede!$"
-msgstr ""
+msgstr "哦哇！我认输！$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:50
 msgctxt "MagmaHideout_2F_1R_Text_Grunt3PostBattle"
 msgid ""
 "Maybe it would've been better if I did\n"
 "just let you go unchallenged…$"
-msgstr ""
+msgstr "也许我刚才直接放你过去会比较好……$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:54
 msgctxt "MagmaHideout_2F_1R_Text_Grunt4Intro"
 msgid ""
 "Ahah!\n"
 "An intruder!$"
-msgstr ""
+msgstr "啊哈！有入侵者！$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:58
 msgctxt "MagmaHideout_2F_1R_Text_Grunt4Defeat"
 msgid "Graaah!$"
-msgstr ""
+msgstr "呃啊啊！$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:61
 msgctxt "MagmaHideout_2F_1R_Text_Grunt4PostBattle"
@@ -72,20 +81,22 @@ msgid ""
 "Do I really need to keep running\n"
 "around in a circle?$"
 msgstr ""
+"我已经输了。\p"
+"我真的还要继续绕着圈跑吗？$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:66
 msgctxt "MagmaHideout_2F_1R_Text_Grunt5Intro"
 msgid ""
 "Oh, oh!\n"
 "An intruder!$"
-msgstr ""
+msgstr "哦，哦！有入侵者！$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:70
 msgctxt "MagmaHideout_2F_1R_Text_Grunt5Defeat"
 msgid "Mutter…$"
-msgstr ""
+msgstr "嘟囔……$"
 
 #: data/maps/MagmaHideout_2F_1R/scripts.inc:73
 msgctxt "MagmaHideout_2F_1R_Text_Grunt5PostBattle"
 msgid "Actually, I'm no expert at battling…$"
-msgstr ""
+msgstr "其实，我并不擅长对战……$"

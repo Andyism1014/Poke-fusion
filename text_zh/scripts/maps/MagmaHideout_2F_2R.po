@@ -10,12 +10,12 @@ msgctxt "MagmaHideout_2F_2R_Text_Grunt15Intro"
 msgid ""
 "I don't have a bone to pick with you.\n"
 "I'm just following orders!$"
-msgstr ""
+msgstr "我跟你无冤无仇。我只是奉命行事而已！$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:28
 msgctxt "MagmaHideout_2F_2R_Text_Grunt15Defeat"
 msgid "I may have lost, but…$"
-msgstr ""
+msgstr "我也许是输了，但是……$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:31
 msgctxt "MagmaHideout_2F_2R_Text_Grunt15PostBattle"
@@ -25,6 +25,10 @@ msgid ""
 "All that's left is for our leader to…\n"
 "Fufufu… Fwahahaha!$"
 msgstr ""
+"我们挖出了难以置信的东西！\n"
+"而且，我们拿到了靛蓝色宝珠！\p"
+"接下来只要首领……\n"
+"呼呼呼……哇哈哈哈！$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:37
 msgctxt "MagmaHideout_2F_2R_Text_Grunt6Intro"
@@ -32,20 +36,22 @@ msgid ""
 "I can't stand heat. Maybe I should've\n"
 "joined TEAM AQUA instead…$"
 msgstr ""
+"我受不了热。\n"
+"也许我当初应该加入海洋队才对……$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:41
 msgctxt "MagmaHideout_2F_2R_Text_Grunt6Defeat"
 msgid ""
 "Yeah, I really may not be right for\n"
 "TEAM MAGMA…$"
-msgstr ""
+msgstr "是啊，我可能真的不适合熔岩队……$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:45
 msgctxt "MagmaHideout_2F_2R_Text_Grunt6PostBattle"
 msgid ""
 "Don't you get lonely for the sea\n"
 "being in a place like this?$"
-msgstr ""
+msgstr "待在这种地方，你不会想念大海吗？$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:49
 msgctxt "MagmaHideout_2F_2R_Text_Grunt7Intro"
@@ -56,13 +62,16 @@ msgid ""
 "Whoops!\n"
 "No, no, never mind!$"
 msgstr ""
+"在这里有时候能听到震动声。\p"
+"是火山在晃动吗？还是固拉……\p"
+"哎呀！不不，没什么！$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:56
 msgctxt "MagmaHideout_2F_2R_Text_Grunt7Defeat"
 msgid ""
 "You're a fiery battler.\n"
 "Just like a volcano!$"
-msgstr ""
+msgstr "你真是个火热的对手。就像火山一样！$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:60
 msgctxt "MagmaHideout_2F_2R_Text_Grunt7PostBattle"
@@ -72,6 +81,8 @@ msgid ""
 "TEAM MAGMA's goal is about to be\n"
 "reached!$"
 msgstr ""
+"你这次只是碰巧赢了，不过无所谓。\p"
+"熔岩队的目标马上就要实现了！$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:66
 msgctxt "MagmaHideout_2F_2R_Text_Grunt8Intro"
@@ -81,11 +92,14 @@ msgid ""
 "Wait a minute!\n"
 "Was it you who found it?$"
 msgstr ""
+"我们有个家伙因为弄丢了熔岩队徽章，\n"
+"急得要命……\p"
+"等一下！难道是你捡到的？$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:72
 msgctxt "MagmaHideout_2F_2R_Text_Grunt8Defeat"
 msgid "I'm having trouble believing this…$"
-msgstr ""
+msgstr "真让人难以相信……$"
 
 #: data/maps/MagmaHideout_2F_2R/scripts.inc:75
 msgctxt "MagmaHideout_2F_2R_Text_Grunt8PostBattle"
@@ -93,3 +107,5 @@ msgid ""
 "I'm getting this feeling that our plan\n"
 "is going to end in failure…$"
 msgstr ""
+"我有种预感，\n"
+"我们的计划会以失败告终……$"
