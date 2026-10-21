@@ -12,6 +12,9 @@ msgid ""
 "anything nearing its territory. It is said\n"
 "to be the protector of the forest's trees."
 msgstr ""
+"会在森林里的大树上筑巢。对靠近自己领\n"
+"地的东西会凶猛地进行防卫。据说它是森\n"
+"林树木的守护者。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:103
 msgid ""
@@ -20,6 +23,8 @@ msgid ""
 "of its enemies while it is in a thickly\n"
 "overgrown forest."
 msgstr ""
+"身体上长着叶子。在草木茂密的森林里，\n"
+"这些叶子能帮助它躲过敌人的眼睛。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:179
 msgid ""
@@ -28,6 +33,9 @@ msgid ""
 "plants. It regulates its body temperature\n"
 "by basking in sunlight."
 msgstr ""
+"在丛林中，它的力量无可匹敌。会细心地\n"
+"培育树木和植物。它会通过晒太阳来调节\n"
+"体温。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:253
 msgid ""
@@ -36,6 +44,9 @@ msgid ""
 "flash. It can cut off a portion of its tail\n"
 "to fire it like a missile at an opponent."
 msgstr ""
+"依靠双腿的瞬间爆发力，能一眨眼就冲到\n"
+"对手面前。还能切下一部分尾巴，像导弹\n"
+"一样射向对手。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:324
 msgid ""
@@ -44,6 +55,9 @@ msgid ""
 "A Torchic dislikes darkness because it\n"
 "can't see its surroundings."
 msgstr ""
+"受到攻击时，会吐出在肚子里形成的火球\n"
+"进行反击。因为看不到周围的情况，所以\n"
+"很讨厌黑暗。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:409
 msgid ""
@@ -52,6 +66,8 @@ msgid ""
 "to keep up its offensive until the\n"
 "opponent gives up."
 msgstr ""
+"每秒能踢出10脚。强烈的战斗本能驱使它\n"
+"不断进攻，直到对手认输为止。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:496
 msgid ""
@@ -60,6 +76,9 @@ msgid ""
 "feathers burn off, and new, supple\n"
 "feathers grow back in their place."
 msgstr ""
+"掌握了使用拳和腿的格斗技。每隔几年，\n"
+"旧的羽毛就会燃烧脱落，长出柔软的新羽\n"
+"毛。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:585
 msgid ""
@@ -68,6 +87,9 @@ msgid ""
 "friction of the surrounding atmosphere.\n"
 "They're always a source of pride to it."
 msgstr ""
+"在使出一连串凶猛的踢击时，双腿会因与\n"
+"周围空气摩擦而燃烧起来。这双腿一直是\n"
+"它的骄傲。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:656
 msgid ""
@@ -76,6 +98,9 @@ msgid ""
 "heaving. It sleeps by burying itself in soil\n"
 "at the water's edge."
 msgstr ""
+"在陆地上时，它会用四条腿撑住地面，有\n"
+"力地举起巨大的岩石。会把身体埋在水边\n"
+"的泥土里睡觉。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:727
 msgid ""
@@ -84,6 +109,9 @@ msgid ""
 "dries out, it replenishes fluids by playing\n"
 "in mud."
 msgstr ""
+"强壮的后腿让它能够直立行走。皮肤干燥\n"
+"后就会变得虚弱，所以会在泥巴里玩耍补\n"
+"充水分。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:807
 msgid ""
@@ -92,6 +120,9 @@ msgid ""
 "by piling up boulders. It swims as fast as\n"
 "a jet ski."
 msgstr ""
+"察觉到暴风雨和海啸来临时，会堆起巨石\n"
+"保护海边的巢穴。它游泳的速度和水上摩\n"
+"托一样快。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:883
 msgid ""
@@ -100,6 +131,9 @@ msgid ""
 "It can use its tenacious power\n"
 "both on land and in the water."
 msgstr ""
+"超级进化后，在水中行动所需的力量得到\n"
+"了增强。无论在陆地上还是水中，都能发\n"
+"挥出顽强的力量。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:964
 msgid ""
@@ -108,6 +142,9 @@ msgid ""
 "tenaciously. It turns tail and runs,\n"
 "however, if the foe strikes back."
 msgstr ""
+"会露出獠牙凶狠地威吓敌人，并穷追不舍\n"
+"地追赶逃跑的目标。但如果对方反击，它\n"
+"就会掉头逃跑。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1037
 msgid ""
@@ -116,6 +153,8 @@ msgid ""
 "They defeat foes with perfectly\n"
 "coordinated teamwork."
 msgstr ""
+"在野外过着群居生活，绝不违抗首领的命\n"
+"令。它们会用完美的团队配合打倒敌人。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1120
 msgid ""
@@ -124,6 +163,9 @@ msgid ""
 "search of something. It is distinguished\n"
 "by the zigzag footprints it leaves."
 msgstr ""
+"总是用鼻子蹭着地面，来来回回地四处徘\n"
+"徊寻找东西。它的特点是会留下之字形的\n"
+"脚印。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1198
 msgid ""
@@ -132,6 +174,9 @@ msgid ""
 "dwelling prey underwater, it quickly leaps\n"
 "in and catches it with its sharp claws."
 msgstr ""
+"如果只是跑直线，速度会非常快。发现池\n"
+"塘里的猎物时，会迅速跳进水中用锐利的\n"
+"爪子抓住它。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1269
 msgid ""
@@ -140,6 +185,9 @@ msgid ""
 "Pokémon to start fights. It's thought to\n"
 "be the oldest form of Zigzagoon."
 msgstr ""
+"静不下来的性格让它总是以之字形移动。\n"
+"它会故意撞向其他宝可梦挑起争斗。据认\n"
+"为是蛇纹熊最古老的样子。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1336
 msgid ""
@@ -148,6 +196,9 @@ msgid ""
 "than itself. It uses its long tongue to\n"
 "taunt them to then tackle forcefully."
 msgstr ""
+"非常好斗，会不顾一切地挑战比自己强大\n"
+"的对手。会用长长的舌头挑衅对手，然后\n"
+"猛烈地撞上去。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1402
 msgid ""
@@ -156,6 +207,8 @@ msgid ""
 "threatening posture and shout--this move\n"
 "is known as Obstruct."
 msgstr ""
+"音量大得惊人。堵拦熊常常摆出威吓的姿\n"
+"势大声吼叫，这一招被称为拦堵。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1476
 msgid ""
@@ -164,6 +217,9 @@ msgid ""
 "which becomes gooey when it touches\n"
 "air, slows the movement of its foes."
 msgstr ""
+"会附在树枝上吃叶子。从嘴里吐出的丝接\n"
+"触空气后会变得黏糊糊的，能让敌人的动\n"
+"作变慢。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1547
 msgid ""
@@ -172,6 +228,8 @@ msgid ""
 "It keeps watch over the surroundings with\n"
 "its two eyes."
 msgstr ""
+"会用身为刺尾虫时储存的能量为进化做准\n"
+"备。用两只眼睛警惕着周围的情况。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1625
 msgid ""
@@ -180,6 +238,9 @@ msgid ""
 "flower-covered fields collecting pollen.\n"
 "It attacks ferociously when angered."
 msgstr ""
+"最显著的特征是色彩缤纷的翅膀。会在开\n"
+"满鲜花的原野上飞来飞去采集花粉。生气\n"
+"时会凶猛地发起攻击。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1719
 msgid ""
@@ -188,6 +249,9 @@ msgid ""
 "the gaps of branches. It also attaches\n"
 "dead leaves to its body for camouflage."
 msgstr ""
+"为了不被敌人发现，会一动不动地躲在大\n"
+"片叶子下或树枝的缝隙中。还会把枯叶粘\n"
+"在身上进行伪装。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1801
 msgid ""
@@ -196,6 +260,9 @@ msgid ""
 "streetlights at night. It looses highly\n"
 "toxic powder from its wings."
 msgstr ""
+"夜行性宝可梦，夜晚会被路灯的光吸引，\n"
+"从原野和山上飞来。会从翅膀上撒出剧毒\n"
+"的粉末。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1897
 msgid ""
@@ -204,6 +271,9 @@ msgid ""
 "across ponds by carrying them on the\n"
 "broad leaf on its head."
 msgstr ""
+"生活在水质清澈的池塘里。已知它会让小\n"
+"宝可梦坐在头上的大叶子上，载它们渡过\n"
+"池塘。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:1968
 msgid ""
@@ -212,6 +282,8 @@ msgid ""
 "It feeds on aquatic moss that grows on\n"
 "rocks in the riverbed."
 msgstr ""
+"傍晚时最喜欢从河里突然跳出来吓唬人。\n"
+"以河底岩石上长的水苔为食。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2045
 msgid ""
@@ -220,6 +292,9 @@ msgid ""
 "begins moving in rhythm. It does not\n"
 "quail even when it faces a tough opponent."
 msgstr ""
+"听到欢快的音乐时，全身的细胞都会被激\n"
+"活，开始随着节奏舞动。即使面对强敌也\n"
+"毫不畏惧。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2132
 msgid ""
@@ -228,6 +303,8 @@ msgid ""
 "body becomes so heavy that it drops to\n"
 "the ground with a thump."
 msgstr ""
+"会挂在树枝上吸收养分。吃饱以后身体会\n"
+"变得很重，然后“咚”地一声掉到地上。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2208
 msgid ""
@@ -236,6 +313,9 @@ msgid ""
 "nose is its weak point. It loses power if\n"
 "the nose is gripped."
 msgstr ""
+"栖息在森林里的宝可梦，擅长爬树。又长\n"
+"又尖的鼻子是它的弱点，被抓住鼻子就会\n"
+"使不上力气。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2306
 msgid ""
@@ -244,6 +324,9 @@ msgid ""
 "forests, this Pokémon lives in a deep\n"
 "forest where people do not venture."
 msgstr ""
+"据说会乘着寒冷的冬风到来。自古以来作\n"
+"为森林的守护者而被人们畏惧。它住在人\n"
+"迹罕至的深林里。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2388
 msgid ""
@@ -252,6 +335,9 @@ msgid ""
 "equal footing. However, its will weakens if\n"
 "it becomes hungry."
 msgstr ""
+"虽然个子很小，却非常勇敢，敢与比自己\n"
+"大的盔甲鸟平起平坐地战斗。不过肚子饿\n"
+"了就会失去斗志。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2470
 msgid ""
@@ -260,6 +346,8 @@ msgid ""
 "the skies in search of lands with a warm\n"
 "climate."
 msgstr ""
+"会从高空俯冲捕捉猎物，从来不会失手。\n"
+"它会飞上天空寻找气候温暖的地方。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2544
 msgid ""
@@ -268,6 +356,8 @@ msgid ""
 "its wings flapping in flight. Instead, it\n"
 "soars on updrafts."
 msgstr ""
+"在海边陡峭的悬崖上筑巢。它不擅长持续\n"
+"拍打翅膀飞行，而是乘着上升气流翱翔。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2625
 msgid ""
@@ -276,6 +366,9 @@ msgid ""
 "to scoop up the victim with water.\n"
 "It protects its eggs in its beak."
 msgstr ""
+"会擦着浪尖飞行。发现猎物后，会用大嘴\n"
+"连水带猎物一起舀起来。它会把蛋放在嘴\n"
+"里保护。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2709
 msgid ""
@@ -284,6 +377,8 @@ msgid ""
 "horns on its head. It takes cover if it\n"
 "senses any hostility."
 msgstr ""
+"能用头上的角感知人和宝可梦的情绪。察\n"
+"觉到敌意时就会躲起来。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2778
 msgid ""
@@ -292,6 +387,8 @@ msgid ""
 "future. It is said to dance with pleasure\n"
 "on sunny mornings."
 msgstr ""
+"拥有能扭曲空间、看到未来的超能力。据\n"
+"说在晴朗的早晨，它会开心地跳舞。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2856
 msgid ""
@@ -300,6 +397,9 @@ msgid ""
 "psychic power. It will give its life to\n"
 "protect its Trainer."
 msgstr ""
+"它用超能力支撑自己的身体，所以似乎感\n"
+"觉不到重力。它会用生命保护自己的训练\n"
+"家。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:2930
 msgid ""
@@ -308,6 +408,9 @@ msgid ""
 "power. The red plate in its chest is said to\n"
 "be a physical manifestation of its heart."
 msgstr ""
+"敞开心扉后，超级沙奈朵就能使用强大的\n"
+"超能力。据说胸前的红色板状物是它的心\n"
+"具现化的样子。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3010
 msgid ""
@@ -316,6 +419,9 @@ msgid ""
 "elbows when trying to protect someone.\n"
 "It can sense what its foe is thinking."
 msgstr ""
+"精通礼仪和剑术的高手。想要保护某人\n"
+"时，会伸出肘部的剑来战斗。它能察觉敌\n"
+"人在想什么。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3083
 msgid ""
@@ -324,6 +430,8 @@ msgid ""
 "both arms into blades simultaneously and\n"
 "fight using a dual-wielding style."
 msgstr ""
+"拥有骑士般的外表。能用超能力同时把双\n"
+"臂变成剑，以双刀流的风格战斗。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3156
 msgid ""
@@ -332,6 +440,9 @@ msgid ""
 "of water as if sliding. It secretes honey\n"
 "with a sweet aroma from its head."
 msgstr ""
+"傍晚的骤雨过后，它们会聚集在水洼上，\n"
+"像滑冰一样在水面上滑行。头上会分泌出\n"
+"带有甜香的蜜。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3235
 msgid ""
@@ -340,6 +451,9 @@ msgid ""
 "fly if its wings get wet, it shelters itself\n"
 "from rain under large trees and eaves."
 msgstr ""
+"会用触角上像大眼睛一样的花纹威吓敌\n"
+"人。因为翅膀湿了就不能飞，下雨时会躲\n"
+"在大树下或屋檐下。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3318
 msgid ""
@@ -348,6 +462,9 @@ msgid ""
 "long rain, you can see many Shroomish\n"
 "feasting on composted soil."
 msgstr ""
+"最喜欢吃森林里潮湿的腐殖土。如果在长\n"
+"时间的降雨后走进森林，就能看到许多蘑\n"
+"蘑菇在大吃腐殖土。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3401
 msgid ""
@@ -356,6 +473,9 @@ msgid ""
 "climates. It feeds on trees and plants in\n"
 "fields and forests."
 msgstr ""
+"会从头上斗笠的孔中撒出孢子。喜欢温暖\n"
+"潮湿的气候，以原野和森林里的草木为\n"
+"食。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3472
 msgid ""
@@ -364,6 +484,9 @@ msgid ""
 "but it sometimes travels great distances\n"
 "by swimming in rivers."
 msgstr ""
+"几乎一整天都在睡觉。它一生都不会更换\n"
+"巢穴，但有时会顺着河流游到很远的地\n"
+"方。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3544
 msgid ""
@@ -372,6 +495,9 @@ msgid ""
 "and mountains all day to calm itself. If it\n"
 "doesn't, it can't sleep at night."
 msgstr ""
+"体内的血液因充满能量而沸腾，让它根本\n"
+"静不下来。它整天在原野和山间奔跑来让\n"
+"自己冷静，不然晚上就睡不着。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3622
 msgid ""
@@ -380,6 +506,9 @@ msgid ""
 "around patiently for ripened fruits to fall\n"
 "out of the trees."
 msgstr ""
+"到了果实成熟的季节，请假王会成群聚集\n"
+"在树下，耐心地等待成熟的果实从树上掉\n"
+"下来。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3696
 msgid ""
@@ -388,6 +517,8 @@ msgid ""
 "probes its surroundings in the\n"
 "pitch-black darkness of soil."
 msgstr ""
+"会在大树的根部筑巢。在漆黑的土中，会\n"
+"用胡须般的触角探查周围的情况。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3772
 msgid ""
@@ -396,6 +527,9 @@ msgid ""
 "its distinctive cries for too long induces\n"
 "a headache."
 msgstr ""
+"因为会以高速四处飞窜，所以很难看清它\n"
+"的身影。长时间听它独特的叫声会让人头\n"
+"痛。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3855
 msgid ""
@@ -404,6 +538,8 @@ msgid ""
 "The inside of its body is hollow and\n"
 "utterly dark."
 msgstr ""
+"翅膀完全不动却能飘浮在空中的奇特宝可\n"
+"梦。身体内部是空的，一片漆黑。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:3927
 msgid ""
@@ -412,6 +548,9 @@ msgid ""
 "of this system, it can cry continually\n"
 "without having to catch its breath."
 msgstr ""
+"叫声的音量能比得上喷气式飞机。它通过\n"
+"耳洞吸气，因此能不用换气地持续叫下\n"
+"去。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4003
 msgid ""
@@ -420,6 +559,9 @@ msgid ""
 "at massive volume. It builds power by\n"
 "stomping the ground."
 msgstr ""
+"会调整头上圆形喇叭的位置，用巨大音量\n"
+"的超声波攻击敌人。它会通过跺地来积蓄\n"
+"力量。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4081
 msgid ""
@@ -428,6 +570,8 @@ msgid ""
 "adjusting the tone and volume of the cries\n"
 "it emits."
 msgstr ""
+"全身都有发声器官。它会通过调整叫声的\n"
+"音调和音量来与同伴交流。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4151
 msgid ""
@@ -436,6 +580,9 @@ msgid ""
 "it is the sound of Makuhita undertaking\n"
 "strenuous training."
 msgstr ""
+"最喜欢锻炼自己的身体。如果在洞窟里听\n"
+"到轰隆隆的震动声，那就是幕下力士在进\n"
+"行艰苦训练的声音。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4227
 msgid ""
@@ -444,6 +591,9 @@ msgid ""
 "It's been known to stand on train tracks\n"
 "and stop trains using forearm thrusts."
 msgstr ""
+"有毫不犹豫地向别人发起力气比赛的习\n"
+"惯。据说它曾站在铁轨上用推掌挡住了火\n"
+"车。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4298
 msgid ""
@@ -452,6 +602,9 @@ msgid ""
 "force. Its magnetism is stronger in cold\n"
 "seasons."
 msgstr ""
+"身体会发出强大的磁力，以被磁力吸过来\n"
+"的猎物为食。在寒冷的季节，它的磁力会\n"
+"变得更强。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4377
 msgid ""
@@ -460,6 +613,8 @@ msgid ""
 "With them, it can attack its foes from\n"
 "three directions."
 msgstr ""
+"能用磁力自由操控三个名为小朝北鼻的部\n"
+"件，从三个方向攻击敌人。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4454
 msgid ""
@@ -468,6 +623,9 @@ msgid ""
 "puff out. It threatens foes with a sharp\n"
 "growl."
 msgstr ""
+"可爱的举动让它非常受欢迎。战斗时会把\n"
+"尾巴蓬起来，并发出尖锐的低吼声威吓敌\n"
+"人。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4534
 msgid ""
@@ -476,6 +634,9 @@ msgid ""
 "sleeps there. It is nocturnal and becomes\n"
 "active at dusk."
 msgstr ""
+"不会固定住在一个巢穴里，而是习惯寻找\n"
+"舒适的地方睡觉。它是夜行性的，到了黄\n"
+"昏就开始活跃。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4609
 msgid ""
@@ -484,6 +645,9 @@ msgid ""
 "A Sableye lurks in darkness and is seen\n"
 "only rarely."
 msgstr ""
+"会用锋利的爪子在洞窟中挖出分叉的洞，\n"
+"寻找作为食物的原石。它潜伏在黑暗中，\n"
+"很少被人看到。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4687
 msgid ""
@@ -491,6 +655,8 @@ msgid ""
 "the gemstone on its chest expands, rips\n"
 "through its skin, and falls out."
 msgstr ""
+"沐浴在超级进化的能量下，胸前的宝石变\n"
+"大，撑破皮肤掉了出来。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4765
 msgid ""
@@ -499,6 +665,9 @@ msgid ""
 "complacency with its adorable gestures,\n"
 "then chomps them with its huge jaws."
 msgstr ""
+"巨大的颚其实是由钢铁之角变化而成的。\n"
+"它会用可爱的动作让敌人放松警惕，然后\n"
+"用大颚一口咬下去。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4845
 msgid ""
@@ -507,6 +676,9 @@ msgid ""
 "their own. One gnash from them can turn a\n"
 "boulder to dust."
 msgstr ""
+"两张大颚像各自拥有意志一样剧烈地乱\n"
+"动。只需咬上一口，就能把巨石咬得粉\n"
+"碎。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4918
 msgid ""
@@ -515,6 +687,9 @@ msgid ""
 "The old, discarded armor is salvaged as\n"
 "metal for making iron products."
 msgstr ""
+"身披钢铁铠甲的宝可梦。进化时会换上新\n"
+"的铠甲。脱下的旧铠甲会被回收，作为制\n"
+"造铁制品的金属。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:4990
 msgid ""
@@ -523,6 +698,9 @@ msgid ""
 "other with their steel bodies. The sound\n"
 "of their collision carries for miles."
 msgstr ""
+"两只可多拉在野外相遇时，会用钢铁的身\n"
+"体互相撞击来争夺领地。撞击声能传到好\n"
+"几公里以外。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5067
 msgid ""
@@ -531,6 +709,9 @@ msgid ""
 "Aggron's age. The gouges in its armor are\n"
 "worn with pride as mementos from battles."
 msgstr ""
+"铁角会一点点地变长，可以用来判断它的\n"
+"年龄。铠甲上的伤痕是战斗的纪念，它引\n"
+"以为豪。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5142
 msgid ""
@@ -539,6 +720,9 @@ msgid ""
 "its fearsome horns can turn a steel-clad\n"
 "tank into so much scrap metal."
 msgstr ""
+"超级进化成超级波士可多拉后，它那可怕\n"
+"的角的破坏力能把钢铁坦克变成一堆废\n"
+"铁。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5213
 msgid ""
@@ -547,6 +731,9 @@ msgid ""
 "yoga training, it has tempered its\n"
 "spiritual power so much it can fly."
 msgstr ""
+"每天都会冥想好几个小时。经过严格专注\n"
+"的瑜伽修行，它的精神力量强大到能让自\n"
+"己飞起来。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5295
 msgid ""
@@ -555,6 +742,9 @@ msgid ""
 "actions. It battles with elegant, dance-\n"
 "like movement."
 msgstr ""
+"通过极其严酷的瑜伽修行，获得了预知敌\n"
+"人行动的能力。它会用优雅如舞蹈般的动\n"
+"作战斗。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5386
 msgid ""
@@ -563,6 +753,9 @@ msgid ""
 "has trained its spirit, the more realistic\n"
 "and dexterous these arms become."
 msgstr ""
+"会用增强后的意志力为自己制造出额外的\n"
+"手臂。它的精神修炼得越多，这些手臂就\n"
+"越逼真、越灵巧。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5457
 msgid ""
@@ -571,6 +764,9 @@ msgid ""
 "especially arid air, its entire body blazes\n"
 "with violent showers of sparks."
 msgstr ""
+"会利用与空气的摩擦产生电力。在空气特\n"
+"别干燥的季节，它全身会迸发出猛烈的火\n"
+"花。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5528
 msgid ""
@@ -579,6 +775,9 @@ msgid ""
 "from lightning. In battle, they create\n"
 "thunderclouds."
 msgstr ""
+"因为它们的附近会有落雷，人们曾认为雷\n"
+"电兽是从雷电中诞生的。战斗时它们会制\n"
+"造出雷云。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5604
 msgid ""
@@ -586,6 +785,8 @@ msgid ""
 "body, irritating Manectric. Its explosive\n"
 "speed is equal to that of a lightning bolt."
 msgstr ""
+"体内积蓄了过多的电力，让雷电兽烦躁不\n"
+"安。它的爆发速度能与闪电匹敌。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5679
 msgid ""
@@ -594,6 +795,8 @@ msgid ""
 "it releases from its paws, it creates\n"
 "pom-poms for cheering."
 msgstr ""
+"有为同伴加油的特性。会让从手掌放出的\n"
+"电短路，制造出用来加油的彩球。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5756
 msgid ""
@@ -602,6 +805,9 @@ msgid ""
 "electricity from a Plusle and Minun will\n"
 "promote circulation and boost vitality."
 msgstr ""
+"在宝可梦学会上发表过这样一项研究：同\n"
+"时受到正电拍拍和负电拍拍的电流刺激，\n"
+"可以促进血液循环，增强活力。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5835
 msgid ""
@@ -610,6 +816,9 @@ msgid ""
 "night sky. They move their nests if their\n"
 "pond water becomes dirty."
 msgstr ""
+"会点亮尾部的光，成群地在夜空中描绘出\n"
+"几何图案。如果池塘的水变脏了，它们就\n"
+"会搬家。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5918
 msgid ""
@@ -618,6 +827,9 @@ msgid ""
 "to draw patterns in the night sky. Over 200\n"
 "different patterns have been confirmed."
 msgstr ""
+"入夜后开始活跃的夜行性宝可梦。会带领\n"
+"电萤虫群在夜空中描绘图案。已经确认的\n"
+"图案有200种以上。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:5993
 msgid ""
@@ -626,6 +838,9 @@ msgid ""
 "temperature, the bud is said to bloom\n"
 "when it feels the sun's warm touch."
 msgstr ""
+"冬天会合上花苞忍耐寒冷。它对温度变化\n"
+"很敏感，据说感受到温暖的阳光时，花苞\n"
+"就会绽放。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6065
 msgid ""
@@ -634,6 +849,9 @@ msgid ""
 "The fragrance of its flowers has the\n"
 "effect of making its foes careless."
 msgstr ""
+"喝了营养丰富的泉水的毒蔷薇会开出美丽\n"
+"的花朵。花的香气有让敌人放松警惕的效\n"
+"果。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6160
 msgid ""
@@ -642,6 +860,8 @@ msgid ""
 "it strikes with whips that are densely\n"
 "lined with poison thorns."
 msgstr ""
+"用甜美的香气引诱猎物。会以舞者般的动\n"
+"作挥动长满毒刺的鞭子发起攻击。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6244
 msgid ""
@@ -650,6 +870,8 @@ msgid ""
 "swallow something that is as large as\n"
 "itself."
 msgstr ""
+"它的胃液连废铁都能消化。一口就能吞下\n"
+"和自己一样大的东西。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6330
 msgid ""
@@ -658,6 +880,9 @@ msgid ""
 "in the whole world a Swalot can't digest is\n"
 "its own stomach."
 msgstr ""
+"强力的胃酸几乎能消化任何东西。全世界\n"
+"唯一一样吞食兽消化不了的东西，就是它\n"
+"自己的胃。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6414
 msgid ""
@@ -666,6 +891,9 @@ msgid ""
 "vicious Pokémon, it timidly flees as soon\n"
 "as it finds itself alone."
 msgstr ""
+"会成群结队地袭击船只，把船弄沉。虽然\n"
+"据说是非常凶残的宝可梦，但只要发现只\n"
+"剩自己一个，就会胆怯地逃跑。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6490
 msgid ""
@@ -674,6 +902,9 @@ msgid ""
 "drag in water. Its speed tops out at over\n"
 "75 miles per hour."
 msgstr ""
+"凶残又狡猾的海中恶棍。皮肤有着特殊的\n"
+"纹理，能把水的阻力降到最小。最高时速\n"
+"超过120公里。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6571
 msgid ""
@@ -682,6 +913,9 @@ msgid ""
 "through them, causing it sharp pain and\n"
 "suffering."
 msgstr ""
+"身上的黄色花纹是旧伤疤。超级进化的能\n"
+"量流过这些伤疤，让它感到剧烈的疼痛和\n"
+"痛苦。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6643
 msgid ""
@@ -690,6 +924,9 @@ msgid ""
 "long. It loses vitality if its body becomes\n"
 "dried out."
 msgstr ""
+"这种宝可梦平时生活在海里，但也能在陆\n"
+"地上生存，只是时间不能太长。身体干燥\n"
+"后就会失去活力。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6716
 msgid ""
@@ -698,6 +935,8 @@ msgid ""
 "maximum capacity, a Wailord can dive close\n"
 "to 10,000 feet beneath the waves."
 msgstr ""
+"会把鼻孔抬出海面呼吸。吸足一口气后，\n"
+"能潜到接近3000米深的海底。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6790
 msgid ""
@@ -706,6 +945,9 @@ msgid ""
 "transport a 220-pound load. It has served\n"
 "humans at work since long ago."
 msgstr ""
+"背上的驼峰里储存着沸腾的岩浆。它是很\n"
+"强壮的宝可梦，能运送100公斤的货物。自\n"
+"古以来就帮助人类工作。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6879
 msgid ""
@@ -714,6 +956,9 @@ msgid ""
 "on its back erupt violently. Research is\n"
 "under way on the cause of eruption."
 msgstr ""
+"生活在火山口的宝可梦。每隔10年，背上\n"
+"的火山就会猛烈喷发一次。人们正在研究\n"
+"喷发的原因。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:6971
 msgid ""
@@ -722,6 +967,9 @@ msgid ""
 "has a deep hatred of water or any moisture\n"
 "and has an explosive personality."
 msgstr ""
+"背上的驼峰变成了一座巨大而活跃的火\n"
+"山。它非常讨厌水和湿气，性格一点就\n"
+"着。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7047
 msgid ""
@@ -730,6 +978,9 @@ msgid ""
 "nostrils, it lets off a sound that is\n"
 "similar to a locomotive's horn."
 msgstr ""
+"会利用燃烧煤炭获得的能量战斗。从鼻孔\n"
+"喷出烟雾时，会发出类似火车汽笛的声\n"
+"音。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7119
 msgid ""
@@ -738,6 +989,9 @@ msgid ""
 "it is asleep. It loves eating mushrooms\n"
 "that grow underground."
 msgstr ""
+"能随心所欲地操控超能力的宝可梦。即使\n"
+"在睡觉时也会不停地蹦跳。最喜欢吃长在\n"
+"地下的蘑菇。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7196
 msgid ""
@@ -746,6 +1000,9 @@ msgid ""
 "performs an odd dance step. Its style of\n"
 "dancing became hugely popular overseas."
 msgstr ""
+"会把力量储存在额头的黑珍珠里。使用超\n"
+"能力时会跳起奇怪的舞步。它的舞蹈风格\n"
+"在国外大受欢迎。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7273
 msgid ""
@@ -754,6 +1011,8 @@ msgid ""
 "unsteady, tottering walk has the\n"
 "effect of fouling its foe's aim."
 msgstr ""
+"特点是身上的斑点花纹每只都不一样。它\n"
+"摇摇晃晃的步伐能让敌人瞄不准。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7356
 msgid ""
@@ -762,6 +1021,8 @@ msgid ""
 "time getting back upright if it tips over\n"
 "onto its back."
 msgstr ""
+"大大的颚能咬碎巨石。因为头太大了，一\n"
+"旦仰面翻倒，就很难再翻过身来。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7428
 msgid ""
@@ -770,6 +1031,9 @@ msgid ""
 "are still in the process of growing, it can\n"
 "only fly short distances."
 msgstr ""
+"会通过摩擦翅膀发出超声波。因为翅膀还\n"
+"在生长的过程中，所以只能飞很短的距\n"
+"离。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7507
 msgid ""
@@ -778,6 +1042,9 @@ msgid ""
 "it hides itself by flapping up a cloud of\n"
 "desert sand."
 msgstr ""
+"扇动翅膀的声音听起来就像在唱歌。为了\n"
+"不被敌人发现，它会扇起沙漠中的沙尘把\n"
+"自己藏起来。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7582
 msgid ""
@@ -786,6 +1053,9 @@ msgid ""
 "spiked arms. Once a year, a yellow flower\n"
 "blooms."
 msgstr ""
+"生活在几乎不下雨的沙漠中。会挥舞长满\n"
+"刺的粗手臂战斗。每年会开一次黄色的\n"
+"花。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7661
 msgid ""
@@ -794,6 +1064,9 @@ msgid ""
 "the same substances as sand. It is\n"
 "nocturnal, so it hunts at night."
 msgstr ""
+"在严酷的沙漠中度过了几千年，它的血液\n"
+"变成了和沙子一样的物质。它是夜行性\n"
+"的，会在夜晚狩猎。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7743
 msgid ""
@@ -802,6 +1075,9 @@ msgid ""
 "little food is available, Swablu flocks\n"
 "move closer to towns in the spring."
 msgstr ""
+"拥有像棉花云一样翅膀的宝可梦。熬过食\n"
+"物稀少的冬天后，青绵鸟群会在春天来到\n"
+"城镇附近。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7817
 msgid ""
@@ -810,6 +1086,8 @@ msgid ""
 "sky. It launches intensely hot fireballs\n"
 "from its mouth."
 msgstr ""
+"会用美妙的女高音哼唱。它在蓝天的白云\n"
+"间飞翔，能从嘴里喷出灼热的火球。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7894
 msgid ""
@@ -818,6 +1096,9 @@ msgid ""
 "Its feathers became larger for protection\n"
 "and glimmer with an iridescent sheen."
 msgstr ""
+"它的歌声比超级进化前更加美妙。羽毛为\n"
+"了保护自己而变大，闪耀着彩虹般的光\n"
+"泽。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:7968
 msgid ""
@@ -826,6 +1107,9 @@ msgid ""
 "forelegs. Its fur bristles if it encounters\n"
 "any Seviper."
 msgstr ""
+"战斗时会用后腿站立，用长着锋利爪子的\n"
+"前肢发起攻击。遇到饭匙蛇时，全身的毛\n"
+"都会竖起来。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8045
 msgid ""
@@ -834,6 +1118,9 @@ msgid ""
 "with its swordlike tail, which also oozes\n"
 "a horrible poison."
 msgstr ""
+"饭匙蛇和猫鼬斩是永远的宿敌。它会用刀\n"
+"刃般的尾巴对抗猫鼬斩眼花缭乱的敏捷动\n"
+"作，尾巴还会渗出可怕的毒液。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8127
 msgid ""
@@ -842,6 +1129,9 @@ msgid ""
 "discovered 40 years ago at the site of\n"
 "a meteor strike."
 msgstr ""
+"在满月的夜晚会变得非常活跃。这种宝可\n"
+"梦是在40年前的陨石坠落地点首次被发现\n"
+"的。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8207
 msgid ""
@@ -850,6 +1140,8 @@ msgid ""
 "Solrock line up facing the sun and absorb\n"
 "its light."
 msgstr ""
+"太阳能是它力量的源泉。晴天时，太阳岩\n"
+"们会排成一列面向太阳，吸收阳光。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8283
 msgid ""
@@ -858,6 +1150,9 @@ msgid ""
 "in muddy water from entering the\n"
 "Barboach's body."
 msgstr ""
+"身体覆盖着一层黏滑的膜。这层膜就像屏\n"
+"障，能防止泥水里的细菌侵入泥泥鳅的身\n"
+"体。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8367
 msgid ""
@@ -866,6 +1161,9 @@ msgid ""
 "bottom of a pond. When it awakens, it\n"
 "continually feeds throughout the night."
 msgstr ""
+"不可思议的是，它能预知地震。白天会在\n"
+"池塘底部的泥里睡觉，醒来后会整晚不停\n"
+"地进食。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8446
 msgid ""
@@ -874,6 +1172,9 @@ msgid ""
 "It is a hardy Pokémon that can thrive\n"
 "in any environment."
 msgstr ""
+"一旦用大钳子夹住猎物，无论如何都绝不\n"
+"会松开。它很顽强，在任何环境中都能生\n"
+"存。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8519
 msgid ""
@@ -882,6 +1183,9 @@ msgid ""
 "hundreds of battles has giant pincers\n"
 "marked with countless scars."
 msgstr ""
+"喜欢战斗的粗暴宝可梦。在数百场战斗中\n"
+"获胜的老练铁螯龙虾，巨大的钳子上布满\n"
+"了数不清的伤痕。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8591
 msgid ""
@@ -890,6 +1194,8 @@ msgid ""
 "adorning the walls of a once-bustling city\n"
 "in an ancient age."
 msgstr ""
+"会用一只脚旋转着移动。它曾出现在古代\n"
+"一座繁华城市的壁画上。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8665
 msgid ""
@@ -898,6 +1204,8 @@ msgid ""
 "They are kept floating by the Pokémon's\n"
 "manipulation of psychic power."
 msgstr ""
+"会飘浮在空中睡觉。它的手臂和身体是分\n"
+"开的，靠操控超能力让手臂飘浮着。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8746
 msgid ""
@@ -906,6 +1214,9 @@ msgid ""
 "that come too close are swallowed whole.\n"
 "It became extinct 100 million years ago."
 msgstr ""
+"会摇动触手伪装成海藻。毫无防备地靠得\n"
+"太近的猎物会被它一口吞下。它在1亿年前\n"
+"就已经灭绝了。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8824
 msgid ""
@@ -914,6 +1225,9 @@ msgid ""
 "of warm seas. Cradily can be seen on\n"
 "beaches when the tide goes out."
 msgstr ""
+"会拖着沉重的身体在海底移动。在温暖海\n"
+"域的浅滩上筑巢。退潮时能在海滩上看到\n"
+"它。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8903
 msgid ""
@@ -922,6 +1236,9 @@ msgid ""
 "the eight wings at its sides. They were\n"
 "feet that adapted to life in the sea."
 msgstr ""
+"利用科学的力量从化石中复活的宝可梦。\n"
+"会摆动身体两侧的八片翅膀游泳。这些翅\n"
+"膀原本是为适应海中生活而变化的脚。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:8982
 msgid ""
@@ -930,6 +1247,8 @@ msgid ""
 "the ocean. It swims around using its two\n"
 "large wings."
 msgstr ""
+"平时生活在陆地上。但捕猎时会潜入海\n"
+"中，用两片大翅膀游来游去。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9058
 msgid ""
@@ -938,6 +1257,8 @@ msgid ""
 "hopelessly shabby appearance, it\n"
 "seems as if few Trainers raise it."
 msgstr ""
+"生活在长满水草的池塘里。因为外表实在\n"
+"太寒酸了，似乎很少有训练家培育它。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9137
 msgid ""
@@ -946,6 +1267,9 @@ msgid ""
 "beautiful of all Pokémon, it has been\n"
 "depicted in paintings and statues."
 msgstr ""
+"据说住在大湖的湖底。被认为是所有宝可\n"
+"梦中最美丽的，在绘画和雕像中都有它的\n"
+"身影。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9226
 msgid ""
@@ -954,6 +1278,8 @@ msgid ""
 "the temperature and humidity appear to\n"
 "affect its cellular structure."
 msgstr ""
+"会随着天气改变样子。气温和湿度等气候\n"
+"变化似乎会影响它的细胞结构。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9305
 msgid ""
@@ -962,6 +1288,9 @@ msgid ""
 "front of a heater, it didn't change to this\n"
 "form. Its body is warm and toasty."
 msgstr ""
+"晴天时的样子。在把它放到暖炉前的实验\n"
+"中，它并没有变成这个样子。身体暖烘烘\n"
+"的。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9386
 msgid ""
@@ -970,6 +1299,9 @@ msgid ""
 "shower, it didn't change to this form. Its\n"
 "body is soft, slightly swollen with water."
 msgstr ""
+"下雨时的样子。在把它放到淋浴下的实验\n"
+"中，它并没有变成这个样子。身体吸了\n"
+"水，软软的，有点膨胀。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9466
 msgid ""
@@ -978,6 +1310,9 @@ msgid ""
 "in a freezer, it didn't change to this form.\n"
 "Its cold skin is as smooth as ice."
 msgstr ""
+"下冰雹时的样子。在把它放进冰箱的实验\n"
+"中，它并没有变成这个样子。冰冷的皮肤\n"
+"像冰一样光滑。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9549
 msgid ""
@@ -986,6 +1321,8 @@ msgid ""
 "A Kecleon reverts to its original colors if\n"
 "it is startled."
 msgstr ""
+"拥有能配合周围环境改变身体颜色能力的\n"
+"宝可梦。受到惊吓时会变回原来的颜色。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9627
 msgid ""
@@ -994,6 +1331,8 @@ msgid ""
 "grudges and envy. It retreats to its nest\n"
 "when the sun begins to rise."
 msgstr ""
+"会在深夜四处徘徊，寻找怨恨和嫉妒等负\n"
+"面情绪。太阳开始升起时就会回到巢穴。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9707
 msgid ""
@@ -1002,6 +1341,9 @@ msgid ""
 "dumps and wander about in search of the\n"
 "children that threw them away."
 msgstr ""
+"被丢弃的布偶变成了这种宝可梦。据说它\n"
+"们住在垃圾场里，四处徘徊寻找丢弃自己\n"
+"的孩子。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9788
 msgid ""
@@ -1009,6 +1351,8 @@ msgid ""
 "cursing power to such an extent that it\n"
 "can't help but curse its own Trainer."
 msgstr ""
+"超乎寻常的能量将它的诅咒之力放大，以\n"
+"至于它忍不住连自己的训练家也会诅咒。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9865
 msgid ""
@@ -1017,6 +1361,9 @@ msgid ""
 "It is a nocturnal Pokémon that roams\n"
 "about under the cloak of darkness."
 msgstr ""
+"被它鲜红的独眼瞪一眼，就连强壮的大人\n"
+"也会吓得浑身僵硬。是在夜幕掩护下四处\n"
+"游荡的夜行性宝可梦。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:9943
 msgid ""
@@ -1025,6 +1372,9 @@ msgid ""
 "However, no one has been able to\n"
 "confirm this theory as fact."
 msgstr ""
+"据认为它的身体是空的，里面只有一团鬼\n"
+"火在燃烧。不过还没有人能证实这种说\n"
+"法。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10030
 msgid ""
@@ -1033,6 +1383,9 @@ msgid ""
 "it takes lost spirits into its pliant body\n"
 "and guides them home."
 msgstr ""
+"这种令人畏惧的宝可梦据说会前往未知的\n"
+"世界。甚至有人认为它会把迷失的灵魂装\n"
+"进柔软的身体里，带它们回家。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10112
 msgid ""
@@ -1041,6 +1394,9 @@ msgid ""
 "neck is deliciously sweet. In the spring,\n"
 "it scatters pollen from its neck."
 msgstr ""
+"会扇动宽大的叶子飞行。脖子周围长着的\n"
+"一串果实甜美可口。春天时会从脖子上撒\n"
+"出花粉。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10186
 msgid ""
@@ -1049,6 +1405,9 @@ msgid ""
 "over and makes a ringing sound.\n"
 "It can cry for an awfully long time."
 msgstr ""
+"嘴里有一颗珠子。蹦跳时，珠子会在嘴里\n"
+"四处弹跳，发出叮铃叮铃的声音。它能叫\n"
+"上很长很长的时间。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10269
 msgid ""
@@ -1057,6 +1416,9 @@ msgid ""
 "themselves using seven different and\n"
 "distinguishing cries."
 msgstr ""
+"炎热的季节到来时会非常活跃地四处飞\n"
+"行。它们会用七种各不相同的叫声互相交\n"
+"流。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10359
 msgid ""
@@ -1065,6 +1427,9 @@ msgid ""
 "hear the vibrations get so confused, they\n"
 "forget who they are."
 msgstr ""
+"会振动全身，用声波向四面八方发起攻\n"
+"击。听到这种振动的人都会陷入混乱，甚\n"
+"至忘记自己是谁。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10422
 msgid ""
@@ -1073,6 +1438,9 @@ msgid ""
 "disasters. It is a long-lived Pokémon that\n"
 "has a life-span of 100 years."
 msgstr ""
+"能敏锐地察觉天空和大地的细微变化，预\n"
+"知自然灾害。它是能活100年的长寿宝可\n"
+"梦。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10501
 msgid ""
@@ -1081,6 +1449,9 @@ msgid ""
 "are not true wings, and this Pokémon isn't\n"
 "able to fly."
 msgstr ""
+"被超级进化的能量充满后，它的毛会竖起\n"
+"来。背上的并不是真正的翅膀，这种宝可\n"
+"梦无法飞行。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10577
 msgid ""
@@ -1089,6 +1460,9 @@ msgid ""
 "a single blow. This is an act of kindness\n"
 "to keep them from suffering."
 msgstr ""
+"会把毛变成锋利的爪子形状，一击就砍倒\n"
+"敌人。这是为了不让对方受苦的温柔之\n"
+"举。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10639
 msgid ""
@@ -1097,6 +1471,9 @@ msgid ""
 "it is said that when they are seen late at\n"
 "night, snowfall will arrive by morning."
 msgstr ""
+"常常以五只左右为一群行动。在下雪的地\n"
+"区，据说深夜看到它们的话，到了早上就\n"
+"会下雪。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10719
 msgid ""
@@ -1105,6 +1482,8 @@ msgid ""
 "A dazzling cloud of diamondlike ice\n"
 "crystals forms around its body."
 msgstr ""
+"拥有能瞬间冻结空气中水分的力量。身体\n"
+"周围会形成一团钻石般闪耀的冰晶云。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10796
 msgid ""
@@ -1112,6 +1491,9 @@ msgid ""
 "that it smashed Glalie's jaw. Its inability\n"
 "to eat very well leaves Glalie irritated."
 msgstr ""
+"超级进化的力量太过强大，把冰鬼护的下\n"
+"颚撞碎了。因为没法好好吃东西，冰鬼护\n"
+"变得很烦躁。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10866
 msgid ""
@@ -1120,6 +1502,8 @@ msgid ""
 "chilly den, where they become its\n"
 "decorations."
 msgstr ""
+"找到喜欢的人或宝可梦时，会把对方冻起\n"
+"来带回冰冷的巢穴，当作装饰品。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:10941
 msgid ""
@@ -1128,6 +1512,8 @@ msgid ""
 "freeze even insubstantial things,\n"
 "such as flames or the wind."
 msgstr ""
+"能用蕴含幽灵能量的诡异冷气，冻住火焰\n"
+"和风等没有实体的东西。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11003
 msgid ""
@@ -1136,6 +1522,9 @@ msgid ""
 "when it is rolling about on ice floes or\n"
 "diving in the sea."
 msgstr ""
+"全身覆盖着毛茸茸的毛。因此，无论是在\n"
+"浮冰上滚来滚去，还是潜入海中，都不会\n"
+"觉得冷。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11082
 msgid ""
@@ -1144,6 +1533,8 @@ msgid ""
 "It dives into the sea to hunt prey five\n"
 "times a day."
 msgstr ""
+"在浮冰上群居生活。会用有力的鳍击碎冰\n"
+"块。每天会潜入海中捕猎五次。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11162
 msgid ""
@@ -1152,6 +1543,9 @@ msgid ""
 "at the cost of its life. Its tusks may snap\n"
 "off in battle."
 msgstr ""
+"为了保护族群，首领会与侵入领地的任何\n"
+"东西战斗，甚至不惜牺牲性命。它的獠牙\n"
+"有时会在战斗中折断。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11235
 msgid ""
@@ -1160,6 +1554,9 @@ msgid ""
 "upon evolution is said to be infused with\n"
 "a mysterious energy."
 msgstr ""
+"会猛地合上贝壳夹住猎物，防止猎物逃\n"
+"跑。据说它进化时产生的珍珠里蕴含着神\n"
+"秘的能量。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11311
 msgid ""
@@ -1168,6 +1565,9 @@ msgid ""
 "thick and sturdy. Its tail, which is shaped\n"
 "like a small fish, has eyes that light up."
 msgstr ""
+"为了承受深海中巨大的水压，它的脊椎非\n"
+"常粗壮结实。小鱼形状的尾巴上有会发光\n"
+"的眼睛。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11381
 msgid ""
@@ -1176,6 +1576,8 @@ msgid ""
 "pink body color turns vivid when it\n"
 "finishes feeding."
 msgstr ""
+"会用细长的管状嘴巴吸食猎物的体液。进\n"
+"食后，淡粉红色的身体会变得鲜艳起来。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11454
 msgid ""
@@ -1184,6 +1586,9 @@ msgid ""
 "its form for 100 million years. It walks on\n"
 "the seafloor using its pectoral fins."
 msgstr ""
+"曾被认为已经灭绝的宝可梦。1亿年来，这\n"
+"个物种的样子都没有改变过。它会用胸鳍\n"
+"在海底行走。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11540
 msgid ""
@@ -1192,6 +1597,9 @@ msgid ""
 "ago of giving a Luvdisc as a gift to\n"
 "express one's feelings of love."
 msgstr ""
+"会把太阳珊瑚的枝条当作巢穴。自古以来\n"
+"就有把爱心鱼作为礼物送给别人来表达爱\n"
+"意的习俗。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11613
 msgid ""
@@ -1200,6 +1608,9 @@ msgid ""
 "muscles. It launches head-butts with its\n"
 "ironlike skull."
 msgstr ""
+"虽然个子很小，但身体就是一团肌肉，所\n"
+"以力气非常大。会用钢铁般的头骨使出头\n"
+"锤。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11685
 msgid ""
@@ -1208,6 +1619,9 @@ msgid ""
 "Its shell peels off the instant it begins\n"
 "to evolve."
 msgstr ""
+"在等待进化时几乎不吃东西，通过忍耐饥\n"
+"饿变得更加强壮。开始进化的那一瞬间，\n"
+"外壳就会剥落。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11762
 msgid ""
@@ -1216,6 +1630,9 @@ msgid ""
 "grow wings. When angered, it loses all\n"
 "thought and rampages out of control."
 msgstr ""
+"经过漫长的岁月，它的细胞结构发生了突\n"
+"然变异，长出了翅膀。生气时会失去理\n"
+"智，失控暴走。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11840
 msgid ""
@@ -1224,6 +1641,9 @@ msgid ""
 "It's been dubbed the blood-soaked.\n"
 "crescent."
 msgstr ""
+"超级进化助长了它的残暴，甚至可能会攻\n"
+"击养育自己的训练家。它被称为“血染的\n"
+"新月”。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11913
 msgid ""
@@ -1232,6 +1652,9 @@ msgid ""
 "Pokémon. They communicate with each other\n"
 "using brain waves."
 msgstr ""
+"铁哑铃成群聚集时，会像一只宝可梦一样\n"
+"完美地同步行动。它们会用脑电波互相交\n"
+"流。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:11986
 msgid ""
@@ -1240,6 +1663,9 @@ msgid ""
 "iron sheets as if they were silk. It flies\n"
 "at over 60 miles per hour."
 msgstr ""
+"手臂尖端的爪子拥有极强的破坏力，能像\n"
+"撕丝绸一样撕裂厚厚的铁板。它的飞行时\n"
+"速超过100公里。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12063
 msgid ""
@@ -1248,6 +1674,9 @@ msgid ""
 "integration, this Pokémon is smarter than\n"
 "a supercomputer."
 msgstr ""
+"拥有四个通过复杂神经网络连接在一起的\n"
+"大脑。由于四个大脑的整合，它比超级计\n"
+"算机还要聪明。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12140
 msgid ""
@@ -1255,6 +1684,8 @@ msgid ""
 "claws on its legs into its opponent and\n"
 "starts the countdown to a big explosion."
 msgstr ""
+"知道自己赢不了的时候，会把腿上的爪子\n"
+"刺进对手身体，开始大爆炸的倒计时。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12218
 msgid ""
@@ -1263,6 +1694,9 @@ msgid ""
 "in battle, Regirock repairs itself by\n"
 "adding new rocks."
 msgstr ""
+"完全由岩石和巨石构成的宝可梦。如果身\n"
+"体的一部分在战斗中碎掉，它会加上新的\n"
+"岩石修复自己。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12297
 msgid ""
@@ -1271,6 +1705,8 @@ msgid ""
 "believe the ice was formed during an\n"
 "ice age."
 msgstr ""
+"全身由南极的冰构成。经过大量研究，研\n"
+"究者们认为这些冰是在冰河时期形成的。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12377
 msgid ""
@@ -1279,6 +1715,9 @@ msgid ""
 "mysterious substance. Not only is it hard,\n"
 "it shrinks and stretches flexibly."
 msgstr ""
+"身体比任何金属都要坚硬。构成身体的金\n"
+"属是一种神秘的物质，不仅坚硬，还能灵\n"
+"活地伸缩。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12456
 msgid ""
@@ -1287,6 +1726,9 @@ msgid ""
 "people or other Pokémon. They disappear\n"
 "if they sense enemies."
 msgstr ""
+"会组成只有几只的小群体，很少与人类或\n"
+"其他宝可梦接触。察觉到敌人时就会消\n"
+"失。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12535
 msgid ""
@@ -1295,6 +1737,9 @@ msgid ""
 "sharp turns. When it Mega Evolves, its\n"
 "defensive strength grows substantially."
 msgstr ""
+"身体比超级拉帝欧斯小，更加灵活，能做\n"
+"出非常急的转弯。超级进化后，它的防御\n"
+"力大幅提升。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12615
 msgid ""
@@ -1303,6 +1748,9 @@ msgid ""
 "it has telepathy. Its intelligence allows\n"
 "it to understand human languages."
 msgstr ""
+"因为拥有心灵感应，即使藏起来也能察觉\n"
+"到别人的位置和情绪。它的智力足以理解\n"
+"人类的语言。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12694
 msgid ""
@@ -1311,6 +1759,9 @@ msgid ""
 "This Pokémon can use its speed in battle\n"
 "to unleash a flurry of attacks."
 msgstr ""
+"比超级拉帝亚斯更大，飞行时能达到更快\n"
+"的速度。在战斗中会利用速度发动一连串\n"
+"的攻击。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12774
 msgid ""
@@ -1319,6 +1770,8 @@ msgid ""
 "feuding with Groudon, it took to sleep at\n"
 "the bottom of the sea."
 msgstr ""
+"在神话中作为大海的创造者登场。与固拉\n"
+"多长年争斗之后，它在海底陷入了沉睡。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12849
 msgid ""
@@ -1327,6 +1780,9 @@ msgid ""
 "Dark clouds enshrouded the world,\n"
 "and the deluge fell upon all…"
 msgstr ""
+"盖欧卡咆哮之时，大水涌出，海洋向外扩\n"
+"展。乌云笼罩了世界，倾盆大雨落向万\n"
+"物……"
 
 #: src/data/pokemon/species_info/gen_3_families.h:12929
 msgid ""
@@ -1335,6 +1791,9 @@ msgid ""
 "underground and is said to make volcanoes\n"
 "erupt on awakening."
 msgstr ""
+"在神话中作为陆地的创造者登场。据说它\n"
+"沉睡在地下的岩浆中，醒来时会让火山喷\n"
+"发。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:13004
 msgid ""
@@ -1343,6 +1802,9 @@ msgid ""
 "and all the world around the creature\n"
 "was enveloped in incandescent heat."
 msgstr ""
+"固拉多咆哮之时，大地隆起，陆地扩展。\n"
+"烈日当空，它周围的整个世界都被灼热笼\n"
+"罩。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:13085
 msgid ""
@@ -1351,6 +1813,9 @@ msgid ""
 "to the ground if Kyogre and Groudon\n"
 "were to fight."
 msgstr ""
+"在臭氧层中不停飞翔的宝可梦。据说如果\n"
+"盖欧卡和固拉多发生争斗，它就会降临到\n"
+"地面上。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:13163
 msgid ""
@@ -1359,6 +1824,9 @@ msgid ""
 "density and humidity of the air, allowing\n"
 "Rayquaza to manipulate the weather."
 msgstr ""
+"从下颚延伸出的丝状物会放出微粒。微粒\n"
+"能控制空气的密度和湿度，让烈空坐操控\n"
+"天气。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:13246
 msgid ""
@@ -1367,6 +1835,9 @@ msgid ""
 "envelops the body to protect it from\n"
 "enemies."
 msgstr ""
+"据说能实现人们的愿望。睡觉时，坚硬的\n"
+"水晶外壳会包裹住它的身体，保护它不受\n"
+"敌人的伤害。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:13336
 msgid ""
@@ -1375,6 +1846,8 @@ msgid ""
 "can shoot lasers from the crystalline\n"
 "organ on its chest."
 msgstr ""
+"由来自宇宙的病毒诞生的宝可梦。智力很\n"
+"高，能从胸口的水晶器官发射激光。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:13416
 msgid ""
@@ -1382,6 +1855,8 @@ msgid ""
 "aggressive guise. It can fool enemies\n"
 "by altering its appearance."
 msgstr ""
+"代欧奇希斯变成了攻击性的样子。它能通\n"
+"过改变外表来欺骗敌人。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:13494
 msgid ""
@@ -1389,6 +1864,8 @@ msgid ""
 "appears. It absorbs attacks by\n"
 "altering its cellular structure."
 msgstr ""
+"改变样子时会出现极光。它会改变细胞结\n"
+"构来吸收攻击。"
 
 #: src/data/pokemon/species_info/gen_3_families.h:13573
 msgid ""
@@ -1397,6 +1874,9 @@ msgid ""
 "beam. Its body is configured for superior \n"
 "agility and speed."
 msgstr ""
+"受到激光照射的宇宙病毒变异而成的宝可\n"
+"梦。身体的构造让它拥有出众的敏捷和速\n"
+"度。"
 
 #. PokeAPI
 #: src/data/pokemon/species_info/gen_3_families.h:26
