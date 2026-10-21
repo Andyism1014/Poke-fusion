@@ -935,7 +935,7 @@ msgstr "伊曼妮"
 
 #: src/data/trainers.h:22102
 msgid "KYLA"
-msgstr "凯菈"
+msgstr "凯伊拉"
 
 #: src/data/trainers.h:22138
 msgid "DENISE"
@@ -1063,7 +1063,7 @@ msgstr "吉娜和米娅"
 
 #: src/data/trainers.h:23997
 msgid "MIU & YUKI"
-msgstr "美羽和雪"
+msgstr "美羽和小雪"
 
 #: src/data/trainers.h:24323
 msgid "HUEY"
@@ -1431,7 +1431,7 @@ msgstr "托莉和蒂娅"
 
 #: src/data/trainers.h:34473
 msgid "KIM & IRIS"
-msgstr "金和艾莉丝"
+msgstr "金妮和艾丽"
 
 #: src/data/trainers.h:34535
 msgid "TYRA & IVY"
@@ -1451,7 +1451,7 @@ msgstr "蕾莉和伊恩"
 
 #: src/data/trainers.h:35017 src/data/trainers.h:35065 src/data/trainers.h:35113 src/data/trainers.h:35161 src/data/trainers.h:35209
 msgid "LILA & ROY"
-msgstr "莉拉和罗伊"
+msgstr "丽拉和罗伊"
 
 #: src/data/trainers.h:35257
 msgid "LISA & RAY"
