@@ -20,6 +20,7 @@
 #include "constants/battle_move_effects.h"
 #include "constants/items.h"
 #include "constants/moves.h"
+#include "fusion/fusion.h"
 
 // this file's functions
 struct IncomingHealInfo
@@ -652,7 +653,7 @@ static bool32 FindMonThatAbsorbsOpponentsMove(struct SwitchAiContext *switchCont
     // Check current mon for all absorbing abilities
     for (u32 absorbingAbilityIndex = 0; absorbingAbilityIndex < numAbsorbingAbilities; absorbingAbilityIndex++)
     {
-        if (gAiLogicData->abilities[switchContext->battler] == absorbingTypeAbilities[absorbingAbilityIndex])
+        if (ABILITY_OR_PASSIVE_IS(switchContext->battler, gAiLogicData->abilities[switchContext->battler], absorbingTypeAbilities[absorbingAbilityIndex]))
             return FALSE;
     }
 
@@ -663,11 +664,17 @@ static bool32 FindMonThatAbsorbsOpponentsMove(struct SwitchAiContext *switchCont
             continue;
 
         partyMonAbility = GetPartyMonAbilityForSwitchCalc(switchContext->battler, monIndex, &switchContext->party[monIndex]);
+        enum Ability partyMonPassives[FUSION_MAX_PASSIVES];
+        Fusion_GetMonPassives(&switchContext->party[monIndex], partyMonPassives); // Fusion: passives are public
 
         for (u32 absorbingAbilityIndex = 0; absorbingAbilityIndex < numAbsorbingAbilities; absorbingAbilityIndex++)
         {
+            bool32 absorbs = absorbingTypeAbilities[absorbingAbilityIndex] == partyMonAbility;
+            for (u32 slot = 0; slot < FUSION_MAX_PASSIVES && !absorbs; slot++)
+                absorbs = absorbingTypeAbilities[absorbingAbilityIndex] == partyMonPassives[slot];
+
             // Found a mon
-            if (absorbingTypeAbilities[absorbingAbilityIndex] == partyMonAbility && RandomPercentage(RNG_AI_SWITCH_ABSORBING, GetSwitchChance(SHOULD_SWITCH_ABSORBS_MOVE)))
+            if (absorbs && RandomPercentage(RNG_AI_SWITCH_ABSORBING, GetSwitchChance(SHOULD_SWITCH_ABSORBS_MOVE)))
                 return SetSwitchinAndSwitch(switchContext->battler, monIndex);
         }
     }

@@ -520,10 +520,10 @@ bool32 Ai_IsPriorityBlocked(enum BattlerId battlerAtk, enum BattlerId battlerDef
     if (IsMoldBreakerTypeAbility(battlerAtk, aiData->abilities[battlerAtk], move) || MoveIgnoresTargetAbility(move))
         return FALSE;
 
-    if (IsDazzlingAbility(aiData->abilities[battlerDef]))
+    if (HasDazzlingAbilityOrPassive(battlerDef, aiData->abilities[battlerDef]))
         return TRUE;
 
-    if (IsDoubleBattle() && IsDazzlingAbility(aiData->abilities[GetPartnerBattler(battlerDef)]))
+    if (IsDoubleBattle() && HasDazzlingAbilityOrPassive(GetPartnerBattler(battlerDef), aiData->abilities[GetPartnerBattler(battlerDef)]))
         return TRUE;
 
     return FALSE;
@@ -604,7 +604,8 @@ bool32 IsDamageMoveUnusable(struct DamageContext *ctx)
         return TRUE;
 
     // Limited to Lighning Rod and Storm Drain because otherwise the AI would consider Water Absorb, etc...
-    if (partnerDefAbility == ABILITY_LIGHTNING_ROD || partnerDefAbility == ABILITY_STORM_DRAIN)
+    if (ABILITY_OR_PASSIVE_IS(GetPartnerBattler(ctx->battlerDef), partnerDefAbility, ABILITY_LIGHTNING_ROD)
+     || ABILITY_OR_PASSIVE_IS(GetPartnerBattler(ctx->battlerDef), partnerDefAbility, ABILITY_STORM_DRAIN))
     {
         u32 originalTarget = ctx->battlerDef; // Need to preserve origin target;
         ctx->battlerDef = GetPartnerBattler(ctx->battlerDef);
@@ -863,9 +864,9 @@ static s32 HandleKOThroughBerryReduction(struct DamageContext *ctx, s32 dmg)
     return dmg;
 }
 
-static s32 AI_ApplyModifiersAfterDmgRoll(struct DamageContext *ctx, s32 dmg)
+static s32 AI_ApplyModifiersAfterDmgRoll(struct DamageContext *ctx, const struct DmgRollModifiers *mods, s32 dmg)
 {
-    dmg = ApplyModifiersAfterDmgRoll(ctx, dmg);
+    dmg = ApplyDmgRollModifiers(mods, dmg);
     dmg = HandleKOThroughBerryReduction(ctx, dmg);
     return dmg;
 }
@@ -959,37 +960,41 @@ struct SimulatedDamage AI_CalcDamage(struct AiCalcValues *aiCalc, enum BattlerId
             for (gMultiHitCounter = GetMoveStrikeCount(move); gMultiHitCounter > 0; gMultiHitCounter--) // The global is used to simulate actual damage done
             {
                 s32 damageByRollType = 0;
+                struct DmgRollModifiers mods;
 
                 s32 oneTripleKickHit = CalculateMoveDamageVars(&ctx);
+                GetModifiersAfterDmgRoll(&ctx, &mods);
 
                 damageByRollType = GetDamageByRollType(oneTripleKickHit, DMG_ROLL_LOWEST);
-                simDamage.minimum += AI_ApplyModifiersAfterDmgRoll(&ctx, damageByRollType);
+                simDamage.minimum += AI_ApplyModifiersAfterDmgRoll(&ctx, &mods, damageByRollType);
 
                 damageByRollType = GetDamageByRollType(oneTripleKickHit, DMG_ROLL_MEDIAN);
-                simDamage.median += AI_ApplyModifiersAfterDmgRoll(&ctx, damageByRollType);
+                simDamage.median += AI_ApplyModifiersAfterDmgRoll(&ctx, &mods, damageByRollType);
 
                 damageByRollType = GetDamageByRollType(oneTripleKickHit, DMG_ROLL_HIGHEST);
-                simDamage.maximum += AI_ApplyModifiersAfterDmgRoll(&ctx, damageByRollType);
+                simDamage.maximum += AI_ApplyModifiersAfterDmgRoll(&ctx, &mods, damageByRollType);
 
                 damageByRollType = GetDamageByRollType(oneTripleKickHit, DMG_ROLL_RANDOM);
-                simDamage.random += AI_ApplyModifiersAfterDmgRoll(&ctx, damageByRollType);
+                simDamage.random += AI_ApplyModifiersAfterDmgRoll(&ctx, &mods, damageByRollType);
             }
         }
         else
         {
+            struct DmgRollModifiers mods;
             u32 damage = CalculateMoveDamageVars(&ctx);
+            GetModifiersAfterDmgRoll(&ctx, &mods);
 
             simDamage.minimum = GetDamageByRollType(damage, DMG_ROLL_LOWEST);
-            simDamage.minimum = AI_ApplyModifiersAfterDmgRoll(&ctx, simDamage.minimum);
+            simDamage.minimum = AI_ApplyModifiersAfterDmgRoll(&ctx, &mods, simDamage.minimum);
 
             simDamage.median = GetDamageByRollType(damage, DMG_ROLL_MEDIAN);
-            simDamage.median = AI_ApplyModifiersAfterDmgRoll(&ctx, simDamage.median);
+            simDamage.median = AI_ApplyModifiersAfterDmgRoll(&ctx, &mods, simDamage.median);
 
             simDamage.maximum = GetDamageByRollType(damage, DMG_ROLL_HIGHEST);
-            simDamage.maximum = AI_ApplyModifiersAfterDmgRoll(&ctx, simDamage.maximum);
+            simDamage.maximum = AI_ApplyModifiersAfterDmgRoll(&ctx, &mods, simDamage.maximum);
 
             simDamage.random = GetDamageByRollType(damage, DMG_ROLL_RANDOM);
-            simDamage.random = AI_ApplyModifiersAfterDmgRoll(&ctx, simDamage.random);
+            simDamage.random = AI_ApplyModifiersAfterDmgRoll(&ctx, &mods, simDamage.random);
         }
 
         if (GetActiveGimmick(battlerAtk) != GIMMICK_Z_MOVE)
@@ -1023,7 +1028,7 @@ struct SimulatedDamage AI_CalcDamage(struct AiCalcValues *aiCalc, enum BattlerId
 bool32 AI_IsDamagedByRecoil(enum BattlerId battler)
 {
     enum Ability ability = gAiLogicData->abilities[battler];
-    if (ability == ABILITY_MAGIC_GUARD || ability == ABILITY_ROCK_HEAD)
+    if (ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_MAGIC_GUARD) || ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_ROCK_HEAD))
         return FALSE;
     return TRUE;
 }
@@ -1171,8 +1176,8 @@ static bool32 AI_IsMoveEffectInMinus(enum BattlerId battlerAtk, enum BattlerId b
     if (GetMoveStrikeCount(move) > 1 || IsMultiHitMove(move))
     {
         if (AI_MoveMakesContact(battlerAtk, battlerDef, abilityAtk, gAiLogicData->holdEffects[battlerAtk], move)
-         && abilityAtk != ABILITY_MAGIC_GUARD
-         && (gAiLogicData->holdEffects[battlerDef] == HOLD_EFFECT_ROCKY_HELMET || abilityDef == ABILITY_IRON_BARBS))
+         && !ABILITY_OR_PASSIVE_IS(battlerAtk, abilityAtk, ABILITY_MAGIC_GUARD)
+         && (gAiLogicData->holdEffects[battlerDef] == HOLD_EFFECT_ROCKY_HELMET || ABILITY_OR_PASSIVE_IS(battlerDef, abilityDef, ABILITY_IRON_BARBS)))
         {
             return TRUE;
         }
@@ -1754,9 +1759,9 @@ bool32 CanTargetFaintAiWithMod(enum BattlerId battlerDef, enum BattlerId battler
 
 bool32 AI_IsAbilityOnSide(enum BattlerId battlerId, enum Ability ability)
 {
-    if (IsBattlerAlive(battlerId) && gAiLogicData->abilities[battlerId] == ability)
+    if (IsBattlerAlive(battlerId) && ABILITY_OR_PASSIVE_IS(battlerId, gAiLogicData->abilities[battlerId], ability))
         return TRUE;
-    else if (IsBattlerAlive(GetPartnerBattler(battlerId)) && gAiLogicData->abilities[GetPartnerBattler(battlerId)] == ability)
+    else if (IsBattlerAlive(GetPartnerBattler(battlerId)) && ABILITY_OR_PASSIVE_IS(GetPartnerBattler(battlerId), gAiLogicData->abilities[GetPartnerBattler(battlerId)], ability))
         return TRUE;
     else
         return FALSE;
@@ -2502,8 +2507,9 @@ enum AIScore IncreaseStatDownScore(enum BattlerId battlerAtk, enum BattlerId bat
 
 bool32 BattlerStatCanRise(enum BattlerId battler, enum Ability battlerAbility, enum Stat stat)
 {
-    if ((gBattleMons[battler].statStages[stat] < MAX_STAT_STAGE && battlerAbility != ABILITY_CONTRARY)
-      || (battlerAbility == ABILITY_CONTRARY && gBattleMons[battler].statStages[stat] > MIN_STAT_STAGE))
+    bool32 contrary = ABILITY_OR_PASSIVE_IS(battler, battlerAbility, ABILITY_CONTRARY);
+    if ((gBattleMons[battler].statStages[stat] < MAX_STAT_STAGE && !contrary)
+      || (contrary && gBattleMons[battler].statStages[stat] > MIN_STAT_STAGE))
         return TRUE;
     return FALSE;
 }
@@ -3366,11 +3372,11 @@ static bool32 DoesBattlerTakeSandstormDamage(enum BattlerId battlerId, enum Abil
         return FALSE;
 
     if (!IS_BATTLER_ANY_TYPE(battlerId, TYPE_ROCK, TYPE_GROUND, TYPE_STEEL)
-      && ability != ABILITY_SAND_VEIL
-      && ability != ABILITY_SAND_FORCE
-      && ability != ABILITY_SAND_RUSH
-      && ability != ABILITY_MAGIC_GUARD
-      && ability != ABILITY_OVERCOAT)
+      && !ABILITY_OR_PASSIVE_IS(battlerId, ability, ABILITY_SAND_VEIL)
+      && !ABILITY_OR_PASSIVE_IS(battlerId, ability, ABILITY_SAND_FORCE)
+      && !ABILITY_OR_PASSIVE_IS(battlerId, ability, ABILITY_SAND_RUSH)
+      && !ABILITY_OR_PASSIVE_IS(battlerId, ability, ABILITY_MAGIC_GUARD)
+      && !ABILITY_OR_PASSIVE_IS(battlerId, ability, ABILITY_OVERCOAT))
         return TRUE;
     return FALSE;
 }
@@ -3381,10 +3387,10 @@ static bool32 DoesBattlerTakeHailDamage(enum BattlerId battlerId, enum Ability a
         return FALSE;
 
     if (!IS_BATTLER_OF_TYPE(battlerId, TYPE_ICE)
-      && ability != ABILITY_SNOW_CLOAK
-      && ability != ABILITY_ICE_BODY
-      && ability != ABILITY_MAGIC_GUARD
-      && ability != ABILITY_OVERCOAT)
+      && !ABILITY_OR_PASSIVE_IS(battlerId, ability, ABILITY_SNOW_CLOAK)
+      && !ABILITY_OR_PASSIVE_IS(battlerId, ability, ABILITY_ICE_BODY)
+      && !ABILITY_OR_PASSIVE_IS(battlerId, ability, ABILITY_MAGIC_GUARD)
+      && !ABILITY_OR_PASSIVE_IS(battlerId, ability, ABILITY_OVERCOAT))
         return TRUE;
     return FALSE;
 }
@@ -3429,7 +3435,7 @@ u32 GetBattlerSecondaryDamage(enum BattlerId battlerId)
 {
     u32 secondaryDamage;
 
-    if (gAiLogicData->abilities[battlerId] == ABILITY_MAGIC_GUARD)
+    if (ABILITY_OR_PASSIVE_IS(battlerId, gAiLogicData->abilities[battlerId], ABILITY_MAGIC_GUARD))
         return FALSE;
 
     secondaryDamage = GetLeechSeedDamage(battlerId)
