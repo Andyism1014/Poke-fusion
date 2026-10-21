@@ -13,6 +13,10 @@ msgid ""
 "deep-sea dives to gather treasures\l"
 "resting at the bottom.$"
 msgstr ""
+"我就是潜水寻宝猎人！\p"
+"我就是那个潜入深海，\n"
+"收集沉睡在海底的宝物的\l"
+"超酷的家伙。$"
 
 #: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc:292
 msgctxt "Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards"
@@ -20,6 +24,8 @@ msgid ""
 "Tell me, have you seen any SHARDS of\n"
 "tools made in ancient times?$"
 msgstr ""
+"告诉我，你有没有见过\n"
+"古代工具的碎片？$"
 
 #: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc:296
 msgctxt "Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards"
@@ -29,6 +35,9 @@ msgid ""
 "If you see any SHARDS, like the RED\n"
 "SHARD, you've got to trade it with me!$"
 msgstr ""
+"你没有我想要的宝物啊……\p"
+"如果你找到了红色碎片之类的碎片，\n"
+"一定要和我交换哦！$"
 
 #: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc:302
 msgctxt "Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou"
@@ -38,11 +47,15 @@ msgid ""
 "Oh, man, you've got to trade that\n"
 "with me! I'll give you something good!$"
 msgstr ""
+"哦，嘿！那个……\n"
+"那是碎片！我正在找它！\p"
+"哎呀，你一定要和我交换！\n"
+"我会给你好东西的！$"
 
 #: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc:308
 msgctxt "Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade"
 msgid "What do you want to trade?$"
-msgstr ""
+msgstr "你想交换什么？$"
 
 #: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc:311
 msgctxt "Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone"
@@ -50,6 +63,8 @@ msgid ""
 "You'll trade your {STR_VAR_1} for\n"
 "my {STR_VAR_2}, then?$"
 msgstr ""
+"那么，你要用你的{STR_VAR_1}\n"
+"交换我的{STR_VAR_2}吗？$"
 
 #: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc:315
 msgctxt "Route124_DivingTreasureHuntersHouse_Text_ItsADeal"
@@ -57,11 +72,13 @@ msgid ""
 "It's a done deal!\n"
 "Use that wisely!$"
 msgstr ""
+"成交！\n"
+"好好利用它吧！$"
 
 #: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc:319
 msgctxt "Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse"
 msgid "Do you want to trade something else?$"
-msgstr ""
+msgstr "你还想交换别的东西吗？$"
 
 #: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc:322
 msgctxt "Route124_DivingTreasureHuntersHouse_Text_BagFull"
@@ -69,6 +86,8 @@ msgid ""
 "Whoops, your BAG's full.\n"
 "Get rid of some items, friend!$"
 msgstr ""
+"哎呀，你的包包满了。\n"
+"朋友，先清理一些道具吧！$"
 
 #: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc:326
 msgctxt "Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind"
@@ -76,6 +95,8 @@ msgid ""
 "No? That's a downer.\n"
 "Well, if you change your mind, come back.$"
 msgstr ""
+"不换吗？真扫兴。\n"
+"好吧，如果你改变主意了就再来吧。$"
 
 #: data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc:330
 msgctxt "Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard"
@@ -89,3 +110,11 @@ msgid ""
 "{CLEAR_TO 10}Wanted item{CLEAR_TO 124}Trade item\n"
 "{CLEAR_TO 8}GREEN SHARD{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 123}LEAF STONE$"
 msgstr ""
+"{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换的道具\n"
+"{CLEAR_TO 21}红色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 144}火之石{CLEAR_TO 200}\p"
+"{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换的道具\n"
+"{CLEAR_TO 21}黄色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 144}雷之石{CLEAR_TO 200}\p"
+"{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换的道具\n"
+"{CLEAR_TO 21}蓝色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 144}水之石{CLEAR_TO 200}\p"
+"{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换的道具\n"
+"{CLEAR_TO 21}绿色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 144}叶之石$"

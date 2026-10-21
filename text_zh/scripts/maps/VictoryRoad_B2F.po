@@ -12,6 +12,9 @@ msgid ""
 "every one of us!\l"
 "I'm not losing to anyone!$"
 msgstr ""
+"我和全家人一起训练过，\n"
+"一个都不少！\l"
+"我不会输给任何人！$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:39
 msgctxt "VictoryRoad_B2F_Text_VitoDefeat"
@@ -19,6 +22,8 @@ msgid ""
 "Better than my family?!\n"
 "Is that possible?!$"
 msgstr ""
+"比我的家人还强？！\n"
+"这怎么可能？！$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:43
 msgctxt "VictoryRoad_B2F_Text_VitoPostBattle"
@@ -28,6 +33,10 @@ msgid ""
 "I've lost my confidence…\n"
 "Maybe I'll go home…$"
 msgstr ""
+"我比家里的任何人都强。\n"
+"我从来没有输过……\p"
+"我失去信心了……\n"
+"也许我该回家了……$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:49
 msgctxt "VictoryRoad_B2F_Text_OwenIntro"
@@ -35,11 +44,13 @@ msgid ""
 "I'd heard that there was a tough\n"
 "little kid around. Do they mean you?$"
 msgstr ""
+"我听说附近有个\n"
+"很厉害的小鬼。说的是你吗？$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:53
 msgctxt "VictoryRoad_B2F_Text_OwenDefeat"
 msgid "The little shrimp is tough!$"
-msgstr ""
+msgstr "这个小不点真厉害！$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:56
 msgctxt "VictoryRoad_B2F_Text_OwenPostBattle"
@@ -47,16 +58,18 @@ msgid ""
 "The rumors I heard, that tough little\n"
 "kid is from PETALBURG CITY.$"
 msgstr ""
+"我听到的传闻说，\n"
+"那个厉害的小鬼是从橙华市来的。$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:60
 msgctxt "VictoryRoad_B2F_Text_CarolineIntro"
 msgid "You must be getting a little tired.$"
-msgstr ""
+msgstr "你一定有点累了吧。$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:63
 msgctxt "VictoryRoad_B2F_Text_CarolineDefeat"
 msgid "No signs of tiring at all!$"
-msgstr ""
+msgstr "一点都看不出累的样子！$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:66
 msgctxt "VictoryRoad_B2F_Text_CarolinePostBattle"
@@ -65,6 +78,9 @@ msgid ""
 "are long and grueling challenges.\l"
 "Beware of fatigue!$"
 msgstr ""
+"冠军之路和宝可梦联盟\n"
+"都是漫长而艰苦的挑战。\l"
+"小心别累坏了！$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:71
 msgctxt "VictoryRoad_B2F_Text_JulieIntro"
@@ -74,11 +90,14 @@ msgid ""
 "There's always going to be someone\n"
 "who's better than you!$"
 msgstr ""
+"可不要因为有很多道馆徽章\n"
+"就得意忘形哦。\p"
+"总会有人比你更强的！$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:77
 msgctxt "VictoryRoad_B2F_Text_JulieDefeat"
 msgid "You're better than me!$"
-msgstr ""
+msgstr "你比我强！$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:80
 msgctxt "VictoryRoad_B2F_Text_JuliePostBattle"
@@ -86,6 +105,8 @@ msgid ""
 "Gaze on your collected BADGES and\n"
 "remember the TRAINERS you've faced.$"
 msgstr ""
+"看看你收集到的徽章，\n"
+"回想一下你交手过的训练家吧。$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:84
 msgctxt "VictoryRoad_B2F_Text_FelixIntro"
@@ -93,6 +114,8 @@ msgid ""
 "I've come this far, but the tension's\n"
 "giving me awful stomach pain…$"
 msgstr ""
+"我好不容易走到这里，\n"
+"可是紧张得胃好痛……$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:88
 msgctxt "VictoryRoad_B2F_Text_FelixDefeat"
@@ -100,6 +123,8 @@ msgid ""
 "Ooh…\n"
 "It hurts…$"
 msgstr ""
+"呜……\n"
+"好痛……$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:92
 msgctxt "VictoryRoad_B2F_Text_FelixPostBattle"
@@ -108,6 +133,9 @@ msgid ""
 "that I'm nearing the POKéMON LEAGUE.\p"
 "It's all I can do to feign calm.$"
 msgstr ""
+"一想到快到宝可梦联盟了，\n"
+"我就忍不住紧张起来。\p"
+"我只能尽力装出平静的样子。$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:97
 msgctxt "VictoryRoad_B2F_Text_DianneIntro"
@@ -116,11 +144,14 @@ msgid ""
 "this cave.\p"
 "How are you finding it?$"
 msgstr ""
+"精英中的精英\n"
+"都聚集在这个洞窟里。\p"
+"你觉得怎么样？$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:102
 msgctxt "VictoryRoad_B2F_Text_DianneDefeat"
 msgid "Not rattled in the least bit!$"
-msgstr ""
+msgstr "一点都没有动摇！$"
 
 #: data/maps/VictoryRoad_B2F/scripts.inc:105
 msgctxt "VictoryRoad_B2F_Text_DiannePostBattle"
@@ -128,3 +159,5 @@ msgid ""
 "You do have guts! I like that!\n"
 "Keep it going!$"
 msgstr ""
+"你真有胆量！我喜欢！\n"
+"继续加油吧！$"

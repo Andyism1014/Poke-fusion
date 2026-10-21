@@ -13,11 +13,15 @@ msgid ""
 "You've brightened up my day, so I'll\n"
 "give you a big WAILMER DOLL.$"
 msgstr ""
+"你好！你是我们家\n"
+"好久以来的第一位客人。\p"
+"你让我今天心情大好，\n"
+"我就送你一个大吼吼鲸玩偶吧。$"
 
 #: data/maps/SootopolisCity_House6/scripts.inc:40
 msgctxt "SootopolisCity_House6_Text_TakeGoodCareOfIt"
 msgid "Take good care of it!$"
-msgstr ""
+msgstr "要好好爱护它哦！$"
 
 #: data/maps/SootopolisCity_House6/scripts.inc:43
 msgctxt "SootopolisCity_House6_Text_IllHoldItForYou"
@@ -25,6 +29,8 @@ msgid ""
 "Oh, you want it, but not right now?\n"
 "Okay, then I'll hold it for you.$"
 msgstr ""
+"哦，你想要，但不是现在？\n"
+"好吧，那我先替你保管。$"
 
 #: data/maps/SootopolisCity_House6/scripts.inc:47
 msgctxt "SootopolisCity_House6_Text_DontWantThisDoll"
@@ -32,8 +38,10 @@ msgid ""
 "Are you sure?\n"
 "You don't want this DOLL?$"
 msgstr ""
+"你确定吗？\n"
+"你不要这个玩偶吗？$"
 
 #: data/maps/SootopolisCity_House6/scripts.inc:51
 msgctxt "SootopolisCity_House6_Text_LovePlushDolls"
 msgid "I love plush DOLLS!$"
-msgstr ""
+msgstr "我最喜欢毛绒玩偶了！$"

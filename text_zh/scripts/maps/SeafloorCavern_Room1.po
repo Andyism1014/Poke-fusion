@@ -11,11 +11,13 @@ msgid ""
 "We don't need a kid around!\n"
 "Go on home already!$"
 msgstr ""
+"这里不需要小孩子！\n"
+"快点回家去吧！$"
 
 #: data/maps/SeafloorCavern_Room1/scripts.inc:18
 msgctxt "SeafloorCavern_Room1_Text_Grunt1Defeat"
 msgid "I want to go home…$"
-msgstr ""
+msgstr "我想回家……$"
 
 #: data/maps/SeafloorCavern_Room1/scripts.inc:21
 msgctxt "SeafloorCavern_Room1_Text_Grunt1PostBattle"
@@ -23,6 +25,8 @@ msgid ""
 "I want to get a promotion so I can\n"
 "boss around the GRUNTS…$"
 msgstr ""
+"我想升职，\n"
+"这样就可以使唤手下了……$"
 
 #: data/maps/SeafloorCavern_Room1/scripts.inc:25
 msgctxt "SeafloorCavern_Room1_Text_Grunt2Intro"
@@ -30,11 +34,13 @@ msgid ""
 "That submarine… It's tiny inside.\n"
 "I'm sore all over!$"
 msgstr ""
+"那艘潜水艇……里面好窄。\n"
+"我浑身酸痛！$"
 
 #: data/maps/SeafloorCavern_Room1/scripts.inc:29
 msgctxt "SeafloorCavern_Room1_Text_Grunt2Defeat"
 msgid "Losing makes me sore!$"
-msgstr ""
+msgstr "输了让我更痛了！$"
 
 #: data/maps/SeafloorCavern_Room1/scripts.inc:32
 msgctxt "SeafloorCavern_Room1_Text_Grunt2PostBattle"
@@ -43,3 +49,6 @@ msgid ""
 "it's brutal as a ride.\l"
 "It's way too tight in there!$"
 msgstr ""
+"我们抢来的那艘潜水艇，\n"
+"坐起来简直要命。\l"
+"里面实在太挤了！$"

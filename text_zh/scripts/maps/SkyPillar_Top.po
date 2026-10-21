@@ -8,4 +8,4 @@ msgstr ""
 #: data/maps/SkyPillar_Top/scripts.inc:180
 msgctxt "SkyPillar_Top_Text_RayquazaFlewOff"
 msgid "The awakened RAYQUAZA flew off…$"
-msgstr ""
+msgstr "被唤醒的烈空坐飞走了……$"

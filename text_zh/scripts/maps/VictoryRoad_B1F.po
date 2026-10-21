@@ -12,11 +12,14 @@ msgid ""
 "the POKéMON LEAGUE…\p"
 "I'm getting stage fright…$"
 msgstr ""
+"一想到我离宝可梦联盟\n"
+"越来越近了……\p"
+"我就紧张得要命……$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:34
 msgctxt "VictoryRoad_B1F_Text_SamuelDefeat"
 msgid "I couldn't do a thing…$"
-msgstr ""
+msgstr "我什么都没能做到……$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:37
 msgctxt "VictoryRoad_B1F_Text_SamuelPostBattle"
@@ -24,6 +27,8 @@ msgid ""
 "The POKéMON LEAGUE became distant\n"
 "again… What a letdown…$"
 msgstr ""
+"宝可梦联盟又变得遥远了……\n"
+"真让人失望……$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:41
 msgctxt "VictoryRoad_B1F_Text_ShannonIntro"
@@ -32,6 +37,8 @@ msgid ""
 "LEAGUE, you need the trust of your\l"
 "POKéMON.$"
 msgstr ""
+"想要在宝可梦联盟一路获胜，\n"
+"就需要宝可梦的信任。$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:46
 msgctxt "VictoryRoad_B1F_Text_ShannonDefeat"
@@ -39,6 +46,8 @@ msgid ""
 "Your relationship is based on\n"
 "solid trust.$"
 msgstr ""
+"你们的关系\n"
+"建立在坚实的信任之上。$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:50
 msgctxt "VictoryRoad_B1F_Text_ShannonPostBattle"
@@ -46,6 +55,8 @@ msgid ""
 "By being together all the time, trust\n"
 "grows between POKéMON and TRAINERS.$"
 msgstr ""
+"只要一直在一起，\n"
+"宝可梦和训练家之间就会产生信任。$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:54
 msgctxt "VictoryRoad_B1F_Text_MichelleIntro"
@@ -53,11 +64,13 @@ msgid ""
 "This isn't the goal. It's only a place\n"
 "on the way to the POKéMON LEAGUE.$"
 msgstr ""
+"这里不是终点。只是通往\n"
+"宝可梦联盟途中的一个地方。$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:58
 msgctxt "VictoryRoad_B1F_Text_MichelleDefeat"
 msgid "That's the way!$"
-msgstr ""
+msgstr "就是这样！$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:61
 msgctxt "VictoryRoad_B1F_Text_MichellePostBattle"
@@ -65,6 +78,8 @@ msgid ""
 "You'll do fine, for sure!\n"
 "Your POKéMON are all eager to go!$"
 msgstr ""
+"你一定没问题的！\n"
+"你的宝可梦都干劲十足！$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:65
 msgctxt "VictoryRoad_B1F_Text_MitchellIntro"
@@ -72,11 +87,13 @@ msgid ""
 "My POKéMON are cosmically\n"
 "awe inspiring!$"
 msgstr ""
+"我的宝可梦\n"
+"强大得惊天动地！$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:69
 msgctxt "VictoryRoad_B1F_Text_MitchellDefeat"
 msgid "I've never met anyone like you before.$"
-msgstr ""
+msgstr "我从没遇到过你这样的人。$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:72
 msgctxt "VictoryRoad_B1F_Text_MitchellPostBattle"
@@ -85,6 +102,9 @@ msgid ""
 "incredible power emanating from you\l"
 "and your POKéMON.$"
 msgstr ""
+"即使不在对战中，我也能感受到\n"
+"你和你的宝可梦\l"
+"散发出的惊人力量。$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:77
 msgctxt "VictoryRoad_B1F_Text_HalleIntro"
@@ -92,6 +112,8 @@ msgid ""
 "Okay, no need to get your back up!\n"
 "Relax, let's take it easy!$"
 msgstr ""
+"好啦，用不着这么紧张！\n"
+"放轻松，我们慢慢来吧！$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:81
 msgctxt "VictoryRoad_B1F_Text_HalleDefeat"
@@ -99,6 +121,8 @@ msgid ""
 "Whoa!\n"
 "Wonderful!$"
 msgstr ""
+"哇！\n"
+"太棒了！$"
 
 #: data/maps/VictoryRoad_B1F/scripts.inc:85
 msgctxt "VictoryRoad_B1F_Text_HallePostBattle"
@@ -109,3 +133,8 @@ msgid ""
 "Try to enjoy things the rest of\n"
 "the way!$"
 msgstr ""
+"没错，这里是冠军之路。\p"
+"不过，这里和你至今走过的路\n"
+"其实没什么不同。\p"
+"剩下的路，\n"
+"也试着好好享受吧！$"

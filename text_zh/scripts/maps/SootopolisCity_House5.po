@@ -13,8 +13,12 @@ msgid ""
 "My friends and I did some research on\n"
 "it at the lab where I used to work.$"
 msgstr ""
+"琉璃市和送神山之间\n"
+"似乎有着某种联系。\p"
+"我和朋友们曾经在\n"
+"我以前工作的研究所里研究过。$"
 
 #: data/maps/SootopolisCity_House5/scripts.inc:18
 msgctxt "SootopolisCity_House5_Text_BrotherUsedToStudySea"
 msgid "My big brother used to study the sea.$"
-msgstr ""
+msgstr "我哥哥以前是研究大海的。$"

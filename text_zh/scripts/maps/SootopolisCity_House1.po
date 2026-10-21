@@ -13,6 +13,10 @@ msgid ""
 "I developed a shattering TM.\n"
 "I bequeath it to you!$"
 msgstr ""
+"三十年来，我一直留在琉璃市\n"
+"磨练自己的技艺。\p"
+"我开发出了一个威力惊人的\n"
+"招式学习器。就传授给你吧！$"
 
 #: data/maps/SootopolisCity_House1/scripts.inc:37
 msgctxt "SootopolisCity_House1_Text_ExplainBrickBreak"
@@ -20,8 +24,10 @@ msgid ""
 "TM31 contains BRICK BREAK! It's a move\n"
 "so horrible that I can't describe it.$"
 msgstr ""
+"招式学习器31里装的是劈瓦！\n"
+"这个招式可怕得让我无法形容。$"
 
 #: data/maps/SootopolisCity_House1/scripts.inc:41
 msgctxt "SootopolisCity_House1_Text_Kecleon"
 msgid "KECLEON: Puu puhyaah.$"
-msgstr ""
+msgstr "变隐龙：噗噗噗呀～$"

@@ -11,11 +11,13 @@ msgid ""
 "Who are you?\n"
 "Where did you come in from?$"
 msgstr ""
+"你是谁？\n"
+"你是从哪里进来的？$"
 
 #: data/maps/SeafloorCavern_Room4/scripts.inc:18
 msgctxt "SeafloorCavern_Room4_Text_Grunt3Defeat"
 msgid "Lost it…$"
-msgstr ""
+msgstr "输了……$"
 
 #: data/maps/SeafloorCavern_Room4/scripts.inc:21
 msgctxt "SeafloorCavern_Room4_Text_Grunt3PostBattle"
@@ -23,6 +25,8 @@ msgid ""
 "I can't find the way out!\p"
 "I'm not afraid. Don't get me wrong!$"
 msgstr ""
+"我找不到出口了！\p"
+"我才不害怕呢。你可别误会！$"
 
 #: data/maps/SeafloorCavern_Room4/scripts.inc:25
 msgctxt "SeafloorCavern_Room4_Text_Grunt4Intro"
@@ -30,11 +34,13 @@ msgid ""
 "Who are you?\n"
 "Where do you think you're going?$"
 msgstr ""
+"你是谁？\n"
+"你以为你要去哪里？$"
 
 #: data/maps/SeafloorCavern_Room4/scripts.inc:29
 msgctxt "SeafloorCavern_Room4_Text_Grunt4Defeat"
 msgid "I failed to win!$"
-msgstr ""
+msgstr "我没能赢！$"
 
 #: data/maps/SeafloorCavern_Room4/scripts.inc:32
 msgctxt "SeafloorCavern_Room4_Text_Grunt4PostBattle"
@@ -43,3 +49,6 @@ msgid ""
 "submarine!\p"
 "How's that for being useless?$"
 msgstr ""
+"我的搭档把地图\n"
+"忘在潜水艇里了！\p"
+"你说他是不是很没用？$"

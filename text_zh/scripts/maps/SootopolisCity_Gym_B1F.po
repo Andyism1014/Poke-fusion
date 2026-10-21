@@ -11,11 +11,13 @@ msgid ""
 "I'll show you the sublime techniques\n"
 "I learned from our LEADER JUAN!$"
 msgstr ""
+"让你见识一下我从亚当馆主\n"
+"那里学到的绝妙技巧！$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:58
 msgctxt "SootopolisCity_Gym_B1F_Text_AndreaDefeat"
 msgid "Please forgive me, JUAN…$"
-msgstr ""
+msgstr "请原谅我，亚当……$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:61
 msgctxt "SootopolisCity_Gym_B1F_Text_AndreaPostBattle"
@@ -23,6 +25,8 @@ msgid ""
 "Watch what happens if you crack all\n"
 "the floor tiles.$"
 msgstr ""
+"把地板全部踩裂的话，\n"
+"看看会发生什么吧。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:65
 msgctxt "SootopolisCity_Gym_B1F_Text_CrissyIntro"
@@ -31,6 +35,9 @@ msgid ""
 "get to see JUAN.\p"
 "Not if you lose to me, you won't!$"
 msgstr ""
+"你大老远来到这里，\n"
+"却见不到亚当了。\p"
+"只要你输给我，就见不到了！$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:70
 msgctxt "SootopolisCity_Gym_B1F_Text_CrissyDefeat"
@@ -38,6 +45,8 @@ msgid ""
 "You're strong!\n"
 "I was fooled by your cute looks!$"
 msgstr ""
+"你好强！\n"
+"我被你可爱的外表骗了！$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:74
 msgctxt "SootopolisCity_Gym_B1F_Text_CrissyPostBattle"
@@ -45,6 +54,8 @@ msgid ""
 "You might be good enough to avoid\n"
 "being wiped out in one hit by JUAN.$"
 msgstr ""
+"以你的实力，也许不会\n"
+"被亚当一招就打倒。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:78
 msgctxt "SootopolisCity_Gym_B1F_Text_DaphneIntro"
@@ -54,6 +65,9 @@ msgid ""
 "The very beauty of it compelled me to\n"
 "become a TRAINER.$"
 msgstr ""
+"亚当指挥对战的样子……\p"
+"正是那份美丽，\n"
+"让我决心成为训练家。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:84
 msgctxt "SootopolisCity_Gym_B1F_Text_DaphneDefeat"
@@ -61,6 +75,8 @@ msgid ""
 "You battled with more beauty than\n"
 "I could muster…$"
 msgstr ""
+"你在对战中展现的美丽\n"
+"是我无法企及的……$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:88
 msgctxt "SootopolisCity_Gym_B1F_Text_DaphnePostBattle"
@@ -70,6 +86,10 @@ msgid ""
 "Oh… I'm so fortunate to have found\n"
 "POKéMON.$"
 msgstr ""
+"你在对战中展现的优雅\n"
+"真是太棒了。\p"
+"哦……能遇到宝可梦，\n"
+"我真是太幸运了。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:94
 msgctxt "SootopolisCity_Gym_B1F_Text_ConnieIntro"
@@ -77,6 +97,8 @@ msgid ""
 "I should teach you how harsh battles\n"
 "can be.$"
 msgstr ""
+"我得让你知道\n"
+"对战可以有多残酷。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:98
 msgctxt "SootopolisCity_Gym_B1F_Text_ConnieDefeat"
@@ -84,6 +106,8 @@ msgid ""
 "Oh.\n"
 "You're strong.$"
 msgstr ""
+"哦。\n"
+"你很强呢。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:102
 msgctxt "SootopolisCity_Gym_B1F_Text_ConniePostBattle"
@@ -92,6 +116,9 @@ msgid ""
 "If you want to reach JUAN, you\n"
 "need to walk on each floor tile once.$"
 msgstr ""
+"我告诉你一个好消息。\p"
+"想要到达亚当那里，\n"
+"每块地板都要正好踩一次。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:107
 msgctxt "SootopolisCity_Gym_B1F_Text_BridgetIntro"
@@ -100,11 +127,14 @@ msgid ""
 "in the HOENN region…\p"
 "That's the SOOTOPOLIS GYM.$"
 msgstr ""
+"丰缘地区\n"
+"水平最高的宝可梦道馆……\p"
+"那就是琉璃道馆。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:112
 msgctxt "SootopolisCity_Gym_B1F_Text_BridgetDefeat"
 msgid "What a high level you are!$"
-msgstr ""
+msgstr "你的水平真高啊！$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:115
 msgctxt "SootopolisCity_Gym_B1F_Text_BridgetPostBattle"
@@ -114,6 +144,10 @@ msgid ""
 "other places will make you stronger.\l"
 "But above all, it looks more fun.$"
 msgstr ""
+"与其满足于待在强大的道馆里，\n"
+"我想到别的地方修行\l"
+"会让你变得更强。\l"
+"而且最重要的是，看起来更有趣。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:121
 msgctxt "SootopolisCity_Gym_B1F_Text_OliviaIntro"
@@ -122,11 +156,14 @@ msgid ""
 "JUAN.\p"
 "Don't think I'm a pushover.$"
 msgstr ""
+"我和亚当一起\n"
+"训练宝可梦。\p"
+"别以为我很好对付。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:126
 msgctxt "SootopolisCity_Gym_B1F_Text_OliviaDefeat"
 msgid "I was beaten…$"
-msgstr ""
+msgstr "我被打败了……$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:129
 msgctxt "SootopolisCity_Gym_B1F_Text_OliviaPostBattle"
@@ -134,6 +171,8 @@ msgid ""
 "I think you have potential.\n"
 "Why don't you stay and train with us?$"
 msgstr ""
+"我觉得你很有潜力。\n"
+"要不要留下来和我们一起修行？$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:133
 msgctxt "SootopolisCity_Gym_B1F_Text_TiffanyIntro"
@@ -143,11 +182,15 @@ msgid ""
 "A TRAINER putting on that performance\n"
 "would be elegantly beautiful!$"
 msgstr ""
+"在冰上优雅地滑行，\n"
+"而且不走重复的路线……\p"
+"能做出那种表演的训练家，\n"
+"一定优雅又美丽！$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:139
 msgctxt "SootopolisCity_Gym_B1F_Text_TiffanyDefeat"
 msgid "Well, excuse me?!$"
-msgstr ""
+msgstr "哎呀，你说什么？！$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:142
 msgctxt "SootopolisCity_Gym_B1F_Text_TiffanyPostBattle"
@@ -156,6 +199,9 @@ msgid ""
 "you are as a TRAINER has nothing to do\l"
 "with how young or old you are.$"
 msgstr ""
+"这是显而易见的，\n"
+"作为训练家有多强，\l"
+"和年纪大小毫无关系。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:147
 msgctxt "SootopolisCity_Gym_B1F_Text_BethanyIntro"
@@ -163,11 +209,14 @@ msgid ""
 "When I'm with my POKéMON, the time\n"
 "flies by before you can say, “Oops!”$"
 msgstr ""
+"和宝可梦在一起的时候，\n"
+"还来不及说一声“哎呀！”\l"
+"时间就飞快地过去了。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:151
 msgctxt "SootopolisCity_Gym_B1F_Text_BethanyDefeat"
 msgid "Oops!$"
-msgstr ""
+msgstr "哎呀！$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:154
 msgctxt "SootopolisCity_Gym_B1F_Text_BethanyPostBattle"
@@ -175,6 +224,8 @@ msgid ""
 "I wish I could forget about lost causes\n"
 "before I can manage an “Oops!”$"
 msgstr ""
+"真希望我能在说出“哎呀！”之前，\n"
+"就把没希望的事情忘掉。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:158
 msgctxt "SootopolisCity_Gym_B1F_Text_AnnikaIntro"
@@ -182,6 +233,8 @@ msgid ""
 "I can battle with really rare POKéMON\n"
 "if you'd like.$"
 msgstr ""
+"如果你愿意，\n"
+"我可以用非常稀有的宝可梦和你对战。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:162
 msgctxt "SootopolisCity_Gym_B1F_Text_AnnikaDefeat"
@@ -189,6 +242,8 @@ msgid ""
 "Oh, there now! Did you have a good look\n"
 "at my POKéMON?$"
 msgstr ""
+"哎呀，好啦！\n"
+"你有没有好好看看我的宝可梦？$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:166
 msgctxt "SootopolisCity_Gym_B1F_Text_AnnikaPostBattle"
@@ -198,6 +253,10 @@ msgid ""
 "Oh, if only I'd met JUAN years ago\n"
 "when I was younger…$"
 msgstr ""
+"亚当称赞了我心爱的宝可梦，\n"
+"所以我就来到了这座道馆。\p"
+"哦，要是我能在年轻的时候\n"
+"早点遇见亚当就好了……$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:172
 msgctxt "SootopolisCity_Gym_B1F_Text_BriannaIntro"
@@ -205,6 +264,8 @@ msgid ""
 "Giggle…\n"
 "Your grim look is so charming.$"
 msgstr ""
+"嘻嘻……\n"
+"你那严肃的表情真迷人。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:176
 msgctxt "SootopolisCity_Gym_B1F_Text_BriannaDefeat"
@@ -212,6 +273,8 @@ msgid ""
 "Oh, dear.\n"
 "I went much too easy on you.$"
 msgstr ""
+"哎呀，糟糕。\n"
+"我对你太手下留情了。$"
 
 #: data/maps/SootopolisCity_Gym_B1F/scripts.inc:180
 msgctxt "SootopolisCity_Gym_B1F_Text_BriannaPostBattle"
@@ -219,3 +282,5 @@ msgid ""
 "You couldn't lay a finger on JUAN,\n"
 "I'm sure. Giggle…$"
 msgstr ""
+"我敢肯定，你连亚当的\n"
+"一根手指都碰不到。嘻嘻……$"

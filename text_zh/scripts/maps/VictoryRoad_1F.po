@@ -19,6 +19,16 @@ msgid ""
 "gave me courage and strength!\p"
 "Okay… Here I come!$"
 msgstr ""
+"满充：你好！{PLAYER}！\p"
+"在这里见到我，你一定很惊讶吧！\p"
+"我能一路走到这里，\n"
+"全都是多亏了你！\p"
+"{PLAYER}，那次输给你，\n"
+"让我变得更强了！\p"
+"但是，我不会再输了！\p"
+"我要赢！为了给了我\n"
+"勇气和力量的宝可梦！\p"
+"好了……我要上了！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:133
 msgctxt "VictoryRoad_1F_Text_WallyEntranceDefeat"
@@ -26,6 +36,8 @@ msgid ""
 "Wow!\n"
 "{PLAYER}, you are strong, after all!$"
 msgstr ""
+"哇！\n"
+"{PLAYER}，你果然很强！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:137
 msgctxt "VictoryRoad_1F_Text_WallyPostEntranceBattle"
@@ -34,6 +46,9 @@ msgid ""
 "{PLAYER}, but one of these days, I'll\l"
 "catch up to you!$"
 msgstr ""
+"满充：今天我没能打败你，\n"
+"{PLAYER}，但总有一天，\l"
+"我会追上你的！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:142
 msgctxt "VictoryRoad_1F_Text_WallyIntro"
@@ -43,6 +58,10 @@ msgid ""
 "time! I wanted to show you, {PLAYER}!\p"
 "Okay… Here I come!$"
 msgstr ""
+"满充：你好！{PLAYER}！\p"
+"自从上次以后，我变得更强了！\n"
+"我想让{PLAYER}看看！\p"
+"好了……我要上了！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:148
 msgctxt "VictoryRoad_1F_Text_WallyDefeat"
@@ -50,6 +69,8 @@ msgid ""
 "Wow!\n"
 "{PLAYER}, you are strong, after all!$"
 msgstr ""
+"哇！\n"
+"{PLAYER}，你果然很强！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:152
 msgctxt "VictoryRoad_1F_Text_WallyPostBattle"
@@ -59,6 +80,10 @@ msgid ""
 "I'm going to catch up to you…\p"
 "And challenge the POKéMON LEAGUE!$"
 msgstr ""
+"满充：这次我还是没能赢你……\n"
+"但总有一天，{PLAYER}，\l"
+"我一定会追上你的……\p"
+"然后去挑战宝可梦联盟！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:158
 msgctxt "VictoryRoad_1F_Text_EdgarIntro"
@@ -66,11 +91,13 @@ msgid ""
 "I've made it this far a couple times,\n"
 "but the last stretch is so long…$"
 msgstr ""
+"我已经好几次走到这里了，\n"
+"可是最后这段路实在太长了……$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:162
 msgctxt "VictoryRoad_1F_Text_EdgarDefeat"
 msgid "My dream ends here again…$"
-msgstr ""
+msgstr "我的梦想又在这里结束了……$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:165
 msgctxt "VictoryRoad_1F_Text_EdgarPostBattle"
@@ -79,6 +106,9 @@ msgid ""
 "momentum going and become the\l"
 "CHAMPION! If anyone can, it's you!$"
 msgstr ""
+"你已经走到这里了。\n"
+"保持这股气势，成为冠军吧！\l"
+"如果有谁能做到，那就是你！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:170
 msgctxt "VictoryRoad_1F_Text_AlbertIntro"
@@ -86,6 +116,8 @@ msgid ""
 "I didn't come all this way to lose now.\n"
 "That possibility doesn't exist!$"
 msgstr ""
+"我走了这么远，可不是来输的。\n"
+"根本不存在那种可能！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:174
 msgctxt "VictoryRoad_1F_Text_AlbertDefeat"
@@ -93,6 +125,8 @@ msgid ""
 "Impossible…\n"
 "I lost?$"
 msgstr ""
+"不可能……\n"
+"我输了？$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:178
 msgctxt "VictoryRoad_1F_Text_AlbertPostBattle"
@@ -101,6 +135,9 @@ msgid ""
 "That means I lack the qualifications\n"
 "to become the CHAMPION…$"
 msgstr ""
+"我在这里输了……\p"
+"这说明我没有资格\n"
+"成为冠军……$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:183
 msgctxt "VictoryRoad_1F_Text_HopeIntro"
@@ -108,18 +145,20 @@ msgid ""
 "This seemingly infinite and harsh road\n"
 "lives up to its name of VICTORY.$"
 msgstr ""
+"这条看似无穷无尽的艰险道路，\n"
+"真不愧是冠军之路。$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:187
 msgctxt "VictoryRoad_1F_Text_HopeDefeat"
 msgid "Your battle style is fantastic…$"
-msgstr ""
+msgstr "你的对战风格太精彩了……$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:190
 msgctxt "VictoryRoad_1F_Text_HopePostBattle"
 msgid ""
 "You seem to have the potential for\n"
 "becoming the CHAMPION.$"
-msgstr ""
+msgstr "你似乎有成为冠军的潜力。$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:194
 msgctxt "VictoryRoad_1F_Text_QuincyIntro"
@@ -127,6 +166,8 @@ msgid ""
 "What is the VICTORY ROAD?\n"
 "I'll tell you if you win!$"
 msgstr ""
+"冠军之路是什么？\n"
+"你赢了我就告诉你！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:198
 msgctxt "VictoryRoad_1F_Text_QuincyDefeat"
@@ -134,6 +175,8 @@ msgid ""
 "Okay!\n"
 "Well done!$"
 msgstr ""
+"好！\n"
+"干得好！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:202
 msgctxt "VictoryRoad_1F_Text_QuincyPostBattle"
@@ -144,6 +187,10 @@ msgid ""
 "That's why it's called the VICTORY\n"
 "ROAD.$"
 msgstr ""
+"平安通过这里——\n"
+"就是每个立志成为宝可梦冠军的\l"
+"训练家的最后考验。\p"
+"所以这里才叫做冠军之路。$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:209
 msgctxt "VictoryRoad_1F_Text_KatelynnIntro"
@@ -151,11 +198,13 @@ msgid ""
 "I have nothing to say to anyone\n"
 "that's come this far. Come on!$"
 msgstr ""
+"对走到这里的人，\n"
+"我没什么好说的。来吧！$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:213
 msgctxt "VictoryRoad_1F_Text_KatelynnDefeat"
 msgid "This is a disgrace…$"
-msgstr ""
+msgstr "真是耻辱……$"
 
 #: data/maps/VictoryRoad_1F/scripts.inc:216
 msgctxt "VictoryRoad_1F_Text_KatelynnPostBattle"
@@ -163,3 +212,5 @@ msgid ""
 "Humph, go right on ahead.\n"
 "See if I care.$"
 msgstr ""
+"哼，你走吧。\n"
+"我才不在乎呢。$"
