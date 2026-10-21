@@ -11,11 +11,13 @@ msgid ""
 "If you want to know the secret about\n"
 "our HIDEOUT, you have me to beat!$"
 msgstr ""
+"想知道我们基地的秘密，\n"
+"就先打败我吧！$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:113
 msgctxt "AquaHideout_B1F_Text_Grunt2Defeat"
 msgid "I can't win at all…$"
-msgstr ""
+msgstr "完全赢不了……$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:116
 msgctxt "AquaHideout_B1F_Text_Grunt2PostBattle"
@@ -26,6 +28,11 @@ msgid ""
 "But, by now…\n"
 "Kekekeke…$"
 msgstr ""
+"基地的秘密？\p"
+"这么说吧……\n"
+"最里面有一艘潜水艇！\p"
+"不过，现在嘛……\n"
+"嘿嘿嘿嘿……$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:123
 msgctxt "AquaHideout_B1F_Text_Grunt3Intro"
@@ -35,11 +42,15 @@ msgid ""
 "Nothing left to do but KO a pesky\n"
 "meddler!$"
 msgstr ""
+"燃料补给完毕！\n"
+"航行零食装载完毕！\p"
+"接下来只要把碍事的家伙\n"
+"打倒就行了！$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:129
 msgctxt "AquaHideout_B1F_Text_Grunt3Defeat"
 msgid "I took a serious licking!$"
-msgstr ""
+msgstr "我被狠狠地教训了一顿！$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:132
 msgctxt "AquaHideout_B1F_Text_Grunt3PostBattle"
@@ -48,6 +59,9 @@ msgid ""
 "This was supposed to happen!\p"
 "My mission was to just hold you up!$"
 msgstr ""
+"哼！\n"
+"这都在计划之中！\p"
+"我的任务就是拖住你！$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:137
 msgctxt "AquaHideout_B1F_Text_Grunt5Intro"
@@ -55,6 +69,8 @@ msgid ""
 "Yawn… Keeping watch over the\n"
 "HIDEOUT bores me. I'll take you on.$"
 msgstr ""
+"呵啊……看守基地真无聊。\n"
+"我来陪你玩玩吧。$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:141
 msgctxt "AquaHideout_B1F_Text_Grunt5Defeat"
@@ -62,6 +78,8 @@ msgid ""
 "Yawn…\n"
 "Oh, I lost…$"
 msgstr ""
+"呵啊……\n"
+"哦，我输了……$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:145
 msgctxt "AquaHideout_B1F_Text_Grunt5PostBattle"
@@ -69,6 +87,8 @@ msgid ""
 "If you scurry too much, other TEAM\n"
 "AQUA members might get you.$"
 msgstr ""
+"你要是到处乱窜，\n"
+"会被其他海洋队队员抓住的。$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:149
 msgctxt "AquaHideout_B1F_Text_Grunt7Intro"
@@ -78,11 +98,15 @@ msgid ""
 "Which do you think is cooler?\n"
 "TEAM AQUA's uniform or TEAM MAGMA's?$"
 msgstr ""
+"喂！\n"
+"就是你！\p"
+"你觉得哪个更帅？\n"
+"海洋队的制服还是熔岩队的？$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:155
 msgctxt "AquaHideout_B1F_Text_Grunt7Defeat"
 msgid "I lost in a cool way…$"
-msgstr ""
+msgstr "我输得好帅……$"
 
 #: data/maps/AquaHideout_B1F/scripts.inc:158
 msgctxt "AquaHideout_B1F_Text_Grunt7PostBattle"
@@ -90,3 +114,5 @@ msgid ""
 "If you have a cool uniform, you look\n"
 "good even in a loss, don't you think?$"
 msgstr ""
+"只要制服够帅，\n"
+"就算输了也很好看，对吧？$"

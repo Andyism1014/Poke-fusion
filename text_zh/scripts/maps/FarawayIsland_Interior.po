@@ -8,4 +8,4 @@ msgstr ""
 #: data/maps/FarawayIsland_Interior/scripts.inc:185
 msgctxt "FarawayIsland_Interior_Text_TheFeelingOfBeingWatchedFaded"
 msgid "The feeling of being watched faded…$"
-msgstr ""
+msgstr "被注视的感觉消失了……$"

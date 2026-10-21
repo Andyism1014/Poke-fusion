@@ -8,7 +8,7 @@ msgstr ""
 #: data/maps/EverGrandeCity/scripts.inc:26
 msgctxt "EverGrandeCity_Text_EnteringVictoryRoad"
 msgid "ENTERING VICTORY ROAD$"
-msgstr ""
+msgstr "前方是冠军之路$"
 
 #: data/maps/EverGrandeCity/scripts.inc:29
 msgctxt "EverGrandeCity_Text_EnteringPokemonLeague"
@@ -16,6 +16,8 @@ msgid ""
 "ENTERING POKéMON LEAGUE\n"
 "CENTER GATE$"
 msgstr ""
+"前方是宝可梦联盟\n"
+"中央大门$"
 
 #: data/maps/EverGrandeCity/scripts.inc:33
 msgctxt "EverGrandeCity_Text_CitySign"
@@ -24,3 +26,5 @@ msgid ""
 "“The paradise of flowers, the sea,\n"
 "and POKéMON.”$"
 msgstr ""
+"彩幽市\p"
+"“花朵、大海与宝可梦的乐园”$"
