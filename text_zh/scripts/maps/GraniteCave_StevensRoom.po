@@ -58,7 +58,7 @@ msgstr ""
 "说不定有一天你还能成为\l"
 "宝可梦联盟的冠军。我是这么想的。\p"
 "对了，既然我们认识了，\n"
-"就在宝可梦导航里\l"
+"就在宝可导航里\l"
 "互相登记一下吧。\p"
 "…… …… ……$"
 
@@ -68,7 +68,7 @@ msgid ""
 "Registered STEVEN\n"
 "in the POKéNAV.$"
 msgstr ""
-"在宝可梦导航中\n"
+"在宝可导航中\n"
 "登记了大吾。$"
 
 #: data/maps/GraniteCave_StevensRoom/scripts.inc:113

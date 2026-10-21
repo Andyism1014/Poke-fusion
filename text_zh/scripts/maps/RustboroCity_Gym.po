@@ -313,7 +313,7 @@ msgid ""
 "Registered GYM LEADER ROXANNE\n"
 "in the POKéNAV.$"
 msgstr ""
-"在宝可梦导航中\n"
+"在宝可导航中\n"
 "登记了道馆馆主杜娟。$"
 
 #: data/maps/RustboroCity_Gym/scripts.inc:255

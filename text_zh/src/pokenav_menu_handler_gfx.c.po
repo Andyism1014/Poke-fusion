@@ -27,7 +27,7 @@ msgstr "查看已获得的奖章。"
 
 #: src/pokenav_menu_handler_gfx.c:276
 msgid "Put away the POKéNAV."
-msgstr "收起宝可梦导航。"
+msgstr "收起宝可导航。"
 
 #: src/pokenav_menu_handler_gfx.c:277
 msgid "Check party POKéMON in detail."
@@ -39,7 +39,7 @@ msgstr "查看所有宝可梦的详细信息。"
 
 #: src/pokenav_menu_handler_gfx.c:279
 msgid "Return to the POKéNAV menu."
-msgstr "返回宝可梦导航菜单。"
+msgstr "返回宝可导航菜单。"
 
 #: src/pokenav_menu_handler_gfx.c:280
 msgid "Find cool POKéMON."

@@ -100,7 +100,7 @@ msgid ""
 msgstr ""
 "我想看看你的宝可梦\n"
 "再成长一些之后的样子……\p"
-"请让我看看你的宝可梦导航。$"
+"请让我看看你的宝可导航。$"
 
 #: data/maps/MtPyre_3F/scripts.inc:83
 msgctxt "MtPyre_3F_Text_GabrielleRematchIntro"

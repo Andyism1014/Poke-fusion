@@ -43,7 +43,7 @@ msgid ""
 "Let me register you in my POKéNAV.$"
 msgstr ""
 "我想更了解你的实力。\n"
-"让我把你登记到我的宝可梦导航里吧。$"
+"让我把你登记到我的宝可导航里吧。$"
 
 #: data/maps/MeteorFalls_1F_2R/scripts.inc:82
 msgctxt "MeteorFalls_1F_2R_Text_NicolasRematchIntro"

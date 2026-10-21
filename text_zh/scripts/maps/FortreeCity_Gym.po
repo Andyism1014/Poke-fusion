@@ -268,7 +268,7 @@ msgctxt "FortreeCity_Gym_Text_RegisteredWinona"
 msgid ""
 "Registered GYM LEADER WINONA\n"
 "in the POKéNAV.$"
-msgstr "在宝可梦导航里登记了道馆馆主娜琪。$"
+msgstr "在宝可导航里登记了道馆馆主娜琪。$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:275
 msgctxt "FortreeCity_Gym_Text_WinonaPostBattle"

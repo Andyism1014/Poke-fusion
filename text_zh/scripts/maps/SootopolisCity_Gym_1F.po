@@ -167,7 +167,7 @@ msgid ""
 "in the POKéNAV.$"
 msgstr ""
 "道馆馆主亚当\n"
-"已登录到宝可梦导航中。$"
+"已登录到宝可导航中。$"
 
 #: data/maps/SootopolisCity_Gym_1F/scripts.inc:260
 msgctxt "SootopolisCity_Gym_1F_Text_JuanPostBattle"

@@ -208,7 +208,7 @@ msgstr ""
 "等我的虫宝可梦长大了，\n"
 "我还要跟你再比一次！\p"
 "我要把你登记到\n"
-"我的宝可梦导航里！$"
+"我的宝可导航里！$"
 
 #: data/maps/PetalburgWoods/scripts.inc:412
 msgctxt "PetalburgWoods_Text_IWantRematch2"
@@ -220,7 +220,7 @@ msgstr ""
 "等我的虫宝可梦长大了，\n"
 "我还要跟你再比一次！\p"
 "我要把你登记到\n"
-"我的宝可梦导航里！$"
+"我的宝可导航里！$"
 
 #: data/maps/PetalburgWoods/scripts.inc:417
 msgctxt "PetalburgWoods_Text_MyPokemonHaveGrown"

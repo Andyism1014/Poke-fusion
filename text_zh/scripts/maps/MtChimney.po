@@ -586,7 +586,7 @@ msgid ""
 "Let me register you in my POKéNAV.$"
 msgstr ""
 "我喜欢你这样的小火球。\n"
-"让我把你登记到我的宝可梦导航里吧。$"
+"让我把你登记到我的宝可导航里吧。$"
 
 #: data/maps/MtChimney/scripts.inc:843
 msgctxt "MtChimney_Text_SawyerRematchIntro"

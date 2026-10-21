@@ -828,7 +828,7 @@ msgstr ""
 "亚希达：好！\n"
 "我觉得你会成为我的好朋友。\p"
 "那么，我们在\n"
-"宝可梦导航里互相登记一下吧。\p"
+"宝可导航里互相登记一下吧。\p"
 "…… …… …… …… …… ……$"
 
 #: data/maps/SlateportCity/scripts.inc:1331
@@ -836,7 +836,7 @@ msgctxt "SlateportCity_Text_RegisteredScott"
 msgid ""
 "Registered this SCOTT person\n"
 "in the POKéNAV.$"
-msgstr "在宝可梦导航里登记了亚希达。$"
+msgstr "在宝可导航里登记了亚希达。$"
 
 #: data/maps/SlateportCity/scripts.inc:1335
 msgctxt "SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou"

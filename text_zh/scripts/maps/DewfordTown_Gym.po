@@ -297,7 +297,7 @@ msgid ""
 "Registered GYM LEADER BRAWLY\n"
 "in the POKéNAV.$"
 msgstr ""
-"在宝可梦导航中\n"
+"在宝可导航中\n"
 "登记了道馆馆主藤树。$"
 
 #: data/maps/DewfordTown_Gym/scripts.inc:421

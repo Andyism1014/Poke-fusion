@@ -90,7 +90,7 @@
 | Champion | 冠军 |
 | Hall of Fame | 殿堂 |
 | Pokédex | 宝可梦图鉴（界面里可简称"图鉴"） |
-| PokéNav | 宝可梦导航 |
+| PokéNav | 宝可导航 |
 | Poké Ball | 精灵球 |
 | TM / HM | 招式学习器 / 秘传学习器 |
 | Pokémon Center | 宝可梦中心 |

@@ -127,7 +127,7 @@ msgid ""
 msgstr ""
 "等我习惯了这种崎岖的路，\n"
 "我一定会赢的！\p"
-"能把我登记到你的宝可梦导航里吗？$"
+"能把我登记到你的宝可导航里吗？$"
 
 #: data/maps/JaggedPass/scripts.inc:211
 msgctxt "JaggedPass_Text_EthanRematchIntro"

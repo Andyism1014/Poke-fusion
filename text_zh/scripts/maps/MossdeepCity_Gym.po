@@ -485,7 +485,7 @@ msgid ""
 "in the POKéNAV.$"
 msgstr ""
 "道馆馆主小枫和小南\n"
-"已登录到宝可梦导航中。$"
+"已登录到宝可导航中。$"
 
 #: data/maps/MossdeepCity_Gym/scripts.inc:597
 msgctxt "MossdeepCity_Gym_Text_TateAndLizaPostBattle"

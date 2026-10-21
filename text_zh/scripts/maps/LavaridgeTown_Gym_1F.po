@@ -331,7 +331,7 @@ msgctxt "LavaridgeTown_Gym_1F_Text_RegisteredFlannery"
 msgid ""
 "Registered GYM LEADER FLANNERY\n"
 "in the POKéNAV.$"
-msgstr "在宝可梦导航里登记了道馆馆主亚莎。$"
+msgstr "在宝可导航里登记了道馆馆主亚莎。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:353
 msgctxt "LavaridgeTown_Gym_1F_Text_FlanneryPostBattle"

@@ -203,7 +203,7 @@ msgid ""
 "Registered {STR_VAR_1} {STR_VAR_2}\n"
 "in the POKéNAV.$"
 msgstr ""
-"在宝可梦导航中登录了\n"
+"在宝可导航中登录了\n"
 "{STR_VAR_1} {STR_VAR_2}。$"
 
 #: data/event_scripts.s:1456

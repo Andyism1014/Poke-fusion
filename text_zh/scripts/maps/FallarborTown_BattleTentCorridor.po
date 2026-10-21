@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "你看！这些奖章都是我的宝可梦赢来的！\p"
 "你的宝可梦赢过奖章吗？\n"
-"可以用宝可梦导航查看哦。$"
+"可以用宝可导航查看哦。$"
 
 #: data/maps/FallarborTown_BattleTentCorridor/scripts.inc:58
 msgctxt "FallarborTown_ContestHall_Text_CantWinEverywhere"

@@ -250,7 +250,7 @@ msgid ""
 "Registered GYM LEADER WATTSON\n"
 "in the POKéNAV.$"
 msgstr ""
-"在宝可梦导航中\n"
+"在宝可导航中\n"
 "登记了道馆馆主铁旋。$"
 
 #: data/maps/MauvilleCity_Gym/scripts.inc:376
