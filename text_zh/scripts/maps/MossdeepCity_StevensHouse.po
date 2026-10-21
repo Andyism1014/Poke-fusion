@@ -58,7 +58,7 @@ msgid ""
 msgstr ""
 "大吾：听说在绿岭市和琉璃市\n"
 "之间有一个海底洞窟。\p"
-"你知道的，就是茂木船长\n"
+"你知道的，就是楠木船长\n"
 "乘潜水艇发现的那个。$"
 
 #: data/maps/MossdeepCity_StevensHouse/scripts.inc:177

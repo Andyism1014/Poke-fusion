@@ -11,7 +11,7 @@ msgid ""
 "What color is your TRAINER CARD?\n"
 "Mine's copper!$"
 msgstr ""
-"你的训练家卡是什么颜色的？\n"
+"你的训练家卡片是什么颜色的？\n"
 "我的是铜色的！$"
 
 #: data/maps/PacifidlogTown_PokemonCenter_1F/scripts.inc:34

@@ -8,7 +8,7 @@ msgstr ""
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:141
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore"
 msgid "Welcome to LILYCOVE DEPARTMENT STORE.$"
-msgstr "欢迎光临水静百货公司。$"
+msgstr "欢迎光临水静百货商店。$"
 
 #: data/maps/LilycoveCity_DepartmentStore_1F/scripts.inc:144
 msgctxt "LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings"
@@ -17,7 +17,7 @@ msgid ""
 "STORE, I always end up buying all sorts\l"
 "of things because it's so fun.$"
 msgstr ""
-"每次来百货公司，\n"
+"每次来百货商店，\n"
 "因为太好玩了，\l"
 "结果总会买一大堆东西。$"
 
