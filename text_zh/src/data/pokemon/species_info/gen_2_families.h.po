@@ -429,14 +429,6 @@ msgid ""
 "It appears where you least expect it."
 msgstr ""
 
-#: src/data/pokemon/species_info/gen_2_families.h:4070
-msgid "Unown"
-msgstr ""
-
-#: src/data/pokemon/species_info/gen_2_families.h:4073
-msgid "Symbol"
-msgstr ""
-
 #: src/data/pokemon/species_info/gen_2_families.h:4170
 msgid ""
 "A Wynaut loves to eat sweet fruits.\n"
@@ -1990,3 +1982,15 @@ msgstr "时拉比"
 msgctxt "src/data/pokemon/species_info/gen_2_families.h"
 msgid "Time Travel"
 msgstr "时空穿越"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_2_families.h:4070
+msgctxt "src/data/pokemon/species_info/gen_2_families.h"
+msgid "Unown"
+msgstr "未知图腾"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_2_families.h:4073
+msgctxt "src/data/pokemon/species_info/gen_2_families.h"
+msgid "Symbol"
+msgstr "象征"

@@ -428,10 +428,6 @@ msgid ""
 "It has some hidden special power."
 msgstr ""
 
-#: src/data/pokemon/species_info/gen_7_families.h:4637
-msgid "Silvally"
-msgstr ""
-
 #: src/data/pokemon/species_info/gen_7_families.h:4865
 msgid ""
 "It is born asleep, and it dies asleep.\n"
@@ -1712,3 +1708,9 @@ msgstr "螺帽"
 msgctxt "src/data/pokemon/species_info/gen_7_families.h"
 msgid "Melmetal"
 msgstr "美录梅塔"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_7_families.h:4637
+msgctxt "src/data/pokemon/species_info/gen_7_families.h"
+msgid "Silvally"
+msgstr "银伴战兽"

@@ -132,10 +132,6 @@ msgid ""
 "its prey off with a colossal kick."
 msgstr ""
 
-#: src/data/pokemon/species_info/gen_6_families.h:1321
-msgid "Scatterbug"
-msgstr ""
-
 #: src/data/pokemon/species_info/gen_6_families.h:1532
 msgid ""
 "Its pattern depends on the climate and\n"
@@ -320,10 +316,6 @@ msgid ""
 "mane as it protects its allies."
 msgstr ""
 
-#: src/data/pokemon/species_info/gen_6_families.h:1962
-msgid "Flabébé"
-msgstr ""
-
 #: src/data/pokemon/species_info/gen_6_families.h:2007
 msgid ""
 "This Flabébé rides a red flower.\n"
@@ -489,14 +481,6 @@ msgid ""
 "Those who wish to become Pangoro's\n"
 "Trainer have no choice but to converse\n"
 "with their fists."
-msgstr ""
-
-#: src/data/pokemon/species_info/gen_6_families.h:2665
-msgid "Furfrou"
-msgstr ""
-
-#: src/data/pokemon/species_info/gen_6_families.h:2668
-msgid "Poodle"
 msgstr ""
 
 #: src/data/pokemon/species_info/gen_6_families.h:2746
@@ -1738,3 +1722,27 @@ msgstr "波尔凯尼恩"
 msgctxt "src/data/pokemon/species_info/gen_6_families.h"
 msgid "Steam"
 msgstr "蒸汽"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_6_families.h:1321
+msgctxt "src/data/pokemon/species_info/gen_6_families.h"
+msgid "Scatterbug"
+msgstr "粉蝶虫"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_6_families.h:1962
+msgctxt "src/data/pokemon/species_info/gen_6_families.h"
+msgid "Flabébé"
+msgstr "花蓓蓓"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_6_families.h:2665
+msgctxt "src/data/pokemon/species_info/gen_6_families.h"
+msgid "Furfrou"
+msgstr "多丽米亚"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_6_families.h:2668
+msgctxt "src/data/pokemon/species_info/gen_6_families.h"
+msgid "Poodle"
+msgstr "贵宾犬"

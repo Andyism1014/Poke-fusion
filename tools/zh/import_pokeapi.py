@@ -103,7 +103,8 @@ def norm(s):
     return re.sub(r"[^a-z0-9]", "", s)
 
 
-_BLOCK = re.compile(r"^\s*\[((?:SPECIES|MOVE|ABILITY|ITEM|TYPE|NATURE)_\w+)\]\s*=", re.M)
+# A data block is "[CONSTANT] =" or a "#define MACRO(...)" that builds one (e.g. the Silvally forms).
+_BLOCK = re.compile(r"^\s*(?:\[((?:SPECIES|MOVE|ABILITY|ITEM|TYPE|NATURE)_\w+)\]\s*=|#define\s+(\w+))", re.M)
 _FIELD = re.compile(r"\.(\w+)\s*=\s*(?:_|COMPOUND_STRING|ITEM_NAME|ITEM_PLURAL_NAME)\(\s*\"((?:[^\"\\]|\\.)*)\"\s*\)")
 _NATDEX = re.compile(r"\.natDexNum\s*=\s*(NATIONAL_DEX_\w+)")
 
@@ -120,7 +121,7 @@ def parse_blocks(path):
         for fm in _FIELD.finditer(chunk):
             fields.setdefault(fm.group(1), fm.group(2))
         nd = _NATDEX.search(chunk)
-        yield m.group(1), fields, nd.group(1) if nd else None
+        yield m.group(1) or m.group(2), fields, nd.group(1) if nd else None
 
 
 def national_dex_numbers():

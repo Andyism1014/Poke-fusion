@@ -978,10 +978,6 @@ msgid ""
 "its body."
 msgstr ""
 
-#: src/data/pokemon/species_info/gen_9_families.h:8008
-msgid "Ogerpon"
-msgstr ""
-
 #: src/data/pokemon/species_info/gen_9_families.h:8011
 msgid "Mask"
 msgstr ""
@@ -2094,3 +2090,9 @@ msgstr "太乐巴戈斯"
 msgctxt "src/data/pokemon/species_info/gen_9_families.h"
 msgid "Pecharunt"
 msgstr "桃歹郎"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_9_families.h:8008
+msgctxt "src/data/pokemon/species_info/gen_9_families.h"
+msgid "Ogerpon"
+msgstr "厄诡椪"

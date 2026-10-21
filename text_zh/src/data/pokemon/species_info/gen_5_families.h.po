@@ -1550,14 +1550,6 @@ msgid ""
 "control the feelings of those who hear it."
 msgstr ""
 
-#: src/data/pokemon/species_info/gen_5_families.h:14012
-msgid "Genesect"
-msgstr ""
-
-#: src/data/pokemon/species_info/gen_5_families.h:14015
-msgid "Paleozoic"
-msgstr ""
-
 #. PokeAPI
 #: src/data/pokemon/species_info/gen_5_families.h:26
 msgctxt "src/data/pokemon/species_info/gen_5_families.h"
@@ -3357,3 +3349,15 @@ msgstr "美洛耶塔"
 msgctxt "src/data/pokemon/species_info/gen_5_families.h"
 msgid "Melody"
 msgstr "旋律"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_5_families.h:14012
+msgctxt "src/data/pokemon/species_info/gen_5_families.h"
+msgid "Genesect"
+msgstr "盖诺赛克特"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_5_families.h:14015
+msgctxt "src/data/pokemon/species_info/gen_5_families.h"
+msgid "Paleozoic"
+msgstr "古生代"

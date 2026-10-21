@@ -245,14 +245,6 @@ msgid ""
 "evade the detection of predators."
 msgstr ""
 
-#: src/data/pokemon/species_info/gen_4_families.h:2305
-msgid "Mothim"
-msgstr ""
-
-#: src/data/pokemon/species_info/gen_4_families.h:2308
-msgid "Moth"
-msgstr ""
-
 #: src/data/pokemon/species_info/gen_4_families.h:2379
 msgid ""
 "A Pokémon formed by three others.\n"
@@ -819,14 +811,6 @@ msgid ""
 "rare flower, Shaymin is enveloped in light\n"
 "and its tiny body transforms, confering\n"
 "the power of flight upon it."
-msgstr ""
-
-#: src/data/pokemon/species_info/gen_4_families.h:7854
-msgid "Arceus"
-msgstr ""
-
-#: src/data/pokemon/species_info/gen_4_families.h:7857
-msgid "Alpha"
 msgstr ""
 
 #. PokeAPI
@@ -1668,3 +1652,27 @@ msgstr "谢米"
 msgctxt "src/data/pokemon/species_info/gen_4_families.h"
 msgid "Gratitude"
 msgstr "感谢"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_4_families.h:2305
+msgctxt "src/data/pokemon/species_info/gen_4_families.h"
+msgid "Mothim"
+msgstr "绅士蛾"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_4_families.h:2308
+msgctxt "src/data/pokemon/species_info/gen_4_families.h"
+msgid "Moth"
+msgstr "蓑衣蛾"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_4_families.h:7854
+msgctxt "src/data/pokemon/species_info/gen_4_families.h"
+msgid "Arceus"
+msgstr "阿尔宙斯"
+
+#. PokeAPI
+#: src/data/pokemon/species_info/gen_4_families.h:7857
+msgctxt "src/data/pokemon/species_info/gen_4_families.h"
+msgid "Alpha"
+msgstr "创造"
