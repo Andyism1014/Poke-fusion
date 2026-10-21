@@ -40,6 +40,7 @@ void AllocateBattleResources(void)
         InitTrainerHillBattleStruct();
 
     gBattleStruct = AllocZeroed(sizeof(*gBattleStruct));
+    gFusionPassivesInBattle = FALSE;
     gAiBattleData = AllocZeroed(sizeof(*gAiBattleData));
     gAiThinkingStruct = AllocZeroed(sizeof(*gAiThinkingStruct));
     gAiLogicData = AllocZeroed(sizeof(*gAiLogicData));
@@ -189,7 +190,7 @@ u32 BattlePalace_TryEscapeStatus(enum BattlerId battler)
                 {
                     u32 toSub;
 
-                    if (GetBattlerAbility(battler) == ABILITY_EARLY_BIRD)
+                    if (BattlerHasAbility(battler, ABILITY_EARLY_BIRD))
                         toSub = 2;
                     else
                         toSub = 1;

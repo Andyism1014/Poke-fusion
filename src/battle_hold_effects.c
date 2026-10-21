@@ -168,10 +168,10 @@ static enum ItemEffect TryKingsRock(enum BattlerId battlerAtk, enum BattlerId ba
     enum Ability ability = GetBattlerAbility(battlerAtk);
     u32 holdEffectParam = GetItemHoldEffectParam(item);
 
-    if ((B_SERENE_GRACE_BOOST >= GEN_5 && ability == ABILITY_SERENE_GRACE)
+    if ((B_SERENE_GRACE_BOOST >= GEN_5 && ABILITY_OR_PASSIVE_IS(battlerAtk, ability, ABILITY_SERENE_GRACE))
      || ((gSideStatuses[GetBattlerSide(battlerAtk)] & SIDE_STATUS_RAINBOW) && gCurrentMove != MOVE_SECRET_POWER))
         holdEffectParam *= 2;
-    if (ability != ABILITY_STENCH && RandomPercentage(RNG_HOLD_EFFECT_FLINCH, holdEffectParam))
+    if (!ABILITY_OR_PASSIVE_IS(battlerAtk, ability, ABILITY_STENCH) && RandomPercentage(RNG_HOLD_EFFECT_FLINCH, holdEffectParam))
     {
         // This item effect is independent of Sheer Force; moves that natively flinch were rejected above.
         SetMoveEffectHelper(battlerAtk, battlerDef, MOVE_EFFECT_FLINCH, gBattlescriptCurrInstr, EFFECT_BYPASS_SHEER_FORCE);
@@ -311,7 +311,7 @@ static enum ItemEffect TryJabocaBerry(enum BattlerId battlerDef, enum BattlerId 
      && !IsAbilityAndRecord(battlerAtk, GetBattlerAbility(battlerAtk), ABILITY_MAGIC_GUARD))
     {
         s32 jabocaDamage = GetNonDynamaxMaxHP(battlerAtk) / 8;
-        if (GetBattlerAbility(battlerDef) == ABILITY_RIPEN)
+        if (BattlerHasAbility(battlerDef, ABILITY_RIPEN))
             jabocaDamage *= 2;
         SetPassiveDamageAmount(battlerAtk, jabocaDamage);
         gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_HURT_BY_ITEM;
@@ -334,7 +334,7 @@ static enum ItemEffect TryRowapBerry(enum BattlerId battlerDef, enum BattlerId b
      && !IsAbilityAndRecord(battlerAtk, GetBattlerAbility(battlerAtk), ABILITY_MAGIC_GUARD))
     {
         s32 rowapDamage = GetNonDynamaxMaxHP(battlerAtk) / 8;
-        if (GetBattlerAbility(battlerDef) == ABILITY_RIPEN)
+        if (BattlerHasAbility(battlerDef, ABILITY_RIPEN))
             rowapDamage *= 2;
         SetPassiveDamageAmount(battlerAtk, rowapDamage);
         gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_HURT_BY_ITEM;
@@ -355,7 +355,7 @@ static enum ItemEffect TrySetEnigmaBerry(enum BattlerId battlerDef, enum Battler
      && !(GetConfig(B_HEAL_BLOCKING) >= GEN_5 && gBattleMons[battlerDef].volatiles.healBlockTimer))
     {
         s32 healAmount = gBattleMons[battlerDef].maxHP * 25 / 100;
-        if (GetBattlerAbility(battlerDef) == ABILITY_RIPEN)
+        if (BattlerHasAbility(battlerDef, ABILITY_RIPEN))
             healAmount *= 2;
         SetHealAmount(battlerDef, healAmount);
         BattleScriptCall(BattleScript_ItemHealHP_RemoveBerry);
@@ -473,7 +473,7 @@ static enum ItemEffect DamagedStatBoostBerryEffect(enum BattlerId battlerDef, en
     if (gBattleScripting.overrideBerryRequirements
      || (GetBattleMoveCategory(gCurrentMove) == category && IsBattlerTurnDamaged(battlerDef, EXCLUDING_SUBSTITUTES)))
     {
-        if (GetBattlerAbility(battlerDef) == ABILITY_RIPEN)
+        if (BattlerHasAbility(battlerDef, ABILITY_RIPEN))
         {
             SetStatChange(battlerDef, statId, 2);
             BattleScriptCall(BattleScript_ConsumableBerryStatRaiseRipen);

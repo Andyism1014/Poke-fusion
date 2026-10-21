@@ -1504,6 +1504,7 @@ static u32 GetBattlerMonData(enum BattlerId battler, struct Pokemon *party, u32 
         battleMon.spDefense = GetMonData(&party[monId], MON_DATA_SPDEF);
         battleMon.abilityNum = GetMonData(&party[monId], MON_DATA_ABILITY_NUM);
         Fusion_GetMonBattleData(&party[monId], &battleMon.fusionType, &battleMon.fusionAbility, battleMon.passives);
+        Fusion_NotePassives(battleMon.passives);
         battleMon.otId = GetMonData(&party[monId], MON_DATA_OT_ID);
         battleMon.metLevel = GetMonData(&party[monId], MON_DATA_MET_LEVEL);
         battleMon.isShiny = GetMonData(&party[monId], MON_DATA_IS_SHINY);

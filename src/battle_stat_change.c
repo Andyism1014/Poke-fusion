@@ -83,7 +83,7 @@ static bool32 CheckSpecificMoveCondition(struct BattleCalcValues *cv, struct Sta
     switch (cv->moveEffect)
     {
     case EFFECT_CAPTIVATE:
-        if (cv->abilities[cv->battlerDef] == ABILITY_OBLIVIOUS)
+        if (ABILITY_OR_PASSIVE_IS(cv->battlerDef, cv->abilities[cv->battlerDef], ABILITY_OBLIVIOUS))
         {
             if (!st->onlyChecking)
             {
@@ -145,7 +145,7 @@ static bool32 CheckSpecificMoveCondition(struct BattleCalcValues *cv, struct Sta
         }
         break;
     case EFFECT_SWAGGER:
-        if (cv->abilities[cv->battlerDef] == ABILITY_OWN_TEMPO)
+        if (ABILITY_OR_PASSIVE_IS(cv->battlerDef, cv->abilities[cv->battlerDef], ABILITY_OWN_TEMPO))
         {
             if (!st->onlyChecking)
             {
@@ -417,7 +417,7 @@ static enum StatChangeResult IncreaseStat(struct BattleCalcValues *cv, struct St
                 if (CompareStat(battler, st->stat, MAX_STAT_STAGE, CMP_EQUAL, cv->abilities[battler]))
                     continue;
 
-                if (cv->abilities[battler] == ABILITY_OPPORTUNIST && !st->opportunistActivation)
+                if (ABILITY_OR_PASSIVE_IS(battler, cv->abilities[battler], ABILITY_OPPORTUNIST) && !st->opportunistActivation)
                     gProtectStructs[battler].activateOpportunist = TRUE;
 
                 if (cv->holdEffects[battler] == HOLD_EFFECT_MIRROR_HERB && !st->mirrorHerbActivation)
@@ -565,7 +565,7 @@ static bool32 IsMistProtected(struct BattleCalcValues *cv, struct StatChange *st
     if (st->certain)
         return FALSE;
 
-    if (!IsBattlerAlly(cv->battlerDef, cv->battlerAtk) && cv->abilities[cv->battlerAtk] == ABILITY_INFILTRATOR)
+    if (!IsBattlerAlly(cv->battlerDef, cv->battlerAtk) && ABILITY_OR_PASSIVE_IS(cv->battlerAtk, cv->abilities[cv->battlerAtk], ABILITY_INFILTRATOR))
         return FALSE;
 
     if (!st->onlyChecking)
@@ -587,7 +587,7 @@ static enum BattlerId StatChange_IsFlowerVeilProtected(struct BattleCalcValues *
     {
         if (!IsBattlerAlly(cv->battlerDef, battler))
             continue;
-        if (cv->abilities[battler] == ABILITY_FLOWER_VEIL)
+        if (ABILITY_OR_PASSIVE_IS(battler, cv->abilities[battler], ABILITY_FLOWER_VEIL))
             return battler;
     }
 
@@ -642,42 +642,54 @@ static bool32 IsIntimidateBlocked(struct BattleCalcValues *cv, struct StatChange
     if (!st->intimidate)
         return FALSE;
 
-    switch (cv->abilities[cv->battlerDef])
+    enum Ability blocker = ABILITY_NONE;
+
+    FOR_EACH_ABILITY_SLOT(ability, cv->battlerDef, cv->abilities[cv->battlerDef])
     {
-    case ABILITY_INNER_FOCUS:
-    case ABILITY_SCRAPPY:
-    case ABILITY_OWN_TEMPO:
-    case ABILITY_OBLIVIOUS:
-        if (GetConfig(B_UPDATED_INTIMIDATE) < GEN_8)
-            return FALSE;
-        PREPARE_STAT_BUFFER(gBattleTextBuff1, st->stat);
-        st->script = BattleScript_AbilityNoSpecificStatLoss;
-        break;
-    case ABILITY_GUARD_DOG:
-    {
-        enum BattlerId flowerVeilBattler = StatChange_IsFlowerVeilProtected(cv);
+        switch (ability)
+        {
+        case ABILITY_INNER_FOCUS:
+        case ABILITY_SCRAPPY:
+        case ABILITY_OWN_TEMPO:
+        case ABILITY_OBLIVIOUS:
+            if (GetConfig(B_UPDATED_INTIMIDATE) < GEN_8)
+                break;
+            PREPARE_STAT_BUFFER(gBattleTextBuff1, st->stat);
+            st->script = BattleScript_AbilityNoSpecificStatLoss;
+            blocker = ability;
+            break;
+        case ABILITY_GUARD_DOG:
+        {
+            enum BattlerId flowerVeilBattler = StatChange_IsFlowerVeilProtected(cv);
 
-        if (flowerVeilBattler != MAX_BATTLERS_COUNT
-         && GetBattlerRawSpeedOrder(flowerVeilBattler) < GetBattlerRawSpeedOrder(cv->battlerDef))
-            return FALSE;
+            if (flowerVeilBattler != MAX_BATTLERS_COUNT
+             && GetBattlerRawSpeedOrder(flowerVeilBattler) < GetBattlerRawSpeedOrder(cv->battlerDef))
+                break;
 
-        if (!CompareStat(cv->battlerDef, STAT_ATK, MIN_STAT_STAGE, CMP_GREATER_THAN, cv->abilities[cv->battlerDef]))
-            return FALSE;
+            if (!CompareStat(cv->battlerDef, STAT_ATK, MIN_STAT_STAGE, CMP_GREATER_THAN, cv->abilities[cv->battlerDef]))
+                break;
 
-        SetStatChange2(cv->battlerDef, st->stat, -1 * st->stage);
-        st->script = BattleScript_DefiantActivates;
-        gEffectBattler = cv->battlerDef;
-        break;
+            SetStatChange2(cv->battlerDef, st->stat, -1 * st->stage);
+            st->script = BattleScript_DefiantActivates;
+            gEffectBattler = cv->battlerDef;
+            blocker = ability;
+            break;
+        }
+        default:
+            break;
+        }
+        if (blocker != ABILITY_NONE)
+            break;
     }
-    default:
+
+    if (blocker == ABILITY_NONE)
         return FALSE;
-    }
 
-    gLastUsedAbility = cv->abilities[cv->battlerDef];
+    gLastUsedAbility = blocker;
     gBattlerAbility = cv->battlerDef;
     gBattleScripting.battler = cv->battlerDef;
     MarkStatsAsDone(st, st->stat);
-    RecordAbilityBattle(cv->battlerDef, cv->abilities[cv->battlerDef]);
+    RecordAbilityBattle(cv->battlerDef, blocker);
     return TRUE;
 }
 
@@ -686,7 +698,19 @@ static bool32 IsAbilityBlocked(struct BattleCalcValues *cv, struct StatChange *s
     if (st->certain)
         return FALSE;
 
-    if (CanAbilityPreventStatLoss(cv->abilities[cv->battlerDef]))
+    enum Ability blocker = ABILITY_NONE;
+
+    // Fusion: a whole-stat blocker anywhere wins over a specific one
+    FOR_EACH_ABILITY_SLOT(ability, cv->battlerDef, cv->abilities[cv->battlerDef])
+    {
+        if (CanAbilityPreventStatLoss(ability))
+        {
+            blocker = ability;
+            break;
+        }
+    }
+
+    if (blocker != ABILITY_NONE)
     {
         if (!st->onlyChecking)
         {
@@ -694,8 +718,18 @@ static bool32 IsAbilityBlocked(struct BattleCalcValues *cv, struct StatChange *s
             st->script = BattleScript_AbilityNoStatLoss;
         }
     }
-    else if (AbilityPreventsSpecificStatDrop(cv->abilities[cv->battlerDef], st->stat))
+    else
     {
+        FOR_EACH_ABILITY_SLOT(ability, cv->battlerDef, cv->abilities[cv->battlerDef])
+        {
+            if (AbilityPreventsSpecificStatDrop(ability, st->stat))
+            {
+                blocker = ability;
+                break;
+            }
+        }
+        if (blocker == ABILITY_NONE)
+            return FALSE;
         if (!st->onlyChecking)
         {
             MarkStatsAsDone(st, st->stat);
@@ -703,16 +737,12 @@ static bool32 IsAbilityBlocked(struct BattleCalcValues *cv, struct StatChange *s
             st->script = BattleScript_AbilityNoSpecificStatLoss;
         }
     }
-    else
-    {
-        return FALSE;
-    }
 
     if (!st->onlyChecking)
     {
         gBattleScripting.battler = cv->battlerDef;
         gBattlerAbility = cv->battlerDef;
-        gLastUsedAbility = cv->abilities[cv->battlerDef];
+        gLastUsedAbility = blocker;
         RecordAbilityBattle(cv->battlerDef, gLastUsedAbility);
     }
 
@@ -721,7 +751,7 @@ static bool32 IsAbilityBlocked(struct BattleCalcValues *cv, struct StatChange *s
 
 static bool32 IsMirrorArmorReflected(struct BattleCalcValues *cv, struct StatChange *st)
 {
-    if (cv->abilities[cv->battlerDef] != ABILITY_MIRROR_ARMOR
+    if (!ABILITY_OR_PASSIVE_IS(cv->battlerDef, cv->abilities[cv->battlerDef], ABILITY_MIRROR_ARMOR)
      || st->ignoreMirrorArmored
      || st->certain)
         return FALSE;
@@ -734,7 +764,8 @@ static bool32 IsMirrorArmorReflected(struct BattleCalcValues *cv, struct StatCha
         st->silentFailure = FALSE; // Mirror Armor still deflects damaging move stat drops
         st->script = BattleScript_MirrorArmorReflect;
         gBattlerAbility = cv->battlerDef;
-        RecordAbilityBattle(cv->battlerDef, cv->abilities[cv->battlerDef]);
+        gLastUsedAbility = ABILITY_MIRROR_ARMOR;
+        RecordAbilityBattle(cv->battlerDef, ABILITY_MIRROR_ARMOR);
 
         if (st->stickyWeb)
         {
@@ -784,20 +815,23 @@ static void AdjustStatStage(struct BattleCalcValues *cv, struct StatChange *st)
     if (st->stage == STAT_CHANGE_FORCE_MAX)
         st->stage = 12;
 
-    switch (cv->abilities[cv->battlerDef])
+    FOR_EACH_ABILITY_SLOT(ability, cv->battlerDef, cv->abilities[cv->battlerDef])
     {
-    case ABILITY_CONTRARY:
-        st->stage = -1 * st->stage;
-        if (!st->onlyChecking)
-            RecordAbilityBattle(cv->battlerDef, cv->abilities[cv->battlerDef]);
-        break;
-    case ABILITY_SIMPLE:
-        st->stage = 2 * st->stage;
-        if (!st->onlyChecking)
-            RecordAbilityBattle(cv->battlerDef, cv->abilities[cv->battlerDef]);
-        break;
-    default:
-        break;
+        switch (ability)
+        {
+        case ABILITY_CONTRARY:
+            st->stage = -1 * st->stage;
+            if (!st->onlyChecking)
+                RecordAbilityBattle(cv->battlerDef, ability);
+            break;
+        case ABILITY_SIMPLE:
+            st->stage = 2 * st->stage;
+            if (!st->onlyChecking)
+                RecordAbilityBattle(cv->battlerDef, ability);
+            break;
+        default:
+            break;
+        }
     }
 }
 
@@ -954,7 +988,8 @@ bool32 CompareStat(enum BattlerId battler, enum Stat statId, u32 cmpTo, u32 cmpK
 
     // Because this command is used as a way of checking if a stat can be lowered/raised,
     // we need to do some modification at run-time.
-    if (ability == ABILITY_CONTRARY)
+    // Fusion: ABILITY_NONE asks for the raw comparison, so only check passives otherwise
+    if (ability == ABILITY_CONTRARY || (ability != ABILITY_NONE && ABILITY_OR_PASSIVE_IS(battler, ability, ABILITY_CONTRARY)))
     {
         if (cmpKind == CMP_GREATER_THAN)
             cmpKind = CMP_LESS_THAN;
@@ -1055,7 +1090,7 @@ bool32 CanStatChange(struct BattleCalcValues *cv, struct StatChange *st)
     {
         // Special Case for speed boost since shouldn't try to lower opposing stats on speed boost
         // Also for user it might make sense to lower the stat. Regardless this whole check is better suited for CheckViability since the move wouldn't fail in this case
-        if (cv->battlerAtk != cv->battlerDef && st->stat == STAT_SPEED && st->stage < 0 && cv->abilities[cv->battlerDef] == ABILITY_SPEED_BOOST)
+        if (cv->battlerAtk != cv->battlerDef && st->stat == STAT_SPEED && st->stage < 0 && ABILITY_OR_PASSIVE_IS(cv->battlerDef, cv->abilities[cv->battlerDef], ABILITY_SPEED_BOOST))
             return FALSE;
 
         if (CompareStat(cv->battlerDef, st->stat, MIN_STAT_STAGE, CMP_EQUAL, ABILITY_NONE))

@@ -123,20 +123,36 @@ bool32 BattlerHasAbilityIgnoreMoldBreaker(enum BattlerId battler, enum Ability a
 bool32 AbilityOrPassiveIs(enum BattlerId battler, enum Ability mainAbility, enum Ability ability);
 enum Ability GetBattlerAbilityInSlot(enum BattlerId battler, u32 slot, enum Ability mainAbility);
 
+// Fusion: gFusionPassivesInBattle is set once any battler of the current battle got passives, so
+// battles without passives only pay for one load in the hot paths (AI thinking time).
+extern u8 gFusionPassivesInBattle;
+void Fusion_NotePassives(const enum Ability *passives);
+#define BATTLER_HAS_ANY_PASSIVE_RAW(_battler) \
+    ((gBattleMons[_battler].passives[0] | gBattleMons[_battler].passives[1] | gBattleMons[_battler].passives[2]) != ABILITY_NONE)
+#define BATTLER_HAS_ANY_PASSIVE(_battler) (__builtin_expect(gFusionPassivesInBattle, 0) && BATTLER_HAS_ANY_PASSIVE_RAW(_battler))
+
 // Fusion: runs the loop body for the main ability (slot 0) and then each active passive.
 // Duplicates are skipped, so an ability never stacks with itself.
-// Battlers without passives run the body exactly once, like vanilla.
-#define BATTLER_HAS_ANY_PASSIVE(_battler) \
-    ((gBattleMons[_battler].passives[0] | gBattleMons[_battler].passives[1] | gBattleMons[_battler].passives[2]) != ABILITY_NONE)
-#define FOR_EACH_ABILITY_SLOT(_ability, _battler, _mainAbility)                                                     \
-    for (u32 _last##_ability = BATTLER_HAS_ANY_PASSIVE(_battler) ? FUSION_MAX_PASSIVES : 0, _slot##_ability = 0, \
-             _ability = (_mainAbility);                                                                          \
-         _slot##_ability <= _last##_ability;                                                                     \
-         _ability = (++_slot##_ability <= _last##_ability) ? GetBattlerAbilityInSlot(_battler, _slot##_ability, _mainAbility) : ABILITY_NONE)
+// Battlers without passives run the body exactly once, like vanilla: the passive check
+// happens only after the first pass, so the fast path has no extra loop state.
+#define FOR_EACH_ABILITY_SLOT(_ability, _battler, _mainAbility)                                              \
+    for (u32 _slot##_ability = 0, _ability = (_mainAbility);                                                \
+         _slot##_ability <= FUSION_MAX_PASSIVES;                                                             \
+         _ability = (!BATTLER_HAS_ANY_PASSIVE(_battler) || ++_slot##_ability > FUSION_MAX_PASSIVES)         \
+                  ? (_slot##_ability = FUSION_MAX_PASSIVES + 1, ABILITY_NONE)                                \
+                  : GetBattlerAbilityInSlot(_battler, _slot##_ability, _mainAbility))
 
 // Inline form of AbilityOrPassiveIs for hot paths.
 #define ABILITY_OR_PASSIVE_IS(_battler, _mainAbility, _ability) \
     ((_mainAbility) == (_ability) || (BATTLER_HAS_ANY_PASSIVE(_battler) && BattlerHasPassive(_battler, _ability)))
+
+// For functions with several checks on one battler: _hasPassives is BATTLER_HAS_ANY_PASSIVE(_battler), evaluated once.
+#define ABILITY_OR_PASSIVE_IS_P(_hasPassives, _battler, _mainAbility, _ability) \
+    ((_mainAbility) == (_ability) || ((_hasPassives) && BattlerHasPassive(_battler, _ability)))
+
+// Like ABILITY_OR_PASSIVE_IS; on a match it also stores _ability in _var, so popups and records name it.
+#define TRY_ABILITY_OR_PASSIVE(_battler, _var, _ability) \
+    (ABILITY_OR_PASSIVE_IS(_battler, _var, _ability) && ((_var) = (_ability), TRUE))
 
 bool32 TryNextPassiveAbilityEffect(enum FusionPassiveCursor cursor, enum AbilityEffect caseID, enum BattlerId battler, enum Move move, bool32 shouldAbilityTrigger);
 u32 IsAbilityOnSide(enum BattlerId battler, enum Ability ability);
@@ -168,6 +184,16 @@ s32 CalcCritChanceStageGen1(struct DamageContext *ctx);
 s32 CalculateMoveDamage(struct DamageContext *ctx);
 s32 CalculateMoveDamageVars(struct DamageContext *ctx);
 s32 DoFixedDamageMoveCalc(struct DamageContext *ctx);
+struct DmgRollModifiers
+{
+    uq4_12_t stab;
+    uq4_12_t typeEffectiveness;
+    uq4_12_t burn;
+    uq4_12_t protection;
+    uq4_12_t other;
+};
+void GetModifiersAfterDmgRoll(struct DamageContext *ctx, struct DmgRollModifiers *mods);
+s32 ApplyDmgRollModifiers(const struct DmgRollModifiers *mods, s32 dmg);
 s32 ApplyModifiersAfterDmgRoll(struct DamageContext *ctx, s32 dmg);
 uq4_12_t CalcTypeEffectivenessMultiplier(struct DamageContext *ctx);
 uq4_12_t CalcPartyMonTypeEffectivenessMultiplier(enum Move move, enum Species speciesDef, enum Ability abilityDef);
@@ -319,6 +345,7 @@ void RemoveAbilityFlags(enum BattlerId battler);
 void RemoveRuinAbilityFlags(enum BattlerId battler);
 void CheckSetUnburden(enum BattlerId battler);
 bool32 IsDazzlingAbility(enum Ability ability);
+bool32 HasDazzlingAbilityOrPassive(enum BattlerId battler, enum Ability mainAbility);
 bool32 IsAllowedToUseBag(void);
 bool32 IsAnyTargetTurnDamaged(enum BattlerId battlerAtk, enum SubCheck subCheck);
 bool32 IsAnyTargetAffected(void);
