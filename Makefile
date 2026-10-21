@@ -20,6 +20,16 @@ ifeq (leafgreen, $(or $(BUILD), $(MAKECMDGOALS)))
 endif
 endif
 
+# Simplified Chinese version: `make chinese` builds pokeemerald-zh.gba from the
+# same sources, with the translations in text_zh/. See docs/fusion/CHINESE.md.
+CHINESE      ?= 0
+ifneq (,$(filter chinese,$(MAKECMDGOALS)))
+  CHINESE := 1
+endif
+ifeq ($(CHINESE),1)
+  BUILD_NAME := $(BUILD_NAME)-zh
+endif
+
 # GBA rom header
 MAKER_CODE  := 01
 REVISION    := 0
@@ -163,6 +173,11 @@ ifeq ($(RELEASE),1)
 		LTO := 1
 	endif
 endif
+ifeq ($(CHINESE),1)
+	ZH_DIR := $(BUILD_DIR)/zh
+	override CPPFLAGS += -DFUSION_CHINESE=1 -I $(ZH_DIR)
+	PREPROC_ZH := -t $(ZH_DIR)/translations.tsv -z $(ZH_DIR)/charmap.txt
+endif
 ARMCC := $(PREFIX)gcc
 PATH_ARMCC := PATH="$(PATH)" $(ARMCC)
 CC1 := $(shell $(PATH_ARMCC) --print-prog-name=cc1) -quiet
@@ -268,8 +283,8 @@ MAKEFLAGS += --no-print-directory
 # Delete files that weren't built properly
 .DELETE_ON_ERROR:
 
-RULES_NO_SCAN += libagbsyscall clean clean-assets tidy tidymodern tidycheck tidyrelease generated clean-generated clean-teachables clean-teachables_intermediates
-.PHONY: all rom agbcc modern compare check debug release
+RULES_NO_SCAN += libagbsyscall clean clean-assets tidy tidymodern tidycheck tidyrelease tidychinese generated clean-generated clean-teachables clean-teachables_intermediates
+.PHONY: all rom agbcc modern compare check debug release chinese
 .PHONY: $(RULES_NO_SCAN)
 
 infoshell = $(foreach line, $(shell $1 | sed "s/ /__SPACE__/g"), $(info $(subst __SPACE__, ,$(line))))
@@ -335,6 +350,7 @@ modern: all
 compare: all
 debug: all
 release: all
+chinese: all
 # Uncomment the next line, and then comment the 4 lines after it to reenable agbcc.
 #agbcc: all
 agbcc:
@@ -385,7 +401,7 @@ clean-assets:
 	find . \( -iname '*.1bpp' -o -iname '*.4bpp' -o -iname '*.8bpp' -o -iname '*.gbapal' -o -iname '*.lz' -o -iname '*.smol' -o -iname '*.fastSmol' -o -iname '*.smolTM' -o -iname '*.rl' -o -iname '*.latfont' -o -iname '*.hwjpnfont' -o -iname '*.fwjpnfont' \) -exec rm {} +
 	find $(DATA_ASM_SUBDIR)/maps \( -iname 'connections.inc' -o -iname 'events.inc' -o -iname 'header.inc' \) -exec rm {} +
 
-tidy: tidymodern tidycheck tidydebug tidyrelease
+tidy: tidymodern tidycheck tidydebug tidyrelease tidychinese
 
 tidymodern:
 	rm -f poke*.gba poke*.elf poke*.map
@@ -406,6 +422,9 @@ else # Manually remove the release files on clean/tidy
 endif
 	rm -rf $(OBJ_DIR_NAME_RELEASE)
 
+tidychinese:
+	rm -rf $(BUILD_DIR)/zh $(BUILD_DIR)/*-zh $(BUILD_DIR)/*-zh-*
+
 # Other rules
 include graphics_file_rules.mk
 include map_data_rules.mk
@@ -413,6 +432,7 @@ include spritesheet_rules.mk
 include json_data_rules.mk
 include audio_rules.mk
 include trainer_rules.mk
+include chinese_rules.mk
 
 # NOTE: Tools must have been built prior (FIXME)
 # so you can't really call this rule directly
@@ -471,10 +491,10 @@ $(C_BUILDDIR)/pokemon.o: $(C_SUBDIR)/pokemon.c $(DATA_SRC_SUBDIR)/pokemon/teacha
 $(C_BUILDDIR)/%.o: $(C_SUBDIR)/%.c
 ifneq ($(KEEP_TEMPS),1)
 	@echo "$(CC1) <flags> -o $@ $<"
-	@$(CPP) $(CPPFLAGS) $< | $(PREPROC) -i -g $(ASSETS_DIR_NAME) $< charmap.txt | $(CC1) $(CFLAGS) -o - - | cat - <(echo -e ".text\n\t.align\t2, 0") | $(AS) $(ASFLAGS) -o $@ -
+	@$(CPP) $(CPPFLAGS) $< | $(PREPROC) -i -g $(ASSETS_DIR_NAME) $(PREPROC_ZH) $< charmap.txt | $(CC1) $(CFLAGS) -o - - | cat - <(echo -e ".text\n\t.align\t2, 0") | $(AS) $(ASFLAGS) -o $@ -
 else
 	@$(CPP) $(CPPFLAGS) $< -o $(C_BUILDDIR)/$*.i
-	@$(PREPROC) -g $(ASSETS_DIR_NAME) $(C_BUILDDIR)/$*.i charmap.txt | $(CC1) $(CFLAGS) -o $(C_BUILDDIR)/$*.s
+	@$(PREPROC) -g $(ASSETS_DIR_NAME) $(PREPROC_ZH) $(C_BUILDDIR)/$*.i charmap.txt | $(CC1) $(CFLAGS) -o $(C_BUILDDIR)/$*.s
 	@echo -e ".text\n\t.align\t2, 0\n" >> $(C_BUILDDIR)/$*.s
 	$(AS) $(ASFLAGS) -o $@ $(C_BUILDDIR)/$*.s
 endif
@@ -490,7 +510,7 @@ endif
 ifeq ($(TEST),1)
 $(TEST_BUILDDIR)/%.o: $(TEST_SUBDIR)/%.c
 	@echo "$(CC1) <flags> -o $@ $<"
-	@$(CPP) $(CPPFLAGS) $< | $(PREPROC) -i -g $(ASSETS_DIR_NAME) $< charmap.txt | $(CC1) $(CFLAGS) -o - - | cat - <(echo -e ".text\n\t.align\t2, 0") | $(AS) $(ASFLAGS) -o $@ -
+	@$(CPP) $(CPPFLAGS) $< | $(PREPROC) -i -g $(ASSETS_DIR_NAME) $(PREPROC_ZH) $< charmap.txt | $(CC1) $(CFLAGS) -o - - | cat - <(echo -e ".text\n\t.align\t2, 0") | $(AS) $(ASFLAGS) -o $@ -
 
 $(TEST_BUILDDIR)/%.d: $(TEST_SUBDIR)/%.c
 	$(SCANINC) -M $@ -g $(ASSETS_DIR_NAME) $(INCLUDE_SCANINC_ARGS) -I tools/agbcc/include $<
@@ -511,7 +531,7 @@ ifneq ($(NODEP),1)
 endif
 
 $(C_BUILDDIR)/%.o: $(C_SUBDIR)/%.s
-	$(PREPROC) $< charmap.txt | $(CPP) $(CPPFLAGS) $(INCLUDE_SCANINC_ARGS) - | $(PREPROC) -ie $< charmap.txt | $(AS) $(ASFLAGS) -o $@
+	$(PREPROC) $(PREPROC_ZH) $< charmap.txt | $(CPP) $(CPPFLAGS) $(INCLUDE_SCANINC_ARGS) - | $(PREPROC) -ie $< charmap.txt | $(AS) $(ASFLAGS) -o $@
 
 $(C_BUILDDIR)/%.d: $(C_SUBDIR)/%.s
 	$(SCANINC) -M $@ -g $(ASSETS_DIR_NAME) $(INCLUDE_SCANINC_ARGS) -I "" $<
@@ -521,7 +541,7 @@ ifneq ($(NODEP),1)
 endif
 
 $(DATA_ASM_BUILDDIR)/%.o: $(DATA_ASM_SUBDIR)/%.s
-	$(PREPROC) -s $< charmap.txt | $(CPP) $(CPPFLAGS) $(INCLUDE_SCANINC_ARGS) - | $(PREPROC) -ie $< charmap.txt | $(AS) $(ASFLAGS) -o $@
+	$(PREPROC) -s $(PREPROC_ZH) $< charmap.txt | $(CPP) $(CPPFLAGS) $(INCLUDE_SCANINC_ARGS) - | $(PREPROC) -ie $< charmap.txt | $(AS) $(ASFLAGS) -o $@
 
 $(DATA_ASM_BUILDDIR)/%.d: $(DATA_ASM_SUBDIR)/%.s
 	$(SCANINC) -M $@ -g $(ASSETS_DIR_NAME) $(INCLUDE_SCANINC_ARGS) -I "" $<
