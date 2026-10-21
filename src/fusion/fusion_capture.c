@@ -58,11 +58,17 @@ u32 Fusion_ApplyCaptureMode(enum Species species, u32 odds)
     }
 }
 
-// Passives that would make a single wild find game-breaking.
+// Random passives (wild finds, the tower, Passive Crystals) skip abilities that would be
+// game-breaking, and ones that only hurt their holder.
 static bool32 IsWildPassiveCandidate(enum Ability ability)
 {
     switch (ability)
     {
+    case ABILITY_TRUANT:
+    case ABILITY_SLOW_START:
+    case ABILITY_DEFEATIST:
+    case ABILITY_KLUTZ:
+    case ABILITY_STALL:
     case ABILITY_HUGE_POWER:
     case ABILITY_PURE_POWER:
     case ABILITY_SHADOW_TAG:
