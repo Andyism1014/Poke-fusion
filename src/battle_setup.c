@@ -56,6 +56,7 @@
 #include "constants/game_stat.h"
 #include "constants/items.h"
 #include "constants/songs.h"
+#include "fusion/fusion.h"
 #include "constants/trainers.h"
 #include "constants/trainer_hill.h"
 #include "constants/weather.h"
@@ -1533,6 +1534,31 @@ static void CB2_EndDebugBattle(void)
     SetMainCallback2(CB2_EndTrainerBattle);
 }
 
+// Fusion Tower: the opponent party is already built; no whiteout, the party isn't healed
+// and the calling script resumes with VAR_RESULT = TRUE if the player won.
+static void CB2_EndFusionTowerBattle(void)
+{
+    gFusionTowerBattle = FALSE;
+    gSpecialVar_Result = !IsPlayerDefeated(gBattleOutcome);
+    DowngradeBadPoison();
+    SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
+}
+
+void BattleSetup_StartFusionTowerBattle(u16 song)
+{
+    sNoOfPossibleTrainerRetScripts = gNoOfApproachingTrainers;
+    gNoOfApproachingTrainers = 0;
+    sShouldCheckTrainerBScript = FALSE;
+    gWhichTrainerToFaceAfterBattle = 0;
+    TRAINER_BATTLE_PARAM.opponentA = TRAINER_NONE + 1; // Any valid id: the trainer data comes from the tower.
+    gBattleEnvironment = BattleSetup_GetEnvironmentId();
+    gMain.savedCallback = CB2_EndFusionTowerBattle;
+
+    CreateBattleStartTask_Debug(GetTrainerBattleTransition(), song);
+
+    ScriptContext_Stop();
+}
+
 void BattleSetup_StartTrainerBattle_Debug(void)
 {
     sNoOfPossibleTrainerRetScripts = gNoOfApproachingTrainers;
@@ -2220,6 +2246,7 @@ static void CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
     if (!GetTrainerStructFromId(trainerNum)->overrideTrainer)
     {
         CreateNPCTrainerPartyFromTrainer(party, GetTrainerStructFromId(trainerNum));
+        Fusion_ApplyNewGamePlusToTrainerParty(party);
         return;
     }
 
@@ -2233,6 +2260,7 @@ static void CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
     if (tempTrainer.partySize == 0)
         tempTrainer.partySize = origTrainer->partySize;
     CreateNPCTrainerPartyFromTrainer(party, (const struct Trainer *)(&tempTrainer));
+    Fusion_ApplyNewGamePlusToTrainerParty(party);
 }
 
 void CreateTrainerPartyForPlayer(void)

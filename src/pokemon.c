@@ -2932,6 +2932,14 @@ void CopyMon(void *dest, void *src, size_t size)
     memcpy(dest, src, size);
 }
 
+// The OT ID is part of the encryption key, so the secure data must be re-encrypted.
+void SetBoxMonOtIdReencrypt(struct BoxPokemon *boxMon, u32 otId)
+{
+    DecryptBoxMon(boxMon);
+    boxMon->otId = otId;
+    EncryptBoxMon(boxMon);
+}
+
 u8 GiveCapturedMonToPlayer(struct Pokemon *mon)
 {
     s32 i;

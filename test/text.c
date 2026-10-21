@@ -19,6 +19,7 @@
 #include "constants/moves.h"
 #include "../src/data/map_group_count.h"
 #include "test/overworld_script.h"
+#include "fusion/fusion.h"
 
 TEST("Move names fit on Pokemon Summary Screen")
 {
@@ -837,6 +838,14 @@ TEST("Battle strings fit on the battle message window")
         StringCopy(gStringVar2, nickname);
         StringCopy(gStringVar3, boxName);
         break;
+    // Fusion: the caught appraisal with the longest possible contents.
+    case STRINGID_FUSION_MESSAGE:
+    {
+        struct FusionGenetics genetics = {.passives = {longAbilityID, longAbilityID, longAbilityID}, .extraType = longTypeName, .flags = FUSION_FLAG_RARE};
+        Fusion_SetMonGenetics(&gParties[B_TRAINER_OPPONENT_A][0], &genetics);
+        Fusion_BufferCaughtAppraisal(&gParties[B_TRAINER_OPPONENT_A][0]);
+        break;
+    }
     default:
         break;
     }

@@ -14208,6 +14208,36 @@ const struct ItemInfo gItemsInfo[] =
         .iconPalette = gItemIconPalette_PokemonBoxLink,
     },
 
+    [ITEM_PASSIVE_CRYSTAL] =
+    {
+        .name = ITEM_NAME("Passive Crystal"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Grants a random\n"
+            "passive. If full,\n"
+            "rerolls the last."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_FusionGeneItem,
+        .iconPic = gItemIcon_AbilityCapsule,
+        .iconPalette = gItemIconPalette_AbilityCapsule,
+    },
+
+    [ITEM_TYPE_PRISM] =
+    {
+        .name = ITEM_NAME("Type Prism"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Gives a Pokémon a\n"
+            "new random third\n"
+            "type."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_FusionGeneItem,
+        .iconPic = gItemIcon_PrismScale,
+        .iconPalette = gItemIconPalette_PrismScale,
+    },
+
     [ITEM_COIN_CASE] =
     {
         .name = ITEM_NAME("Coin Case"),

@@ -164,6 +164,8 @@ void NewGameInitData(void)
 #if IS_FRLG
     u8 rivalName[PLAYER_NAME_LENGTH + 1];
 #endif
+    void *reincarnation = Fusion_StashReincarnation();
+
     if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_CORRUPT)
         RtcReset();
 
@@ -236,6 +238,7 @@ void NewGameInitData(void)
     ResetDexNav();
     ClearFollowerNPCData();
     Fusion_NewGameInit();
+    Fusion_RestoreReincarnation(reincarnation);
 }
 
 static void ResetMiniGamesRecords(void)

@@ -95,6 +95,7 @@ void StartRegiBattle(void);
 enum BattleEnvironments BattleSetup_GetEnvironmentId(void);
 enum BattleTransition GetWildBattleTransition(void);
 enum BattleTransition GetTrainerBattleTransition(void);
+void BattleSetup_StartFusionTowerBattle(u16 song);
 enum BattleTransition GetSpecialBattleTransition(enum BattleTransitionGroup id);
 void ChooseStarter(void);
 void SetMapVarsToTrainerA(void);

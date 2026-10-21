@@ -75,7 +75,7 @@ static bool32 IsWildPassiveCandidate(enum Ability ability)
     }
 }
 
-static enum Ability RollWildPassive(struct Pokemon *mon, const struct FusionGenetics *genetics)
+enum Ability Fusion_RollRandomPassive(struct Pokemon *mon, const struct FusionGenetics *genetics)
 {
     // Random draws until a valid one; nearly all abilities qualify, so this ends fast.
     for (u32 tries = 0; tries < 32; tries++)
@@ -91,7 +91,7 @@ static enum Ability RollWildPassive(struct Pokemon *mon, const struct FusionGene
     return ABILITY_NONE;
 }
 
-static enum Type RollWildThirdType(enum Species species)
+enum Type Fusion_RollRandomThirdType(enum Species species)
 {
     for (u32 tries = 0; tries < 32; tries++)
     {
@@ -108,18 +108,19 @@ void Fusion_RollWildGenetics(struct Pokemon *mon)
 {
     enum Species species = GetMonData(mon, MON_DATA_SPECIES);
     struct FusionGenetics genetics = {0};
+    u32 cycle = min(Fusion_GetNewGamePlusCount(), FUSION_NG_PLUS_MAX_SCALING);
 
     if (Fusion_IsCaptureAssistExempt(species))
         return;
 
-    if (Random() % 100 < FUSION_WILD_PASSIVE_CHANCE)
+    if (Random() % 100 < FUSION_WILD_PASSIVE_CHANCE + cycle * FUSION_NG_PLUS_WILD_GENE_BONUS)
     {
-        genetics.passives[0] = RollWildPassive(mon, &genetics);
+        genetics.passives[0] = Fusion_RollRandomPassive(mon, &genetics);
         if (Random() % 100 < FUSION_WILD_SECOND_PASSIVE_CHANCE)
-            genetics.passives[1] = RollWildPassive(mon, &genetics);
+            genetics.passives[1] = Fusion_RollRandomPassive(mon, &genetics);
     }
     if (Random() % 100 < FUSION_WILD_THIRD_TYPE_CHANCE)
-        genetics.extraType = RollWildThirdType(species);
+        genetics.extraType = Fusion_RollRandomThirdType(species);
 
     if (genetics.passives[1] != ABILITY_NONE || genetics.extraType != TYPE_NONE)
         genetics.flags |= FUSION_FLAG_RARE;
@@ -133,37 +134,51 @@ static const u8 sText_CaughtIvs[] = _("IVs {STR_VAR_1}/186");
 static const u8 sText_CaughtRare[] = _("  A rare find!");
 static const u8 sText_CaughtPassive[] = _("Passive: ");
 static const u8 sText_CaughtThirdType[] = _("Third type: ");
-static const u8 sText_CaughtSeparator[] = _("  ");
-static const u8 sText_Separator[] = _(", ");
 
-// Battle script native, run right after "Gotcha!": a one-message appraisal of the
-// caught Pokémon so the player knows immediately if it's a good material.
-void BS_FusionCaughtAppraisal(void)
+// One fact per line: the first two share the box, later ones scroll in, so even two long
+// passive names fit the battle message window.
+static u8 *StartCaughtLine(u8 *text, u32 *lines)
 {
-    struct Pokemon *mon = &gParties[B_TRAINER_OPPONENT_A][gBattlerPartyIndexes[gBattlerTarget]];
+    if ((*lines)++ != 0)
+        *text++ = (*lines == 2) ? CHAR_NEWLINE : CHAR_PROMPT_SCROLL;
+    return text;
+}
+
+// The appraisal shown right after "Gotcha!", so the player knows immediately if the
+// caught Pokémon is a good material. Written to gFusionBattleMessage.
+void Fusion_BufferCaughtAppraisal(struct Pokemon *mon)
+{
     struct FusionGenetics genetics;
+    u32 lines = 0;
     u8 *text;
 
     Fusion_GetMonGenetics(mon, &genetics);
     ConvertIntToDecimalStringN(gStringVar1, Fusion_GetBoxMonIvTotal(&mon->box), STR_CONV_MODE_LEFT_ALIGN, 3);
-    text = StringExpandPlaceholders(gFusionBattleMessage, sText_CaughtIvs);
+    text = StartCaughtLine(gFusionBattleMessage, &lines);
+    text = StringExpandPlaceholders(text, sText_CaughtIvs);
     if (genetics.flags & FUSION_FLAG_RARE)
         text = StringCopy(text, sText_CaughtRare);
 
-    if (genetics.passives[0] != ABILITY_NONE || genetics.extraType != TYPE_NONE)
-        *text++ = CHAR_NEWLINE;
-    if (genetics.passives[0] != ABILITY_NONE)
+    for (u32 i = 0; i < FUSION_MAX_PASSIVES; i++)
     {
-        text = StringCopy(StringCopy(text, sText_CaughtPassive), gAbilitiesInfo[genetics.passives[0]].name);
-        if (genetics.passives[1] != ABILITY_NONE)
-            text = StringCopy(StringCopy(text, sText_Separator), gAbilitiesInfo[genetics.passives[1]].name);
-        if (genetics.extraType != TYPE_NONE)
-            text = StringCopy(text, sText_CaughtSeparator);
+        if (genetics.passives[i] == ABILITY_NONE)
+            continue;
+        text = StartCaughtLine(text, &lines);
+        text = StringCopy(StringCopy(text, sText_CaughtPassive), gAbilitiesInfo[genetics.passives[i]].name);
     }
     if (genetics.extraType != TYPE_NONE)
+    {
+        text = StartCaughtLine(text, &lines);
         text = StringCopy(StringCopy(text, sText_CaughtThirdType), gTypesInfo[genetics.extraType].name);
+    }
     *text++ = CHAR_PROMPT_CLEAR;
     *text = EOS;
+}
+
+// Battle script native, run right after "Gotcha!".
+void BS_FusionCaughtAppraisal(void)
+{
+    Fusion_BufferCaughtAppraisal(&gParties[B_TRAINER_OPPONENT_A][gBattlerPartyIndexes[gBattlerTarget]]);
 
     // callnative: opcode + function pointer
     gBattlescriptCurrInstr += 1 + sizeof(void (*)(void));

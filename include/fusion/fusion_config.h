@@ -20,6 +20,18 @@
 #define FUSION_WILD_SECOND_PASSIVE_CHANCE   15 // Percent of those that get a second one.
 #define FUSION_WILD_THIRD_TYPE_CHANCE       3  // Percent of wild Pokémon with a random third type.
 
+// Fusion Tower (endless post-game challenge in the Fusion Terminal)
+#define FUSION_TOWER_REQUIRES_GAME_CLEAR    TRUE // Unlocked after entering the Hall of Fame.
+#define FUSION_TOWER_BOSS_INTERVAL          10   // Every Nth floor is a boss with a full team.
+#define FUSION_TOWER_FLOORS_PER_PASSIVE     6    // Opponents gain a passive every N floors (max 3).
+#define FUSION_TOWER_MAX_SHARDS             9999
+
+// Reincarnation (New Game+)
+#define FUSION_REINCARNATION_LEVEL          5    // Carried-over Pokémon restart at this level.
+#define FUSION_NG_PLUS_LEVEL_PERCENT        10   // Trainer levels +N% per cycle.
+#define FUSION_NG_PLUS_MAX_SCALING          5    // Cycles past this don't scale further.
+#define FUSION_NG_PLUS_WILD_GENE_BONUS      8    // Percent added to the wild passive chance per cycle.
+
 // Fusion inheritance (percent chances)
 #define FUSION_SPECIES_FROM_A_CHANCE        50 // Child species comes from parent A, otherwise parent B.
 #define FUSION_NATURE_FROM_A_CHANCE         50

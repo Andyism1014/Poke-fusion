@@ -978,6 +978,7 @@ enum Species GetRegionalFormByRegion(enum Species species, enum Region region);
 bool32 IsSpeciesForeignRegionalForm(enum Species species, enum Region currentRegion);
 enum Type GetTeraTypeFromPersonality(struct Pokemon *mon);
 bool8 ShouldSkipFriendshipChange(void);
+void SetBoxMonOtIdReencrypt(struct BoxPokemon *boxMon, u32 otId);
 struct Pokemon *GetSavedPlayerPartyMon(u32 index);
 u8 *GetSavedPlayerPartyCount(void);
 void SavePlayerPartyMon(u32 index, struct Pokemon *mon);

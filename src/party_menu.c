@@ -47,6 +47,7 @@
 #include "overworld.h"
 #include "palette.h"
 #include "party_menu.h"
+#include "fusion/fusion.h"
 #include "player_pc.h"
 #include "pokemon.h"
 #include "pokemon_icon.h"
@@ -5284,6 +5285,28 @@ void ItemUseCB_ResetEVs(u8 taskId, TaskFunc task)
         ScheduleBgCopyTilemapToVram(2);
         gTasks[taskId].func = task;
     }
+}
+
+// Passive Crystal / Type Prism: the message comes from the fusion code.
+void ItemUseCB_FusionGeneItem(u8 taskId, TaskFunc task)
+{
+    struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][gPartyMenu.slotId];
+
+    if (!Fusion_UseGeneItem(mon, gSpecialVar_ItemId, gStringVar4))
+    {
+        gPartyMenuUseExitCallback = FALSE;
+        PlaySE(SE_SELECT);
+        DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
+    }
+    else
+    {
+        gPartyMenuUseExitCallback = TRUE;
+        PlaySE(SE_USE_ITEM);
+        RemoveBagItem(gSpecialVar_ItemId, 1);
+        DisplayPartyMenuMessage(gStringVar4, TRUE);
+    }
+    ScheduleBgCopyTilemapToVram(2);
+    gTasks[taskId].func = task;
 }
 
 void ItemUseCB_ReduceEV(u8 taskId, TaskFunc task)

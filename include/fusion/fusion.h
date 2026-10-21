@@ -55,6 +55,37 @@ void Fusion_SetCaptureMode(enum FusionCaptureMode mode);
 bool32 Fusion_IsCaptureAssistExempt(enum Species species);
 u32 Fusion_ApplyCaptureMode(enum Species species, u32 odds);
 void Fusion_RollWildGenetics(struct Pokemon *mon);
+enum Ability Fusion_RollRandomPassive(struct Pokemon *mon, const struct FusionGenetics *genetics);
+enum Type Fusion_RollRandomThirdType(enum Species species);
+
+// fusion_tower.c
+struct Trainer;
+extern bool8 gFusionTowerBattle;
+extern bool8 gFusionDebugTowerAutoWin;
+const struct Trainer *Fusion_GetTowerTrainer(void);
+bool32 Fusion_IsTowerUnlocked(void);
+
+// Reincarnation (New Game+), gene items
+u32 Fusion_GetNewGamePlusCount(void);
+void *Fusion_StashReincarnation(void);
+void Fusion_RestoreReincarnation(void *data);
+void Fusion_ApplyNewGamePlusToTrainerParty(struct Pokemon *party);
+bool32 Fusion_UseGeneItem(struct Pokemon *mon, enum Item item, u8 *dest);
+u32 Fusion_GetTowerOpponentLevel(u32 floor, u32 playerTopLevel);
+u32 Fusion_GetTowerPartySize(u32 floor);
+void Fusion_BuildTowerFloor(u32 floor, u32 seed);
+void Fusion_ScriptTowerBufferStatus(void);
+void Fusion_ScriptTowerPrepareFloor(void);
+void Fusion_ScriptTowerStartBattle(void);
+void Fusion_ScriptTowerAfterBattle(void);
+void Fusion_ScriptTowerEndRun(void);
+void Fusion_ScriptTowerRollRewards(void);
+void Fusion_ScriptTowerGrantReward(void);
+u32 Fusion_GetShardShopCost(u32 entry);
+void Fusion_ScriptShopBufferEntry(void);
+void Fusion_ScriptShopBuy(void);
+void Fusion_ScriptReincarnationStatus(void);
+void Fusion_ScriptSetReincarnation(void);
 
 // fusion_wild.c
 struct WildPokemon;
@@ -64,8 +95,9 @@ enum Species Fusion_RandomizeWildSpeciesWithSeed(enum Species original, u32 key,
 bool32 Fusion_CanAppearAsRandomWild(enum Species species);
 enum Species Fusion_GetWildSlotSpecies(const struct WildPokemon *slot);
 void Fusion_RerollWildSeed(void);
-#define FUSION_BATTLE_MESSAGE_SIZE 96
+#define FUSION_BATTLE_MESSAGE_SIZE 160
 extern u8 gFusionBattleMessage[FUSION_BATTLE_MESSAGE_SIZE];
+void Fusion_BufferCaughtAppraisal(struct Pokemon *mon);
 void BS_FusionCaughtAppraisal(void);
 
 enum FusionCheckResult

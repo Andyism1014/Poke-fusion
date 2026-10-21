@@ -362,6 +362,8 @@ static void DebugAction_Player_Gender(u8 taskId);
 static void DebugAction_Player_Id(u8 taskId);
 
 static void DebugAction_Fusion_CycleCaptureMode(u8 taskId);
+static void DebugAction_Fusion_ToggleTowerAutoWin(u8 taskId);
+static void DebugAction_Fusion_AddShards(u8 taskId);
 static void DebugAction_Fusion_FillBoxWithMaterials(u8 taskId);
 static void DebugAction_Fusion_FillAllBoxesWithMaterials(u8 taskId);
 
@@ -783,6 +785,8 @@ static const struct DebugMenuOption sDebugMenu_Actions_Fusion[] =
     { COMPOUND_STRING("Fill all boxes w/ mats"), DebugAction_Fusion_FillAllBoxesWithMaterials },
     { COMPOUND_STRING("Wild battle (own party)"), DebugAction_ExecuteScript, Debug_EventScript_FusionWildBattle },
     { COMPOUND_STRING("Wild battle (this map)"), DebugAction_ExecuteScript, Debug_EventScript_FusionLocalWildBattle },
+    { COMPOUND_STRING("Tower: auto-win toggle"), DebugAction_Fusion_ToggleTowerAutoWin },
+    { COMPOUND_STRING("Tower: +100 Shards"),     DebugAction_Fusion_AddShards },
     { NULL }
 };
 
@@ -3949,6 +3953,22 @@ static void DebugAction_Fusion_CycleCaptureMode(u8 taskId)
 {
     StringCopy(gStringVar1, Fusion_Debug_GetCaptureModeName(Fusion_Debug_CycleCaptureMode()));
     StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("Capture mode is now\n{STR_VAR_1}."));
+    Debug_DestroyMenu_Full_Script(taskId, Debug_ShowFieldMessageStringVar4);
+}
+
+static void DebugAction_Fusion_ToggleTowerAutoWin(u8 taskId)
+{
+    gFusionDebugTowerAutoWin ^= TRUE;
+    StringExpandPlaceholders(gStringVar4, gFusionDebugTowerAutoWin ? COMPOUND_STRING("Tower floors are now won\nwithout battling.")
+                                                                   : COMPOUND_STRING("Tower battles are back\nto normal."));
+    Debug_DestroyMenu_Full_Script(taskId, Debug_ShowFieldMessageStringVar4);
+}
+
+static void DebugAction_Fusion_AddShards(u8 taskId)
+{
+    gSaveBlock3Ptr->fusionTower.shards = min(gSaveBlock3Ptr->fusionTower.shards + 100, FUSION_TOWER_MAX_SHARDS);
+    ConvertIntToDecimalStringN(gStringVar1, gSaveBlock3Ptr->fusionTower.shards, STR_CONV_MODE_LEFT_ALIGN, 5);
+    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("You now have\n{STR_VAR_1} Fusion Shards."));
     Debug_DestroyMenu_Full_Script(taskId, Debug_ShowFieldMessageStringVar4);
 }
 

@@ -278,9 +278,13 @@ static inline u16 GetPartnerIdFromTrainerId(u16 trainerId)
     return (trainerId - TRAINER_PARTNER(PARTNER_NONE));
 }
 
+extern bool8 gFusionTowerBattle;
+const struct Trainer *Fusion_GetTowerTrainer(void);
+
 static inline const struct Trainer *GetTrainerStructFromId(u16 trainerId)
 {
     if (gIsDebugBattle) return GetDebugAiTrainer();
+    if (gFusionTowerBattle) return Fusion_GetTowerTrainer();
     enum DifficultyLevel difficulty;
 
     if (IsPartnerTrainerId(trainerId))

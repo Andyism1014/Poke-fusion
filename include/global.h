@@ -254,6 +254,19 @@ struct NPCFollower
 #include "constants/items.h"
 #define ITEM_FLAGS_COUNT ((ITEMS_COUNT / 8) + ((ITEMS_COUNT % 8) ? 1 : 0))
 
+// Fusion Tower progress, kept across runs (and New Game+).
+struct FusionTowerSave
+{
+    u32 runSeed;
+    u16 floor;     // Floors cleared in the current run.
+    u16 bestFloor;
+    u16 shards;    // Currency earned in the tower.
+    u8 inRun:1;
+    u8 reincarnationPending:1; // The next NEW GAME carries the saved party over.
+    u8 padding:6;
+    u8 ngPlusCount;            // Completed reincarnations (New Game+ cycles).
+};
+
 struct SaveBlock3
 {
 #if OW_USE_FAKE_RTC
@@ -273,6 +286,7 @@ struct SaveBlock3
     u8 apricornTrees[NUM_APRICORN_TREE_BYTES];
 #endif
     u32 fusionWildSeed; // Fusion: all-generation wild encounters, see fusion_wild.c
+    struct FusionTowerSave fusionTower; // Fusion: see fusion_tower.c
 }; /* max size 1624 bytes */
 
 extern struct SaveBlock3 *gSaveBlock3Ptr;

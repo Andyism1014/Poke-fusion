@@ -1054,6 +1054,8 @@ enum __attribute__((packed)) Item
 
     // Fusion
     ITEM_FUSION_TERMINAL = 874,
+    ITEM_PASSIVE_CRYSTAL = 875,
+    ITEM_TYPE_PRISM = 876,
 
     ITEMS_COUNT,
     ITEM_FIELD_ARROW = ITEMS_COUNT,
