@@ -7,1708 +7,1708 @@ msgstr ""
 
 #: src/data/trainers.h:33 src/data/trainers.h:44869 src/data/trainers.h:44917 src/data/trainers.h:44977 src/data/trainers.h:45037
 msgid "SAWYER"
-msgstr ""
+msgstr "索耶"
 
 #: src/data/trainers.h:69 src/data/trainers.h:105 src/data/trainers.h:153 src/data/trainers.h:189 src/data/trainers.h:225 src/data/trainers.h:261 src/data/trainers.h:297 src/data/trainers.h:429 (+45 more)
 msgid "GRUNT"
-msgstr ""
+msgstr "手下"
 
 #: src/data/trainers.h:333 src/data/trainers.h:45097 src/data/trainers.h:45193 src/data/trainers.h:45289 src/data/trainers.h:45385
 msgid "GABRIELLE"
-msgstr ""
+msgstr "嘉布丽"
 
 #: src/data/trainers.h:465
 msgid "MARCEL"
-msgstr ""
+msgstr "马塞尔"
 
 #: src/data/trainers.h:563
 msgid "ED"
-msgstr ""
+msgstr "阿德"
 
 #: src/data/trainers.h:647
 msgid "DECLAN"
-msgstr ""
+msgstr "德克兰"
 
 #: src/data/trainers.h:1223
 msgid "FREDRICK"
-msgstr ""
+msgstr "弗雷德里克"
 
 #: src/data/trainers.h:1271
 msgid "MATT"
-msgstr ""
+msgstr "阿潮"
 
 #: src/data/trainers.h:1321
 msgid "ZANDER"
-msgstr ""
+msgstr "赞德"
 
 #: src/data/trainers.h:1357 src/data/trainers.h:1405
 msgid "SHELLY"
-msgstr ""
+msgstr "阿泉"
 
 #: src/data/trainers.h:1515
 msgid "LEAH"
-msgstr ""
+msgstr "莉娅"
 
 #: src/data/trainers.h:1551
 msgid "DAISY"
-msgstr ""
+msgstr "黛西"
 
 #: src/data/trainers.h:1599 src/data/trainers.h:1766 src/data/trainers.h:1814 src/data/trainers.h:1874 src/data/trainers.h:1934
 msgid "ROSE"
-msgstr ""
+msgstr "萝丝"
 
 #: src/data/trainers.h:1659
 msgid "FELIX"
-msgstr ""
+msgstr "菲利克斯"
 
 #: src/data/trainers.h:1718
 msgid "VIOLET"
-msgstr ""
+msgstr "紫罗兰"
 
 #: src/data/trainers.h:1994 src/data/trainers.h:2180 src/data/trainers.h:2223 src/data/trainers.h:2266 src/data/trainers.h:2309
 msgid "DUSTY"
-msgstr ""
+msgstr "达斯提"
 
 #: src/data/trainers.h:2037
 msgid "CHIP"
-msgstr ""
+msgstr "奇普"
 
 #: src/data/trainers.h:2118
 msgid "FOSTER"
-msgstr ""
+msgstr "福斯特"
 
 #: src/data/trainers.h:2352 src/data/trainers.h:2400 src/data/trainers.h:2448 src/data/trainers.h:2496 src/data/trainers.h:2544 src/data/trainers.h:2592
 msgid "GABBY & TY"
-msgstr ""
+msgstr "嘉碧和阿泰"
 
 #: src/data/trainers.h:2654 src/data/trainers.h:2774 src/data/trainers.h:2822 src/data/trainers.h:2870 src/data/trainers.h:2918 src/data/battle_frontier/apprentice.h:324
 msgid "LOLA"
-msgstr ""
+msgstr "萝拉"
 
 #: src/data/trainers.h:2702
 msgid "AUSTINA"
-msgstr ""
+msgstr "奥斯汀娜"
 
 #: src/data/trainers.h:2738
 msgid "GWEN"
-msgstr ""
+msgstr "格温"
 
 #: src/data/trainers.h:2966 src/data/trainers.h:3093 src/data/trainers.h:3136 src/data/trainers.h:3179 src/data/trainers.h:3222
 msgid "RICKY"
-msgstr ""
+msgstr "瑞奇"
 
 #: src/data/trainers.h:3009
 msgid "SIMON"
-msgstr ""
+msgstr "西蒙"
 
 #: src/data/trainers.h:3057
 msgid "CHARLIE"
-msgstr ""
+msgstr "查理"
 
 #: src/data/trainers.h:3265
 msgid "RANDALL"
-msgstr ""
+msgstr "兰德尔"
 
 #: src/data/trainers.h:3309
 msgid "PARKER"
-msgstr ""
+msgstr "帕克"
 
 #: src/data/trainers.h:3353
 msgid "GEORGE"
-msgstr ""
+msgstr "乔治"
 
 #: src/data/trainers.h:3399
 msgid "BERKE"
-msgstr ""
+msgstr "伯克"
 
 #: src/data/trainers.h:3442
 msgid "BRAXTON"
-msgstr ""
+msgstr "布拉顿"
 
 #: src/data/trainers.h:3563
 msgid "VINCENT"
-msgstr ""
+msgstr "文森特"
 
 #: src/data/trainers.h:3625
 msgid "LEROY"
-msgstr ""
+msgstr "勒罗伊"
 
 #: src/data/trainers.h:3675 src/data/trainers.h:4035 src/data/trainers.h:4097 src/data/trainers.h:4159 src/data/trainers.h:4221
 msgid "WILTON"
-msgstr ""
+msgstr "威尔顿"
 
 #: src/data/trainers.h:3737
 msgid "EDGAR"
-msgstr ""
+msgstr "埃德加"
 
 #: src/data/trainers.h:3837
 msgid "SAMUEL"
-msgstr ""
+msgstr "塞缪尔"
 
 #: src/data/trainers.h:3899
 msgid "VITO"
-msgstr ""
+msgstr "维托"
 
 #: src/data/trainers.h:4283
 msgid "WARREN"
-msgstr ""
+msgstr "沃伦"
 
 #: src/data/trainers.h:4333
 msgid "MARY"
-msgstr ""
+msgstr "玛丽"
 
 #: src/data/trainers.h:4376
 msgid "ALEXIA"
-msgstr ""
+msgstr "亚莉夏"
 
 #: src/data/trainers.h:4420
 msgid "JODY"
-msgstr ""
+msgstr "乔蒂"
 
 #: src/data/trainers.h:4463
 msgid "WENDY"
-msgstr ""
+msgstr "温蒂"
 
 #: src/data/trainers.h:4546
 msgid "KEIRA"
-msgstr ""
+msgstr "琪拉"
 
 #: src/data/trainers.h:4596 src/data/trainers.h:4946 src/data/trainers.h:5008 src/data/trainers.h:5070 src/data/trainers.h:5132
 msgid "BROOKE"
-msgstr ""
+msgstr "布鲁克"
 
 #: src/data/trainers.h:4658
 msgid "JENNIFER"
-msgstr ""
+msgstr "珍妮弗"
 
 #: src/data/trainers.h:4696
 msgid "HOPE"
-msgstr ""
+msgstr "霍普"
 
 #: src/data/trainers.h:4734
 msgid "SHANNON"
-msgstr ""
+msgstr "香农"
 
 #: src/data/trainers.h:4772
 msgid "MICHELLE"
-msgstr ""
+msgstr "米歇尔"
 
 #: src/data/trainers.h:4834
 msgid "CAROLINE"
-msgstr ""
+msgstr "卡洛琳"
 
 #: src/data/trainers.h:4884
 msgid "JULIE"
-msgstr ""
+msgstr "茱莉"
 
 #: src/data/trainers.h:5194
 msgid "PATRICIA"
-msgstr ""
+msgstr "帕翠莎"
 
 #: src/data/trainers.h:5242
 msgid "KINDRA"
-msgstr ""
+msgstr "金卓"
 
 #: src/data/trainers.h:5290
 msgid "TAMMY"
-msgstr ""
+msgstr "塔米"
 
 #: src/data/trainers.h:5338 src/data/trainers.h:5410 src/data/trainers.h:5458 src/data/trainers.h:5506 src/data/trainers.h:5554
 msgid "VALERIE"
-msgstr ""
+msgstr "瓦莱丽"
 
 #: src/data/trainers.h:5374
 msgid "TASHA"
-msgstr ""
+msgstr "塔莎"
 
 #: src/data/trainers.h:5614 src/data/trainers.h:5782 src/data/trainers.h:5907 src/data/trainers.h:5947 src/data/trainers.h:5987 src/data/trainers.h:6027
 msgid "CINDY"
-msgstr ""
+msgstr "辛蒂"
 
 #: src/data/trainers.h:5654
 msgid "DAPHNE"
-msgstr ""
+msgstr "达芙妮"
 
 #: src/data/trainers.h:5827
 msgid "BRIANNA"
-msgstr ""
+msgstr "布莉安娜"
 
 #: src/data/trainers.h:5867
 msgid "NAOMI"
-msgstr ""
+msgstr "娜奥米"
 
 #: src/data/trainers.h:6074
 msgid "MELISSA"
-msgstr ""
+msgstr "梅丽莎"
 
 #: src/data/trainers.h:6110
 msgid "SHEILA"
-msgstr ""
+msgstr "希拉"
 
 #: src/data/trainers.h:6146
 msgid "SHIRLEY"
-msgstr ""
+msgstr "雪莉"
 
 #: src/data/trainers.h:6182 src/data/trainers.h:6444 src/data/trainers.h:6506 src/data/trainers.h:6568 src/data/trainers.h:6630
 msgid "JESSICA"
-msgstr ""
+msgstr "杰西卡"
 
 #: src/data/trainers.h:6244
 msgid "CONNIE"
-msgstr ""
+msgstr "康妮"
 
 #: src/data/trainers.h:6280
 msgid "BRIDGET"
-msgstr ""
+msgstr "布丽姬"
 
 #: src/data/trainers.h:6316
 msgid "OLIVIA"
-msgstr ""
+msgstr "奥莉维亚"
 
 #: src/data/trainers.h:6396
 msgid "TIFFANY"
-msgstr ""
+msgstr "蒂芙尼"
 
 #: src/data/trainers.h:6692 src/data/trainers.h:6820 src/data/trainers.h:6860 src/data/trainers.h:6900 src/data/trainers.h:6940
 msgid "WINSTON"
-msgstr ""
+msgstr "温斯顿"
 
 #: src/data/trainers.h:6732
 msgid "MOLLIE"
-msgstr ""
+msgstr "茉莉"
 
 #: src/data/trainers.h:6780
 msgid "GARRET"
-msgstr ""
+msgstr "加勒特"
 
 #: src/data/trainers.h:6987 src/data/trainers.h:7143 src/data/trainers.h:7179 src/data/trainers.h:7227 src/data/trainers.h:7275
 msgid "STEVE"
-msgstr ""
+msgstr "史蒂夫"
 
 #: src/data/trainers.h:7023 src/data/trainers.h:45481 src/data/trainers.h:45529 src/data/trainers.h:45589 src/data/trainers.h:45649
 msgid "THALIA"
-msgstr ""
+msgstr "塔莉娅"
 
 #: src/data/trainers.h:7323
 msgid "LUIS"
-msgstr ""
+msgstr "路易斯"
 
 #: src/data/trainers.h:7359
 msgid "DOMINIK"
-msgstr ""
+msgstr "多米尼克"
 
 #: src/data/trainers.h:7395
 msgid "DOUGLAS"
-msgstr ""
+msgstr "道格拉斯"
 
 #: src/data/trainers.h:7443
 msgid "DARRIN"
-msgstr ""
+msgstr "达林"
 
 #: src/data/trainers.h:7503 src/data/trainers.h:8331 src/data/trainers.h:8367 src/data/trainers.h:8403 src/data/trainers.h:8451
 msgid "TONY"
-msgstr ""
+msgstr "托尼"
 
 #: src/data/trainers.h:7539
 msgid "JEROME"
-msgstr ""
+msgstr "杰罗姆"
 
 #: src/data/trainers.h:7575
 msgid "MATTHEW"
-msgstr ""
+msgstr "马修"
 
 #: src/data/trainers.h:7611 src/data/battle_frontier/apprentice.h:404
 msgid "DAVID"
-msgstr ""
+msgstr "大卫"
 
 #: src/data/trainers.h:7659
 msgid "SPENCER"
-msgstr ""
+msgstr "斯宾塞"
 
 #: src/data/trainers.h:7707
 msgid "ROLAND"
-msgstr ""
+msgstr "罗兰"
 
 #: src/data/trainers.h:7743
 msgid "NOLEN"
-msgstr ""
+msgstr "诺伦"
 
 #: src/data/trainers.h:7779
 msgid "STAN"
-msgstr ""
+msgstr "斯坦"
 
 #: src/data/trainers.h:7815
 msgid "BARRY"
-msgstr ""
+msgstr "巴里"
 
 #: src/data/trainers.h:7851
 msgid "DEAN"
-msgstr ""
+msgstr "迪恩"
 
 #: src/data/trainers.h:7911
 msgid "RODNEY"
-msgstr ""
+msgstr "罗德尼"
 
 #: src/data/trainers.h:7947
 msgid "RICHARD"
-msgstr ""
+msgstr "理查德"
 
 #: src/data/trainers.h:7983
 msgid "HERMAN"
-msgstr ""
+msgstr "赫尔曼"
 
 #: src/data/trainers.h:8031
 msgid "SANTIAGO"
-msgstr ""
+msgstr "圣地亚哥"
 
 #: src/data/trainers.h:8079
 msgid "GILBERT"
-msgstr ""
+msgstr "吉尔伯特"
 
 #: src/data/trainers.h:8115
 msgid "FRANKLIN"
-msgstr ""
+msgstr "富兰克林"
 
 #: src/data/trainers.h:8151
 msgid "KEVIN"
-msgstr ""
+msgstr "凯文"
 
 #: src/data/trainers.h:8187
 msgid "JACK"
-msgstr ""
+msgstr "杰克"
 
 #: src/data/trainers.h:8223
 msgid "DUDLEY"
-msgstr ""
+msgstr "达德利"
 
 #: src/data/trainers.h:8283
 msgid "CHAD"
-msgstr ""
+msgstr "查德"
 
 #: src/data/trainers.h:8499
 msgid "TAKAO"
-msgstr ""
+msgstr "隆夫"
 
 #: src/data/trainers.h:8535
 msgid "HITOSHI"
-msgstr ""
+msgstr "仁志"
 
 #: src/data/trainers.h:8583
 msgid "KIYO"
-msgstr ""
+msgstr "阿清"
 
 #: src/data/trainers.h:8619
 msgid "KOICHI"
-msgstr ""
+msgstr "浩一"
 
 #: src/data/trainers.h:8667 src/data/trainers.h:8703 src/data/trainers.h:8739 src/data/trainers.h:8787 src/data/trainers.h:8847
 msgid "NOB"
-msgstr ""
+msgstr "阿信"
 
 #: src/data/trainers.h:8921
 msgid "YUJI"
-msgstr ""
+msgstr "雄二"
 
 #: src/data/trainers.h:8969
 msgid "DAISUKE"
-msgstr ""
+msgstr "大辅"
 
 #: src/data/trainers.h:9005
 msgid "ATSUSHI"
-msgstr ""
+msgstr "敦史"
 
 #: src/data/trainers.h:9041
 msgid "KIRK"
-msgstr ""
+msgstr "柯克"
 
 #: src/data/trainers.h:9186
 msgid "SHAWN"
-msgstr ""
+msgstr "肖恩"
 
 #: src/data/trainers.h:9234 src/data/trainers.h:44629 src/data/trainers.h:44689 src/data/trainers.h:44749 src/data/trainers.h:44809
 msgid "FERNANDO"
-msgstr ""
+msgstr "费南多"
 
 #: src/data/trainers.h:9282 src/data/trainers.h:9330 src/data/trainers.h:9390 src/data/trainers.h:9450 src/data/trainers.h:9510
 msgid "DALTON"
-msgstr ""
+msgstr "道尔顿"
 
 #: src/data/trainers.h:9606
 msgid "JEFF"
-msgstr ""
+msgstr "杰夫"
 
 #: src/data/trainers.h:9654
 msgid "AXLE"
-msgstr ""
+msgstr "阿克斯"
 
 #: src/data/trainers.h:9690
 msgid "JACE"
-msgstr ""
+msgstr "杰斯"
 
 #: src/data/trainers.h:9726
 msgid "KEEGAN"
-msgstr ""
+msgstr "基根"
 
 #: src/data/trainers.h:9762 src/data/trainers.h:9810 src/data/trainers.h:9858 src/data/trainers.h:9906 src/data/trainers.h:9954
 msgid "BERNIE"
-msgstr ""
+msgstr "伯尼"
 
 #: src/data/trainers.h:10002
 msgid "DREW"
-msgstr ""
+msgstr "德鲁"
 
 #: src/data/trainers.h:10126
 msgid "LARRY"
-msgstr ""
+msgstr "拉里"
 
 #: src/data/trainers.h:10162
 msgid "SHANE"
-msgstr ""
+msgstr "沙恩"
 
 #: src/data/trainers.h:10210
 msgid "JUSTIN"
-msgstr ""
+msgstr "贾斯汀"
 
 #: src/data/trainers.h:10246 src/data/trainers.h:10366 src/data/trainers.h:10414 src/data/trainers.h:10462 src/data/trainers.h:10522
 msgid "ETHAN"
-msgstr ""
+msgstr "伊森"
 
 #: src/data/trainers.h:10294
 msgid "AUTUMN"
-msgstr ""
+msgstr "秋穗"
 
 #: src/data/trainers.h:10330
 msgid "TRAVIS"
-msgstr ""
+msgstr "崔维斯"
 
 #: src/data/trainers.h:10582
 msgid "BRENT"
-msgstr ""
+msgstr "布伦特"
 
 #: src/data/trainers.h:10618
 msgid "DONALD"
-msgstr ""
+msgstr "唐纳德"
 
 #: src/data/trainers.h:10678
 msgid "TAYLOR"
-msgstr ""
+msgstr "泰勒"
 
 #: src/data/trainers.h:10738 src/data/trainers.h:10846 src/data/trainers.h:10906 src/data/trainers.h:10966 src/data/trainers.h:11038
 msgid "JEFFREY"
-msgstr ""
+msgstr "杰弗里"
 
 #: src/data/trainers.h:10798
 msgid "DEREK"
-msgstr ""
+msgstr "德里克"
 
 #: src/data/trainers.h:11124
 msgid "EDWARD"
-msgstr ""
+msgstr "爱德华"
 
 #: src/data/trainers.h:11164
 msgid "PRESTON"
-msgstr ""
+msgstr "普雷斯顿"
 
 #: src/data/trainers.h:11200
 msgid "VIRGIL"
-msgstr ""
+msgstr "维吉尔"
 
 #: src/data/trainers.h:11236
 msgid "BLAKE"
-msgstr ""
+msgstr "布莱克"
 
 #: src/data/trainers.h:11272
 msgid "WILLIAM"
-msgstr ""
+msgstr "威廉"
 
 #: src/data/trainers.h:11332
 msgid "JOSHUA"
-msgstr ""
+msgstr "约书亚"
 
 #: src/data/trainers.h:11380 src/data/trainers.h:11416 src/data/trainers.h:11464 src/data/trainers.h:11512 src/data/trainers.h:11560
 msgid "CAMERON"
-msgstr ""
+msgstr "卡梅伦"
 
 #: src/data/trainers.h:11608
 msgid "JACLYN"
-msgstr ""
+msgstr "洁琳"
 
 #: src/data/trainers.h:11648
 msgid "HANNAH"
-msgstr ""
+msgstr "汉娜"
 
 #: src/data/trainers.h:11684
 msgid "SAMANTHA"
-msgstr ""
+msgstr "萨曼莎"
 
 #: src/data/trainers.h:11756
 msgid "KAYLA"
-msgstr ""
+msgstr "凯拉"
 
 #: src/data/trainers.h:11816
 msgid "ALEXIS"
-msgstr ""
+msgstr "亚莉丝"
 
 #: src/data/trainers.h:11864 src/data/trainers.h:11912 src/data/trainers.h:11960 src/data/trainers.h:12008 src/data/trainers.h:12056
 msgid "JACKI"
-msgstr ""
+msgstr "洁琪"
 
 #: src/data/trainers.h:12104 src/data/trainers.h:12224 src/data/trainers.h:12260 src/data/trainers.h:12322 src/data/trainers.h:12383
 msgid "WALTER"
-msgstr ""
+msgstr "沃尔特"
 
 #: src/data/trainers.h:12140
 msgid "MICAH"
-msgstr ""
+msgstr "米卡"
 
 #: src/data/trainers.h:12188
 msgid "THOMAS"
-msgstr ""
+msgstr "托马斯"
 
 #: src/data/trainers.h:12464
 msgid "SIDNEY"
-msgstr ""
+msgstr "花月"
 
 #: src/data/trainers.h:12839
 msgid "DRAKE"
-msgstr ""
+msgstr "源治"
 
 #: src/data/trainers.h:12964 src/data/trainers.h:38811 src/data/trainers.h:38917 src/data/trainers.h:39042 src/data/trainers.h:39167
 msgid "ROXANNE"
-msgstr ""
+msgstr "杜娟"
 
 #: src/data/trainers.h:13134 src/data/trainers.h:39792 src/data/trainers.h:39898 src/data/trainers.h:40023 src/data/trainers.h:40148
 msgid "WATTSON"
-msgstr ""
+msgstr "铁旋"
 
 #: src/data/trainers.h:13238 src/data/trainers.h:40292 src/data/trainers.h:40400 src/data/trainers.h:40527 src/data/trainers.h:40673
 msgid "FLANNERY"
-msgstr ""
+msgstr "亚莎"
 
 #: src/data/trainers.h:13342 src/data/trainers.h:40819 src/data/trainers.h:40925 src/data/trainers.h:41050 src/data/trainers.h:41175
 msgid "NORMAN"
-msgstr ""
+msgstr "千里"
 
 #: src/data/trainers.h:13569 src/data/trainers.h:41876 src/data/trainers.h:42003 src/data/trainers.h:42149 src/data/trainers.h:42295
 msgid "TATE&LIZA"
-msgstr ""
+msgstr "小枫和小南"
 
 #: src/data/trainers.h:13675 src/data/trainers.h:42441 src/data/trainers.h:42566 src/data/trainers.h:42691 src/data/trainers.h:42835
 msgid "JUAN"
-msgstr ""
+msgstr "亚当"
 
 #: src/data/trainers.h:13798 src/data/trainers.h:13930 src/data/trainers.h:13978 src/data/trainers.h:14026 src/data/trainers.h:14074
 msgid "JERRY"
-msgstr ""
+msgstr "杰瑞"
 
 #: src/data/trainers.h:13834
 msgid "TED"
-msgstr ""
+msgstr "泰德"
 
 #: src/data/trainers.h:13870
 msgid "PAUL"
-msgstr ""
+msgstr "保罗"
 
 #: src/data/trainers.h:14134 src/data/trainers.h:14218 src/data/trainers.h:14266 src/data/trainers.h:14314 src/data/trainers.h:14362
 msgid "KAREN"
-msgstr ""
+msgstr "凯伦"
 
 #: src/data/trainers.h:14170
 msgid "GEORGIA"
-msgstr ""
+msgstr "乔治娅"
 
 #: src/data/trainers.h:14410
 msgid "KATE & JOY"
-msgstr ""
+msgstr "凯特和乔伊"
 
 #: src/data/trainers.h:14472 src/data/trainers.h:14533 src/data/trainers.h:14594 src/data/trainers.h:14655 src/data/trainers.h:14716
 msgid "ANNA & MEG"
-msgstr ""
+msgstr "安娜和梅格"
 
 #: src/data/trainers.h:14777
 msgid "VICTOR"
-msgstr ""
+msgstr "维克多"
 
 #: src/data/trainers.h:14829 src/data/trainers.h:15017 src/data/trainers.h:15055 src/data/trainers.h:15093 src/data/trainers.h:15131
 msgid "MIGUEL"
-msgstr ""
+msgstr "米格尔"
 
 #: src/data/trainers.h:14867
 msgid "COLTON"
-msgstr ""
+msgstr "科尔顿"
 
 #: src/data/trainers.h:15169
 msgid "VICTORIA"
-msgstr ""
+msgstr "维多利亚"
 
 #: src/data/trainers.h:15207
 msgid "VANESSA"
-msgstr ""
+msgstr "凡妮莎"
 
 #: src/data/trainers.h:15245
 msgid "BETHANY"
-msgstr ""
+msgstr "贝瑟妮"
 
 #: src/data/trainers.h:15311 src/data/trainers.h:15363 src/data/trainers.h:15415 src/data/trainers.h:15467 src/data/trainers.h:15519
 msgid "ISABEL"
-msgstr ""
+msgstr "伊莎宝"
 
 #: src/data/trainers.h:15571 src/data/trainers.h:15607 src/data/trainers.h:15650 src/data/trainers.h:15693 src/data/trainers.h:15736
 msgid "TIMOTHY"
-msgstr ""
+msgstr "蒂莫西"
 
 #: src/data/trainers.h:15779
 msgid "VICKY"
-msgstr ""
+msgstr "维琪"
 
 #: src/data/trainers.h:15822 src/data/trainers.h:15870 src/data/trainers.h:15918 src/data/trainers.h:15966 src/data/trainers.h:16014
 msgid "SHELBY"
-msgstr ""
+msgstr "谢尔比"
 
 #: src/data/trainers.h:16062 src/data/trainers.h:16532 src/data/trainers.h:16568 src/data/trainers.h:16616 src/data/trainers.h:16676
 msgid "CALVIN"
-msgstr ""
+msgstr "卡尔文"
 
 #: src/data/trainers.h:16098
 msgid "BILLY"
-msgstr ""
+msgstr "比利"
 
 #: src/data/trainers.h:16146
 msgid "JOSH"
-msgstr ""
+msgstr "乔希"
 
 #: src/data/trainers.h:16186
 msgid "TOMMY"
-msgstr ""
+msgstr "汤米"
 
 #: src/data/trainers.h:16396
 msgid "KATELYNN"
-msgstr ""
+msgstr "凯特琳"
 
 #: src/data/trainers.h:16460
 msgid "JAYLEN"
-msgstr ""
+msgstr "杰伦"
 
 #: src/data/trainers.h:16496
 msgid "DILLON"
-msgstr ""
+msgstr "狄伦"
 
 #: src/data/trainers.h:16736
 msgid "EDDIE"
-msgstr ""
+msgstr "艾迪"
 
 #: src/data/trainers.h:16784
 msgid "ALLEN"
-msgstr ""
+msgstr "艾伦"
 
 #: src/data/trainers.h:16832
 msgid "TIMMY"
-msgstr ""
+msgstr "提米"
 
 #: src/data/trainers.h:17024
 msgid "ANDREW"
-msgstr ""
+msgstr "安德鲁"
 
 #: src/data/trainers.h:17084
 msgid "IVAN"
-msgstr ""
+msgstr "伊凡"
 
 #: src/data/trainers.h:17144
 msgid "CLAUDE"
-msgstr ""
+msgstr "克劳德"
 
 #: src/data/trainers.h:17204 src/data/trainers.h:17540 src/data/trainers.h:17600 src/data/trainers.h:17672 src/data/trainers.h:17744
 msgid "ELLIOT"
-msgstr ""
+msgstr "艾略特"
 
 #: src/data/trainers.h:17264
 msgid "NED"
-msgstr ""
+msgstr "内德"
 
 #: src/data/trainers.h:17300
 msgid "DALE"
-msgstr ""
+msgstr "戴尔"
 
 #: src/data/trainers.h:17372
 msgid "NOLAN"
-msgstr ""
+msgstr "诺兰"
 
 #: src/data/trainers.h:17408
 msgid "BARNY"
-msgstr ""
+msgstr "巴尼"
 
 #: src/data/trainers.h:17456
 msgid "WADE"
-msgstr ""
+msgstr "韦德"
 
 #: src/data/trainers.h:17492
 msgid "CARTER"
-msgstr ""
+msgstr "卡特"
 
 #: src/data/trainers.h:17816 src/data/battle_frontier/battle_tent.h:1685
 msgid "RONALD"
-msgstr ""
+msgstr "罗纳德"
 
 #: src/data/trainers.h:17912
 msgid "JACOB"
-msgstr ""
+msgstr "雅各布"
 
 #: src/data/trainers.h:17972
 msgid "ANTHONY"
-msgstr ""
+msgstr "安东尼"
 
 #: src/data/trainers.h:18020 src/data/trainers.h:18056 src/data/trainers.h:18092 src/data/trainers.h:18128 src/data/trainers.h:18164
 msgid "BENJAMIN"
-msgstr ""
+msgstr "本杰明"
 
 #: src/data/trainers.h:18200 src/data/trainers.h:18296 src/data/trainers.h:18332 src/data/trainers.h:18368 src/data/trainers.h:18404
 msgid "ABIGAIL"
-msgstr ""
+msgstr "艾比盖尔"
 
 #: src/data/trainers.h:18236
 msgid "JASMINE"
-msgstr ""
+msgstr "雅丝敏"
 
 #: src/data/trainers.h:18440 src/data/trainers.h:18476 src/data/trainers.h:18512 src/data/trainers.h:18548 src/data/trainers.h:18584
 msgid "DYLAN"
-msgstr ""
+msgstr "迪伦"
 
 #: src/data/trainers.h:18620 src/data/trainers.h:18656 src/data/trainers.h:18692 src/data/trainers.h:18728 src/data/trainers.h:18764 src/data/battle_frontier/apprentice.h:332
 msgid "MARIA"
-msgstr ""
+msgstr "玛丽亚"
 
 #: src/data/trainers.h:18848
 msgid "DEMETRIUS"
-msgstr ""
+msgstr "德米特里"
 
 #: src/data/trainers.h:18896 src/data/trainers.h:19028 src/data/trainers.h:19064 src/data/trainers.h:19100 src/data/trainers.h:19136
 msgid "ISAIAH"
-msgstr ""
+msgstr "以赛亚"
 
 #: src/data/trainers.h:18932 src/data/trainers.h:43937 src/data/trainers.h:43985 src/data/trainers.h:44045 src/data/trainers.h:44105 src/data/battle_frontier/apprentice.h:412
 msgid "PABLO"
-msgstr ""
+msgstr "巴勃罗"
 
 #: src/data/trainers.h:18980
 msgid "CHASE"
-msgstr ""
+msgstr "蔡斯"
 
 #: src/data/trainers.h:19172
 msgid "ISOBEL"
-msgstr ""
+msgstr "伊索贝尔"
 
 #: src/data/trainers.h:19208
 msgid "DONNY"
-msgstr ""
+msgstr "唐尼"
 
 #: src/data/trainers.h:19256
 msgid "TALIA"
-msgstr ""
+msgstr "塔莉亚"
 
 #: src/data/trainers.h:19292 src/data/trainers.h:19376 src/data/trainers.h:19412 src/data/trainers.h:19448 src/data/trainers.h:19484
 msgid "KATELYN"
-msgstr ""
+msgstr "凯特林"
 
 #: src/data/trainers.h:19328
 msgid "ALLISON"
-msgstr ""
+msgstr "艾莉森"
 
 #: src/data/trainers.h:19786
 msgid "AARON"
-msgstr ""
+msgstr "亚伦"
 
 #: src/data/trainers.h:19829
 msgid "PERRY"
-msgstr ""
+msgstr "佩里"
 
 #: src/data/trainers.h:19865
 msgid "HUGH"
-msgstr ""
+msgstr "雨果"
 
 #: src/data/trainers.h:19913
 msgid "PHIL"
-msgstr ""
+msgstr "菲尔"
 
 #: src/data/trainers.h:19949
 msgid "JARED"
-msgstr ""
+msgstr "贾里德"
 
 #: src/data/trainers.h:20009
 msgid "HUMBERTO"
-msgstr ""
+msgstr "温贝托"
 
 #: src/data/trainers.h:20045
 msgid "PRESLEY"
-msgstr ""
+msgstr "普雷斯利"
 
 #: src/data/trainers.h:20093
 msgid "EDWARDO"
-msgstr ""
+msgstr "爱德华多"
 
 #: src/data/trainers.h:20141
 msgid "COLIN"
-msgstr ""
+msgstr "科林"
 
 #: src/data/trainers.h:20189 src/data/trainers.h:20333 src/data/trainers.h:20381 src/data/trainers.h:20429 src/data/trainers.h:20477
 msgid "ROBERT"
-msgstr ""
+msgstr "罗伯特"
 
 #: src/data/trainers.h:20225
 msgid "BENNY"
-msgstr ""
+msgstr "班尼"
 
 #: src/data/trainers.h:20285
 msgid "CHESTER"
-msgstr ""
+msgstr "切斯特"
 
 #: src/data/trainers.h:20525
 msgid "ALEX"
-msgstr ""
+msgstr "亚历克斯"
 
 #: src/data/trainers.h:20573
 msgid "BECK"
-msgstr ""
+msgstr "贝克"
 
 #: src/data/trainers.h:20609
 msgid "YASU"
-msgstr ""
+msgstr "阿康"
 
 #: src/data/trainers.h:20645
 msgid "TAKASHI"
-msgstr ""
+msgstr "隆志"
 
 #: src/data/trainers.h:20693
 msgid "DIANNE"
-msgstr ""
+msgstr "黛安"
 
 #: src/data/trainers.h:20751
 msgid "JANI"
-msgstr ""
+msgstr "贾妮"
 
 #: src/data/trainers.h:20785 src/data/trainers.h:20910 src/data/trainers.h:21005 src/data/trainers.h:21100 src/data/trainers.h:21193
 msgid "LAO"
-msgstr ""
+msgstr "阿劳"
 
 #: src/data/trainers.h:20864
 msgid "LUNG"
-msgstr ""
+msgstr "阿龙"
 
 #: src/data/trainers.h:21290
 msgid "JOCELYN"
-msgstr ""
+msgstr "乔瑟琳"
 
 #: src/data/trainers.h:21326
 msgid "LAURA"
-msgstr ""
+msgstr "劳拉"
 
 #: src/data/trainers.h:21362 src/data/trainers.h:21482 src/data/trainers.h:21530 src/data/trainers.h:21578 src/data/trainers.h:21626
 msgid "CYNDY"
-msgstr ""
+msgstr "辛迪"
 
 #: src/data/trainers.h:21410
 msgid "CORA"
-msgstr ""
+msgstr "柯拉"
 
 #: src/data/trainers.h:21446
 msgid "PAULA"
-msgstr ""
+msgstr "宝拉"
 
 #: src/data/trainers.h:21674 src/data/trainers.h:21808 src/data/trainers.h:21851 src/data/trainers.h:21894 src/data/trainers.h:21956
 msgid "MADELINE"
-msgstr ""
+msgstr "玛德琳"
 
 #: src/data/trainers.h:21717
 msgid "CLARISSA"
-msgstr ""
+msgstr "克拉莉莎"
 
 #: src/data/trainers.h:21765
 msgid "ANGELICA"
-msgstr ""
+msgstr "安洁莉卡"
 
 #: src/data/trainers.h:22018
 msgid "BEVERLY"
-msgstr ""
+msgstr "贝芙莉"
 
 #: src/data/trainers.h:22066
 msgid "IMANI"
-msgstr ""
+msgstr "伊曼妮"
 
 #: src/data/trainers.h:22102
 msgid "KYLA"
-msgstr ""
+msgstr "凯菈"
 
 #: src/data/trainers.h:22138
 msgid "DENISE"
-msgstr ""
+msgstr "丹妮丝"
 
 #: src/data/trainers.h:22186
 msgid "BETH"
-msgstr ""
+msgstr "贝丝"
 
 #: src/data/trainers.h:22222
 msgid "TARA"
-msgstr ""
+msgstr "塔拉"
 
 #: src/data/trainers.h:22270
 msgid "MISSY"
-msgstr ""
+msgstr "米茜"
 
 #: src/data/trainers.h:22306
 msgid "ALICE"
-msgstr ""
+msgstr "爱丽丝"
 
 #: src/data/trainers.h:22366 src/data/trainers.h:23014 src/data/trainers.h:23050 src/data/trainers.h:23086 src/data/trainers.h:23134
 msgid "JENNY"
-msgstr ""
+msgstr "珍妮"
 
 #: src/data/trainers.h:22402
 msgid "GRACE"
-msgstr ""
+msgstr "格蕾丝"
 
 #: src/data/trainers.h:22438
 msgid "TANYA"
-msgstr ""
+msgstr "塔妮娅"
 
 #: src/data/trainers.h:22474
 msgid "SHARON"
-msgstr ""
+msgstr "莎伦"
 
 #: src/data/trainers.h:22510
 msgid "NIKKI"
-msgstr ""
+msgstr "妮琪"
 
 #: src/data/trainers.h:22558
 msgid "BRENDA"
-msgstr ""
+msgstr "布伦达"
 
 #: src/data/trainers.h:22594
 msgid "KATIE"
-msgstr ""
+msgstr "凯蒂"
 
 #: src/data/trainers.h:22642
 msgid "SUSIE"
-msgstr ""
+msgstr "苏西"
 
 #: src/data/trainers.h:22678
 msgid "KARA"
-msgstr ""
+msgstr "卡拉"
 
 #: src/data/trainers.h:22714
 msgid "DANA"
-msgstr ""
+msgstr "达娜"
 
 #: src/data/trainers.h:22750
 msgid "SIENNA"
-msgstr ""
+msgstr "西耶娜"
 
 #: src/data/trainers.h:22798
 msgid "DEBRA"
-msgstr ""
+msgstr "黛博拉"
 
 #: src/data/trainers.h:22834
 msgid "LINDA"
-msgstr ""
+msgstr "琳达"
 
 #: src/data/trainers.h:22882
 msgid "KAYLEE"
-msgstr ""
+msgstr "凯莉"
 
 #: src/data/trainers.h:22930
 msgid "LAUREL"
-msgstr ""
+msgstr "洛蕾尔"
 
 #: src/data/trainers.h:22978
 msgid "CARLEE"
-msgstr ""
+msgstr "卡尔莉"
 
 #: src/data/trainers.h:23194
 msgid "HEIDI"
-msgstr ""
+msgstr "海蒂"
 
 #: src/data/trainers.h:23256
 msgid "BECKY"
-msgstr ""
+msgstr "贝琪"
 
 #: src/data/trainers.h:23318
 msgid "CAROL"
-msgstr ""
+msgstr "卡罗尔"
 
 #: src/data/trainers.h:23366
 msgid "NANCY"
-msgstr ""
+msgstr "南希"
 
 #: src/data/trainers.h:23414
 msgid "MARTHA"
-msgstr ""
+msgstr "玛莎"
 
 #: src/data/trainers.h:23462 src/data/trainers.h:23613 src/data/trainers.h:23673 src/data/trainers.h:23733 src/data/trainers.h:23793
 msgid "DIANA"
-msgstr ""
+msgstr "戴安娜"
 
 #: src/data/trainers.h:23522
 msgid "CEDRIC"
-msgstr ""
+msgstr "塞德里克"
 
 #: src/data/trainers.h:23565
 msgid "IRENE"
-msgstr ""
+msgstr "艾琳"
 
 #: src/data/trainers.h:23853 src/data/trainers.h:23901 src/data/trainers.h:24045 src/data/trainers.h:24151 src/data/trainers.h:24199 src/data/trainers.h:24261
 msgid "AMY & LIV"
-msgstr ""
+msgstr "艾米和莉芙"
 
 #: src/data/trainers.h:23949 src/data/trainers.h:24093
 msgid "GINA & MIA"
-msgstr ""
+msgstr "吉娜和米娅"
 
 #: src/data/trainers.h:23997
 msgid "MIU & YUKI"
-msgstr ""
+msgstr "美羽和雪"
 
 #: src/data/trainers.h:24323
 msgid "HUEY"
-msgstr ""
+msgstr "修伊"
 
 #: src/data/trainers.h:24371
 msgid "EDMOND"
-msgstr ""
+msgstr "爱德蒙"
 
 #: src/data/trainers.h:24455
 msgid "DWAYNE"
-msgstr ""
+msgstr "德韦恩"
 
 #: src/data/trainers.h:24515
 msgid "PHILLIP"
-msgstr ""
+msgstr "菲利普"
 
 #: src/data/trainers.h:24563
 msgid "LEONARD"
-msgstr ""
+msgstr "伦纳德"
 
 #: src/data/trainers.h:24623
 msgid "DUNCAN"
-msgstr ""
+msgstr "邓肯"
 
 #: src/data/trainers.h:24911
 msgid "ELI"
-msgstr ""
+msgstr "伊莱"
 
 #: src/data/trainers.h:24947
 msgid "ANNIKA"
-msgstr ""
+msgstr "安妮卡"
 
 #: src/data/trainers.h:25013
 msgid "JAZMYN"
-msgstr ""
+msgstr "洁丝敏"
 
 #: src/data/trainers.h:25051
 msgid "JONAS"
-msgstr ""
+msgstr "乔纳斯"
 
 #: src/data/trainers.h:25094
 msgid "KAYLEY"
-msgstr ""
+msgstr "凯丽"
 
 #: src/data/trainers.h:25137
 msgid "AURON"
-msgstr ""
+msgstr "奥伦"
 
 #: src/data/trainers.h:25185
 msgid "KELVIN"
-msgstr ""
+msgstr "开尔文"
 
 #: src/data/trainers.h:25233
 msgid "MARLEY"
-msgstr ""
+msgstr "马利"
 
 #: src/data/trainers.h:25278
 msgid "REYNA"
-msgstr ""
+msgstr "蕾娜"
 
 #: src/data/trainers.h:25326
 msgid "HUDSON"
-msgstr ""
+msgstr "哈德森"
 
 #: src/data/trainers.h:25362
 msgid "CONOR"
-msgstr ""
+msgstr "康纳"
 
 #: src/data/trainers.h:25410 src/data/trainers.h:25566 src/data/trainers.h:25614 src/data/trainers.h:25662 src/data/trainers.h:25710
 msgid "EDWIN"
-msgstr ""
+msgstr "埃德温"
 
 #: src/data/trainers.h:25458
 msgid "HECTOR"
-msgstr ""
+msgstr "赫克托"
 
 #: src/data/trainers.h:25506 src/data/trainers.h:29884 src/data/trainers.h:36923
 msgid "TABITHA"
-msgstr ""
+msgstr "火村"
 
 #: src/data/trainers.h:26815 src/data/trainers.h:27009 src/data/trainers.h:27105 src/data/trainers.h:27201 src/data/trainers.h:27297
 msgid "ISAAC"
-msgstr ""
+msgstr "艾萨克"
 
 #: src/data/trainers.h:26911
 msgid "DAVIS"
-msgstr ""
+msgstr "戴维斯"
 
 #: src/data/trainers.h:26947
 msgid "MITCHELL"
-msgstr ""
+msgstr "米切尔"
 
 #: src/data/trainers.h:27393 src/data/trainers.h:27575 src/data/trainers.h:27671 src/data/trainers.h:27767 src/data/trainers.h:27863
 msgid "LYDIA"
-msgstr ""
+msgstr "莉迪亚"
 
 #: src/data/trainers.h:27489
 msgid "HALLE"
-msgstr ""
+msgstr "哈莉"
 
 #: src/data/trainers.h:27539
 msgid "GARRISON"
-msgstr ""
+msgstr "加里森"
 
 #: src/data/trainers.h:27959 src/data/trainers.h:28097 src/data/trainers.h:28135 src/data/trainers.h:28173 src/data/trainers.h:28211
 msgid "JACKSON"
-msgstr ""
+msgstr "杰克逊"
 
 #: src/data/trainers.h:28059
 msgid "SEBASTIAN"
-msgstr ""
+msgstr "塞巴斯蒂安"
 
 #: src/data/trainers.h:28261 src/data/trainers.h:28423 src/data/trainers.h:28473 src/data/trainers.h:28523 src/data/trainers.h:28573
 msgid "CATHERINE"
-msgstr ""
+msgstr "凯瑟琳"
 
 #: src/data/trainers.h:28311
 msgid "JENNA"
-msgstr ""
+msgstr "珍娜"
 
 #: src/data/trainers.h:28373
 msgid "SOPHIA"
-msgstr ""
+msgstr "索菲娅"
 
 #: src/data/trainers.h:28623
 msgid "JULIO"
-msgstr ""
+msgstr "胡里奥"
 
 #: src/data/trainers.h:28899
 msgid "BRENDEN"
-msgstr ""
+msgstr "布伦登"
 
 #: src/data/trainers.h:28935
 msgid "LILITH"
-msgstr ""
+msgstr "莉莉丝"
 
 #: src/data/trainers.h:28971
 msgid "CRISTIAN"
-msgstr ""
+msgstr "克里斯坦"
 
 #: src/data/trainers.h:29007
 msgid "SYLVIA"
-msgstr ""
+msgstr "西尔维娅"
 
 #: src/data/trainers.h:29043
 msgid "LEONARDO"
-msgstr ""
+msgstr "莱昂纳多"
 
 #: src/data/trainers.h:29079
 msgid "ATHENA"
-msgstr ""
+msgstr "雅典娜"
 
 #: src/data/trainers.h:29140
 msgid "HARRISON"
-msgstr ""
+msgstr "哈里森"
 
 #: src/data/trainers.h:29212
 msgid "CLARENCE"
-msgstr ""
+msgstr "克拉伦斯"
 
 #: src/data/trainers.h:29284
 msgid "NATE"
-msgstr ""
+msgstr "内特"
 
 #: src/data/trainers.h:29356
 msgid "CLIFFORD"
-msgstr ""
+msgstr "克利福德"
 
 #: src/data/trainers.h:29392
 msgid "NICHOLAS"
-msgstr ""
+msgstr "尼古拉斯"
 
 #: src/data/trainers.h:29620
 msgid "MACEY"
-msgstr ""
+msgstr "梅西"
 
 #: src/data/trainers.h:29752
 msgid "PAXTON"
-msgstr ""
+msgstr "帕克斯顿"
 
 #: src/data/trainers.h:29800
 msgid "ISABELLA"
-msgstr ""
+msgstr "伊莎贝拉"
 
 #: src/data/trainers.h:29956
 msgid "JONATHAN"
-msgstr ""
+msgstr "乔纳森"
 
 #: src/data/trainers.h:30226
 msgid "TIANA"
-msgstr ""
+msgstr "蒂亚娜"
 
 #: src/data/trainers.h:30274 src/data/trainers.h:30418 src/data/trainers.h:30466 src/data/trainers.h:30514 src/data/trainers.h:30562
 msgid "HALEY"
-msgstr ""
+msgstr "海莉"
 
 #: src/data/trainers.h:30322
 msgid "JANICE"
-msgstr ""
+msgstr "贾妮丝"
 
 #: src/data/trainers.h:30358
 msgid "VIVI"
-msgstr ""
+msgstr "薇薇"
 
 #: src/data/trainers.h:30622
 msgid "SALLY"
-msgstr ""
+msgstr "莎莉"
 
 #: src/data/trainers.h:30658
 msgid "ROBIN"
-msgstr ""
+msgstr "罗宾"
 
 #: src/data/trainers.h:30718
 msgid "ANDREA"
-msgstr ""
+msgstr "安德莉亚"
 
 #: src/data/trainers.h:30754
 msgid "CRISSY"
-msgstr ""
+msgstr "克莉丝"
 
 #: src/data/trainers.h:30802
 msgid "RICK"
-msgstr ""
+msgstr "瑞克"
 
 #: src/data/trainers.h:30850
 msgid "LYLE"
-msgstr ""
+msgstr "莱尔"
 
 #: src/data/trainers.h:30922
 msgid "JOSE"
-msgstr ""
+msgstr "何塞"
 
 #: src/data/trainers.h:30970
 msgid "DOUG"
-msgstr ""
+msgstr "道格"
 
 #: src/data/trainers.h:31018
 msgid "GREG"
-msgstr ""
+msgstr "格雷格"
 
 #: src/data/trainers.h:31066
 msgid "KENT"
-msgstr ""
+msgstr "肯特"
 
 #: src/data/trainers.h:31102 src/data/trainers.h:31150 src/data/trainers.h:31186 src/data/trainers.h:31234 src/data/trainers.h:31294
 msgid "JAMES"
-msgstr ""
+msgstr "詹姆斯"
 
 #: src/data/trainers.h:31366
 msgid "BRICE"
-msgstr ""
+msgstr "布莱斯"
 
 #: src/data/trainers.h:31414 src/data/trainers.h:31873 src/data/trainers.h:31945 src/data/trainers.h:32017 src/data/trainers.h:32089
 msgid "TRENT"
-msgstr ""
+msgstr "特伦特"
 
 #: src/data/trainers.h:31474
 msgid "LENNY"
-msgstr ""
+msgstr "伦尼"
 
 #: src/data/trainers.h:31522 src/data/trainers.h:31714
 msgid "LUCAS"
-msgstr ""
+msgstr "卢卡斯"
 
 #: src/data/trainers.h:31570
 msgid "ALAN"
-msgstr ""
+msgstr "阿兰"
 
 #: src/data/trainers.h:31630
 msgid "CLARK"
-msgstr ""
+msgstr "克拉克"
 
 #: src/data/trainers.h:31666
 msgid "ERIC"
-msgstr ""
+msgstr "艾瑞克"
 
 #: src/data/trainers.h:32161
 msgid "DEZ & LUKE"
-msgstr ""
+msgstr "德兹和卢克"
 
 #: src/data/trainers.h:32209
 msgid "LEA & JED"
-msgstr ""
+msgstr "莉雅和杰德"
 
 #: src/data/trainers.h:32257 src/data/trainers.h:32305 src/data/trainers.h:32353 src/data/trainers.h:32401 src/data/trainers.h:32449
 msgid "KIRA & DAN"
-msgstr ""
+msgstr "绮拉和阿丹"
 
 #: src/data/trainers.h:32497
 msgid "JOHANNA"
-msgstr ""
+msgstr "乔安娜"
 
 #: src/data/trainers.h:32533
 msgid "GERALD"
-msgstr ""
+msgstr "杰拉德"
 
 #: src/data/trainers.h:32578
 msgid "VIVIAN"
-msgstr ""
+msgstr "薇薇安"
 
 #: src/data/trainers.h:32640
 msgid "DANIELLE"
-msgstr ""
+msgstr "丹妮尔"
 
 #: src/data/trainers.h:32683
 msgid "HIDEO"
-msgstr ""
+msgstr "英雄"
 
 #: src/data/trainers.h:32745
 msgid "KEIGO"
-msgstr ""
+msgstr "启吾"
 
 #: src/data/trainers.h:32807
 msgid "RILEY"
-msgstr ""
+msgstr "莱利"
 
 #: src/data/trainers.h:32917
 msgid "ASHLEY"
-msgstr ""
+msgstr "艾希莉"
 
 #: src/data/trainers.h:33929
 msgid "JONAH"
-msgstr ""
+msgstr "约拿"
 
 #: src/data/trainers.h:33989
 msgid "HENRY"
-msgstr ""
+msgstr "亨利"
 
 #: src/data/trainers.h:34037
 msgid "ROGER"
-msgstr ""
+msgstr "罗杰"
 
 #: src/data/trainers.h:34097
 msgid "ALEXA"
-msgstr ""
+msgstr "亚莉莎"
 
 #: src/data/trainers.h:34147 src/data/battle_frontier/battle_frontier_trainers.h:1592
 msgid "RUBEN"
-msgstr ""
+msgstr "鲁本"
 
 #: src/data/trainers.h:34197 src/data/trainers.h:44165 src/data/trainers.h:44213 src/data/trainers.h:44273 src/data/trainers.h:44333
 msgid "KOJI"
-msgstr ""
+msgstr "浩二"
 
 #: src/data/trainers.h:34233
 msgid "WAYNE"
-msgstr ""
+msgstr "韦恩"
 
 #: src/data/trainers.h:34293
 msgid "AIDAN"
-msgstr ""
+msgstr "艾丹"
 
 #: src/data/trainers.h:34341
 msgid "REED"
-msgstr ""
+msgstr "里德"
 
 #: src/data/trainers.h:34389
 msgid "TISHA"
-msgstr ""
+msgstr "蒂莎"
 
 #: src/data/trainers.h:34425
 msgid "TORI & TIA"
-msgstr ""
+msgstr "托莉和蒂娅"
 
 #: src/data/trainers.h:34473
 msgid "KIM & IRIS"
-msgstr ""
+msgstr "金和艾莉丝"
 
 #: src/data/trainers.h:34535
 msgid "TYRA & IVY"
-msgstr ""
+msgstr "泰拉和艾薇"
 
 #: src/data/trainers.h:34597
 msgid "MEL & PAUL"
-msgstr ""
+msgstr "梅尔和保罗"
 
 #: src/data/trainers.h:34659 src/data/trainers.h:34721 src/data/trainers.h:34783 src/data/trainers.h:34845 src/data/trainers.h:34907
 msgid "JOHN & JAY"
-msgstr ""
+msgstr "约翰和杰伊"
 
 #: src/data/trainers.h:34969
 msgid "RELI & IAN"
-msgstr ""
+msgstr "蕾莉和伊恩"
 
 #: src/data/trainers.h:35017 src/data/trainers.h:35065 src/data/trainers.h:35113 src/data/trainers.h:35161 src/data/trainers.h:35209
 msgid "LILA & ROY"
-msgstr ""
+msgstr "莉拉和罗伊"
 
 #: src/data/trainers.h:35257
 msgid "LISA & RAY"
-msgstr ""
+msgstr "莉莎和雷伊"
 
 #: src/data/trainers.h:35305
 msgid "CHRIS"
-msgstr ""
+msgstr "克里斯"
 
 #: src/data/trainers.h:35377
 msgid "DAWSON"
-msgstr ""
+msgstr "道森"
 
 #: src/data/trainers.h:35427
 msgid "SARAH"
-msgstr ""
+msgstr "莎拉"
 
 #: src/data/trainers.h:35479
 msgid "DARIAN"
-msgstr ""
+msgstr "达里安"
 
 #: src/data/trainers.h:35515
 msgid "HAILEY"
-msgstr ""
+msgstr "海丽"
 
 #: src/data/trainers.h:35551
 msgid "CHANDLER"
-msgstr ""
+msgstr "钱德勒"
 
 #: src/data/trainers.h:35599
 msgid "KALEB"
-msgstr ""
+msgstr "卡勒布"
 
 #: src/data/trainers.h:35651
 msgid "JOSEPH"
-msgstr ""
+msgstr "约瑟夫"
 
 #: src/data/trainers.h:35699
 msgid "ALYSSA"
-msgstr ""
+msgstr "艾丽莎"
 
 #: src/data/trainers.h:35735
 msgid "MARCOS"
-msgstr ""
+msgstr "马科斯"
 
 #: src/data/trainers.h:35771
 msgid "RHETT"
-msgstr ""
+msgstr "瑞特"
 
 #: src/data/trainers.h:35807
 msgid "TYRON"
-msgstr ""
+msgstr "泰隆"
 
 #: src/data/trainers.h:35843
 msgid "CELINA"
-msgstr ""
+msgstr "瑟琳娜"
 
 #: src/data/trainers.h:35879
 msgid "BIANCA"
-msgstr ""
+msgstr "碧安卡"
 
 #: src/data/trainers.h:35915
 msgid "HAYDEN"
-msgstr ""
+msgstr "海登"
 
 #: src/data/trainers.h:35951
 msgid "SOPHIE"
-msgstr ""
+msgstr "苏菲"
 
 #: src/data/trainers.h:35999
 msgid "COBY"
-msgstr ""
+msgstr "科比"
 
 #: src/data/trainers.h:36047
 msgid "LAWRENCE"
-msgstr ""
+msgstr "劳伦斯"
 
 #: src/data/trainers.h:36095
 msgid "WYATT"
-msgstr ""
+msgstr "怀亚特"
 
 #: src/data/trainers.h:36143
 msgid "ANGELINA"
-msgstr ""
+msgstr "安洁丽娜"
 
 #: src/data/trainers.h:36191
 msgid "KAI"
-msgstr ""
+msgstr "阿凯"
 
 #: src/data/trainers.h:36263
 msgid "DEANDRE"
-msgstr ""
+msgstr "迪安德烈"
 
 #: src/data/trainers.h:36995
 msgid "DARCY"
-msgstr ""
+msgstr "达西"
 
 #: src/data/trainers.h:37105
 msgid "PETE"
-msgstr ""
+msgstr "皮特"
 
 #: src/data/trainers.h:37141
 msgid "ISABELLE"
-msgstr ""
+msgstr "伊莎贝尔"
 
 #: src/data/trainers.h:37177 src/data/trainers.h:43469 src/data/trainers.h:43517 src/data/trainers.h:43577 src/data/trainers.h:43637
 msgid "ANDRES"
-msgstr ""
+msgstr "安德烈"
 
 #: src/data/trainers.h:37225
 msgid "JOSUE"
-msgstr ""
+msgstr "何苏埃"
 
 #: src/data/trainers.h:37273
 msgid "CAMRON"
-msgstr ""
+msgstr "卡姆伦"
 
 #: src/data/trainers.h:37309 src/data/trainers.h:43697 src/data/trainers.h:43757 src/data/trainers.h:43817 src/data/trainers.h:43877
 msgid "CORY"
-msgstr ""
+msgstr "科里"
 
 #: src/data/trainers.h:37369
 msgid "CAROLINA"
-msgstr ""
+msgstr "卡罗莱娜"
 
 #: src/data/trainers.h:37431
 msgid "ELIJAH"
-msgstr ""
+msgstr "以利亚"
 
 #: src/data/trainers.h:37479
 msgid "CELIA"
-msgstr ""
+msgstr "西莉亚"
 
 #: src/data/trainers.h:37527
 msgid "BRYAN"
-msgstr ""
+msgstr "布莱恩"
 
 #: src/data/trainers.h:37575
 msgid "BRANDEN"
-msgstr ""
+msgstr "布兰登"
 
 #: src/data/trainers.h:37671
 msgid "SHAYLA"
-msgstr ""
+msgstr "谢拉"
 
 #: src/data/trainers.h:37719
 msgid "KYRA"
-msgstr ""
+msgstr "姬拉"
 
 #: src/data/trainers.h:37767
 msgid "JAIDEN"
-msgstr ""
+msgstr "杰登"
 
 #: src/data/trainers.h:37815
 msgid "ALIX"
-msgstr ""
+msgstr "艾丽克丝"
 
 #: src/data/trainers.h:37863
 msgid "HELENE"
-msgstr ""
+msgstr "海伦"
 
 #: src/data/trainers.h:37911
 msgid "MARLENE"
-msgstr ""
+msgstr "玛琳"
 
 #: src/data/trainers.h:37959
 msgid "DEVAN"
-msgstr ""
+msgstr "德万"
 
 #: src/data/trainers.h:38007
 msgid "JOHNSON"
-msgstr ""
+msgstr "约翰逊"
 
 #: src/data/trainers.h:38055
 msgid "MELINA"
-msgstr ""
+msgstr "梅琳娜"
 
 #: src/data/trainers.h:38091
 msgid "BRANDI"
-msgstr ""
+msgstr "布兰蒂"
 
 #: src/data/trainers.h:38127
 msgid "AISHA"
-msgstr ""
+msgstr "艾莎"
 
 #: src/data/trainers.h:38163
 msgid "MAKAYLA"
-msgstr ""
+msgstr "玛凯拉"
 
 #: src/data/trainers.h:38213
 msgid "FABIAN"
-msgstr ""
+msgstr "法比安"
 
 #: src/data/trainers.h:38249
 msgid "DAYTON"
-msgstr ""
+msgstr "代顿"
 
 #: src/data/trainers.h:38297
 msgid "RACHEL"
-msgstr ""
+msgstr "瑞秋"
 
 #: src/data/trainers.h:38333
 msgid "LEONEL"
-msgstr ""
+msgstr "莱昂内尔"
 
 #: src/data/trainers.h:38377
 msgid "CALLIE"
-msgstr ""
+msgstr "卡莉"
 
 #: src/data/trainers.h:38473
 msgid "MYLES"
-msgstr ""
+msgstr "迈尔斯"
 
 #: src/data/trainers.h:38569
 msgid "PAT"
-msgstr ""
+msgstr "帕特"
 
 #: src/data/trainers.h:38665 src/data/trainers.h:44393 src/data/trainers.h:44443 src/data/trainers.h:44505 src/data/trainers.h:44567
 msgid "CRISTIN"
-msgstr ""
+msgstr "克莉丝汀"
 
 #: src/data/trainers.h:42979
 msgid "ANGELO"
-msgstr ""
+msgstr "安杰洛"
 
 #: src/data/trainers.h:43039
 msgid "DARIUS"
-msgstr ""
+msgstr "大流士"
 
 #: src/data/trainers.h:43217
 msgid "ANABEL"
-msgstr ""
+msgstr "莉拉"
 
 #: src/data/trainers.h:43253
 msgid "TUCKER"
-msgstr ""
+msgstr "塔克"
 
 #: src/data/trainers.h:43289
 msgid "SPENSER"
-msgstr ""
+msgstr "斯潘塞"
 
 #: src/data/trainers.h:43325
 msgid "GRETA"
-msgstr ""
+msgstr "葛蕾塔"
 
 #: src/data/trainers.h:43361
 msgid "NOLAND"
-msgstr ""
+msgstr "诺兰德"
 
 #: src/data/trainers.h:45709
 msgid "MARIELA"
-msgstr ""
+msgstr "玛莉艾拉"
 
 #: src/data/trainers.h:45743
 msgid "ALVARO"
-msgstr ""
+msgstr "阿尔瓦罗"
 
 #: src/data/trainers.h:45789
 msgid "EVERETT"
-msgstr ""
+msgstr "艾佛列特"
