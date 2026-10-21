@@ -7,340 +7,340 @@ msgstr ""
 
 #: src/data/battle_frontier/battle_tent.h:514
 msgid "JOLIE"
-msgstr ""
+msgstr "茱莉"
 
 #: src/data/battle_frontier/battle_tent.h:522
 msgid "MALACHI"
-msgstr ""
+msgstr "玛拉基"
 
 #: src/data/battle_frontier/battle_tent.h:530
 msgid "KELSIE"
-msgstr ""
+msgstr "凯尔茜"
 
 #: src/data/battle_frontier/battle_tent.h:538
 msgid "DAVON"
-msgstr ""
+msgstr "达冯"
 
 #: src/data/battle_frontier/battle_tent.h:546
 msgid "GLENDA"
-msgstr ""
+msgstr "格伦达"
 
 #: src/data/battle_frontier/battle_tent.h:554
 msgid "HELENA"
-msgstr ""
+msgstr "海伦娜"
 
 #: src/data/battle_frontier/battle_tent.h:562
 msgid "RODOLFO"
-msgstr ""
+msgstr "罗道夫"
 
 #: src/data/battle_frontier/battle_tent.h:570
 msgid "DAVION"
-msgstr ""
+msgstr "戴维昂"
 
 #: src/data/battle_frontier/battle_tent.h:578
 msgid "KENDALL"
-msgstr ""
+msgstr "肯德尔"
 
 #: src/data/battle_frontier/battle_tent.h:586
 msgid "COLTEN"
-msgstr ""
+msgstr "科尔顿"
 
 #: src/data/battle_frontier/battle_tent.h:594
 msgid "IRVIN"
-msgstr ""
+msgstr "厄文"
 
 #: src/data/battle_frontier/battle_tent.h:602
 msgid "SHAUN"
-msgstr ""
+msgstr "肖恩"
 
 #: src/data/battle_frontier/battle_tent.h:610
 msgid "KYLER"
-msgstr ""
+msgstr "凯勒"
 
 #: src/data/battle_frontier/battle_tent.h:618
 msgid "MAGGIE"
-msgstr ""
+msgstr "麦琪"
 
 #: src/data/battle_frontier/battle_tent.h:626
 msgid "STEPHON"
-msgstr ""
+msgstr "斯蒂芬"
 
 #: src/data/battle_frontier/battle_tent.h:642
 msgid "REGGIE"
-msgstr ""
+msgstr "雷吉"
 
 #: src/data/battle_frontier/battle_tent.h:650
 msgid "JANAE"
-msgstr ""
+msgstr "贾奈"
 
 #: src/data/battle_frontier/battle_tent.h:658
 msgid "CAIDEN"
-msgstr ""
+msgstr "凯丹"
 
 #: src/data/battle_frontier/battle_tent.h:666
 msgid "KIRSTEN"
-msgstr ""
+msgstr "柯丝顿"
 
 #: src/data/battle_frontier/battle_tent.h:674
 msgid "KURTIS"
-msgstr ""
+msgstr "柯蒂斯"
 
 #: src/data/battle_frontier/battle_tent.h:682
 msgid "STEFAN"
-msgstr ""
+msgstr "斯特凡"
 
 #: src/data/battle_frontier/battle_tent.h:698
 msgid "DWANE"
-msgstr ""
+msgstr "德韦恩"
 
 #: src/data/battle_frontier/battle_tent.h:706
 msgid "MCKENNA"
-msgstr ""
+msgstr "麦肯娜"
 
 #: src/data/battle_frontier/battle_tent.h:722
 msgid "NATASHA"
-msgstr ""
+msgstr "娜塔莎"
 
 #: src/data/battle_frontier/battle_tent.h:730
 msgid "AUSTYN"
-msgstr ""
+msgstr "奥斯汀"
 
 #: src/data/battle_frontier/battle_tent.h:738
 msgid "DONOVAN"
-msgstr ""
+msgstr "多诺万"
 
 #: src/data/battle_frontier/battle_tent.h:746
 msgid "TAMIA"
-msgstr ""
+msgstr "塔米娅"
 
 #: src/data/battle_frontier/battle_tent.h:1637
 msgid "BRENNA"
-msgstr ""
+msgstr "布伦娜"
 
 #: src/data/battle_frontier/battle_tent.h:1645
 msgid "DILAN"
-msgstr ""
+msgstr "迪兰"
 
 #: src/data/battle_frontier/battle_tent.h:1653
 msgid "ELIANA"
-msgstr ""
+msgstr "埃莉安"
 
 #: src/data/battle_frontier/battle_tent.h:1661
 msgid "MARKUS"
-msgstr ""
+msgstr "马库斯"
 
 #: src/data/battle_frontier/battle_tent.h:1669
 msgid "CAITLYN"
-msgstr ""
+msgstr "凯特林"
 
 #: src/data/battle_frontier/battle_tent.h:1677
 msgid "DESIREE"
-msgstr ""
+msgstr "黛丝蕾"
 
 #: src/data/battle_frontier/battle_tent.h:1693
 msgid "ASHTEN"
-msgstr ""
+msgstr "阿什顿"
 
 #: src/data/battle_frontier/battle_tent.h:1701
 msgid "GERARD"
-msgstr ""
+msgstr "杰拉德"
 
 #: src/data/battle_frontier/battle_tent.h:1709
 msgid "BRADLY"
-msgstr ""
+msgstr "布拉德"
 
 #: src/data/battle_frontier/battle_tent.h:1725
 msgid "PRESTIN"
-msgstr ""
+msgstr "普雷斯"
 
 #: src/data/battle_frontier/battle_tent.h:1733
 msgid "ERNESTO"
-msgstr ""
+msgstr "埃内斯"
 
 #: src/data/battle_frontier/battle_tent.h:1741
 msgid "NALA"
-msgstr ""
+msgstr "娜拉"
 
 #: src/data/battle_frontier/battle_tent.h:1749
 msgid "DARNELL"
-msgstr ""
+msgstr "达内尔"
 
 #: src/data/battle_frontier/battle_tent.h:1757
 msgid "ASHLYN"
-msgstr ""
+msgstr "艾希琳"
 
 #: src/data/battle_frontier/battle_tent.h:1765
 msgid "ADDISON"
-msgstr ""
+msgstr "艾迪森"
 
 #: src/data/battle_frontier/battle_tent.h:1773
 msgid "JUSTINE"
-msgstr ""
+msgstr "贾丝汀"
 
 #: src/data/battle_frontier/battle_tent.h:1781
 msgid "TYSON"
-msgstr ""
+msgstr "泰森"
 
 #: src/data/battle_frontier/battle_tent.h:1789
 msgid "LAILA"
-msgstr ""
+msgstr "蕾拉"
 
 #: src/data/battle_frontier/battle_tent.h:1797
 msgid "WAREN"
-msgstr ""
+msgstr "沃伦"
 
 #: src/data/battle_frontier/battle_tent.h:1805
 msgid "TOBIAS"
-msgstr ""
+msgstr "托比亚"
 
 #: src/data/battle_frontier/battle_tent.h:1813
 msgid "JOSIAH"
-msgstr ""
+msgstr "约西亚"
 
 #: src/data/battle_frontier/battle_tent.h:1821
 msgid "DION"
-msgstr ""
+msgstr "狄昂"
 
 #: src/data/battle_frontier/battle_tent.h:1829
 msgid "KENZIE"
-msgstr ""
+msgstr "肯齐"
 
 #: src/data/battle_frontier/battle_tent.h:1837
 msgid "LILLIAN"
-msgstr ""
+msgstr "莉莲"
 
 #: src/data/battle_frontier/battle_tent.h:1845
 msgid "LESLEY"
-msgstr ""
+msgstr "莱丝利"
 
 #: src/data/battle_frontier/battle_tent.h:1853
 msgid "MARQUIS"
-msgstr ""
+msgstr "马奎斯"
 
 #: src/data/battle_frontier/battle_tent.h:1861
 msgid "FREDDY"
-msgstr ""
+msgstr "弗雷迪"
 
 #: src/data/battle_frontier/battle_tent.h:1869
 msgid "CECILIA"
-msgstr ""
+msgstr "塞西莉"
 
 #: src/data/battle_frontier/battle_tent.h:2563
 msgid "AMBER"
-msgstr ""
+msgstr "安珀"
 
 #: src/data/battle_frontier/battle_tent.h:2571
 msgid "JAVIER"
-msgstr ""
+msgstr "哈维尔"
 
 #: src/data/battle_frontier/battle_tent.h:2579
 msgid "NATALIE"
-msgstr ""
+msgstr "娜塔莉"
 
 #: src/data/battle_frontier/battle_tent.h:2587
 msgid "TREVE"
-msgstr ""
+msgstr "特雷夫"
 
 #: src/data/battle_frontier/battle_tent.h:2595
 msgid "ARIANNA"
-msgstr ""
+msgstr "阿丽安"
 
 #: src/data/battle_frontier/battle_tent.h:2603
 msgid "JADYN"
-msgstr ""
+msgstr "杰丁"
 
 #: src/data/battle_frontier/battle_tent.h:2611
 msgid "GERARDO"
-msgstr ""
+msgstr "赫拉多"
 
 #: src/data/battle_frontier/battle_tent.h:2619
 msgid "JONN"
-msgstr ""
+msgstr "琼恩"
 
 #: src/data/battle_frontier/battle_tent.h:2627
 msgid "ESTEBAN"
-msgstr ""
+msgstr "埃斯特"
 
 #: src/data/battle_frontier/battle_tent.h:2635
 msgid "JAMESON"
-msgstr ""
+msgstr "詹姆森"
 
 #: src/data/battle_frontier/battle_tent.h:2643
 msgid "ALANZO"
-msgstr ""
+msgstr "阿兰佐"
 
 #: src/data/battle_frontier/battle_tent.h:2651
 msgid "HOWARD"
-msgstr ""
+msgstr "霍华德"
 
 #: src/data/battle_frontier/battle_tent.h:2659
 msgid "CONRAD"
-msgstr ""
+msgstr "康拉德"
 
 #: src/data/battle_frontier/battle_tent.h:2667
 msgid "MAKENNA"
-msgstr ""
+msgstr "马肯娜"
 
 #: src/data/battle_frontier/battle_tent.h:2675
 msgid "BRAYAN"
-msgstr ""
+msgstr "布赖扬"
 
 #: src/data/battle_frontier/battle_tent.h:2683
 msgid "MARIANA"
-msgstr ""
+msgstr "玛丽安"
 
 #: src/data/battle_frontier/battle_tent.h:2691
 msgid "SHELDON"
-msgstr ""
+msgstr "谢尔顿"
 
 #: src/data/battle_frontier/battle_tent.h:2699
 msgid "GIANNA"
-msgstr ""
+msgstr "吉安娜"
 
 #: src/data/battle_frontier/battle_tent.h:2707
 msgid "YAHIR"
-msgstr ""
+msgstr "亚希尔"
 
 #: src/data/battle_frontier/battle_tent.h:2715
 msgid "BRITNEY"
-msgstr ""
+msgstr "布兰妮"
 
 #: src/data/battle_frontier/battle_tent.h:2723
 msgid "HECTER"
-msgstr ""
+msgstr "赫克特"
 
 #: src/data/battle_frontier/battle_tent.h:2731
 msgid "TANNOR"
-msgstr ""
+msgstr "坦纳"
 
 #: src/data/battle_frontier/battle_tent.h:2739
 msgid "BENJI"
-msgstr ""
+msgstr "本吉"
 
 #: src/data/battle_frontier/battle_tent.h:2747
 msgid "RORY"
-msgstr ""
+msgstr "罗里"
 
 #: src/data/battle_frontier/battle_tent.h:2755
 msgid "ELEANOR"
-msgstr ""
+msgstr "埃莉诺"
 
 #: src/data/battle_frontier/battle_tent.h:2763
 msgid "EVELYN"
-msgstr ""
+msgstr "伊芙琳"
 
 #: src/data/battle_frontier/battle_tent.h:2771
 msgid "ARIELLE"
-msgstr ""
+msgstr "艾丽尔"
 
 #: src/data/battle_frontier/battle_tent.h:2779
 msgid "CONNAR"
-msgstr ""
+msgstr "康纳尔"
 
 #: src/data/battle_frontier/battle_tent.h:2787
 msgid "MAURICE"
-msgstr ""
+msgstr "莫里斯"
 
 #: src/data/battle_frontier/battle_tent.h:2795
 msgid "KIANNA"
-msgstr ""
+msgstr "琪安娜"

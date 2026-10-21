@@ -7,324 +7,324 @@ msgstr ""
 
 #: src/data/battle_frontier/apprentice.h:300
 msgid "サダヒロ"
-msgstr ""
+msgstr "贞弘"
 
 #: src/data/battle_frontier/apprentice.h:300
 msgid "ALANN"
-msgstr ""
+msgstr "艾兰"
 
 #: src/data/battle_frontier/apprentice.h:300
 msgid "ALAIN"
-msgstr ""
+msgstr "阿兰"
 
 #: src/data/battle_frontier/apprentice.h:300
 msgid "ADELFO"
-msgstr ""
+msgstr "阿德尔"
 
 #: src/data/battle_frontier/apprentice.h:300
 msgid "CLAUS"
-msgstr ""
+msgstr "克劳斯"
 
 #: src/data/battle_frontier/apprentice.h:300
 msgid "TEO"
-msgstr ""
+msgstr "特奥"
 
 #: src/data/battle_frontier/apprentice.h:308
 msgid "ヒロオ"
-msgstr ""
+msgstr "博雄"
 
 #: src/data/battle_frontier/apprentice.h:308 src/data/battle_frontier/apprentice.h:308
 msgid "LIONEL"
-msgstr ""
+msgstr "莱昂内"
 
 #: src/data/battle_frontier/apprentice.h:308
 msgid "CAIO"
-msgstr ""
+msgstr "凯奥"
 
 #: src/data/battle_frontier/apprentice.h:308
 msgid "LUDWIG"
-msgstr ""
+msgstr "路德维"
 
 #: src/data/battle_frontier/apprentice.h:308
 msgid "LEO"
-msgstr ""
+msgstr "利奥"
 
 #: src/data/battle_frontier/apprentice.h:316
 msgid "ケイジ"
-msgstr ""
+msgstr "启治"
 
 #: src/data/battle_frontier/apprentice.h:316
 msgid "SONNY"
-msgstr ""
+msgstr "桑尼"
 
 #: src/data/battle_frontier/apprentice.h:316
 msgid "HERVE"
-msgstr ""
+msgstr "埃尔韦"
 
 #: src/data/battle_frontier/apprentice.h:316
 msgid "FEDRO"
-msgstr ""
+msgstr "费德罗"
 
 #: src/data/battle_frontier/apprentice.h:316
 msgid "WENZEL"
-msgstr ""
+msgstr "文策尔"
 
 #: src/data/battle_frontier/apprentice.h:316
 msgid "SANTI"
-msgstr ""
+msgstr "桑蒂"
 
 #: src/data/battle_frontier/apprentice.h:324
 msgid "ユラ"
-msgstr ""
+msgstr "由良"
 
 #: src/data/battle_frontier/apprentice.h:324 src/data/battle_frontier/apprentice.h:324
 msgid "LAYLA"
-msgstr ""
+msgstr "莱拉"
 
 #: src/data/battle_frontier/apprentice.h:324
 msgid "ASTRID"
-msgstr ""
+msgstr "阿斯特"
 
 #: src/data/battle_frontier/apprentice.h:324
 msgid "SONJA"
-msgstr ""
+msgstr "索尼娅"
 
 #: src/data/battle_frontier/apprentice.h:332
 msgid "ヨウカ"
-msgstr ""
+msgstr "阳华"
 
 #: src/data/battle_frontier/apprentice.h:332
 msgid "MACY"
-msgstr ""
+msgstr "梅西"
 
 #: src/data/battle_frontier/apprentice.h:332 src/data/battle_frontier/apprentice.h:348
 msgid "AMELIE"
-msgstr ""
+msgstr "阿梅莉"
 
 #: src/data/battle_frontier/apprentice.h:332
 msgid "CLEO"
-msgstr ""
+msgstr "克莉奥"
 
 #: src/data/battle_frontier/apprentice.h:332
 msgid "ELISA"
-msgstr ""
+msgstr "埃莉莎"
 
 #: src/data/battle_frontier/apprentice.h:340
 msgid "ヤスシ"
-msgstr ""
+msgstr "康志"
 
 #: src/data/battle_frontier/apprentice.h:340
 msgid "DONTE"
-msgstr ""
+msgstr "唐特"
 
 #: src/data/battle_frontier/apprentice.h:340
 msgid "BRAHIM"
-msgstr ""
+msgstr "布拉欣"
 
 #: src/data/battle_frontier/apprentice.h:340
 msgid "GLAUCO"
-msgstr ""
+msgstr "格劳科"
 
 #: src/data/battle_frontier/apprentice.h:340
 msgid "JOSEF"
-msgstr ""
+msgstr "约瑟夫"
 
 #: src/data/battle_frontier/apprentice.h:340
 msgid "ROQUE"
-msgstr ""
+msgstr "罗克"
 
 #: src/data/battle_frontier/apprentice.h:348
 msgid "ミサオ"
-msgstr ""
+msgstr "美佐绪"
 
 #: src/data/battle_frontier/apprentice.h:348
 msgid "AMIRA"
-msgstr ""
+msgstr "阿米拉"
 
 #: src/data/battle_frontier/apprentice.h:348
 msgid "LAURE"
-msgstr ""
+msgstr "劳蕾"
 
 #: src/data/battle_frontier/apprentice.h:348
 msgid "DAFNE"
-msgstr ""
+msgstr "达芙妮"
 
 #: src/data/battle_frontier/apprentice.h:348
 msgid "LARA"
-msgstr ""
+msgstr "劳拉"
 
 #: src/data/battle_frontier/apprentice.h:356
 msgid "カズサ"
-msgstr ""
+msgstr "和纱"
 
 #: src/data/battle_frontier/apprentice.h:356
 msgid "KALI"
-msgstr ""
+msgstr "卡丽"
 
 #: src/data/battle_frontier/apprentice.h:356
 msgid "JODIE"
-msgstr ""
+msgstr "乔迪"
 
 #: src/data/battle_frontier/apprentice.h:356
 msgid "ILENIA"
-msgstr ""
+msgstr "伊蕾妮"
 
 #: src/data/battle_frontier/apprentice.h:356
 msgid "KARO"
-msgstr ""
+msgstr "卡萝"
 
 #: src/data/battle_frontier/apprentice.h:356
 msgid "ELSA"
-msgstr ""
+msgstr "艾莎"
 
 #: src/data/battle_frontier/apprentice.h:364
 msgid "スミレ"
-msgstr ""
+msgstr "小堇"
 
 #: src/data/battle_frontier/apprentice.h:364 src/data/battle_frontier/apprentice.h:364
 msgid "ANNIE"
-msgstr ""
+msgstr "安妮儿"
 
 #: src/data/battle_frontier/apprentice.h:364
 msgid "IMELDA"
-msgstr ""
+msgstr "伊梅尔"
 
 #: src/data/battle_frontier/apprentice.h:364
 msgid "INES"
-msgstr ""
+msgstr "伊内丝"
 
 #: src/data/battle_frontier/apprentice.h:372
 msgid "アキノリ"
-msgstr ""
+msgstr "明德"
 
 #: src/data/battle_frontier/apprentice.h:372
 msgid "DILLEN"
-msgstr ""
+msgstr "迪伦"
 
 #: src/data/battle_frontier/apprentice.h:372
 msgid "RENE"
-msgstr ""
+msgstr "勒内"
 
 #: src/data/battle_frontier/apprentice.h:372
 msgid "INDRO"
-msgstr ""
+msgstr "因德罗"
 
 #: src/data/battle_frontier/apprentice.h:372
 msgid "DETLEF"
-msgstr ""
+msgstr "德特勒"
 
 #: src/data/battle_frontier/apprentice.h:372 src/data/battle_frontier/battle_frontier_trainers.h:1672
 msgid "PEDRO"
-msgstr ""
+msgstr "佩德罗"
 
 #: src/data/battle_frontier/apprentice.h:380
 msgid "トウゾウ"
-msgstr ""
+msgstr "藤藏"
 
 #: src/data/battle_frontier/apprentice.h:380
 msgid "DALLAS"
-msgstr ""
+msgstr "达拉斯"
 
 #: src/data/battle_frontier/apprentice.h:380
 msgid "BRUNO"
-msgstr ""
+msgstr "布鲁诺"
 
 #: src/data/battle_frontier/apprentice.h:380
 msgid "LEARCO"
-msgstr ""
+msgstr "莱亚科"
 
 #: src/data/battle_frontier/apprentice.h:380
 msgid "ANSGAR"
-msgstr ""
+msgstr "安斯加"
 
 #: src/data/battle_frontier/apprentice.h:380
 msgid "MANOLO"
-msgstr ""
+msgstr "马诺洛"
 
 #: src/data/battle_frontier/apprentice.h:388
 msgid "セイヤ"
-msgstr ""
+msgstr "圣也"
 
 #: src/data/battle_frontier/apprentice.h:388 src/data/battle_frontier/apprentice.h:388 src/data/battle_frontier/apprentice.h:388
 msgid "FRANK"
-msgstr ""
+msgstr "弗兰克"
 
 #: src/data/battle_frontier/apprentice.h:388
 msgid "OLINDO"
-msgstr ""
+msgstr "奥林多"
 
 #: src/data/battle_frontier/apprentice.h:388
 msgid "MAURO"
-msgstr ""
+msgstr "毛罗"
 
 #: src/data/battle_frontier/apprentice.h:396
 msgid "リュウジ"
-msgstr ""
+msgstr "龙二"
 
 #: src/data/battle_frontier/apprentice.h:396
 msgid "LAMONT"
-msgstr ""
+msgstr "拉蒙特"
 
 #: src/data/battle_frontier/apprentice.h:396
 msgid "XAV"
-msgstr ""
+msgstr "泽夫"
 
 #: src/data/battle_frontier/apprentice.h:396
 msgid "ORFEO"
-msgstr ""
+msgstr "奥菲欧"
 
 #: src/data/battle_frontier/apprentice.h:396
 msgid "JÜRGEN"
-msgstr ""
+msgstr "于尔根"
 
 #: src/data/battle_frontier/apprentice.h:404
 msgid "カツアキ"
-msgstr ""
+msgstr "胜明"
 
 #: src/data/battle_frontier/apprentice.h:404
 msgid "TYRESE"
-msgstr ""
+msgstr "泰瑞斯"
 
 #: src/data/battle_frontier/apprentice.h:404
 msgid "ANDY"
-msgstr ""
+msgstr "安迪"
 
 #: src/data/battle_frontier/apprentice.h:404
 msgid "PARIDE"
-msgstr ""
+msgstr "帕里德"
 
 #: src/data/battle_frontier/apprentice.h:404
 msgid "CHICHO"
-msgstr ""
+msgstr "奇乔"
 
 #: src/data/battle_frontier/apprentice.h:412
 msgid "トシミツ"
-msgstr ""
+msgstr "俊光"
 
 #: src/data/battle_frontier/apprentice.h:412 src/data/battle_frontier/apprentice.h:412
 msgid "DANTE"
-msgstr ""
+msgstr "但丁"
 
 #: src/data/battle_frontier/apprentice.h:412
 msgid "RAOUL"
-msgstr ""
+msgstr "拉乌尔"
 
 #: src/data/battle_frontier/apprentice.h:412
 msgid "LOTHAR"
-msgstr ""
+msgstr "洛塔尔"
 
 #: src/data/battle_frontier/apprentice.h:420
 msgid "ローウェン"
-msgstr ""
+msgstr "罗温"
 
 #: src/data/battle_frontier/apprentice.h:420 src/data/battle_frontier/apprentice.h:420 src/data/battle_frontier/apprentice.h:420
 msgid "ARTURO"
-msgstr ""
+msgstr "阿图罗"
 
 #: src/data/battle_frontier/apprentice.h:420
 msgid "ROMOLO"
-msgstr ""
+msgstr "罗莫洛"
 
 #: src/data/battle_frontier/apprentice.h:420
 msgid "BRIAN"
-msgstr ""
+msgstr "布赖恩"

@@ -7,456 +7,456 @@ msgstr ""
 
 #: src/battle_dome.c:861
 msgid "The best candidate to be a champ!"
-msgstr ""
+msgstr "最有希望夺冠的候选人！"
 
 #: src/battle_dome.c:862
 msgid "A sure-finalist team."
-msgstr ""
+msgstr "必定能打进决赛的队伍。"
 
 #: src/battle_dome.c:863
 msgid "A likely top-three finisher."
-msgstr ""
+msgstr "很可能进入前三名的队伍。"
 
 #: src/battle_dome.c:864
 msgid "A candidate to finish first."
-msgstr ""
+msgstr "有望夺得第一名的候选人。"
 
 #: src/battle_dome.c:865
 msgid "A team with top-class potential."
-msgstr ""
+msgstr "具有顶级潜力的队伍。"
 
 #: src/battle_dome.c:866
 msgid "The dark horse team this tournament."
-msgstr ""
+msgstr "本次比赛的黑马队伍。"
 
 #: src/battle_dome.c:867
 msgid "A better-than-average team."
-msgstr ""
+msgstr "高于平均水平的队伍。"
 
 #: src/battle_dome.c:868
 msgid "This tournament's average team."
-msgstr ""
+msgstr "本次比赛中水平普通的队伍。"
 
 #: src/battle_dome.c:869
 msgid "A team with average potential."
-msgstr ""
+msgstr "潜力一般的队伍。"
 
 #: src/battle_dome.c:870
 msgid "A weaker-than-average team."
-msgstr ""
+msgstr "低于平均水平的队伍。"
 
 #: src/battle_dome.c:871
 msgid "A team looking for its first win."
-msgstr ""
+msgstr "正在争取首胜的队伍。"
 
 #: src/battle_dome.c:872
 msgid "One win will make this team proud."
-msgstr ""
+msgstr "赢一场就足以自豪的队伍。"
 
 #: src/battle_dome.c:873
 msgid "Overall, a weak team."
-msgstr ""
+msgstr "整体来说较弱的队伍。"
 
 #: src/battle_dome.c:874
 msgid "A team with very low potential."
-msgstr ""
+msgstr "潜力非常低的队伍。"
 
 #: src/battle_dome.c:875
 msgid "A team unlikely to win the tournament."
-msgstr ""
+msgstr "不太可能夺冠的队伍。"
 
 #: src/battle_dome.c:876
 msgid "The team most unlikely to win."
-msgstr ""
+msgstr "最不可能获胜的队伍。"
 
 #: src/battle_dome.c:877
 msgid "The perfect, invincible superstar!"
-msgstr ""
+msgstr "完美无敌的超级巨星！"
 
 #: src/battle_dome.c:883
 msgid "Willing to risk total disaster at times."
-msgstr ""
+msgstr "有时不惜冒全军覆没的风险。"
 
 #: src/battle_dome.c:884
 msgid "Skilled at enduring long battles."
-msgstr ""
+msgstr "擅长打持久战。"
 
 #: src/battle_dome.c:885
 msgid "Varies tactics to suit the opponent."
-msgstr ""
+msgstr "会根据对手改变战术。"
 
 #: src/battle_dome.c:886
 msgid "Has a tough winning pattern."
-msgstr ""
+msgstr "有一套难缠的制胜模式。"
 
 #: src/battle_dome.c:887
 msgid "Occasionally uses a very rare move."
-msgstr ""
+msgstr "偶尔会使用非常罕见的招式。"
 
 #: src/battle_dome.c:888
 msgid "Uses startling and disruptive moves."
-msgstr ""
+msgstr "会使用出人意料的扰乱招式。"
 
 #: src/battle_dome.c:889
 msgid "Constantly watches HP in battle."
-msgstr ""
+msgstr "对战中时刻关注HP。"
 
 #: src/battle_dome.c:890
 msgid "Good at storing then loosing power."
-msgstr ""
+msgstr "擅长蓄力后一口气释放。"
 
 #: src/battle_dome.c:891
 msgid "Skilled at enfeebling foes."
-msgstr ""
+msgstr "擅长削弱对手。"
 
 #: src/battle_dome.c:892
 msgid "Prefers tactics that rely on luck."
-msgstr ""
+msgstr "偏好依赖运气的战术。"
 
 #: src/battle_dome.c:893
 msgid "Attacks with a regal atmosphere."
-msgstr ""
+msgstr "以王者风范发动攻击。"
 
 #: src/battle_dome.c:894
 msgid "Attacks with powerful, low-PP moves."
-msgstr ""
+msgstr "用PP少的强力招式攻击。"
 
 #: src/battle_dome.c:895
 msgid "Skilled at enfeebling, then attacking."
-msgstr ""
+msgstr "擅长先削弱对手再攻击。"
 
 #: src/battle_dome.c:896
 msgid "Battles while enduring all attacks."
-msgstr ""
+msgstr "承受一切攻击坚持战斗。"
 
 #: src/battle_dome.c:897
 msgid "Skilled at upsetting foes emotionally."
-msgstr ""
+msgstr "擅长扰乱对手的情绪。"
 
 #: src/battle_dome.c:898
 msgid "Uses strong and straightforward moves."
-msgstr ""
+msgstr "使用强力而直接的招式。"
 
 #: src/battle_dome.c:899
 msgid "Aggressively uses strong moves."
-msgstr ""
+msgstr "积极使用强力招式。"
 
 #: src/battle_dome.c:900
 msgid "Battles while cleverly dodging attacks."
-msgstr ""
+msgstr "一边巧妙闪避攻击一边战斗。"
 
 #: src/battle_dome.c:901
 msgid "Skilled at using upsetting attacks."
-msgstr ""
+msgstr "擅长使用扰乱性的攻击。"
 
 #: src/battle_dome.c:902
 msgid "Uses many popular moves."
-msgstr ""
+msgstr "经常使用热门招式。"
 
 #: src/battle_dome.c:903
 msgid "Has moves for powerful combinations."
-msgstr ""
+msgstr "拥有能打出强力组合的招式。"
 
 #: src/battle_dome.c:904
 msgid "Uses high-probability attacks."
-msgstr ""
+msgstr "使用命中率高的攻击。"
 
 #: src/battle_dome.c:905
 msgid "Aggressively uses spectacular moves."
-msgstr ""
+msgstr "积极使用华丽的招式。"
 
 #: src/battle_dome.c:906
 msgid "Emphasizes offense over defense."
-msgstr ""
+msgstr "重攻击，轻防守。"
 
 #: src/battle_dome.c:907
 msgid "Emphasizes defense over offense."
-msgstr ""
+msgstr "重防守，轻攻击。"
 
 #: src/battle_dome.c:908
 msgid "Attacks quickly with strong moves."
-msgstr ""
+msgstr "用强力招式迅速攻击。"
 
 #: src/battle_dome.c:909
 msgid "Often uses moves with added effects."
-msgstr ""
+msgstr "经常使用带追加效果的招式。"
 
 #: src/battle_dome.c:910
 msgid "Uses a well-balanced mix of moves."
-msgstr ""
+msgstr "均衡地使用各种招式。"
 
 #: src/battle_dome.c:911
 msgid "This is sample message 1."
-msgstr ""
+msgstr "这是示例信息1。"
 
 #: src/battle_dome.c:912
 msgid "This is sample message 2."
-msgstr ""
+msgstr "这是示例信息2。"
 
 #: src/battle_dome.c:913
 msgid "This is sample message 3."
-msgstr ""
+msgstr "这是示例信息3。"
 
 #: src/battle_dome.c:914
 msgid "This is sample message 4."
-msgstr ""
+msgstr "这是示例信息4。"
 
 #: src/battle_dome.c:920
 msgid "Emphasizes HP and ATTACK."
-msgstr ""
+msgstr "重视HP和攻击。"
 
 #: src/battle_dome.c:921
 msgid "Emphasizes HP and DEFENSE."
-msgstr ""
+msgstr "重视HP和防御。"
 
 #: src/battle_dome.c:922
 msgid "Emphasizes HP and SPEED."
-msgstr ""
+msgstr "重视HP和速度。"
 
 #: src/battle_dome.c:923
 msgid "Emphasizes HP and SP. ATTACK."
-msgstr ""
+msgstr "重视HP和特攻。"
 
 #: src/battle_dome.c:924
 msgid "Emphasizes HP and SP. DEFENSE."
-msgstr ""
+msgstr "重视HP和特防。"
 
 #: src/battle_dome.c:925
 msgid "Emphasizes ATTACK and DEFENSE."
-msgstr ""
+msgstr "重视攻击和防御。"
 
 #: src/battle_dome.c:926
 msgid "Emphasizes ATTACK and SPEED."
-msgstr ""
+msgstr "重视攻击和速度。"
 
 #: src/battle_dome.c:927
 msgid "Emphasizes ATTACK and SP. ATTACK."
-msgstr ""
+msgstr "重视攻击和特攻。"
 
 #: src/battle_dome.c:928
 msgid "Emphasizes ATTACK and SP. DEFENSE."
-msgstr ""
+msgstr "重视攻击和特防。"
 
 #: src/battle_dome.c:929
 msgid "Emphasizes DEFENSE and SPEED."
-msgstr ""
+msgstr "重视防御和速度。"
 
 #: src/battle_dome.c:930
 msgid "Emphasizes DEFENSE and SP. ATTACK."
-msgstr ""
+msgstr "重视防御和特攻。"
 
 #: src/battle_dome.c:931
 msgid "Emphasizes DEFENSE and SP. DEFENSE."
-msgstr ""
+msgstr "重视防御和特防。"
 
 #: src/battle_dome.c:932
 msgid "Emphasizes SPEED and SP. ATTACK."
-msgstr ""
+msgstr "重视速度和特攻。"
 
 #: src/battle_dome.c:933
 msgid "Emphasizes SPEED and SP. DEFENSE."
-msgstr ""
+msgstr "重视速度和特防。"
 
 #: src/battle_dome.c:934
 msgid "Emphasizes SP. ATTACK and SP. DEFENSE."
-msgstr ""
+msgstr "重视特攻和特防。"
 
 #: src/battle_dome.c:935
 msgid "Emphasizes HP."
-msgstr ""
+msgstr "重视HP。"
 
 #: src/battle_dome.c:936
 msgid "Emphasizes ATTACK."
-msgstr ""
+msgstr "重视攻击。"
 
 #: src/battle_dome.c:937
 msgid "Emphasizes DEFENSE."
-msgstr ""
+msgstr "重视防御。"
 
 #: src/battle_dome.c:938
 msgid "Emphasizes SPEED."
-msgstr ""
+msgstr "重视速度。"
 
 #: src/battle_dome.c:939
 msgid "Emphasizes SP. ATTACK."
-msgstr ""
+msgstr "重视特攻。"
 
 #: src/battle_dome.c:940
 msgid "Emphasizes SP. DEFENSE."
-msgstr ""
+msgstr "重视特防。"
 
 #: src/battle_dome.c:941
 msgid "Neglects HP and ATTACK."
-msgstr ""
+msgstr "轻视HP和攻击。"
 
 #: src/battle_dome.c:942
 msgid "Neglects HP and DEFENSE."
-msgstr ""
+msgstr "轻视HP和防御。"
 
 #: src/battle_dome.c:943
 msgid "Neglects HP and SPEED."
-msgstr ""
+msgstr "轻视HP和速度。"
 
 #: src/battle_dome.c:944
 msgid "Neglects HP and SP. ATTACK."
-msgstr ""
+msgstr "轻视HP和特攻。"
 
 #: src/battle_dome.c:945
 msgid "Neglects HP and SP. DEFENSE."
-msgstr ""
+msgstr "轻视HP和特防。"
 
 #: src/battle_dome.c:946
 msgid "Neglects ATTACK and DEFENSE."
-msgstr ""
+msgstr "轻视攻击和防御。"
 
 #: src/battle_dome.c:947
 msgid "Neglects ATTACK and SPEED."
-msgstr ""
+msgstr "轻视攻击和速度。"
 
 #: src/battle_dome.c:948
 msgid "Neglects ATTACK and SP. ATTACK."
-msgstr ""
+msgstr "轻视攻击和特攻。"
 
 #: src/battle_dome.c:949
 msgid "Neglects ATTACK and SP. DEFENSE."
-msgstr ""
+msgstr "轻视攻击和特防。"
 
 #: src/battle_dome.c:950
 msgid "Neglects DEFENSE and SPEED."
-msgstr ""
+msgstr "轻视防御和速度。"
 
 #: src/battle_dome.c:951
 msgid "Neglects DEFENSE and SP. ATTACK."
-msgstr ""
+msgstr "轻视防御和特攻。"
 
 #: src/battle_dome.c:952
 msgid "Neglects DEFENSE and SP. DEFENSE."
-msgstr ""
+msgstr "轻视防御和特防。"
 
 #: src/battle_dome.c:953
 msgid "Neglects SPEED and SP. ATTACK."
-msgstr ""
+msgstr "轻视速度和特攻。"
 
 #: src/battle_dome.c:954
 msgid "Neglects SPEED and SP. DEFENSE."
-msgstr ""
+msgstr "轻视速度和特防。"
 
 #: src/battle_dome.c:955
 msgid "Neglects SP. ATTACK and SP. DEFENSE."
-msgstr ""
+msgstr "轻视特攻和特防。"
 
 #: src/battle_dome.c:956
 msgid "Neglects HP."
-msgstr ""
+msgstr "轻视HP。"
 
 #: src/battle_dome.c:957
 msgid "Neglects ATTACK."
-msgstr ""
+msgstr "轻视攻击。"
 
 #: src/battle_dome.c:958
 msgid "Neglects DEFENSE."
-msgstr ""
+msgstr "轻视防御。"
 
 #: src/battle_dome.c:959
 msgid "Neglects SPEED."
-msgstr ""
+msgstr "轻视速度。"
 
 #: src/battle_dome.c:960
 msgid "Neglects SP. ATTACK."
-msgstr ""
+msgstr "轻视特攻。"
 
 #: src/battle_dome.c:961
 msgid "Neglects SP. DEFENSE."
-msgstr ""
+msgstr "轻视特防。"
 
 #: src/battle_dome.c:962
 msgid "Raises POKéMON in a well-balanced way."
-msgstr ""
+msgstr "均衡地培育宝可梦。"
 
 #: src/battle_dome.c:982
 msgid "Round 1, Match 1"
-msgstr ""
+msgstr "第1轮 第1场"
 
 #: src/battle_dome.c:983
 msgid "Round 1, Match 2"
-msgstr ""
+msgstr "第1轮 第2场"
 
 #: src/battle_dome.c:984
 msgid "Round 1, Match 3"
-msgstr ""
+msgstr "第1轮 第3场"
 
 #: src/battle_dome.c:985
 msgid "Round 1, Match 4"
-msgstr ""
+msgstr "第1轮 第4场"
 
 #: src/battle_dome.c:986
 msgid "Round 1, Match 5"
-msgstr ""
+msgstr "第1轮 第5场"
 
 #: src/battle_dome.c:987
 msgid "Round 1, Match 6"
-msgstr ""
+msgstr "第1轮 第6场"
 
 #: src/battle_dome.c:988
 msgid "Round 1, Match 7"
-msgstr ""
+msgstr "第1轮 第7场"
 
 #: src/battle_dome.c:989
 msgid "Round 1, Match 8"
-msgstr ""
+msgstr "第1轮 第8场"
 
 #: src/battle_dome.c:990
 msgid "Round 2, Match 1"
-msgstr ""
+msgstr "第2轮 第1场"
 
 #: src/battle_dome.c:991
 msgid "Round 2, Match 2"
-msgstr ""
+msgstr "第2轮 第2场"
 
 #: src/battle_dome.c:992
 msgid "Round 2, Match 3"
-msgstr ""
+msgstr "第2轮 第3场"
 
 #: src/battle_dome.c:993
 msgid "Round 2, Match 4"
-msgstr ""
+msgstr "第2轮 第4场"
 
 #: src/battle_dome.c:994
 msgid "Semifinal Match 1"
-msgstr ""
+msgstr "半决赛 第1场"
 
 #: src/battle_dome.c:995
 msgid "Semifinal Match 2"
-msgstr ""
+msgstr "半决赛 第2场"
 
 #: src/battle_dome.c:996
 msgid "Final Match"
-msgstr ""
+msgstr "决赛"
 
 #: src/battle_dome.c:1001
 msgid "Let the battle begin!"
-msgstr ""
+msgstr "对战开始！"
 
 #: src/battle_dome.c:1002
 msgid "{STR_VAR_1} won using {STR_VAR_2}!"
-msgstr ""
+msgstr "{STR_VAR_1}使用{STR_VAR_2}获胜了！"
 
 #: src/battle_dome.c:1003
 msgid "{STR_VAR_1} became the champ!"
-msgstr ""
+msgstr "{STR_VAR_1}成为了冠军！"
 
 #: src/battle_dome.c:1004
 msgid "{STR_VAR_1} won by default!"
-msgstr ""
+msgstr "{STR_VAR_1}不战而胜！"
 
 #: src/battle_dome.c:1005
 msgid "{STR_VAR_1} won outright by default!"
-msgstr ""
+msgstr "{STR_VAR_1}不战而胜，直接晋级！"
 
 #: src/battle_dome.c:1006
 msgid "{STR_VAR_1} won without using a move!"
-msgstr ""
+msgstr "{STR_VAR_1}没有使用招式就获胜了！"
 
 #: src/battle_dome.c:1007
 msgid "{STR_VAR_1} won outright with no moves!"
-msgstr ""
+msgstr "{STR_VAR_1}没用招式就取得了完胜！"

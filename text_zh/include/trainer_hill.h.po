@@ -7,4 +7,4 @@ msgstr ""
 
 #: include/trainer_hill.h:4
 msgid "$$$$$$$$$$$"
-msgstr ""
+msgstr "$$$$$$$$$$$"

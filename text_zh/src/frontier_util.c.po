@@ -7,148 +7,184 @@ msgstr ""
 
 #: src/frontier_util.c:104
 msgid "Okay, I understand…"
-msgstr ""
+msgstr "好的，我明白了……"
 
 #: src/frontier_util.c:105
 msgid "Thank you…"
-msgstr ""
+msgstr "谢谢你……"
 
 #: src/frontier_util.c:108
 msgid "It's very disappointing…"
-msgstr ""
+msgstr "真是太遗憾了……"
 
 #: src/frontier_util.c:109
 msgid "I'm terribly sorry…"
-msgstr ""
+msgstr "非常抱歉……"
 
 #: src/frontier_util.c:122
 msgid ""
 "Grr…\n"
 "What the…"
 msgstr ""
+"呜……\n"
+"怎么会……"
 
 #: src/frontier_util.c:125
 msgid ""
 "Ahahaha!\n"
 "You're inspiring!"
 msgstr ""
+"啊哈哈哈！\n"
+"你真让人热血沸腾！"
 
 #: src/frontier_util.c:130
 msgid ""
 "Ahahaha! Aren't you embarrassed?\n"
 "Everyone's watching!"
 msgstr ""
+"啊哈哈哈！你不觉得丢脸吗？\n"
+"大家都在看着呢！"
 
 #: src/frontier_util.c:133
 msgid "My DOME ACE title isn't just for show!"
-msgstr ""
+msgstr "我巨蛋王牌的称号可不是虚名！"
 
 #: src/frontier_util.c:146
 msgid ""
 "Ah…\n"
 "Now this is something else…"
 msgstr ""
+"啊……\n"
+"这可真是了不起……"
 
 #: src/frontier_util.c:149
 msgid ""
 "Gwah!\n"
 "Hahahaha!"
 msgstr ""
+"咕哇！\n"
+"哈哈哈哈！"
 
 #: src/frontier_util.c:154
 msgid ""
 "Your POKéMON are wimpy because\n"
 "you're wimpy as a TRAINER!"
 msgstr ""
+"你的宝可梦这么弱，\n"
+"是因为你这个训练家太弱了！"
 
 #: src/frontier_util.c:157
 msgid ""
 "Gwahahaha!\n"
 "My brethren, we have nothing to fear!"
 msgstr ""
+"咕哇哈哈哈！\n"
+"我的同伴们，我们无所畏惧！"
 
 #: src/frontier_util.c:172
 msgid ""
 "No way!\n"
 "Good job!"
 msgstr ""
+"不会吧！\n"
+"干得好！"
 
 #: src/frontier_util.c:175
 msgid ""
 "Huh?\n"
 "Are you serious?!"
 msgstr ""
+"咦？\n"
+"你是认真的吗？！"
 
 #: src/frontier_util.c:180
 msgid ""
 "Oh, come on!\n"
 "You have to try harder than that!"
 msgstr ""
+"喂喂，拜托！\n"
+"你得再加把劲才行啊！"
 
 #: src/frontier_util.c:183
 msgid ""
 "Heheh!\n"
 "What did you expect?"
 msgstr ""
+"嘿嘿！\n"
+"你以为会怎样？"
 
 #: src/frontier_util.c:198
 msgid ""
 "Good job!\n"
 "You know what you're doing!"
 msgstr ""
+"干得好！\n"
+"你很懂行嘛！"
 
 #: src/frontier_util.c:201
 msgid "What happened here?"
-msgstr ""
+msgstr "这是怎么回事？"
 
 #: src/frontier_util.c:204
 msgid ""
 "Way to work!\n"
 "That was a good lesson, eh?"
 msgstr ""
+"辛苦啦！\n"
+"这是很好的一课吧？"
 
 #: src/frontier_util.c:207
 msgid ""
 "Hey, hey, hey!\n"
 "You're finished already?"
 msgstr ""
+"喂喂喂！\n"
+"你这就不行了？"
 
 #: src/frontier_util.c:222
 msgid "Urk…"
-msgstr ""
+msgstr "呜……"
 
 #: src/frontier_util.c:223
 msgid "Darn!"
-msgstr ""
+msgstr "可恶！"
 
 #: src/frontier_util.c:226
 msgid "Humph…"
-msgstr ""
+msgstr "哼……"
 
 #: src/frontier_util.c:227
 msgid "Hah!"
-msgstr ""
+msgstr "哈！"
 
 #: src/frontier_util.c:240
 msgid ""
 "That's it! You've done great!\n"
 "You've worked hard for this!"
 msgstr ""
+"就是这样！你干得太棒了！\n"
+"这是你努力的成果！"
 
 #: src/frontier_util.c:243
 msgid ""
 "That's it! You've done it!\n"
 "You kept working for this!"
 msgstr ""
+"就是这样！你做到了！\n"
+"这是你坚持不懈的成果！"
 
 #: src/frontier_util.c:248
 msgid ""
 "Hey! What's wrong with you!\n"
 "Let's see some effort! Get up!"
 msgstr ""
+"喂！你怎么回事！\n"
+"拿出点干劲来！站起来！"
 
 #: src/frontier_util.c:251
 msgid ""
 "Hey! Don't you give up now!\n"
 "Get up! Don't lose faith in yourself!"
 msgstr ""
+"喂！现在可不许放弃！\n"
+"站起来！别对自己失去信心！"

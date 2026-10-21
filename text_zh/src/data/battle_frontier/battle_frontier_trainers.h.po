@@ -7,1080 +7,1080 @@ msgstr ""
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:5
 msgid "BRADY"
-msgstr ""
+msgstr "布雷迪"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:13
 msgid "CONNER"
-msgstr ""
+msgstr "康纳"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:21
 msgid "BRADLEY"
-msgstr ""
+msgstr "布莱德"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:29
 msgid "CYBIL"
-msgstr ""
+msgstr "西比尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:37
 msgid "RODETTE"
-msgstr ""
+msgstr "萝黛特"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:45
 msgid "PEGGY"
-msgstr ""
+msgstr "佩吉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:53
 msgid "KEITH"
-msgstr ""
+msgstr "基斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:61
 msgid "GRAYSON"
-msgstr ""
+msgstr "格雷森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:69
 msgid "GLENN"
-msgstr ""
+msgstr "格伦"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:77
 msgid "LILIANA"
-msgstr ""
+msgstr "莉莉安"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:85
 msgid "ELISE"
-msgstr ""
+msgstr "爱丽丝"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:93
 msgid "ZOEY"
-msgstr ""
+msgstr "柔伊"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:101
 msgid "MANUEL"
-msgstr ""
+msgstr "曼努尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:109
 msgid "RUSS"
-msgstr ""
+msgstr "拉斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:117
 msgid "DUSTIN"
-msgstr ""
+msgstr "达斯汀"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:125
 msgid "TINA"
-msgstr ""
+msgstr "蒂娜"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:133 src/data/battle_frontier/battle_frontier_trainers.h:1824
 msgid "GILLIAN"
-msgstr ""
+msgstr "吉莉安"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:141
 msgid "ZOE"
-msgstr ""
+msgstr "佐伊"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:149
 msgid "CHEN"
-msgstr ""
+msgstr "阿晨"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:157
 msgid "AL"
-msgstr ""
+msgstr "阿尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:165
 msgid "MITCH"
-msgstr ""
+msgstr "米奇"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:173
 msgid "ANNE"
-msgstr ""
+msgstr "安妮"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:181
 msgid "ALIZE"
-msgstr ""
+msgstr "艾莉泽"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:189
 msgid "LAUREN"
-msgstr ""
+msgstr "劳伦"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:197
 msgid "KIPP"
-msgstr ""
+msgstr "基普"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:205
 msgid "JASON"
-msgstr ""
+msgstr "杰森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:221
 msgid "ANN"
-msgstr ""
+msgstr "安恩"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:229
 msgid "EILEEN"
-msgstr ""
+msgstr "艾琳"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:237
 msgid "CARLIE"
-msgstr ""
+msgstr "卡莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:245
 msgid "GORDON"
-msgstr ""
+msgstr "戈登"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:253
 msgid "AYDEN"
-msgstr ""
+msgstr "艾登"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:269
 msgid "CIERRA"
-msgstr ""
+msgstr "西耶拉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:277
 msgid "MARCY"
-msgstr ""
+msgstr "玛西"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:285
 msgid "KATHY"
-msgstr ""
+msgstr "凯西"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:293
 msgid "PEYTON"
-msgstr ""
+msgstr "佩顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:301
 msgid "JULIAN"
-msgstr ""
+msgstr "朱利安"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:309
 msgid "QUINN"
-msgstr ""
+msgstr "奎因"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:317
 msgid "HAYLEE"
-msgstr ""
+msgstr "海莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:325
 msgid "AMANDA"
-msgstr ""
+msgstr "阿曼达"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:333
 msgid "STACY"
-msgstr ""
+msgstr "史黛西"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:342
 msgid "RAFAEL"
-msgstr ""
+msgstr "拉斐尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:350
 msgid "OLIVER"
-msgstr ""
+msgstr "奥利弗"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:358
 msgid "PAYTON"
-msgstr ""
+msgstr "派顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:366
 msgid "PAMELA"
-msgstr ""
+msgstr "帕梅拉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:374
 msgid "ELIZA"
-msgstr ""
+msgstr "伊丽莎"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:382
 msgid "MARISA"
-msgstr ""
+msgstr "玛丽莎"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:390
 msgid "LEWIS"
-msgstr ""
+msgstr "刘易斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:398
 msgid "YOSHI"
-msgstr ""
+msgstr "良志"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:406
 msgid "DESTIN"
-msgstr ""
+msgstr "德斯汀"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:414
 msgid "KEON"
-msgstr ""
+msgstr "基昂"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:422
 msgid "STUART"
-msgstr ""
+msgstr "斯图尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:430
 msgid "NESTOR"
-msgstr ""
+msgstr "内斯特"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:438
 msgid "DERRICK"
-msgstr ""
+msgstr "德里克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:446
 msgid "BRYSON"
-msgstr ""
+msgstr "布赖森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:454
 msgid "CLAYTON"
-msgstr ""
+msgstr "克莱顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:470
 msgid "JENSON"
-msgstr ""
+msgstr "詹森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:478
 msgid "WESLEY"
-msgstr ""
+msgstr "韦斯利"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:486
 msgid "ANTON"
-msgstr ""
+msgstr "安东"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:494
 msgid "LAWSON"
-msgstr ""
+msgstr "劳森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:502
 msgid "SAMMY"
-msgstr ""
+msgstr "萨米"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:511
 msgid "ARNIE"
-msgstr ""
+msgstr "阿尼"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:519
 msgid "ADRIAN"
-msgstr ""
+msgstr "阿德里"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:535
 msgid "JULIANA"
-msgstr ""
+msgstr "茱莉安"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:543
 msgid "RYLEE"
-msgstr ""
+msgstr "莱莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:560
 msgid "DANELA"
-msgstr ""
+msgstr "丹妮拉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:568
 msgid "LIZBETH"
-msgstr ""
+msgstr "莉兹贝"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:576
 msgid "AMELIA"
-msgstr ""
+msgstr "阿米莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:584
 msgid "JILLIAN"
-msgstr ""
+msgstr "吉莲"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:592
 msgid "ABBIE"
-msgstr ""
+msgstr "艾比"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:600
 msgid "BRIANA"
-msgstr ""
+msgstr "布丽安"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:608
 msgid "ANTONIO"
-msgstr ""
+msgstr "安东尼"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:616
 msgid "JADEN"
-msgstr ""
+msgstr "杰登"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:624
 msgid "DAKOTA"
-msgstr ""
+msgstr "达科塔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:632
 msgid "BRAYDEN"
-msgstr ""
+msgstr "布雷登"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:640
 msgid "CORSON"
-msgstr ""
+msgstr "科森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:648
 msgid "TREVIN"
-msgstr ""
+msgstr "特雷文"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:656
 msgid "PATRICK"
-msgstr ""
+msgstr "帕特里"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:672
 msgid "MAXWELL"
-msgstr ""
+msgstr "麦克斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:680
 msgid "DARYL"
-msgstr ""
+msgstr "达里尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:688
 msgid "KENNETH"
-msgstr ""
+msgstr "肯尼斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:696
 msgid "RICH"
-msgstr ""
+msgstr "里奇"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:704
 msgid "CADEN"
-msgstr ""
+msgstr "凯登"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:712
 msgid "MARLON"
-msgstr ""
+msgstr "马龙"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:720
 msgid "NASH"
-msgstr ""
+msgstr "纳什"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:728
 msgid "ROBBY"
-msgstr ""
+msgstr "罗比"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:736
 msgid "REECE"
-msgstr ""
+msgstr "里斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:744
 msgid "KATHRYN"
-msgstr ""
+msgstr "凯瑟琳"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:752
 msgid "ELLEN"
-msgstr ""
+msgstr "艾伦"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:760
 msgid "RAMON"
-msgstr ""
+msgstr "拉蒙"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:768
 msgid "ARTHUR"
-msgstr ""
+msgstr "亚瑟"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:776
 msgid "ALONDRA"
-msgstr ""
+msgstr "阿隆卓"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:784
 msgid "ADRIANA"
-msgstr ""
+msgstr "艾德丽"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:792
 msgid "MALIK"
-msgstr ""
+msgstr "马利克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:800
 msgid "JILL"
-msgstr ""
+msgstr "吉尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:808
 msgid "ERIK"
-msgstr ""
+msgstr "埃里克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:816
 msgid "YAZMIN"
-msgstr ""
+msgstr "雅丝敏"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:824
 msgid "JAMAL"
-msgstr ""
+msgstr "贾马尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:832
 msgid "LESLIE"
-msgstr ""
+msgstr "莱斯莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:840
 msgid "DAVE"
-msgstr ""
+msgstr "戴夫"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:848
 msgid "CARLO"
-msgstr ""
+msgstr "卡洛"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:856
 msgid "EMILIA"
-msgstr ""
+msgstr "艾米莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:864
 msgid "DALIA"
-msgstr ""
+msgstr "达莉亚"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:872
 msgid "HITOMI"
-msgstr ""
+msgstr "瞳"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:880
 msgid "RICARDO"
-msgstr ""
+msgstr "里卡多"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:888
 msgid "SHIZUKA"
-msgstr ""
+msgstr "静香"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:896
 msgid "JOANA"
-msgstr ""
+msgstr "乔安娜"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:904
 msgid "KELLY"
-msgstr ""
+msgstr "凯莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:912
 msgid "RAYNA"
-msgstr ""
+msgstr "蕾娜"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:928
 msgid "JORDAN"
-msgstr ""
+msgstr "乔丹"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:936
 msgid "JOEL"
-msgstr ""
+msgstr "乔尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:944
 msgid "KRISTEN"
-msgstr ""
+msgstr "克丽丝"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:952
 msgid "SELPHY"
-msgstr ""
+msgstr "塞尔菲"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:960
 msgid "CHLOE"
-msgstr ""
+msgstr "克洛伊"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:968
 msgid "NORTON"
-msgstr ""
+msgstr "诺顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:976
 msgid "LUKAS"
-msgstr ""
+msgstr "卢卡斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:984
 msgid "ZACH"
-msgstr ""
+msgstr "扎克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:992
 msgid "KAITLYN"
-msgstr ""
+msgstr "凯特琳"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1000
 msgid "BREANNA"
-msgstr ""
+msgstr "布蕾娜"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1008
 msgid "KENDRA"
-msgstr ""
+msgstr "肯德拉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1016
 msgid "MOLLY"
-msgstr ""
+msgstr "茉莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1024
 msgid "JAZMIN"
-msgstr ""
+msgstr "洁丝敏"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1040
 msgid "JALEN"
-msgstr ""
+msgstr "贾伦"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1048
 msgid "GRIFFEN"
-msgstr ""
+msgstr "格里芬"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1056
 msgid "XANDER"
-msgstr ""
+msgstr "桑德"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1064
 msgid "MARVIN"
-msgstr ""
+msgstr "马文"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1080
 msgid "BALEY"
-msgstr ""
+msgstr "贝利"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1088
 msgid "ZACKARY"
-msgstr ""
+msgstr "扎卡里"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1104
 msgid "EMILY"
-msgstr ""
+msgstr "艾米丽"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1112
 msgid "JORDYN"
-msgstr ""
+msgstr "乔登"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1120
 msgid "SOFIA"
-msgstr ""
+msgstr "索菲娅"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1136
 msgid "KAYDEN"
-msgstr ""
+msgstr "凯顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1144
 msgid "COOPER"
-msgstr ""
+msgstr "库珀"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1152
 msgid "JULIA"
-msgstr ""
+msgstr "朱莉娅"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1160
 msgid "AMARA"
-msgstr ""
+msgstr "阿玛拉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1168
 msgid "LYNN"
-msgstr ""
+msgstr "琳恩"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1176
 msgid "JOVAN"
-msgstr ""
+msgstr "约万"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1184
 msgid "DOMINIC"
-msgstr ""
+msgstr "多米尼"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1192
 msgid "NIKOLAS"
-msgstr ""
+msgstr "尼古拉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1200
 msgid "VALERIA"
-msgstr ""
+msgstr "瓦莱莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1208
 msgid "DELANEY"
-msgstr ""
+msgstr "德兰妮"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1216
 msgid "MEGHAN"
-msgstr ""
+msgstr "梅根"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1232
 msgid "DAMIAN"
-msgstr ""
+msgstr "达米安"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1240
 msgid "BRODY"
-msgstr ""
+msgstr "布罗迪"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1248
 msgid "GRAHAM"
-msgstr ""
+msgstr "格兰姆"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1264
 msgid "JAREN"
-msgstr ""
+msgstr "杰伦"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1272
 msgid "CORDELL"
-msgstr ""
+msgstr "科戴尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1280
 msgid "JAZLYN"
-msgstr ""
+msgstr "洁兹琳"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1288
 msgid "ZACHERY"
-msgstr ""
+msgstr "扎克瑞"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1296
 msgid "JOHAN"
-msgstr ""
+msgstr "约翰"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1304
 msgid "SHEA"
-msgstr ""
+msgstr "希娅"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1312
 msgid "KAILA"
-msgstr ""
+msgstr "凯拉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1320
 msgid "ISIAH"
-msgstr ""
+msgstr "以赛亚"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1328
 msgid "GARRETT"
-msgstr ""
+msgstr "加勒特"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1336
 msgid "HAYLIE"
-msgstr ""
+msgstr "海丽"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1344
 msgid "MEGAN"
-msgstr ""
+msgstr "梅甘"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1352
 msgid "ISSAC"
-msgstr ""
+msgstr "艾萨克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1360
 msgid "QUINTON"
-msgstr ""
+msgstr "昆顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1368
 msgid "SALMA"
-msgstr ""
+msgstr "萨尔玛"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1376
 msgid "ANSLEY"
-msgstr ""
+msgstr "安斯莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1384
 msgid "HOLDEN"
-msgstr ""
+msgstr "霍尔登"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1392
 msgid "LUCA"
-msgstr ""
+msgstr "卢卡"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1400
 msgid "JAMISON"
-msgstr ""
+msgstr "杰米森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1408
 msgid "GUNNAR"
-msgstr ""
+msgstr "贡纳尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1416
 msgid "CRAIG"
-msgstr ""
+msgstr "克雷格"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1424
 msgid "PIERCE"
-msgstr ""
+msgstr "皮尔斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1432
 msgid "REGINA"
-msgstr ""
+msgstr "蕾吉娜"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1440
 msgid "ALISON"
-msgstr ""
+msgstr "艾莉森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1448
 msgid "HANK"
-msgstr ""
+msgstr "汉克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1456
 msgid "EARL"
-msgstr ""
+msgstr "厄尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1464
 msgid "RAMIRO"
-msgstr ""
+msgstr "拉米罗"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1472
 msgid "HUNTER"
-msgstr ""
+msgstr "亨特"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1480
 msgid "AIDEN"
-msgstr ""
+msgstr "艾顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1488
 msgid "XAVIER"
-msgstr ""
+msgstr "泽维尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1496
 msgid "CLINTON"
-msgstr ""
+msgstr "克林顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1504
 msgid "JESSE"
-msgstr ""
+msgstr "杰西"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1512
 msgid "EDUARDO"
-msgstr ""
+msgstr "爱德多"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1520
 msgid "HAL"
-msgstr ""
+msgstr "哈尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1528
 msgid "GAGE"
-msgstr ""
+msgstr "盖奇"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1536
 msgid "ARNOLD"
-msgstr ""
+msgstr "阿诺德"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1568
 msgid "GUSTAVO"
-msgstr ""
+msgstr "古斯塔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1576
 msgid "KAMERON"
-msgstr ""
+msgstr "卡梅隆"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1584
 msgid "ALFREDO"
-msgstr ""
+msgstr "阿佛多"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1608
 msgid "JAXON"
-msgstr ""
+msgstr "杰克森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1616
 msgid "LOGAN"
-msgstr ""
+msgstr "洛根"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1624
 msgid "EMILEE"
-msgstr ""
+msgstr "爱美丽"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1632
 msgid "JOSIE"
-msgstr ""
+msgstr "乔西"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1640
 msgid "ARMANDO"
-msgstr ""
+msgstr "阿曼多"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1648
 msgid "SKYLER"
-msgstr ""
+msgstr "斯凯勒"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1656
 msgid "RUTH"
-msgstr ""
+msgstr "露丝"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1664
 msgid "MELODY"
-msgstr ""
+msgstr "梅洛蒂"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1680
 msgid "ERICK"
-msgstr ""
+msgstr "艾瑞克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1688
 msgid "ELAINE"
-msgstr ""
+msgstr "伊莱恩"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1696
 msgid "JOYCE"
-msgstr ""
+msgstr "乔伊丝"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1704
 msgid "TODD"
-msgstr ""
+msgstr "托德"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1712
 msgid "GAVIN"
-msgstr ""
+msgstr "加文"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1720
 msgid "MALORY"
-msgstr ""
+msgstr "马洛丽"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1728
 msgid "ESTHER"
-msgstr ""
+msgstr "埃丝特"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1736
 msgid "OSCAR"
-msgstr ""
+msgstr "奥斯卡"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1744
 msgid "WILSON"
-msgstr ""
+msgstr "威尔逊"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1752
 msgid "CLARE"
-msgstr ""
+msgstr "克莱尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1760
 msgid "TESS"
-msgstr ""
+msgstr "苔丝"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1768
 msgid "LEON"
-msgstr ""
+msgstr "里昂"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1776
 msgid "ALONZO"
-msgstr ""
+msgstr "阿隆佐"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1784
 msgid "VINCE"
-msgstr ""
+msgstr "文斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1792
 msgid "BRYON"
-msgstr ""
+msgstr "拜伦"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1800
 msgid "AVA"
-msgstr ""
+msgstr "艾娃"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1808
 msgid "MIRIAM"
-msgstr ""
+msgstr "米丽娅"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1816
 msgid "CARRIE"
-msgstr ""
+msgstr "嘉莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1832
 msgid "TYLER"
-msgstr ""
+msgstr "泰勒"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1840
 msgid "CHAZ"
-msgstr ""
+msgstr "查兹"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1848
 msgid "NELSON"
-msgstr ""
+msgstr "尼尔森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1864
 msgid "STELLA"
-msgstr ""
+msgstr "斯黛拉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1872
 msgid "DORINE"
-msgstr ""
+msgstr "多琳"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1880
 msgid "MADDOX"
-msgstr ""
+msgstr "马多克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1888
 msgid "DAVIN"
-msgstr ""
+msgstr "达文"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1896
 msgid "TREVON"
-msgstr ""
+msgstr "特雷冯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1904
 msgid "MATEO"
-msgstr ""
+msgstr "马特奥"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1912
 msgid "BRET"
-msgstr ""
+msgstr "布雷特"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1936
 msgid "ELENA"
-msgstr ""
+msgstr "埃莉娜"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1944
 msgid "ALANA"
-msgstr ""
+msgstr "阿兰娜"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1952
 msgid "ALEXAS"
-msgstr ""
+msgstr "亚历克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1960
 msgid "WESTON"
-msgstr ""
+msgstr "韦斯顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1968
 msgid "JASPER"
-msgstr ""
+msgstr "贾斯珀"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1976
 msgid "NADIA"
-msgstr ""
+msgstr "娜迪亚"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1984
 msgid "MIRANDA"
-msgstr ""
+msgstr "米兰达"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:1992
 msgid "EMMA"
-msgstr ""
+msgstr "艾玛"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2000
 msgid "ROLANDO"
-msgstr ""
+msgstr "罗兰多"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2008
 msgid "STANLY"
-msgstr ""
+msgstr "斯坦利"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2016
 msgid "DARIO"
-msgstr ""
+msgstr "达里奥"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2024
 msgid "KARLEE"
-msgstr ""
+msgstr "卡尔莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2032
 msgid "JAYLIN"
-msgstr ""
+msgstr "杰琳"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2040
 msgid "INGRID"
-msgstr ""
+msgstr "英格丽"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2048
 msgid "DELILAH"
-msgstr ""
+msgstr "黛利拉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2056
 msgid "CARLY"
-msgstr ""
+msgstr "嘉丽"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2064
 msgid "LEXIE"
-msgstr ""
+msgstr "莱西"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2072
 msgid "MILLER"
-msgstr ""
+msgstr "米勒"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2080
 msgid "MARV"
-msgstr ""
+msgstr "马夫"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2088
 msgid "LAYTON"
-msgstr ""
+msgstr "莱顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2096
 msgid "BROOKS"
-msgstr ""
+msgstr "布鲁克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2104
 msgid "GREGORY"
-msgstr ""
+msgstr "格雷戈"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2112
 msgid "REESE"
-msgstr ""
+msgstr "瑞丝"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2120
 msgid "MASON"
-msgstr ""
+msgstr "梅森"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2128
 msgid "TOBY"
-msgstr ""
+msgstr "托比"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2136
 msgid "DOROTHY"
-msgstr ""
+msgstr "桃乐丝"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2144
 msgid "PIPER"
-msgstr ""
+msgstr "派珀"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2152
 msgid "FINN"
-msgstr ""
+msgstr "芬恩"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2160
 msgid "SAMIR"
-msgstr ""
+msgstr "萨米尔"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2168
 msgid "FIONA"
-msgstr ""
+msgstr "菲奥娜"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2176
 msgid "GLORIA"
-msgstr ""
+msgstr "格洛丽"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2184
 msgid "NICO"
-msgstr ""
+msgstr "尼可"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2192
 msgid "JEREMY"
-msgstr ""
+msgstr "杰瑞米"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2208
 msgid "REENA"
-msgstr ""
+msgstr "莉娜"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2232
 msgid "THEO"
-msgstr ""
+msgstr "西奥"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2240
 msgid "BAILEY"
-msgstr ""
+msgstr "贝莉"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2248
 msgid "HUGO"
-msgstr ""
+msgstr "雨果"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2264
 msgid "GIDEON"
-msgstr ""
+msgstr "基甸"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2272
 msgid "TRISTON"
-msgstr ""
+msgstr "崔斯顿"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2280
 msgid "CHARLES"
-msgstr ""
+msgstr "查尔斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2296
 msgid "DIRK"
-msgstr ""
+msgstr "德克"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2304
 msgid "HAROLD"
-msgstr ""
+msgstr "哈罗德"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2320
 msgid "PETER"
-msgstr ""
+msgstr "彼得"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2328
 msgid "DEV"
-msgstr ""
+msgstr "德夫"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2336
 msgid "COREY"
-msgstr ""
+msgstr "科里"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2344
 msgid "ANDRE"
-msgstr ""
+msgstr "安德烈"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2352
 msgid "FERRIS"
-msgstr ""
+msgstr "费里斯"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2360
 msgid "ALIVIA"
-msgstr ""
+msgstr "艾莉维"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2376
 msgid "ANYA"
-msgstr ""
+msgstr "安雅"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2384
 msgid "DAWN"
-msgstr ""
+msgstr "道恩"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2392
 msgid "ABBY"
-msgstr ""
+msgstr "艾碧"
 
 #: src/data/battle_frontier/battle_frontier_trainers.h:2400
 msgid "GRETEL"
-msgstr ""
+msgstr "格蕾特"
