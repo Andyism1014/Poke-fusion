@@ -16,6 +16,13 @@ msgid ""
 "Um… You, uh…smell singed.\p"
 "Were you at a volcano or something?$"
 msgstr ""
+"虽然没人相信我，但我真的在\n"
+"天上看到了一只巨大的宝可梦。\p"
+"它好像扭动着身体，\n"
+"朝131号水路飞去了。\p"
+"对了……嗅嗅……嗯……\n"
+"你啊……身上有股烧焦的味道。\p"
+"你是去过火山之类的地方吗？$"
 
 #: data/maps/FortreeCity/scripts.inc:99
 msgctxt "FortreeCity_Text_SomethingBlockingGym"
@@ -25,6 +32,9 @@ msgid ""
 "After all the bother I went through\n"
 "training on ROUTE 120…$"
 msgstr ""
+"我想去宝可梦道馆，\n"
+"可是有东西挡住了路。\p"
+"我还特地在120号道路努力修行过呢……$"
 
 #: data/maps/FortreeCity/scripts.inc:105
 msgctxt "FortreeCity_Text_ThisTimeIllBeatWinona"
@@ -32,6 +42,8 @@ msgid ""
 "I've got my pride-and-joy POKéMON\n"
 "with me. This time, I'll beat WINONA.$"
 msgstr ""
+"我带着引以为傲的宝可梦。\n"
+"这次一定要打败娜琪！$"
 
 #: data/maps/FortreeCity/scripts.inc:109
 msgctxt "FortreeCity_Text_TreesGrowByDrinkingRainwater"
@@ -41,6 +53,9 @@ msgid ""
 "Our FORTREE CITY exists because\n"
 "there's both water and soil.$"
 msgstr ""
+"大地吸收雨水，\n"
+"树木喝了这些水就会长大……\p"
+"正因为有水又有土，才有我们茵郁市。$"
 
 #: data/maps/FortreeCity/scripts.inc:115
 msgctxt "FortreeCity_Text_EveryoneHealthyAndLively"
@@ -52,6 +67,11 @@ msgid ""
 "Why, even myself--I feel as if I've\n"
 "grown thirty years younger.$"
 msgstr ""
+"这座城市是由建在树上的房子组成的。\p"
+"也许是因为这样的生活方式，\n"
+"大家都很健康，很有活力。\p"
+"哎呀，就连我自己，\n"
+"都觉得年轻了30岁呢。$"
 
 #: data/maps/FortreeCity/scripts.inc:123
 msgctxt "FortreeCity_Text_BugPokemonComeThroughWindow"
@@ -61,18 +81,21 @@ msgid ""
 "through windows.\l"
 "It can be really startling.$"
 msgstr ""
+"住在树上还不错。\p"
+"不过有时候虫宝可梦会从窗户钻进来，\n"
+"真的会吓人一大跳。$"
 
 #: data/maps/FortreeCity/scripts.inc:129
 msgctxt "FortreeCity_Text_PokemonThatEvolveWhenTraded"
 msgid ""
 "There are POKéMON that evolve when\n"
 "you trade them! That's what I heard.$"
-msgstr ""
+msgstr "听说有的宝可梦通过交换就会进化！$"
 
 #: data/maps/FortreeCity/scripts.inc:133
 msgctxt "FortreeCity_Text_SomethingUnseeable"
 msgid "Something unseeable is in the way.$"
-msgstr ""
+msgstr "有看不见的东西挡住了去路。$"
 
 #: data/maps/FortreeCity/scripts.inc:136
 msgctxt "FortreeCity_Text_UnseeableUseDevonScope"
@@ -80,6 +103,8 @@ msgid ""
 "Something unseeable is in the way.\p"
 "Want to use the DEVON SCOPE?$"
 msgstr ""
+"有看不见的东西挡住了去路。\p"
+"要使用得文侦测镜吗？$"
 
 #: data/maps/FortreeCity/scripts.inc:140
 msgctxt "FortreeCity_Text_UsedDevonScopePokemonFled"
@@ -89,6 +114,9 @@ msgid ""
 "visible!\p"
 "The startled POKéMON fled!$"
 msgstr ""
+"{PLAYER}使用了得文侦测镜。\p"
+"隐形的宝可梦完全现出了原形！\p"
+"受到惊吓的宝可梦逃走了！$"
 
 #: data/maps/FortreeCity/scripts.inc:146
 msgctxt "FortreeCity_Text_CitySign"
@@ -97,6 +125,8 @@ msgid ""
 "“The treetop city that frolics with\l"
 "nature.”$"
 msgstr ""
+"茵郁市\n"
+"“与大自然嬉戏的树上之城”$"
 
 #: data/maps/FortreeCity/scripts.inc:151
 msgctxt "FortreeCity_Text_GymSign"
@@ -106,3 +136,6 @@ msgid ""
 "“The bird user taking flight into\n"
 "the world.”$"
 msgstr ""
+"茵郁市宝可梦道馆\n"
+"道馆馆主：娜琪\p"
+"“展翅飞向世界的鸟使”$"

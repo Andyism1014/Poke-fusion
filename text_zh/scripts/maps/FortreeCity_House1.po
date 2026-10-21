@@ -17,6 +17,12 @@ msgid ""
 "your {STR_VAR_1} for my {STR_VAR_2},\l"
 "won't you?$"
 msgstr ""
+"呜哦哦哦哦！我想要！我一定要得到\n"
+"{STR_VAR_1}！为了它我什么都愿意做！\p"
+"……呃……你听到了吗？\n"
+"我发自内心的呐喊？\p"
+"既然听到了，你会用你的{STR_VAR_1}\n"
+"来换我的{STR_VAR_2}吧？$"
 
 #: data/maps/FortreeCity_House1/scripts.inc:53
 msgctxt "FortreeCity_House1_Text_MonYouTakeCare"
@@ -25,6 +31,9 @@ msgid ""
 "{STR_VAR_1}, welcome!\n"
 "{STR_VAR_2}, you take care!$"
 msgstr ""
+"哦耶，太棒啦！\p"
+"{STR_VAR_1}，欢迎你！\n"
+"{STR_VAR_2}，多保重哦！$"
 
 #: data/maps/FortreeCity_House1/scripts.inc:58
 msgctxt "FortreeCity_House1_Text_ThisIsntAMon"
@@ -32,6 +41,8 @@ msgid ""
 "Uh, no, I don't think so.\n"
 "That isn't a {STR_VAR_1}.$"
 msgstr ""
+"呃，不对，我觉得不是。\n"
+"这不是{STR_VAR_1}啊。$"
 
 #: data/maps/FortreeCity_House1/scripts.inc:62
 msgctxt "FortreeCity_House1_Text_YouWontTradeMe"
@@ -39,6 +50,8 @@ msgid ""
 "No? You won't trade me?\n"
 "Even after I bared my heart to you?$"
 msgstr ""
+"不行？你不跟我换吗？\n"
+"我都把真心话告诉你了耶？$"
 
 #: data/maps/FortreeCity_House1/scripts.inc:66
 msgctxt "FortreeCity_House1_Text_GoingToMakeVolbeatStrong"
@@ -47,6 +60,8 @@ msgid ""
 "strong from this moment on!\p"
 "I hope you do the same with PLUSLE!$"
 msgstr ""
+"从现在起，我要把电萤虫培养得超级强！\p"
+"希望你也好好培养正电拍拍哦！$"
 
 #: data/maps/FortreeCity_House1/scripts.inc:71
 msgctxt "FortreeCity_House1_Text_TradingMemoriesWithOthers"
@@ -55,8 +70,10 @@ msgid ""
 "It's as if you're trading your own\n"
 "memories with other people.$"
 msgstr ""
+"和别人交换宝可梦……\p"
+"就好像在和别人交换自己的回忆一样。$"
 
 #: data/maps/FortreeCity_House1/scripts.inc:76
 msgctxt "FortreeCity_House1_Text_Zigzagoon"
 msgid "ZIGZAGOON: Gumomoh?$"
-msgstr ""
+msgstr "蛇纹熊：咕呣呣？$"

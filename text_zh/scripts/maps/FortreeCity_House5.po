@@ -12,6 +12,9 @@ msgid ""
 "I think it's the number one town for\n"
 "living together with POKéMON.$"
 msgstr ""
+"茵郁市的树屋真棒！\p"
+"我觉得这里是最适合和\n"
+"宝可梦一起生活的城镇。$"
 
 #: data/maps/FortreeCity_House5/scripts.inc:27
 msgctxt "FortreeCity_House5_Text_AdaptedToNature"
@@ -21,8 +24,12 @@ msgid ""
 "There's no need to make nature\n"
 "conform to the way we want to live.$"
 msgstr ""
+"宝可梦和人类都是为了\n"
+"生存而适应了大自然。\p"
+"我们没必要为了自己想要的\n"
+"生活方式去改变大自然。$"
 
 #: data/maps/FortreeCity_House5/scripts.inc:33
 msgctxt "FortreeCity_House5_Text_Zigzagoon"
 msgid "ZIGZAGOON: Bufuu!$"
-msgstr ""
+msgstr "蛇纹熊：噗呼——！$"

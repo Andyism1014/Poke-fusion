@@ -13,8 +13,12 @@ msgid ""
 "She left two POKéMON with the DAY CARE.\n"
 "And they discovered that EGG!$"
 msgstr ""
+"我太太正在温泉里给一颗蛋保温。\n"
+"她是这么跟我说的：\p"
+"她把两只宝可梦寄放在寄放屋，\n"
+"然后它们那里就发现了那颗蛋！$"
 
 #: data/maps/LavaridgeTown_House/scripts.inc:24
 msgctxt "LavaridgeTown_House_Text_Zigzagoon"
 msgid "ZIGZAGOON: Pshoo!$"
-msgstr ""
+msgstr "蛇纹熊：噗咻！$"

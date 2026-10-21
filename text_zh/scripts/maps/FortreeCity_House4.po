@@ -13,20 +13,24 @@ msgid ""
 "And that brings the world closer\n"
 "together. I think it's wonderful!$"
 msgstr ""
+"和宝可梦在一起，\n"
+"人们就会结交越来越多的朋友。\p"
+"这样一来，世界也会变得更紧密。\n"
+"我觉得这真是太好了！$"
 
 #: data/maps/FortreeCity_House4/scripts.inc:71
 msgctxt "FortreeCity_House4_Text_GoBirdPokemon"
 msgid ""
 "There!\n"
 "Go, BIRD POKéMON!$"
-msgstr ""
+msgstr "好了！去吧，鸟宝可梦！$"
 
 #: data/maps/FortreeCity_House4/scripts.inc:75
 msgctxt "FortreeCity_House4_Text_AskedWingullToRunErrand"
 msgid ""
 "Heheh, I asked my WINGULL to run\n"
 "an errand for me.$"
-msgstr ""
+msgstr "嘿嘿，我让我的长翅鸥帮我跑腿去了。$"
 
 #: data/maps/FortreeCity_House4/scripts.inc:79
 msgctxt "FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb"
@@ -40,6 +44,10 @@ msgid ""
 "But I'm not a TRAINER, so you can\n"
 "have it.$"
 msgstr ""
+"好！欢迎回来，长翅鸥！\p"
+"咦？这是什么？它带着什么东西？\p"
+"心灵香草？一定是它在哪里捡到的。\p"
+"不过我又不是训练家，就送给你吧。$"
 
 #: data/maps/FortreeCity_House4/scripts.inc:89
 msgctxt "FortreeCity_House4_Text_FriendsFarAwayThanksToWingull"
@@ -47,8 +55,10 @@ msgid ""
 "Thanks to my WINGULL, I have friends\n"
 "who live far away.$"
 msgstr ""
+"多亏了我的长翅鸥，\n"
+"我才有了住在远方的朋友。$"
 
 #: data/maps/FortreeCity_House4/scripts.inc:93
 msgctxt "FortreeCity_House4_Text_Wingull"
 msgid "WINGULL: Pihyoh!$"
-msgstr ""
+msgstr "长翅鸥：咻哟！$"

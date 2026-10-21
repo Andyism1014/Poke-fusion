@@ -18,23 +18,31 @@ msgid ""
 "Hose her down with water and then\l"
 "go for it!$"
 msgstr ""
+"嘿，最近怎么样？\n"
+"以冠军为目标的{PLAYER}！\p"
+"釜炎道馆的馆主亚莎使用的\n"
+"是火属性宝可梦。\p"
+"她对宝可梦的热情比火山还要强烈、\n"
+"还要炽热。\p"
+"可别离她太近，会被烧伤的！\n"
+"先用水浇她一身，然后再上吧！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:193
 msgctxt "LavaridgeTown_Gym_1F_Text_GymGuidePostVictory"
 msgid "Yow! That was a scorching-hot battle!$"
-msgstr ""
+msgstr "哇！真是一场火热的对战！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:196
 msgctxt "LavaridgeTown_Gym_1F_Text_ColeIntro"
 msgid ""
 "Owowowowow!\n"
 "Yikes, it's hot!$"
-msgstr ""
+msgstr "哎哟哟哟哟！好烫啊！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:200
 msgctxt "LavaridgeTown_Gym_1F_Text_ColeDefeat"
 msgid "I'm blinded by sweat in my eyes…$"
-msgstr ""
+msgstr "汗流进眼睛里，什么都看不见了……$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:203
 msgctxt "LavaridgeTown_Gym_1F_Text_ColePostBattle"
@@ -44,18 +52,20 @@ msgid ""
 "It's effective for healing pain in\n"
 "your joints.$"
 msgstr ""
+"把身体埋在热沙里能促进血液循环。\p"
+"对治疗关节疼痛很有效哦。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:209
 msgctxt "LavaridgeTown_Gym_1F_Text_AxleIntro"
 msgid ""
 "I'm trying to relieve my stress.\n"
 "Don't come along and stress me out!$"
-msgstr ""
+msgstr "我正在消除压力呢。别过来给我添堵！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:213
 msgctxt "LavaridgeTown_Gym_1F_Text_AxleDefeat"
 msgid "I hope FLANNERY flames you good!$"
-msgstr ""
+msgstr "希望亚莎狠狠地烧你一顿！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:216
 msgctxt "LavaridgeTown_Gym_1F_Text_AxlePostBattle"
@@ -64,6 +74,8 @@ msgid ""
 "If you spend too much time buried in\n"
 "hot sand, it tuckers you out…$"
 msgstr ""
+"哈啊……呼……\p"
+"在热沙里埋太久，会让人筋疲力尽的……$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:221
 msgctxt "LavaridgeTown_Gym_B1F_Text_KeeganIntro"
@@ -75,11 +87,15 @@ msgid ""
 "your willpower is an important ability\l"
 "for all TRAINERS.$"
 msgstr ""
+"你现在一定累了吧。\n"
+"很想在热沙里休息一下，对不对？\p"
+"但你要知道，保持意志力是\n"
+"所有训练家都必须具备的重要能力。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:229
 msgctxt "LavaridgeTown_Gym_B1F_Text_KeeganDefeat"
 msgid "Play with fire, and be burned…$"
-msgstr ""
+msgstr "玩火者必自焚……$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:232
 msgctxt "LavaridgeTown_Gym_B1F_Text_KeeganPostBattle"
@@ -89,18 +105,21 @@ msgid ""
 "If you don't watch yourself, you'll be\n"
 "burned seriously.$"
 msgstr ""
+"你的实力是货真价实的……\n"
+"但我们的馆主亚莎很强。\p"
+"要是不小心点，你会被烧得很惨的。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:238
 msgctxt "LavaridgeTown_Gym_1F_Text_GeraldIntro"
 msgid ""
 "Can your POKéMON withstand\n"
 "392-degree heat?$"
-msgstr ""
+msgstr "你的宝可梦能承受392度的高温吗？$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:242
 msgctxt "LavaridgeTown_Gym_1F_Text_GeraldDefeat"
 msgid "It didn't burn hotly enough…$"
-msgstr ""
+msgstr "烧得还不够旺……$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:245
 msgctxt "LavaridgeTown_Gym_1F_Text_GeraldPostBattle"
@@ -110,18 +129,21 @@ msgid ""
 "Your POKéMON beat me, so they should\n"
 "easily survive in magma.$"
 msgstr ""
+"岩浆的温度是392度。\p"
+"你的宝可梦打败了我，\n"
+"在岩浆里应该也能轻松活下来吧。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:251
 msgctxt "LavaridgeTown_Gym_1F_Text_DanielleIntro"
 msgid ""
 "Um…\n"
 "Okay, I'll battle with you.$"
-msgstr ""
+msgstr "嗯……好吧，我来和你对战。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:255
 msgctxt "LavaridgeTown_Gym_1F_Text_DanielleDefeat"
 msgid "Oh, but you're too strong.$"
-msgstr ""
+msgstr "哎呀，可是你太强了。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:258
 msgctxt "LavaridgeTown_Gym_1F_Text_DaniellePostBattle"
@@ -129,6 +151,8 @@ msgid ""
 "I'm going to be a pretty and strong\n"
 "TRAINER just like FLANNERY.$"
 msgstr ""
+"我要成为像亚莎那样又\n"
+"漂亮又强大的训练家。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:262
 msgctxt "LavaridgeTown_Gym_B1F_Text_JaceIntro"
@@ -136,6 +160,8 @@ msgid ""
 "Come on, get with it!\n"
 "Let's go before my feelings cool!$"
 msgstr ""
+"快点，打起精神来！\n"
+"趁我的热情还没冷却，赶紧开始吧！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:266
 msgctxt "LavaridgeTown_Gym_B1F_Text_JaceDefeat"
@@ -143,6 +169,8 @@ msgid ""
 "It's so hot, and yet my heart is\n"
 "clutched by ice…$"
 msgstr ""
+"明明这么热，\n"
+"我的心却像被冰冻住了……$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:270
 msgctxt "LavaridgeTown_Gym_B1F_Text_JacePostBattle"
@@ -151,6 +179,8 @@ msgid ""
 "within you, you may stand a chance\l"
 "against our LEADER.$"
 msgstr ""
+"看你心中燃烧着的斗志，\n"
+"说不定能和我们馆主一较高下。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:275
 msgctxt "LavaridgeTown_Gym_B1F_Text_JeffIntro"
@@ -158,11 +188,13 @@ msgid ""
 "See how the flames blaze wildly?\n"
 "They flare in anticipation of my win!$"
 msgstr ""
+"看到火焰烧得多猛烈了吗？\n"
+"那是在期待我的胜利！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:279
 msgctxt "LavaridgeTown_Gym_B1F_Text_JeffDefeat"
 msgid "Something didn't go right.$"
-msgstr ""
+msgstr "有什么地方出错了。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:282
 msgctxt "LavaridgeTown_Gym_B1F_Text_JeffPostBattle"
@@ -171,13 +203,16 @@ msgid ""
 "I can walk on hot coals barefoot!\p"
 "…Don't even think about trying it!$"
 msgstr ""
+"那又怎样？我说那又怎样？\n"
+"我可以光着脚在烧红的炭上走！\p"
+"……你可千万别想着去试啊！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:287
 msgctxt "LavaridgeTown_Gym_B1F_Text_EliIntro"
 msgid ""
 "As much as I love mountains,\n"
 "I especially love volcanoes.$"
-msgstr ""
+msgstr "我很喜欢山，尤其喜欢火山。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:291
 msgctxt "LavaridgeTown_Gym_B1F_Text_EliDefeat"
@@ -185,6 +220,8 @@ msgid ""
 "Well, it seems to me I lost without\n"
 "ever being in control.$"
 msgstr ""
+"看来我从头到尾都\n"
+"没能掌握局面就输了。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:295
 msgctxt "LavaridgeTown_Gym_B1F_Text_EliPostBattle"
@@ -193,6 +230,9 @@ msgid ""
 "of FLANNERY's power.\p"
 "Hehehehe.$"
 msgstr ""
+"我待在这里，\n"
+"是因为我成了亚莎力量的粉丝。\p"
+"嘿嘿嘿嘿。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:300
 msgctxt "LavaridgeTown_Gym_1F_Text_FlanneryIntro"
@@ -211,6 +251,16 @@ msgid ""
 "father, I shall, uh…demonstrate the\l"
 "hot moves we have honed on this land!$"
 msgstr ""
+"欢迎……不对，等等。\p"
+"弱小的训练家，\n"
+"很高兴看到你能来到这里！\p"
+"我被托付了……不对，等等。\p"
+"我是亚莎，是这里的道馆馆主！\p"
+"呃……虽然我当馆主的时间还不长，\n"
+"但可别小看我！\p"
+"我会用从爷爷那里继承来的技术，\n"
+"呃……向你展示我们在\l"
+"这片土地上磨练出的火热招式！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:315
 msgctxt "LavaridgeTown_Gym_1F_Text_FlanneryDefeat"
@@ -226,13 +276,21 @@ msgid ""
 "Thanks for teaching me that.\n"
 "For that, you deserve this.$"
 msgstr ""
+"哎呀……看来我太勉强自己了……\p"
+"我……我才刚当上道馆馆主没多久。\p"
+"我太想变成另一个不是自己的人了。\p"
+"我必须按照自己本来的\n"
+"样子去做才行。不然的话，\l"
+"我的宝可梦也会感到困惑的。\p"
+"谢谢你让我明白了这一点。\n"
+"这个是你应得的。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:327
 msgctxt "LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge"
 msgid ""
 "{PLAYER} received the HEAT BADGE\n"
 "from FLANNERY.$"
-msgstr ""
+msgstr "{PLAYER}从亚莎那里得到了热量徽章。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:331
 msgctxt "LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis"
@@ -246,6 +304,12 @@ msgid ""
 "This is a token of my appreciation.\n"
 "Don't be shy about taking it!$"
 msgstr ""
+"只要有热量徽章，等级50以下的宝可梦，\n"
+"就算是通过和别人交换得到的，\l"
+"也会完全听从你的指令。\p"
+"而且，宝可梦还能在\n"
+"战斗以外使用秘传招式怪力。\p"
+"这是我的一点谢意。不用客气，收下吧！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:341
 msgctxt "LavaridgeTown_Gym_1F_Text_ExplainOverheat"
@@ -257,13 +321,17 @@ msgid ""
 "of the POKéMON using it. It might not\l"
 "be suitable for longer battles.$"
 msgstr ""
+"那个招式学习器50里面是过热。\p"
+"这个招式能给对手造成巨大的伤害。\p"
+"但使用它的宝可梦特攻也会大幅降低。\n"
+"可能不太适合长时间的战斗。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:349
 msgctxt "LavaridgeTown_Gym_1F_Text_RegisteredFlannery"
 msgid ""
 "Registered GYM LEADER FLANNERY\n"
 "in the POKéNAV.$"
-msgstr ""
+msgstr "在宝可梦导航里登记了道馆馆主亚莎。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:353
 msgctxt "LavaridgeTown_Gym_1F_Text_FlanneryPostBattle"
@@ -272,11 +340,14 @@ msgid ""
 "Oh! I know! You battle like NORMAN,\n"
 "the GYM LEADER of PETALBURG.$"
 msgstr ""
+"你的力量让我想起了某个人……\p"
+"啊！我知道了！你的\n"
+"战斗方式很像橙华道馆的馆主千里。$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:358
 msgctxt "LavaridgeTown_Gym_1F_Text_GymStatue"
 msgid "LAVARIDGE TOWN POKéMON GYM$"
-msgstr ""
+msgstr "釜炎乡宝可梦道馆$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:361
 msgctxt "LavaridgeTown_Gym_1F_Text_GymStatueCertified"
@@ -285,6 +356,9 @@ msgid ""
 "FLANNERY'S CERTIFIED TRAINERS:\n"
 "{PLAYER}$"
 msgstr ""
+"釜炎乡宝可梦道馆\n"
+"亚莎认可的训练家：\l"
+"{PLAYER}$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:366
 msgctxt "LavaridgeTown_Gym_1F_Text_FlanneryPreRematch"
@@ -297,13 +371,18 @@ msgid ""
 "Let's exchange superhot moves\n"
 "in another battle!$"
 msgstr ""
+"亚莎：输掉一场对战可不会让我泄气。\p"
+"我喜欢宝可梦，喜欢对战，\n"
+"还有……我喜欢这座道馆！\p"
+"让我们再来一场对战，\n"
+"互相切磋超火热的招式吧！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:375
 msgctxt "LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat"
 msgid ""
 "Whew!\n"
 "On the verge of eruption!$"
-msgstr ""
+msgstr "呼！差点就要喷发了！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:379
 msgctxt "LavaridgeTown_Gym_1F_Text_FlanneryPostRematch"
@@ -315,6 +394,11 @@ msgid ""
 "Let's have another one like this\n"
 "again sometime!$"
 msgstr ""
+"亚莎：虽然我输了比赛，\n"
+"但我完全心满意足了。\p"
+"能享受这么火热的对战，\n"
+"可不是常有的事。\p"
+"下次再来一场这样的对战吧！$"
 
 #: data/maps/LavaridgeTown_Gym_1F/scripts.inc:387
 msgctxt "LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons"
@@ -331,3 +415,12 @@ msgid ""
 "I hate to say this, but when you come\n"
 "see me, bring at least two POKéMON.$"
 msgstr ""
+"亚莎：输掉一场对战可不会让我泄气。\p"
+"我喜欢宝可梦，喜欢对战，\n"
+"还有……我喜欢这座道馆！\p"
+"让我们再来一场对战，\n"
+"互相切磋超火热的招式吧！\p"
+"哎呀，等一下。\n"
+"你只有一只能战斗的宝可梦吗？\p"
+"虽然不想这么说，但来找我的时候，\n"
+"请至少带上两只宝可梦。$"

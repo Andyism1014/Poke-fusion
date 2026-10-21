@@ -18,27 +18,35 @@ msgid ""
 "who are trying to take wing!\p"
 "Okay, go for it!$"
 msgstr ""
+"哟，最近怎么样？\n"
+"以冠军为目标的{PLAYER}！\p"
+"茵郁市道馆馆主娜琪是\n"
+"飞行属性宝可梦的高手。\p"
+"她就在这座道馆的最里面，\n"
+"旋转门的后面等着你。\p"
+"她正在等待想要展翅高飞的新挑战者！\p"
+"好了，加油吧！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:148
 msgctxt "FortreeCity_Gym_Text_GymGuidePostVictory"
 msgid ""
 "You did it!\n"
 "You've achieved liftoff!$"
-msgstr ""
+msgstr "你做到了！你成功起飞了！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:152
 msgctxt "FortreeCity_Gym_Text_JaredIntro"
 msgid ""
 "Behold the elegant battle style of\n"
 "BIRD POKéMON!$"
-msgstr ""
+msgstr "见识一下鸟宝可梦优雅的战斗风格吧！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:156
 msgctxt "FortreeCity_Gym_Text_JaredDefeat"
 msgid ""
 "You…\n"
 "You're strong…$"
-msgstr ""
+msgstr "你……你好强……$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:160
 msgctxt "FortreeCity_Gym_Text_JaredPostBattle"
@@ -48,6 +56,9 @@ msgid ""
 "Do you have the smarts to get to\n"
 "our LEADER?$"
 msgstr ""
+"训练家必须足够聪明，\n"
+"才能应对意料之外的变化。\p"
+"你有足够的智慧走到我们馆主面前吗？$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:166
 msgctxt "FortreeCity_Gym_Text_EdwardoIntro"
@@ -57,13 +68,15 @@ msgid ""
 "As a member of the FORTREE GYM,\n"
 "I'm not allowed to lose!$"
 msgstr ""
+"喜爱鸟宝可梦的人都向往加入这座道馆。\p"
+"身为茵郁道馆的一员，我是不能输的！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:172
 msgctxt "FortreeCity_Gym_Text_EdwardoDefeat"
 msgid ""
 "It was too much of a load for me\n"
 "to bear…$"
-msgstr ""
+msgstr "这担子对我来说太重了……$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:176
 msgctxt "FortreeCity_Gym_Text_EdwardoPostBattle"
@@ -73,6 +86,8 @@ msgid ""
 "I'm going to keep training and make\n"
 "myself even stronger.$"
 msgstr ""
+"世界那么大，厉害的训练家数也数不清。\p"
+"我要继续修行，让自己变得更强。$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:182
 msgctxt "FortreeCity_Gym_Text_FlintIntro"
@@ -81,13 +96,15 @@ msgid ""
 "LEADER, to deal with you!\p"
 "I'm plenty good enough for you!$"
 msgstr ""
+"根本用不着我们的道馆馆主娜琪出马！\p"
+"对付你，我一个人就绰绰有余了！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:187
 msgctxt "FortreeCity_Gym_Text_FlintDefeat"
 msgid ""
 "WINONA, I…\n"
 "I lost!$"
-msgstr ""
+msgstr "娜琪，我……我输了！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:191
 msgctxt "FortreeCity_Gym_Text_FlintPostBattle"
@@ -96,6 +113,8 @@ msgid ""
 "She's the ultimate LEADER!\p"
 "Blush…$"
 msgstr ""
+"娜琪又可爱又强大，是最棒的馆主！\p"
+"（脸红）……$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:196
 msgctxt "FortreeCity_Gym_Text_AshleyIntro"
@@ -103,11 +122,13 @@ msgid ""
 "WINONA taught me personally!\n"
 "You can't beat me easily!$"
 msgstr ""
+"我可是娜琪亲自指导过的！\n"
+"你没那么容易打败我！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:200
 msgctxt "FortreeCity_Gym_Text_AshleyDefeat"
 msgid "I was beaten…$"
-msgstr ""
+msgstr "我被打败了……$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:203
 msgctxt "FortreeCity_Gym_Text_AshleyPostBattle"
@@ -115,6 +136,8 @@ msgid ""
 "Thanks to WINONA, the people of\n"
 "FORTREE can live without fear.$"
 msgstr ""
+"多亏了娜琪，\n"
+"茵郁市的人们才能安心地生活。$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:207
 msgctxt "FortreeCity_Gym_Text_HumbertoIntro"
@@ -124,13 +147,16 @@ msgid ""
 "I'm not letting you witness that\n"
 "lovely sight!$"
 msgstr ""
+"娜琪投入战斗的时候，\n"
+"脸上会闪耀着美丽而坚定的光芒……\p"
+"我才不会让你看到那么美的景象！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:213
 msgctxt "FortreeCity_Gym_Text_HumbertoDefeat"
 msgid ""
 "Urk!\n"
 "I couldn't stop you.$"
-msgstr ""
+msgstr "呜！我没能拦住你。$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:217
 msgctxt "FortreeCity_Gym_Text_HumbertoPostBattle"
@@ -139,6 +165,8 @@ msgid ""
 "Don't get distracted staring at WINONA\l"
 "or you'll go crashing down in a heap!$"
 msgstr ""
+"你可要小心！要是光顾着盯着\n"
+"娜琪看而分了心，你会一头栽下去的！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:222
 msgctxt "FortreeCity_Gym_Text_DariusIntro"
@@ -147,11 +175,14 @@ msgid ""
 "sorts of FLYING-type POKéMON.\p"
 "You do know that, right?$"
 msgstr ""
+"你要知道，\n"
+"飞行属性宝可梦有各种各样的种类。\p"
+"你应该知道吧？$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:227
 msgctxt "FortreeCity_Gym_Text_DariusDefeat"
 msgid "You seem to know your stuff!$"
-msgstr ""
+msgstr "看来你很懂行嘛！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:230
 msgctxt "FortreeCity_Gym_Text_DariusPostBattle"
@@ -160,6 +191,8 @@ msgid ""
 "But you'd better watch it! Our LEADER\l"
 "WINONA's POKéMON are all business.$"
 msgstr ""
+"没错，你是打败了我。但你可要当心！我\n"
+"们馆主娜琪的宝可梦可都是动真格的。$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:235
 msgctxt "FortreeCity_Gym_Text_WinonaIntro"
@@ -173,6 +206,11 @@ msgid ""
 "Witness the elegant choreography\n"
 "of BIRD POKéMON and I!$"
 msgstr ""
+"我是娜琪，茵郁市宝可梦道馆的馆主。\p"
+"我与鸟宝可梦融为一体，翱翔于天际……\p"
+"无论战斗多么艰苦，\n"
+"我们都优雅地取得了胜利……\p"
+"见识一下我和鸟宝可梦优雅的共舞吧！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:245
 msgctxt "FortreeCity_Gym_Text_WinonaDefeat"
@@ -183,13 +221,17 @@ msgid ""
 "In recognition of your prowess,\n"
 "I present to you this GYM BADGE.$"
 msgstr ""
+"我从未见过指挥宝可梦比我还\n"
+"要优雅的训练家……\p"
+"为了表彰你的实力，\n"
+"我把这枚道馆徽章送给你。$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:252
 msgctxt "FortreeCity_Gym_Text_ReceivedFeatherBadge"
 msgid ""
 "{PLAYER} received the FEATHER BADGE\n"
 "from WINONA.$"
-msgstr ""
+msgstr "{PLAYER}从娜琪那里得到了羽毛徽章。$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:256
 msgctxt "FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis"
@@ -202,6 +244,12 @@ msgid ""
 "And this…\n"
 "This is a gift from me.$"
 msgstr ""
+"有了羽毛徽章，等级70以下的宝可梦，\n"
+"就算是通过交换得到的，\l"
+"也会听从你的一切指令。\p"
+"而且你还能在\n"
+"战斗以外使用秘传招式飞翔。\p"
+"还有这个……这是我送给你的礼物。$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:265
 msgctxt "FortreeCity_Gym_Text_ExplainAerialAce"
@@ -211,13 +259,16 @@ msgid ""
 "No POKéMON should be able to avoid it.\p"
 "… … … … … …$"
 msgstr ""
+"招式学习器40里面是燕返。\p"
+"它的速度……没有宝可梦能躲得开。\p"
+"…… …… …… …… …… ……$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:271
 msgctxt "FortreeCity_Gym_Text_RegisteredWinona"
 msgid ""
 "Registered GYM LEADER WINONA\n"
 "in the POKéNAV.$"
-msgstr ""
+msgstr "在宝可梦导航里登记了道馆馆主娜琪。$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:275
 msgctxt "FortreeCity_Gym_Text_WinonaPostBattle"
@@ -225,11 +276,13 @@ msgid ""
 "Though I fell to you, I will remain\n"
 "devoted to BIRD POKéMON.$"
 msgstr ""
+"虽然输给了你，\n"
+"但我依然会全心投入在鸟宝可梦身上。$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:279
 msgctxt "FortreeCity_Gym_Text_GymStatue"
 msgid "FORTREE CITY POKéMON GYM$"
-msgstr ""
+msgstr "茵郁市宝可梦道馆$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:282
 msgctxt "FortreeCity_Gym_Text_GymStatueCertified"
@@ -238,6 +291,9 @@ msgid ""
 "WINONA'S CERTIFIED TRAINERS:\n"
 "{PLAYER}$"
 msgstr ""
+"茵郁市宝可梦道馆\n"
+"娜琪认可的训练家：\l"
+"{PLAYER}$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:287
 msgctxt "FortreeCity_Gym_Text_WinonaPreRematch"
@@ -251,11 +307,17 @@ msgid ""
 "Please, allow me to see your power\n"
 "at full flight!$"
 msgstr ""
+"娜琪：\n"
+"我们人类永远无法摆脱地面的重力。\p"
+"但只要追求卓越，\n"
+"我们就拥有翱翔的力量！\p"
+"你已经作为现任冠军登上了顶峰。\p"
+"请让我见识一下你全力飞翔的力量吧！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:297
 msgctxt "FortreeCity_Gym_Text_WinonaRematchDefeat"
 msgid "I failed to reach your height again…$"
-msgstr ""
+msgstr "我又没能飞到你的高度……$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:300
 msgctxt "FortreeCity_Gym_Text_WinonaPostRematch"
@@ -266,6 +328,10 @@ msgid ""
 "yet again.\p"
 "I am convinced of it!$"
 msgstr ""
+"娜琪：虽然我输了，\n"
+"但我心中的翅膀并没有折断。\p"
+"我能一次又一次地重新飞起来。\p"
+"我对此深信不疑！$"
 
 #: data/maps/FortreeCity_Gym/scripts.inc:307
 msgctxt "FortreeCity_Gym_Text_WinonaRematchNeedTwoMons"
@@ -283,3 +349,11 @@ msgid ""
 "Please return with two POKéMON\n"
 "at the very least.$"
 msgstr ""
+"娜琪：\n"
+"我们人类永远无法摆脱地面的重力。\p"
+"但只要追求卓越，\n"
+"我们就拥有翱翔的力量！\p"
+"你已经作为现任冠军登上了顶峰。\p"
+"请让我见识一下你全力飞翔的力量吧！\p"
+"哎呀……你只带了一只宝可梦吗？\p"
+"请至少带上两只宝可梦再来吧。$"
