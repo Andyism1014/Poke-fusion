@@ -10,5070 +10,6760 @@ msgid ""
 "This move can't be used.\n"
 "Its effect is in development."
 msgstr ""
+"无法使用这个招式。\n"
+"效果尚在开发中。"
 
 #: src/data/moves_info.h:47
 msgid ""
 "Pounds the foe with\n"
 "forelegs or tail."
 msgstr ""
+"用长长的尾巴或前肢等\n"
+"拍打对手进行攻击。"
 
 #: src/data/moves_info.h:70
 msgid ""
 "A chopping attack with a\n"
 "high critical-hit ratio."
 msgstr ""
+"用锋利的手刀劈打对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:94
 msgid ""
 "Repeatedly slaps the foe\n"
 "2 to 5 times."
 msgstr ""
+"用连续巴掌拍打对手，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:118
 msgid ""
 "Repeatedly punches the foe\n"
 "2 to 5 times."
 msgstr ""
+"用拳头怒涛般地殴打对手，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:142
 msgid ""
 "A strong punch thrown with\n"
 "incredible power."
 msgstr ""
+"用充满力量的拳头\n"
+"攻击对手。"
 
 #: src/data/moves_info.h:166
 msgid ""
 "Throws coins at the foe.\n"
 "Money is recovered after."
 msgstr ""
+"向对手投掷小金币攻击。\n"
+"战斗后可以拿到钱。"
 
 #: src/data/moves_info.h:190
 msgid ""
 "A fiery punch that may burn\n"
 "the foe."
 msgstr ""
+"用充满火焰的拳头攻击，\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:250
 msgid ""
 "An electrified punch that\n"
 "may paralyze the foe."
 msgstr ""
+"用充满电流的拳头攻击，\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:278
 msgid ""
 "Scratches the foe with\n"
 "sharp claws."
 msgstr ""
+"用坚硬且锋利的爪子\n"
+"抓对手进行攻击。"
 
 #: src/data/moves_info.h:300
 msgid ""
 "Grips the foe with large and\n"
 "powerful pincers."
 msgstr ""
+"用巨大而有力的钳子\n"
+"夹住对手进行攻击。"
 
 #: src/data/moves_info.h:322
 msgid ""
 "A powerful pincer attack\n"
 "that causes fainting."
 msgstr ""
+"用大钳子夹断对手。\n"
+"命中的话就会一击濒死。"
 
 #: src/data/moves_info.h:382
 msgid ""
 "A fighting dance that\n"
 "sharply raises Attack."
 msgstr ""
+"激烈地跳起战舞，\n"
+"大幅提高自己的攻击。"
 
 #: src/data/moves_info.h:413
 msgid ""
 "Cuts the foe with sharp\n"
 "scythes, claws, etc."
 msgstr ""
+"用镰刀或爪子等\n"
+"切斩对手进行攻击。"
 
 #: src/data/moves_info.h:436
 msgid ""
 "Strikes the foe with a gust\n"
 "of wind whipped up by wings."
 msgstr ""
+"用翅膀扇起强风，\n"
+"吹向对手进行攻击。"
 
 #: src/data/moves_info.h:460
 msgid ""
 "Strikes the foe with wings\n"
 "spread wide."
 msgstr ""
+"大大地展开美丽的翅膀，\n"
+"撞向对手进行攻击。"
 
 #: src/data/moves_info.h:482
 msgid ""
 "Blows away the foe to switch\n"
 "it out or end wild battles."
 msgstr ""
+"吹飞对手，强制换人。\n"
+"野生宝可梦则战斗结束。"
 
 #: src/data/moves_info.h:522
 msgid ""
 "Flies up on the first turn,\n"
 "then strikes the next turn."
 msgstr ""
+"第1回合飞上天空，\n"
+"第2回合攻击对手。"
 
 #: src/data/moves_info.h:578
 msgid ""
 "Slams the foe with a long\n"
 "tail, vine, etc."
 msgstr ""
+"用长长的尾巴或藤蔓等\n"
+"摔打对手进行攻击。"
 
 #: src/data/moves_info.h:602
 msgid ""
 "Strikes the foe with\n"
 "slender, whiplike vines."
 msgstr ""
+"用如同鞭子般弯曲而细长\n"
+"的藤蔓摔打对手。"
 
 #: src/data/moves_info.h:630
 msgid ""
 "Stomps the enemy with a big\n"
 "foot. May cause flinching."
 msgstr ""
+"用大脚踩踏对手攻击。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:659
 msgid ""
 "A double-kicking attack\n"
 "that strikes the foe twice."
 msgstr ""
+"用2只脚踢倒对手\n"
+"进行攻击。连续2次。"
 
 #: src/data/moves_info.h:683
 msgid ""
 "An extremely powerful kick\n"
 "with intense force."
 msgstr ""
+"使出力量强大的飞踢\n"
+"攻击对手。"
 
 #: src/data/moves_info.h:706
 msgid ""
 "A strong jumping kick. May\n"
 "miss and hurt the kicker."
 msgstr ""
+"跳起来用膝盖踢对手。\n"
+"落空的话自己会受伤。"
 
 #: src/data/moves_info.h:736
 msgid ""
 "A fast kick delivered from\n"
 "a rapid spin. May flinch."
 msgstr ""
+"一边使身体快速旋转，\n"
+"一边踢飞对手。可能畏缩。"
 
 #: src/data/moves_info.h:764
 msgid ""
 "Lowers the foe's accuracy\n"
 "by hurling sand in its face."
 msgstr ""
+"向对手脸上泼沙子，\n"
+"从而降低对手的命中率。"
 
 #: src/data/moves_info.h:792
 msgid ""
 "A ramming attack that may\n"
 "cause flinching."
 msgstr ""
+"伸直头部撞向对手。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:819
 msgid ""
 "Jabs the foe with sharp\n"
 "horns."
 msgstr ""
+"用尖锐的角\n"
+"攻击对手。"
 
 #: src/data/moves_info.h:841
 msgid ""
 "Jabs the foe 2 to 5 times\n"
 "with sharp horns, etc."
 msgstr ""
+"用角或喙刺向对手，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:864
 msgid ""
 "A one-hit KO attack that\n"
 "uses a horn like a drill."
 msgstr ""
+"用旋转的角刺入对手。\n"
+"命中的话就会一击濒死。"
 
 #: src/data/moves_info.h:887
 msgid ""
 "Charges the foe with a full-\n"
 "body tackle."
 msgstr ""
+"用整个身体\n"
+"撞向对手进行攻击。"
 
 #: src/data/moves_info.h:915
 msgid ""
 "A full-body slam that may\n"
 "cause paralysis."
 msgstr ""
+"用整个身体撞向对手。\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:972
 msgid ""
 "A reckless charge attack\n"
 "that also hurts the user."
 msgstr ""
+"以惊人的气势撞向对手。\n"
+"自己也会受到少许伤害。"
 
 #: src/data/moves_info.h:996 src/data/moves_info.h:2159 src/data/moves_info.h:5490 src/data/moves_info.h:20140
 msgid ""
 "A rampage of 2 to 3 turns\n"
 "that confuses the user."
 msgstr ""
+"在2～3回合内乱打一气\n"
+"地攻击。之后自己会混乱。"
 
 #: src/data/moves_info.h:1024
 msgid ""
 "A life-risking tackle that\n"
 "also hurts the user."
 msgstr ""
+"拼命地猛撞向对手。\n"
+"自己也会受到不少伤害。"
 
 #: src/data/moves_info.h:1048
 msgid ""
 "Wags the tail to lower the\n"
 "foes' Defense."
 msgstr ""
+"可爱地左右摇晃尾巴，\n"
+"降低对手的防御。"
 
 #: src/data/moves_info.h:1075
 msgid ""
 "A toxic attack with barbs,\n"
 "etc., that may poison."
 msgstr ""
+"将有毒的针刺入对手。\n"
+"有时会让对手中毒。"
 
 #: src/data/moves_info.h:1100
 msgid ""
 "Stingers on the forelegs jab\n"
 "the foe twice. May poison."
 msgstr ""
+"将2根针刺入对手，\n"
+"连续2次。可能让对手中毒。"
 
 #: src/data/moves_info.h:1128
 msgid ""
 "Sharp pins are fired to\n"
 "strike 2 to 5 times."
 msgstr ""
+"向对手发射锐针攻击，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:1150
 msgid ""
 "Frightens the foes with a\n"
 "leer to lower Defense."
 msgstr ""
+"用犀利的目光\n"
+"降低对手的防御。"
 
 #: src/data/moves_info.h:1177
 msgid ""
 "Bites with vicious fangs.\n"
 "May cause flinching."
 msgstr ""
+"用尖锐的牙咬住对手。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:1205
 msgid ""
 "Growls cutely to lower the\n"
 "foes' Attack."
 msgstr ""
+"可爱地叫唤，\n"
+"降低对手的攻击。"
 
 #: src/data/moves_info.h:1234
 msgid ""
 "The foe is scared to switch\n"
 "it out or end wild battles."
 msgstr ""
+"放走对手，强制换人。\n"
+"野生宝可梦则战斗结束。"
 
 #: src/data/moves_info.h:1269
 msgid ""
 "A soothing song lulls the\n"
 "foe into a deep slumber."
 msgstr ""
+"让对手听舒适悦耳的\n"
+"歌声，从而陷入睡眠。"
 
 #: src/data/moves_info.h:1296
 msgid ""
 "Emits bizarre sound waves\n"
 "that confuse the foe."
 msgstr ""
+"从身体发出特殊的音波，\n"
+"从而使对手混乱。"
 
 #: src/data/moves_info.h:1322
 msgid ""
 "Launches shock waves that\n"
 "always inflict 20 HP damage."
 msgstr ""
+"向对手发出冲击波，\n"
+"必定造成20HP的伤害。"
 
 #: src/data/moves_info.h:1413
 msgid ""
 "A weak fire attack that may\n"
 "inflict a burn."
 msgstr ""
+"向对手发射小型火焰。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:1438
 msgid ""
 "A powerful fire attack that\n"
 "may inflict a burn."
 msgstr ""
+"向对手发射烈焰。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:1464
 msgid ""
 "Creates a mist that stops\n"
 "lowering of allies' stats."
 msgstr ""
+"用白雾覆盖己方，\n"
+"防止能力被降低。"
 
 #: src/data/moves_info.h:1490
 msgid ""
 "Squirts water to attack\n"
 "the foe."
 msgstr ""
+"向对手猛烈地喷射水流\n"
+"进行攻击。"
 
 #: src/data/moves_info.h:1511
 msgid ""
 "Blasts water at high power\n"
 "to strike the foe."
 msgstr ""
+"向对手猛烈地喷射\n"
+"大量水流进行攻击。"
 
 #: src/data/moves_info.h:1625
 msgid ""
 "Fires a peculiar ray that\n"
 "may confuse the foe."
 msgstr ""
+"向对手发射神奇的光线。\n"
+"有时会使对手混乱。"
 
 #: src/data/moves_info.h:1651
 msgid ""
 "Forcefully sprays bubbles\n"
 "that may lower Speed."
 msgstr ""
+"向对手猛烈地喷射泡沫。\n"
+"有时会降低对手的速度。"
 
 #: src/data/moves_info.h:1677
 msgid ""
 "Fires a rainbow-colored\n"
 "beam that may lower Attack."
 msgstr ""
+"向对手发射七彩光束。\n"
+"有时会降低对手的攻击。"
 
 #: src/data/moves_info.h:1735
 msgid ""
 "Attacks the foe with a\n"
 "jabbing beak, etc."
 msgstr ""
+"用尖锐的喙或角\n"
+"戳对手进行攻击。"
 
 #: src/data/moves_info.h:1757
 msgid ""
 "A corkscrewing attack with\n"
 "the beak acting as a drill."
 msgstr ""
+"一边旋转，一边将尖喙\n"
+"像钻头一样刺进对手。"
 
 #: src/data/moves_info.h:1780
 msgid ""
 "A reckless body slam that\n"
 "also hurts the user."
 msgstr ""
+"连同自己一起摔向地面。\n"
+"自己也会受到少许伤害。"
 
 #: src/data/moves_info.h:1836
 msgid ""
 "Retaliates any physical hit\n"
 "with double the power."
 msgstr ""
+"受到物理攻击时，\n"
+"以2倍伤害还击对手。"
 
 #: src/data/moves_info.h:1870 src/data/moves_info.h:2726
 msgid ""
 "Inflicts damage identical\n"
 "to the user's level."
 msgstr ""
+"给予对手和自己\n"
+"等级相同的伤害。"
 
 #: src/data/moves_info.h:1894
 msgid ""
 "Builds enormous power,\n"
 "then slams the foe."
 msgstr ""
+"使出浑身力气\n"
+"殴打对手进行攻击。"
 
 #: src/data/moves_info.h:1917 src/data/moves_info.h:1944
 msgid ""
 "An attack that absorbs\n"
 "half the damage inflicted."
 msgstr ""
+"吸取对手的养分攻击。\n"
+"回复伤害一半的HP。"
 
 #: src/data/moves_info.h:1972
 msgid ""
 "Plants a seed on the foe to\n"
 "steal HP on every turn."
 msgstr ""
+"植入寄生种子，每回合\n"
+"吸取对手少许HP。"
 
 #: src/data/moves_info.h:2032
 msgid ""
 "Cuts enemies with leaves.\n"
 "High critical-hit ratio."
 msgstr ""
+"飞叶为刃切斩对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:2056
 msgid ""
 "Absorbs light in one turn,\n"
 "then attacks next turn."
 msgstr ""
+"第1回合收集满满的日光，\n"
+"第2回合发射光束攻击。"
 
 #: src/data/moves_info.h:2081
 msgid ""
 "Scatters a toxic powder\n"
 "that poisons the foe."
 msgstr ""
+"撒出毒粉，\n"
+"从而让对手陷入中毒。"
 
 #: src/data/moves_info.h:2107
 msgid ""
 "Scatters a powder that\n"
 "paralyzes the foe."
 msgstr ""
+"撒出麻痹粉，\n"
+"从而让对手陷入麻痹。"
 
 #: src/data/moves_info.h:2133
 msgid ""
 "Scatters a powder that\n"
 "causes the foe to sleep."
 msgstr ""
+"撒出催眠粉，\n"
+"从而让对手陷入睡眠。"
 
 #: src/data/moves_info.h:2225
 msgid ""
 "Launches shock waves that\n"
 "always inflict 40 HP damage."
 msgstr ""
+"向对手发出冲击波，\n"
+"必定造成40HP的伤害。"
 
 #: src/data/moves_info.h:2276
 msgid ""
 "An electrical attack that\n"
 "may paralyze the foe."
 msgstr ""
+"发出电流刺激对手。\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:2301
 msgid ""
 "A strong electrical attack\n"
 "that may paralyze the foe."
 msgstr ""
+"向对手发出强力电击。\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:2327
 msgid ""
 "A weak jolt of electricity\n"
 "that paralyzes the foe."
 msgstr ""
+"向对手发出微弱的电击，\n"
+"从而让对手陷入麻痹。"
 
 #: src/data/moves_info.h:2352
 msgid ""
 "A lightning attack that may\n"
 "cause paralysis."
 msgstr ""
+"向对手劈下暴雷。\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:2381
 msgid ""
 "Throws small rocks to\n"
 "strike the foe."
 msgstr ""
+"拿起小岩石，\n"
+"投掷对手进行攻击。"
 
 #: src/data/moves_info.h:2402
 msgid ""
 "A powerful quake that\n"
 "hits all other Pokémon."
 msgstr ""
+"利用地震的冲击，\n"
+"攻击自己周围所有宝可梦。"
 
 #: src/data/moves_info.h:2427
 msgid ""
 "A one-hit KO move that\n"
 "drops the foe in a fissure."
 msgstr ""
+"让对手掉落于地裂裂缝。\n"
+"命中的话就会一击濒死。"
 
 #: src/data/moves_info.h:2451
 msgid ""
 "Digs underground the first\n"
 "turn and strikes next turn."
 msgstr ""
+"第1回合钻入地下，\n"
+"第2回合攻击对手。"
 
 #: src/data/moves_info.h:2485
 msgid ""
 "Poisons the foe with an\n"
 "intensifying toxin."
 msgstr ""
+"让对手陷入剧毒状态。\n"
+"中毒伤害逐渐增加。"
 
 #: src/data/moves_info.h:2511
 msgid ""
 "A psychic attack that may\n"
 "cause confusion."
 msgstr ""
+"向对手发送微弱的念力。\n"
+"有时会使对手混乱。"
 
 #: src/data/moves_info.h:2536
 msgid ""
 "A powerful psychic attack\n"
 "that may lower Sp. Def."
 msgstr ""
+"向对手发送强大的念力。\n"
+"有时会降低对手的特防。"
 
 #: src/data/moves_info.h:2563
 msgid ""
 "A hypnotizing move that\n"
 "induces sleep."
 msgstr ""
+"施以诱导睡意的暗示，\n"
+"让对手陷入睡眠。"
 
 #: src/data/moves_info.h:2588
 msgid ""
 "Meditates in a peaceful\n"
 "fashion to raise Attack."
 msgstr ""
+"唤醒自身深处沉睡的力量，\n"
+"从而提高自己的攻击。"
 
 #: src/data/moves_info.h:2618
 msgid ""
 "Relaxes the body to sharply\n"
 "raise Speed."
 msgstr ""
+"放松身体，\n"
+"大幅提高自己的速度。"
 
 #: src/data/moves_info.h:2648
 msgid ""
 "An extremely fast attack\n"
 "that always strikes first."
 msgstr ""
+"以迅雷不及掩耳之势\n"
+"扑向对手。必定能够先制。"
 
 #: src/data/moves_info.h:2671
 msgid ""
 "Raises the user's Attack\n"
 "every time it is hit."
 msgstr ""
+"愤怒的火焰燃起，\n"
+"每受到攻击时攻击会提高。"
 
 #: src/data/moves_info.h:2748
 msgid ""
 "Copies the last move used by\n"
 "the foe during one battle."
 msgstr ""
+"在战斗中模仿对手\n"
+"最后使用的招式。"
 
 #: src/data/moves_info.h:2779
 msgid ""
 "Emits a screech to harshly\n"
 "lower the foe's Defense."
 msgstr ""
+"发出尖锐的声音，\n"
+"大幅降低对手的防御。"
 
 #: src/data/moves_info.h:2809
 msgid ""
 "Creates illusory copies to\n"
 "raise evasiveness."
 msgstr ""
+"快速移动制造分身，\n"
+"提高自己的闪避率。"
 
 #: src/data/moves_info.h:2839 src/data/moves_info.h:3675 src/data/moves_info.h:5713
 msgid ""
 "Recovers up to half the\n"
 "user's maximum HP."
 msgstr ""
+"让细胞再生，\n"
+"回复自己最大HP的一半。"
 
 #: src/data/moves_info.h:2872
 msgid ""
 "Stiffens the body's \n"
 "muscles to raise Defense."
 msgstr ""
+"全身使劲，\n"
+"提高自己的防御。"
 
 #: src/data/moves_info.h:2936
 msgid ""
 "Lowers the foe's accuracy\n"
 "using smoke, ink, etc."
 msgstr ""
+"用烟雾或墨汁遮住对手，\n"
+"降低对手的命中率。"
 
 #: src/data/moves_info.h:2964
 msgid ""
 "A sinister ray that\n"
 "confuses the foe."
 msgstr ""
+"发出奇怪的光，\n"
+"扰乱对手使其混乱。"
 
 #: src/data/moves_info.h:2988
 msgid ""
 "Withdraws the body into its\n"
 "hard shell to raise Defense."
 msgstr ""
+"缩入壳里保护身体，\n"
+"提高自己的防御。"
 
 #: src/data/moves_info.h:3018
 msgid ""
 "Curls up to conceal weak\n"
 "spots and raise Defense."
 msgstr ""
+"将身体蜷曲起来防御，\n"
+"提高自己的防御。"
 
 #: src/data/moves_info.h:3048
 msgid ""
 "Creates a barrier that\n"
 "sharply raises Defense."
 msgstr ""
+"制造坚固的壁障，\n"
+"大幅提高自己的防御。"
 
 #: src/data/moves_info.h:3078
 msgid ""
 "For 5 turns, a wall of light\n"
 "reduces special damage."
 msgstr ""
+"5回合内利用神奇的壁障，\n"
+"减弱受到的特殊攻击。"
 
 #: src/data/moves_info.h:3104
 msgid ""
 "Creates a black haze that\n"
 "eliminates all stat changes."
 msgstr ""
+"喷出黑雾，\n"
+"让场上全员的能力复原。"
 
 #: src/data/moves_info.h:3130
 msgid ""
 "For 5 turns, a wall of light\n"
 "weakens physical attacks."
 msgstr ""
+"5回合内利用神奇的壁障，\n"
+"减弱受到的物理攻击。"
 
 #: src/data/moves_info.h:3156
 msgid ""
 "Focuses power to raise the\n"
 "critical-hit ratio."
 msgstr ""
+"深深地吸口气，集中精神。\n"
+"自己的攻击更易击中要害。"
 
 #: src/data/moves_info.h:3183
 msgid ""
 "Endures attack for 2\n"
 "turns to retaliate double."
 msgstr ""
+"2回合内忍受攻击，\n"
+"之后加倍奉还受到的伤害。"
 
 #: src/data/moves_info.h:3208
 msgid ""
 "Waggles a finger to use any\n"
 "Pokémon move at random."
 msgstr ""
+"摇晃手指刺激大脑，\n"
+"随机使出任意招式。"
 
 #: src/data/moves_info.h:3239
 msgid ""
 "Counters the foe's attack\n"
 "with the same move."
 msgstr ""
+"模仿对手使用的招式，\n"
+"自己也使用相同招式。"
 
 #: src/data/moves_info.h:3271 src/data/moves_info.h:4189
 msgid ""
 "Inflicts severe damage but\n"
 "makes the user faint."
 msgstr ""
+"引发爆炸造成巨大伤害，\n"
+"使用后自己会陷入濒死。"
 
 #: src/data/moves_info.h:3296
 msgid ""
 "An egg is forcibly hurled at\n"
 "the foe."
 msgstr ""
+"使出浑身力气，\n"
+"将大蛋扔向对手攻击。"
 
 #: src/data/moves_info.h:3319
 msgid ""
 "Licks with a long tongue to\n"
 "injure. May also paralyze."
 msgstr ""
+"用长长的舌头舔遍对手。\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:3346
 msgid ""
 "An exhaust-gas attack\n"
 "that may also poison."
 msgstr ""
+"将毒气吹到对手身上。\n"
+"有时会让对手中毒。"
 
 #: src/data/moves_info.h:3371 src/data/moves_info.h:5164
 msgid ""
 "Sludge is hurled to inflict\n"
 "damage. May also poison."
 msgstr ""
+"将污泥投掷向对手攻击。\n"
+"有时会让对手中毒。"
 
 #: src/data/moves_info.h:3396
 msgid ""
 "Clubs the foe with a bone.\n"
 "May cause flinching."
 msgstr ""
+"用手中的骨头殴打对手。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:3421
 msgid ""
 "Incinerates everything it\n"
 "strikes. May cause a burn."
 msgstr ""
+"用大字形的火焰烧尽对手。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:3448
 msgid ""
 "Charges with speed to\n"
 "climb waterfalls. May flinch."
 msgstr ""
+"以惊人的气势扑向对手。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:3456
 msgid ""
 "Charges the foe with speed\n"
 "to climb waterfalls."
 msgstr ""
+"以惊人的气势\n"
+"扑向对手进行攻击。"
 
 #: src/data/moves_info.h:3508
 msgid ""
 "Sprays star-shaped rays\n"
 "that never miss."
 msgstr ""
+"发射星形的光攻击对手。\n"
+"攻击必定会命中。"
 
 #: src/data/moves_info.h:3531
 msgid ""
 "Tucks in to raise Defense,\n"
 "then attacks the next turn."
 msgstr ""
+"第1回合缩头提高防御，\n"
+"第2回合撞向对手。"
 
 #: src/data/moves_info.h:3541
 msgid ""
 "Tucks in the head, then\n"
 "attacks on the next turn."
 msgstr ""
+"第1回合把头缩进去，\n"
+"第2回合撞向对手。"
 
 #: src/data/moves_info.h:3568
 msgid ""
 "Launches sharp spikes that\n"
 "strike 2 to 5 times."
 msgstr ""
+"向对手发射锐针，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:3590
 msgid ""
 "Constricts to inflict pain.\n"
 "May lower Speed."
 msgstr ""
+"用触手或青藤等缠住对手。\n"
+"有时会降低对手的速度。"
 
 #: src/data/moves_info.h:3617
 msgid ""
 "Forgets about something\n"
 "and sharply raises Sp. Def."
 msgstr ""
+"将头脑放空，\n"
+"大幅提高自己的特防。"
 
 #: src/data/moves_info.h:3647
 msgid ""
 "Distracts the foe.\n"
 "Lowers accuracy."
 msgstr ""
+"歪曲汤匙引开注意，\n"
+"降低对手的命中率。"
 
 #: src/data/moves_info.h:3702
 msgid ""
 "A jumping knee kick. If it\n"
 "misses, the user is hurt."
 msgstr ""
+"跳起来用膝盖撞对手。\n"
+"落空的话自己会受伤。"
 
 #: src/data/moves_info.h:3732
 msgid ""
 "Intimidates and frightens\n"
 "the foe into paralysis."
 msgstr ""
+"用腹部的花纹使对手害怕，\n"
+"从而让其陷入麻痹。"
 
 #: src/data/moves_info.h:3763
 msgid ""
 "Absorbs one half the damage\n"
 "inflicted on a sleeping foe."
 msgstr ""
+"吃掉睡眠对手的梦攻击。\n"
+"回复伤害一半的HP。"
 
 #: src/data/moves_info.h:3824
 msgid ""
 "Hurls round objects at the\n"
 "foe 2 to 5 times."
 msgstr ""
+"向对手投掷圆形物体，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:3847 src/data/moves_info.h:5545
 msgid ""
 "An attack that steals half\n"
 "the damage inflicted."
 msgstr ""
+"吸取对手的血液攻击。\n"
+"回复伤害一半的HP。"
 
 #: src/data/moves_info.h:3875
 msgid ""
 "Demands a kiss with a scary\n"
 "face that induces sleep."
 msgstr ""
+"用恐怖的脸亲吻对手，\n"
+"让对手陷入睡眠。"
 
 #: src/data/moves_info.h:3901
 msgid ""
 "2-turn move. May flinch and\n"
 "has a high critical-hit rate."
 msgstr ""
+"2回合攻击。可能使对手\n"
+"畏缩，容易击中要害。"
 
 #: src/data/moves_info.h:3909
 msgid ""
 "Searches out weak spots,\n"
 "then strikes the next turn."
 msgstr ""
+"看穿对手的弱点，\n"
+"第2回合再攻击对手。"
 
 #: src/data/moves_info.h:3936
 msgid ""
 "Alters the user's cells to\n"
 "become a copy of the foe."
 msgstr ""
+"变身成对手宝可梦，\n"
+"能够使用和对手相同的招式。"
 
 #: src/data/moves_info.h:3968
 msgid ""
 "An attack using bubbles.\n"
 "May lower the foes' Speed."
 msgstr ""
+"将无数泡泡吹向对手。\n"
+"有时会降低对手的速度。"
 
 #: src/data/moves_info.h:3995
 msgid ""
 "A rhythmic punch that may\n"
 "confuse the foe."
 msgstr ""
+"有节奏地挥动拳头。\n"
+"有时会使对手混乱。"
 
 #: src/data/moves_info.h:4003
 msgid ""
 "The foe is hit with a\n"
 "rhythmic punch."
 msgstr ""
+"有节奏地挥动拳头\n"
+"殴打对手。"
 
 #: src/data/moves_info.h:4028
 msgid ""
 "Scatters a cloud of spores\n"
 "that always induce sleep."
 msgstr ""
+"撒满有催眠效果的孢子，\n"
+"使对手必定陷入睡眠。"
 
 #: src/data/moves_info.h:4054
 msgid ""
 "Looses a powerful blast of\n"
 "light that lowers accuracy."
 msgstr ""
+"使出耀眼的强光，\n"
+"降低对手的命中率。"
 
 #: src/data/moves_info.h:4082
 msgid ""
 "Attacks with a psychic\n"
 "wave of varying intensity."
 msgstr ""
+"向对手施以奇妙的念波，\n"
+"威力每次都会不同。"
 
 #: src/data/moves_info.h:4104
 msgid ""
 "It's just a splash...\n"
 "Has no effect whatsoever."
 msgstr ""
+"只是在地面上蹦蹦跳跳，\n"
+"什么效果都没有……"
 
 #: src/data/moves_info.h:4129
 msgid ""
 "Liquifies the user's body\n"
 "to sharply raise Defense."
 msgstr ""
+"让细胞变化成液态，\n"
+"大幅提高自己的防御。"
 
 #: src/data/moves_info.h:4159
 msgid ""
 "Hammers with a pincer. Has a\n"
 "high critical-hit ratio."
 msgstr ""
+"用大钳子敲打对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:4214
 msgid ""
 "Rakes the foe with sharp\n"
 "claws, etc., 2 to 5 times."
 msgstr ""
+"用爪子或镰刀抓对手，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:4237
 msgid ""
 "Throws a bone boomerang\n"
 "that strikes twice."
 msgstr ""
+"用手中的骨头投掷对手，\n"
+"来回连续攻击2次。"
 
 #: src/data/moves_info.h:4260
 msgid ""
 "The user sleeps for 2 turns,\n"
 "restoring HP and status."
 msgstr ""
+"连续睡2回合，回复自己的\n"
+"HP和所有异常状态。"
 
 #: src/data/moves_info.h:4288
 msgid ""
 "Large boulders are hurled.\n"
 "May cause flinching."
 msgstr ""
+"将大岩石猛烈地撞向对手。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:4296
 msgid ""
 "Hits the foes with an\n"
 "avalanche of boulders."
 msgstr ""
+"将大岩石\n"
+"猛烈地撞向对手攻击。"
 
 #: src/data/moves_info.h:4319
 msgid ""
 "Attacks with sharp fangs.\n"
 "May cause flinching."
 msgstr ""
+"用锋利的门牙咬住对手。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:4347
 msgid ""
 "Reduces the polygon count\n"
 "and raises Attack."
 msgstr ""
+"使身体变得棱角分明，\n"
+"从而提高自己的攻击。"
 
 #: src/data/moves_info.h:4409
 msgid ""
 "Fires three types of beams.\n"
 "May burn/parlyz/frostbite."
 msgstr ""
+"发射3种光线。可能灼伤、\n"
+"麻痹或冻伤对手。"
 
 #: src/data/moves_info.h:4413
 msgid ""
 "Fires three types of beams.\n"
 "May burn/paralyze/freeze."
 msgstr ""
+"发射3种光线。可能灼伤、\n"
+"麻痹或冰冻对手。"
 
 #: src/data/moves_info.h:4423
 msgid ""
 "A triangular field of energy\n"
 "is created and launched."
 msgstr ""
+"制造出三角形的能量场，\n"
+"向对手发射攻击。"
 
 #: src/data/moves_info.h:4446
 msgid ""
 "Attacks with sharp fangs\n"
 "and cuts half the foe's HP."
 msgstr ""
+"用锋利的门牙\n"
+"使对手的HP减半。"
 
 #: src/data/moves_info.h:4471
 msgid ""
 "Slashes with claws, etc. Has\n"
 "a high critical-hit ratio."
 msgstr ""
+"用爪子或镰刀等劈开对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:4496
 msgid ""
 "Creates a decoy using 1/4\n"
 "of the user's maximum HP."
 msgstr ""
+"削减自己最大HP的1/4\n"
+"制造分身。"
 
 #: src/data/moves_info.h:4523
 msgid ""
 "Used only if all PP are gone.\n"
 "Also hurts the user a little."
 msgstr ""
+"PP耗尽时才会使用。\n"
+"自己也会受到少许伤害。"
 
 #: src/data/moves_info.h:4564
 msgid ""
 "Copies the foe's last move\n"
 "permanently."
 msgstr ""
+"将对手最后使用的招式\n"
+"永久变为自己的招式。"
 
 #: src/data/moves_info.h:4598
 msgid ""
 "Kicks the foe 3 times in a\n"
 "row with rising intensity."
 msgstr ""
+"连续3次踢对手攻击。\n"
+"每次命中时威力都会提高。"
 
 #: src/data/moves_info.h:4622
 msgid ""
 "While attacking, it\n"
 "steals the foe's held item."
 msgstr ""
+"攻击的同时\n"
+"盗取对手的道具。"
 
 #: src/data/moves_info.h:4650
 msgid ""
 "Ensnares the foe to stop it\n"
 "from fleeing or switching."
 msgstr ""
+"用黏糊糊的细丝缠住对手，\n"
+"使其不能逃走或替换。"
 
 #: src/data/moves_info.h:4675
 msgid ""
 "Senses the foe's action to\n"
 "ensure the next move's hit."
 msgstr ""
+"看穿对手的行动，\n"
+"下次攻击必定会命中。"
 
 #: src/data/moves_info.h:4698
 msgid ""
 "Inflicts 1/4 damage on a\n"
 "sleeping foe every turn."
 msgstr ""
+"让睡眠的对手做噩梦，\n"
+"每回合减少1/4的HP。"
 
 #: src/data/moves_info.h:4722
 msgid ""
 "A fiery charge attack that\n"
 "may inflict a burn."
 msgstr ""
+"让火焰覆盖全身猛撞对手。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:4749
 msgid ""
 "A loud move that can be used\n"
 "only while asleep. May flinch."
 msgstr ""
+"睡眠时才能使用，发出\n"
+"巨大鼾声。可能使对手畏缩。"
 
 #: src/data/moves_info.h:4778
 msgid ""
 "A move that functions\n"
 "differently for Ghosts."
 msgstr ""
+"幽灵属性和其他属性\n"
+"使用时效果不同。"
 
 #: src/data/moves_info.h:4813 src/data/moves_info.h:4919
 msgid ""
 "Inflicts more damage when\n"
 "the user's HP is down."
 msgstr ""
+"自己的HP越少，\n"
+"给予对手的伤害越大。"
 
 #: src/data/moves_info.h:4836
 msgid ""
 "Makes the user resistant\n"
 "to the last attack's type."
 msgstr ""
+"使自己变成能抵抗\n"
+"对手上次所用招式的属性。"
 
 #: src/data/moves_info.h:4862
 msgid ""
 "Launches a vacuumed blast.\n"
 "High critical-hit ratio."
 msgstr ""
+"发射空气漩涡攻击对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:5000 src/data/moves_info.h:5410 src/data/moves_info.h:22722
 msgid ""
 "Evades attack, but may fail\n"
 "if used in succession."
 msgstr ""
+"完全抵挡对手的攻击。\n"
+"连续使用容易失败。"
 
 #: src/data/moves_info.h:5035
 msgid ""
 "A punch is thrown at wicked\n"
 "speed to strike first."
 msgstr ""
+"迅速挥出拳头，\n"
+"必定能够先制攻击。"
 
 #: src/data/moves_info.h:5059
 msgid ""
 "Frightens with a scary face\n"
 "to harshly lower Speed."
 msgstr ""
+"用恐怖的表情瞪着对手，\n"
+"大幅降低其速度。"
 
 #: src/data/moves_info.h:5087
 msgid ""
 "Draws the foe close, then\n"
 "strikes without fail."
 msgstr ""
+"悄悄接近对手攻击。\n"
+"攻击必定会命中。"
 
 #: src/data/moves_info.h:5110
 msgid ""
 "Demands a kiss with a cute\n"
 "look. Causes confusion."
 msgstr ""
+"像小天使一样可爱地亲吻\n"
+"对手，从而使对手混乱。"
 
 #: src/data/moves_info.h:5134
 msgid ""
 "Maximizes Attack while\n"
 "sacrificing half the max HP."
 msgstr ""
+"削减自己最大HP的一半，\n"
+"将攻击提升至最大。"
 
 #: src/data/moves_info.h:5191
 msgid ""
 "Hurls mud in the foe's face\n"
 "to lower its accuracy."
 msgstr ""
+"向对手脸上扔泥巴攻击，\n"
+"同时降低其命中率。"
 
 #: src/data/moves_info.h:5218
 msgid ""
 "Fires a lump of ink to\n"
 "damage. May lower accuracy."
 msgstr ""
+"向对手的脸喷出墨汁攻击。\n"
+"有时会降低对手的命中率。"
 
 #: src/data/moves_info.h:5246
 msgid ""
 "Sets spikes that hurt a \n"
 "foe switching in."
 msgstr ""
+"撒下撒菱，让替换出场的\n"
+"对手受到伤害。"
 
 #: src/data/moves_info.h:5274
 msgid ""
 "Powerful and sure to cause\n"
 "paralysis, but inaccurate."
 msgstr ""
+"发射大炮般的电流攻击，\n"
+"让对手必定麻痹。命中低。"
 
 #: src/data/moves_info.h:5301 src/data/moves_info.h:8690
 msgid ""
 "Negates evasion and the\n"
 "Ghost type's immunities."
 msgstr ""
+"使对手的闪避率无效，\n"
+"幽灵属性也能被击中。"
 
 #: src/data/moves_info.h:5326
 msgid ""
 "If the user faints, the foe\n"
 "is also made to faint."
 msgstr ""
+"自己濒死时，\n"
+"攻击自己的对手也会濒死。"
 
 #: src/data/moves_info.h:5355
 msgid ""
 "Any Pokémon hearing this\n"
 "song faints in 3 turns."
 msgstr ""
+"听到灭亡之歌的宝可梦\n"
+"经过3回合后就会濒死。"
 
 #: src/data/moves_info.h:5382
 msgid ""
 "A chilling attack that\n"
 "lowers the foes' Speed."
 msgstr ""
+"将冰冻的冷气吹向对手，\n"
+"从而降低对手的速度。"
 
 #: src/data/moves_info.h:5445
 msgid ""
 "Strikes the foe with a bone\n"
 "in hand 2 to 5 times."
 msgstr ""
+"用坚硬的骨头殴打对手，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:5467
 msgid ""
 "Locks on to the foe to\n"
 "ensure the next move hits."
 msgstr ""
+"锁定目标，\n"
+"下次攻击必定会命中。"
 
 #: src/data/moves_info.h:5518
 msgid ""
 "Causes a sandstorm that\n"
 "rages for 5 turns."
 msgstr ""
+"5回合内扬起沙暴。\n"
+"除特定属性外都会受伤。"
 
 #: src/data/moves_info.h:5573
 msgid ""
 "Endures any attack for\n"
 "1 turn, leaving at least 1 HP."
 msgstr ""
+"即使受到攻击，\n"
+"也至少能保留1HP。"
 
 #: src/data/moves_info.h:5608
 msgid ""
 "Charms the foe and harshly\n"
 "lowers its Attack."
 msgstr ""
+"可爱地撒娇，\n"
+"大幅降低对手的攻击。"
 
 #: src/data/moves_info.h:5636
 msgid ""
 "An attack lasting 5 turns\n"
 "with rising intensity."
 msgstr ""
+"在5回合内连续滚动撞击，\n"
+"威力会逐渐提高。"
 
 #: src/data/moves_info.h:5661 src/data/moves_info.h:16321
 msgid ""
 "An attack that leaves the\n"
 "foe with at least 1 HP."
 msgstr ""
+"手下留情攻击对手，\n"
+"让对手至少保留1HP。"
 
 #: src/data/moves_info.h:5684
 msgid ""
 "Confuses the foe, but also\n"
 "sharply raises its Attack."
 msgstr ""
+"激怒对手使其混乱，\n"
+"但会大幅提高其攻击。"
 
 #: src/data/moves_info.h:5740
 msgid ""
 "An electrified tackle that\n"
 "may paralyze the foe."
 msgstr ""
+"让电流覆盖全身撞向对手。\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:5766
 msgid ""
 "An attack that intensifies\n"
 "on each successive hit."
 msgstr ""
+"用镰刀或爪子等切斩对手。\n"
+"连续命中时威力提高。"
 
 #: src/data/moves_info.h:5796
 msgid ""
 "Strikes the foe with hard\n"
 "wings. May raise Defense."
 msgstr ""
+"用坚硬的翅膀攻击对手。\n"
+"有时会提高自己的防御。"
 
 #: src/data/moves_info.h:5826
 msgid ""
 "Fixes the foe with a mean\n"
 "look that prevents escape."
 msgstr ""
+"用黑色的眼神死死盯住\n"
+"对手，使其不能逃走。"
 
 #: src/data/moves_info.h:5851
 msgid ""
 "Makes the opposite gender\n"
 "less likely to attack."
 msgstr ""
+"魅惑异性，使对手\n"
+"变得难以使出招式。"
 
 #: src/data/moves_info.h:5876
 msgid ""
 "Uses an available move\n"
 "randomly while asleep."
 msgstr ""
+"从自己已学会的招式中\n"
+"随机使出1个。睡眠时用。"
 
 #: src/data/moves_info.h:5908
 msgid ""
 "Chimes soothingly to heal\n"
 "the party's status problems."
 msgstr ""
+"让对手听舒适的铃声，\n"
+"治愈我方全员的异常状态。"
 
 #: src/data/moves_info.h:5936
 msgid ""
 "An attack that increases\n"
 "in power with friendship."
 msgstr ""
+"攻击的威力会随亲密度\n"
+"增加而提高。"
 
 #: src/data/moves_info.h:5959
 msgid ""
 "A gift in the form of a\n"
 "bomb. May restore HP."
 msgstr ""
+"向对手递送装有炸弹的\n"
+"礼物。有时会回复其HP。"
 
 #: src/data/moves_info.h:5982
 msgid ""
 "An attack that is stronger\n"
 "if the Trainer is disliked."
 msgstr ""
+"攻击的威力会随亲密度\n"
+"降低而提高。"
 
 #: src/data/moves_info.h:6005
 msgid ""
 "Protects allies from status\n"
 "problems for 5 turns."
 msgstr ""
+"5回合内被神奇力量守护，\n"
+"不会陷入异常状态。"
 
 #: src/data/moves_info.h:6031
 msgid ""
 "Adds the user and foe's HP,\n"
 "then shares them equally."
 msgstr ""
+"将自己和对手的HP相加，\n"
+"再平分给双方。"
 
 #: src/data/moves_info.h:6054
 msgid ""
 "A mystical fire attack that\n"
 "may inflict a burn."
 msgstr ""
+"用神圣的火焰攻击对手。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:6081
 msgid ""
 "A ground-shaking attack\n"
 "of random intensity."
 msgstr ""
+"晃动地面，攻击周围所有\n"
+"宝可梦。威力随机变化。"
 
 #: src/data/moves_info.h:6104
 msgid ""
 "Powerful and sure to cause\n"
 "confusion, but inaccurate."
 msgstr ""
+"用力挥出拳头攻击对手。\n"
+"必定混乱，但命中率低。"
 
 #: src/data/moves_info.h:6132
 msgid ""
 "A brutal ramming attack\n"
 "using out-thrust horns."
 msgstr ""
+"用坚硬且华丽的角\n"
+"猛烈地刺入对手进行攻击。"
 
 #: src/data/moves_info.h:6155
 msgid ""
 "Strikes the foe with a blast\n"
 "of breath. May paralyze."
 msgstr ""
+"将强烈的气息吹向对手。\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:6182
 msgid ""
 "Switches out the user while\n"
 "keeping effects in play."
 msgstr ""
+"和替补宝可梦替换，\n"
+"能力变化等状态会被继承。"
 
 #: src/data/moves_info.h:6241
 msgid ""
 "Inflicts double damage if\n"
 "used on a foe switching out."
 msgstr ""
+"对手替换宝可梦时使用的话，\n"
+"能造成2倍的伤害。"
 
 #: src/data/moves_info.h:6266
 msgid ""
 "Spins to remove traps\n"
 "and raise Speed."
 msgstr ""
+"旋转身体解除束缚等效果，\n"
+"还能提高自己的速度。"
 
 #: src/data/moves_info.h:6276
 msgid ""
 "Spins the body at high\n"
 "speed to remove traps."
 msgstr ""
+"高速旋转身体，\n"
+"解除束缚或撒菱等效果。"
 
 #: src/data/moves_info.h:6333
 msgid ""
 "Attacks with a rock-hard\n"
 "tail. May lower Defense."
 msgstr ""
+"用坚硬的尾巴摔打对手。\n"
+"有时会降低对手的防御。"
 
 #: src/data/moves_info.h:6361
 msgid ""
 "A claw attack that may\n"
 "raise the user's Attack."
 msgstr ""
+"用钢铁之爪劈开对手。\n"
+"有时会提高自己的攻击。"
 
 #: src/data/moves_info.h:6391
 msgid ""
 "Makes the user's move last,\n"
 "but it never misses."
 msgstr ""
+"会最后出手，\n"
+"但攻击必定会命中。"
 
 #: src/data/moves_info.h:6414 src/data/moves_info.h:6441 src/data/moves_info.h:6468
 msgid ""
 "Restores HP. The amount\n"
 "varies with the weather."
 msgstr ""
+"回复自己的HP。\n"
+"回复量随天气而改变。"
 
 #: src/data/moves_info.h:6495
 msgid ""
 "The effectiveness varies\n"
 "with the user."
 msgstr ""
+"招式的属性会随着\n"
+"使用者的不同而改变。"
 
 #: src/data/moves_info.h:6517
 msgid ""
 "A double-chopping attack.\n"
 "High critical-hit ratio."
 msgstr ""
+"用两手交叉劈向对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:6541
 msgid ""
 "Whips up a vicious twister\n"
 "to tear at foes. May flinch."
 msgstr ""
+"掀起龙卷风撕裂对手。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:6569
 msgid ""
 "Boosts the power of Water-\n"
 "type moves for 5 turns."
 msgstr ""
+"5回合内降大雨，\n"
+"提高水属性招式的威力。"
 
 #: src/data/moves_info.h:6595
 msgid ""
 "Boosts the power of Fire-\n"
 "type moves for 5 turns."
 msgstr ""
+"5回合内阳光强烈，\n"
+"提高火属性招式的威力。"
 
 #: src/data/moves_info.h:6655
 msgid ""
 "Counters the foe's special\n"
 "attack at double the power."
 msgstr ""
+"受到特殊攻击时，\n"
+"以2倍伤害还击对手。"
 
 #: src/data/moves_info.h:6687
 msgid ""
 "Copies foe's stat changes\n"
 "and gives to the user."
 msgstr ""
+"向对手施加自我暗示，\n"
+"复制对手的能力变化。"
 
 #: src/data/moves_info.h:6714
 msgid ""
 "An extremely powerful\n"
 "attack. Always goes first."
 msgstr ""
+"以惊人的速度撞向对手。\n"
+"必定能够先制攻击。"
 
 #: src/data/moves_info.h:6737
 msgid ""
 "An attack that may raise\n"
 "all stats."
 msgstr ""
+"用远古之力攻击。\n"
+"有时会提高自己全部能力。"
 
 #: src/data/moves_info.h:6770
 msgid ""
 "Hurls a black blob that may\n"
 "lower the foe's Sp. Def."
 msgstr ""
+"投掷黑影之团攻击对手。\n"
+"有时会降低对手的特防。"
 
 #: src/data/moves_info.h:6798
 msgid ""
 "Heightens inner power to\n"
 "strike 2 turns later."
 msgstr ""
+"提高念力，\n"
+"2回合后攻击对手。"
 
 #: src/data/moves_info.h:6828
 msgid ""
 "A rock-crushing attack\n"
 "that may lower Defense."
 msgstr ""
+"用拳头击碎对手。\n"
+"有时会降低对手的防御。"
 
 #: src/data/moves_info.h:6884
 msgid ""
 "Summons party Pokémon to\n"
 "join in the attack."
 msgstr ""
+"我方全员参与攻击。\n"
+"宝可梦越多，攻击次数越多。"
 
 #: src/data/moves_info.h:6911
 msgid ""
 "A 1st-turn only, 1st-strike\n"
 "move that causes flinching."
 msgstr ""
+"出场后第1回合才能使用，\n"
+"先制攻击使对手畏缩。"
 
 #: src/data/moves_info.h:7009
 msgid ""
 "Releases stockpiled power\n"
 "(the more the better)."
 msgstr ""
+"将蓄积起来的力量发射\n"
+"出去。蓄力越多威力越大。"
 
 #: src/data/moves_info.h:7032
 msgid ""
 "Absorbs stockpiled power\n"
 "and restores HP."
 msgstr ""
+"将蓄积起来的力量吞下，\n"
+"从而回复自己的HP。"
 
 #: src/data/moves_info.h:7059
 msgid ""
 "Exhales a hot breath on the\n"
 "foes. May inflict a burn."
 msgstr ""
+"将炎热的气息吹向对手。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:7117
 msgid ""
 "Torments the foe and stops\n"
 "successive use of a move."
 msgstr ""
+"向对手无理取闹，\n"
+"令其不能连续使用相同招式。"
 
 #: src/data/moves_info.h:7141
 msgid ""
 "Confuses the foe, but\n"
 "sharply raises its Sp. Atk."
 msgstr ""
+"吹捧对手使其混乱，\n"
+"但会大幅提高其特攻。"
 
 #: src/data/moves_info.h:7169
 msgid ""
 "Inflicts a burn on the foe\n"
 "with intense fire."
 msgstr ""
+"放出不吉利的火焰，\n"
+"让对手陷入灼伤状态。"
 
 #: src/data/moves_info.h:7194
 msgid ""
 "The user faints and harshly\n"
 "lowers the foe's offenses."
 msgstr ""
+"自己濒死，大幅降低\n"
+"对手的攻击和特攻。"
 
 #: src/data/moves_info.h:7222
 msgid ""
 "Boosts power when burned,\n"
 "paralyzed, or poisoned."
 msgstr ""
+"当自己处于中毒、麻痹、\n"
+"灼伤状态时，威力会翻倍。"
 
 #: src/data/moves_info.h:7245
 msgid ""
 "Focuses before launching.\n"
 "Fails if the user if hit."
 msgstr ""
+"集中精神后出拳。\n"
+"受到攻击时会失败。"
 
 #: src/data/moves_info.h:7276
 msgid ""
 "Powerful against a paralyzed\n"
 "foe, but also heals it."
 msgstr ""
+"对麻痹的对手威力翻倍，\n"
+"但会治愈对手的麻痹。"
 
 #: src/data/moves_info.h:7303
 msgid ""
 "Draws attention to make\n"
 "foes attack only the user."
 msgstr ""
+"引起对手的注意，\n"
+"使对手只攻击自己。"
 
 #: src/data/moves_info.h:7331
 msgid ""
 "The type of attack varies\n"
 "depending on the location."
 msgstr ""
+"利用自然之力进行攻击。\n"
+"招式会随场所而改变。"
 
 #: src/data/moves_info.h:7364
 msgid ""
 "Ups the user's next Electric\n"
 "move. It also raises Sp. Def."
 msgstr ""
+"强化下次使用的电属性\n"
+"招式，同时提高特防。"
 
 #: src/data/moves_info.h:7368
 msgid ""
 "Charges power to boost the\n"
 "Electric move used next."
 msgstr ""
+"充电强化下次使用的\n"
+"电属性招式的威力。"
 
 #: src/data/moves_info.h:7374
 msgid ""
 "Ups the user's next move if\n"
 "Electric. Also raises Sp. Def."
 msgstr ""
+"下次使用电属性招式时\n"
+"威力提高，同时提高特防。"
 
 #: src/data/moves_info.h:7378
 msgid ""
 "Charges power to boost the\n"
 "Electric move used next turn."
 msgstr ""
+"充电强化下回合使用的\n"
+"电属性招式的威力。"
 
 #: src/data/moves_info.h:7444
 msgid ""
 "Boosts the power of an\n"
 "ally's move."
 msgstr ""
+"辅助伙伴，\n"
+"提高伙伴招式的威力。"
 
 #: src/data/moves_info.h:7473
 msgid ""
 "Tricks the foe into trading\n"
 "held items."
 msgstr ""
+"趁对手不注意时，\n"
+"交换自己与对手的道具。"
 
 #: src/data/moves_info.h:7499
 msgid ""
 "Mimics the target and\n"
 "copies its Ability."
 msgstr ""
+"模仿对手，\n"
+"让自己的特性变得和对手相同。"
 
 #: src/data/moves_info.h:7525
 msgid ""
 "A wish that restores HP.\n"
 "It takes one turn to work."
 msgstr ""
+"在下一回合结束时，\n"
+"回复HP。"
 
 #: src/data/moves_info.h:7552
 msgid ""
 "Attacks randomly with one\n"
 "of the party's moves."
 msgstr ""
+"随机使用我方宝可梦\n"
+"所学会的招式。"
 
 #: src/data/moves_info.h:7583
 msgid ""
 "Lays roots that restore HP.\n"
 "The user can't switch out."
 msgstr ""
+"扎下根来回复HP，\n"
+"但自己无法替换下场。"
 
 #: src/data/moves_info.h:7610
 msgid ""
 "Powerful, but it lowers the\n"
 "user's Attack and Defense."
 msgstr ""
+"发挥惊人力量攻击。自己\n"
+"的攻击和防御会降低。"
 
 #: src/data/moves_info.h:7639
 msgid ""
 "Reflects special effects\n"
 "back to the attacker."
 msgstr ""
+"将对手使出的变化招式\n"
+"反弹给对手。"
 
 #: src/data/moves_info.h:7664
 msgid ""
 "Recycles a used item for\n"
 "one more use."
 msgstr ""
+"使战斗中已经消耗掉的\n"
+"道具再生，能再次使用。"
 
 #: src/data/moves_info.h:7690 src/data/moves_info.h:11358
 msgid ""
 "An attack that gains power\n"
 "if injured by the foe."
 msgstr ""
+"如果受到对手的攻击，\n"
+"威力就会翻倍。"
 
 #: src/data/moves_info.h:7713
 msgid ""
 "Destroys barriers such as\n"
 "Reflect and causes damage."
 msgstr ""
+"挥下手刀攻击对手，\n"
+"还可以破坏光墙和反射壁。"
 
 #: src/data/moves_info.h:7740
 msgid ""
 "Lulls the foe into yawning,\n"
 "then sleeping next turn."
 msgstr ""
+"打个大哈欠引起睡意，\n"
+"下回合让对手陷入睡眠。"
 
 #: src/data/moves_info.h:7793
 msgid ""
 "Cuts down the foe's HP\n"
 "to equal the user's HP."
 msgstr ""
+"使对手的HP\n"
+"减少到和自己相同。"
 
 #: src/data/moves_info.h:7817 src/data/moves_info.h:19826
 msgid ""
 "The higher the user's HP,\n"
 "the more damage caused."
 msgstr ""
+"自己的HP越多，\n"
+"给予对手的伤害越大。"
 
 #: src/data/moves_info.h:7839
 msgid ""
 "The user swaps\n"
 "Abilities with the target."
 msgstr ""
+"利用超能力，\n"
+"互换自己和对手的特性。"
 
 #: src/data/moves_info.h:7863
 msgid ""
 "Prevents foes from using\n"
 "moves known by the user."
 msgstr ""
+"对手不能使用\n"
+"和自己相同的招式。"
 
 #: src/data/moves_info.h:7891
 msgid ""
 "Heals poisoning, paralysis,\n"
 "or a burn."
 msgstr ""
+"治愈自己的中毒、\n"
+"麻痹、灼伤状态。"
 
 #: src/data/moves_info.h:7917
 msgid ""
 "If the user faints, deletes\n"
 "all PP of foe's last move."
 msgstr ""
+"因对手的招式而濒死时，\n"
+"让该招式的PP变成0。"
 
 #: src/data/moves_info.h:7943
 msgid ""
 "Steals the next healing\n"
 "or stat-changing move."
 msgstr ""
+"抢夺对手打算使用的\n"
+"回复或能力变化招式。"
 
 #: src/data/moves_info.h:7973
 msgid ""
 "An attack with effects\n"
 "that vary by location."
 msgstr ""
+"根据使用场所不同，\n"
+"追加效果也会有所变化。"
 
 #: src/data/moves_info.h:7999
 msgid ""
 "Dives underwater the first\n"
 "turn and strikes next turn."
 msgstr ""
+"第1回合潜入水中，\n"
+"第2回合浮上来攻击。"
 
 #: src/data/moves_info.h:8027
 msgid ""
 "Straight-arm punches that\n"
 "strike the foe 2 to 5 times."
 msgstr ""
+"用伸直的手掌冲打对手，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:8050
 msgid ""
 "Alters the Pokémon's type\n"
 "depending on the location."
 msgstr ""
+"根据所在场所不同，\n"
+"改变自己的属性。"
 
 #: src/data/moves_info.h:8111
 msgid ""
 "Attacks with a burst of\n"
 "light. May lower Sp. Def."
 msgstr ""
+"放出耀眼的光芒攻击。\n"
+"有时会降低对手的特防。"
 
 #: src/data/moves_info.h:8138
 msgid ""
 "Attacks with a flurry of\n"
 "down. May lower Sp. Atk."
 msgstr ""
+"用羽毛般的雾气攻击。\n"
+"有时会降低对手的特攻。"
 
 #: src/data/moves_info.h:8166
 msgid ""
 "Envelops the foe with down\n"
 "to harshly lower Attack."
 msgstr ""
+"用大量羽毛缠住对手，\n"
+"大幅降低对手的攻击。"
 
 #: src/data/moves_info.h:8195
 msgid "Confuses all others."
 msgstr ""
+"左右摇晃着跳舞，\n"
+"让周围所有宝可梦混乱。"
 
 #: src/data/moves_info.h:8219
 msgid ""
 "A kick with a high critical-\n"
 "hit ratio. May cause a burn."
 msgstr ""
+"踢出带火的脚。容易击中\n"
+"要害，可能让对手灼伤。"
 
 #: src/data/moves_info.h:8278
 msgid ""
 "A 5-turn attack that gains\n"
 "power on successive hits."
 msgstr ""
+"在5回合内连续滚动冰球\n"
+"攻击，威力会逐渐提高。"
 
 #: src/data/moves_info.h:8303
 msgid ""
 "Attacks with thorny arms.\n"
 "May cause flinching."
 msgstr ""
+"用带刺的手臂猛烈挥打。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:8331
 msgid ""
 "Slacks off and restores\n"
 "half the maximum HP."
 msgstr ""
+"偷懒休息，\n"
+"回复自己最大HP的一半。"
 
 #: src/data/moves_info.h:8358
 msgid ""
 "A loud attack that uses\n"
 "sound waves to injure."
 msgstr ""
+"发出大声吼叫，\n"
+"用音波攻击对手。"
 
 #: src/data/moves_info.h:8382
 msgid ""
 "A sharp-fanged attack.\n"
 "May badly poison the foe."
 msgstr ""
+"用有毒的牙齿咬对手。\n"
+"有时会让对手中剧毒。"
 
 #: src/data/moves_info.h:8409
 msgid ""
 "Tears at the foe with sharp\n"
 "claws. May lower Defense."
 msgstr ""
+"用坚硬的利爪劈开对手。\n"
+"有时会降低对手的防御。"
 
 #: src/data/moves_info.h:8500
 msgid ""
 "Fires a meteor-like punch.\n"
 "May raise Attack."
 msgstr ""
+"使出彗星般的拳头攻击。\n"
+"有时会提高自己的攻击。"
 
 #: src/data/moves_info.h:8530
 msgid ""
 "An attack that may shock\n"
 "the foe into flinching."
 msgstr ""
+"大声惊吓对手攻击。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:8558
 msgid ""
 "The move's type and power\n"
 "change with the weather."
 msgstr ""
+"属性和威力会\n"
+"随天气而改变。"
 
 #: src/data/moves_info.h:8582
 msgid ""
 "Heals all status problems\n"
 "with a soothing scent."
 msgstr ""
+"释放怡人的香气，\n"
+"治愈我方全员的异常状态。"
 
 #: src/data/moves_info.h:8609
 msgid ""
 "Feigns crying to harshly\n"
 "lower the foe's Sp. Def."
 msgstr ""
+"假哭使对手放松警惕，\n"
+"大幅降低对手的特防。"
 
 #: src/data/moves_info.h:8637
 msgid ""
 "Hacks with razorlike wind.\n"
 "High critical-hit ratio."
 msgstr ""
+"用锐利的风切斩对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:8662 src/data/moves_info.h:9732
 msgid ""
 "Allows a full-power attack,\n"
 "but harshly lowers Sp. Atk."
 msgstr ""
+"全力攻击对手。使用后\n"
+"自己的特攻会大幅降低。"
 
 #: src/data/moves_info.h:8715
 msgid ""
 "Stops the foe from moving\n"
 "with rocks and lowers Speed."
 msgstr ""
+"投掷岩石阻挡对手，\n"
+"从而降低对手的速度。"
 
 #: src/data/moves_info.h:8742
 msgid ""
 "A powdery attack that may\n"
 "raise all stats."
 msgstr ""
+"用鳞粉混入狂风攻击。\n"
+"有时会提高自己全部能力。"
 
 #: src/data/moves_info.h:8775
 msgid ""
 "Emits a horrible screech\n"
 "that harshly lowers Sp. Def."
 msgstr ""
+"发出摩擦金属般的噪音，\n"
+"大幅降低对手的特防。"
 
 #: src/data/moves_info.h:8805
 msgid ""
 "Lulls the foe into sleep\n"
 "with a pleasant melody."
 msgstr ""
+"吹出动听的草笛，\n"
+"让对手陷入深深的睡眠。"
 
 #: src/data/moves_info.h:8832
 msgid ""
 "Makes the foe laugh to\n"
 "lower Attack and Defense."
 msgstr ""
+"给对手挠痒痒使其发笑，\n"
+"降低对手的攻击和防御。"
 
 #: src/data/moves_info.h:8862
 msgid ""
 "Raises Defense and Sp. Def\n"
 "with a mystic power."
 msgstr ""
+"汲取宇宙之力，提高\n"
+"自己的防御和特防。"
 
 #: src/data/moves_info.h:8893
 msgid ""
 "Inflicts more damage if the\n"
 "user's HP is high."
 msgstr ""
+"自己的HP越多，\n"
+"喷出的水流威力越大。"
 
 #: src/data/moves_info.h:8915
 msgid ""
 "A strange beam attack that\n"
 "may confuse the foe."
 msgstr ""
+"发出神奇的光线攻击。\n"
+"有时会使对手混乱。"
 
 #: src/data/moves_info.h:8941
 msgid ""
 "An unavoidable punch that\n"
 "is thrown from shadows."
 msgstr ""
+"从影子中出拳攻击。\n"
+"攻击必定会命中。"
 
 #: src/data/moves_info.h:8965
 msgid ""
 "Attacks with a peculiar\n"
 "power. May cause flinching."
 msgstr ""
+"发出看不见的神奇力量。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:8992
 msgid ""
 "An uppercut thrown as if\n"
 "leaping into the sky."
 msgstr ""
+"像要冲上天空一般，\n"
+"用勾拳打向对手。"
 
 #: src/data/moves_info.h:9072
 msgid ""
 "Attacks with muddy water.\n"
 "May lower accuracy."
 msgstr ""
+"向对手喷射浑浊的水。\n"
+"有时会降低对手的命中率。"
 
 #: src/data/moves_info.h:9100
 msgid ""
 "Shoots 2 to 5 seeds in a row\n"
 "to strike the foe."
 msgstr ""
+"向对手猛烈地发射种子，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:9123
 msgid ""
 "An extremely speedy and\n"
 "unavoidable attack."
 msgstr ""
+"以惊人的速度攻击对手。\n"
+"攻击必定会命中。"
 
 #: src/data/moves_info.h:9147
 msgid ""
 "Attacks the foe by firing\n"
 "2 to 5 icicles in a row."
 msgstr ""
+"向对手发射锋利的冰柱，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:9169
 msgid ""
 "Hardens the body's surface\n"
 "to sharply raise Defense."
 msgstr ""
+"使皮肤变得坚硬如铁，\n"
+"大幅提高自己的防御。"
 
 #: src/data/moves_info.h:9199
 msgid ""
 "Blocks the foe's way to\n"
 "prevent escape."
 msgstr ""
+"张开双手挡住去路，\n"
+"使对手不能逃走。"
 
 #: src/data/moves_info.h:9261
 msgid ""
 "Slashes the foe with sharp\n"
 "claws."
 msgstr ""
+"用尖锐的巨爪\n"
+"劈开对手进行攻击。"
 
 #: src/data/moves_info.h:9317
 msgid ""
 "Bulks up the body to raise\n"
 "both Attack and Defense."
 msgstr ""
+"使出全身力气强健肌肉，\n"
+"提高自己的攻击和防御。"
 
 #: src/data/moves_info.h:9348
 msgid ""
 "Bounces up, then down the\n"
 "next turn. May paralyze."
 msgstr ""
+"第1回合弹跳到高空，\n"
+"第2回合攻击。可能麻痹。"
 
 #: src/data/moves_info.h:9380
 msgid ""
 "Hurls mud at the foe and\n"
 "lowers Speed."
 msgstr ""
+"向对手喷射泥浆攻击，\n"
+"同时降低其速度。"
 
 #: src/data/moves_info.h:9406
 msgid ""
 "Has a high critical-hit\n"
 "ratio. May also poison."
 msgstr ""
+"用尾巴拍打对手。可能\n"
+"中毒，容易击中要害。"
 
 #: src/data/moves_info.h:9434
 msgid ""
 "Cutely begs to obtain an\n"
 "item held by the foe."
 msgstr ""
+"一边撒娇，一边\n"
+"夺取对手携带的道具。"
 
 #: src/data/moves_info.h:9462
 msgid ""
 "A life-risking tackle that\n"
 "hurts the user. May paralyze."
 msgstr ""
+"让电流覆盖全身猛撞，\n"
+"自己受伤。可能麻痹。"
 
 #: src/data/moves_info.h:9470
 msgid ""
 "A life-risking tackle that\n"
 "slightly hurts the user."
 msgstr ""
+"让电流覆盖全身猛撞对手。\n"
+"自己也会受到不少伤害。"
 
 #: src/data/moves_info.h:9495
 msgid ""
 "Attacks with a strange leaf\n"
 "that cannot be evaded."
 msgstr ""
+"散落神奇的叶片攻击。\n"
+"攻击必定会命中。"
 
 #: src/data/moves_info.h:9548
 msgid ""
 "Raises Sp. Atk and Sp. Def\n"
 "by focusing the mind."
 msgstr ""
+"静心凝神，提高\n"
+"自己的特攻和特防。"
 
 #: src/data/moves_info.h:9579
 msgid ""
 "Slashes with a sharp leaf.\n"
 "High critical-hit ratio."
 msgstr ""
+"挥舞叶片劈开对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:9604
 msgid ""
 "A mystical dance that\n"
 "raises Attack and Speed."
 msgstr ""
+"激烈地跳起神秘的舞蹈，\n"
+"提高自己的攻击和速度。"
 
 #: src/data/moves_info.h:9636
 msgid ""
 "Hurls boulders at the foe\n"
 "2 to 5 times in a row."
 msgstr ""
+"向对手投掷坚硬的岩石，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:9659
 msgid ""
 "A fast and unavoidable\n"
 "electric attack."
 msgstr ""
+"向对手发出电击攻击。\n"
+"攻击必定会命中。"
 
 #: src/data/moves_info.h:9681
 msgid ""
 "Attacks with ultrasonic\n"
 "waves. May confuse the foe."
 msgstr ""
+"用水的振动攻击对手。\n"
+"有时会使对手混乱。"
 
 #: src/data/moves_info.h:9708
 msgid ""
 "Summons strong light to\n"
 "attack 2 turns later."
 msgstr ""
+"汇聚强光，\n"
+"2回合后攻击对手。"
 
 #: src/data/moves_info.h:9759
 msgid ""
 "Restores the user's HP by\n"
 "half of its max HP."
 msgstr ""
+"降落到地面使身体休息，\n"
+"回复最大HP的一半。"
 
 #: src/data/moves_info.h:9785
 msgid ""
 "Gravity is intensified\n"
 "negating levitation."
 msgstr ""
+"5回合内增强重力，\n"
+"使漂浮效果无效。"
 
 #: src/data/moves_info.h:9810
 msgid ""
 "Negates evasion and the\n"
 "Dark type's immunities."
 msgstr ""
+"使对手的闪避率无效，\n"
+"恶属性也能被超能力击中。"
 
 #: src/data/moves_info.h:9834
 msgid ""
 "Powerful against a sleeping\n"
 "foe, but also wakes it."
 msgstr ""
+"对睡眠的对手威力翻倍，\n"
+"但对手会醒过来。"
 
 #: src/data/moves_info.h:9860 src/data/moves_info.h:16782
 msgid ""
 "Swings with a heavy fist.\n"
 "Lowers the user's Speed."
 msgstr ""
+"挥舞强力而沉重的拳头。\n"
+"自己的速度会降低。"
 
 #: src/data/moves_info.h:9888
 msgid ""
 "A high-speed spin that does\n"
 "more damage to faster a foe."
 msgstr ""
+"高速旋转撞击。对手比\n"
+"自己越快，威力越大。"
 
 #: src/data/moves_info.h:9911
 msgid ""
 "Faints to restore the HP and\n"
 "status of the next Pokémon."
 msgstr ""
+"自己陷入濒死，治愈下个\n"
+"出场宝可梦的HP和状态。"
 
 #: src/data/moves_info.h:9936
 msgid ""
 "Does double damage to a foe\n"
 "with half HP or less."
 msgstr ""
+"对手的HP在一半以下时，\n"
+"招式的威力会翻倍。"
 
 #: src/data/moves_info.h:9957
 msgid ""
 "The effectiveness varies\n"
 "with the held Berry."
 msgstr ""
+"从树果获得力量攻击。\n"
+"属性和威力随树果改变。"
 
 #: src/data/moves_info.h:9978
 msgid ""
 "Hits a protecting foe\n"
 "and lifts those effects."
 msgstr ""
+"攻击正在守住的对手，\n"
+"并解除守住的效果。"
 
 #: src/data/moves_info.h:10008 src/data/moves_info.h:12166
 msgid ""
 "Eats the foe's held Berry\n"
 "and gains its effect."
 msgstr ""
+"咬对手，吃掉对手携带的\n"
+"树果并获得其效果。"
 
 #: src/data/moves_info.h:10063
 msgid ""
 "The user sharply raises\n"
 "one of its stats."
 msgstr ""
+"通过点穴，\n"
+"大幅提高某一项能力。"
 
 #: src/data/moves_info.h:10088 src/data/moves_info.h:21490
 msgid ""
 "Retaliates against the foe\n"
 "that last damaged the user."
 msgstr ""
+"对最后一次给予自己伤害\n"
+"的对手加倍奉还。"
 
 #: src/data/moves_info.h:10115 src/data/moves_info.h:13972 src/data/moves_info.h:19629
 msgid ""
 "Attacks and rushes back to\n"
 "switch with a party Pokémon."
 msgstr ""
+"攻击之后急速返回，\n"
+"和替补宝可梦替换。"
 
 #: src/data/moves_info.h:10137
 msgid ""
 "Fights up close. This lowers\n"
 "the user's defensive stats."
 msgstr ""
+"不顾防守地近身战斗。\n"
+"自己的防御和特防会降低。"
 
 #: src/data/moves_info.h:10165
 msgid ""
 "An attack that gains power\n"
 "if the user moves last."
 msgstr ""
+"比对手后行动时，\n"
+"威力会翻倍。"
 
 #: src/data/moves_info.h:10187
 msgid ""
 "An attack that gains power\n"
 "if the foe has been hurt."
 msgstr ""
+"对手在该回合已受到伤害\n"
+"的话，威力会翻倍。"
 
 #: src/data/moves_info.h:10209
 msgid ""
 "Prevents the foe from\n"
 "using any items."
 msgstr ""
+"5回合内对手\n"
+"不能使用携带的道具。"
 
 #: src/data/moves_info.h:10232
 msgid ""
 "The effectiveness varies\n"
 "with the held item."
 msgstr ""
+"投掷携带的道具攻击。\n"
+"效果随道具而改变。"
 
 #: src/data/moves_info.h:10262
 msgid ""
 "Transfers status problems\n"
 "to the foe."
 msgstr ""
+"将自己的异常状态\n"
+"转移给对手。"
 
 #: src/data/moves_info.h:10284
 msgid ""
 "The less PP the move has\n"
 "the more damage it does."
 msgstr ""
+"招式的剩余PP越少，\n"
+"威力就越大。"
 
 #: src/data/moves_info.h:10306
 msgid ""
 "Prevents the foes from\n"
 "recovering HP for 5 turns."
 msgstr ""
+"5回合内对手无法使用\n"
+"招式或特性回复HP。"
 
 #: src/data/moves_info.h:10329 src/data/moves_info.h:12465 src/data/moves_info.h:21955
 msgid ""
 "The more HP the foe has,\n"
 "the greater the power."
 msgstr ""
+"对手的HP越多，\n"
+"威力就越大。"
 
 #: src/data/moves_info.h:10351 src/data/moves_info.h:20051
 msgid ""
 "The user swaps its Attack\n"
 "and Defense stats."
 msgstr ""
+"利用超能力，\n"
+"交换自己的攻击和防御。"
 
 #: src/data/moves_info.h:10376
 msgid ""
 "Stomach acid suppresses\n"
 "the foe's Ability."
 msgstr ""
+"在对手身上吐出胃液，\n"
+"使对手的特性无效。"
 
 #: src/data/moves_info.h:10399
 msgid ""
 "Prevents the foe from\n"
 "landing critical hits."
 msgstr ""
+"5回合内向上天祈祷，\n"
+"从而不会被对手击中要害。"
 
 #: src/data/moves_info.h:10424
 msgid ""
 "Executes the foe's attack\n"
 "with greater power."
 msgstr ""
+"抢先夺取对手的招式，\n"
+"提高威力使出。"
 
 #: src/data/moves_info.h:10456
 msgid ""
 "The user mimics the last\n"
 "move used by a foe."
 msgstr ""
+"模仿对手刚刚使用的招式，\n"
+"自己也使用相同招式。"
 
 #: src/data/moves_info.h:10487
 msgid ""
 "Swaps changes to Attack\n"
 "and Sp. Atk with the foe."
 msgstr ""
+"与对手互换攻击和特攻\n"
+"的能力变化。"
 
 #: src/data/moves_info.h:10510
 msgid ""
 "Swaps changes to Defense\n"
 "and Sp. Def with the foe."
 msgstr ""
+"与对手互换防御和特防\n"
+"的能力变化。"
 
 #: src/data/moves_info.h:10533
 msgid ""
 "Does more damage the more\n"
 "the foe has powered up."
 msgstr ""
+"对手的能力提高得越多，\n"
+"攻击的威力就越大。"
 
 #: src/data/moves_info.h:10555
 msgid ""
 "Can only be used if every\n"
 "other move has been used."
 msgstr ""
+"学会的其他招式全部\n"
+"使用过后才能使出。"
 
 #: src/data/moves_info.h:10577
 msgid ""
 "Plants a seed on the foe\n"
 "giving it Insomnia."
 msgstr ""
+"种下让对手烦恼的种子，\n"
+"使其特性变为不眠。"
 
 #: src/data/moves_info.h:10601 src/data/moves_info.h:21896
 msgid ""
 "Attacks first if the foe\n"
 "is readying an attack."
 msgstr ""
+"在对手准备攻击时\n"
+"抢先攻击。"
 
 #: src/data/moves_info.h:10623
 msgid ""
 "Sets spikes that poison a\n"
 "foe switching in."
 msgstr ""
+"撒下毒菱，让替换出场的\n"
+"对手中毒。"
 
 #: src/data/moves_info.h:10650
 msgid ""
 "Swaps any stat changes\n"
 "with the foe."
 msgstr ""
+"利用超能力，\n"
+"互换自己和对手的能力变化。"
 
 #: src/data/moves_info.h:10673
 msgid ""
 "Forms a veil of water\n"
 "that restores HP."
 msgstr ""
+"用水环包围自己，\n"
+"每回合回复少许HP。"
 
 #: src/data/moves_info.h:10698
 msgid ""
 "The user levitates with\n"
 "electromagnetism."
 msgstr ""
+"用电产生的磁力浮在空中。\n"
+"5回合内可以飘浮。"
 
 #: src/data/moves_info.h:10724
 msgid ""
 "A charge that may burn the\n"
 "foe. Also hurts the user."
 msgstr ""
+"让火焰覆盖全身猛撞。可能\n"
+"灼伤，自己也会受伤。"
 
 #: src/data/moves_info.h:10752
 msgid ""
 "A shock wave attack that\n"
 "may paralyze the foe."
 msgstr ""
+"向对手的腹部发送冲击波。\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:10778
 msgid ""
 "Attacks with an aura blast\n"
 "that cannot be evaded."
 msgstr ""
+"从体内放出波导之力。\n"
+"攻击必定会命中。"
 
 #: src/data/moves_info.h:10801
 msgid ""
 "Polishes the body to\n"
 "sharply raise Speed."
 msgstr ""
+"打磨自己的身体，\n"
+"大幅提高自己的速度。"
 
 #: src/data/moves_info.h:10830
 msgid ""
 "A stabbing attack that\n"
 "may poison the foe."
 msgstr ""
+"用毒刺刺穿对手。\n"
+"有时会让对手中毒。"
 
 #: src/data/moves_info.h:10856
 msgid ""
 "Attacks with a horrible\n"
 "aura. May cause flinching."
 msgstr ""
+"放出充满恶意的恐怖气场。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:10882
 msgid ""
 "Hits as soon as possible.\n"
 "High critical-hit ratio."
 msgstr ""
+"抓住空隙劈开对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:10906
 msgid ""
 "The user swings its tail\n"
 "like a wave to attack."
 msgstr ""
+"如狂澜般挥舞大尾巴\n"
+"攻击对手。"
 
 #: src/data/moves_info.h:10928
 msgid ""
 "A barrage of hard seeds\n"
 "is fired at the foe."
 msgstr ""
+"用硬壳种子\n"
+"从上方猛烈砸向对手。"
 
 #: src/data/moves_info.h:10950
 msgid ""
 "Attacks with a blade of\n"
 "air. May cause flinching."
 msgstr ""
+"用连天空也能劈开的空气\n"
+"之刃攻击。可能使对手畏缩。"
 
 #: src/data/moves_info.h:10976
 msgid ""
 "Slashes the foe with crossed\n"
 "scythes, claws, etc."
 msgstr ""
+"将镰刀或爪子等交叉成\n"
+"剪刀状，劈开对手。"
 
 #: src/data/moves_info.h:10999
 msgid ""
 "A damaging sound wave that\n"
 "may lower Sp. Def."
 msgstr ""
+"利用振动发出音波攻击。\n"
+"有时会降低对手的特防。"
 
 #: src/data/moves_info.h:11027
 msgid ""
 "Generates a shock wave to\n"
 "damage the foe."
 msgstr ""
+"从大大的口中掀起冲击波\n"
+"攻击对手。"
 
 #: src/data/moves_info.h:11049
 msgid ""
 "Tackles the foe with menace.\n"
 "May cause flinching."
 msgstr ""
+"释放恐怖的杀气撞击对手。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:11076
 msgid ""
 "Attacks with rays of light\n"
 "that sparkle like diamonds."
 msgstr ""
+"发射如宝石般闪耀的\n"
+"光芒攻击对手。"
 
 #: src/data/moves_info.h:11097
 msgid ""
 "A punch that drains\n"
 "half the damage inflicted."
 msgstr ""
+"用拳头吸取对手的力量。\n"
+"回复伤害一半的HP。"
 
 #: src/data/moves_info.h:11125
 msgid ""
 "Whirls its fists to send\n"
 "a wave that strikes first."
 msgstr ""
+"挥动拳头掀起真空波。\n"
+"必定能够先制攻击。"
 
 #: src/data/moves_info.h:11146
 msgid ""
 "Attacks at full power.\n"
 "May lower Sp. Def."
 msgstr ""
+"提高气势，释放全部力量。\n"
+"有时会降低对手的特防。"
 
 #: src/data/moves_info.h:11173
 msgid ""
 "Draws power from nature to\n"
 "attack. May lower Sp. Def."
 msgstr ""
+"汲取自然之力攻击对手。\n"
+"有时会降低对手的特防。"
 
 #: src/data/moves_info.h:11200
 msgid ""
 "A low altitude charge that\n"
 "also hurts the user."
 msgstr ""
+"收拢翅膀低空飞行突击。\n"
+"自己也会受到不少伤害。"
 
 #: src/data/moves_info.h:11223
 msgid ""
 "Makes the ground erupt with\n"
 "power. May lower Sp. Def."
 msgstr ""
+"使对手脚下的地面喷发。\n"
+"有时会降低对手的特防。"
 
 #: src/data/moves_info.h:11250
 msgid ""
 "Swaps items with the foe\n"
 "faster than the eye can see."
 msgstr ""
+"用快到看不见的速度\n"
+"交换自己和对手的道具。"
 
 #: src/data/moves_info.h:11306
 msgid ""
 "Thinks bad thoughts to\n"
 "sharply raise Sp. Atk."
 msgstr ""
+"谋划坏事，\n"
+"大幅提高自己的特攻。"
 
 #: src/data/moves_info.h:11335
 msgid ""
 "Punches as fast as a bul-\n"
 "let. It always hits first."
 msgstr ""
+"快速挥出如子弹般坚硬的\n"
+"拳头。必定能够先制攻击。"
 
 #: src/data/moves_info.h:11380
 msgid ""
 "Hurls a chunk of ice that\n"
 "always strikes first."
 msgstr ""
+"瞬间制作冰块投掷对手。\n"
+"必定能够先制攻击。"
 
 #: src/data/moves_info.h:11401
 msgid ""
 "Strikes with a shadow claw.\n"
 "High critical-hit ratio."
 msgstr ""
+"用影子做成的利爪劈开\n"
+"对手。容易击中要害。"
 
 #: src/data/moves_info.h:11425
 msgid ""
 "May cause flinching or\n"
 "leave the foe paralyzed."
 msgstr ""
+"用带电的牙齿咬对手。\n"
+"可能使对手畏缩或麻痹。"
 
 #: src/data/moves_info.h:11491
 msgid ""
 "May cause flinching or\n"
 "leave the foe with a burn."
 msgstr ""
+"用带火的牙齿咬对手。\n"
+"可能使对手畏缩或灼伤。"
 
 #: src/data/moves_info.h:11522
 msgid ""
 "Extends the user's shadow\n"
 "to strike first."
 msgstr ""
+"伸长影子，\n"
+"从背后先制攻击对手。"
 
 #: src/data/moves_info.h:11544
 msgid ""
 "Throws a blob of mud to\n"
 "damage and cut accuracy."
 msgstr ""
+"发射坚硬的泥弹攻击。\n"
+"有时会降低对手的命中率。"
 
 #: src/data/moves_info.h:11571
 msgid ""
 "Tears with psychic blades.\n"
 "High critical-hit ratio."
 msgstr ""
+"用实体化的心之利刃劈开\n"
+"对手。容易击中要害。"
 
 #: src/data/moves_info.h:11594
 msgid ""
 "Hits with a strong head-\n"
 "butt. May cause flinching."
 msgstr ""
+"集中精神用头槌攻击。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:11620
 msgid ""
 "Emits a flash of energy to\n"
 "damage and cut accuracy."
 msgstr ""
+"发射被磨亮的身体发出的\n"
+"光芒。可能降低命中率。"
 
 #: src/data/moves_info.h:11646
 msgid ""
 "Releases a blast of light\n"
 "that may lower Sp. Def."
 msgstr ""
+"汇集光之能量发射出去。\n"
+"有时会降低对手的特防。"
 
 #: src/data/moves_info.h:11672
 msgid ""
 "A charging attack that may\n"
 "confuse the foe."
 msgstr ""
+"发动猛撞攻击对手。\n"
+"有时会使对手混乱。"
 
 #: src/data/moves_info.h:11698
 msgid ""
 "Removes obstacles and\n"
 "lowers evasion."
 msgstr ""
+"吹散撒菱等障碍物，\n"
+"并降低对手的闪避率。"
 
 #: src/data/moves_info.h:11726
 msgid ""
 "Slower Pokémon get to move\n"
 "first for 5 turns."
 msgstr ""
+"制造出离奇的空间。5回合\n"
+"内速度慢的宝可梦先行动。"
 
 #: src/data/moves_info.h:11749
 msgid ""
 "Summons comets from the sky,\n"
 "but harshly lowers Sp. Atk."
 msgstr ""
+"从天空中召唤彗星。使用后\n"
+"自己的特攻会大幅降低。"
 
 #: src/data/moves_info.h:11775
 msgid ""
 "Zaps all others with\n"
 "electricity. May paralyze."
 msgstr ""
+"用耀眼的电击攻击周围\n"
+"所有宝可梦。可能麻痹。"
 
 #: src/data/moves_info.h:11800 src/data/moves_info.h:14573
 msgid ""
 "Torches all others with\n"
 "scarlet flames. May burn."
 msgstr ""
+"用火焰攻击周围所有\n"
+"宝可梦。有时会灼伤。"
 
 #: src/data/moves_info.h:11825
 msgid ""
 "Whips up a storm of leaves,\n"
 "but harshly lowers Sp. Atk."
 msgstr ""
+"掀起尖叶风暴攻击。使用后\n"
+"自己的特攻会大幅降低。"
 
 #: src/data/moves_info.h:11851
 msgid ""
 "Violently lashes the foe\n"
 "with vines or tentacles."
 msgstr ""
+"将藤蔓或触手挥舞起来，\n"
+"抽打对手进行攻击。"
 
 #: src/data/moves_info.h:11904
 msgid ""
 "A slash that may poison a\n"
 "foe and do critical damage."
 msgstr ""
+"用毒刃劈开对手。可能\n"
+"中毒，容易击中要害。"
 
 #: src/data/moves_info.h:11932
 msgid ""
 "Shoots filthy garbage at\n"
 "the foe. May also poison."
 msgstr ""
+"用垃圾射击对手攻击。\n"
+"有时会让对手中毒。"
 
 #: src/data/moves_info.h:11957
 msgid ""
 "Slams the foe with a hard\n"
 "head. May cause flinching."
 msgstr ""
+"用钢铁般坚硬的头部撞击。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:11983
 msgid ""
 "Launches a magnet that\n"
 "strikes without fail."
 msgstr ""
+"发射吸附在对手身上的\n"
+"钢铁炸弹。攻击必定会命中。"
 
 #: src/data/moves_info.h:12005
 msgid ""
 "Stabs the foe with stones.\n"
 "High critical-hit ratio."
 msgstr ""
+"用尖尖的岩石刺向对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:12027
 msgid ""
 "Makes the opposite gender\n"
 "harshly lower its Sp. Atk."
 msgstr ""
+"诱惑异性，\n"
+"大幅降低对手的特攻。"
 
 #: src/data/moves_info.h:12054
 msgid ""
 "Sets floating stones that\n"
 "hurt a foe switching in."
 msgstr ""
+"在对手周围散布浮游的\n"
+"岩石，伤害替换出场的对手。"
 
 #: src/data/moves_info.h:12080
 msgid ""
 "A snare attack that does\n"
 "more damage to a heavier foe."
 msgstr ""
+"用草缠住并绊倒对手。\n"
+"对手越重，威力越大。"
 
 #: src/data/moves_info.h:12103
 msgid ""
 "Attacks with a sound wave\n"
 "that causes confusion."
 msgstr ""
+"用叽叽喳喳的音波\n"
+"攻击对手。会让对手混乱。"
 
 #: src/data/moves_info.h:12144
 msgid ""
 "The type varies with the\n"
 "kind of Plate held."
 msgstr ""
+"放出无数光弹。\n"
+"属性随石板而改变。"
 
 #: src/data/moves_info.h:12191
 msgid ""
 "Fires a beam of electricity.\n"
 "May raise Sp. Atk."
 msgstr ""
+"向对手发射电流。\n"
+"有时会提高自己的特攻。"
 
 #: src/data/moves_info.h:12218
 msgid ""
 "Slams the body into a foe.\n"
 "The user gets hurt too."
 msgstr ""
+"用坚硬的躯体撞击对手。\n"
+"自己也会受到不少伤害。"
 
 #: src/data/moves_info.h:12241
 msgid ""
 "Strikes first by dashing\n"
 "at the foe at a high speed."
 msgstr ""
+"以迅雷不及掩耳之势\n"
+"扑向对手。必定能够先制。"
 
 #: src/data/moves_info.h:12263
 msgid ""
 "Underlings pummel the foe.\n"
 "High critical-hit ratio."
 msgstr ""
+"召唤手下攻击对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:12285
 msgid ""
 "Raises Defense and Sp. Def\n"
 "with a living shield."
 msgstr ""
+"手下聚集成防御之盾，\n"
+"提高自己的防御和特防。"
 
 #: src/data/moves_info.h:12315
 msgid ""
 "The user's underlings heal\n"
 "up to half of its max HP."
 msgstr ""
+"召唤手下疗伤，\n"
+"回复自己最大HP的一半。"
 
 #: src/data/moves_info.h:12341
 msgid ""
 "A life-risking headbutt that\n"
 "seriously hurts the user."
 msgstr ""
+"拼命地用头撞向对手。\n"
+"自己也会受到非常大的伤害。"
 
 #: src/data/moves_info.h:12364
 msgid ""
 "Slams the foe with a tail\n"
 "etc. Strikes twice."
 msgstr ""
+"使用尾巴等击打对手，\n"
+"连续2次给予伤害。"
 
 #: src/data/moves_info.h:12417
 msgid ""
 "Tears the foe, and space.\n"
 "High critical-hit ratio."
 msgstr ""
+"将对手连同周围的空间\n"
+"一同撕裂。容易击中要害。"
 
 #: src/data/moves_info.h:12439
 msgid ""
 "Faints to heal the HP, PP, and\n"
 "status of the next Pokémon."
 msgstr ""
+"自己陷入濒死，治愈下个出\n"
+"场宝可梦的HP、PP和状态。"
 
 #: src/data/moves_info.h:12512
 msgid ""
 "Drags the foes into total\n"
 "darkness, inducing Sleep."
 msgstr ""
+"将对手拖入黑暗的世界，\n"
+"从而让对手陷入睡眠。"
 
 #: src/data/moves_info.h:12537
 msgid ""
 "Generates a shock wave that\n"
 "harshly lowers Sp. Def."
 msgstr ""
+"产生冲击波攻击对手。\n"
+"有时会大幅降低对手特防。"
 
 #: src/data/moves_info.h:12563
 msgid ""
 "A repulsive attack that may\n"
 "raise all stats."
 msgstr ""
+"吹起令人毛骨悚然的风。\n"
+"有时会提高自己全部能力。"
 
 #: src/data/moves_info.h:12595 src/data/moves_info.h:15134
 msgid ""
 "Vanishes, then strikes next\n"
 "turn. Ignores protection."
 msgstr ""
+"第1回合消失，第2回合攻击。\n"
+"无视守住招式。"
 
 #: src/data/moves_info.h:12627
 msgid ""
 "Sharpens its claws to raise\n"
 "Attack and Accuracy."
 msgstr ""
+"将爪子磨得锋利，提高\n"
+"自己的攻击和命中率。"
 
 #: src/data/moves_info.h:12657
 msgid ""
 "Evades wide-ranging attacks\n"
 "for one turn."
 msgstr ""
+"在1回合内防住击中\n"
+"我方全员的攻击。"
 
 #: src/data/moves_info.h:12684
 msgid ""
 "Averages changes to Defense\n"
 "and Sp. Def with the foe."
 msgstr ""
+"利用超能力，与对手平分\n"
+"防御和特防。"
 
 #: src/data/moves_info.h:12707
 msgid ""
 "Averages changes to Attack\n"
 "and Sp. Atk with the foe."
 msgstr ""
+"利用超能力，与对手平分\n"
+"攻击和特攻。"
 
 #: src/data/moves_info.h:12730
 msgid ""
 "Defense and Sp. Def stats\n"
 "are swapped for 5 turns."
 msgstr ""
+"制造出离奇的空间。5回合\n"
+"内互换防御和特防。"
 
 #: src/data/moves_info.h:12753 src/data/moves_info.h:14453
 msgid ""
 "An odd psychic wave that\n"
 "deals physical damage."
 msgstr ""
+"将神奇的念波实体化攻击，\n"
+"给予物理伤害。"
 
 #: src/data/moves_info.h:12774
 msgid ""
 "Does double damage if the\n"
 "foe is poisoned."
 msgstr ""
+"对手处于中毒状态时，\n"
+"威力会翻倍。"
 
 #: src/data/moves_info.h:12796
 msgid ""
 "Sheds additional weight to\n"
 "sharply raise Speed."
 msgstr ""
+"舍弃身体上不必要的部分，\n"
+"大幅提高自己的速度。"
 
 #: src/data/moves_info.h:12825
 msgid ""
 "Scatters powder to make\n"
 "foes attack only the user."
 msgstr ""
+"撒出愤怒之粉，\n"
+"使对手只攻击自己。"
 
 #: src/data/moves_info.h:12853
 msgid ""
 "Makes the foe float. It is\n"
 "easier to hit for 3 turns."
 msgstr ""
+"使对手浮在空中，\n"
+"3回合内更容易被击中。"
 
 #: src/data/moves_info.h:12877
 msgid ""
 "Held items lose their\n"
 "effects for 5 turns."
 msgstr ""
+"制造出离奇的空间。5回合\n"
+"内携带的道具失去效果。"
 
 #: src/data/moves_info.h:12900
 msgid ""
 "Throws a rock to knock the\n"
 "foe down to the ground."
 msgstr ""
+"扔石头击落对手，\n"
+"使飞行的对手落到地面。"
 
 #: src/data/moves_info.h:12923
 msgid ""
 "This fierce blow always\n"
 "lands a critical hit."
 msgstr ""
+"向对手使出强烈的一击。\n"
+"必定会击中要害。"
 
 #: src/data/moves_info.h:12946
 msgid ""
 "A bursting flame that does\n"
 "damage to all foes."
 msgstr ""
+"用爆裂的火焰攻击对手，\n"
+"火星也会波及周围的对手。"
 
 #: src/data/moves_info.h:12970
 msgid ""
 "Swamps all others with a wave\n"
 "of sludge. May also poison."
 msgstr ""
+"用污泥波攻击周围所有\n"
+"宝可梦。有时会让其中毒。"
 
 #: src/data/moves_info.h:12995
 msgid ""
 "Dances to raise Sp. Atk\n"
 "Sp. Def and Speed."
 msgstr ""
+"轻巧地跳起神秘的舞蹈，\n"
+"提高特攻、特防和速度。"
 
 #: src/data/moves_info.h:13027 src/data/moves_info.h:14322
 msgid ""
 "Greater power the more the\n"
 "user outweighs the foe."
 msgstr ""
+"自己比对手越重，\n"
+"威力越大。"
 
 #: src/data/moves_info.h:13051
 msgid ""
 "A shock wave that hurts all\n"
 "Pokémon of the user's type."
 msgstr ""
+"用神奇电波攻击所有与\n"
+"自己属性相同的宝可梦。"
 
 #: src/data/moves_info.h:13072
 msgid ""
 "Hurls an orb that does more\n"
 "damage to a slower foe."
 msgstr ""
+"发射电气团攻击。对手比\n"
+"自己越慢，威力越大。"
 
 #: src/data/moves_info.h:13094
 msgid ""
 "Sprays water at the foe,\n"
 "changing it to a Water-type."
 msgstr ""
+"泼洒大量的水，\n"
+"使对手变成水属性。"
 
 #: src/data/moves_info.h:13118
 msgid ""
 "Attacks in a cloak of\n"
 "flames. Raises Speed."
 msgstr ""
+"让火焰覆盖全身攻击对手。\n"
+"同时提高自己的速度。"
 
 #: src/data/moves_info.h:13146
 msgid ""
 "Coils up to raise Attack,\n"
 "Defense and Accuracy."
 msgstr ""
+"盘起身体集中精神，提高\n"
+"攻击、防御和命中率。"
 
 #: src/data/moves_info.h:13177
 msgid ""
 "Attacks the foe's legs\n"
 "lowering its Speed."
 msgstr ""
+"快速攻击对手的脚，\n"
+"从而降低对手的速度。"
 
 #: src/data/moves_info.h:13204
 msgid ""
 "Sprays a hide-melting acid.\n"
 "Harshly lowers Sp. Def."
 msgstr ""
+"喷出能溶化对手的液体，\n"
+"大幅降低对手的特防。"
 
 #: src/data/moves_info.h:13231
 msgid ""
 "The higher the foe's Attack\n"
 "the more damage caused."
 msgstr ""
+"利用对手的力量攻击。\n"
+"对手攻击越高，伤害越大。"
 
 #: src/data/moves_info.h:13253
 msgid ""
 "A beam that changes the\n"
 "foe's Ability to Simple."
 msgstr ""
+"向对手发送谜之念波，\n"
+"使其特性变为单纯。"
 
 #: src/data/moves_info.h:13277
 msgid ""
 "Makes the foe mimic the\n"
 "user, gaining its Ability."
 msgstr ""
+"用神奇的节奏跳舞，使对手\n"
+"的特性变得和自己相同。"
 
 #: src/data/moves_info.h:13300
 msgid ""
 "Helps out the target, letting\n"
 "it move next."
 msgstr ""
+"支援对手，\n"
+"让对手紧接着自己行动。"
 
 #: src/data/moves_info.h:13326
 msgid ""
 "A song that inflicts damage.\n"
 "Others can join in too."
 msgstr ""
+"用歌声攻击对手。\n"
+"大家一起轮唱时威力提高。"
 
 #: src/data/moves_info.h:13352
 msgid ""
 "Does more damage every turn\n"
 "it is used."
 msgstr ""
+"用回声攻击对手。\n"
+"每回合连续使用威力提高。"
 
 #: src/data/moves_info.h:13375 src/data/moves_info.h:14270
 msgid ""
 "The foe's stat changes don't\n"
 "affect this attack's damage."
 msgstr ""
+"无视对手的能力变化，\n"
+"直接给予伤害。"
 
 #: src/data/moves_info.h:13398
 msgid ""
 "Attacks with white haze that\n"
 "eliminates all stat changes."
 msgstr ""
+"投掷特殊的泥块攻击，\n"
+"使对手的能力复原。"
 
 #: src/data/moves_info.h:13422 src/data/moves_info.h:17197
 msgid ""
 "Greater power the more the\n"
 "user's stats are raised."
 msgstr ""
+"自己的能力提高得越多，\n"
+"威力就越大。"
 
 #: src/data/moves_info.h:13443
 msgid ""
 "Evades priority attacks\n"
 "for one turn."
 msgstr ""
+"在1回合内\n"
+"防住对手的先制攻击。"
 
 #: src/data/moves_info.h:13470
 msgid ""
 "The user switches places\n"
 "with its partner."
 msgstr ""
+"用神奇的力量瞬间移动，\n"
+"互换自己和同伴的位置。"
 
 #: src/data/moves_info.h:13494
 msgid ""
 "Shoots boiling water at the\n"
 "foe. May inflict a burn."
 msgstr ""
+"向对手喷射滚烫的热水。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:13520
 msgid ""
 "Sharply raises offenses and\n"
 "Speed, but lowers defenses."
 msgstr ""
+"打破外壳，大幅提高攻击、\n"
+"特攻和速度，降低防御。"
 
 #: src/data/moves_info.h:13556
 msgid ""
 "Restores the target by up\n"
 "to half their max HP."
 msgstr ""
+"放出治愈波动，\n"
+"回复对手最大HP的一半。"
 
 #: src/data/moves_info.h:13582
 msgid ""
 "Does double damage if the\n"
 "foe has a status problem."
 msgstr ""
+"接二连三地攻击。对手处于\n"
+"异常状态时威力翻倍。"
 
 #: src/data/moves_info.h:13605
 msgid ""
 "Takes the foe into the sky\n"
 "then drops it the next turn."
 msgstr ""
+"第1回合将对手带到空中，\n"
+"第2回合将其摔落。"
 
 #: src/data/moves_info.h:13632
 msgid ""
 "Rotates its gears to raise\n"
 "Attack and Speed."
 msgstr ""
+"转动齿轮，提高\n"
+"自己的攻击，大幅提高速度。"
 
 #: src/data/moves_info.h:13662
 msgid ""
 "The foe is thrown to switch\n"
 "it out or end wild battles."
 msgstr ""
+"扔飞对手，强制换人。\n"
+"野生宝可梦则战斗结束。"
 
 #: src/data/moves_info.h:13714
 msgid ""
 "Suppresses the foe, making\n"
 "it move last."
 msgstr ""
+"压制对手，\n"
+"让其行动顺序变为最后。"
 
 #: src/data/moves_info.h:13737
 msgid ""
 "Does double damage if the\n"
 "user has no item."
 msgstr ""
+"自己没有携带道具时，\n"
+"威力会翻倍。"
 
 #: src/data/moves_info.h:13759
 msgid ""
 "The user reflects the foe's\n"
 "type, copying it."
 msgstr ""
+"反射对手的属性，\n"
+"让自己也变成相同的属性。"
 
 #: src/data/moves_info.h:13783
 msgid ""
 "An attack that does more\n"
 "damage if an ally fainted."
 msgstr ""
+"为倒下的同伴报仇。上回合\n"
+"有同伴濒死时威力提高。"
 
 #: src/data/moves_info.h:13805
 msgid ""
 "The user faints to damage\n"
 "the foe equal to its HP."
 msgstr ""
+"拼命攻击对手，给予等同\n"
+"自己HP的伤害后濒死。"
 
 #: src/data/moves_info.h:13829
 msgid ""
 "The user gives its held\n"
 "item to the foe."
 msgstr ""
+"将自己携带的道具\n"
+"交给对手。"
 
 #: src/data/moves_info.h:13856
 msgid ""
 "Powerful and sure to inflict\n"
 "a burn, but inaccurate."
 msgstr ""
+"用烈火包裹对手攻击，\n"
+"必定灼伤，但命中率低。"
 
 #: src/data/moves_info.h:13881
 msgid ""
 "Attacks with a column of\n"
 "water. May make a rainbow."
 msgstr ""
+"用水柱攻击。与火组合时\n"
+"会出现彩虹。"
 
 #: src/data/moves_info.h:13912
 msgid ""
 "Attacks with a column of\n"
 "fire. May burn the grass."
 msgstr ""
+"用火柱攻击。与草组合时\n"
+"会形成火海。"
 
 #: src/data/moves_info.h:13942
 msgid ""
 "Attacks with a column of\n"
 "grass. May create a swamp."
 msgstr ""
+"用草柱攻击。与水组合时\n"
+"会形成湿地。"
 
 #: src/data/moves_info.h:13993
 msgid ""
 "Resisting, the user attacks\n"
 "the foes. Lowers Sp. Atk."
 msgstr ""
+"抵抗着攻击对手。\n"
+"降低对手的特攻。"
 
 #: src/data/moves_info.h:14019
 msgid ""
 "Stomps down on the ground.\n"
 "Hits all and lowers Speed."
 msgstr ""
+"用力踩踏地面攻击周围所有\n"
+"宝可梦，并降低其速度。"
 
 #: src/data/moves_info.h:14046
 msgid ""
 "This cold breath always\n"
 "lands a critical hit."
 msgstr ""
+"将冰冷的气息吹向对手。\n"
+"必定会击中要害。"
 
 #: src/data/moves_info.h:14068
 msgid ""
 "Knocks away foe to switch\n"
 "it out or end wild battles."
 msgstr ""
+"弹飞对手，强制换人。\n"
+"野生宝可梦则战斗结束。"
 
 #: src/data/moves_info.h:14092
 msgid ""
 "The user is roused.\n"
 "Ups Attack and Sp. Atk."
 msgstr ""
+"激励自己，\n"
+"提高攻击和特攻。"
 
 #: src/data/moves_info.h:14122
 msgid ""
 "Snares the foes with an\n"
 "electric net. Lowers Speed."
 msgstr ""
+"用电网捉住对手攻击，\n"
+"从而降低对手的速度。"
 
 #: src/data/moves_info.h:14148
 msgid ""
 "An electrical tackle that\n"
 "also hurts the user."
 msgstr ""
+"让电流覆盖全身撞向对手。\n"
+"自己也会受到少许伤害。"
 
 #: src/data/moves_info.h:14171
 msgid ""
 "Spins its body like a drill.\n"
 "High critical-hit ratio."
 msgstr ""
+"像钻头一样旋转身体撞击。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:14194
 msgid ""
 "Attacks with brutal hits\n"
 "that strike twice."
 msgstr ""
+"用身体坚硬的部分殴打\n"
+"对手。连续2次给予伤害。"
 
 #: src/data/moves_info.h:14217
 msgid ""
 "A sudden blow after a cute\n"
 "act. May cause flinching."
 msgstr ""
+"装可爱后使出猛烈一击。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:14243
 msgid ""
 "Uses horns to drain\n"
 "half the damage inflicted."
 msgstr ""
+"将角刺入对手吸取养分。\n"
+"回复伤害一半的HP。"
 
 #: src/data/moves_info.h:14294
 msgid ""
 "Tears at the foe with sharp\n"
 "shells. May lower Defense."
 msgstr ""
+"用锋利的贝壳切斩对手。\n"
+"有时会降低对手的防御。"
 
 #: src/data/moves_info.h:14345
 msgid ""
 "Circles the foe with leaves\n"
 "to damage and cut accuracy."
 msgstr ""
+"用叶片包裹住对手攻击。\n"
+"有时会降低对手的命中率。"
 
 #: src/data/moves_info.h:14371
 msgid ""
 "Crushes the foe with its\n"
 "body. May cause flinching."
 msgstr ""
+"旋转揉成团的身体压扁对手。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:14398
 msgid ""
 "Wraps its body in cotton.\n"
 "Drastically raises Defense."
 msgstr ""
+"用软绵绵的棉花包裹身体，\n"
+"巨幅提高自己的防御。"
 
 #: src/data/moves_info.h:14427
 msgid ""
 "Looses a pitch-black shock\n"
 "wave. May lower accuracy."
 msgstr ""
+"放出漆黑的冲击波攻击。\n"
+"有时会降低对手的命中率。"
 
 #: src/data/moves_info.h:14474
 msgid ""
 "Strikes the foe with its\n"
 "tail 2 to 5 times."
 msgstr ""
+"用坚硬的尾巴击打对手，\n"
+"连续攻击2～5次。"
 
 #: src/data/moves_info.h:14497
 msgid ""
 "Traps the foe in a fierce\n"
 "wind. May cause confusion."
 msgstr ""
+"用强烈的风暴包围对手。\n"
+"有时会使对手混乱。"
 
 #: src/data/moves_info.h:14526
 msgid ""
 "A charge using guard hair.\n"
 "It hurts the user a little."
 msgstr ""
+"用厚重的毛发撞向对手。\n"
+"自己也会受到少许伤害。"
 
 #: src/data/moves_info.h:14549
 msgid ""
 "Throws two steel gears\n"
 "that strike twice."
 msgstr ""
+"向对手投掷钢铁齿轮，\n"
+"连续2次给予伤害。"
 
 #: src/data/moves_info.h:14599
 msgid ""
 "The type varies with the\n"
 "kind of Drive held."
 msgstr ""
+"发射光弹攻击。\n"
+"属性随卡带而改变。"
 
 #: src/data/moves_info.h:14622
 msgid ""
 "Attacks with an ancient\n"
 "song. May induce sleep."
 msgstr ""
+"让对手听古老之歌攻击。\n"
+"有时会让对手陷入睡眠。"
 
 #: src/data/moves_info.h:14651
 msgid ""
 "Cuts with a long horn that\n"
 "does physical damage."
 msgstr ""
+"用长角切斩对手，\n"
+"给予物理伤害。"
 
 #: src/data/moves_info.h:14674
 msgid ""
 "Blows very cold air at the\n"
 "foes. It lowers their Speed."
 msgstr ""
+"将冰冷的冷气吹向对手，\n"
+"从而降低对手的速度。"
 
 #: src/data/moves_info.h:14700
 msgid ""
 "Strikes with a great amount\n"
 "of lightning. May paralyze."
 msgstr ""
+"让强大的电流覆盖全身撞击。\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:14726
 msgid ""
 "Engulfs the foe in a blue\n"
 "flame. May inflict a burn."
 msgstr ""
+"用美丽而激烈的青焰包裹\n"
+"对手攻击。有时会灼伤。"
 
 #: src/data/moves_info.h:14751
 msgid ""
 "Dances cloaked in flames.\n"
 "May raise Sp. Atk."
 msgstr ""
+"让火焰覆盖全身振翅起舞。\n"
+"有时会提高自己的特攻。"
 
 #: src/data/moves_info.h:14779
 msgid ""
 "A powerful 2-turn move that\n"
 "may paralyze the foe."
 msgstr ""
+"用冰包裹身体，第2回合\n"
+"撞向对手。可能让对手麻痹。"
 
 #: src/data/moves_info.h:14808
 msgid ""
 "A powerful 2-turn move that\n"
 "may inflict a burn."
 msgstr ""
+"用冷气包裹对手，第2回合\n"
+"攻击。有时会让对手灼伤。"
 
 #: src/data/moves_info.h:14837
 msgid ""
 "Yells and rants at the foe\n"
 "lowering its Sp. Atk."
 msgstr ""
+"叫嚷着絮絮叨叨，\n"
+"降低对手的特攻。"
 
 #: src/data/moves_info.h:14866
 msgid ""
 "Drops large icicles on the\n"
 "foe. May cause flinching."
 msgstr ""
+"将大冰柱砸向对手攻击。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:14891
 msgid ""
 "Very powerful, but lowers\n"
 "Defense, Sp. Def and Speed."
 msgstr ""
+"威力非常强大，但会降低\n"
+"自己的防御、特防和速度。"
 
 #: src/data/moves_info.h:14922
 msgid ""
 "Summons a fireball. Works\n"
 "well with a thunderbolt."
 msgstr ""
+"释放出巨大的火焰。\n"
+"与雷击组合时威力提高。"
 
 #: src/data/moves_info.h:14944
 msgid ""
 "Summons a thunderbolt.\n"
 "Works well with a fireball."
 msgstr ""
+"释放出巨大的雷击。\n"
+"与火焰组合时威力提高。"
 
 #: src/data/moves_info.h:14965
 msgid ""
 "This attack does Fighting-\n"
 "and Flying-type damage."
 msgstr ""
+"同时具有格斗属性和\n"
+"飞行属性的攻击。"
 
 #: src/data/moves_info.h:14992
 msgid ""
 "Evades damaging moves.\n"
 "Only works on 1st turn."
 msgstr ""
+"掀起榻榻米挡下攻击招式。\n"
+"只能在出场第1回合使用。"
 
 #: src/data/moves_info.h:15022
 msgid ""
 "Lets out a loud belch.\n"
 "Must eat a Berry to use it."
 msgstr ""
+"朝着对手打饱嗝。\n"
+"必须吃了树果才能使用。"
 
 #: src/data/moves_info.h:15051
 msgid ""
 "Ups the Attack and Sp. Atk\n"
 "of Grass-type Pokémon."
 msgstr ""
+"翻耕土地，提高\n"
+"草属性宝可梦的攻击和特攻。"
 
 #: src/data/moves_info.h:15082
 msgid ""
 "Weaves a sticky net that\n"
 "slows foes switching in."
 msgstr ""
+"在周围布下黏黏网，降低\n"
+"替换出场的对手的速度。"
 
 #: src/data/moves_info.h:15166
 msgid ""
 "Goes trick-or-treating,\n"
 "adding Ghost type to foe."
 msgstr ""
+"邀请对手参加万圣夜，\n"
+"使对手追加幽灵属性。"
 
 #: src/data/moves_info.h:15190
 msgid ""
 "Intimidates the foe, to cut\n"
 "Attack and Sp. Atk."
 msgstr ""
+"发出挑战的吼叫，\n"
+"降低对手的攻击和特攻。"
 
 #: src/data/moves_info.h:15220
 msgid ""
 "Electrifies Normal-type\n"
 "moves with charged atoms."
 msgstr ""
+"将电离子撒满场地，\n"
+"使一般属性招式变为电属性。"
 
 #: src/data/moves_info.h:15244
 msgid ""
 "Damages all others and\n"
 "restores by half of it."
 msgstr ""
+"用电攻击周围所有宝可梦，\n"
+"回复伤害一半的HP。"
 
 #: src/data/moves_info.h:15270
 msgid ""
 "Puts a curse on the foe,\n"
 "adding the Grass type."
 msgstr ""
+"向对手施加森林咒语，\n"
+"使对手追加草属性。"
 
 #: src/data/moves_info.h:15294
 msgid ""
 "Stirs up a violent storm\n"
 "of petals to attack all."
 msgstr ""
+"猛烈地刮起飞雪般的\n"
+"花瓣，攻击周围所有宝可梦。"
 
 #: src/data/moves_info.h:15325
 msgid ""
 "Super effective on Water-\n"
 "types."
 msgstr ""
+"急速冷冻对手。\n"
+"对水属性也效果绝佳。"
 
 #: src/data/moves_info.h:15354
 msgid ""
 "Lets out a charming cry\n"
 "that cannot be evaded."
 msgstr ""
+"发出魅惑的叫声攻击对手。\n"
+"攻击必定会命中。"
 
 #: src/data/moves_info.h:15377
 msgid ""
 "Lowers the foe's Attack and\n"
 "Sp. Atk, then switches out."
 msgstr ""
+"降低对手的攻击和特攻后，\n"
+"和替补宝可梦替换。"
 
 #: src/data/moves_info.h:15407
 msgid ""
 "Swaps all stat changes that\n"
 "affect the target."
 msgstr ""
+"使对手的所有能力变化\n"
+"颠倒过来。"
 
 #: src/data/moves_info.h:15430
 msgid ""
 "A kiss that steals over\n"
 "half the damage inflicted."
 msgstr ""
+"用亲吻吸取对手的HP。\n"
+"回复伤害75%的HP。"
 
 #: src/data/moves_info.h:15457
 msgid ""
 "Evades status moves for\n"
 "one turn."
 msgstr ""
+"使用神奇的力量，\n"
+"在1回合内防住变化招式。"
 
 #: src/data/moves_info.h:15483
 msgid ""
 "Raises the Defense of\n"
 "Grass-type Pokémon."
 msgstr ""
+"使用神奇的力量，\n"
+"提高草属性宝可梦的防御。"
 
 #: src/data/moves_info.h:15512
 msgid ""
 "The ground turns to grass\n"
 "for 5 turns. Restores HP."
 msgstr ""
+"5回合内变成青草场地，\n"
+"每回合回复地面上宝可梦的HP。"
 
 #: src/data/moves_info.h:15538
 msgid ""
 "Covers the ground with mist\n"
 "for 5 turns. Blocks status."
 msgstr ""
+"5回合内变成薄雾场地，\n"
+"地面上宝可梦不会异常状态。"
 
 #: src/data/moves_info.h:15564
 msgid ""
 "Electrifies the foe, making\n"
 "its next move Electric-type."
 msgstr ""
+"使对手在该回合使用的\n"
+"招式变为电属性。"
 
 #: src/data/moves_info.h:15586
 msgid ""
 "Plays rough with the foe.\n"
 "May lower Attack."
 msgstr ""
+"与对手嬉闹般地攻击。\n"
+"有时会降低对手的攻击。"
 
 #: src/data/moves_info.h:15613
 msgid ""
 "Stirs up a fairy wind to\n"
 "strike the foe."
 msgstr ""
+"刮起妖精之风，\n"
+"吹向对手进行攻击。"
 
 #: src/data/moves_info.h:15635
 msgid ""
 "Attacks with the power of\n"
 "the moon. May lower Sp. Atk."
 msgstr ""
+"借用月亮的力量攻击对手。\n"
+"有时会降低对手的特攻。"
 
 #: src/data/moves_info.h:15661
 msgid ""
 "Attacks everything with a\n"
 "destructive sound wave."
 msgstr ""
+"用破坏性的巨响攻击\n"
+"自己周围所有宝可梦。"
 
 #: src/data/moves_info.h:15684
 msgid ""
 "Locks down the battlefield\n"
 "preventing escape next turn."
 msgstr ""
+"封锁场地，\n"
+"下回合所有宝可梦不能逃走。"
 
 #: src/data/moves_info.h:15741
 msgid ""
 "Befriend the foe, lowering\n"
 "its Attack without fail."
 msgstr ""
+"和对手成为朋友，\n"
+"必定降低对手的攻击。"
 
 #: src/data/moves_info.h:15770
 msgid ""
 "Shares a secret with the\n"
 "foe, lowering Sp. Atk."
 msgstr ""
+"和对手说悄悄话，\n"
+"降低对手的特攻。"
 
 #: src/data/moves_info.h:15800
 msgid ""
 "Whips up a storm of\n"
 "diamonds. May up Defense."
 msgstr ""
+"掀起钻石风暴攻击对手。\n"
+"有时会大幅提高自己防御。"
 
 #: src/data/moves_info.h:15828
 msgid ""
 "Immerses the foe in heated\n"
 "steam. May inflict a burn."
 msgstr ""
+"将滚烫的蒸汽喷向对手。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:15855
 msgid ""
 "Uses a hyperspace hole to\n"
 "attack. Ignores protection."
 msgstr ""
+"用异次元洞攻击对手。\n"
+"无视守住等招式。"
 
 #: src/data/moves_info.h:15883
 msgid ""
 "Hits 2-5 times with throwing\n"
 "stars. Always goes first."
 msgstr ""
+"用水手里剑攻击2～5次。\n"
+"必定能够先制攻击。"
 
 #: src/data/moves_info.h:15910
 msgid ""
 "Breathes a special, hot\n"
 "fire. Lowers Sp. Atk."
 msgstr ""
+"从口中喷出特别热的火焰，\n"
+"降低对手的特攻。"
 
 #: src/data/moves_info.h:15936
 msgid ""
 "Evades attack, and damages\n"
 "the foe if struck."
 msgstr ""
+"防住对手的攻击。若对手\n"
+"接触到自己就会受伤。"
 
 #: src/data/moves_info.h:15964
 msgid ""
 "Raises the Sp. Def of a\n"
 "partner Pokémon."
 msgstr ""
+"用神奇的芳香，\n"
+"提高我方宝可梦的特防。"
 
 #: src/data/moves_info.h:15993
 msgid ""
 "Exposes the foe to a pulse\n"
 "that harshly cuts Sp. Atk."
 msgstr ""
+"放出奇怪的电波，\n"
+"大幅降低对手的特攻。"
 
 #: src/data/moves_info.h:16020
 msgid ""
 "Lowers the Attack, Sp. Atk\n"
 "and Speed of poisoned foes."
 msgstr ""
+"用特殊的毒液浇对手，降低\n"
+"中毒对手的攻击、特攻和速度。"
 
 #: src/data/moves_info.h:16050
 msgid ""
 "Damages the foe if it uses\n"
 "a Fire-type move."
 msgstr ""
+"对手使用火属性招式时，\n"
+"会引起爆炸使其受到伤害。"
 
 #: src/data/moves_info.h:16074
 msgid ""
 "Raises Sp. Atk, Sp. Def and\n"
 "Speed on the 2nd turn."
 msgstr ""
+"第1回合吸收能量，第2回合\n"
+"大幅提高特攻、特防和速度。"
 
 #: src/data/moves_info.h:16106
 msgid ""
 "Raises the defenses of\n"
 "those with Plus or Minus."
 msgstr ""
+"操纵磁场，提高特性为\n"
+"正电或负电的宝可梦的防御。"
 
 #: src/data/moves_info.h:16137
 msgid ""
 "Doubles the amount of\n"
 "Prize Money received."
 msgstr ""
+"使战斗后得到的\n"
+"奖金翻倍。"
 
 #: src/data/moves_info.h:16161
 msgid ""
 "Electrifies the ground for\n"
 "5 turns. Prevents sleep."
 msgstr ""
+"5回合内变成电气场地，\n"
+"地面上的宝可梦不会睡着。"
 
 #: src/data/moves_info.h:16187
 msgid ""
 "Damages foes by emitting\n"
 "a bright flash."
 msgstr ""
+"向对手发射强光，\n"
+"给予伤害。"
 
 #: src/data/moves_info.h:16208
 msgid ""
 "Congratulates you on your\n"
 "special day."
 msgstr ""
+"宝可梦在为度过特别的\n"
+"日子的你送上祝福。"
 
 #: src/data/moves_info.h:16238
 msgid ""
 "The user and ally hold hands\n"
 "making them happy."
 msgstr ""
+"和同伴手牵着手，\n"
+"感到非常高兴。"
 
 #: src/data/moves_info.h:16268
 msgid ""
 "Lowers the foe's Attack\n"
 "before it can move."
 msgstr ""
+"可爱地凝视对手，\n"
+"先制降低对手的攻击。"
 
 #: src/data/moves_info.h:16295
 msgid ""
 "Rubs its cheeks against\n"
 "the foe, paralyzing it."
 msgstr ""
+"将带电的脸颊蹭蹭对手，\n"
+"让对手陷入麻痹。"
 
 #: src/data/moves_info.h:16369
 msgid ""
 "A hard punch that raises\n"
 "the user's Attack."
 msgstr ""
+"反复出拳，\n"
+"提高自己的攻击。"
 
 #: src/data/moves_info.h:16398
 msgid ""
 "A wave that absorbs over\n"
 "half the damage inflicted."
 msgstr ""
+"从羽翼吸取对手的HP。\n"
+"回复伤害75%的HP。"
 
 #: src/data/moves_info.h:16424
 msgid ""
 "Can hit a Flying foe, then\n"
 "knocks it to the ground."
 msgstr ""
+"也能击中飞行的对手，\n"
+"并使其落到地面。"
 
 #: src/data/moves_info.h:16449
 msgid ""
 "Those hit by the wave can\n"
 "no longer escape."
 msgstr ""
+"用大地之波攻击。\n"
+"被击中的对手不能逃走。"
 
 #: src/data/moves_info.h:16475
 msgid ""
 "Gathers the energy of the\n"
 "land to attack every foe."
 msgstr ""
+"聚集大地的力量，\n"
+"向对手发起攻击。"
 
 #: src/data/moves_info.h:16497
 msgid ""
 "Fires a great beam of light\n"
 "that also hurts the user."
 msgstr ""
+"借用永恒之花的力量发射\n"
+"光线。自己会受到不少伤害。"
 
 #: src/data/moves_info.h:16520
 msgid ""
 "Beams of glowing blue light\n"
 "blast both foes."
 msgstr ""
+"用无数青白色光线\n"
+"攻击对手。"
 
 #: src/data/moves_info.h:16543
 msgid ""
 "Fearsome blades of stone\n"
 "attack both foes."
 msgstr ""
+"将大地的力量化为利刃\n"
+"攻击对手。"
 
 #: src/data/moves_info.h:16566
 msgid ""
 "Drops out of the sky. This\n"
 "lowers the user's defenses."
 msgstr ""
+"从天空俯冲攻击。自己的\n"
+"防御和特防会降低。"
 
 #: src/data/moves_info.h:16595
 msgid ""
 "Ignores protection, but\n"
 "lowers the user's Defense."
 msgstr ""
+"用手臂攻击，无视守住等\n"
+"招式。自己的防御会降低。"
 
 #: src/data/moves_info.h:16629
 msgid ""
 "Restores the user's HP.\n"
 "More HP in a sandstorm."
 msgstr ""
+"回复自己最大HP的一半。\n"
+"沙暴时回复更多。"
 
 #: src/data/moves_info.h:16655
 msgid ""
 "Hits hard and first.\n"
 "Only works first turn."
 msgstr ""
+"出场后立刻使出的猛击。\n"
+"只能在出场第1回合使用。"
 
 #: src/data/moves_info.h:16678
 msgid ""
 "Protects user and poisons\n"
 "foes on contact."
 msgstr ""
+"防住对手的攻击。若对手\n"
+"接触到自己就会中毒。"
 
 #: src/data/moves_info.h:16706
 msgid ""
 "After being hit, a foe can\n"
 "no longer escape."
 msgstr ""
+"在射穿对手的同时\n"
+"缝住其影子，使其不能逃走。"
 
 #: src/data/moves_info.h:16731
 msgid ""
 "Swings the arms to strike\n"
 "It ignores stat changes."
 msgstr ""
+"旋转手臂攻击。\n"
+"无视对手的能力变化。"
 
 #: src/data/moves_info.h:16754
 msgid ""
 "Sings with bubbles. Cures\n"
 "burns on contact."
 msgstr ""
+"吹出气泡攻击。\n"
+"被击中的对手的灼伤会治愈。"
 
 #: src/data/moves_info.h:16810
 msgid ""
 "Restores the target's HP.\n"
 "More HP on Grassy Terrain."
 msgstr ""
+"回复对手最大HP的一半。\n"
+"青草场地时回复更多。"
 
 #: src/data/moves_info.h:16836
 msgid ""
 "Slams hard into the foe with\n"
 "its entire body."
 msgstr ""
+"用整个身体猛烈地\n"
+"撞向对手进行攻击。"
 
 #: src/data/moves_info.h:16858
 msgid ""
 "Restores HP equal to the\n"
 "foe's Attack and lowers it."
 msgstr ""
+"回复与对手攻击等量的HP，\n"
+"然后降低对手的攻击。"
 
 #: src/data/moves_info.h:16886
 msgid ""
 "Charges first turn, then\n"
 "chops with a blade of light."
 msgstr ""
+"第1回合收集光，\n"
+"第2回合用光之剑劈砍对手。"
 
 #: src/data/moves_info.h:16912
 msgid ""
 "Attacks with a flurry of\n"
 "small leaves."
 msgstr ""
+"将叶片扔向对手\n"
+"进行攻击。"
 
 #: src/data/moves_info.h:16933
 msgid ""
 "Makes the foe attack the\n"
 "spotlighted Pokémon."
 msgstr ""
+"给宝可梦打上聚光灯，\n"
+"使其成为攻击目标。"
 
 #: src/data/moves_info.h:16960
 msgid ""
 "Attacks with a thread that\n"
 "poisons and lowers Speed."
 msgstr ""
+"吐出毒丝攻击。让对手\n"
+"中毒并降低其速度。"
 
 #: src/data/moves_info.h:16987
 msgid ""
 "Guarantees the next move\n"
 "will be a critical hit."
 msgstr ""
+"集中精神，\n"
+"下次攻击必定会击中要害。"
 
 #: src/data/moves_info.h:17012
 msgid ""
 "Raises the offenses of\n"
 "those with Plus or Minus."
 msgstr ""
+"启动齿轮，提高特性为\n"
+"正电或负电的宝可梦的攻击。"
 
 #: src/data/moves_info.h:17043
 msgid ""
 "Chops the throat to disable\n"
 "sound moves for 2 turns."
 msgstr ""
+"攻击对手的喉咙。2回合内\n"
+"对手不能使用声音招式。"
 
 #: src/data/moves_info.h:17069
 msgid ""
 "Explodes on a foe, but\n"
 "restores ally's HP."
 msgstr ""
+"对对手是会爆炸的花粉团，\n"
+"对同伴则是回复HP的花粉团。"
 
 #: src/data/moves_info.h:17091
 msgid ""
 "Strangles the foe with a\n"
 "chain. The foe can't escape."
 msgstr ""
+"用船锚缠住对手攻击。\n"
+"使对手不能逃走。"
 
 #: src/data/moves_info.h:17117
 msgid ""
 "The ground turns weird for\n"
 "5 turns. Blocks priority."
 msgstr ""
+"5回合内变成精神场地，\n"
+"地面上的宝可梦不受先制攻击。"
 
 #: src/data/moves_info.h:17143
 msgid ""
 "Lunges at the foe to lower\n"
 "its Attack stat."
 msgstr ""
+"全力猛扑对手攻击，\n"
+"从而降低对手的攻击。"
 
 #: src/data/moves_info.h:17170
 msgid ""
 "Whips the foe with fire\n"
 "lowering its Defense."
 msgstr ""
+"用燃烧的鞭子抽打对手，\n"
+"降低对手的防御。"
 
 #: src/data/moves_info.h:17219
 msgid ""
 "Burns out the user fully\n"
 "removing the Fire type."
 msgstr ""
+"燃尽自己的全部火焰，\n"
+"之后不再是火属性。"
 
 #: src/data/moves_info.h:17246
 msgid ""
 "Swaps user's Speed with\n"
 "the target's."
 msgstr ""
+"和对手互换\n"
+"速度的数值。"
 
 #: src/data/moves_info.h:17269
 msgid ""
 "Hits with an accurate\n"
 "horn that never misses."
 msgstr ""
+"用尖角刺入对手攻击。\n"
+"攻击必定会命中。"
 
 #: src/data/moves_info.h:17291
 msgid ""
 "Cures the foe's status\n"
 "to restore HP."
 msgstr ""
+"治愈对手的异常状态，\n"
+"并回复自己的HP。"
 
 #: src/data/moves_info.h:17316
 msgid ""
 "Dances with mystical power.\n"
 "Matches user's first type."
 msgstr ""
+"跳起神秘的舞蹈攻击。招式\n"
+"属性与自己的第1属性相同。"
 
 #: src/data/moves_info.h:17338
 msgid ""
 "Hits with a ray that\n"
 "nullifies the foe's Ability."
 msgstr ""
+"发射光线攻击。若对手已行动，\n"
+"使其特性无效。"
 
 #: src/data/moves_info.h:17363
 msgid ""
 "An intense kick from the\n"
 "tropics. Lowers Attack."
 msgstr ""
+"向对手使出来自南国的\n"
+"猛踢。降低对手的攻击。"
 
 #: src/data/moves_info.h:17390
 msgid ""
 "Orders the target to use\n"
 "its last move again."
 msgstr ""
+"命令对手\n"
+"再次使用刚才使用的招式。"
 
 #: src/data/moves_info.h:17416
 msgid ""
 "Heats beak to attack last.\n"
 "Burns foe on contact."
 msgstr ""
+"先加热喙再攻击。加热时\n"
+"接触自己的对手会灼伤。"
 
 #: src/data/moves_info.h:17445
 msgid ""
 "Makes a huge noise to\n"
 "attack, but lowers Defense."
 msgstr ""
+"摩擦鳞片发出巨响攻击。\n"
+"自己的防御会降低。"
 
 #: src/data/moves_info.h:17473
 msgid ""
 "Swings its whole body\n"
 "like a hammer to damage."
 msgstr ""
+"将身体当作锤子\n"
+"向对手发动攻击。"
 
 #: src/data/moves_info.h:17495
 msgid ""
 "Violently swings around\n"
 "to hurt everyone nearby."
 msgstr ""
+"用自己的身体狂暴地旋转，\n"
+"攻击周围所有宝可梦。"
 
 #: src/data/moves_info.h:17550
 msgid ""
 "Sets a shell trap that\n"
 "damages on contact."
 msgstr ""
+"设下陷阱。受到物理攻击\n"
+"时陷阱爆炸造成伤害。"
 
 #: src/data/moves_info.h:17578
 msgid ""
 "Unleashes a strong beam,\n"
 "but harshly lowers Sp. Atk."
 msgstr ""
+"发射强力光束。使用后\n"
+"自己的特攻会大幅降低。"
 
 #: src/data/moves_info.h:17605
 msgid ""
 "Chomps with psychic fangs.\n"
 "Destroys any barriers."
 msgstr ""
+"用精神力量之牙咬住对手。\n"
+"还可以破坏光墙和反射壁。"
 
 #: src/data/moves_info.h:17632 src/data/moves_info.h:22016
 msgid ""
 "Power is doubled if the\n"
 "user's previous move failed."
 msgstr ""
+"如果上次使用的招式\n"
+"失败的话，威力会翻倍。"
 
 #: src/data/moves_info.h:17655
 msgid ""
 "Strikes with a haunted\n"
 "bone. May lower Defense."
 msgstr ""
+"用寄宿灵魂的骨头殴打。\n"
+"有时会降低对手的防御。"
 
 #: src/data/moves_info.h:17681
 msgid ""
 "Hits with a high-speed\n"
 "rock that always goes first."
 msgstr ""
+"将石头高速撞向对手。\n"
+"必定能够先制攻击。"
 
 #: src/data/moves_info.h:17703
 msgid ""
 "Slams the foe with water.\n"
 "Can lower Defense."
 msgstr ""
+"用水猛撞对手。\n"
+"有时会降低对手的防御。"
 
 #: src/data/moves_info.h:17730
 msgid ""
 "A high power laser that\n"
 "forces recharge next turn."
 msgstr ""
+"用棱镜之力发射强烈光线。\n"
+"下回合将无法动弹。"
 
 #: src/data/moves_info.h:17755
 msgid ""
 "Steals the target's stat\n"
 "boosts, then attacks."
 msgstr ""
+"夺取对手的能力提升值\n"
+"后再攻击对手。"
 
 #: src/data/moves_info.h:17783
 msgid ""
 "A sun-fueled strike that\n"
 "ignores Abilities."
 msgstr ""
+"以流星般的气势猛撞对手。\n"
+"无视对手的特性。"
 
 #: src/data/moves_info.h:17807
 msgid ""
 "A moon-powered beam that\n"
 "ignores Abilities."
 msgstr ""
+"放出奇怪的光线攻击对手。\n"
+"无视对手的特性。"
 
 #: src/data/moves_info.h:17830
 msgid ""
 "The user tears up, lowering\n"
 "Attack and Sp. Atk."
 msgstr ""
+"泪眼汪汪地看着对手，\n"
+"降低对手的攻击和特攻。"
 
 #: src/data/moves_info.h:17859
 msgid ""
 "An electrified impact that\n"
 "can cause flinching."
 msgstr ""
+"撞向对手并释放出强电。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:17885
 msgid ""
 "Halves the foe's HP with\n"
 "the power of nature."
 msgstr ""
+"向对手施以自然之怒，\n"
+"使对手的HP减半。"
 
 #: src/data/moves_info.h:17908
 msgid ""
 "An attack that changes\n"
 "with Memories."
 msgstr ""
+"随着存储碟的种类\n"
+"改变招式的属性。"
 
 #: src/data/moves_info.h:17931
 msgid ""
 "It explodes the user's head\n"
 "to damage everything around."
 msgstr ""
+"用自己的头爆炸攻击周围\n"
+"所有宝可梦。自己也会受伤。"
 
 #: src/data/moves_info.h:17954
 msgid ""
 "Hits with electrical fists.\n"
 "Normal moves turn Electric."
 msgstr ""
+"用带电的拳头攻击。使该回合\n"
+"的一般属性招式变为电属性。"
 
 #: src/data/moves_info.h:17981
 msgid ""
 "User's highest attack stat\n"
 "determines its category."
 msgstr ""
+"比较攻击和特攻，\n"
+"用较高的一项给予伤害。"
 
 #: src/data/moves_info.h:18037
 msgid ""
 "A huge electrified wave that\n"
 "may paralyze the foes."
 msgstr ""
+"用带电的巨浪攻击周围所有\n"
+"宝可梦。有时会让其麻痹。"
 
 #: src/data/moves_info.h:18060
 msgid ""
 "Floats in air and dives at\n"
 "angle. May cause flinching."
 msgstr ""
+"轻飘飘地浮起后俯冲攻击。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:18086
 msgid ""
 "Pikachu's love increases its\n"
 "power. It never misses."
 msgstr ""
+"皮卡丘越喜欢训练家，\n"
+"威力越大。攻击必定命中。"
 
 #: src/data/moves_info.h:18133
 msgid ""
 "Shoots a jolt of electricity.\n"
 "This always paralyzes."
 msgstr ""
+"放出电击攻击对手。\n"
+"必定会让对手麻痹。"
 
 #: src/data/moves_info.h:18155
 msgid ""
 "Cloaks in fire and charges.\n"
 "This always inflicts a burn."
 msgstr ""
+"让火焰覆盖全身猛撞对手。\n"
+"必定会让对手灼伤。"
 
 #: src/data/moves_info.h:18179
 msgid ""
 "Force puts up a wall of light\n"
 "to weaken special moves."
 msgstr ""
+"用念力攻击，5回合内制造\n"
+"减弱特殊攻击的光墙。"
 
 #: src/data/moves_info.h:18202
 msgid ""
 "Acts bad and puts up a wall\n"
 "to weaken physical moves."
 msgstr ""
+"用坏坏的态度攻击，5回合内\n"
+"制造减弱物理攻击的墙壁。"
 
 #: src/data/moves_info.h:18225
 msgid ""
 "A stalk scatters seeds\n"
 "that drain HP every turn."
 msgstr ""
+"长出巨大的茎攻击，撒下\n"
+"种子每回合吸取对手HP。"
 
 #: src/data/moves_info.h:18248
 msgid ""
 "Attacks with a crystal.\n"
 "Eliminates all stat changes."
 msgstr ""
+"用冰晶攻击对手，\n"
+"使场上全员的能力复原。"
 
 #: src/data/moves_info.h:18270
 msgid ""
 "Wraps foe with a whirlwind of\n"
 "scent. Heals party's status."
 msgstr ""
+"用芳香的旋风包裹对手攻击，\n"
+"治愈我方的异常状态。"
 
 #: src/data/moves_info.h:18293
 msgid ""
 "Eevee's love increases its\n"
 "power. It never misses."
 msgstr ""
+"伊布越喜欢训练家，\n"
+"威力越大。攻击必定命中。"
 
 #: src/data/moves_info.h:18313
 msgid ""
 "The user spins and hits with\n"
 "its arms. May cause flinch."
 msgstr ""
+"旋转身体用双臂攻击2次。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:18343
 msgid ""
 "Unleashes core energy.\n"
 "2x against a Dynamaxed foe."
 msgstr ""
+"放出核心的能量。对极巨化\n"
+"的对手造成2倍伤害。"
 
 #: src/data/moves_info.h:18373
 msgid ""
 "The user ignores effects\n"
 "that draw in moves."
 msgstr ""
+"无视吸引招式的特性或招式，\n"
+"攻击选择的对手。"
 
 #: src/data/moves_info.h:18395
 msgid ""
 "Prevents the user and\n"
 "the target from escaping."
 msgstr ""
+"用牙齿咬住对手，\n"
+"使双方都不能逃走。"
 
 #: src/data/moves_info.h:18421
 msgid ""
 "Consumes the user's Berry,\n"
 "then sharply raises Defense."
 msgstr ""
+"吃掉携带的树果，\n"
+"大幅提高自己的防御。"
 
 #: src/data/moves_info.h:18449
 msgid ""
 "Raises all of the user's\n"
 "stats but prevents escape."
 msgstr ""
+"提高自己的全部能力，\n"
+"但无法逃走或替换。"
 
 #: src/data/moves_info.h:18481
 msgid ""
 "Lowers the foe's Speed and\n"
 "makes it weak to Fire."
 msgstr ""
+"泼洒黏糊糊的焦油，降低对手\n"
+"的速度，并使其害怕火。"
 
 #: src/data/moves_info.h:18507
 msgid ""
 "Magic powder changes the\n"
 "target into a Psychic-type."
 msgstr ""
+"撒出魔法粉，\n"
+"使对手变为超能力属性。"
 
 #: src/data/moves_info.h:18531
 msgid ""
 "The user attacks twice. Two\n"
 "targets are hit once each."
 msgstr ""
+"用龙装弹攻击2次。若对手\n"
+"有2只，则各攻击1次。"
 
 #: src/data/moves_info.h:18554
 msgid ""
 "All Pokémon have teatime\n"
 "and eat their Berries."
 msgstr ""
+"举行茶会，场上的所有宝可梦\n"
+"都会吃掉携带的树果。"
 
 #: src/data/moves_info.h:18578
 msgid ""
 "Prevents the foe's escape.\n"
 "Lowers defenses every turn."
 msgstr ""
+"让对手不能逃走，每回合\n"
+"降低对手的防御和特防。"
 
 #: src/data/moves_info.h:18599 src/data/moves_info.h:18621
 msgid ""
 "Power is doubled if the\n"
 "user moves before the foe."
 msgstr ""
+"比对手先行动的话，\n"
+"威力会翻倍。"
 
 #: src/data/moves_info.h:18644
 msgid ""
 "The user swaps effects on\n"
 "either side of the field."
 msgstr ""
+"用神奇的力量，\n"
+"交换双方场地上的效果。"
 
 #: src/data/moves_info.h:18666
 msgid ""
 "The user uses some of its\n"
 "HP to raise all its stats."
 msgstr ""
+"削减少许HP，\n"
+"提高自己的全部能力。"
 
 #: src/data/moves_info.h:18701
 msgid ""
 "Does more damage the\n"
 "higher the user's Defense."
 msgstr ""
+"用身体撞向对手。\n"
+"自己的防御越高，伤害越大。"
 
 #: src/data/moves_info.h:18725
 msgid ""
 "The user sharply raises the\n"
 "target's Attack and Sp. Atk."
 msgstr ""
+"装饰对手，\n"
+"大幅提高其攻击和特攻。"
 
 #: src/data/moves_info.h:18754
 msgid ""
 "Plays a drum to attack.\n"
 "The foe's Speed is lowered."
 msgstr ""
+"用鼓点控制树根攻击，\n"
+"降低对手的速度。"
 
 #: src/data/moves_info.h:18781
 msgid ""
 "Snares the target in a snap\n"
 "trap for four to five turns."
 msgstr ""
+"用捕兽夹夹住对手，\n"
+"在4～5回合内给予伤害。"
 
 #: src/data/moves_info.h:18809
 msgid ""
 "Launches a fiery ball at the\n"
 "target. It may cause a burn."
 msgstr ""
+"向对手投掷火焰球攻击。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:18837
 msgid ""
 "Strikes as a sword. Deals 2x\n"
 "damage to a Dynamaxed foe."
 msgstr ""
+"化身为剑劈砍对手。对极巨化\n"
+"的对手造成2倍伤害。"
 
 #: src/data/moves_info.h:18864
 msgid ""
 "Attacks as a shield. Deals 2x\n"
 "damage to a Dynamaxed foe."
 msgstr ""
+"化身为盾撞向对手。对极巨化\n"
+"的对手造成2倍伤害。"
 
 #: src/data/moves_info.h:18890
 msgid ""
 "Raises Speed to attack. The\n"
 "Type is based on its form."
 msgstr ""
+"攻击并提高自己的速度。\n"
+"属性随样子而改变。"
 
 #: src/data/moves_info.h:18918
 msgid ""
 "Swings its tail and attacks.\n"
 "This lowers Attack stats."
 msgstr ""
+"用坚韧的尾巴猛扫对手，\n"
+"降低对手的攻击。"
 
 #: src/data/moves_info.h:18946
 msgid ""
 "The user pokes the target\n"
 "with a pointed branch."
 msgstr ""
+"用尖锐的树枝\n"
+"刺向对手进行攻击。"
 
 #: src/data/moves_info.h:18969
 msgid ""
 "The user twangs its guitar,\n"
 "causing strong vibrations."
 msgstr ""
+"拨动吉他或贝斯，\n"
+"用强烈的振动攻击。"
 
 #: src/data/moves_info.h:18993
 msgid ""
 "Attacks with tart apple acid\n"
 "to lower the foe's Sp. Def."
 msgstr ""
+"用酸苹果的酸液攻击，\n"
+"降低对手的特防。"
 
 #: src/data/moves_info.h:19020
 msgid ""
 "Drops an apple from above.\n"
 "Lowers the foe's Defense."
 msgstr ""
+"从高处落下苹果攻击，\n"
+"降低对手的防御。"
 
 #: src/data/moves_info.h:19047
 msgid ""
 "Attacks with spirit-breaking\n"
 "force. Lowers Sp. Atk."
 msgstr ""
+"用势不可挡的气势攻击，\n"
+"降低对手的特攻。"
 
 #: src/data/moves_info.h:19075
 msgid ""
 "Emits a strange steam to\n"
 "potentially confuse the foe."
 msgstr ""
+"喷出奇怪的烟雾攻击。\n"
+"有时会使对手混乱。"
 
 #: src/data/moves_info.h:19101
 msgid ""
 "Scatters water to restore\n"
 "the HP of itself and allies."
 msgstr ""
+"喷洒神奇的水，\n"
+"回复自己和同伴的HP。"
 
 #: src/data/moves_info.h:19128
 msgid ""
 "Protects itself, harshly\n"
 "lowering Defense on contact."
 msgstr ""
+"挡住对手的攻击。若对手\n"
+"接触自己，大幅降低其防御。"
 
 #: src/data/moves_info.h:19154
 msgid ""
 "Bows to stab the foe\n"
 "with hair. It never misses."
 msgstr ""
+"装作低头认错，用头发刺\n"
+"向对手。攻击必定会命中。"
 
 #: src/data/moves_info.h:19177
 msgid ""
 "Attacks with a thick leek.\n"
 "The user must then rest."
 msgstr ""
+"用粗大的茎攻击对手。\n"
+"下回合自己将无法动弹。"
 
 #: src/data/moves_info.h:19204
 msgid ""
 "Eternatus' strongest move.\n"
 "The user rests next turn."
 msgstr ""
+"无极汰那最强的攻击。\n"
+"下回合自己将无法动弹。"
 
 #: src/data/moves_info.h:19230
 msgid ""
 "Fires a beam of steel from\n"
 "its body. It hurts the user."
 msgstr ""
+"从全身发射钢铁光束。\n"
+"自己也会受到不少伤害。"
 
 #: src/data/moves_info.h:19252
 msgid ""
 "Power goes up and damages\n"
 "all foes on Psychic Terrain."
 msgstr ""
+"精神场地上威力提高，\n"
+"并攻击对手全体。"
 
 #: src/data/moves_info.h:19279
 msgid ""
 "Destroys terrain. Fails if\n"
 "ground isn't terrain."
 msgstr ""
+"破坏场地攻击对手。\n"
+"没有场地时会失败。"
 
 #: src/data/moves_info.h:19302
 msgid ""
 "Shoots scales 2 to 5 times.\n"
 "Ups Speed, lowers Defense."
 msgstr ""
+"发射鳞片攻击2～5次。\n"
+"提高速度，降低防御。"
 
 #: src/data/moves_info.h:19324
 msgid ""
 "A 2-turn move that raises\n"
 "Sp. Atk before attacking."
 msgstr ""
+"第1回合提高特攻，\n"
+"第2回合发射宇宙光束。"
 
 #: src/data/moves_info.h:19354
 msgid ""
 "Deals better of physical and\n"
 "special damage. May poison."
 msgstr ""
+"比较物理和特殊，用伤害\n"
+"较大的方式攻击。可能中毒。"
 
 #: src/data/moves_info.h:19379
 msgid ""
 "Hit everything and faint.\n"
 "Powers up on Misty Terrain."
 msgstr ""
+"攻击周围所有宝可梦后濒死。\n"
+"薄雾场地上威力提高。"
 
 #: src/data/moves_info.h:19407
 msgid ""
 "Gliding on ground, hits. Goes\n"
 "first on Grassy Terrain."
 msgstr ""
+"贴地滑行攻击对手。\n"
+"青草场地上必定先制。"
 
 #: src/data/moves_info.h:19430
 msgid ""
 "This move's power doubles\n"
 "when on Electric Terrain."
 msgstr ""
+"电气场地上\n"
+"威力会翻倍。"
 
 #: src/data/moves_info.h:19456
 msgid ""
 "Type and power changes\n"
 "depending on the terrain."
 msgstr ""
+"属性和威力\n"
+"随场地而改变。"
 
 #: src/data/moves_info.h:19478
 msgid ""
 "User skitters behind foe to\n"
 "attack. Lowers foe's Sp. Atk."
 msgstr ""
+"从背后悄悄接近攻击，\n"
+"降低对手的特攻。"
 
 #: src/data/moves_info.h:19505
 msgid ""
 "Foes that have stats upped\n"
 "during the turn get burned."
 msgstr ""
+"让该回合能力提高的\n"
+"对手陷入灼伤状态。"
 
 #: src/data/moves_info.h:19531
 msgid ""
 "If user's stats were lowered\n"
 "this turn, power is doubled."
 msgstr ""
+"该回合自己的能力被降低\n"
+"的话，威力会翻倍。"
 
 #: src/data/moves_info.h:19553
 msgid ""
 "Control foe's item to attack.\n"
 "Fails if foe has no item."
 msgstr ""
+"操纵对手的道具攻击。\n"
+"对手没有道具时会失败。"
 
 #: src/data/moves_info.h:19578
 msgid ""
 "Highly acidic gas melts items\n"
 "held by surrounding Pokémon."
 msgstr ""
+"用强酸气体溶化周围\n"
+"宝可梦所携带的道具。"
 
 #: src/data/moves_info.h:19600
 msgid ""
 "Properly coaches allies to\n"
 "up their Attack and Defense."
 msgstr ""
+"进行正确的指导，提高\n"
+"我方全员的攻击和防御。"
 
 #: src/data/moves_info.h:19651
 msgid ""
 "A 3-kick attack that gets\n"
 "more powerful with each hit."
 msgstr ""
+"连续3次踢对手攻击。\n"
+"每次命中时威力都会提高。"
 
 #: src/data/moves_info.h:19674
 msgid ""
 "User slams the target with\n"
 "wings and hits twice in a row."
 msgstr ""
+"用翅膀撞击对手，\n"
+"连续2次给予伤害。"
 
 #: src/data/moves_info.h:19697
 msgid ""
 "Throws scorching sand at\n"
 "the target. May leave a burn."
 msgstr ""
+"将滚烫的沙子砸向对手。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:19723
 msgid ""
 "Heals HP and status of\n"
 "itself and allies in battle."
 msgstr ""
+"与丛林融为一体，回复\n"
+"我方全员的HP和异常状态。"
 
 #: src/data/moves_info.h:19749
 msgid ""
 "Mastering the Dark style,\n"
 "strikes with a critical hit."
 msgstr ""
+"练就恶之流派的猛烈一击。\n"
+"必定会击中要害。"
 
 #: src/data/moves_info.h:19774
 msgid ""
 "Mastering the Water style,\n"
 "strikes with 3 critical hits."
 msgstr ""
+"练就水之流派的连打。\n"
+"连续3次必定击中要害。"
 
 #: src/data/moves_info.h:19878
 msgid ""
 "An attack fueled by your\n"
 "wrath. May cause flinching."
 msgstr ""
+"将愤怒转为恶之气场攻击。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:19904
 msgid ""
 "Uses a lightning-like kick\n"
 "to hit. Lowers foe's Defense."
 msgstr ""
+"用雷电般的踢击攻击，\n"
+"降低对手的防御。"
 
 #: src/data/moves_info.h:19932
 msgid ""
 "Hurls a blizzard-cloaked\n"
 "icicle lance at foes."
 msgstr ""
+"向对手投掷包着暴风雪的\n"
+"冰枪进行攻击。"
 
 #: src/data/moves_info.h:19954
 msgid ""
 "Sends a frightful amount\n"
 "of small ghosts at foes."
 msgstr ""
+"发出大量的小幽灵\n"
+"攻击对手。"
 
 #: src/data/moves_info.h:19976
 msgid ""
 "Attacks with psychic power.\n"
 "Foe's last move has 3 PP cut."
 msgstr ""
+"用强大的念力攻击，削减\n"
+"对手最后所用招式3点PP。"
 
 #: src/data/moves_info.h:20003
 msgid ""
 "High critical-hit ratio. May\n"
 "paralyze, poison or sleep."
 msgstr ""
+"用毁灭之爪攻击。容易击中\n"
+"要害，可能中毒、麻痹或睡眠。"
 
 #: src/data/moves_info.h:20027
 msgid ""
 "Hits a foe with psychic\n"
 "energy. May raise Defense."
 msgstr ""
+"用念力能量撞击对手。\n"
+"有时会提高自己的防御。"
 
 #: src/data/moves_info.h:20072
 msgid "Leaves stones under the foe."
 msgstr ""
+"用石斧攻击，并在对手\n"
+"周围散布浮游的岩石。"
 
 #: src/data/moves_info.h:20093
 msgid ""
 "Wraps a foe in fierce winds.\n"
 "Varies with the user's form."
 msgstr ""
+"用强风包围对手攻击。\n"
+"效果随样子而改变。"
 
 #: src/data/moves_info.h:20117
 msgid ""
 "A mysterious power strikes,\n"
 "raising the user's Sp. Atk."
 msgstr ""
+"放出神秘的力量攻击。\n"
+"提高自己的特攻。"
 
 #: src/data/moves_info.h:20165
 msgid ""
 "A slam shrouded in water.\n"
 "It also hurts the user."
 msgstr ""
+"让水覆盖全身撞向对手。\n"
+"自己也会受到不少伤害。"
 
 #: src/data/moves_info.h:20188
 msgid ""
 "A user-hurting blast of\n"
 "amassed chlorophyll."
 msgstr ""
+"发射积聚的叶绿素攻击。\n"
+"自己也会受到伤害。"
 
 #: src/data/moves_info.h:20205
 msgid ""
 "Giant chunks of ice damage\n"
 "the foe. It may flinch."
 msgstr ""
+"将巨大的冰块砸向对手。\n"
+"有时会使对手畏缩。"
 
 #: src/data/moves_info.h:20226
 msgid ""
 "Dances to raise Attack,\n"
 "Defense and Speed."
 msgstr ""
+"激烈地跳起胜利之舞，\n"
+"提高攻击、防御和速度。"
 
 #: src/data/moves_info.h:20256
 msgid ""
 "A full-body tackle. Lowers\n"
 "the user's defensive stats."
 msgstr ""
+"用全身扑向对手。自己的\n"
+"防御和特防会降低。"
 
 #: src/data/moves_info.h:20284
 msgid ""
 "Can poison on impact. Powers\n"
 "up against a poisoned foe."
 msgstr ""
+"发射针刺攻击。可能中毒，\n"
+"对中毒的对手威力翻倍。"
 
 #: src/data/moves_info.h:20306
 msgid ""
 "High critical-hit ratio.\n"
 "Raises the user's Speed."
 msgstr ""
+"用灵力之羽攻击。容易\n"
+"击中要害，提高自己速度。"
 
 #: src/data/moves_info.h:20330
 msgid ""
 "A spine-chilling resentment.\n"
 "Lowers the foe's Attack."
 msgstr ""
+"用令人胆寒的怨念攻击，\n"
+"降低对手的攻击。"
 
 #: src/data/moves_info.h:20352
 msgid ""
 "The user hardens their skin,\n"
 "sharply raising its Defense."
 msgstr ""
+"使皮肤变得坚硬如盾，\n"
+"大幅提高自己的防御。"
 
 #: src/data/moves_info.h:20376
 msgid ""
 "High critical-hit ratio.\n"
 "May lower Defense or flinch."
 msgstr ""
+"容易击中要害。可能降低\n"
+"对手的防御或使其畏缩。"
 
 #: src/data/moves_info.h:20403
 msgid ""
 "Hurts a foe harder if it has\n"
 "an ailment. May leave a burn."
 msgstr ""
+"对异常状态的对手威力\n"
+"翻倍。有时会让对手灼伤。"
 
 #: src/data/moves_info.h:20425
 msgid "Leaves spikes under the foe."
 msgstr ""
+"用贝壳之刃攻击，并在\n"
+"对手周围撒下撒菱。"
 
 #: src/data/moves_info.h:20446
 msgid ""
 "Hits with brutal, cold winds.\n"
 "May lower foes' Speed."
 msgstr ""
+"用冰冷的狂风攻击。\n"
+"有时会降低对手的速度。"
 
 #: src/data/moves_info.h:20470
 msgid ""
 "Hits with a brutal tempest.\n"
 "May inflict paralysis."
 msgstr ""
+"用猛烈的雷云攻击。\n"
+"有时会让对手麻痹。"
 
 #: src/data/moves_info.h:20493
 msgid ""
 "Hits with brutally hot sand.\n"
 "May inflict a burn."
 msgstr ""
+"用灼热的沙暴攻击。\n"
+"有时会让对手灼伤。"
 
 #: src/data/moves_info.h:20516
 msgid ""
 "The user heals and cures\n"
 "itself and its ally."
 msgstr ""
+"回复自己和同伴的HP，\n"
+"并治愈异常状态。"
 
 #: src/data/moves_info.h:20537
 msgid ""
 "Cures status problems and\n"
 "raises offensive stats."
 msgstr ""
+"治愈自己的异常状态，\n"
+"并提高攻击和特攻等。"
 
 #: src/data/moves_info.h:20562
 msgid ""
 "If the user's Terastallized,\n"
 "it hits with its Tera type."
 msgstr ""
+"太晶化时，招式属性\n"
+"变为自己的太晶属性。"
 
 #: src/data/moves_info.h:20584
 msgid ""
 "Protects itself, lowering\n"
 "Speed on contact."
 msgstr ""
+"用丝制成的陷阱防住攻击。\n"
+"接触的对手速度会降低。"
 
 #: src/data/moves_info.h:20605
 msgid ""
 "May miss and hurt the kicker.\n"
 "May cause confusion."
 msgstr ""
+"落空的话自己会受伤。\n"
+"有时会使对手混乱。"
 
 #: src/data/moves_info.h:20627
 msgid ""
 "This move deals more damage\n"
 "for each defeated ally."
 msgstr ""
+"倒下的同伴越多，\n"
+"威力就越大。"
 
 #: src/data/moves_info.h:20644
 msgid ""
 "A mind-affecting light\n"
 "harshly lowers Sp. Def."
 msgstr ""
+"用影响精神的奇怪光线\n"
+"攻击，大幅降低对手特防。"
 
 #: src/data/moves_info.h:20666
 msgid ""
 "Raises the user's stats\n"
 "depending on Tatsugiri."
 msgstr ""
+"根据口中米立龙的样子，\n"
+"提高自己的能力。"
 
 #: src/data/moves_info.h:20690
 msgid ""
 "A punch is thrown at blinding\n"
 "speed to strike first."
 msgstr ""
+"以迅雷不及掩耳之势出拳。\n"
+"必定能够先制攻击。"
 
 #: src/data/moves_info.h:20713
 msgid ""
 "Sharply ups target's Attack,\n"
 "harshly lowers its Defense."
 msgstr ""
+"大幅提高对手的攻击，\n"
+"大幅降低其防御。"
 
 #: src/data/moves_info.h:20740
 msgid ""
 "Furiously strains its legs.\n"
 "Harshly lowers user's Speed."
 msgstr ""
+"拼命地奔跑攻击。\n"
+"自己的速度会大幅降低。"
 
 #: src/data/moves_info.h:20764
 msgid ""
 "The user's fellows hit one\n"
 "to ten times in a row."
 msgstr ""
+"伙伴们一起攻击，\n"
+"连续击中1～10次。"
 
 #: src/data/moves_info.h:20785
 msgid ""
 "Ice-covered feet hit a foe\n"
 "and destroy the terrain."
 msgstr ""
+"用包着冰的脚攻击，\n"
+"并破坏场地。"
 
 #: src/data/moves_info.h:20804
 msgid ""
 "Foe attacks next turn can't\n"
 "miss and do double damage."
 msgstr ""
+"攻击后到下回合对手的攻击\n"
+"必定命中，且伤害翻倍。"
 
 #: src/data/moves_info.h:20826
 msgid ""
 "Revives a fainted party\n"
 "member and heals half its HP."
 msgstr ""
+"复活1只濒死的我方宝可梦，\n"
+"回复其一半的HP。"
 
 #: src/data/moves_info.h:20848
 msgid ""
 "Hurts foe every turn. Double\n"
 "damage to Steel and Water."
 msgstr ""
+"每回合给予伤害。\n"
+"对钢和水属性伤害翻倍。"
 
 #: src/data/moves_info.h:20870
 msgid ""
 "Hits target with splashes\n"
 "of water 3 times in a row."
-msgstr ""
+msgstr "用水花连续攻击对手3次。"
 
 #: src/data/moves_info.h:20889
 msgid ""
 "Erases trap moves and Leech\n"
 "Seed. Poisons all foes."
 msgstr ""
+"解除束缚、撒菱等效果，\n"
+"并让对手全体中毒。"
 
 #: src/data/moves_info.h:20911
 msgid ""
 "Changes user's and ally's\n"
 "Ability into the target's."
 msgstr ""
+"使自己和同伴的特性\n"
+"变得和对手相同。"
 
 #: src/data/moves_info.h:20931
 msgid ""
 "Sharply raises offenses and\n"
 "Speed by using its own HP."
 msgstr ""
+"削减一半HP，大幅提高\n"
+"攻击、特攻和速度。"
 
 #: src/data/moves_info.h:20959
 msgid ""
 "User slashes the foe after\n"
 "kowtowing. It never misses."
 msgstr ""
+"下跪认错后劈砍对手。\n"
+"攻击必定会命中。"
 
 #: src/data/moves_info.h:20978
 msgid ""
 "Rigged bouquet. Always gets\n"
 "a critical hit, never missing."
 msgstr ""
+"抛出机关花束攻击。必定\n"
+"命中，且必定击中要害。"
 
 #: src/data/moves_info.h:20996
 msgid ""
 "Flames scorch the target.\n"
 "Raises the user's Sp. Atk."
 msgstr ""
+"用火焰灼烧对手。\n"
+"提高自己的特攻。"
 
 #: src/data/moves_info.h:21021
 msgid ""
 "Hits with light, fluid dance\n"
 "steps. Ups the user's Speed."
 msgstr ""
+"用轻快的舞步攻击。\n"
+"提高自己的速度。"
 
 #: src/data/moves_info.h:21046
 msgid ""
 "Tackle that breaks barriers.\n"
 "User's form determines type."
 msgstr ""
+"撞击并破坏光墙等。\n"
+"属性随样子而改变。"
 
 #: src/data/moves_info.h:21069
 msgid ""
 "Lowers the user's Sp. Atk.\n"
 "Money is recovered after."
 msgstr ""
+"撒出大量金币攻击。降低\n"
+"特攻，战斗后可以拿到钱。"
 
 #: src/data/moves_info.h:21095
 msgid ""
 "Summons a ruinous disaster\n"
 "and cuts half the foe's HP."
 msgstr ""
+"引发灾厄，\n"
+"使对手的HP减半。"
 
 #: src/data/moves_info.h:21117
 msgid ""
 "Prehistoric explosion that's\n"
 "stronger if super effective."
 msgstr ""
+"用远古之力冲撞对手。\n"
+"效果绝佳时威力提高。"
 
 #: src/data/moves_info.h:21136
 msgid ""
 "Futuristic electricity. It's\n"
 "stronger if super effective."
 msgstr ""
+"用未来之电冲撞对手。\n"
+"效果绝佳时威力提高。"
 
 #: src/data/moves_info.h:21155
 msgid ""
 "Creates a Substitute for\n"
 "itself before switching out."
 msgstr ""
+"削减HP制造替身，\n"
+"然后和替补宝可梦替换。"
 
 #: src/data/moves_info.h:21203
 msgid ""
 "User tidies up hazards and\n"
 "raises its Attack and Speed."
 msgstr ""
+"清除撒菱和替身等，\n"
+"提高自己的攻击和速度。"
 
 #: src/data/moves_info.h:21259
 msgid ""
 "The user pounces on the foe,\n"
 "lowering its Speed."
 msgstr ""
+"猛扑向对手攻击，\n"
+"降低对手的速度。"
 
 #: src/data/moves_info.h:21283
 msgid ""
 "The user attacks suddenly,\n"
 "raising its Speed."
 msgstr ""
+"突然发起攻击，\n"
+"提高自己的速度。"
 
 #: src/data/moves_info.h:21311
 msgid ""
 "A shower with ice-cold water\n"
 "lowers the target's Attack."
 msgstr ""
+"将冰冷的水泼向对手，\n"
+"降低对手的攻击。"
 
 #: src/data/moves_info.h:21337
 msgid ""
 "A spinning pointed part\n"
 "bypasses a foe's Protect."
 msgstr ""
+"旋转身体的尖锐部分攻击。\n"
+"无视守住等招式。"
 
 #: src/data/moves_info.h:21357
 msgid ""
 "Mystical eye-beams that hit\n"
 "the target twice in a row."
 msgstr ""
+"从双眼发射神奇的光线，\n"
+"连续2次给予伤害。"
 
 #: src/data/moves_info.h:21376
 msgid ""
 "The more the user has been\n"
 "hit, the stronger the move."
 msgstr ""
+"受到攻击的次数越多，\n"
+"威力就越大。"
 
 #: src/data/moves_info.h:21396
 msgid ""
 "Shoots armor. This lowers\n"
 "the user's defensive stats."
 msgstr ""
+"发射铠甲攻击。自己的\n"
+"防御和特防会降低。"
 
 #: src/data/moves_info.h:21423
 msgid ""
 "A slash that absorbs\n"
 "half the damage inflicted."
 msgstr ""
+"用剑劈砍对手。\n"
+"回复伤害一半的HP。"
 
 #: src/data/moves_info.h:21447
 msgid ""
 "Discharges all electricity,\n"
 "losing the Electric type."
 msgstr ""
+"放出全身的电攻击。\n"
+"之后不再是电属性。"
 
 #: src/data/moves_info.h:21472
 msgid ""
 "Swings a huge hammer. Can't\n"
 "be used twice in a row."
 msgstr ""
+"挥舞巨大的锤子攻击。\n"
+"不能连续使用2次。"
 
 #: src/data/moves_info.h:21517
 msgid ""
 "Pressurized water cut with a\n"
 "high critical-hit ratio."
 msgstr ""
+"用加压的水流切斩对手。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:21681
 msgid ""
 "This move's power increases\n"
 "when on Electric Terrain."
 msgstr ""
+"在电气场地上\n"
+"威力会提高。"
 
 #: src/data/moves_info.h:21705
 msgid ""
 "This move's power increases\n"
 "under harsh sunlight."
 msgstr ""
+"在大晴天时威力\n"
+"不会降低，反而提高。"
 
 #: src/data/moves_info.h:21723
 msgid ""
 "Unleashes the blood moon.\n"
 "Can't be used twice in a row."
 msgstr ""
+"释放血月之力攻击。\n"
+"不能连续使用2次。"
 
 #: src/data/moves_info.h:21741
 msgid ""
 "Absorbs half the damage\n"
 "inflicted. May cause a burn."
 msgstr ""
+"喷射抹茶攻击。回复伤害\n"
+"一半的HP，可能让对手灼伤。"
 
 #: src/data/moves_info.h:21768
 msgid ""
 "Lowers the foe's Speed\n"
 "each turn for 3 turns."
 msgstr ""
+"泼洒糖浆攻击，3回合内\n"
+"每回合降低对手的速度。"
 
 #: src/data/moves_info.h:21790
 msgid ""
 "Type changes with held mask.\n"
 "High critical-hit ratio."
 msgstr ""
+"用棍棒攻击。容易击中要害。\n"
+"属性随面具而改变。"
 
 #: src/data/moves_info.h:21808
 msgid ""
 "Gathers electricity, then\n"
 "fires a high-voltage shot."
 msgstr ""
+"第1回合积蓄电力，\n"
+"第2回合发射高压电击。"
 
 #: src/data/moves_info.h:21835
 msgid ""
 "In Terapagos's Stellar\n"
 "Form, it hits all foes."
 msgstr ""
+"太乐巴戈斯星晶形态使用时\n"
+"攻击对手全体。"
 
 #: src/data/moves_info.h:21856
 msgid ""
 "Shoots a beam of light.\n"
 "Sometimes twice as strong."
 msgstr ""
+"发射光线攻击。\n"
+"有时威力会变成2倍。"
 
 #: src/data/moves_info.h:21873
 msgid ""
 "Evades attack, and burns\n"
 "the foe if struck."
 msgstr ""
+"防住对手的攻击。若对手\n"
+"接触到自己就会灼伤。"
 
 #: src/data/moves_info.h:21916
 msgid ""
 "Wields light to cleave the\n"
 "foe. Ignores protection."
 msgstr ""
+"用光之力劈砍对手。\n"
+"无视守住等招式。"
 
 #: src/data/moves_info.h:21936
 msgid ""
 "Launches particle blades at\n"
 "the target. Strikes twice."
 msgstr ""
+"发射粒子之刃，\n"
+"连续2次给予伤害。"
 
 #: src/data/moves_info.h:21973
 msgid ""
 "Raises allies' critical-hit\n"
 "ratio, sharply if Dragons."
 msgstr ""
+"激励同伴，使其容易击中\n"
+"要害。龙属性则大幅提高。"
 
 #: src/data/moves_info.h:21992
 msgid ""
 "Confuses foe if its stats\n"
 "were raised this turn."
 msgstr ""
+"对该回合能力提高的对手，\n"
+"使其陷入混乱。"
 
 #: src/data/moves_info.h:22034
 msgid ""
 "An electrified slam. If it\n"
 "misses, the user is hurt."
 msgstr ""
+"让电流覆盖全身猛撞对手。\n"
+"落空的话自己会受伤。"
 
 #: src/data/moves_info.h:22056
 msgid ""
 "Sound waves that damage and\n"
 "prevent healing for 2 turns."
 msgstr ""
+"用音波攻击。\n"
+"2回合内对手不能回复HP。"
 
 #: src/data/moves_info.h:22080
 msgid ""
 "Makes the target flinch if\n"
 "readying a priority move."
 msgstr ""
+"对手准备使用先制招式时\n"
+"先发制人，使其畏缩。"
 
 #: src/data/moves_info.h:22101
 msgid ""
 "A corrosive chain attack\n"
 "that may badly poison."
 msgstr ""
+"用腐蚀性的锁链攻击。\n"
+"有时会让对手中剧毒。"
 
 #: src/data/moves_info.h:22123
 msgid ""
 "Builds momentum and crashes\n"
 "into the foe. Power varies."
 msgstr ""
+"用Z力量全力冲撞对手。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22139
 msgid ""
 "Rams an energy orb into\n"
 "the target. Power varies."
 msgstr ""
+"用Z力量制造能量球撞击。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22155
 msgid ""
 "Soars up and plummets toward\n"
 "the target. Power varies."
 msgstr ""
+"用Z力量飞上天空俯冲撞击。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22171
 msgid ""
 "Sinks the target in a poison\n"
 "swamp. Power varies."
 msgstr ""
+"用Z力量制造毒沼使对手\n"
+"沉没。威力随原招式改变。"
 
 #: src/data/moves_info.h:22187
 msgid ""
 "Burrows deep and slams into\n"
 "the target. Power varies."
 msgstr ""
+"用Z力量潜入地底撞击。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22204
 msgid ""
 "Drops a huge rock mountain\n"
 "on the foe. Power varies."
 msgstr ""
+"用Z力量将巨大岩山砸向\n"
+"对手。威力随原招式改变。"
 
 #: src/data/moves_info.h:22220
 msgid ""
 "Spits threads of silk to\n"
 "bind the foe. Power varies."
 msgstr ""
+"用Z力量吐丝束缚对手。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22236
 msgid ""
 "Deep-seated grudges trap\n"
 "the target. Power varies."
 msgstr ""
+"用Z力量召唤怨念困住对手。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22252
 msgid ""
 "Spins very fast and rams\n"
 "the target. Power varies."
 msgstr ""
+"用Z力量高速旋转撞击。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22268
 msgid ""
 "Breathes intense fire at\n"
 "the target. Power varies."
 msgstr ""
+"用Z力量喷出强烈火焰。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22284
 msgid ""
 "A huge whirlpool swallows\n"
 "the target. Power varies."
 msgstr ""
+"用Z力量制造巨大漩涡吞没\n"
+"对手。威力随原招式改变。"
 
 #: src/data/moves_info.h:22300
 msgid ""
 "Uses plant energy to attack\n"
 "the target. Power varies."
 msgstr ""
+"用Z力量借用植物之力攻击。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22316
 msgid ""
 "Hits the foe with powerful\n"
 "electricity. Power varies."
 msgstr ""
+"用Z力量释放强大电流。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22332
 msgid ""
 "Controls the target to\n"
 "hurt it. Power varies."
 msgstr ""
+"用Z力量操纵对手使其受伤。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22348
 msgid ""
 "Drops the temperature with\n"
 "Z-Power. Power varies."
 msgstr ""
+"用Z力量急速降低温度。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22364
 msgid ""
 "Develops aura and attacks\n"
 "the target. Power varies."
 msgstr ""
+"用Z力量释放气场攻击。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22380
 msgid ""
 "Sucks the target into dark\n"
 "energy. Power varies."
 msgstr ""
+"用Z力量将对手吸入暗黑。\n"
+"威力随原招式而改变。"
 
 #: src/data/moves_info.h:22396
 msgid ""
 "Toys with the target in a\n"
 "charming space. Power varies."
 msgstr ""
+"用Z力量在梦幻空间捉弄\n"
+"对手。威力随原招式改变。"
 
 #: src/data/moves_info.h:22412
 msgid ""
 "Pikachu uses the max amount\n"
 "of electricity and pounces."
 msgstr ""
+"皮卡丘使出最大电力\n"
+"全力扑向对手。"
 
 #: src/data/moves_info.h:22428
 msgid ""
 "Pikachu in a cap unleashes\n"
 "jolt. High critical-hit rate."
 msgstr ""
+"戴着帽子的皮卡丘全力放电。\n"
+"容易击中要害。"
 
 #: src/data/moves_info.h:22445
 msgid ""
 "Alolan Raichu attacks with\n"
 "full force. Causes paralysis."
 msgstr ""
+"阿罗拉雷丘全力攻击。\n"
+"必定会让对手麻痹。"
 
 #: src/data/moves_info.h:22465
 msgid ""
 "Eevee gets energy from its\n"
 "friends. Raises all stats."
 msgstr ""
+"伊布借用伙伴的力量，\n"
+"大幅提高自己全部能力。"
 
 #: src/data/moves_info.h:22492
 msgid ""
 "Snorlax energetically moves\n"
 "and attacks with full force."
 msgstr ""
+"卡比兽全力活动身体，\n"
+"用尽全力攻击对手。"
 
 #: src/data/moves_info.h:22508
 msgid ""
 "Mew attacks with full force.\n"
 "Psychically charges terrain."
 msgstr ""
+"梦幻全力攻击。\n"
+"地面会变成精神场地。"
 
 #: src/data/moves_info.h:22528
 msgid ""
 "Decidueye shoots countless\n"
 "arrows with full force."
 msgstr ""
+"狙射树枭全力射出\n"
+"无数的箭矢。"
 
 #: src/data/moves_info.h:22544
 msgid ""
 "Incineroar crashes into\n"
 "the target with full force."
 msgstr ""
+"炽焰咆哮虎全力\n"
+"撞向对手。"
 
 #: src/data/moves_info.h:22561
 msgid ""
 "Primarina summons a massive\n"
 "amount of water at the foe."
 msgstr ""
+"西狮海壬召唤大量的水\n"
+"攻击对手。"
 
 #: src/data/moves_info.h:22577
 msgid ""
 "Lycanroc attacks with full\n"
 "force. Removes all terrain."
 msgstr ""
+"鬃岩狼人全力攻击。\n"
+"消除场地效果。"
 
 #: src/data/moves_info.h:22593
 msgid ""
 "Mimikyu punches the target\n"
 "with full force."
 msgstr ""
+"谜拟丘全力\n"
+"殴打对手。"
 
 #: src/data/moves_info.h:22609
 msgid ""
 "Kommo-o attacks with full\n"
 "force. Raises all stats."
 msgstr ""
+"杖尾鳞甲龙全力攻击。\n"
+"提高自己全部能力。"
 
 #: src/data/moves_info.h:22637
 msgid ""
 "The Land Spirit Pokémon\n"
 "greatly reduces the foe's HP."
 msgstr ""
+"土地守护神的力量\n"
+"大幅削减对手的HP。"
 
 #: src/data/moves_info.h:22654
 msgid ""
 "Solgaleo attacks with full\n"
 "force. Ignores Abilities."
 msgstr ""
+"索尔迦雷欧全力攻击。\n"
+"无视对手的特性。"
 
 #: src/data/moves_info.h:22671
 msgid ""
 "Lunala attacks with full\n"
 "force. Ignores Abilities."
 msgstr ""
+"露奈雅拉全力攻击。\n"
+"无视对手的特性。"
 
 #: src/data/moves_info.h:22688
 msgid ""
 "Uses Atk or Sp. Atk, whicher\n"
 "is higher. Ignores Abilities."
 msgstr ""
+"用攻击和特攻中较高的\n"
+"一项攻击。无视对手的特性。"
 
 #: src/data/moves_info.h:22705
 msgid ""
 "Marshadow punches and\n"
 "kicks with full force."
 msgstr ""
+"玛夏多全力\n"
+"拳打脚踢对手。"
 
 #: src/data/moves_info.h:22740
 msgid ""
 "Fire Dynamax attack.\n"
 "Summons harsh sunlight."
 msgstr ""
+"火属性的极巨招式。\n"
+"使日照变得强烈。"
 
 #: src/data/moves_info.h:22760
 msgid ""
 "Bug Dynamax attack.\n"
 "Lowers foes' Sp. Atk."
 msgstr ""
+"虫属性的极巨招式。\n"
+"降低对手的特攻。"
 
 #: src/data/moves_info.h:22782
 msgid ""
 "Electric Dynamax attack.\n"
 "Makes terrain electrified."
 msgstr ""
+"电属性的极巨招式。\n"
+"使场地变为电气场地。"
 
 #: src/data/moves_info.h:22802
 msgid ""
 "Normal Dynamax attack.\n"
 "Lowers foes' Speed."
 msgstr ""
+"一般属性的极巨招式。\n"
+"降低对手的速度。"
 
 #: src/data/moves_info.h:22824
 msgid ""
 "Fighting Dynamax attack.\n"
 "Raises allies' Attack."
 msgstr ""
+"格斗属性的极巨招式。\n"
+"提高我方的攻击。"
 
 #: src/data/moves_info.h:22847
 msgid ""
 "Ghost Dynamax attack.\n"
 "Lowers foes' Defense."
 msgstr ""
+"幽灵属性的极巨招式。\n"
+"降低对手的防御。"
 
 #: src/data/moves_info.h:22893
 msgid ""
 "Poison Dynamax attack.\n"
 "Raises allies' Sp. Atk."
 msgstr ""
+"毒属性的极巨招式。\n"
+"提高我方的特攻。"
 
 #: src/data/moves_info.h:22916
 msgid ""
 "Water Dynamax attack.\n"
 "Summons rain."
 msgstr ""
+"水属性的极巨招式。\n"
+"使天气变为下雨。"
 
 #: src/data/moves_info.h:22936
 msgid ""
 "Flying Dynamax attack.\n"
 "Raises allies' Speed."
 msgstr ""
+"飞行属性的极巨招式。\n"
+"提高我方的速度。"
 
 #: src/data/moves_info.h:22959
 msgid ""
 "Fairy Dynamax attack.\n"
 "Turns the terrain misty."
 msgstr ""
+"妖精属性的极巨招式。\n"
+"使场地变为薄雾场地。"
 
 #: src/data/moves_info.h:22979
 msgid ""
 "Dragon Dynamax attack.\n"
 "Lowers foes' Attack."
 msgstr ""
+"龙属性的极巨招式。\n"
+"降低对手的攻击。"
 
 #: src/data/moves_info.h:23001
 msgid ""
 "Psychic Dynamax attack.\n"
 "Turns the terrain weird."
 msgstr ""
+"超能力属性的极巨招式。\n"
+"使场地变为精神场地。"
 
 #: src/data/moves_info.h:23021
 msgid ""
 "Rock Dynamax attack.\n"
 "Summons a sandstorm."
 msgstr ""
+"岩石属性的极巨招式。\n"
+"使天气变为沙暴。"
 
 #: src/data/moves_info.h:23041
 msgid ""
 "Ground Dynamax attack.\n"
 "Raises allies' Sp. Def."
 msgstr ""
+"地面属性的极巨招式。\n"
+"提高我方的特防。"
 
 #: src/data/moves_info.h:23065
 msgid ""
 "Dark Dynamax attack.\n"
 "Lowers foes' Sp. Def."
 msgstr ""
+"恶属性的极巨招式。\n"
+"降低对手的特防。"
 
 #: src/data/moves_info.h:23087
 msgid ""
 "Grass Dynamax attack.\n"
 "Turns the terrain grassy."
 msgstr ""
+"草属性的极巨招式。\n"
+"使场地变为青草场地。"
 
 #: src/data/moves_info.h:23107
 msgid ""
 "Steel Dynamax attack.\n"
 "Raises allies' Defense."
 msgstr ""
+"钢属性的极巨招式。\n"
+"提高我方的防御。"
 
 #: src/data/moves_info.h:23130
 msgid ""
 "G-Max Venusaur attack.\n"
 "Hurts non-Grass for 4 turns."
 msgstr ""
+"超极巨妙蛙花的招式。\n"
+"4回合内伤害非草属性。"
 
 #: src/data/moves_info.h:23150
 msgid ""
 "G-Max Charizard attack.\n"
 "Hurts non-Fire for 4 turns."
 msgstr ""
+"超极巨喷火龙的招式。\n"
+"4回合内伤害非火属性。"
 
 #: src/data/moves_info.h:23170
 msgid ""
 "G-Max Blastoise attack.\n"
 "Hurts non-Water for 4 turns."
 msgstr ""
+"超极巨水箭龟的招式。\n"
+"4回合内伤害非水属性。"
 
 #: src/data/moves_info.h:23190
 msgid ""
 "G-Max Butterfree attack.\n"
 "Poison/paralyze/sleep foes."
 msgstr ""
+"超极巨巴大蝶的招式。\n"
+"让对手中毒、麻痹或睡眠。"
 
 #: src/data/moves_info.h:23210
 msgid ""
 "G-Max Pikachu attack.\n"
 "Paralyzes opponents."
 msgstr ""
+"超极巨皮卡丘的招式。\n"
+"让对手陷入麻痹。"
 
 #: src/data/moves_info.h:23230
 msgid ""
 "G-Max Meowth attack.\n"
 "Confuses opponents."
 msgstr ""
+"超极巨喵喵的招式。\n"
+"让对手陷入混乱。"
 
 #: src/data/moves_info.h:23250
 msgid ""
 "G-Max Machamp attack.\n"
 "Ups allies' critical ratio."
 msgstr ""
+"超极巨怪力的招式。\n"
+"我方容易击中要害。"
 
 #: src/data/moves_info.h:23271
 msgid ""
 "G-Max Gengar attack.\n"
 "Prevents the foe's escape."
 msgstr ""
+"超极巨耿鬼的招式。\n"
+"使对手不能逃走。"
 
 #: src/data/moves_info.h:23291
 msgid ""
 "G-Max Kingler attack.\n"
 "Harshly lowers foes' Speed."
 msgstr ""
+"超极巨巨钳蟹的招式。\n"
+"大幅降低对手的速度。"
 
 #: src/data/moves_info.h:23313
 msgid ""
 "G-Max Lapras attack.\n"
 "Reduces damage for 5 turns."
 msgstr ""
+"超极巨拉普拉斯的招式。\n"
+"5回合内减弱受到的伤害。"
 
 #: src/data/moves_info.h:23334
 msgid ""
 "G-Max Eevee attack.\n"
 "Infatuates opponents."
 msgstr ""
+"超极巨伊布的招式。\n"
+"让对手陷入着迷状态。"
 
 #: src/data/moves_info.h:23354
 msgid ""
 "G-Max Snorlax attack.\n"
 "May restore eaten Berries."
 msgstr ""
+"超极巨卡比兽的招式。\n"
+"有时会让吃掉的树果再生。"
 
 #: src/data/moves_info.h:23375
 msgid ""
 "G-Max Garbodor attack.\n"
 "Poisons opponents."
 msgstr ""
+"超极巨灰尘山的招式。\n"
+"让对手陷入中毒。"
 
 #: src/data/moves_info.h:23395
 msgid ""
 "G-Max Melmetal attack.\n"
 "Torments opponents."
 msgstr ""
+"超极巨美录梅塔的招式。\n"
+"让对手陷入无理取闹状态。"
 
 #: src/data/moves_info.h:23415
 msgid ""
 "G-Max Rillaboom attack.\n"
 "Ignores target's Ability."
 msgstr ""
+"超极巨轰擂金刚猩的招式。\n"
+"无视对手的特性。"
 
 #: src/data/moves_info.h:23436
 msgid ""
 "G-Max Cinderace attack.\n"
 "Ignores target's Ability."
 msgstr ""
+"超极巨闪焰王牌的招式。\n"
+"无视对手的特性。"
 
 #: src/data/moves_info.h:23457
 msgid ""
 "G-Max Inteleon attack.\n"
 "Ignores target's Ability."
 msgstr ""
+"超极巨千面避役的招式。\n"
+"无视对手的特性。"
 
 #: src/data/moves_info.h:23478
 msgid ""
 "G-Max Corviknight attack.\n"
 "Removes foe's walls of light."
 msgstr ""
+"超极巨钢铠鸦的招式。\n"
+"消除对手的光墙和反射壁。"
 
 #: src/data/moves_info.h:23498
 msgid ""
 "G-Max Orbeetle attack.\n"
 "Changes gravity for 5 turns."
 msgstr ""
+"超极巨以欧路普的招式。\n"
+"5回合内重力变化。"
 
 #: src/data/moves_info.h:23519
 msgid ""
 "G-Max Drednaw attack.\n"
 "Scatters sharp rocks."
 msgstr ""
+"超极巨暴噬龟的招式。\n"
+"在对手周围散布尖锐岩石。"
 
 #: src/data/moves_info.h:23539
 msgid ""
 "G-Max Coalossal attack.\n"
 "Hurts non-Rock for 4 turns."
 msgstr ""
+"超极巨巨炭山的招式。\n"
+"4回合内伤害非岩石属性。"
 
 #: src/data/moves_info.h:23559
 msgid ""
 "G-Max Flapple attack.\n"
 "Lowers foes' evasiveness."
 msgstr ""
+"超极巨苹裹龙的招式。\n"
+"降低对手的闪避率。"
 
 #: src/data/moves_info.h:23581
 msgid ""
 "G-Max Appletun attack.\n"
 "Heals suffering allies."
 msgstr ""
+"超极巨丰蜜龙的招式。\n"
+"治愈我方的异常状态。"
 
 #: src/data/moves_info.h:23602
 msgid ""
 "G-Max Sandaconda attack.\n"
 "Traps the foe in a sandstorm."
 msgstr ""
+"超极巨沙螺蟒的招式。\n"
+"用沙暴困住对手。"
 
 #: src/data/moves_info.h:23622
 msgid ""
 "G-Max Toxtricity attack.\n"
 "Poisons or paralyzes foes."
 msgstr ""
+"超极巨颤弦蝾螈的招式。\n"
+"让对手中毒或麻痹。"
 
 #: src/data/moves_info.h:23642
 msgid ""
 "G-Max Centiskorch attack.\n"
 "Traps the foe in flames."
 msgstr ""
+"超极巨焚焰蚣的招式。\n"
+"用火焰困住对手。"
 
 #: src/data/moves_info.h:23662
 msgid ""
 "G-Max Hatterene attack.\n"
 "Confuses opponents."
 msgstr ""
+"超极巨布莉姆温的招式。\n"
+"让对手陷入混乱。"
 
 #: src/data/moves_info.h:23683
 msgid ""
 "G-Max Grimmsnarl attack.\n"
 "Lulls the foe to sleep."
 msgstr ""
+"超极巨长毛巨魔的招式。\n"
+"让对手陷入睡眠。"
 
 #: src/data/moves_info.h:23703
 msgid ""
 "G-Max Alcremie attack.\n"
 "Heals allies' HP."
 msgstr ""
+"超极巨霜奶仙的招式。\n"
+"回复我方的HP。"
 
 #: src/data/moves_info.h:23724
 msgid ""
 "G-Max Copperajah attack.\n"
 "Scatters sharp spikes."
 msgstr ""
+"超极巨大王铜象的招式。\n"
+"在对手周围散布尖锐钢刺。"
 
 #: src/data/moves_info.h:23744
 msgid ""
 "G-Max Duraludon attack.\n"
 "Reduces target's PP."
 msgstr ""
+"超极巨铝钢龙的招式。\n"
+"削减对手招式的PP。"
 
 #: src/data/moves_info.h:23764 src/data/moves_info.h:23782
 msgid ""
 "G-Max Urshifu attack.\n"
 "Can ignore Max Guard."
 msgstr ""
+"超极巨武道熊师的招式。\n"
+"能无视极巨防壁攻击。"
 
 #. PokeAPI
 #: src/data/moves_info.h:46
