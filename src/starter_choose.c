@@ -21,6 +21,7 @@
 #include "trainer_pokemon_sprites.h"
 #include "trig.h"
 #include "window.h"
+#include "fusion/fusion.h"
 #include "constants/songs.h"
 #include "constants/rgb.h"
 
@@ -351,6 +352,8 @@ u16 GetStarterPokemon(u16 chosenStarterId)
 {
     if (chosenStarterId > STARTER_MON_COUNT)
         chosenStarterId = 0;
+    if (FUSION_RANDOM_STARTERS)
+        return Fusion_GetRandomStarter(chosenStarterId);
     return sStarterMon[chosenStarterId];
 }
 

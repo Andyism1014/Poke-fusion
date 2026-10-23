@@ -1131,6 +1131,7 @@
 
 // Fusion: vanilla wild encounters in tests (fusion tests call the mapping directly)
 #define FUSION_WILD_RANDOMIZER FALSE
+#define FUSION_RANDOM_STARTERS FALSE
 
 // Vars
 #undef B_VAR_DIFFICULTY

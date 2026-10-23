@@ -22,14 +22,15 @@ A Pokémon Emerald ROM hack that brings the "fusion" (炼妖) system of *Fantasy
 ![Battle: press L to see the abilities of the Pokémon on the field](docs/fusion/screenshots/ability_panel_battle.png)
 
 ### Catching and exploring
-- **All-generation wild encounters.** Every area's wild Pokémon are replaced by Gen 1–9 Pokémon of similar strength and the same evolution stage.
+- **Fully random wild encounters.** Every area's wild Pokémon are replaced by random Pokémon from all nine generations, legendaries included. They keep the original levels, so early areas stay low level.
   - Each area stays the same for the whole save. A new game rolls a new world.
   - You can switch back to the original encounters in Settings.
+- **Random starters.** Prof. Birch's bag holds three random Pokémon, rolled for each save.
 - Wild Pokémon sometimes carry a passive or a third type, and they are appraised as soon as you catch them.
 - There are three capture modes:
   - Classic: vanilla catch rates.
   - Convenient: 2× easier.
-  - Material: always caught, except legendaries.
+  - Material: always caught, legendaries included.
 - From the start of the game you have DexNav, a portable PC (Box Link), running shoes and a party-wide Exp. Share.
 
 ![All-generation wild encounters: DexNav and a wild battle](docs/fusion/screenshots/readme_wild.png)

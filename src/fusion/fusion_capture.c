@@ -29,22 +29,8 @@ void Fusion_SetCaptureMode(enum FusionCaptureMode mode)
     VarSet(FUSION_VAR_CAPTURE_MODE, mode);
 }
 
-// Rare Pokémon keep their vanilla catch odds so they stay worth collecting.
-bool32 Fusion_IsCaptureAssistExempt(enum Species species)
+u32 Fusion_ApplyCaptureMode(u32 odds)
 {
-    const struct SpeciesInfo *info = &gSpeciesInfo[species];
-
-    return info->isRestrictedLegendary
-        || info->isSubLegendary
-        || info->isMythical
-        || info->isUltraBeast;
-}
-
-u32 Fusion_ApplyCaptureMode(enum Species species, u32 odds)
-{
-    if (Fusion_IsCaptureAssistExempt(species))
-        return odds;
-
     switch (Fusion_GetCaptureMode())
     {
     case FUSION_CAPTURE_MODE_CONVENIENT:
@@ -115,9 +101,6 @@ void Fusion_RollWildGenetics(struct Pokemon *mon)
     enum Species species = GetMonData(mon, MON_DATA_SPECIES);
     struct FusionGenetics genetics = {0};
     u32 cycle = min(Fusion_GetNewGamePlusCount(), FUSION_NG_PLUS_MAX_SCALING);
-
-    if (Fusion_IsCaptureAssistExempt(species))
-        return;
 
     if (Random() % 100 < FUSION_WILD_PASSIVE_CHANCE + cycle * FUSION_NG_PLUS_WILD_GENE_BONUS)
     {

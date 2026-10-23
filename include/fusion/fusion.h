@@ -52,8 +52,7 @@ enum FusionCaptureMode
 // fusion_capture.c
 enum FusionCaptureMode Fusion_GetCaptureMode(void);
 void Fusion_SetCaptureMode(enum FusionCaptureMode mode);
-bool32 Fusion_IsCaptureAssistExempt(enum Species species);
-u32 Fusion_ApplyCaptureMode(enum Species species, u32 odds);
+u32 Fusion_ApplyCaptureMode(u32 odds);
 void Fusion_RollWildGenetics(struct Pokemon *mon);
 enum Ability Fusion_RollRandomPassive(struct Pokemon *mon, const struct FusionGenetics *genetics);
 enum Type Fusion_RollRandomThirdType(enum Species species);
@@ -93,6 +92,9 @@ bool32 Fusion_IsWildRandomizerEnabled(void);
 enum Species Fusion_RandomizeWildSpecies(enum Species original, u32 key);
 enum Species Fusion_RandomizeWildSpeciesWithSeed(enum Species original, u32 key, u32 seed);
 bool32 Fusion_CanAppearAsRandomWild(enum Species species);
+#define FUSION_STARTER_COUNT 3
+enum Species Fusion_GetRandomStarter(u32 index);
+enum Species Fusion_GetRandomStarterWithSeed(u32 index, u32 seed);
 enum Species Fusion_GetWildSlotSpecies(const struct WildPokemon *slot);
 void Fusion_RerollWildSeed(void);
 #define FUSION_BATTLE_MESSAGE_SIZE 160

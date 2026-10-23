@@ -266,7 +266,7 @@ Fusion_Text_SettingsSummary:
 
 Fusion_Text_CaptureModeHelp:
 	.string "Convenient: wild Pokémon are 2x easier.\n"
-	.string "Material: always caught. Not legendaries.$"
+	.string "Material: every Pokémon is always caught.$"
 
 Fusion_Text_TerminalIntro:
 	.string "Welcome to the Fusion Terminal!\p"
@@ -426,8 +426,8 @@ Fusion_Text_WildPokemon:
 	.string "Wild Pokémon$"
 
 Fusion_Text_WildPokemonHelp:
-	.string "All gens: every area has its own Pokémon\n"
-	.string "from Gen 1-9, rolled for this save.\p"
+	.string "All gens: every area has random Pokémon,\n"
+	.string "legendaries too, rolled for this save.\p"
 	.string "Original: the classic Hoenn Pokémon.\n"
 	.string "Switch to the other one?$"
 

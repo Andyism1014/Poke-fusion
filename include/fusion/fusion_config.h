@@ -10,12 +10,14 @@
 
 // All-generation wild encounters
 #ifndef FUSION_WILD_RANDOMIZER // Tests turn it off in include/config/test.h.
-#define FUSION_WILD_RANDOMIZER              TRUE // Every wild slot becomes a random Gen 1-9 species, fixed per save, rerolled on a new game.
+#define FUSION_WILD_RANDOMIZER              TRUE // Every wild slot becomes a random species (legendaries included) at its original level, fixed per save, rerolled on a new game.
 #endif
-#define FUSION_WILD_BST_WINDOW              15   // Percent: replacements have a base stat total this close to the original (widened if none).
+#ifndef FUSION_RANDOM_STARTERS // Tests turn it off in include/config/test.h.
+#define FUSION_RANDOM_STARTERS              TRUE // Prof. Birch's three starters are random species from the same pool, fixed per save.
+#endif
 
 // Wild Pokémon genetics: some wild Pokémon carry passives or a third type, so catching
-// materials has its own "lucky find" moments. Legendaries never do.
+// materials has its own "lucky find" moments.
 #define FUSION_WILD_PASSIVE_CHANCE          12 // Percent of wild Pokémon with a random passive.
 #define FUSION_WILD_SECOND_PASSIVE_CHANCE   15 // Percent of those that get a second one.
 #define FUSION_WILD_THIRD_TYPE_CHANCE       3  // Percent of wild Pokémon with a random third type.

@@ -41,42 +41,54 @@ TEST("Fusion wild: the mapping is fixed for a seed and changes with the seed")
     EXPECT_LT(same, KEYS / 4);
 }
 
-TEST("Fusion wild: replacements have a similar base stat total and the same stage")
+TEST("Fusion wild: any species can replace any slot, legendaries included")
 {
-    static const u16 sOriginals[] = {SPECIES_ZIGZAGOON, SPECIES_LINOONE, SPECIES_WINGULL, SPECIES_GARDEVOIR, SPECIES_SHEDINJA};
-    u32 close = 0, total = 0;
+    u32 legendary = 0, evolved = 0, basic = 0;
 
-    for (u32 o = 0; o < ARRAY_COUNT(sOriginals); o++)
+    for (u32 key = 0; key < KEYS * 4; key++)
     {
-        enum Species original = sOriginals[o];
-        u32 bst = GetSpeciesBaseStatTotal(original);
-        bool32 evolved = IsEvolvedSpecies(original);
+        enum Species species = Fusion_RandomizeWildSpeciesWithSeed(SPECIES_ZIGZAGOON, key, 42);
+        const struct SpeciesInfo *info = &gSpeciesInfo[species];
 
-        for (u32 key = 0; key < 40; key++)
-        {
-            enum Species species = Fusion_RandomizeWildSpeciesWithSeed(original, key, 42);
-            u32 newBst = GetSpeciesBaseStatTotal(species);
-
-            EXPECT(Fusion_CanAppearAsRandomWild(species));
-            EXPECT_EQ(IsEvolvedSpecies(species), evolved);
-            total++;
-            close += (newBst * 100 <= bst * (100 + FUSION_WILD_BST_WINDOW + 2) && newBst * 100 + bst * (FUSION_WILD_BST_WINDOW + 2) >= bst * 100);
-        }
+        EXPECT(Fusion_CanAppearAsRandomWild(species));
+        legendary += (info->isRestrictedLegendary || info->isSubLegendary || info->isMythical || info->isUltraBeast);
+        if (IsEvolvedSpecies(species))
+            evolved++;
+        else
+            basic++;
     }
-    EXPECT_GT(close, total * 9 / 10);
+    EXPECT_GT(legendary, 0);
+    EXPECT_GT(evolved, 0);
+    EXPECT_GT(basic, 0);
 }
 
-TEST("Fusion wild: legendaries, Megas and cosmetic forms never appear")
+TEST("Fusion wild: legendaries can appear, Megas and cosmetic forms never do")
 {
-    EXPECT(!Fusion_CanAppearAsRandomWild(SPECIES_MEWTWO));
-    EXPECT(!Fusion_CanAppearAsRandomWild(SPECIES_RAYQUAZA));
+    EXPECT(Fusion_CanAppearAsRandomWild(SPECIES_MEWTWO));
+    EXPECT(Fusion_CanAppearAsRandomWild(SPECIES_RAYQUAZA));
+    EXPECT(Fusion_CanAppearAsRandomWild(SPECIES_MEW));
     EXPECT(!Fusion_CanAppearAsRandomWild(SPECIES_GARDEVOIR_MEGA));
     EXPECT(!Fusion_CanAppearAsRandomWild(SPECIES_PIKACHU_COSPLAY));
     EXPECT(Fusion_CanAppearAsRandomWild(SPECIES_RATTATA_ALOLA));
     EXPECT(Fusion_CanAppearAsRandomWild(SPECIES_SPRIGATITO));
+}
 
-    for (u32 key = 0; key < KEYS; key++)
-        EXPECT(!Fusion_IsCaptureAssistExempt(Fusion_RandomizeWildSpeciesWithSeed(SPECIES_SALAMENCE, key, 7)));
+TEST("Fusion wild: the three starters are different random species, fixed for a seed")
+{
+    for (u32 seed = 0; seed < 50; seed++)
+    {
+        enum Species a = Fusion_GetRandomStarterWithSeed(0, seed);
+        enum Species b = Fusion_GetRandomStarterWithSeed(1, seed);
+        enum Species c = Fusion_GetRandomStarterWithSeed(2, seed);
+
+        EXPECT(Fusion_CanAppearAsRandomWild(a));
+        EXPECT(Fusion_CanAppearAsRandomWild(b));
+        EXPECT(Fusion_CanAppearAsRandomWild(c));
+        EXPECT_NE(a, b);
+        EXPECT_NE(a, c);
+        EXPECT_NE(b, c);
+        EXPECT_EQ(a, Fusion_GetRandomStarterWithSeed(0, seed));
+    }
 }
 
 TEST("Fusion wild: Hoenn's encounter tables reach a large part of the Pokedex")
@@ -111,5 +123,5 @@ TEST("Fusion wild: Hoenn's encounter tables reach a large part of the Pokedex")
             }
         }
     }
-    EXPECT_GT(distinct, 300);
+    EXPECT_GT(distinct, 500);
 }

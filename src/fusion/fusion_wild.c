@@ -7,31 +7,23 @@
 #include "constants/flags.h"
 
 // All-generation wild encounters. Every wild slot (each entry of every encounter table)
-// is mapped to a random species from Gen 1-9 with a similar base stat total and the same
-// evolution stage, so the difficulty curve of the original game is kept. The mapping only
-// depends on the save's seed and the slot, so each area is fixed for the whole save and a
-// new game rolls a new world.
+// is mapped to a species drawn evenly from every Pokémon in the game, legendaries
+// included. The slot keeps its original level, so early areas stay low level. The
+// mapping only depends on the save's seed and the slot, so each area is fixed for the
+// whole save and a new game rolls a new world. The starters come from the same pool.
 
-#define BST_UNIT        4  // sWildBstUnits stores the base stat total divided by this.
-#define BST_WINDOWS     3
+#define STARTER_KEY 0x57A27E00
 
-static const u8 sBstWindowPercents[BST_WINDOWS] = {FUSION_WILD_BST_WINDOW, FUSION_WILD_BST_WINDOW * 2, 100};
-
-// Built on first use: 0 = species can't appear in the wild.
-static EWRAM_DATA u8 sWildBstUnits[NUM_SPECIES] = {0};
-static EWRAM_DATA u8 sEvolvedSpecies[(NUM_SPECIES + 7) / 8] = {0};
-static EWRAM_DATA bool8 sWildTablesReady = FALSE;
-
-static bool32 IsEvolved(enum Species species)
-{
-    return (sEvolvedSpecies[species / 8] >> (species % 8)) & 1;
-}
+// Built on first use.
+static EWRAM_DATA u16 sWildPool[NUM_SPECIES] = {0};
+static EWRAM_DATA u16 sWildPoolCount = 0;
+static EWRAM_DATA u8 sWildPoolBits[(NUM_SPECIES + 7) / 8] = {0};
 
 static bool32 IsRandomWildCandidate(enum Species species)
 {
     const struct SpeciesInfo *info = &gSpeciesInfo[species];
 
-    if (!IsSpeciesEnabled(species) || info->catchRate == 0 || Fusion_IsCaptureAssistExempt(species))
+    if (!IsSpeciesEnabled(species) || info->catchRate == 0)
         return FALSE;
     if (info->isMegaEvolution || info->isPrimalReversion || info->isGigantamax || info->isUltraBurst
      || info->isTotem || info->isTeraForm)
@@ -43,27 +35,17 @@ static bool32 IsRandomWildCandidate(enum Species species)
     return TRUE;
 }
 
-static void BuildWildTables(void)
+static void BuildWildPool(void)
 {
+    sWildPoolCount = 0;
     for (enum Species species = 1; species < NUM_SPECIES; species++)
     {
-        const struct Evolution *evolutions;
-
-        if (!IsSpeciesEnabled(species))
-            continue;
-        evolutions = GetSpeciesEvolutions(species);
         if (IsRandomWildCandidate(species))
-            sWildBstUnits[species] = max(1u, min(255u, GetSpeciesBaseStatTotal(species) / BST_UNIT));
-        if (evolutions == NULL)
-            continue;
-        for (u32 i = 0; evolutions[i].method != EVOLUTIONS_END; i++)
         {
-            enum Species target = evolutions[i].targetSpecies;
-            if (target < NUM_SPECIES)
-                sEvolvedSpecies[target / 8] |= 1 << (target % 8);
+            sWildPool[sWildPoolCount++] = species;
+            sWildPoolBits[species / 8] |= 1 << (species % 8);
         }
     }
-    sWildTablesReady = TRUE;
 }
 
 static u32 HashSlot(u32 seed, u32 key)
@@ -77,14 +59,11 @@ static u32 HashSlot(u32 seed, u32 key)
     return h;
 }
 
-static bool32 IsSimilar(enum Species candidate, u32 bstUnits, u32 windowPercent, bool32 evolved)
+static enum Species PickFromPool(u32 hash)
 {
-    u32 units = sWildBstUnits[candidate];
-    u32 window = bstUnits * windowPercent / 100;
-
-    if (units == 0 || IsEvolved(candidate) != evolved)
-        return FALSE;
-    return units + window >= bstUnits && units <= bstUnits + window;
+    if (sWildPoolCount == 0)
+        BuildWildPool();
+    return sWildPool[hash % sWildPoolCount];
 }
 
 bool32 Fusion_IsWildRandomizerEnabled(void)
@@ -95,35 +74,9 @@ bool32 Fusion_IsWildRandomizerEnabled(void)
 // Pure mapping, independent of the save's settings.
 enum Species Fusion_RandomizeWildSpeciesWithSeed(enum Species original, u32 key, u32 seed)
 {
-    u32 hash, bstUnits;
-    bool32 evolved;
-
     if (original == SPECIES_NONE || original >= NUM_SPECIES)
         return original;
-    if (!sWildTablesReady)
-        BuildWildTables();
-
-    hash = HashSlot(seed, key);
-    bstUnits = max(1u, GetSpeciesBaseStatTotal(original) / BST_UNIT);
-    evolved = IsEvolved(original);
-
-    for (u32 w = 0; w < BST_WINDOWS; w++)
-    {
-        u32 count = 0, pick;
-
-        for (enum Species species = 1; species < NUM_SPECIES; species++)
-            count += IsSimilar(species, bstUnits, sBstWindowPercents[w], evolved);
-        if (count == 0)
-            continue;
-
-        pick = hash % count;
-        for (enum Species species = 1; species < NUM_SPECIES; species++)
-        {
-            if (IsSimilar(species, bstUnits, sBstWindowPercents[w], evolved) && pick-- == 0)
-                return species;
-        }
-    }
-    return original;
+    return PickFromPool(HashSlot(seed, key));
 }
 
 enum Species Fusion_RandomizeWildSpecies(enum Species original, u32 key)
@@ -135,9 +88,35 @@ enum Species Fusion_RandomizeWildSpecies(enum Species original, u32 key)
 
 bool32 Fusion_CanAppearAsRandomWild(enum Species species)
 {
-    if (!sWildTablesReady)
-        BuildWildTables();
-    return species < NUM_SPECIES && sWildBstUnits[species] != 0;
+    if (sWildPoolCount == 0)
+        BuildWildPool();
+    return species < NUM_SPECIES && (sWildPoolBits[species / 8] >> (species % 8)) & 1;
+}
+
+// Three different species from the whole pool, fixed for a seed.
+enum Species Fusion_GetRandomStarterWithSeed(u32 index, u32 seed)
+{
+    enum Species picks[FUSION_STARTER_COUNT];
+    u32 key = STARTER_KEY;
+
+    for (u32 i = 0; i <= index && i < FUSION_STARTER_COUNT; i++)
+    {
+        bool32 duplicate;
+
+        do
+        {
+            picks[i] = PickFromPool(HashSlot(seed, key++));
+            duplicate = FALSE;
+            for (u32 j = 0; j < i; j++)
+                duplicate |= (picks[j] == picks[i]);
+        } while (duplicate);
+    }
+    return picks[min(index, FUSION_STARTER_COUNT - 1)];
+}
+
+enum Species Fusion_GetRandomStarter(u32 index)
+{
+    return Fusion_GetRandomStarterWithSeed(index, gSaveBlock3Ptr->fusionWildSeed);
 }
 
 // The species of a wild encounter slot after randomization. The slot's address identifies

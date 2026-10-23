@@ -7,7 +7,6 @@
 ASSUMPTIONS
 {
     ASSUME(gSpeciesInfo[SPECIES_CLEFFA].catchRate == 150);
-    ASSUME(!Fusion_IsCaptureAssistExempt(SPECIES_CLEFFA));
     ASSUME(gSpeciesInfo[SPECIES_MEWTWO].isRestrictedLegendary);
 }
 
@@ -36,7 +35,7 @@ WILD_BATTLE_TEST("Fusion capture mode: catch odds scale with the selected mode")
     }
 }
 
-WILD_BATTLE_TEST("Fusion capture mode: legendary Pokémon keep vanilla catch odds", u32 odds)
+WILD_BATTLE_TEST("Fusion capture mode: Material catches legendary Pokémon too", u32 odds)
 {
     u32 mode;
 
@@ -54,7 +53,8 @@ WILD_BATTLE_TEST("Fusion capture mode: legendary Pokémon keep vanilla catch odd
     } SCENE {
         CATCHING_CHANCE(&results[i].odds);
     } FINALLY {
-        EXPECT_EQ(results[0].odds, results[1].odds);
+        EXPECT_LT(results[0].odds, 255);
+        EXPECT_GE(results[1].odds, 255);
     }
 }
 
@@ -102,22 +102,6 @@ TEST("Fusion wild genetics: some wild Pokemon carry valid passives or a third ty
     EXPECT_GT(withPassive, 1000 * FUSION_WILD_PASSIVE_CHANCE / 200);
     EXPECT_LT(withPassive, 1000 * FUSION_WILD_PASSIVE_CHANCE * 2 / 100);
     EXPECT_LT(withType, 1000 * FUSION_WILD_THIRD_TYPE_CHANCE * 3 / 100);
-}
-
-TEST("Fusion wild genetics: legendaries never get any")
-{
-    struct Pokemon mon;
-
-    for (u32 i = 0; i < 200; i++)
-    {
-        struct FusionGenetics g;
-
-        CreateMon(&mon, SPECIES_MEWTWO, 70, 0, OTID_STRUCT_PLAYER_ID);
-        Fusion_RollWildGenetics(&mon);
-        Fusion_GetMonGenetics(&mon, &g);
-        EXPECT_EQ(g.passives[0], ABILITY_NONE);
-        EXPECT_EQ(g.extraType, TYPE_NONE);
-    }
 }
 
 WILD_BATTLE_TEST("Fusion capture: a one-line appraisal follows Gotcha!")
